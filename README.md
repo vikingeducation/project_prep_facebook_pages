@@ -1,4 +1,4 @@
 prep_facebook_pages
 ===================
 
-The Markup and Coding prep project where you're asked to build some Facebook pages from scratch.
+[This is an HTML and CSS project from the Viking Code School](http://www.vikingcodeschool.com).
