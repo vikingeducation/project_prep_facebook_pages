@@ -110,7 +110,6 @@ q:before, q:after {
   top: 120px;
   left: 650px;
   width: 400px;
-  /*border: 1px dashed black;*/
 }
 
 #sign_up_table h1 {
@@ -155,47 +154,61 @@ select {
   margin-bottom: -12px;
 }
 
+/* END OF SIGN UP PAGE */
+
+/* START OF GENERAL HEADER */
+
 #header {
   background: #3a5795;
   height: 45px;
   width: 100%;
   color: white;
-  position: absolute;
-  /*vertical-align: center;*/
+  position: relative;
   font-size: 15px;
 }
 
-#facebork, #user_search_bar {
+#header #active_header {
+  width: 960px;
+  height: 10px;
+  margin: 0 auto;
+}
+
+#header #active_header #facebork, #user_search_bar, #user_name {
+  vertical-align: middle;
+  line-height: 45px;
+}
+
+#header #active_header #facebork, #user_search_bar {
   float: left;
-  
 }
 
-#facebork {
-  margin-left: 100px;
-  margin-top: 15px;
+#header #active_header #facebork {
+  margin-left: 15px;
 }
 
-#user_search_bar {
+#header #active_header #user_search_bar {
   margin-left: 50px;
 }
-#user_search_bar input {
+
+#header #active_header #user_search_bar input {
   width: 550px;
   height: 15px;
   font-size: 12px;
-  margin-top: 10px;
 }
 
-#user_name {
-  margin-top: 15px;
-  margin-right: 100px;  
+#header #active_header #user_name {
   float: right;
+  margin-right: 15px;
 }
+
+/* END OF GENERAL HEADER */
+
+/* START OF USER HEADER */
 
 #user_header {
   width: 960px;
   margin: 0 auto;
   position: relative;
-  top: 45px;
 }
 
 #profile_picture {
@@ -237,3 +250,8 @@ select {
 #user_navbar #right_just_navbar_button { 
   float: right;
 }
+
+/* END OF USER HEADER */
+
+/* START OF ABOUT PAGE */
+
