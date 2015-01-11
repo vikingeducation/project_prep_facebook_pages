@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  background-color: #e9eaed;
 }
 ol {
   list-style: none;
@@ -163,11 +164,16 @@ select {
   height: 45px;
   width: 100%;
   color: white;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
   font-size: 15px;
+  z-index: 1;
+  /*margin: 0 0 0 0;*/
 }
 
 #header #active_header {
+  background: #3a5795;
   width: 960px;
   height: 10px;
   margin: 0 auto;
@@ -221,8 +227,8 @@ select {
 #user_navbar {
   width: 960px;
   height: 60px;
+  background-color: white;  
   border: 1px WhiteSmoke solid;
-
 }
 
 #user_navbar #navbar_left_pad {
@@ -251,7 +257,54 @@ select {
   float: right;
 }
 
+#user_navbar #active_page {
+  background-color: Gainsboro;
+}
+
 /* END OF USER HEADER */
 
 /* START OF ABOUT PAGE */
 
+#about_section {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  background-color: white;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+#about_header {
+  height: 45px;
+  width: 960px;
+  background-color: WhiteSmoke;
+  border: 1px Gainsboro solid;
+  text-align: center;
+  font-size: 24px;
+}
+
+#about_header #about {
+  vertical-align: middle;
+  line-height: 45px;
+}
+
+#information table {
+  width: 420px;
+}
+
+#information tr {
+  height: 24px;
+} 
+
+.section {
+  width: 420px;
+  margin: 0 30px 30px 30px;
+}
+
+#left_column {
+  float:left;
+}
+
+#right_column {
+  margin-left: 460px;
+}
