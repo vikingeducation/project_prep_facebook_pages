@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+ http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -20,7 +20,7 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+  
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -46,6 +46,10 @@ q:before, q:after {
   border-collapse: collapse;
   border-spacing: 0;
 }*/
+
+* {
+  font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
+}
 
 #homepage_header {
   background: #3a5795;
@@ -151,3 +155,85 @@ select {
   margin-bottom: -12px;
 }
 
+#header {
+  background: #3a5795;
+  height: 45px;
+  width: 100%;
+  color: white;
+  position: absolute;
+  /*vertical-align: center;*/
+  font-size: 15px;
+}
+
+#facebork, #user_search_bar {
+  float: left;
+  
+}
+
+#facebork {
+  margin-left: 100px;
+  margin-top: 15px;
+}
+
+#user_search_bar {
+  margin-left: 50px;
+}
+#user_search_bar input {
+  width: 550px;
+  height: 15px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+#user_name {
+  margin-top: 15px;
+  margin-right: 100px;  
+  float: right;
+}
+
+#user_header {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  top: 45px;
+}
+
+#profile_picture {
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  border: 4px white solid;
+}
+
+#user_navbar {
+  width: 960px;
+  height: 60px;
+  border: 1px WhiteSmoke solid;
+
+}
+
+#user_navbar #navbar_left_pad {
+  width: 240px;
+  height: 60px;
+  float: left;
+}
+
+#user_navbar .navbar_button,#right_just_navbar_button {
+  height: 60px;
+}
+
+#user_navbar .navbar_button {
+  float: left;
+  border: 1px Gainsboro solid;
+}
+
+#user_navbar a {
+  margin-right: 20px;
+  margin-left: 20px;
+  vertical-align: middle;
+  line-height: 60px;
+}
+
+#user_navbar #right_just_navbar_button { 
+  float: right;
+}
