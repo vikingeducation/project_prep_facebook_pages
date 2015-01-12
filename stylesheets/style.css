@@ -298,13 +298,73 @@ select {
 
 .section {
   width: 420px;
-  margin: 0 30px 30px 30px;
+  margin: 30px;
 }
 
-#left_column {
+.left_column {
   float:left;
+  margin-top: -30px
 }
 
-#right_column {
+.right_column {
   margin-left: 460px;
+}
+
+/* END OF ABOUT PAGE */
+
+/* START OF FRIENDS PAGE */
+
+#friends_section {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  background-color: white;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+#friends_header {
+  height: 45px;
+  width: 960px;
+  background-color: WhiteSmoke;
+  border: 1px Gainsboro solid;
+  text-align: center;
+  font-size: 24px;
+}
+
+#friends_header #friends {
+  vertical-align: middle;
+  line-height: 45px;
+}
+
+.friend_tile {
+  border: 1px Gainsboro solid;
+  width: 420px;
+  height: 120px;
+  margin: 30px 30px 30px 30px;
+  position: relative;
+}
+
+.friend_tile img {
+  float:left;
+  height: 90px;
+  margin: 15px;
+}
+
+.friend_tile button {
+  height: 20px;
+  width: 100px;
+  position: absolute;
+  top: 50px;
+  right: 15px;
+}
+
+.friend_tile .num_of_friends {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.friend_tile .friend_info {
+  height: 40px;
+  margin-top: 45px;
 }
