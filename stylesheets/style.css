@@ -267,10 +267,9 @@ select {
 
 #about_section {
   width: 960px;
-  margin: 0 auto;
+  margin: 15px auto;
   position: relative;
   background-color: white;
-  margin-top: 15px;
   font-size: 14px;
 }
 
@@ -316,10 +315,9 @@ select {
 
 #friends_section {
   width: 960px;
-  margin: 0 auto;
+  margin: 15px auto;
   position: relative;
   background-color: white;
-  margin-top: 15px;
   font-size: 14px;
 }
 
@@ -337,11 +335,11 @@ select {
   line-height: 45px;
 }
 
-.friend_tile {
+#friends_section .friend_tile {
   border: 1px Gainsboro solid;
   width: 420px;
   height: 120px;
-  margin: 30px 30px 30px 30px;
+  margin: 30px;
   position: relative;
 }
 
@@ -367,4 +365,136 @@ select {
 .friend_tile .friend_info {
   height: 40px;
   margin-top: 45px;
+}
+
+/* END OF FRIEND PAGE */
+
+/* START OF NEWSFEED */
+
+#active_newsfeed {
+  width: 960px;
+  margin: 45px auto;
+  background: white;
+  /*border: 1px black dashed;*/
+
+}
+#sidebar {
+  float: left;
+  margin-top: -30px;
+  width: 320px;
+  background: white;
+  border: 1px Gainsboro solid;
+}
+
+#sidebar #user_profile {
+  margin: 15px;
+  height: 120px;
+}
+
+#sidebar #user_profile img {
+  float: left;
+  height: 120px;
+  margin-right: 15px;
+}
+
+#sidebar #profile_info {
+  height: 40px;
+  margin-top: 45px;
+}
+
+/*#sidebar */.lesser_text {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+#sidebar .friend_tile {
+  margin: 0 0 0 15px;
+  height: 90px;
+  width: 305px;
+  border: none;
+  position: relative;
+}
+
+#sidebar .friend_tile img {
+  float: left;
+  height: 90px;
+  margin: 0 15px 0 0;
+}
+
+#sidebar h3 {
+  margin-left: 15px;
+}
+
+#sidebar .friend_tile .friend_info {
+  margin-top: 30px;
+  height: auto;
+}
+
+#newsfeed {
+  margin-left: 320px;
+  border: 1px Gainsboro solid;
+  height: auto;
+}
+
+#newsfeed #new_post {
+  text-align: center;
+  padding: 10px;
+  width: 460px;
+  height: 165px;
+  margin: 30px auto;
+  border: 3px Gainsboro solid;
+  position: relative;
+}
+
+#newsfeed #new_post #post_field {
+  width: 400px;
+  height: 100px;
+  margin: 10px auto;
+  font-size: 14px;
+}
+
+#newsfeed #new_post #submit_post {
+  background: #3a5795;
+  color: white;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.post {
+  width: 460px;
+  height: auto;
+  border: 3px Gainsboro solid;
+  margin: 0 auto 30px auto;
+  padding: 10px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.author_block {
+  height: 90px;
+}
+
+.author_block img {
+  height: 90px;
+  float: left;
+  margin-right: 15px;
+}
+
+.post p {
+  margin: 5px 0 5px 0;
+}
+
+.post .comment_banner {
+  width: 440px;
+  border: 2px Gainsboro solid;
+  background: WhiteSmoke;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.post .comment_banner .indented_comment {
+  width: 420px;
+  text-align: justify;
+  margin: 5px auto;
 }
