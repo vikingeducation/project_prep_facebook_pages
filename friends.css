@@ -1,0 +1,201 @@
+/* Main Frame Detailing */
+
+body {
+	font-family: 'Lucida Grande';
+	background-color: #F2F4FA;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.nav-bar {
+	margin: 0 auto;
+	height: 42px;
+	background-color: #3b5998;
+	color: white;
+	font-size: 8pt;
+	position: relative;
+}
+
+.top-content, .about-info {
+	margin: 0 auto;
+	width: 960px;
+	background-color: white;
+	position: relative;
+}
+
+/* Nav Bar Detailing */
+
+.facebook-logo {
+	float: left;
+	font-size: 20pt;
+	margin-top: 8px;
+	margin-left: 250px;
+	letter-spacing: -0.0725em;
+	font-weight: bold;
+}
+
+.search {
+	float: left;
+	width: 500px;
+	margin-top: 12px;
+	margin-left: 32px;
+}
+
+.user-name {
+	float: right;
+	font-size: 10pt;
+	margin-top: 16px;
+	margin-right: 260px;
+	letter-spacing: -0.0725em;
+
+}
+
+.search input {
+	width: 100%;
+	height: 18px;
+	padding-left: 10px;
+	font-family: 'Lucida Grande';
+	font-size: 10pt;
+	border-radius: 4px;
+	border: none;
+}
+
+.nav-thumb {
+	position: absolute;
+	width: 20px;
+	right: 310px;
+	top: 10px;
+}
+
+/* Top Content Detailing */
+
+.big-image {
+	width:960px;
+	height: 360px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.big-image img {
+	width: 100%;
+	height: 100%;
+}
+
+.thumbnail {
+	position: absolute;
+	top: 180px;
+	left: 10px;
+	border: 2px solid white;
+}
+
+.thumbnail img {
+	width: 200px;
+}
+
+.user-title {
+	position: absolute;
+	left: 225px;
+	bottom: 65px;
+	color: white;
+	font-size: 20pt;
+	letter-spacing: -0.0525em;
+}
+
+.timeline-bar {
+	background-color: #FEFEFE;
+	height: 40px;
+	border: 1pt solid #d3d3d3;
+}
+
+.timeline-bar ul {
+	margin-left: 230px;
+	height: 40px;
+}
+
+.bar-items {
+	font-size: 11pt;
+	font-weight: bold;
+	letter-spacing: -0.0725em;
+	color: #3b5998;
+	display: inline-block;
+	padding: 0 16px;
+	height: 40px;
+	margin-left: -5px;
+	border: 1pt solid #d3d3d3;
+	background-color: transparent;
+}
+
+.current-page {
+	font-size: 11pt;
+	font-weight: bold;
+	letter-spacing: -0.0725em;
+	color: black;
+	display: inline-block;
+	padding: 0 16px;
+	height: 40px;
+	margin-left: -5px;
+	border: 1pt solid #d3d3d3;
+	background-color: transparent;
+}
+
+/* Basic Information Detailing */
+
+.about-info {
+	margin: 20px auto;
+	border: 1px solid #d3d3d3;
+}
+
+.about-title {
+	height: 60px;
+	border: 1px solid #d3d3d3;
+	background-color: #f7f7f7;
+}
+
+.about-title h1 {
+	text-align: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 20pt;
+	font-weight: bold;
+	letter-spacing: -0.0525em;
+}
+
+/* Friends Information Detailing */
+
+.friend-card {
+	margin: 20px 20px;
+	border: 1px solid #d3d3d3;
+	border-radius: 4px;
+	width: 45%;
+	height: 120px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.friend-thumb, .friend-name, .unfriend {
+	float: left;
+}
+
+.friend-thumb {
+	width: 120px;
+	border-radius: 4px;
+}
+
+.friend-name {
+	margin: 40px;
+}
+
+.unfriend {
+	margin-top: 36px;
+	background-color: #3b5998;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	height: 38px;
+	width: 100px;
+	font-size: 10pt;
+}
+

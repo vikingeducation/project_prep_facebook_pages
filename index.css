@@ -1,0 +1,185 @@
+/* Main Frame Detailing */
+
+body {
+	font-family: 'Lucida Grande';
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.nav-bar {
+	margin: 0 auto;
+	height: 80px;
+	background-color: #3b5998;
+	color: white;
+	font-size: 8pt;
+	position: relative;
+}
+
+.main-content {
+	margin: 0 auto;
+	height: 608px;
+	background-color: #F2F4FA;
+}
+
+/* Nav Bar Detailing */
+
+.facebook-logo {
+	float: left;
+	font-size: 30pt;
+	margin: 20px 220px;
+	letter-spacing: -0.0725em;
+	font-weight: bold;
+}
+
+.login-modal {
+	float: right;
+	margin-right: 200px;
+	margin-top: 20px;
+	width: 400px;
+}
+
+.user-email {
+	float: left;
+}
+
+.user-password {
+	float: left;
+}
+
+.log-in {
+	float: left;
+	position: absolute;
+	right: 246px;
+	bottom: 24px;
+}
+
+.log-in button {
+	height: 20px;
+	background-color: #8b9dc3;
+	color: white;
+	border: 1px solid #444445;
+}
+
+.user-email input, .user-password input {
+	margin-top: 6px;
+	margin-right: 16px;
+	padding-left: 10px;
+	width: 120px;
+}
+
+
+/* Main Content Frame Detailing */
+
+.facebook-description {
+	float: left;
+	margin-left: 220px;
+	padding-top: 100px;
+	letter-spacing: -0.0725em;
+}
+
+.user-information {
+	float: right;
+	margin-right: 220px;
+	padding-top: 40px;
+	width: 400px;
+}
+
+/* Facebook Description Detailing */
+
+.facebook-description h1 {
+	font-size: 20pt;
+	letter-spacing: -0.0425em;
+	font-weight: bold;
+	padding-bottom: 10px;
+	color: #444445;
+	width: 400px;
+}
+
+ul {
+	color: #5B5B5B;
+	font-size: 16pt;
+}
+
+ul li {
+	padding: 20px 0;
+}
+
+/* New User Detailing */
+
+.user-information h1 {
+	letter-spacing: -0.0425em;
+	font-weight: bold;
+	color: #444445;
+	font-size: 24pt;
+	padding-bottom: 30px;
+}
+
+.user-information p {
+	font-size: 16pt;
+	margin-top: 10px;
+	letter-spacing: -0.0425em;
+	font-weight: bold;
+	color: #444445;
+}
+
+.user-information input {
+	height: 30px;
+	padding-left: 10px;
+	font-size: 12pt;
+	border-radius: 4px;
+	border: 1px solid #444445;
+}
+
+.user-information p, .month, .day, .year,
+.user-information input {
+	margin-bottom: 16px;
+}
+
+.first, .last {
+	width: 165px;
+}
+
+.first {
+	margin-right: 10px;
+}
+
+.new-email, .new-password, .confirm-password {
+	width: 360px;
+}
+
+select {
+	font-size: 12px;
+	font-family: 'Lucida Grande';
+	border: 1px solid black;
+	border-radius: 4px;
+	height: 30px;
+}
+
+.submit {
+	margin-top: 20px;
+	height: 40px;
+	width: 180px;
+    background-color: #66A666;
+    font-size: 14pt;
+    color: white;
+    border: 1px solid #444445;
+    border-radius: 4px;
+}
+
+/* Bottom Footer Detailing */
+
+.clear {
+	clear: both;
+}
+
+.footer {
+	height: 20px;
+	background-color: #444445;
+	font-size: 20pt;
+}
+
+
+

@@ -1,0 +1,200 @@
+/* Main Frame Detailing */
+
+body {
+	font-family: 'Lucida Grande';
+	background-color: #F2F4FA;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.nav-bar {
+	margin: 0 auto;
+	height: 42px;
+	background-color: #3b5998;
+	color: white;
+	font-size: 8pt;
+	position: relative;
+}
+
+.main-content {
+	margin: 0 auto;
+	width: 960px;
+	height: 402px;
+	position: relative;
+}
+
+/* Nav Bar Detailing */
+
+.facebook-logo {
+	float: left;
+	font-size: 20pt;
+	margin-top: 8px;
+	margin-left: 250px;
+	letter-spacing: -0.0725em;
+	font-weight: bold;
+}
+
+.search {
+	float: left;
+	width: 500px;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+.user-name {
+	float: right;
+	font-size: 10pt;
+	margin-top: 16px;
+	margin-right: 260px;
+	letter-spacing: -0.0725em;
+
+}
+
+.search input {
+	width: 94%;
+	height: 18px;
+	padding-left: 10px;
+	font-family: 'Lucida Grande';
+	font-size: 10pt;
+}
+
+.nav-thumb {
+	position: absolute;
+	width: 20px;
+	right: 310px;
+	top: 10px;
+}
+
+/* Main Content Detailing */
+
+.side-bar, .news-feed {
+	float: left;
+}
+
+.side-bar {
+	width: 15%;
+}
+
+.news-feed {
+	width: 50%;
+}
+
+/* Side Nav Detailing */
+
+.side-bar {
+	height: 600px;
+	padding-top: 16px;
+	padding-left: 8px;
+	margin-right: 8px;
+}
+
+.mini-profile img, .profile-actions {
+	float: left;
+}
+
+.feed-thumb {
+	width: 40px;
+}
+
+.profile-actions {
+	margin-top: 10px;
+	margin-left: 4px;
+	font-size: 10pt;
+}
+
+.profile-actions h3 {
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
+
+.side-links {
+	margin-top: 46px;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.side-links p {
+	padding: 4px 0;
+}
+
+/* The FEED Detailing */
+
+.status-update, .post {
+	margin: 10px 0;
+}
+
+.post {
+	padding: 10px 10px;
+}
+
+.post, .status-update {
+	background-color: white;
+	border: 1pt solid #d3d3d3;
+	border-radius: 4px;
+}
+.status-update {
+	height: 75px;
+}
+
+.status {
+	border: none;
+	width: 95%;
+	padding: 16px 10px;
+	font-size: 12pt;
+}
+
+.status:focus {
+	outline: none;
+}
+
+.post-status {
+	width: 100%;
+	height: 25px;
+	border: none;
+	border-radius: 4px;
+	font-size: 12pt;
+	color: white;
+	background-color: #3b5998;
+}
+
+.time-posted {
+	float: right;
+	margin-right: 300px;
+	margin-top: 4px;
+	font-size: 10pt;
+}
+
+.time-posted h3 {
+	font-weight: bold;
+}
+
+.post-content {
+	font-size: 10pt;
+	margin-top: 8px;
+	width: 98%;
+}
+
+.post-actions {
+	margin-top: 12px;
+}
+
+.post-actions p {
+	display: inline-block;
+}
+
+/* Footer Detailing */
+
+.footer {
+	background-color: gray;
+	height: 40px;
+}
+
+
+
+
