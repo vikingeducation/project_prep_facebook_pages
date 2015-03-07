@@ -1,0 +1,65 @@
+#wrapper{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+#navbar{
+	background-color: #317be1;
+	height: 100px;
+	width: 100%;
+}
+
+#navbar p, #navbar h2 {
+	color: white;
+}
+
+/* Navbar CSS ----------------------------------------------------------*/
+#navbar_left{
+	vertical-align: middle;
+}
+
+/* Changing the logo text on the left */
+#navbar_left h2 {
+	margin: 0px;
+	padding: 25px;
+	font-size: 3em;
+}
+
+#navbar_right {
+	height: 100%;
+	vertical-align: middle;
+}
+
+
+#navbar_email, #navbar_password, #navbar_login_btn {
+	float: left;
+	padding-right: 10px;
+	margin-top: 15px;
+}
+
+#navbar_login_btn {
+	padding-top: 22px;
+}
+
+/* /Navbar CSS ----------------------------------------------------------*/
+
+/* Content CSS ----------------------------------------------------------*/
+#hero_left_content{
+	display: block;
+	padding: 50px 75px;
+}
+
+#hero_left_content h2 {
+	font-size: 3em;
+}
+
+#hero_left_content li {
+	font-size: 1.5em;
+}
+
+#hero_left_content li {
+	margin-bottom: 10px;
+}
+
+/* /Content CSS ----------------------------------------------------------*/
