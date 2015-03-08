@@ -1,0 +1,122 @@
+<html>
+<head>
+<title></title>
+<!-- adding bootstrap via CDN -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="wrapper" class="container">
+	<!-- Building the navbar -->
+	<div id="navbar">
+		<div id="navbar_left" class="col-md-8">
+			<h2>TrevBook</h2>
+		</div>
+		
+		<div id="navbar_right" class="col-md-4">
+			<div id="navbar_email">
+				<p>Email:</p>
+				<input type="text">
+			</div>
+			
+			<div id="navbar_password">
+				<p>Password:</p>
+				<input type="text">
+			</div>
+			
+			<div id="navbar_login_btn">
+				<button type="button" class="btn btn-info">Login</button>
+			</div>
+			
+		</div>
+	</div>
+	<!-- /Building the navbar -->
+	
+	<!-- Building the content section -->
+	<div id="content">
+		<div id="hero_left" class="col-md-8">
+			<div id="hero_left_content">
+				<h2>Connect with all your friends!</h2>
+				<ul>
+					<li><b>See photos and updates</b> in your news feed.</li>
+					<li><b>Post your status for the world to see</b> from your profile</li>
+					<li><b>Get in touch with your friends</b> by "friending" them</li>
+					<li><b>Like things</b> because you're a positive person!</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="signup_right" class="col-md-4">
+			<h2>Sign Up!</h2>
+			<form>
+				<div class="form-group col-md-6">
+					<input type="text" class="form-control" id="first_name" placeholder="First Name">
+				</div>
+				<div class="form-group col-md-6">
+					<input type="text" class="form-control" id="last_name" placeholder="Last Name">
+				</div>
+				<div class="form-group col-md-12">
+					<input type="email" class="form-control" id="email" placeholder="Email">
+				</div>	
+				<div class="form-group col-md-12">
+					<input type="password" class="form-control" id="password" placeholder="Password">
+				</div>		
+				<div class="form-group col-md-12">
+					<input type="password" class="form-control" id="password_confirm" placeholder="Confirm your password">
+				</div>
+				
+				<p><b>Birthday:</b></p>
+				<div class="form-group col-md-4">
+					<select class="form-control col-md-4"name="Month">
+						<option value="January">January</option>
+						<option value="February">February</option>
+						<option value="March">March</option>
+						<option value="April">April</option>
+						<option value="May">May</option>
+					</select>
+				</div>
+				 
+				<div class="form-group col-md-4">
+					<select class="form-control col-md-4" name="Day">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
+				</div>
+				
+				<div class="form-group col-md-4">
+					<select class="form-control col-md-4" name="Year">
+						<option value="1989">1989</option>
+						<option value="1990">1990</option>
+						<option value="1991">1991</option>
+						<option value="1992">1992</option>
+						<option value="1993">1993</option>
+					</select>
+				</div>
+				
+				<div class="radio">
+				  <label class="radio-inline">
+				    <input type="radio" name="gender" id="gender_male" value="male">
+				    Male
+				  </label>
+
+				  <label class="radio-inline">
+				    <input type="radio" name="gender" id="gender_female" value="female">
+				    Female
+				  </label>
+				</div>
+				
+				<div class="form-group">
+					<button type="submit" class="btn btn-success col-md-12">Submit</button>
+				</div>
+			</form>
+		
+		</div>
+	</div>
+	
+	<!-- /Building the content section -->
+</div>
+</body>
+</html>

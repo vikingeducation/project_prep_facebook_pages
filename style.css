@@ -1,0 +1,283 @@
+#wrapper{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+#navbar{
+	background-color: #317be1;
+	height: 100px;
+	width: 100%;
+}
+
+#navbar p, #navbar h2 {
+	color: white;
+}
+
+.align-right{
+	text-align: right;
+}
+
+.inline {
+	display: inline;
+}
+
+/* Navbar CSS ----------------------------------------------------------*/
+#navbar_left{
+	vertical-align: middle;
+}
+
+/* Changing the logo text on the left */
+#navbar_left h2 {
+	margin: 0px;
+	padding: 25px;
+	font-size: 3em;
+}
+
+#navbar_right {
+	height: 100%;
+	vertical-align: middle;
+}
+
+
+#navbar_email, #navbar_password, #navbar_login_btn {
+	float: left;
+	padding-right: 10px;
+	margin-top: 15px;
+}
+
+#navbar_login_btn {
+	padding-top: 22px;
+}
+
+/* /Navbar CSS ----------------------------------------------------------*/
+
+/* Content CSS ----------------------------------------------------------*/
+#hero_left_content{
+	display: block;
+	padding: 50px 75px;
+}
+
+#hero_left_content h2 {
+	font-size: 3em;
+}
+
+#hero_left_content li {
+	font-size: 1.5em;
+}
+
+#hero_left_content li {
+	margin-bottom: 10px;
+}
+
+/* /Content CSS ----------------------------------------------------------*/
+
+/* About Page CSS ----------------------------------------------------------*/
+
+/* Top Bar */
+#about_top_bar{
+	height: 50px;
+	background-color: #317be1;
+}
+
+#about_top_bar h3, #about_right_dropdown p{
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	font-size: 1em;
+	line-height: 45px;
+}
+
+#about_search input {
+	width: 100%;
+	margin-top: 12px;
+}
+
+#about_right_dropdown p{
+	text-align: right;
+}
+/* End Top Bar */
+
+/* Content Section */
+#hero_image {
+	background-image: url('img/ship.png');
+	background-repeat: no-repeat;
+	position: relative;
+	height: 300px;
+	width: 100%;
+}
+#hero_image img {
+	height: 300px;
+	width: 100%;
+}
+
+#hero_image p {
+	color: white;
+	display: block;
+	position: absolute;
+	font-weight: bold;
+	font-size: 1.5em;
+	bottom: 0px;
+	left: 280px;
+}
+
+/* Navbar */
+#about_navbar{
+	height: 40px;
+	width: 100%;
+	line-height: 45px;
+}
+
+#about_navbar .navbar_button {
+	border: 1px solid black;
+	border-collapse: collapse;
+	height: 100%;
+	text-align: center;
+}
+
+#about_navbar p {
+	line-height: 35px;
+}
+/* End Navbar */
+
+#headshot_image {
+	position: absolute;
+	top: 130px;
+	left: 60px;
+	z-index: 100;
+}
+
+#about_header{
+	margin-top: 20px;
+	padding: 10px;
+	text-align: center;
+	background-color: #D3D3D3;
+}
+
+#about_header h2{
+	padding: 0px;
+	margin: 0px;
+}
+
+#about_info_left table {
+	width: 100%;
+	font-size: 1em;
+}
+
+#about_info_left tr {
+	height: 30px;
+}
+
+#about_info_left td {
+	width: 50%;
+}
+
+.friend-block{
+	display: block;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 15px;
+	width: 100%;
+	height: 150px;
+}
+
+.friend-block table{
+	width: 100%;
+	height: 100%;
+}
+
+.friend-block img {
+	width: 100px;
+	height: 100px;
+}
+/* End Content Section */
+/* /About Page CSS ----------------------------------------------------------*/
+
+/* Newsfeed Page CSS ----------------------------------------------------------*/
+/* Sidebar */
+#newsfeed_sidebar {
+	height: 100%;
+}
+#sidebar_headshot img {
+	width: 75px;
+	height: 75px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+#sidebar_recently_active table {
+	font-size: .75em;
+}
+
+#sidebar_recently_active .recently_active_block {
+	margin-bottom: 10px;
+}
+
+#sidebar_recently_active .recently_active_block img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+/* Newsfeed Content */
+#newsfeed_content {
+	border-left: 1px solid black;
+}
+
+/* Create Post */
+#create_post {
+	background-color: #D3D3D3;
+	border-radius: 5px;
+	margin-top: 20px;
+	width: 100%;
+	height: 150px;
+}
+
+#create_post table {
+	width: 100%;
+	height: 100%;
+}
+
+#create_post td {
+	text-align: center;
+}
+
+#create_post input {
+	width: 95%;
+	height: 100%;
+}
+
+#create_post .btn {
+	margin-right: 20px;
+}
+
+/* Wall Posts */
+.wall_post {
+	border: 1px solid black;
+	margin: 10px;
+} 
+
+.wall_post table{
+	width: 100%;
+}
+
+.wall_post tr {
+	padding: 10px;
+	display: block;
+}
+
+.wall_post p {
+	text-align: justify;
+}
+
+.wall_post img { 
+	height: 100px;
+	width: 100px; 
+}
+
+.wall_post tr.like_comment {
+	background-color: #D3D3D3;
+	padding: 5px 10px;
+}
+
+/* / Newsfeed Page CSS ----------------------------------------------------------*/
