@@ -109,8 +109,7 @@
 				</div>
 				
 				<div class="form-group">
-					<button type="submit" class="btn btn-success col-md-12">Submit</button>
-					<?php echo "Hey!" ?>
+					<button type="submit" class="btn btn-success col-md-12"><?php echo "Submit" ?></button>
 				</div>
 			</form>
 		
