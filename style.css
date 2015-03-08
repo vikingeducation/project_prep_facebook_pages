@@ -14,6 +14,14 @@
 	color: white;
 }
 
+.align-right{
+	text-align: right;
+}
+
+.inline {
+	display: inline;
+}
+
 /* Navbar CSS ----------------------------------------------------------*/
 #navbar_left{
 	vertical-align: middle;
@@ -63,3 +71,105 @@
 }
 
 /* /Content CSS ----------------------------------------------------------*/
+
+/* About Page CSS ----------------------------------------------------------*/
+
+/* Top Bar */
+#about_top_bar{
+	height: 50px;
+	background-color: #317be1;
+}
+
+#about_top_bar h3, #about_right_dropdown p{
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	font-size: 1em;
+	line-height: 45px;
+}
+
+#about_search input {
+	width: 100%;
+	margin-top: 12px;
+}
+
+#about_right_dropdown p{
+	text-align: right;
+}
+/* End Top Bar */
+
+/* Content Section */
+#hero_image {
+	background-image: url('img/ship.png');
+	background-repeat: no-repeat;
+	position: relative;
+	height: 300px;
+	width: 100%;
+}
+#hero_image img {
+	height: 300px;
+	width: 100%;
+}
+
+#hero_image p {
+	color: white;
+	display: block;
+	position: absolute;
+	font-weight: bold;
+	font-size: 1.5em;
+	bottom: 0px;
+	left: 280px;
+}
+
+/* Navbar */
+#about_navbar{
+	height: 40px;
+	width: 100%;
+	line-height: 45px;
+}
+
+#about_navbar .navbar_button {
+	border: 1px solid black;
+	border-collapse: collapse;
+	height: 100%;
+	text-align: center;
+}
+
+#about_navbar p {
+	line-height: 35px;
+}
+/* End Navbar */
+
+#headshot_image {
+	position: absolute;
+	top: 130px;
+	left: 60px;
+	z-index: 100;
+}
+
+#about_header{
+	margin-top: 20px;
+	padding: 10px;
+	text-align: center;
+	background-color: #D3D3D3;
+}
+
+#about_header h2{
+	padding: 0px;
+	margin: 0px;
+}
+
+#about_info_left table {
+	width: 100%;
+	font-size: 1em;
+}
+
+#about_info_left tr {
+	height: 30px;
+}
+
+#about_info_left td {
+	width: 50%;
+}
+/* End Content Section */
+/* /About Page CSS ----------------------------------------------------------*/
