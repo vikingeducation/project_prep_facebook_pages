@@ -171,5 +171,113 @@
 #about_info_left td {
 	width: 50%;
 }
+
+.friend-block{
+	display: block;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 15px;
+	width: 100%;
+	height: 150px;
+}
+
+.friend-block table{
+	width: 100%;
+	height: 100%;
+}
+
+.friend-block img {
+	width: 100px;
+	height: 100px;
+}
 /* End Content Section */
 /* /About Page CSS ----------------------------------------------------------*/
+
+/* Newsfeed Page CSS ----------------------------------------------------------*/
+/* Sidebar */
+#newsfeed_sidebar {
+	height: 100%;
+}
+#sidebar_headshot img {
+	width: 75px;
+	height: 75px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+#sidebar_recently_active table {
+	font-size: .75em;
+}
+
+#sidebar_recently_active .recently_active_block {
+	margin-bottom: 10px;
+}
+
+#sidebar_recently_active .recently_active_block img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+/* Newsfeed Content */
+#newsfeed_content {
+	border-left: 1px solid black;
+}
+
+/* Create Post */
+#create_post {
+	background-color: #D3D3D3;
+	border-radius: 5px;
+	margin-top: 20px;
+	width: 100%;
+	height: 150px;
+}
+
+#create_post table {
+	width: 100%;
+	height: 100%;
+}
+
+#create_post td {
+	text-align: center;
+}
+
+#create_post input {
+	width: 95%;
+	height: 100%;
+}
+
+#create_post .btn {
+	margin-right: 20px;
+}
+
+/* Wall Posts */
+.wall_post {
+	border: 1px solid black;
+	margin: 10px;
+} 
+
+.wall_post table{
+	width: 100%;
+}
+
+.wall_post tr {
+	padding: 10px;
+	display: block;
+}
+
+.wall_post p {
+	text-align: justify;
+}
+
+.wall_post img { 
+	height: 100px;
+	width: 100px; 
+}
+
+.wall_post tr.like_comment {
+	background-color: #D3D3D3;
+	padding: 5px 10px;
+}
+
+/* / Newsfeed Page CSS ----------------------------------------------------------*/
