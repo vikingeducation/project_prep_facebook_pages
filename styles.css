@@ -4,15 +4,19 @@ body {
   margin: 0px;
   margin-left:auto;
   margin-right:auto;
-  min-width: 550px;
+  min-width: 880px;
+
 }
 div{
-  border: 1px solid red;
+  
 }
 
 .header{
   background-color: #2B6DE8;
   height: 50px;
+  margin-left:auto;
+  margin-right:auto;
+  
 }
 .header .header-text{
   line-height: 50px;
@@ -53,13 +57,16 @@ div{
   margin-right: 20px;
 }
 .container {
-  
+  max-width: 900px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .container .main-description{
   padding-left: 50px;
-
-display: inline-block;  
+  padding-right: 50px;
+  float: left;
+  display: inline-block;  
   font-size: 20px;
   padding-top: 60px;
 }
@@ -71,7 +78,8 @@ display: inline-block;
 
 .container .signup-form{
   width: 400px;
-  float: right;
+  float: left;
+
 }
 
 .signup-text{
@@ -106,6 +114,10 @@ width: 0px;
   width: 330px;
   height: 30px;
   margin-top: 0px;
+}
+
+#wider-input {
+width: 310px;
 }
 
 #radio-male {
