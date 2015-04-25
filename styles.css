@@ -1,0 +1,117 @@
+body {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  margin-left:auto;
+  margin-right:auto;
+  min-width: 550px;
+}
+div{
+  border: 1px solid red;
+}
+
+.header{
+  background-color: #2B6DE8;
+  height: 50px;
+}
+.header .header-text{
+  line-height: 50px;
+  vertical-align: middle;
+  display: inline;
+  font-size: 20px;
+  color: white;
+  padding: 5px 20px;
+
+}
+
+.header .login-form{
+  width: 400px;
+  height: 50px;
+  vertical-align: center;
+  color: white;
+  display: inline;
+  font-size: 12px;
+  float: right;
+}
+.header .login-form input{
+  border: 2px solid black;
+  height: 15px;
+  font-size: 12px;
+}
+
+.login-email{
+  margin-right: 10px;
+}
+.login-password{
+  margin-right: 5px;
+}
+
+.header .login-form .login-button{
+  background-color: #A5CFFF;
+  height: 21px;
+  font-size: 11px;
+  margin-right: 20px;
+}
+.container {
+  
+}
+
+.container .main-description{
+  padding-left: 50px;
+
+display: inline-block;  
+  font-size: 20px;
+  padding-top: 60px;
+}
+
+.main-description li{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.container .signup-form{
+  width: 400px;
+  float: right;
+}
+
+.signup-text{
+  font-size: 20px;
+  padding: 15px 0px;
+}
+
+.signup-form input{
+  border: 2px solid #cacaca;
+  height: 16px;
+  margin-right: 12px;
+  width: 140px;
+  padding: 2px 5px;
+  margin-bottom: 12px;
+}
+
+.birthday select{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.sex input{
+width: 0px;
+}
+
+.signup-form .submit-button{
+  background-color: #03AB10;
+  border: 2px solid black;
+  color: white;
+  box-shadow: 1px 1px black;
+  font-size: 14px;
+  width: 330px;
+  height: 30px;
+  margin-top: 0px;
+}
+
+#radio-male {
+  margin-left: 40px;
+}
+
+.signup-form .sex {
+  font-size: 12px;
+}
