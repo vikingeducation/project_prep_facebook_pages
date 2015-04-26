@@ -1,10 +1,10 @@
 body {
-  font-family: Comic Sans MS, cursive, sans-serif;
+  font-family: Arial, cursive, sans-serif;
   padding: 0px;
   margin: 0px;
   margin-left:auto;
   margin-right:auto;
-  min-width: 880px;
+  width: 835px;
 
 }
 div{
@@ -12,29 +12,53 @@ div{
 }
 
 .header{
+
   background-color: #2B6DE8;
   height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
   margin-left:auto;
   margin-right:auto;
   border-bottom: 2px solid black;
   
 }
 .header .header-text{
-  line-height: 50px;
-  vertical-align: middle;
+  
   display: inline;
   font-size: 20px;
   color: white;
-  padding: 5px 20px;
+  padding: 0px 20px;
+  float: left;
+  width: 200px;
+}
+.header .search{
+  float: left;
+  width: 430px;
 
+}
+.header .search input{
+  width: 380px;
+  border: 1px solid grey;
+  color: grey;
+}
+.header .user{
+  float: right;
+  padding-right: 20px;
+  text-align: center;
+  color: white;
+}
+.header img{
+  line-height: 50px;
+  vertical-align: middle;
+  padding-bottom: 5px;
 }
 
 .header .login-form{
-  width: 400px;
-  height: 50px;
+  
+  line-height: 18px;
   vertical-align: center;
   color: white;
-  display: inline;
+  
   font-size: 12px;
   float: right;
 }
@@ -57,8 +81,31 @@ div{
   font-size: 11px;
   margin-right: 20px;
 }
+.user-profile{
+
+}
+.user-images{
+  width: 100%;
+}
+#user-wallpaper{
+  width: 100%;
+  height: 350px;
+  display: inline;
+ 
+
+}
+#user-pic{
+  width: 100px;
+  height: 100px;
+  
+}
+.user-menu ul{
+  list-style-type: none;
+  display: inline;
+
+}
 .container {
-  max-width: 900px;
+  
   margin-left:auto;
   margin-right:auto;
 }
@@ -79,7 +126,7 @@ div{
 
 .container .signup-form{
   width: 400px;
-  float: left;
+  float: right;
 
 }
 
