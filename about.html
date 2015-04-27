@@ -24,40 +24,70 @@
   </div>
 
   <div class="user-profile">
-    <img id="user-wallpaper" src="wallpaper.jpg">
-    <img id="user-pic" src="user-pic.png">
+    <div class="user-images">
+      <img id="user-pic" src="user-pic.png">
+    </div>
+    
     <div class="user-menu">
       <ul>
         <li>Timeline </li>
         <li>About</li>
-        <li>Photos <span>(123)</span></li>
-        <li>Friends <span>(542)</span></li>
+        <li>Photos <span style="color:grey">(123)</span></li>
+        <li>Friends <span style="color:grey">(542)</span></li>
+        <li id="Edit-link">Edit Profile</li>
       </ul>
-    </div>
-    <div class="user-edit">
-      Edit Profile
     </div>
   </div>
 
   <div class="about">
     <div class="about-header">
       About
-      <button>Edit your Profile</button>
+      <button >Edit your Profile</button>
     </div>
     <div class="about-info">
-      <table>
+      <table id="external-table">
         <tr>
           <td>
-            Basic Information
-            <br>
+            <h3>Basic Information</h3>
+              <table id="internal-table">
+                <tr>
+                  <td><b>Birthday:</b></td>
+                  <td>July 31st, 1980</td>
+                </tr>
+                <tr>
+                  <td><b>College:</b></td>
+                  <td>Hogwarts College</td>
+                </tr>
+                <tr>
+                  <td><b>Hometown:</b></td>
+                  <td>Godrick's Hollow, England</td>
+                </tr>
+                <tr>
+                  <td><b>Currently lives:</b></td>
+                  <td>Godrick's Hollow, England</td>
+                </tr>
 
-            Contact Information
+              </table>
+            <br>
+            <h3>Contact Information</h3>
+              <table id="internal-table">
+                <tr>
+                  <td><b>Email:</b></td>
+                  <td>Jharry_potter@hogwarts.edu</td>
+                </tr>
+                <tr>
+                  <td><b>Telephone:</b></td>
+                  <td>555-123-4567</td>
+                              
+              </table>
           </td>
           <td>
-            Words to Live By
+            <h3>Words to Live By</h3>
+            I'm about to do something very clever and a tiny bit against the rules of the universe. It's important that I'm properly dressed.
             <br>
 
-            About Me
+            <h3>About Me</h3>
+            A type of poem, derived from the theater, in which a speaker addresses an internal listener or the reader.  In some dramatic monologues, especially those by Robert Browning, the speaker may reveal his personality in unexpected and unflattering ways.
           </td>
         </tr>
       </table>
