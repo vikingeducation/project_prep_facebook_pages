@@ -8,7 +8,7 @@ body {
 
 }
 div{
-  border: 1px solid red;
+  
 }
 
 .header{
@@ -83,10 +83,10 @@ div{
   margin-right: 20px;
 }
 .user-profile{
-
+border: 2px solid black;
 }
 .user-images{
-  
+  border-bottom: 2px solid black;
   height: 350px;
   background: #ffffff url("user-pic.png");
   background-size: 14px 14px;
@@ -105,15 +105,24 @@ div{
 }
 .user-menu{
   padding-left: 150px;
+
   position: relative;
-  border-bottom: 2px solid black;
 }
 .user-menu li{
   list-style-type: none;
   display: inline;
   margin: 0px;
   border: 2px solid black;
-  padding: 15px;
+  padding: 15px 20px;
+  margin: -4px;
+  font-weight: bold;
+}
+.user-menu li a{
+  text-decoration: none;
+}
+.user-menu li:active,
+.user-menu li:hover{
+  background-color: #ededed;
 
 }
 #Edit-link{
@@ -124,21 +133,27 @@ div{
   right: 25px;
   padding: 0px;
   border: 0px;
+  font-weight: normal;
 }
 
 .about{
   border: 2px solid black;
-  margin-top: 10px;
-  
+  margin-top: 10px;  
 }
 .about .about-header {
   font-size: 26px;
-  background-color: lightgrey;
+  background-color: #ededed;
   height: 35px;
   border-bottom: 2px solid black;
+  width: 100%;
+  position: relative;
+  text-align: center;
 }
 
 .about button{
+  position: absolute;
+  right: 25px;
+  top: 10%;
   text-align: right;
   border: 1px solid black;
   border-radius: 0px;
@@ -154,17 +169,17 @@ div{
  #external-table td{
   vertical-align: top;
   width: 400px;
-  border: 1px solid blue;
   padding-bottom: 5px;
  }
 #internal-table {
   padding-bottom: 10px;
-  width: 100%;
-  margin-bottom: 10px;
   font-size: 12px;
 }
 
-
+#internal-table td{
+  margin-bottom: 10px;
+  width: 150px;
+}
 .container {  
   margin-left:auto;
   margin-right:auto;
