@@ -136,11 +136,11 @@ border: 2px solid black;
   font-weight: normal;
 }
 
-.about{
+.mainbox{
   border: 2px solid black;
   margin-top: 10px;  
 }
-.about .about-header {
+.mainbox .mainbox-header {
   font-size: 26px;
   background-color: #ededed;
   height: 35px;
@@ -150,7 +150,7 @@ border: 2px solid black;
   text-align: center;
 }
 
-.about button{
+.mainbox .mainbox-header button{
   position: absolute;
   right: 25px;
   top: 10%;
@@ -162,6 +162,9 @@ border: 2px solid black;
   color: white;
   box-shadow: 1px 1px black;
 }
+
+/*About page*/
+
 .about-info{
  padding: 25px;
  }
@@ -180,6 +183,46 @@ border: 2px solid black;
   margin-bottom: 10px;
   width: 150px;
 }
+
+
+/* Friends page */
+.mainbox .friends-table .friendbox{
+  width: 375px;
+  height: 100px;
+  vertical-align: middle;
+  border: 2px solid black;
+  padding: 10px;
+}
+.mainbox .friends-table{
+  margin-left: 3px; 
+  margin-bottom: 20px;
+}
+.mainbox .friends-table td{
+  padding: 5px;
+  margin: auto auto;
+  }
+.mainbox .friends-table .friendbox img{
+ border: 2px solid black;
+ padding: 10px;
+ width: 70px;
+ height: 70px;
+ float: left;
+}
+
+.mainbox .friends-table .friendbox button{
+  background-color: #ededed;
+  border: 2px solid black;
+  float: right;
+  width: 100px;
+  margin-top: -45px;
+
+}
+.mainbox .friends-table .friendbox p{
+  width: 150px;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+/* Index page */
 .container {  
   margin-left:auto;
   margin-right:auto;
