@@ -1,0 +1,453 @@
+body {
+  font-family: Arial, cursive, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 835px;
+
+}
+
+a{
+  color: blue;
+}
+/*One for all pages header*/
+.header{
+  background-color: #2B6DE8;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  margin-left:auto;
+  margin-right:auto;
+  border-bottom: 2px solid black;
+  
+}
+.header .header-text{
+  display: inline;
+  font-size: 20px;
+  color: white;
+  padding: 0px 20px;
+  float: left;
+  width: 150px;
+}
+.header .search{
+  float: left;
+  width: 430px;
+
+}
+.header .search input{
+  width: 450px;
+  border: 1px solid grey;
+  padding: 5px;
+  color: grey;
+}
+.header .user{
+  float: right;
+  padding-right: 20px;
+  text-align: center;
+  color: white;
+}
+.header img{
+  line-height: 50px;
+  vertical-align: middle;
+  padding-bottom: 5px;
+}
+
+.header .login-form{
+  line-height: 18px;
+  vertical-align: center;
+  color: white;
+  
+  font-size: 12px;
+  float: right;
+}
+.header .login-form input{
+  border: 2px solid black;
+  height: 15px;
+  font-size: 12px;
+}
+/*Index page forms in header*/
+.login-email{
+  margin-right: 10px;
+}
+.login-password{
+  margin-right: 5px;
+}
+
+.header .login-form .login-button{
+  background-color: #A5CFFF;
+  height: 21px;
+  font-size: 11px;
+  margin-right: 20px;
+}
+
+/*About page pics block and menu*/
+.user-profile{
+border: 2px solid black;
+}
+.user-images{
+  border-bottom: 2px solid black;
+  height: 350px;
+  background: #ffffff url("user-pic.png");
+  background-size: 14px 14px;
+  position: relative;
+}
+
+#user-pic{
+  border: 2px solid black;
+  background-color: white;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 250px;  
+  left: 25px;
+}
+#user-name{
+  position: absolute;
+  top: 300px;  
+  left: 190px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.user-menu{
+  padding-left: 150px;
+
+  position: relative;
+}
+.user-menu li{
+  list-style-type: none;
+  display: inline;
+  margin: 0px;
+  border: 2px solid black;
+  padding: 15px 20px;
+  margin: -4px;
+  font-weight: bold;
+}
+.user-menu li a{
+  text-decoration: none;
+  color: black;
+}
+.user-menu li:active,
+.user-menu li:hover{
+  background-color: #ededed;
+
+}
+#Edit-link{
+  margin-right: 10px;
+  color: blue;
+  text-decoration: underline;
+  position: absolute;
+  right: 25px;
+  padding: 0px;
+  border: 0px;
+  font-weight: normal;
+}
+/*Field under user-profile menu*/
+.mainbox{
+  border: 2px solid black;
+  margin-top: 10px;  
+}
+.mainbox .mainbox-header {
+  font-size: 26px;
+  background-color: #ededed;
+  height: 35px;
+  border-bottom: 2px solid black;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.mainbox .mainbox-header button{
+  position: absolute;
+  right: 25px;
+  top: 10%;
+  text-align: right;
+  border: 1px solid black;
+  border-radius: 0px;
+  height: 25px;
+  background-color: #2B6DE8;
+  color: white;
+  box-shadow: 1px 1px black;
+}
+
+/*About page specific tables in mainbox*/
+
+.about-info{
+ padding: 25px;
+ }
+
+ #external-table td{
+  vertical-align: top;
+  width: 400px;
+  padding-bottom: 5px;
+ }
+#internal-table {
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+#internal-table td{
+  margin-bottom: 10px;
+  width: 150px;
+}
+
+
+/* Friends page specific tables in mainbox*/
+.mainbox .friends-table .friendbox{
+  width: 375px;
+  height: 100px;
+  vertical-align: middle;
+  border: 2px solid black;
+  padding: 10px;
+}
+.mainbox .friends-table{
+  margin-left: 3px; 
+  margin-bottom: 20px;
+}
+.mainbox .friends-table td{
+  padding: 5px;
+  margin: auto auto;
+  }
+.mainbox .friends-table .friendbox img{
+ border: 2px solid black;
+ padding: 10px;
+ width: 70px;
+ height: 70px;
+ float: left;
+}
+
+.mainbox .friends-table .friendbox button{
+  background-color: #ededed;
+  border: 2px solid black;
+  float: right;
+  width: 100px;
+  margin-top: -45px;
+
+}
+.mainbox .friends-table .friendbox p{
+  width: 150px;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+/*Newsfeed page columns*/
+
+.leftlist{
+  font-size: 12px;
+  width: 300px;
+  border-right: 2px solid black;
+  float:left;
+  padding-left: 10px;
+}
+.leftlist  .user-profile-news img{
+  float:left;
+  width: 80px; 
+  height: 80px;
+  border: 2px solid black;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.leftlist .user-profile-news{
+  margin-top: 20px;
+}
+.leftlist .user-profile-news .user-profile-text{
+  height: 70px;
+  padding-top: 30px;
+  }
+
+.leftlist .active-users-news img{
+  float: left;
+  border: 2px solid black;
+  width: 50px; 
+  height: 50px;
+  padding: 5px;
+  margin-right: 10px;
+}
+.leftlist  .active-users-news .active-user-text{
+  width: 300px;
+  height: 45px;
+  padding-top: 15px;
+  margin-top: 10px;
+  }
+#allfriendslink{
+  padding-left: 100px;Harr
+}
+.rightlist{
+  float: right;
+  width: 500px;
+  font-size: 12px;
+}
+.rightlist img{
+float: left; 
+border: 2px solid black;
+width: 50px; 
+height: 50px;
+margin-left: 10px;
+margin-right: 10px;
+padding: 5px;
+}
+.rightlist .recent-news-post{
+  margin: 30px;
+  border: 2px solid black;
+  padding-top: 10px;
+ 
+}
+
+.rightlist .recent-news-post .active-users-text{
+  height: 50px;
+  padding-top: 10px;
+
+}
+.rightlist .recent-news-post p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.rightlist .recent-news-post-bottom{
+  background-color: #ededed;
+  border-top: 2px solid black;
+  padding: 5px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.rightlist .recent-news-post-bottom a{
+  padding-left: 5px;
+}
+
+#post-header{
+  text-align: center;
+  line-height: 30px;
+  margin: 0px;
+  border-bottom: 2px solid black;
+  font-size: 14px;
+  font-weight: bold
+}
+
+#search-field{
+  width: 400px;
+  height: 50px;
+  padding: 5px;
+  margin: 10px 10px ;
+  vertical-align: top;
+  border: 2px solid black;
+}
+#search-submit{
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 15px;
+  border: 2px solid black;
+  background-color: #2B6DE8;
+  color: white;
+  margin-left: 350px;
+  margin-bottom: 10px;
+  
+}
+#comment-submit{
+  float: right;
+  margin-right:10px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 15px;
+  border: 2px solid black;
+  background-color: #2B6DE8;
+  color: white;
+}
+.rightlist .create-news-post{
+  background-color: #ededed;
+  border: 2px solid black;
+  margin: 30px;
+  
+}
+.news-comments{
+  background-color: #ededed;
+  
+}
+
+.rightlist .recent-news-post-comments{
+  padding-bottom: 10px;
+}
+.recent-news-post-comments img{
+  background-color: white;
+}
+#cancellink{
+  padding-left: 10px;
+}
+.rightlist .recent-news-post-comments .active-users-text{
+height: 100px;
+display: inline-block;
+width: 300px;
+margin-top: 0px;
+padding-top: 0px;
+}
+/* Index page */
+.container {  
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.container .main-description{
+  padding-left: 50px;
+  padding-right: 50px;
+  float: left;
+  display: inline-block;  
+  font-size: 20px;
+  padding-top: 60px;
+}
+
+.main-description li{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.container .signup-form{
+  width: 400px;
+  float: right;
+
+}
+
+.signup-text{
+  font-size: 20px;
+  padding: 15px 0px;
+}
+
+.signup-form input{
+  border: 2px solid #cacaca;
+  height: 16px;
+  margin-right: 12px;
+  width: 140px;
+  padding: 2px 5px;
+  margin-bottom: 12px;
+}
+
+.birthday select{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.sex input{
+width: 0px;
+}
+
+.signup-form .submit-button{
+  background-color: #03AB10;
+  border: 2px solid black;
+  color: white;
+  box-shadow: 1px 1px black;
+  font-size: 14px;
+  width: 330px;
+  height: 30px;
+  margin-top: 0px;
+}
+
+#wider-input {
+width: 310px;
+}
+
+#radio-male {
+  margin-left: 40px;
+}
+
+.signup-form .sex {
+  font-size: 12px;
+}
