@@ -7,14 +7,12 @@ body {
   width: 835px;
 
 }
-div{
-  
-}
+
 a{
   color: blue;
 }
+/*One for all pages header*/
 .header{
-
   background-color: #2B6DE8;
   height: 50px;
   line-height: 50px;
@@ -25,7 +23,6 @@ a{
   
 }
 .header .header-text{
-  
   display: inline;
   font-size: 20px;
   color: white;
@@ -57,7 +54,6 @@ a{
 }
 
 .header .login-form{
-  
   line-height: 18px;
   vertical-align: center;
   color: white;
@@ -70,7 +66,7 @@ a{
   height: 15px;
   font-size: 12px;
 }
-
+/*Index page forms in header*/
 .login-email{
   margin-right: 10px;
 }
@@ -84,6 +80,8 @@ a{
   font-size: 11px;
   margin-right: 20px;
 }
+
+/*About page pics block and menu*/
 .user-profile{
 border: 2px solid black;
 }
@@ -105,6 +103,13 @@ border: 2px solid black;
   top: 250px;  
   left: 25px;
 }
+#user-name{
+  position: absolute;
+  top: 300px;  
+  left: 190px;
+  font-size: 24px;
+  font-weight: bold;
+}
 .user-menu{
   padding-left: 150px;
 
@@ -121,6 +126,7 @@ border: 2px solid black;
 }
 .user-menu li a{
   text-decoration: none;
+  color: black;
 }
 .user-menu li:active,
 .user-menu li:hover{
@@ -137,7 +143,7 @@ border: 2px solid black;
   border: 0px;
   font-weight: normal;
 }
-
+/*Field under user-profile menu*/
 .mainbox{
   border: 2px solid black;
   margin-top: 10px;  
@@ -165,7 +171,7 @@ border: 2px solid black;
   box-shadow: 1px 1px black;
 }
 
-/*About page*/
+/*About page specific tables in mainbox*/
 
 .about-info{
  padding: 25px;
@@ -187,7 +193,7 @@ border: 2px solid black;
 }
 
 
-/* Friends page */
+/* Friends page specific tables in mainbox*/
 .mainbox .friends-table .friendbox{
   width: 375px;
   height: 100px;
@@ -225,7 +231,7 @@ border: 2px solid black;
   margin-top: 30px;
 }
 
-/*Newsfeed page*/
+/*Newsfeed page columns*/
 
 .leftlist{
   font-size: 12px;
@@ -266,7 +272,7 @@ border: 2px solid black;
   margin-top: 10px;
   }
 #allfriendslink{
-  padding-left: 100px;
+  padding-left: 100px;Harr
 }
 .rightlist{
   float: right;
