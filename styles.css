@@ -1,0 +1,66 @@
+body {
+  font-family: helvetica, sans-serif;
+}
+
+.header {
+  color: #fff;
+  background-color: #2B78E4;
+  border: 2px solid #333;
+}
+
+.header-homepage {
+  height: 124px;
+}
+
+.header-homepage .header-title {
+  font-size: 48px;
+  line-height: 124px;
+  float: left;
+  margin-left: 1em;
+  font-weight: bold;
+}
+
+.header-homepage .form-container {
+  margin-top: 36px;
+  float: right;
+}
+
+.header-homepage .form-container * {
+  font-size: 16px;
+}
+
+.header-homepage .form-container .label-container {
+  height: 20px;
+  width: 500px;
+}
+
+.header-homepage .form-container .label-container label {
+  display: inline-block;
+  font-weight: bold;
+  width: 160px;
+  padding: 0 18px;
+}
+
+.header-homepage .form-container .input-container {
+  width: 500px;
+  padding-right: 16px;
+}
+
+.header-homepage .form-container .input-container * {
+  border: 2px solid #000;
+}
+
+.header-homepage .form-container .input-container .login-field {
+  width: 160px;
+  margin: 0 1em;
+
+}
+
+.header-homepage .form-container .input-container .login-button {
+  font-weight: bold;
+  width: 68px;
+}
+
+.header-not-homepage {
+
+}
