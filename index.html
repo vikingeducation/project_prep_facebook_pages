@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
-  <body>
+  <body id="index-page">
     <div class= "header header-homepage">
       <div class="header-title">
         Facelook
@@ -22,6 +22,36 @@
           </div>
         </form>
       </div> 
+    </div>
+    <div class="home-pitch-container">
+      <h2>Connect with all your friends!</h2>
+      <ul>
+        <li>See photos and updates in your news feed.</li>
+        <li>Post your status for the world to see from your profile</li>
+        <li>Get in touch with your friends by "friending" them</li>
+        <li>Like things because you're a positive person!</li>
+      </ul>
+    </div>
+    <div class="home-signup-container">
+      <h1>Sign Up</h1>
+      <form>
+        <input type="text" name="first-name" placeholder="First Name">
+        <input type="text" name="last-name" placeholder="Last Name">
+        <input type="text" name="email" placeholder="Your Email">
+        <input type="password" name="password" placeholder="Your New Password">
+        <input type="password" name="password-confirm" placeholder="Confirm Your Password">
+        <label for="birthdate">Birthday</label>
+        <select name="birth-month">
+          <option disabled selected>Month</option>
+        </select>
+        <select name="birth-day">
+          <option disabled selected>Day</option>
+        </select>
+        <select name="birth-year">
+          <option disabled selected>Year</option>
+        </select>        
+        <input type="radio" name="gender" value="Female">Female</input>
+        <input type="radio" name="gender" value="Male">Male</input>
     </div>
   </body>
 </html>
