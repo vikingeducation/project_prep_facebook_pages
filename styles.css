@@ -3,6 +3,7 @@ body {
 }
 
 .header {
+  font-size: 16px;
   color: #fff;
   background-color: #2B78E4;
   border: 2px solid #333;
@@ -51,9 +52,9 @@ body {
 }
 
 .header-homepage .form-container .input-container .login-field {
-  width: 160px;
+  width: 154px;
   margin: 0 1em;
-
+  padding-left: 6px;
 }
 
 .header-homepage .form-container .input-container .login-button {
@@ -62,5 +63,39 @@ body {
 }
 
 .header-not-homepage {
+  font-size: 16px;
+  height: 64px;
+}
 
+.header-not-homepage .header-logo {
+  height: 48px;
+  width: 48px;
+  float: left;
+  margin: 8px 0 8px 96px;
+}
+
+.header-not-homepage .header-title {
+  font-size: 28px;
+  line-height: 64px;
+  float: left;
+  margin: 0 1.5em 0 0.5em;
+  font-weight: bold;
+}
+
+.header-not-homepage .search-field {
+  color: #333;
+  font-weight: bold;
+  width: 560px;
+  height: 24px;
+  margin: 20px 0;
+  padding-left: 6px;
+  float: left;
+}
+
+.header-not-homepage .active-user {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 96px;
+  line-height: 64px;
+  float: right;
 }
