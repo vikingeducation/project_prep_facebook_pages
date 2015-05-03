@@ -99,3 +99,103 @@ body {
   line-height: 64px;
   float: right;
 }
+
+#index-page h1 {
+  font-size: 48px;
+  margin-top: 24px;
+  margin-left: 696px;
+}
+
+#index-page .home-pitch-container {
+  width: 600px;
+  display: inline-block;
+  margin: 8px 0 0 96px;
+  line-height: 3em;
+}
+
+#index-page .home-pitch-container h2 {
+  font-size: 28px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #333;
+}
+
+#index-page .home-pitch-container .list-container {
+  padding-left: 36px;
+}
+
+#index-page .home-pitch-container ul {
+  list-style: disc outside none;
+  font-size: 18px;
+  color: #666;
+}
+
+#index-page .home-pitch-container li {
+  padding-left: 12px;
+}
+
+#index-page .home-signup-container {
+  font-size: 18px;
+  line-height: 2.5em;
+  width: 360px;
+  display: inline-block;
+  margin-top: 8px;
+  vertical-align: top;
+}
+
+#index-page .home-signup-container .text-input {
+  font-size: 14px;
+  line-height: 1.2em;
+  margin-top: 16px;
+  vertical-align: middle;
+  padding-left: 6px;
+  border: 2px solid #bbb;
+}
+
+#index-page .home-signup-container .name-input {
+  width: 148px;
+  margin-right: 16px;
+}
+
+#index-page .home-signup-container .long-text-input {
+  width: 327px;
+}
+
+#index-page .home-signup-container label {
+  font-weight: bold;
+  line-height: 1em;
+  margin-top: 1.5em;
+  display: block;
+}
+
+#index-page .home-signup-container .birth-date-container {
+  display: block;
+}
+
+#index-page .home-signup-container select {
+  font-size: 14px;
+  margin-right: 12px;
+}
+
+#index-page .home-signup-container .radio-container {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1em;
+  margin-right: 12px;
+}
+
+#index-page .home-signup-container .radio-container input {
+  margin: 0;
+}
+
+#index-page .home-signup-container .submit-button {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5em;
+  width: 337px;
+  display: block;
+  color: #fff;
+  background-color: #239E0F;
+  border: 2px solid #333;
+
+}

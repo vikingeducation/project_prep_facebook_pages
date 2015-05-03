@@ -23,35 +23,44 @@
         </form>
       </div> 
     </div>
+    <h1>Sign Up</h1>
     <div class="home-pitch-container">
       <h2>Connect with all your friends!</h2>
-      <ul>
-        <li>See photos and updates in your news feed.</li>
-        <li>Post your status for the world to see from your profile</li>
-        <li>Get in touch with your friends by "friending" them</li>
-        <li>Like things because you're a positive person!</li>
-      </ul>
+      <div class="list-container">
+        <ul>
+          <li>See photos and updates in your news feed</li>
+          <li>Post your status for the world to see from your profile</li>
+          <li>Get in touch with your friends by "friending" them</li>
+          <li>Like things because you're a positive person!</li>
+        </ul>
+      </div>
     </div>
     <div class="home-signup-container">
-      <h1>Sign Up</h1>
       <form>
-        <input type="text" name="first-name" placeholder="First Name">
-        <input type="text" name="last-name" placeholder="Last Name">
-        <input type="text" name="email" placeholder="Your Email">
-        <input type="password" name="password" placeholder="Your New Password">
-        <input type="password" name="password-confirm" placeholder="Confirm Your Password">
+        <input type="text" name="first-name" placeholder="First Name" class=" text-input name-input">
+        <input type="text" name="last-name" placeholder="Last Name" class="text-input name-input">
+        <input type="text" name="email" placeholder="Your Email" class="text-input long-text-input">
+        <input type="password" name="password" placeholder="Your New Password" class="text-input long-text-input">
+        <input type="password" name="password-confirm" placeholder="Confirm Your Password" class="text-input long-text-input">
         <label for="birthdate">Birthday</label>
-        <select name="birth-month">
-          <option disabled selected>Month</option>
-        </select>
-        <select name="birth-day">
-          <option disabled selected>Day</option>
-        </select>
-        <select name="birth-year">
-          <option disabled selected>Year</option>
-        </select>        
-        <input type="radio" name="gender" value="Female">Female</input>
-        <input type="radio" name="gender" value="Male">Male</input>
+        <div class="birth-date-container">
+          <select name="birth-month">
+            <option disabled selected>Month</option>
+          </select>
+          <select name="birth-day">
+            <option disabled selected>Day</option>
+          </select>
+          <select name="birth-year">
+            <option disabled selected>Year</option>
+          </select>
+        </div>
+        <div class="radio-container">
+          <input type="radio" name="gender" value="Female">Female</input>
+        </div>
+        <div class="radio-container">
+          <input type="radio" name="gender" value="Male">Male</input>
+        </div>
+        <input type="submit" value="Sign Up!" class="submit-button">
       </form>
     </div>
   </body>
