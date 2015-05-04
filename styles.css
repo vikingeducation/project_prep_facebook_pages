@@ -262,3 +262,73 @@ body {
   border: 1px solid #333;
   padding-right: 16px;
 }
+
+#about-page .profile-container .profile-title {
+  width: 851px;
+  height: 36px;
+  border: 2px solid #333;
+  margin: 12px auto 0 auto;
+  text-align: center;
+  position: relative;
+  background-color: #eee;
+}
+
+#about-page .profile-container .profile-title h2{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+#about-page .profile-container .profile-title button{
+  font-size: 14px;
+  color: #fff;
+  background-color: #2B78E4;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  border-color: #333;
+}
+
+#about-page .profile-container .profile-content-container {
+  font-size: 14px;
+  line-height: 1.6em;
+  width: 851px;
+  height: 360px;
+  border: 2px solid #333;
+  border-top: none;
+  margin: auto;
+  padding-top: 8px;
+}
+
+#about-page .profile-container .profile-content-container .personal-info {
+  width: 300px;
+  float: left;
+  padding-left: 30px
+} 
+
+#about-page .profile-container .profile-content-container .words-to-live-by,.about-me {
+  width: 400px;
+  margin-right: 64px;
+  float: right;
+} 
+
+#about-page .profile-container .profile-content-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 1em 0 0.5em 0;
+}
+
+#about-page .profile-container .profile-content-container th {
+  text-align: left;
+  vertical-align: top;
+  font-weight: bold;
+  width: 130px;
+}
+
+#about-page .profile-container .profile-content-container td {
+  /*text-align: right;*/
+}
+
+#about-page .profile-container .profile-content-container td,p {
+
+}
