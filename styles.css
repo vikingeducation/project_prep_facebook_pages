@@ -199,11 +199,64 @@ body {
   border: 2px solid #333;
 }
 
-#about-page .profile-navigation .cover-image {
-  display: block;
+#about-page .profile-navigation .cover-image-container {
+  width: 851px;
+  height: 315px;
+  margin: auto;
+  position: relative;
+}
+
+#about-page .profile-navigation .profile-image-container {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  bottom: -20px;
+  left: 10px;
+  border: 2px solid #333;
+}
+
+#about-page .profile-navigation .profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  left: 190px;
+}
+
+#about-page .profile-navigation .profile-navbar {
+  font-size: 14px;
+  width: 851px;
+  height: 36px;
+  line-height: 36px;
   margin: auto;
 }
 
-#about-page .profile-navigation .profile-image {
-  
+#about-page .profile-navigation .profile-navbar .profile-nav-indent {
+  float: left;
+  width: 188px;
+  height: 36px;
+  border: 1px solid #333;
+}
+
+#about-page .profile-navigation .profile-navbar .profile-nav-button {
+  float: left;
+  margin: 0;
+  width: 98px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #333;
+}
+
+#about-page .profile-navigation .profile-navbar .profile-nav-button span {
+  font-weight: normal;
+  color: #999;
+}
+
+#about-page .profile-navigation .profile-navbar .edit-profile-container {
+  float: left;
+  margin: 0;
+  width: 243px;
+  text-align: right;
+  border: 1px solid #333;
+  padding-right: 16px;
 }
