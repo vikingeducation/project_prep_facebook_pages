@@ -197,5 +197,13 @@ body {
   color: #fff;
   background-color: #239E0F;
   border: 2px solid #333;
+}
 
+#about-page .profile-navigation .cover-image {
+  display: block;
+  margin: auto;
+}
+
+#about-page .profile-navigation .profile-image {
+  
 }
