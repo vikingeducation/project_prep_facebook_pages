@@ -318,17 +318,10 @@ body {
   padding: 1em 0 0.5em 0;
 }
 
-#about-page .profile-container .profile-content-container th {
+#about-page .profile-container .profile-content-container .info-titles {
   text-align: left;
   vertical-align: top;
   font-weight: bold;
-  width: 130px;
-}
-
-#about-page .profile-container .profile-content-container td {
-  /*text-align: right;*/
-}
-
-#about-page .profile-container .profile-content-container td,p {
-
+  width: 120px;
+  float: left;
 }
