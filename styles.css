@@ -199,14 +199,14 @@ body {
   border: 2px solid #333;
 }
 
-#about-page .profile-navigation .cover-image-container {
+.profile-navigation .cover-image-container {
   width: 851px;
   height: 315px;
   margin: auto;
   position: relative;
 }
 
-#about-page .profile-navigation .profile-image-container {
+.profile-navigation .profile-image-container {
   width: 160px;
   height: 160px;
   position: absolute;
@@ -215,7 +215,7 @@ body {
   border: 2px solid #333;
 }
 
-#about-page .profile-navigation .profile-name {
+.profile-navigation .profile-name {
   font-size: 24px;
   font-weight: bold;
   position: absolute;
@@ -223,7 +223,7 @@ body {
   left: 190px;
 }
 
-#about-page .profile-navigation .profile-navbar {
+.profile-navigation .profile-navbar {
   font-size: 14px;
   width: 851px;
   height: 36px;
@@ -231,14 +231,14 @@ body {
   margin: auto;
 }
 
-#about-page .profile-navigation .profile-navbar .profile-nav-indent {
+.profile-navigation .profile-navbar .profile-nav-indent {
   float: left;
   width: 188px;
   height: 36px;
   border: 1px solid #333;
 }
 
-#about-page .profile-navigation .profile-navbar .profile-nav-button {
+.profile-navigation .profile-navbar .profile-nav-button {
   float: left;
   margin: 0;
   width: 98px;
@@ -249,12 +249,16 @@ body {
   color: #333;
 }
 
-#about-page .profile-navigation .profile-navbar .profile-nav-button span {
+.profile-navigation .profile-navbar .profile-nav-button span {
   font-weight: normal;
   color: #999;
 }
 
-#about-page .profile-navigation .profile-navbar .edit-profile-container {
+.profile-navigation .profile-navbar .active {
+  background-color: #eee;
+}
+
+.profile-navigation .profile-navbar .edit-profile-container {
   float: left;
   margin: 0;
   width: 243px;
@@ -263,7 +267,7 @@ body {
   padding-right: 16px;
 }
 
-#about-page .profile-container .profile-title {
+.content-container .content-title {
   width: 851px;
   height: 36px;
   border: 2px solid #333;
@@ -273,13 +277,13 @@ body {
   background-color: #eee;
 }
 
-#about-page .profile-container .profile-title h2{
+.content-container .content-title h2{
   font-size: 30px;
   line-height: 36px;
   font-weight: bold;
 }
 
-#about-page .profile-container .profile-title button{
+#about-page .content-container .content-title button{
   font-size: 14px;
   color: #fff;
   background-color: #2B78E4;
@@ -289,7 +293,7 @@ body {
   border-color: #333;
 }
 
-#about-page .profile-container .profile-content-container {
+#about-page .content-container .profile-content-container {
   font-size: 14px;
   line-height: 1.6em;
   width: 851px;
@@ -300,25 +304,25 @@ body {
   padding-top: 8px;
 }
 
-#about-page .profile-container .profile-content-container .personal-info {
+#about-page .content-container .profile-content-container .personal-info {
   width: 300px;
   float: left;
   padding-left: 30px
 } 
 
-#about-page .profile-container .profile-content-container .words-to-live-by,.about-me {
+#about-page .content-container .profile-content-container .words-to-live-by,.about-me {
   width: 400px;
   margin-right: 64px;
   float: right;
 } 
 
-#about-page .profile-container .profile-content-container h3 {
+#about-page .content-container .profile-content-container h3 {
   font-size: 24px;
   font-weight: bold;
   padding: 1em 0 0.5em 0;
 }
 
-#about-page .profile-container .profile-content-container .info-titles {
+#about-page .content-container .profile-content-container .info-titles {
   text-align: left;
   vertical-align: top;
   font-weight: bold;
