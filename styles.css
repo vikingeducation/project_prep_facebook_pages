@@ -267,8 +267,13 @@ body {
   padding-right: 16px;
 }
 
-.content-container .content-title {
+.content-container {
   width: 851px;
+  margin: 0 auto 16px auto;
+
+}
+
+.content-container .content-title {
   height: 36px;
   border: 2px solid #333;
   margin: 12px auto 0 auto;
@@ -296,7 +301,6 @@ body {
 #about-page .content-container .profile-content-container {
   font-size: 14px;
   line-height: 1.6em;
-  width: 851px;
   height: 360px;
   border: 2px solid #333;
   border-top: none;
@@ -328,4 +332,65 @@ body {
   font-weight: bold;
   width: 120px;
   float: left;
+}
+
+#friends-page .content-container .friends-container {
+  border: 2px solid #333;
+  border-top: none;
+  padding: 8px 41px;
+  /*margin: auto;*/
+}
+
+#friends-page .content-container .friends-container a {  
+  text-decoration: none;
+  display: inline-block;
+}
+
+#friends-page .content-container .friends-container .friend {
+  border: 2px solid #333;
+  margin: 8px;
+  width: 360px;
+  height: 120px;
+  position: relative;
+}
+
+#friends-page .content-container .friends-container .friend img {
+  margin: 12px;
+  outline: 1px solid #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#friends-page .content-container .friends-container .friend .friend-name {
+  font-size: 14px;
+  margin: auto;
+  width: 120px;
+  position: absolute;
+  top: 46px;
+  left: 120px;
+}
+
+#friends-page .content-container .friends-container .friend .friend-name p, p:visited {
+  color: #999;
+  
+}
+
+#friends-page .content-container .friends-container .friend .friend-name .name {
+  color: #2B78E4;
+  text-decoration: underline;  
+}
+
+
+#friends-page .content-container .friends-container .friend form {
+  width: 100px;
+  height: 28px;
+  position: absolute;
+  top: 46px;
+  left: 248px;
+}
+
+#friends-page .content-container .friends-container .friend input {
+  margin: 0px 8px;
+  border: 2px solid #333;
 }
