@@ -394,3 +394,76 @@ body {
   margin: 0px 8px;
   border: 2px solid #333;
 }
+
+.newsfeed-nav {
+  font-size: 14px;
+  width: 300px;
+  height: 1200px;
+  border: 2px solid #333;
+  border-top: none;
+}
+
+.newsfeed-nav .nav-user {
+  position: relative;
+}
+
+.newsfeed-nav .nav-user img {
+  width: 96px;
+  margin: 32px;
+  margin-right: 8px;
+  outline: 1px solid #333;
+}
+
+.newsfeed-nav .nav-user .nav-text-container {
+  width: 160px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+
+.newsfeed-nav .nav-user a span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.newsfeed-nav .active-friends-container {
+  margin-left: 32px;
+}
+
+.newsfeed-nav .active-friends-container h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.newsfeed-nav .active-friends-container .active-friend {
+  position: relative;
+}
+
+.newsfeed-nav .active-friends-container .active-friend img {
+  width: 48px;
+  margin: 8px;
+  outline: 1px solid #333;
+}
+
+.newsfeed-nav .active-friends-container .active-friend .friend-text-container {
+  width: 204px;
+  position: absolute;
+  top: 12px;
+  right: 0;
+}
+
+.newsfeed-nav .active-friends-container .active-friend .friend-text-container p {
+  line-height: 1.5em;
+  color: #999;
+}
+
+.newsfeed-nav .active-friends-container .active-friend a {
+  font-weight: bold;
+}
+
+.newsfeed-nav .active-friends-container .all-friends-link {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 32px;
+}
