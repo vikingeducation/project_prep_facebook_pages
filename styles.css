@@ -399,9 +399,7 @@ body {
   font-size: 14px;
   width: 300px;
   height: 1200px;
-  border: 2px solid #333;
-  border-top: none;
-  
+  border-right: 2px solid #333;  
 }
 
 .newsfeed-nav .nav-user {
@@ -473,18 +471,16 @@ body {
   font-size: 14px;
   height: 1200px;
   margin-left: 304px;
-  border-right: 2px solid #333;
-  border-bottom: 2px solid #333;
+  padding-left: 96px;
   position: absolute;
   top: 68px;
 }
 
 .newsfeed-content .make-post-container {
   font-weight: bold;
-  width: 400px;
-  /*height: 120px;*/
+  width: 560px;
   line-height: 1.5em;
-  margin: 24px auto 0 auto;
+  margin-top: 24px;
   border: 2px solid #333;
   text-align: center;
   background-color: #eee;
@@ -498,7 +494,7 @@ body {
 
 .newsfeed-content .make-post-container textarea {
   height: 4em;
-  width: 372px;
+  width: 532px;
   vertical-align: middle;
   margin: 10px;
   padding: 4px;
@@ -517,4 +513,9 @@ body {
   border: 2px solid #333;
   color: #fff;
   background-color: #2B78E4;
+}
+
+
+.newsfeed-content .post-container {
+  width: 560px; 
 }
