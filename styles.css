@@ -1,0 +1,632 @@
+body {
+  font-family: helvetica, sans-serif;
+}
+
+.header {
+  font-size: 16px;
+  color: #fff;
+  background-color: #2B78E4;
+  border: 2px solid #333;
+}
+
+.header-homepage {
+  height: 124px;
+}
+
+.header-homepage .header-title {
+  font-size: 48px;
+  line-height: 124px;
+  float: left;
+  margin-left: 1em;
+  font-weight: bold;
+}
+
+.header-homepage .form-container {
+  margin-top: 36px;
+  float: right;
+}
+
+.header-homepage .form-container * {
+  font-size: 16px;
+}
+
+.header-homepage .form-container .label-container {
+  height: 20px;
+  width: 500px;
+}
+
+.header-homepage .form-container .label-container label {
+  display: inline-block;
+  font-weight: bold;
+  width: 160px;
+  padding: 0 18px;
+}
+
+.header-homepage .form-container .input-container {
+  width: 500px;
+  padding-right: 16px;
+}
+
+.header-homepage .form-container .input-container * {
+  border: 2px solid #000;
+}
+
+.header-homepage .form-container .input-container .login-field {
+  width: 154px;
+  margin: 0 1em;
+  padding-left: 6px;
+}
+
+.header-homepage .form-container .input-container .login-button {
+  font-weight: bold;
+  width: 68px;
+}
+
+.header-not-homepage {
+  font-size: 16px;
+  height: 64px;
+}
+
+.header-not-homepage .header-logo {
+  height: 48px;
+  width: 48px;
+  float: left;
+  margin: 8px 0 8px 96px;
+}
+
+.header-not-homepage .header-title {
+  font-size: 28px;
+  line-height: 64px;
+  float: left;
+  margin: 0 1.5em 0 0.5em;
+  font-weight: bold;
+}
+
+.header-not-homepage .search-field {
+  color: #333;
+  font-weight: bold;
+  width: 560px;
+  height: 24px;
+  margin: 20px 0;
+  padding-left: 6px;
+  float: left;
+}
+
+.header-not-homepage .active-user {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 96px;
+  line-height: 64px;
+  float: right;
+}
+
+#index-page h1 {
+  font-size: 48px;
+  margin-top: 24px;
+  margin-left: 696px;
+}
+
+#index-page .home-pitch-container {
+  width: 600px;
+  display: inline-block;
+  margin: 8px 0 0 96px;
+  line-height: 3em;
+}
+
+#index-page .home-pitch-container h2 {
+  font-size: 28px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  color: #333;
+}
+
+#index-page .home-pitch-container .list-container {
+  padding-left: 36px;
+}
+
+#index-page .home-pitch-container ul {
+  list-style: disc outside none;
+  font-size: 18px;
+  color: #666;
+}
+
+#index-page .home-pitch-container li {
+  padding-left: 12px;
+}
+
+#index-page .home-signup-container {
+  font-size: 18px;
+  line-height: 2.5em;
+  width: 360px;
+  display: inline-block;
+  margin-top: 8px;
+  vertical-align: top;
+}
+
+#index-page .home-signup-container .text-input {
+  font-size: 14px;
+  line-height: 1.2em;
+  margin-top: 16px;
+  vertical-align: middle;
+  padding-left: 6px;
+  border: 2px solid #bbb;
+}
+
+#index-page .home-signup-container .name-input {
+  width: 148px;
+  margin-right: 16px;
+}
+
+#index-page .home-signup-container .long-text-input {
+  width: 327px;
+}
+
+#index-page .home-signup-container label {
+  font-weight: bold;
+  line-height: 1em;
+  margin-top: 1.5em;
+  display: block;
+}
+
+#index-page .home-signup-container .birth-date-container {
+  display: block;
+}
+
+#index-page .home-signup-container select {
+  font-size: 14px;
+  margin-right: 12px;
+}
+
+#index-page .home-signup-container .radio-container {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1em;
+  margin-right: 12px;
+}
+
+#index-page .home-signup-container .radio-container input {
+  margin: 0;
+}
+
+#index-page .home-signup-container .submit-button {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5em;
+  width: 337px;
+  display: block;
+  color: #fff;
+  background-color: #239E0F;
+  border: 2px solid #333;
+}
+
+.profile-navigation .cover-image-container {
+  width: 851px;
+  height: 315px;
+  margin: auto;
+  position: relative;
+}
+
+.profile-navigation .profile-image-container {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  bottom: -20px;
+  left: 10px;
+  border: 2px solid #333;
+}
+
+.profile-navigation .profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 10px;
+  left: 190px;
+}
+
+.profile-navigation .profile-navbar {
+  font-size: 14px;
+  width: 851px;
+  height: 36px;
+  line-height: 36px;
+  margin: auto;
+}
+
+.profile-navigation .profile-navbar .profile-nav-indent {
+  float: left;
+  width: 188px;
+  height: 36px;
+  border: 1px solid #333;
+}
+
+.profile-navigation .profile-navbar .profile-nav-button {
+  float: left;
+  margin: 0;
+  width: 98px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #333;
+  text-decoration: none;
+  color: #333;
+}
+
+.profile-navigation .profile-navbar .profile-nav-button span {
+  font-weight: normal;
+  color: #999;
+}
+
+.profile-navigation .profile-navbar .active {
+  background-color: #eee;
+}
+
+.profile-navigation .profile-navbar .edit-profile-container {
+  float: left;
+  margin: 0;
+  width: 243px;
+  text-align: right;
+  border: 1px solid #333;
+  padding-right: 16px;
+}
+
+.content-container {
+  width: 851px;
+  margin: 0 auto 16px auto;
+
+}
+
+.content-container .content-title {
+  height: 36px;
+  border: 2px solid #333;
+  margin: 12px auto 0 auto;
+  text-align: center;
+  position: relative;
+  background-color: #eee;
+}
+
+.content-container .content-title h2{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+#about-page .content-container .content-title button{
+  font-size: 14px;
+  color: #fff;
+  background-color: #2B78E4;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  border-color: #333;
+}
+
+#about-page .content-container .profile-content-container {
+  font-size: 14px;
+  line-height: 1.6em;
+  height: 360px;
+  border: 2px solid #333;
+  border-top: none;
+  margin: auto;
+  padding-top: 8px;
+}
+
+#about-page .content-container .profile-content-container .personal-info {
+  width: 300px;
+  float: left;
+  padding-left: 30px
+} 
+
+#about-page .content-container .profile-content-container .words-to-live-by,.about-me {
+  width: 400px;
+  margin-right: 64px;
+  float: right;
+} 
+
+#about-page .content-container .profile-content-container h3 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 1em 0 0.5em 0;
+}
+
+#about-page .content-container .profile-content-container .info-titles {
+  text-align: left;
+  vertical-align: top;
+  font-weight: bold;
+  width: 120px;
+  float: left;
+}
+
+#friends-page .content-container .friends-container {
+  border: 2px solid #333;
+  border-top: none;
+  padding: 8px 41px;
+  /*margin: auto;*/
+}
+
+#friends-page .content-container .friends-container a {  
+  text-decoration: none;
+  display: inline-block;
+}
+
+#friends-page .content-container .friends-container .friend {
+  border: 2px solid #333;
+  margin: 8px;
+  width: 360px;
+  height: 120px;
+  position: relative;
+}
+
+#friends-page .content-container .friends-container .friend img {
+  margin: 12px;
+  outline: 1px solid #333;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#friends-page .content-container .friends-container .friend .friend-name {
+  font-size: 14px;
+  margin: auto;
+  width: 120px;
+  position: absolute;
+  top: 46px;
+  left: 120px;
+}
+
+#friends-page .content-container .friends-container .friend .friend-name p, p:visited {
+  color: #999;
+  
+}
+
+#friends-page .content-container .friends-container .friend .friend-name .name {
+  color: #2B78E4;
+  text-decoration: underline;  
+}
+
+
+#friends-page .content-container .friends-container .friend form {
+  width: 100px;
+  height: 28px;
+  position: absolute;
+  top: 46px;
+  left: 248px;
+}
+
+#friends-page .content-container .friends-container .friend input {
+  margin: 0px 8px;
+  border: 2px solid #333;
+}
+
+.newsfeed-nav {
+  font-size: 14px;
+  width: 300px;
+  height: 1500px;
+  border-right: 2px solid #333;  
+}
+
+.newsfeed-nav .nav-user {
+  position: relative;
+}
+
+.newsfeed-nav .nav-user img {
+  width: 96px;
+  margin: 32px;
+  margin-right: 8px;
+  outline: 1px solid #333;
+}
+
+.newsfeed-nav .nav-user .nav-text-container {
+  width: 160px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+
+.newsfeed-nav .nav-user a span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.newsfeed-nav .active-friends-container {
+  margin-left: 32px;
+}
+
+.newsfeed-nav .active-friends-container h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.newsfeed-nav .active-friends-container .active-friend {
+  position: relative;
+}
+
+.newsfeed-nav .active-friends-container .active-friend img {
+  width: 48px;
+  margin: 8px;
+  outline: 1px solid #333;
+}
+
+.newsfeed-nav .active-friends-container .active-friend .friend-text-container {
+  width: 204px;
+  position: absolute;
+  top: 12px;
+  right: 0;
+}
+
+.newsfeed-nav .active-friends-container .active-friend .friend-text-container p {
+  line-height: 1.5em;
+  color: #999;
+}
+
+.newsfeed-nav .active-friends-container .active-friend a {
+  font-weight: bold;
+}
+
+.newsfeed-nav .active-friends-container .all-friends-link {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 32px;
+}
+
+.newsfeed-content {
+  font-size: 14px;
+  height: 1500px;
+  margin-left: 304px;
+  padding-left: 96px;
+  position: absolute;
+  top: 68px;
+}
+
+.newsfeed-content .make-post-container {
+  font-weight: bold;
+  width: 560px;
+  line-height: 1.5em;
+  margin-top: 24px;
+  border: 2px solid #333;
+  text-align: center;
+  background-color: #eee;
+}
+
+.newsfeed-content .make-post-container .text-container {
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  background-color: #fff;
+}
+
+.newsfeed-content .make-post-container textarea {
+  height: 4em;
+  width: 532px;
+  vertical-align: middle;
+  margin: 10px;
+  padding: 4px;
+  border: 2px solid #333;
+}
+
+.newsfeed-content .make-post-container .submit-container {  
+  text-align: right;
+  padding: 8px;
+}
+
+.newsfeed-content .make-post-container .submit-container input { 
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 8px;
+  border: 2px solid #333;
+  color: #fff;
+  background-color: #2B78E4;
+}
+
+
+.newsfeed-content .post-container {
+  width: 560px;
+  border: 2px solid #333;
+  margin: 24px 0; 
+  position: relative;
+}
+
+.newsfeed-content .post-container img {
+  width: 48px;
+  margin: 8px;
+  outline: 1px solid #333;
+}
+
+.newsfeed-content .post-container .post-header {
+  position: absolute;
+  left: 64px;
+  top: 12px;
+}
+
+.newsfeed-content .post-container .post-header a {
+  font-weight: bold;
+}
+
+.newsfeed-content .post-container .post-header p {
+  line-height: 1.5em;
+  color: #999;
+}
+
+.newsfeed-content .post-container .post-text {
+  padding: 8px;
+  line-height: 1.2em;
+}
+
+.newsfeed-content .post-container .post-footer {
+  padding: 0 8px;
+  border-top: 2px solid #333;
+  background-color: #eee;
+  line-height: 2em;
+}
+
+.newsfeed-content .post-container .post-footer .footer-links a {
+  padding-right: 8px;
+}
+
+.newsfeed-content .post-container .post-footer a.link-right {
+  float: right;
+}
+
+.newsfeed-content .post-container .post-footer .comments-container {
+  border-top: 2px solid #999;
+  margin-top: 6px;
+  padding-top: 6px;
+}
+
+.newsfeed-content .post-container .post-footer .comments-container .comment {
+  position: relative;
+}
+
+.newsfeed-content .post-container .post-footer .comments-container .comment-header {
+  position: absolute;
+  left: 64px;
+  top: 6px;
+}
+
+.newsfeed-content .post-container .post-footer .comments-container .comment-header p {
+  display: inline;
+  padding-left: 4px;
+  color: #999;
+}  
+
+.newsfeed-content .post-container .post-footer .comments-container .comment-text {
+  width: 480px;
+  line-height: 1.2em;
+  margin-left: 64px;
+  margin-top: -36px;
+}
+
+.newsfeed-content .post-container .post-footer .comments-container .comment-footer {
+  margin-left: 64px;
+}
+
+.newsfeed-content .post-container .post-footer .comments-container .comment-footer p {
+  display: inline;
+  padding-left: 4px;
+  color: #999;
+}
+
+.newsfeed-content .post-container .post-footer .comments-container form {
+  margin-top: 36px;
+}
+
+.newsfeed-content .post-container .post-footer .comments-container textarea {
+  height: 5em;
+  width: 532px;
+  vertical-align: middle;
+  padding: 4px;
+  border: 2px solid #333;
+}
+
+.newsfeed-content .post-container .submit-container {  
+  padding: 8px;
+  line-height: 20px;
+}
+
+
+.newsfeed-content .post-container .submit-container input { 
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 8px;
+  border: 2px solid #333;
+  color: #fff;
+  background-color: #2B78E4;
+  float: right;
+}
