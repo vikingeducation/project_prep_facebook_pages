@@ -398,7 +398,7 @@ body {
 .newsfeed-nav {
   font-size: 14px;
   width: 300px;
-  height: 1200px;
+  height: 1500px;
   border-right: 2px solid #333;  
 }
 
@@ -469,7 +469,7 @@ body {
 
 .newsfeed-content {
   font-size: 14px;
-  height: 1200px;
+  height: 1500px;
   margin-left: 304px;
   padding-left: 96px;
   position: absolute;
@@ -517,5 +517,116 @@ body {
 
 
 .newsfeed-content .post-container {
-  width: 560px; 
+  width: 560px;
+  border: 2px solid #333;
+  margin: 24px 0; 
+  position: relative;
+}
+
+.newsfeed-content .post-container img {
+  width: 48px;
+  margin: 8px;
+  outline: 1px solid #333;
+}
+
+.newsfeed-content .post-container .post-header {
+  position: absolute;
+  left: 64px;
+  top: 12px;
+}
+
+.newsfeed-content .post-container .post-header a {
+  font-weight: bold;
+}
+
+.newsfeed-content .post-container .post-header p {
+  line-height: 1.5em;
+  color: #999;
+}
+
+.newsfeed-content .post-container .post-text {
+  padding: 8px;
+  line-height: 1.2em;
+}
+
+.newsfeed-content .post-container .post-footer {
+  padding: 0 8px;
+  border-top: 2px solid #333;
+  background-color: #eee;
+  line-height: 2em;
+}
+
+.newsfeed-content .post-container .post-footer .footer-links a {
+  padding-right: 8px;
+}
+
+.newsfeed-content .post-container .post-footer a.link-right {
+  float: right;
+}
+
+.newsfeed-content .post-container .post-footer .comments-container {
+  border-top: 2px solid #999;
+  margin-top: 6px;
+  padding-top: 6px;
+}
+
+.newsfeed-content .post-container .post-footer .comments-container .comment {
+  position: relative;
+}
+
+.newsfeed-content .post-container .post-footer .comments-container .comment-header {
+  position: absolute;
+  left: 64px;
+  top: 6px;
+}
+
+.newsfeed-content .post-container .post-footer .comments-container .comment-header p {
+  display: inline;
+  padding-left: 4px;
+  color: #999;
+}  
+
+.newsfeed-content .post-container .post-footer .comments-container .comment-text {
+  width: 480px;
+  line-height: 1.2em;
+  margin-left: 64px;
+  margin-top: -36px;
+}
+
+.newsfeed-content .post-container .post-footer .comments-container .comment-footer {
+  margin-left: 64px;
+}
+
+.newsfeed-content .post-container .post-footer .comments-container .comment-footer p {
+  display: inline;
+  padding-left: 4px;
+  color: #999;
+}
+
+.newsfeed-content .post-container .post-footer .comments-container form {
+  margin-top: 36px;
+}
+
+.newsfeed-content .post-container .post-footer .comments-container textarea {
+  height: 5em;
+  width: 532px;
+  vertical-align: middle;
+  padding: 4px;
+  border: 2px solid #333;
+}
+
+.newsfeed-content .post-container .submit-container {  
+  padding: 8px;
+  line-height: 20px;
+}
+
+
+.newsfeed-content .post-container .submit-container input { 
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 8px;
+  border: 2px solid #333;
+  color: #fff;
+  background-color: #2B78E4;
+  float: right;
 }
