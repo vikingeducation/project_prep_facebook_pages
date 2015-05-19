@@ -1,0 +1,951 @@
+
+@font-face{
+  font-family: 'Open Sans';
+  src:
+      local('Open Sans'),
+      local('OpenSans-Regular.ttf'),
+      url('OpenSans.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+  height: 100%;
+}
+/*////////////HEADER///////////////*/
+
+.signup-header {
+  border: solid 2px green;
+  background-color: #297ADE;
+  color: white;
+}
+
+.signup-header h1 {
+  display: inline;
+  float: left;
+  font-size: 40px;
+  padding-left: 30px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.signup-header form ul{
+  margin: 0;
+}
+
+.signup-header form{
+  margin-top: 0px;
+  float: right;
+  display: inline;
+  list-style-type: none;
+}
+.signup-header form li {
+  display: inline;
+  float: left;
+  margin-top:0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.signup-header form li p {
+  margin-bottom: 0;
+}
+
+.signup-header form li:last-child {
+  margin-top: 37.5px;
+}
+
+input[name="login-button"] {
+  width: 70px;
+  background-color: #9CC3F1;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  font-size: 15px;
+}
+.signup-header:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+/*//////////////////////////////////////*/
+/*////////END OF HEADER//////////////////*/
+
+
+
+/*/////////START OF SELLING POINTS/////////*/
+
+
+.main-sign-up{
+  width: 100%;
+  position: relative;
+  border: solid 2px orange;
+}
+
+.selling-point-content{
+  width: 50%;
+  display: inline-block;
+  float: left;
+  padding-left: 10%;
+  padding-top: 50px;
+}
+
+.selling-point-content ul {
+}
+
+.selling-point-content h2{
+  font-size: 28px;
+}
+
+.selling-point-content p {
+  font-size: 17px;
+}
+
+/*//////////////////////////////*/
+
+
+
+
+/*///////SIGN UP FORM//////////*/
+
+.sign-up-form{
+  width: 40%;
+  display: inline-block;
+  float: right;
+}
+
+.sign-up-form h1 {
+  font-size: 40px;
+}
+
+.sign-up-form input {
+  margin-bottom: 15px;
+  margin-right: 10px;
+}
+.sign-up-form h4 {
+  margin-bottom: -20px;
+  margin-top: 0;
+}
+input[type="text"], input[type="number"]{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+input[name="fname"], input[name="lname"], input[name="username"], input[name="password"]{
+  width: 150px;
+}
+input[name="email"], input[name="password-signup"] {
+  width: 320px;
+}
+
+input[name="month"]{
+  width: 50px;
+}
+
+input[name="day"]{
+  width: 35px;
+}
+
+input[name="year"]{
+  width: 50px;
+}
+
+input[name="submit-signup"]{
+  width: 320px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: #009D31;
+  color: white;
+  font-size: 20px;
+}
+
+.main-sign-up:after {
+  content:"";
+  display: table;
+  clear:both;
+}
+
+/*//////////////////////////////////////////////*/
+
+
+header {
+  background-color: #277ADA;
+  /*width: 100%;*/
+  min-width: 980px;
+  text-align: center;
+  color: white;
+  margin:0;
+  padding:0;
+}
+header .content {
+  vertical-align: middle;
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+header .content a {
+  text-decoration: none;
+  color: white;
+}
+header .header-facebook-logo {
+  display: inline-block;
+  width: 150px;
+  vertical-align: middle;
+}
+
+header img {
+  display: inline;
+}
+
+header .header-facebook-logo h2 {
+  display: inline;
+  margin: 0;
+}
+header form {
+  display: inline-block;
+  vertical-align: middle;
+}
+header form input {
+  width: 400px;
+  display: inline-block;
+  margin-left: 100px;
+  margin-right: 200px;
+  vertical-align: middle;
+}
+
+header .header-user {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header .header-user h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+
+}
+
+header:after {
+  content: "";
+  display: table;
+  clear:both;
+}
+
+/*///////////////////////////*/
+/*////////End of Header////////////*/
+
+/*///////Start User Header/////////////*/
+
+.user-header {
+  /*width: 80%;*/
+  width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.user-bg-cover {
+  background: url("img/cover-hp-books.jpg") no-repeat center;
+  background-size: cover;
+  /*width: 100%;*/
+  width: 846px;
+  height: 300px;
+  border: solid 2px orange;
+  
+}
+
+.user-header h2 {
+  position: absolute;
+  top: 240px;
+  left: 220px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.user-profile-pic {
+  position: absolute;
+  top: 180px;
+  left: 20px;
+  /*width: 140px;
+  height: 140px;*/
+  background-color: #fff;
+  border: 4px solid #fff;
+  -webkit-border-radius: 2px;
+}
+
+.user-profile-pic img {
+  width: 140px;
+  height: 140px;
+  display: block;
+  border: solid 1px black;
+}
+
+.header-user-nav{
+  /*border: solid 2px black;*/
+  border-left: solid 2px black;
+  border-right: solid 2px black;
+  /*width: 100%;*/
+  /*//////////////*/
+  width: 846px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-user-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-user-nav li {
+  display: inline;
+  float: left;
+  /*margin-left: 10px;
+  margin-right: 10px;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid 2px black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header-user-nav li p{
+  margin: 0;
+}
+
+.header-user-nav li a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-user-nav li:first-child{
+  margin-left: 170px;
+}
+
+.header-user-nav li:last-child {
+  float: right;
+  border: none;
+}
+
+.header-user-nav .user-edit-profile {
+  display: inline;
+}
+
+.header-user-nav:after {
+  content: "";
+  display: table;
+  clear:both;
+}
+
+/*///////////////////////////////*/
+/*////////END  OF USER SECTION///////*/
+
+
+
+
+
+/*///////START OF ABOUT SECTION/////////*/
+/*////////////////////////////////////*/
+
+
+.user-about-section {
+  /*width: 80%;*/
+  width: 846px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px black;
+}
+
+.user-about-section-header {
+  border-bottom: solid 2px black;
+  position: relative;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.user-about-section-header .center-h2-about {
+  display:inline;
+  position: absolute;
+  left:0;
+  right:0;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.user-about-section-header button {
+  display: inline;
+  float: right;
+  background-color: #1D74E3;
+  color: white;
+  margin-right: 10px;
+  border: none;
+  font-size: 14px;
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+}
+
+.user-about-section-header:after {
+  content: '';
+  display: table;
+  clear:both;
+}
+
+/*///////////////////////////////////////*/
+/*END OF HEADER///FOR ABOUT//////*/
+
+.user-about-section-content {
+  padding: 10px 15px 10px 15px;
+}
+.user-about-section-content .user-info{
+  width: 50%;
+  display: inline-block;
+}
+
+.user-about-section-content .user-deep-info{
+  width: 50%;
+  display: inline-block;
+  float: right;
+}
+
+.user-about-section-content:after {
+  content:'';
+  display: table;
+  clear: both;
+}
+
+/*////////////////////////////*/
+
+
+
+
+
+
+
+
+
+/*//////////////Start of Friends CSS*/
+
+.user-friend-section {
+  /*width: 80%;*/
+  width: 846px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin: 0 auto;
+  border: solid 2px black;
+  text-align: center;
+   padding-bottom: 20px;
+}
+
+.user-friend-section .user-friend-section-header {
+  text-align: center;
+  border-bottom: solid 2px black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.user-friend-section-header h2{
+  margin: 0;
+  font-size: 20px;
+}
+
+.friend-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+}
+
+.friend-container {
+  border: solid 2px black;
+  width: 40%;
+  display: inline-block;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  /*vertical-align: middle;*/
+  /*margin: 0 auto;*/
+}
+
+.user-friend-section:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.friend-name {
+  display: inline;
+  font-size: 14px;
+  /*float: left;*/
+}
+
+.friend-profile-pic {
+  display: inline-block;
+  border: solid 1px orange;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  vertical-align: middle;
+
+  
+}
+
+.friend-profile-pic img {
+  /*float: left;*/
+  width: 100%;
+  /*height: auto;*/
+  /*display: inline;*/
+}
+
+.friend-name{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.friend-name ul {
+  list-style-type: none;
+  /*display: inline-block;*/
+  margin: 0;
+  padding: 0;
+}
+
+.friend-name ul li {
+  padding: 0;
+  margin: 0;
+  /*display: inline;*/
+}
+
+.friend-name ul li p {
+  margin: 0;
+}
+
+.friend-name a p{
+  /*display: inline;*/
+}
+
+.friend-me-button {
+  display: inline-block;
+  margin-left: 4%;
+  margin-right: 1%;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #DBDBDB;
+  color: black;
+  border: solid 1px black;
+  font-size: 12px;
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+}
+
+/*/////////////////////////*/
+/*/////////END OF FRIEND PAGE//*/
+
+
+
+
+
+/*START OF TIMELINE*/
+/*//////////////////////////////*/
+
+.timeline-main-container {
+  width: 1000px;
+  margin: 0 auto;
+  /*height: 100%;
+  min-height: 100%;*/
+}
+
+/*.timeline-main-container:after{
+  content: '';
+  display: table;
+  clear:both;
+}*/
+
+.timeline-side-nav {
+  border-right: solid 2px black;
+  width: 250px;
+  display: inline-block;
+  /*float: left;*/
+  height: 100%;
+  /*min-height: 100%;*/
+  /*padding-bottom: 103.95%;*/
+  padding-bottom: 80%;
+  margin-bottom: 0;
+  /*text-align: center;*/
+}
+
+/*.timeline-side-nav:after {
+  content:'';
+  display: table;
+  clear:both;
+}*/
+
+.timeline-profile-container {
+  /*border: solid 2px black;*/
+  height: 100px;
+}
+
+.timeline-profile-container h3 {
+  font-size: 16px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+
+.timeline-profile-container p {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.timeline-profile-container .profile-pic-container {
+  float: left;
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+  margin: 0px 10px 10px 0px;
+  border: solid 1px orange;
+}
+
+.timeline-profile-container .profile-pic-container img {
+  height: 100%;
+}
+
+/*.recent-activity-container:after {
+  content:'';
+  display: table;
+  clear:both;
+}*/
+
+.indiv-recent-friend-container {
+  /*border: solid 2px black;*/
+  display: table;
+  margin: 5px 0px 5px 0px;
+
+}
+/*
+.indiv-recent-friend-container:after {
+  content:'';
+  display: table;
+  clear:both;
+}*/
+
+.indiv-recent-friend-container .recent-friend-profile-pic{
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  float: left;
+  border: solid 1px orange;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image:url("img/ron-profile.jpg");
+}
+
+/*.indiv-recent-friend-container .recent-friend-profile-pic img {
+  zoom: 4;  //increase if you have very small images
+
+  display: block;
+  margin: auto;
+
+  height: auto;
+  max-height: 100%;
+
+  width: auto;
+  max-width: 100%;
+}*/
+
+.recent-friend-name-date {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+.recent-friend-name-date h4{
+  margin:0;
+}
+
+.recent-friend-name-date p{
+  margin-top: 0;
+  font-size: 12px;
+}
+
+.see-friends-link {
+  text-align: center;
+}
+
+.content-area {
+  width: 700px;
+  display: inline;
+  float: right;
+  text-align: center;
+}
+
+.content-area .my-post-container {
+  border: solid 2px black;
+  width: 600px;
+  margin-top: 40px;
+}
+
+.my-post-container .my-post-container-header {
+  border-bottom: solid 2px black;
+  background-color: #EDEDED;
+}
+
+.my-post-container-header h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.my-post-form-container textarea {
+  width: 500px;
+  height: 80px;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-post-container .post-button-container {
+  border-top: solid 2px black;
+  text-align: right;
+  background-color: #EDEDED;
+}
+
+.my-post-container button {
+  background-color: #2A7AD8;
+  font-size: 14px;
+  color: white;
+  border: none;
+  padding: 5px 15px 5px 15px;
+  margin: 10px 15px 10px 0px;
+}
+
+.timeline-post-container {
+  border: solid 2px black;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.timeline-post-friend-info:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+}
+
+.timeline-post-friend-info {
+  text-align: left;
+  /*border: solid 2px black;*/
+  vertical-align: middle;
+}
+
+.timeline-post-friend-info .timeline-post-friend-pic {
+  float: left;
+
+}
+
+.timeline-post-friend-info:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+
+.timeline-post-friend-pic {
+  display: inline-block;
+  border: solid 1px orange;
+  width: 75px;
+  height: 75px;
+  overflow: hidden;
+  vertical-align: middle;
+  margin: 5px 10px 5px 10px;
+}
+
+.timeline-post-friend-pic img {
+  /*width: 115%;*/
+  max-width: 100%;
+  height: auto;
+}
+
+.timeline-post-friend-name h3 {
+  margin: 0px 10px 0px 10px;
+}
+
+.timeline-post-friend-name p {
+  margin: -2px 10px 2px 10px;
+  font-size: 12px;
+}
+
+.timeline-post-content {
+  text-align: left;
+}
+
+.timeline-post-content p{
+  padding: 0px 10px 0 10px; 
+  font-size: 14px;
+}
+
+.like-comment-container {
+  border-top: solid 2px black;
+  text-align: left;
+  padding: 3px 0px 3px 0px;
+  background-color: #EDEDED;
+  font-size: 12px;
+}
+
+.like-comment-container .like-comment-buttons a p{
+  display: inline;
+  margin: 5px 5px 5px 5px;
+  /*padding: 5px 0px 5px 0px;*/
+}
+
+.like-comment-container .like-comment-buttons a:last-child {
+  /*text-align: right;*/
+  float: right;
+}
+
+.like-comment-container .post-likes-content {
+  margin: 5px 5px 5px 5px;
+}
+
+/*////////////////////////*/
+/*comment section    */
+
+.indiv-comment-posted {
+  width: 600px;
+  display: table-row;
+  border-spacing: 10px;
+}
+
+.indiv-comment-posted:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/*.comment-poster-header {
+  width: 600px;
+}*/
+
+
+.border-post-comments {
+  width: 100%;
+  height: 1px;
+  border-top: solid 2px black;
+}
+
+.comment-poster-pic {
+  float: left; 
+  width: 65px;
+  height: 65px;
+  /*border: solid 2px black;*/
+  height: 100%;
+  display: table-cell;
+  margin: 10px 3px 10px 10px;
+  overflow: hidden;
+}
+
+.comment-poster-pic img{
+  /*float: left;*/
+  width: 100%;
+}
+
+.comment-poster-info p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.comment-text{
+  width: 490px;
+  display: table-cell;
+
+  /*float: right;*/
+  /*border: solid 2px black;*/
+}
+
+.comment-textarea-container {
+  text-align: center;
+}
+
+.comment-textarea-container textarea {
+  width: 550px;
+  height: 120px;
+  font-size: 14px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.comment-textarea-container form a p{
+  float: left;
+  margin: 5px 10px 5px 10px;
+}
+
+.comment-textarea-container button {
+  float: right;
+  margin: 5px 10px 5px 10px;
+  background-color: #267EEB;
+  color: white;
+  font-size: 12px;
+  border: none;
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+}
+
+.comment-textarea-container:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.like-comment-section a:first-child{
+  margin-right: 10px;
+}
+
+.like-comment-section p{
+  display: inline;
+}
+
+.user-delete-button {
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
