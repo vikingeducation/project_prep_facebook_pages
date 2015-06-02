@@ -146,3 +146,45 @@ input {
 	top:1px;
 }
 
+.about-main-container {
+	width: 1225px;
+	position: absolute;
+	background-color: pink;
+    top: 20%;
+    left: 10%;
+    margin-top: -50px;
+    margin-left: -50px;
+    height: 700px;
+    z-index: -1;
+}
+
+.about-top-container {
+	width:1400px;
+	height: 600px;
+	margin: auto;
+}
+
+.about-top-container .cover {
+	margin-left: 2.5px;
+	position: absolute;
+	z-index: -1;
+}
+
+.about-top-container h1 {
+	position: relative;
+	top: 260px;
+	left: 35px;
+	z-index: 2;
+	color:white;
+	text-shadow: 1px 1px black;
+
+}
+
+.about-top-container .profile {
+	position: relative;
+	z-index: 3;
+	top: 250px;
+	left: 50px;
+	height: 100px;
+	width:100px;
+}
