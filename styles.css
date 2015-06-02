@@ -1,11 +1,15 @@
+* {
+	font-family: helvetica;
+}
+
 nav {
 	height: 70px;
 	width: 100%;
 	background-color: #256DE1;
-	display: inline-block;
+
 	position: fixed;
 	top:0px;
-	vertical-align: middle;
+
 }
 
 nav h1 {
@@ -14,7 +18,13 @@ nav h1 {
 	margin-top: 15px;
 	margin-bottom: 0;
 	vertical-align: middle;
-	float: left
+	float: left;
+
+}
+
+.logo h1 {
+	position: relative;
+	left: 35px;
 }
 
 nav h2 {
@@ -41,6 +51,8 @@ nav .nav-searchbar input{
 	float:right;
 	margin: 10px 25px 40px 25px;
 	color:white;
+	position: relative;
+	right: 20px;
 }
 
 .email-input {
@@ -195,7 +207,7 @@ input {
 }
 .cover-menu {
 	position: relative;
-	top:227px;
+	top:232px;
 	left: 200px;
 }
 .cover-menu h2 {
@@ -215,3 +227,41 @@ h2 span {
 position: relative;
 left: 30%;
 }
+
+.about-bottom-container {
+	margin-top: 15px;
+}
+.about-bar {
+	border-style: solid;
+	width: 1225;
+
+}
+
+.about-bar h3 {
+	text-align: center;
+	font-size: 36px;
+	margin: 8px 0 8px 612px;
+	display: inline-block;
+
+}
+
+.edit-profile-button {
+	background-color:#256DE1;
+	border-radius:10px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:inherit;
+	font-size:17px;
+	padding:10px 0;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin: 0px 20px 0px 35px;
+	width: 180px;
+	text-align: center;
+	float:right;
+	position: relative;
+	top:5px;
+}
+
