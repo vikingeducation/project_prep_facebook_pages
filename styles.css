@@ -17,16 +17,25 @@ nav h1 {
 
 .signin-container {
 	float:right;
-	margin:25px;
+	margin: 10px 25px 40px 25px;
+
 	color:white;
 }
 
+.email-input {
+	display: inline-block;
+}
+
+.password-input {
+	display: inline-block;
+}
+
 .welcome-container {
-	height: 600px;
-	width: 45%;
-	clear:both;
+	height: 300px;
+	width: 35%;
 	margin:70px;
-	margin-top: 140px;
+	margin-top: 100px;
+	float: left;
 }
 
 .welcome-container h2 {
@@ -38,3 +47,82 @@ nav h1 {
 	margin: 20px;
 	margin-top: 30px;
 }
+
+.signup-forms-container {
+	width: 49%;
+	height:600px;;
+	float: right;
+	margin-top: 70px;
+}
+
+.signup-forms-container h3 {
+	margin-top: 20px;
+	margin-left: 120px;
+	font-size: 44px;
+}
+
+.signup-forms-container form{
+	display: inline-block;
+	width: 150px;
+	margin-right: 50px;
+	margin-left: 30px;
+}
+
+input {
+	height: 20px;
+
+}
+
+.signup-email form input {
+	width: 360px;
+	margin-top: 35px;
+}
+
+.password-container input {
+	width: 360px;
+	margin-top: 35px;
+}
+
+.signup-forms-container .month{
+	display: inline-block;
+	width: 75px;
+	margin: 15px 20px 0px 35px;
+}
+
+.signup-forms-container .year{
+	display: inline-block;
+	width: 75px;
+	margin: 15px 20px 0px 35px;
+}
+
+.birth-gender-container h2 {
+	margin: 15px 0px 0px 100px;
+}
+
+.gender li {
+	margin: 15px 20px 0px 0px;
+	display: inline-block;
+}
+
+.signup-button {
+	background-color:#209311;
+	border-radius:10px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:inherit;
+	font-size:17px;
+	padding:16px 0;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin: 0px 20px 0px 35px;
+	width: 360px;
+	text-align: center;
+}
+
+.signup-button:active {
+	position:relative;
+	top:1px;
+}
+
