@@ -229,11 +229,17 @@ left: 30%;
 }
 
 .about-bottom-container {
+	width: 1225px;
 	margin-top: 15px;
+	height: 600px;
+	border: 3px solid black;
 }
 .about-bar {
 	border-style: solid;
-	width: 1225;
+	width: 1225px;
+	position: relative;
+	right: 3px;
+	bottom: 3px
 
 }
 
