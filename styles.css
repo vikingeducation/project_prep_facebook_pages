@@ -5,20 +5,40 @@ nav {
 	display: inline-block;
 	position: fixed;
 	top:0px;
+	vertical-align: middle;
 }
 
 nav h1 {
 	color:white;
-	margin-left: 30px;
 	font-size: 40px;
-	float:left;
 	margin-top: 15px;
+	vertical-align: middle;
+	float: left
 }
 
+nav h2 {
+	float: right;
+	color:white;
+	margin-right: 35px;
+}
+
+nav img {
+	vertical-align: middle;
+	float: left;
+	margin: 15px 30px;
+}
+
+nav .nav-searchbar {
+	float: left;
+	margin: 23px 100px;
+}
+nav .nav-searchbar input{
+	width: 500%;
+	height: 25px;
+}
 .signin-container {
 	float:right;
 	margin: 10px 25px 40px 25px;
-
 	color:white;
 }
 
