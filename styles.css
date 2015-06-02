@@ -12,6 +12,7 @@ nav h1 {
 	color:white;
 	font-size: 40px;
 	margin-top: 15px;
+	margin-bottom: 0;
 	vertical-align: middle;
 	float: left
 }
@@ -30,7 +31,7 @@ nav img {
 
 nav .nav-searchbar {
 	float: left;
-	margin: 23px 100px;
+	margin: 23px 100px 0;
 }
 nav .nav-searchbar input{
 	width: 500%;
@@ -149,7 +150,7 @@ input {
 .about-main-container {
 	width: 1225px;
 	position: absolute;
-	background-color: pink;
+/*	background-color: pink;*/
     top: 20%;
     left: 10%;
     margin-top: -50px;
@@ -159,21 +160,25 @@ input {
 }
 
 .about-top-container {
-	width:1400px;
-	height: 600px;
-	margin: auto;
+	width:1225px;
+	height: 472px;
+	margin-top: -23px;
+	border-bottom: solid;
+	border-right: solid;
+	border-left:solid;
+
 }
 
 .about-top-container .cover {
-	margin-left: 2.5px;
+	margin-left: 0px;
 	position: absolute;
 	z-index: -1;
 }
 
 .about-top-container h1 {
 	position: relative;
-	top: 260px;
-	left: 35px;
+	top: 350px;
+	left: 205px;
 	z-index: 2;
 	color:white;
 	text-shadow: 1px 1px black;
@@ -183,8 +188,30 @@ input {
 .about-top-container .profile {
 	position: relative;
 	z-index: 3;
-	top: 250px;
+	top: 260px;
 	left: 50px;
-	height: 100px;
-	width:100px;
+	height: 120px;
+	width:120px;
+}
+.cover-menu {
+	position: relative;
+	top:227px;
+	left: 200px;
+}
+.cover-menu h2 {
+	font-size: 16px;
+	display: inline-block;
+	border-color: black;
+	border-style: solid;
+	margin-right: -6px;
+	padding: 16px 24px;
+}
+
+h2 span {
+	color: grey;
+}
+
+.cover-menu a {
+position: relative;
+left: 30%;
 }
