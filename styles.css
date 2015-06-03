@@ -1,4 +1,87 @@
-* {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 {
+display: block;
+font-size: 2em;
+margin-before: 0.67em;
+margin-after: 0.67em;
+margin-start: 0;
+margin-end: 0;
+font-weight: bold; }
+
+h2 {
+display: block;
+font-size: 1.5em;
+margin-before: 0.83em;
+margin-after: 0.83em;
+margin-start: 0;
+margin-end: 0;
+font-weight: bold; }
+
+h3 {
+display: block;
+font-size: 1.17em;
+margin-before: 1em;
+margin-after: 1em;
+margin-start: 0;
+margin-end: 0;
+font-weight: bold; }
+
+p {
+display: block;
+margin-before: 1em;
+margin-after: 1em;
+margin-start: 0;
+margin-end: 0; }
+
+body {
 	font-family: helvetica;
 }
 
@@ -31,6 +114,7 @@ nav h2 {
 	float: right;
 	color:white;
 	margin-right: 35px;
+	margin-top: 20px;
 }
 
 nav img {
@@ -41,7 +125,7 @@ nav img {
 
 nav .nav-searchbar {
 	float: left;
-	margin: 23px 100px 0;
+	margin: 18px 100px 0;
 }
 nav .nav-searchbar input{
 	width: 500%;
@@ -89,9 +173,9 @@ nav .nav-searchbar input{
 }
 
 .signup-forms-container h3 {
-	margin-top: 20px;
-	margin-left: 120px;
+	margin: 20px 0 40px 120px;
 	font-size: 44px;
+
 }
 
 .signup-forms-container form{
@@ -129,11 +213,11 @@ input {
 }
 
 .birth-gender-container h2 {
-	margin: 15px 0px 0px 100px;
+	margin: 25px 0px 10px 100px;
 }
 
 .gender li {
-	margin: 15px 20px 0px 0px;
+	margin: 15px 20px 20px 35px;
 	display: inline-block;
 }
 
@@ -162,8 +246,7 @@ input {
 .about-main-container {
 	width: 1225px;
 	position: absolute;
-/*	background-color: pink;*/
-    top: 20%;
+	top: 20%;
     left: 10%;
     margin-top: -50px;
     margin-left: -50px;
@@ -207,26 +290,22 @@ input {
 }
 .cover-menu {
 	position: relative;
-	top:232px;
+	top:264px;
 	left: 200px;
 }
-.cover-menu h2 {
+.cover-menu a {
 	font-size: 16px;
 	display: inline-block;
-	border-color: black;
-	border-style: solid;
+	border: solid 3px black;
 	margin-right: -6px;
 	padding: 16px 24px;
 }
 
-h2 span {
+
+a span {
 	color: grey;
 }
 
-.cover-menu a {
-position: relative;
-left: 30%;
-}
 
 .about-bottom-container {
 	width: 1225px;
@@ -235,7 +314,7 @@ left: 30%;
 	border: 3px solid black;
 }
 .about-bar {
-	border-style: solid;
+	border: 3px solid black;
 	width: 1225px;
 	position: relative;
 	right: 3px;
@@ -271,3 +350,45 @@ left: 30%;
 	top:5px;
 }
 
+.about-info-right {
+	float:right;
+	width: 45%;
+}
+
+.about-info-right p {
+	margin-right: 35px;
+}
+
+
+.about-info-left {
+	float:left;
+	width: 45%;
+
+}
+
+.about-info-left h2 {
+	text-align: center;
+}
+
+table {
+	position: relative;
+	left: 40px;
+	top: 25px;
+}
+tr {
+	height: 45px;
+}
+
+td {
+	width: 175px;
+}
+
+#contact{
+	position: relative;
+	top: 20px;
+}
+
+#contact-table {
+	position: relative;
+	top: 50px;
+}
