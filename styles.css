@@ -456,7 +456,7 @@ td {
 	position: absolute;
 	left: 0px;
 	width: 308px;
-	height: 1700px;
+	height: 200%;
 	z-index: -1;
 	border-right: black solid 3px;
 }
@@ -595,7 +595,7 @@ td {
 	top: 150px;
 	width: 750px;
 	margin:  30px auto;
-	padding: 23px 10px 10px 10px;
+	padding: 23px 10px 13px 10px;
 	border: solid black 2px;
 }
 .post img {
@@ -627,6 +627,7 @@ td {
 	z-index: 3;
 	display: inline-block;
 	border: solid black 2px;
+	border-bottom: none;
 }
 
 .post-bottom-bar a {
@@ -638,9 +639,63 @@ td {
 
 }
 
+.liked-bar {
+	background-color: #ECEBEB;
+	height: 25px;
+	width: 770px;
+	position: relative;
+	top:12px;
+	left:-10px;
+	z-index: 3;
+	display: inline-block;
+	border-bottom: grey 1px solid;
+		padding-bottom: 10px
+}
 
+.liked-bar a{
+	position: relative;
+	top: 5px;
+	left: 0px;
+	margin-left: 10px;
+	text-decoration: underline;
 
+}
 
+.comment-box {
+	width: 770px;
+	position: relative;
+	top: 10px;
+	left: -10px;
+	background-color: #ECEBEB;
+}
+
+.comment {
+	position: relative;
+	left: 10px;
+	top: 10px;
+	width: 720px;
+}
+
+.write-comment textarea {
+	resize: none;
+	height: 50px;
+	width: 610px;
+	position: relative;
+	margin: 40px 60px;
+}
+
+.write-comment a{
+	position:relative;
+	top: -35px;
+	text-decoration: underline;
+}
+
+#submit-comment-button {
+	position: relative;
+	left: -70px;
+	top: -40px;
+	text-decoration: none;
+}
 
 
 
