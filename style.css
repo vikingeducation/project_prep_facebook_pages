@@ -1,0 +1,707 @@
+html, body {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #fff;
+  padding: 4px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+  padding: 5px;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  padding: 5px;
+  line-height: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  color: #333;
+  padding: 5px;
+}
+
+h5 {
+  font-size: 14px;
+  color: #777;
+  padding: 5px;
+}
+
+h6 {
+  font-size: 12px;
+  color: #fff;
+  padding: 5px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #6779B4;
+}
+
+a:hover{
+}
+
+/* ============ Navbar Elements ============= */
+.navbar {
+  background-color: #3b5998;
+  height: 83px;
+}
+
+.logo {
+  padding: 25px 50px 20px 50px;
+  float: left;
+  text-align: center;
+}
+
+.navbar-elements {
+  float: right;
+}
+
+.form {
+  padding: 5px;
+  display: inline-block;
+}
+
+.form input {
+  display: inline-block;
+}
+
+.form h6 {
+  padding: 8px 0px 8px 0px;
+}
+.form p {
+  color: #9daccb;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.boxes-wrapper {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.medtextbox {
+  width: 150px;
+  padding: 3px;
+}
+
+.log-in-wrapper {
+  display: inline-block;
+  padding: 20px 70px 20px 10px;
+  position: relative;
+  top: -25px;
+}
+
+.log-in {
+  background-color: #6D88c1;
+  border: 1px solid #2D4881;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 5px;
+  font-size: 14px;
+}
+
+/* ================== Navbar elements end =============== */
+
+.main-area {
+  clear: both;
+  margin: 5px 50px 5px 50px;
+  /*background: linear-gradient(#fff, #e2edff);*/
+}
+/* //// Left Column Begin //// */
+.main-col1 {
+  float: left;
+  width: 50%
+}
+
+.main-col1 h3 {
+  max-width: 390px;
+  padding: 50px 0px 25px 0px;
+}
+
+.col1-box {
+  text-align: left;
+  margin: 10px 0px 20px 0px;
+}
+
+.col1-box img{
+  display: inline-block;
+  margin-right: 20px; 
+}
+
+.col1-box h4 {
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block;
+}
+
+.col1-box h5 {
+  font-weight: lighter;
+  display: inline-block;
+}
+
+/* //// Left Column End //// */
+/* //// Right Column Begin //// */
+.main-col2 {
+  float: right;
+  width: 40%
+}
+
+.main-col2 h4 {
+  font-weight: lighter;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.main-col2 div {
+  display: block;
+}
+
+.large-input {
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #9daccb;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.main-col2 p {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.birthday-container select {
+  margin-bottom: 10px;
+}
+
+.gender-container {
+  margin-bottom: 25px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.gender-container label {
+  margin-right: 15px;
+}
+
+.sign-up-container input {
+  background-color: #69A74E;
+  background-image: linear-gradient(#69A74E, #578843);
+  color: #fff;
+  font-family: Freight Sans Bold;
+  font-size: 16px;
+  border: 1px solid #2C5115;
+  border-radius: 5px;
+  padding: 5px 75px 5px 75px;
+  text-shadow: 1px 1px 4px #333;
+}
+
+/* //// Right Column End //// */
+
+/* ======== New elements for about.html ======== */
+
+.navbar-main {
+  background-color: #3b5998;
+  height: 43px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+.logo-image {
+  display: inline-block;
+}
+
+.logo-image img{
+  padding: 5px 5px 5px 80px;
+  height: 30px;
+  width: 45px;
+}
+
+.search-box {
+  display: inline-block;
+}
+
+.search-box input {
+  font-size: 18px;
+  padding: 2px;
+  position: relative;
+  top: -13px;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+.name {
+  display: inline-block;
+}
+
+.name h6 {
+  font-size: 18px;
+  padding: 5px 10px 5px 70px;
+  position: relative;
+  top: -13px;
+}
+
+.body-wrapper {
+  padding: 0px 50px 0px 50px;
+}
+
+.cover-photo {
+  background: url(http://images5.fanpop.com/image/photos/28500000/Gryffindors-gryffindor-28516044-1920-1080.jpg) no-repeat scroll center top transparent;
+  background-size: 100% auto;
+  height: 350px;
+}
+
+.profile-pic {
+  position: absolute;
+  display: inline-block;
+  top: 175px;
+  left: 70px;
+  overflow: hidden;
+  border: 4px solid #eee;
+  border-radius: 5px;
+  height: 200px;
+  width: 200px;
+}
+
+.profile-pic img{
+  position: relative;
+  left: -70px;
+} 
+
+.friend-bar {
+  display: block;
+  border: 2px solid #e9eaed;
+}
+
+.friend-bar-item {
+  display: inline-block;
+  border-left: 1px solid #e9eaed;
+  border-right: 1px solid #e9eaed;
+  margin-right: -6px;
+}
+
+.friend-bar a:hover {
+  font-weight: bold;
+}
+
+.friend-bar-item p {
+  padding: 10px;
+}
+
+span {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.timeline {
+  margin-left: 250px;
+}
+
+.current {
+  background-color: #eee;
+}
+
+.edit-profile {
+  float: right;
+  padding: 10px;
+}
+
+.button-edit {
+  background-color: #3b5998;
+  color: #fff;
+  border: 2px solid: #1b3978;
+  border-radius: 5px;
+}
+
+.about-bar {
+  background-color: #eee;
+  border: 3px solid #777;
+  padding: 10px;
+}
+
+.about-bar h2 {
+  display: inline-block;
+  font-size: 24px;
+}
+
+.about-content {
+  padding: 20px;
+  border: 3px solid #777;
+}
+
+.left-col {
+  float: left;
+  width: 40%
+}
+
+.right-col {
+  float: right;
+  width: 50%
+}
+
+.about-content h2{
+  font-size: 30px;
+  padding-left: 0px;
+}
+
+.info-wrapper h5{
+  display: inline-block;
+  width: 100px;
+}
+
+.info-wrapper h6 {
+  display: inline-block;
+  color: #999;
+}
+
+.right-col h2 {
+  padding-bottom: 15px;
+}
+
+.right-col p {
+  color: #555;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.clearbox {
+  clear: both;
+}
+
+/* ============ End about.html ======== */
+
+/* =========== Added for friends.html ==== */
+
+.friends-content {
+  padding: 20px 40px 20px 40px;
+  border: 3px solid #777;
+}
+
+.friend-wrapper {
+  display: inline-block;
+  border: 1px solid #eee;
+  margin: 10px;
+}
+
+.friend-img {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
+  margin: 7px 15px 0px 10px;
+}
+
+.friend-img img {
+  width: 125%;
+  height: 100%;
+  position: relative;
+  left: -10px;
+}
+
+.friend-name {
+  display: inline-block;
+  position: relative;
+  top: -5px;
+  width: 250px;
+}
+
+.friend-name h4 {
+  font-size: 16px;
+  color: #505C87;
+  font-weight: bold;
+}
+
+.friend-name a:hover {
+  text-decoration: underline;
+}
+
+.friend-name h5 {
+  font-size: 14px;
+}
+
+.friend-options {
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  margin-right: 10px;
+}
+
+.friend-options button {
+  background-color: #f6f7f8;
+  color: #555;
+  font-weight: bold;
+  font-size: 14px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+/* ========= friends.html styling end ========= */
+
+/* ========= add to newsfeed.html =========== */
+
+.newsfeed-body {
+  padding: 50px;
+  /*background-color: #E9EAED;*/
+}
+
+.newsfeed-body a h4{
+  color: #6779B4;
+}
+
+.newsfeed-body a h4:hover , .newsfeed-body a h5:hover{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+.newsfeed-left {
+  float: left;
+  width: 30%;
+  border-right: 2px solid #f6f7f8;
+}
+
+.self-wrap {
+  padding: 20px 0px 20px 0px;
+}
+
+.self-img {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+
+.self-img img {
+  height: 100%;
+  width: 125%;
+  position: relative;
+  left: -10px;
+}
+
+.self-name-wrap {
+  display: inline-block;
+}
+
+.friend-img {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+}
+
+.friend-img img {
+  position: relative;
+}
+
+.friend-name-date {
+  display: inline-block;
+}
+
+.friend-activity p {
+  display: inline-block;
+  padding: 2px;
+}
+
+.see-friends {
+  text-align: center;
+  padding: 20px 5px 20px 5px;
+}
+
+.see-friends a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.newsfeed-right {
+  float: right;
+  width: 60%;
+  padding: 20px 50px 20px 50px;
+}
+
+.post-wrap {
+  border: 2px solid #aaa;
+  margin: 30px 20px 30px 20px;
+}
+
+.post-select {
+  text-align: center;
+  border-bottom: 2px solid #eee;
+  margin: 2px 50px 2px 50px;
+}
+
+.select-option {
+  display: inline-block;
+  padding-left: 4px;
+}
+
+.select-option p {
+  margin: 10px;
+}
+
+.not-first {
+  border-left: 2px solid #f6f7f8;
+}
+
+.post-content {
+  text-align: center;
+  padding: 5px;
+}
+
+.text-input {
+  font-size: 16px;
+  color: #333;
+  border: 2px solid #aaa;
+  height: 63px;
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+  vertical-align: middle;
+}
+
+.post-button-bar {
+  background-color: #eee;
+  border: 2px solid #ccc;
+}
+
+.post-button {
+  margin: 10px 5px 50px 5px;
+}
+
+.post-button input {
+  float: right;
+  /*
+  position: relative;
+  top: 15px;
+  right: 25px;*/
+  background-color: #4C67A1;
+  background-image: linear-gradient(#4C67A1, #2C4781);
+  color: #fff;
+  font-size: 14px;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+  text-shadow: 1px 1px 4px #333;
+}
+
+.nf-post-content {
+  padding: 10px 15px 10px 12px;
+  line-height: 22px;
+}
+
+.nf-post-content {
+  text-align: justify;
+}
+
+.post-button-bar a:hover p, .post-button-bar p a:hover{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.post-button-bar p {
+  display: inline-block;
+  padding: 10px;
+}
+
+.right-comment {
+  float: right;
+}
+
+.comment-wrap {
+  background-color: #eee;
+}
+
+.comment-wrap .friend-img {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  top: -165px;
+  left: 10px;
+}
+
+.comment-item-wrap {
+  padding: 5px;
+  display: inline-block;
+  width: 80%
+}
+
+.comment-name-date h4, .comment-name-date h5{
+  display: inline-block;
+}
+
+.comment-post-content {
+  padding: 10px 5px 10px 5px;
+  line-height: 22px;
+}
+
+.like-box {
+  padding: 5px 5px 10px 5px;
+}
+
+.like-box p {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.like-box p:nth-child(2) {
+  color: #999;
+  font-weight: lighter;
+  font-size: 13px;
+}
+
+.like-box a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.like-box p:nth-child(3) {
+  float: right;
+}
+
+.cancel-comment p{
+  display: inline-block;
+}
+
+.cancel-comment input{
+  float: right;
+  background-color: #4C67A1;
+  background-image: linear-gradient(#4C67A1, #2C4781);
+  color: #fff;
+  font-size: 14px;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+  text-shadow: 1px 1px 4px #333;
+  position: relative;
+  top: -5px;
+}
+
+.cancel-comment {
+  padding: 10px 60px 25px 75px;
+}
+
+.cancel-comment a:hover p{
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.activity-wrapper {
+  margin-top: 5px;
+}
+
+.friend-activity .activity-wrapper {
+  margin-top: 20px;
+}
