@@ -1,0 +1,145 @@
+.navbar {
+	height: 100px;
+	background: #0078E2;
+}
+
+.facelook-logo {
+	margin-left: 100px;
+	display: inline-block;
+	height: 100%;
+	font-size: 32px;
+}
+
+.facelook-logo h2{
+	color: #fff;
+	line-height:100px;
+	vertical-align: middle;
+}
+
+.navbar-right {
+	float: right;
+}
+
+.email-container, .password-container {
+	color: #fff;
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+	line-height: 30px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.login-button{
+	margin-top: 40px;
+	margin-left: 10px;
+	margin-right: 50px;
+	line-height: 30px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.login-button button{
+	background-color: #8CB5E2;
+}
+
+.email-container form, .password-container form {
+	margin-top: -5px;
+}
+
+.email-container input, .password-container input{
+	width: 200px;
+	height: 15px;
+}
+
+.main-content{
+	margin-top: 50px;
+	height: 500px;
+}
+
+.main-left-container{
+	float:left;
+	margin-top: 50px;
+	width: 55%;
+	height: 100%;
+}
+
+.main-left-container h3{
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.main-left-container ul{
+	margin-left: 30%;
+}
+
+.main-left-container li{
+	margin-top: 15px;
+	list-style-type: disc;
+}
+
+.main-right-container{
+	float: right;
+	display: inline-block;
+	width: 45%;
+}
+
+.main-right-container h2{
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.main-right-container div{
+	margin-top: 25px;
+	width: 70%;
+}
+
+.name-container form{
+	display: inline-block;
+	width: 45%;
+}
+
+.name-container input{
+	width: 100%;
+}
+
+.last-name-form{
+	float:right;
+	margin-right: 0;
+}
+
+.email-form-container input, .password-form-container input, .password-confirm-container input{
+	width: 100%;
+}
+
+.birthday-container h4{
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.birthday-container form{
+	width: 25%;
+	display: inline-block;
+}
+
+.gender-container {
+	width:60%;
+	margin-top: 80px;
+}
+
+.gender-container div{
+	margin-top: -60px;
+	width: 25%;
+	display: inline-block;
+}
+
+.signup-button button{
+	height: 45px;
+	width: 100%;
+	color: #FFF;
+	background-color: #009B2E;
+	font-size: 26px;
+	font-weight: bold;
+}
