@@ -3,8 +3,45 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Welcome to Facelook</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">	
+	<link rel="stylesheet" type="text/css" href="style.css">	
 </head>
 <body>
-	
+	<div class="navbar">
+		<div class="facelook-logo">
+			<h2>Facelook</h2>
+		</div>
+
+        <div class="navbar-search">
+			<input type="search" name="googlesearch" placeholder="Search for Users">
+		</div>
+		<div class="navbar-right">
+			<div class="navbar-name-container">Harry</div>
+		</div>
+	</div>
+
+	<div class="main-content">
+		<div class="profile-container">
+			<div class="cover-photo-container">
+				<img src="hogwarts.jpg"></img>
+			</div>
+			<div class="profile-bar">
+				<div class="profile-tabs">
+					<!-- Writing the divs like this fixes whitespace caused by using inline block. -->
+					<div>Timeline</div
+					><div><a href="about.html">About</a></div
+					><div>Photos (3)</div
+					><div><a href="friends.html">Friends (11)</a></div>
+
+				</div>
+				<div class="edit-profile">Edit Profile</div>
+			</div>
+			<div class="profile-photo-container"><img src="photo.jpg"></img></div>
+			<div class="profile-name">Harry Potter</div>
+		</div>
+
+		<div class="about-container">
+		</div>
+	</div>
 </body>
 </html>

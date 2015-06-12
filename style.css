@@ -4,20 +4,39 @@
 }
 
 .facelook-logo {
-	margin-left: 100px;
+	margin-left: 10%;
 	display: inline-block;
 	height: 100%;
 	font-size: 32px;
 }
 
-.facelook-logo h2{
+.facelook-logo h2, .navbar-name-container{
 	color: #fff;
 	line-height:100px;
 	vertical-align: middle;
 }
 
+.navbar-search {
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	margin-top: 35px;
+	transform: translate(-50%, 0);
+}
+
+.navbar-search input{
+   width: 500px;
+}
+
+
 .navbar-right {
+	margin-right: 10%;
 	float: right;
+}
+
+.navbar-name-container {
+	font-size: 24px;
+	font-weight: bold;
 }
 
 .email-container, .password-container {
@@ -53,13 +72,14 @@
 }
 
 .main-content{
-	margin-top: 50px;
 	height: 500px;
+	width: 80%;
+	margin: 0 auto;
 }
 
 .main-left-container{
 	float:left;
-	margin-top: 50px;
+	margin-top: 100px;
 	width: 55%;
 	height: 100%;
 }
@@ -71,7 +91,7 @@
 }
 
 .main-left-container ul{
-	margin-left: 30%;
+	margin-left: 20%;
 }
 
 .main-left-container li{
@@ -80,6 +100,7 @@
 }
 
 .main-right-container{
+	margin-top: 50px;
 	float: right;
 	display: inline-block;
 	width: 45%;
@@ -142,4 +163,77 @@
 	background-color: #009B2E;
 	font-size: 26px;
 	font-weight: bold;
+}
+
+.profile-container{
+	width: 100%;
+	height: 400px;
+	border: 1px solid black;
+	position:relative;
+}
+
+.cover-photo-container{
+	width:100%;
+	height:85%;
+}
+
+.cover-photo-container img{
+	width:100%;
+	height:100%;
+}
+
+.profile-bar{
+	width:100%;
+	height:15%;
+	border: 1px solid black;	
+}
+
+.profile-tabs{
+	width: 50%;
+	float: left;
+	margin-left: 30%;
+	height: 100%;
+}
+
+.profile-tabs div{
+	display: inline-block;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	height: 100%;
+	width: 24%;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 55px;
+}
+
+.profile-photo-container{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    top: 60%;
+    left: 15%;
+    z-index: 5;
+}
+
+.profile-name{
+	font-size: 24px;
+	font-weight: bold;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    top: 75%;
+    left: 32%;
+    z-index: 6;
+    color: white;
+}
+
+.profile-photo-container img{
+	width:128px;
+	height:128px;
+}
+
+.edit-profile {
+	line-height: 55px;
+	text-align: right;
+	margin-right: 10px;
 }
