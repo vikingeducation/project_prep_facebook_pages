@@ -6,8 +6,13 @@ h1, h2, h3, h4, h5, h6 {
 	color: #000;
 }
 
-.navbar {
+.navbar-home {
 	height: 100px;
+	background: #0078E2;
+}
+
+.navbar{
+	height: 50px;
 	background: #0078E2;
 }
 
@@ -24,16 +29,25 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 15px;
 }
 
-.facelook-logo {
-	
+.facelook-logo, .facelook-logo-home {
 	display: inline-block;
 	height: 100%;
 	font-size: 32px;
 }
 
-.facelook-logo h2, .navbar-name-container{
+.facelook-logo-home{
+	margin-left: 10%;
+}
+
+.facelook-logo-home h2{
 	color: #fff;
 	line-height:100px;
+	vertical-align: middle;
+}
+
+.facelook-logo h2, .navbar-name-container{
+	color: #fff;
+	line-height:50px;
 	vertical-align: middle;
 }
 
@@ -41,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 	position: absolute;
 	left: 50%;
-	margin-top: 35px;
+	margin-top: 10px;
 	transform: translate(-50%, 0);
 }
 
