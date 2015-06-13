@@ -417,15 +417,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar-container{
+	height:100%;
 	margin-left:5%;
 	width:25%;
 	float:left;
-	border-right: 3px solid black;
 }
 
 .newsfeed-container{
+	height:100%;
 	width:65%;
 	float:left;
+	border-left: 3px solid black;	
 }
 
 .activity-feed-profile{
@@ -528,4 +530,124 @@ h1, h2, h3, h4, h5, h6 {
 	margin:9px;
 	background-color: #0076D7;
 	color: #fff;
+}
+
+.newsfeed-entry {
+	margin-top:50px;
+	width:100%;
+	border: 1px solid black;
+}
+
+.newsfeed-entry-owner{
+	padding:12px;
+	width:100%;
+	float: left;
+}
+
+.newsfeed-entry-owner img{
+	width:48px;
+	height:48px;
+	float:left;
+	display:inline-block;
+}
+
+.newsfeed-entry-info {
+	float:left;
+	margin-left:10px;
+	margin-top:5px;
+}
+
+.newsfeed-entry-date {
+	color: #555;
+	font-size:12px;
+}
+
+.newsfeed-entry-body{
+	margin-left: 12px;
+	margin-right: 12px;
+	margin-top: 24px;
+	margin-bottom: 24px;
+
+}
+
+.newsfeed-entry-interactions{
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color: #ECECEC;
+	border-top: 1px solid black;
+}
+
+.newsfeed-entry-actions{
+	width:100%;
+}
+
+.newsfeed-entry-actions div{
+	margin-left:10px;	
+	display: inline-block;
+}
+
+.newsfeed-entry-likes {
+	width:100%;
+	margin-top: 15px;
+	margin-left:10px;
+	padding-bottom:15px;
+}
+
+.newsfeed-entry-comments{
+	border-top :1px solid gray;
+}
+
+.newsfeed-comment {
+	width:90%;
+	margin-left:5%;
+
+}
+
+
+.newsfeed-comment-picture img{
+	padding-top:20px;
+	width:48px;
+	height:48px;
+	float:left;
+	display:inline-block;
+}
+
+.newsfeed-comment-content {
+	width:80%;
+	float:left;
+	display:inline-block;
+	margin-left:10px;
+	margin-top:5px;
+}
+
+.newsfeed-comment-content {
+	margin-top: 20px;
+}
+
+.newsfeed-comment-info div{
+	display:inline-block;
+}
+
+.newsfeed-comment-date {
+	color: #555;
+	font-size:12px;
+}
+
+.newsfeed-comment-body{
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.newsfeed-comment-options{
+	width:100%;
+}
+
+.newsfeed-comment-options div{
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.delete {
+	margin-right:5px;
+	float:right;
 }
