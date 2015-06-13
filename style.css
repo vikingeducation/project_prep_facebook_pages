@@ -1,10 +1,31 @@
+body{
+	color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+}
+
 .navbar {
 	height: 100px;
 	background: #0078E2;
 }
 
-.facelook-logo {
+.profile-picture-small{
 	margin-left: 10%;
+	display: inline-block;
+	height: 100%;
+}
+
+.profile-picture-small img{
+	height: 36px;
+	width: 36px;
+	vertical-align: middle;
+	margin-bottom: 15px;
+}
+
+.facelook-logo {
+	
 	display: inline-block;
 	height: 100%;
 	font-size: 32px;
@@ -189,9 +210,9 @@
 }
 
 .profile-tabs{
-	width: 50%;
+	width: 60%;
 	float: left;
-	margin-left: 30%;
+	margin-left: 22%;
 	height: 100%;
 }
 
@@ -207,22 +228,19 @@
 }
 
 .profile-photo-container{
-	width: 100%;
-	height: 100%;
 	position: absolute;
     top: 60%;
-    left: 15%;
+    left: 5%;
     z-index: 5;
 }
 
 .profile-name{
 	font-size: 24px;
 	font-weight: bold;
-	width: 100%;
-	height: 100%;
+
 	position: absolute;
     top: 75%;
-    left: 32%;
+    left: 25%;
     z-index: 6;
     color: white;
 }
@@ -236,4 +254,150 @@
 	line-height: 55px;
 	text-align: right;
 	margin-right: 10px;
+}
+
+.selected {
+	background-color: #EDEDED;
+}
+
+.about-container {
+	margin-top:20px;
+	border: 2px solid black;
+}
+
+.about-bar{
+	position: relative;
+	height:15%;
+	width:100%;
+    background-color:#EDEDED;
+    border-bottom: 2px solid black;
+    margin-bottom: 45px;
+}
+
+.about-bar-left{
+	display:inline-block;
+	width:33%;
+}
+
+.about-bar-middle{
+	width:33%;
+	font-size: 48px;
+	display: inline-block;
+	text-align: center;
+}
+
+.about-bar-right{
+	width:33%;
+	float:right;
+	text-align:right;
+	line-height:48px;
+}
+
+.about-bar-right button{
+	background-color: #0871CD;
+	color: white;
+}
+
+.about-left {
+	margin-left:4%;
+	margin-right:4%;
+	width: 35%;
+	float:left;
+}
+
+.about-container h2 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.about-container h4 {
+	font-weight: bold;
+}
+
+.about-left table{
+	margin-top:10px;
+	border-collapse: collapse;
+	margin-bottom:20px;
+}
+
+.about-left td {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-right: .5em;
+}
+
+.about-right {
+	width:55%;
+	float:right;
+	display: inline-block;
+}
+
+.about-right p{
+	margin-top:10px;
+	margin-bottom:30px;
+}
+
+.friends-container{
+	margin-top:20px;
+	border: 2px solid black;
+}
+
+.friends-container-bar{
+	height:15%;
+	width:100%;
+    background-color:#EDEDED;
+    border-bottom: 2px solid black;
+    margin-bottom: 45px;
+    font-size: 48px;
+	display: inline-block;
+	text-align: center;
+}
+
+.friends-container-left{
+	margin-left:4%;
+	width: 45%;
+	float:left;
+}
+
+.friends-container-right{
+	margin-right:4%;
+	width:45%;
+	float:right;
+	display: inline-block;
+}
+
+.friend {
+	width: 100%;
+	margin-top:10px;
+	margin-bottom:10px;
+	border: 2px solid black;
+}
+
+.friend-photo{
+	height:100%;
+	display: inline-block;
+	float: left;
+}
+
+.friend-photo img{
+	padding: 10px;
+	width:128px;
+	height:128px;
+}
+
+.friend-info{
+	margin-top:10%;
+	margin-left: 5%;
+	float: left;
+}
+
+.unfriend-btn{
+	float:right;
+	margin-top: 10%;
+	margin-right: 5%;
+}
+
+.unfriend-btn button{
+	background-color: #DBDBDB;
+	border: 2px solid black;
 }
