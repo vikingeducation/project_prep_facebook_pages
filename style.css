@@ -11,6 +11,11 @@ h1, h2, h3, h4, h5, h6 {
 	background: #0078E2;
 }
 
+.navbar a{
+	color: white;
+	text-decoration: none;
+}
+
 .navbar{
 	height: 50px;
 	background: #0078E2;
