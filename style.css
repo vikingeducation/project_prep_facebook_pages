@@ -496,7 +496,8 @@ h1, h2, h3, h4, h5, h6 {
 .newsfeed-post-form{
 	height: 200px;
 	border: 2px solid black;
-	background-color: #ECECEC;	
+	background-color: #ECECEC;
+	margin-bottom:25px;
 }
 
 .newsfeed-post-form-topbar{
@@ -533,7 +534,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .newsfeed-entry {
-	margin-top:50px;
+	margin-top:25px;
+	margin-bottom:25px;
 	width:100%;
 	border: 1px solid black;
 }
@@ -650,4 +652,36 @@ h1, h2, h3, h4, h5, h6 {
 .delete {
 	margin-right:5px;
 	float:right;
+}
+
+.newsfeed-comment-form{
+	margin-top: 50px;
+	height:140px;
+	width:100%;
+}
+
+.newsfeed-comment-form textarea{
+	border: 2px solid black;
+	height:100px;
+	width:90%;
+	margin-left: 4%;
+}
+
+.newsfeed-comment-form-options{
+	margin-top: 5px;
+	width:90%;
+	margin-left: 4%;
+}
+
+.newsfeed-comment-form-options button{
+	background-color: #0076E1;
+	color: white;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
 }
