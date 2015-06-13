@@ -415,3 +415,73 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #DBDBDB;
 	border: 2px solid black;
 }
+
+.sidebar-container{
+	margin-left:5%;
+	width:25%;
+	float:left;
+	border-right: 3px solid black;
+}
+
+.newsfeed-container{
+	margin-right:5%;
+	width:65%;
+	float:left;
+}
+
+.activity-feed-profile{
+	height: 54px;
+	font-size: 14px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.activity-feed-container{
+	width: 100%;
+	float: left;
+}
+
+.activity-feed-container h1{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.activity-feed-photo{
+	float:left;
+}
+
+.activity-feed-photo img{
+	height: 48px;
+	width: 48px;
+	padding: 3px;
+}
+
+.sidebar-container h4{
+	margin-left: -15%;
+	text-align: center;
+}
+
+.sidebar-profile-container{
+	margin-top: 40px;
+	width:100%;
+	float:left;
+}
+
+.sidebar-profile-picture {
+	display: inline-block;
+	float:left;
+}
+
+.sidebar-profile-info{
+	display: inline-block;	
+	float: left;
+	margin-top:7%;
+	margin-left:5%;
+}
+
+.sidebar-profile-picture img{
+	width:96px;
+	height:96px;
+}
+
