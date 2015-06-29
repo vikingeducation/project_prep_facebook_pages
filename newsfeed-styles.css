@@ -1,0 +1,167 @@
+body{
+  font-family: 'Comfortaa', cursive;  
+  background-color: #d3d3d3;
+}
+.navbar{
+  height:65px;
+  width: 100%;
+  background-color: #3b5998;
+}
+.logo-container img{
+  float:left;
+  height: 45px;
+  width: 45px;
+  padding:10px;
+}
+.logo-container h1{
+  padding:20px;
+  float:left;
+  vertical-align: middle;
+  font-size: 25px;
+  color:white;
+}
+.searching-bar{
+  padding:15px;
+  display: inline-block;
+  margin-left: 50px;
+  float:middle;
+}
+.User_Name{
+  padding: 10px;
+  float:right;
+  color: white;
+}
+.left-bar{
+  max-height: 2500px;
+  float:left;
+  width:30%;
+  border-right:  2px solid black;
+}
+.right-bar{
+  float:right;
+  padding-left: 60px;
+  padding-top:20px;
+  max-height: 2500px;
+  width:65%;
+}
+
+.user-image{
+  border: 5%;
+  padding: 5%;
+  height: 200px;
+  background-color: white;
+}
+
+.userpic{
+  float:left;
+  width:40%;
+  height: 70%;
+  border:1px solid black;
+}
+.user-inform{
+  float: left;
+  padding:7%;
+  display: inline-block;
+}
+
+.user-image h2{
+  font-size:20px;
+}
+
+.user-image h3{
+  font-size:15px;
+}
+.recent-active{
+  padding-left: 5%;
+  max-height: 1000px;
+  background-color: #C2C2FF;
+}
+
+.active-friend{
+  border: 5%;
+  padding: 5%;
+  height: 130px;
+  width: 100%;
+}
+
+.recent-active table tr{
+  height:110px;
+}
+
+
+.friendpic{
+  float:left;
+  width:25%;
+  height: 70%;
+  border:1px solid black;
+}
+
+.friend-inform{
+  margin-left:5%;
+  float: left;
+  padding:3%;
+  display: inline-block;
+}
+
+.right-check-button{
+  float:right;
+  margin: 5px;
+  width:25%;
+  display: inline-block;
+}
+
+
+.self-post{
+  margin-bottom: 50px;
+  padding: 10px;
+  height:190px;
+  width: 80%;
+}
+.pure-post{
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width:80%;
+  border: 4px solid black;
+  background-color: #FFFFFF;
+}
+.post{
+  padding: 5px;
+  border:4px solid black;
+}
+.post-pic {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  border: 4px solid black;
+}
+.post-name{
+  display: inline-block;
+  font-size: 5px;
+}
+.like-or-comment{
+  height: 40px;
+}
+
+.like{
+  padding:10px;
+  float:left;
+}
+
+.unlike{
+  padding:10px;
+  float:left;
+}
+
+.comment{
+  padding:10px;
+  float:right;
+}
+.delete{
+  padding:10px;
+  float:right;
+}
+.comment-pack{
+  padding: 5px;
+  border:4px solid black;
+}

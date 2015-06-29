@@ -1,0 +1,105 @@
+body{
+  font-family: 'Comfortaa', cursive;  
+  background-color: #d3d3d3;
+}
+.navbar{
+  height:65px;
+  width: 100%;
+  background-color: #3b5998;
+}
+.logo-container img{
+  float:left;
+  height: 45px;
+  width: 45px;
+  padding:10px;
+}
+.logo-container h1{
+  padding:20px;
+  float:left;
+  vertical-align: middle;
+  font-size: 25px;
+  color:white;
+}
+.searching-bar{
+  padding:15px;
+  display: inline-block;
+  margin-left: 50px;
+  float:middle;
+}
+.User_Name{
+  float:right;
+  padding:20px;
+  color: white;
+}
+.main-page{
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: white;
+}
+.photo-board{
+  margin-top: 10px;
+}
+.background_img{
+  width:100%;
+  height: 60%;
+}
+.User_head{
+  margin-top:20%;
+  background-color: white;
+}
+.Head_Name{
+  color:white;
+  font-size: 50px;
+  font-weight: bold;
+}
+.connect-table{
+  font-size: 20px;
+  border: 5px solid black;
+  padding: 5px;
+}
+.about-bar{
+  border-top: 5px;
+  font-size: 50px;
+  padding-left: 40%;
+  background-color: white;
+  float: middle;
+  border: 2px solid black;
+}
+.about-bar button{
+  float:right;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+.about-main{
+  margin:5px;
+  background-color: white;
+  border-style: solid;
+}
+.main-left{
+  float:left;
+  width:50%;
+  background-color: white;
+
+}
+.main-left h2{
+  padding:30px;
+  font-size: 25px;
+}
+.main-left ul{
+  padding-left:30px;
+  font-size: 15px;
+}
+
+.main-right{
+  padding-top:20px;
+  float:right;
+  width:50%;
+  background-color: white;
+}
+.main-right h2{
+  font-size: 25px;
+}
+
+h3{
+  padding-left: 40%;
+}
