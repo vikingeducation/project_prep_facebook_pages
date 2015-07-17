@@ -108,7 +108,8 @@ header h1 {
 .info {
   margin: 5px 15px 0 0;
   border: 1px solid #000;
-  width: 138px;
+  width: 131px;
+  padding: 5px 0 5px 7px;
 }
 
 .log-in {
@@ -117,4 +118,106 @@ header h1 {
   color: #FFF;
   border: 1px solid #000;
   width: 75px;
+  padding: 5px 0;
+  box-shadow: 1px 1px 5px #666;
+}
+
+/* Content */
+
+.content {
+  padding-top: 100px;
+}
+
+.col,
+.col2 {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 60px;
+}
+
+.col {
+  width: 60%;
+  margin-top: 80px;
+}
+
+.col2 {
+  width: 40%;
+}
+
+.col ul {
+  list-style: disc;
+  margin-left: 50px;
+  color: #666;
+}
+
+.col h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.col h4 {
+  display: inline-block;
+  font-weight: bold;
+  color: #666666;
+}
+
+.col2 h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.col2 input {
+  width: calc(100% - 11px);
+  border: 2px solid #CCC;
+  padding: 5px 0 5px 7px;
+}
+
+#first-name,
+#last-name {
+  width: 45%;
+}
+
+#first-name {
+  margin-right: 13px;
+}
+
+.birthday {
+  line-height: 50px;
+}
+
+.birthday h2
+.birthday select {
+  display: inline-block;
+}
+
+.birthday h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.birthday select {
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.gender {
+  margin: 0;
+  line-height: 20px;
+}
+
+.content .sex {
+  width: auto;
+  vertical-align: top;
+  margin-right: 12px;
+}
+
+#sign-up {
+  margin-top: 25px;
+  width: 100%;
+  font-size: 20px;
+  color: #FFF;
+  font-weight: bold;
+  background-color: #239E0F;
+  box-shadow: 2px 2px 5px #CCC;
+  padding: 15px 0;
 }
