@@ -272,6 +272,7 @@ ul .selected:hover {
 .friends-info {
   border: 1px solid #000;
   padding: 30px 0;
+  margin-bottom: 30px;
 }
 
 .friend-col {
