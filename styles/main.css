@@ -140,7 +140,17 @@ header input {
   margin: 6px 0 0 0;
   padding: 0 0 0 220px;
   border: 1px solid #000;
+  letter-spacing: 1px;
+}
 
+.profile-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.profile-link:hover {
+  color: #FFF;
+  background: #3A5795;
 }
 
 .profile-bar li {
@@ -153,12 +163,17 @@ header input {
   border-left: 1px solid black;
 }
 
+.profile-bar li:hover {
+  background-color: #3A5795;
+  color: #FFF;
+}
+
 .profile-bar h4 {
   display: inline-block;
   color: #AAA;
 }
 
-.profile-bar a {
+.profile-bar .edit {
   float: right;
   padding-top: 10px;
   margin-right: 10px;
@@ -166,8 +181,17 @@ header input {
   color: blue;
 }
 
-.profile-bar a:hover {
+.profile-bar .edit:hover {
   text-decoration: underline;
+}
+
+.selected {
+  background-color: #EEE;
+}
+
+ul .selected:hover {
+  background-color: #EEE;
+  color: #000;
 }
 
 /* About Bar */
@@ -195,7 +219,7 @@ header input {
   color: #FFF;
   padding: 7px 15px;
   box-shadow: 1px 1px 5px #222;
-  position: fixed;
+  position: absolute;
 }
 
 /* User Info */
@@ -241,4 +265,63 @@ header input {
 .col2 p {
   margin-bottom: 15px;
   line-height: 25px;
+}
+
+/* Friends Info */
+
+.friends-info {
+  border: 1px solid #000;
+  padding: 30px 0;
+}
+
+.friend-col {
+  width: 45%;
+  margin-left: calc(100px / 3);
+  display: inline-block;
+}
+
+.friend {
+  border: 1px solid #000;
+  padding: 15px 0 15px 15px;
+  margin-bottom: 25px;
+}
+
+.friend img,
+.friend-text {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.friend-text {
+  margin: 30px 0 0 30px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.friend-text a {
+  color: blue;
+  text-decoration: none;
+}
+
+.friend-text a:hover {
+  text-decoration: underline;
+}
+
+.friend-text h4 {
+  color: #AAA;
+  font-weight: bold;
+}
+
+.friend img {
+  height: 100px;
+  width: 100px;
+}
+
+.friend input {
+  float: right;
+  margin: 35px 15px 0 0;
+  background-color: #CCC;
+  border: 1px solid #000;
+  box-shadow: 1px 1px 5px #CCC;
+  padding: 5px 15px;
 }
