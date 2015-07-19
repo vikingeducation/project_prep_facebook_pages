@@ -339,6 +339,7 @@ ul .selected:hover {
   border-right: 2px solid black;
   height: 100%;
   padding: 30px 0;
+  line-height: 18px;
 }
 
 .newsfeed {
@@ -379,6 +380,11 @@ ul .selected:hover {
 
 .friend-block {
   margin-top: 15px;
+}
+
+.friend-block h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
 }
 
 .newsfeed-friend h3 {
