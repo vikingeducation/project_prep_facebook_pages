@@ -102,7 +102,144 @@ header h2 {
 header input {
   width: 65%;
   margin-left: 90px;
-  padding-left: 10px;
+  padding: 3px 0 3px 10px;
   vertical-align: top;
+  margin-top: 12px;
+}
+
+/* Cover Photo */
+
+.cover-photo {
+  position: static;
+}
+
+#cover {
+  width: 1000px;
+  height: 300px;
+  position: absolute;
+}
+
+.cover-photo h1 {
+  font-size: 24px;
+  color: #000;
+  padding-top: 270px;
+  margin-left: 220px;
+}
+
+#profile-pic {
+  display: inline-block;
+  position: absolute;
+  width: 180px;
+  height: 200px;
+  padding: 120px 0 0 20px;
+}
+
+/* Profile-bar */
+
+.profile-bar ul {
+  margin: 6px 0 0 0;
+  padding: 0 0 0 220px;
+  border: 1px solid #000;
+
+}
+
+.profile-bar li {
+  display: inline-block;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 14px;
+  color: #000;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.profile-bar h4 {
+  display: inline-block;
+  color: #AAA;
+}
+
+.profile-bar a {
+  float: right;
+  padding-top: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: blue;
+}
+
+.profile-bar a:hover {
+  text-decoration: underline;
+}
+
+/* About Bar */
+
+.about-bar {
   margin-top: 15px;
+  height: 50px;
+  background-color: #EEE;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+.about-bar h1 {
+  font-size: 30px;
+  margin: 0 auto;
+  display: inline-block;
+  font-weight: bold;
+  padding-top: 10px;
+  position: absolute;
+}
+
+.about-bar h3 {
+  float: right;
+  margin: 10px 20px 0 0;
+  border: 1px solid black;
+  background-color: #3477D3;
+  color: #FFF;
+  padding: 7px 15px;
+  box-shadow: 1px 1px 5px #222;
+}
+
+/* User Info */
+
+.user-info {
+  border: 1px solid black;
+  padding: 30px 0;
+}
+
+.user-info h2 {
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 15px 0;
+}
+
+.col1,
+.col2 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col1 {
+  width: 40%;
+  margin-right: 50px;
+  padding-left: 25px;
+}
+
+.col1 h3 {
+  font-weight: bold;
+  display: inline-block;
+  width: 50%;
+}
+
+.col1 li {
+  margin-bottom: 15px;
+}
+
+.col2 {
+  width: 50%;
+}
+
+.col2 p {
+  margin-bottom: 15px;
+  line-height: 25px;
 }
