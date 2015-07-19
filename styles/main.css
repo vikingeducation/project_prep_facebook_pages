@@ -181,22 +181,21 @@ header input {
 }
 
 .about-bar h1 {
-  font-size: 30px;
-  margin: 0 auto;
   display: inline-block;
+  font-size: 30px;
   font-weight: bold;
   padding-top: 10px;
-  position: absolute;
 }
 
 .about-bar h3 {
   float: right;
-  margin: 10px 20px 0 0;
+  margin: 10px 0 0 830px;
   border: 1px solid black;
   background-color: #3477D3;
   color: #FFF;
   padding: 7px 15px;
   box-shadow: 1px 1px 5px #222;
+  position: fixed;
 }
 
 /* User Info */
@@ -232,7 +231,7 @@ header input {
 }
 
 .col1 li {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .col2 {
