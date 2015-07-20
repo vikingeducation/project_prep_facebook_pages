@@ -329,6 +329,11 @@ ul .selected:hover {
 
 /* Newsfeed */
 
+.newsfeed-container {
+  width: 1250px;
+  margin: 0 auto;
+}
+
 .active-friends,
 .newsfeed {
   display: inline-block;
@@ -337,12 +342,12 @@ ul .selected:hover {
 }
 
 .active-friends {
-  width: 30%;
+  width: 25%;
   height: 100%;
 }
 
 .newsfeed {
-  width: calc(70% - 2px);
+  width: calc(75% - 2px);
   height: 100%;
   border-left: 2px solid black;
 }
@@ -448,7 +453,7 @@ ul .selected:hover {
 
 .personal-post .friend-block,
 .friend-post .friend-block {
-  margin-top: 25px;
+  margin: 25px 0 0 10px;
 }
 
 .personal-post p,
@@ -477,7 +482,7 @@ ul .selected:hover {
   margin-right: 20px;
 }
 
-.friend-comment a {
+.friend-comment-like {
   margin-left: 32px;
 }
 
