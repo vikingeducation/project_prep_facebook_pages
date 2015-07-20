@@ -108,14 +108,14 @@
 
   --><section class="newsfeed">
 
-    <div class="make-post">
+    <div class="group make-post">
       <h5>Post (copied)</h5>
 
       <div class="post-outline">
         <input type="text" placeholder="Tell the world something...">
       </div>
 
-      <input type="submit" value="Post">
+      <input class="post-button" type="submit" value="Post">
     </div>
 
     <div class="friend-post">
@@ -178,11 +178,11 @@
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui</p>
 
-      <div class="post-nav">
-        <a href="#">Like</a>
-        <a href="#">Comment</a>
+      <div class="group post-nav">
+        <a href="#">Unlike</a>
+        <a class="delete-post" href="#">Delete</a>
         <div class="likes">
-          You and <a href="#">Hermione Granger</a> likes this.
+          You and <a href="#">Hermione Granger</a> and 3 others like this.
         </div>
 
         <div class="friend-comment">
@@ -196,25 +196,30 @@
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat. Duis aute irure dolor in reprehenderit in</p>
 
-          <a href="#">Like</a> <h3>3 other people like this</h3>
+          <a href="#">Like</a> <h4>3 other people like this</h4>
         </div>
 
         <div class="friend-comment">
-          <img src="Images/ron.jpg">
+          <img src="Images/profile_pic.jpg">
           <div class="comment-block">
-            <a href="#">Ron Weasley</a>
-            <h3>Said on Thursday 05/21/2014</h3>
+            <a href="#">Harry Potter</a>
+            <h3>Said on Friday 05/22/2014</h3>
           </div>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat. Duis aute irure dolor in reprehenderit in</p>
 
-          <a href="#">Like</a> <h3>3 other people like this</h3>
+          <a href="#">Like</a> <h4>3 other people like this</h4>
         </div>
 
         <div class="comment">
           <input type="text" placeholder="Write a comment...">
+        </div>
+
+        <div class="group submit-comment">
+          <a href="#">Cancel</a>
+          <input type="submit" value="Comment">
         </div>
 
       </div>

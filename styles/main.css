@@ -332,19 +332,19 @@ ul .selected:hover {
 .active-friends,
 .newsfeed {
   display: inline-block;
+  vertical-align: top;
+  padding: 30px 0;
 }
 
 .active-friends {
-  width: calc(30% - 2px);
-  border-right: 2px solid black;
+  width: 30%;
   height: 100%;
-  padding: 30px 0;
-  line-height: 18px;
 }
 
 .newsfeed {
-  width: 70%;
+  width: calc(70% - 2px);
   height: 100%;
+  border-left: 2px solid black;
 }
 
 .active-friends img {
@@ -380,6 +380,7 @@ ul .selected:hover {
 
 .friend-block {
   margin-top: 15px;
+  line-height: 18px;
 }
 
 .friend-block h2 {
@@ -387,7 +388,138 @@ ul .selected:hover {
   font-size: 20px;
 }
 
-.newsfeed-friend h3 {
+.comment-block h3,
+.friend-block h3 {
   color: #AAA;
   font-size: 12px;
+}
+
+/* Posts Formatting */
+
+.newsfeed img {
+  width: 60px;
+  height: 60px;
+  margin: 10px 0 0 20px;
+}
+
+.make-post,
+.friend-post,
+.personal-post {
+  width: 80%;
+  margin: 0 auto 40px auto;
+  border: 1px solid #000;
+}
+
+.post-outline {
+  border: 1px solid #000;
+}
+
+.make-post,
+.post-nav {
+  background-color: #EDEDED;
+}
+
+.make-post h5 {
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+}
+
+.post-outline {
+  background-color: #FFF;
+}
+
+.comment input,
+.post-outline input {
+  display: block;
+  width: 95%;
+  margin: 15px auto;
+  padding: 5px 5px 100px 5px;
+  border: 1px solid black;
+}
+
+.post-button {
+  float: right;
+  margin: 10px 10px 10px 0;
+  padding: 5px 15px;
+  color: #FFF;
+  background-color: #3477D3;
+}
+
+.personal-post .friend-block,
+.friend-post .friend-block {
+  margin-top: 25px;
+}
+
+.personal-post p,
+.friend-post p {
+  width: 90%;
+  margin: 20px auto;
+  line-height: 20px;
+}
+
+.post-nav {
+  padding: 15px 0 15px 20px;
+  border: 1px solid #000;
+  word-spacing: 20px;
+}
+
+.likes {
+  color: #777;
+  margin: 15px 0;
+  word-spacing: normal;
+}
+
+.friend-comment {
+  word-spacing: normal;
+  border-top: 1px solid gray;
+  padding: 10px 0 20px 0;
+  margin-right: 20px;
+}
+
+.friend-comment a {
+  margin-left: 32px;
+}
+
+.friend-comment img,
+.friend-comment .comment-block {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.personal-post h4 {
+  color: #777;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.comment-block {
+  margin-left: 15px;
+  line-height: 18px;
+}
+
+.delete-post {
+  float: right;
+  margin-right: 20px;
+}
+
+.comment input {
+  margin: 0;
+}
+
+.submit-comment {
+  margin-top: 15px;
+}
+
+.submit-comment a {
+  display: inline-block;
+  margin-top: 7px;
+}
+
+.submit-comment input {
+  float: right;
+  margin-right: 15px;
+  color: #FFF;
+  background-color: #3477D3;
+  padding: 5px 15px;
 }
