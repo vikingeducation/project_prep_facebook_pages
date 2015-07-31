@@ -10,6 +10,8 @@ div {
   /*border: 1px solid #ddd;*/
 }
 
+/*Home styling*/
+
 .front-navbar-background {
   background-color: #3A5795;
   height: 82px;
@@ -22,7 +24,7 @@ div {
   background-color: #3A5795;
   margin: 0 auto;
   width: 980px;
-  padding-top: 13px;
+  padding-top: 10px;
 }
 
 .word-logo {
@@ -70,7 +72,6 @@ div {
 
 .home-features {
   float: left;
-  /*display: table-cell;*/
   vertical-align: middle;
   width: 570px;
 }
@@ -191,6 +192,57 @@ div {
   color: white;
   width: 194px;
   height: 31px;
-  font-size: 14p;
+  font-size: 14px;
   font-weight: bold;
+}
+
+/*About styling*/
+.front-navbar-background.about {
+  height: 42px;
+  min-width: 914px;
+}
+
+.front-navbar-container.about {
+  margin: 0 auto;
+  width: 914px;
+  padding-top: 5px;
+}
+
+.fblogo {
+  float: left;
+}
+
+.sb {
+  margin-left: 42px;
+  padding-top: 2px;
+}
+
+#searchbar {
+  float: left;
+  font-size: 14px;
+  text-indent: 4px;
+  width: 450px;
+  height: 22px;
+}
+
+#navbar-profile-button {
+  float: left;
+  margin-left: 250px;
+  margin-top: 0px;
+}
+
+#navbar-home-button {
+  float: left;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+.navbar-text-cta {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  height: 30px;
+  width: 64px;
+  background-color: #3A5795;
+  background: transparent;
+  border: none !important;
 }
