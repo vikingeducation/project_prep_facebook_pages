@@ -7,7 +7,13 @@ body {
 
 div {
   display: block;
-  /*border: 1px solid #ddd;*/
+  border: 1px solid #ddd;
+}
+
+a {
+  color: #3b5998;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 /*Home styling*/
@@ -197,6 +203,7 @@ div {
 }
 
 /*About styling*/
+
 .front-navbar-background.about {
   height: 42px;
   min-width: 914px;
@@ -245,4 +252,57 @@ div {
   background-color: #3A5795;
   background: transparent;
   border: none !important;
+}
+
+.timeline-menu {
+  margin: 0 auto;
+  width: 914px;
+}
+
+.cover-photo {
+  position: absolute;
+}
+
+.profile-photo {
+  position: relative;
+  left: 15px;
+  top: 58px;
+  border: 7px solid #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1pt #aaa;
+  height: 160px;
+  width: 160px;
+}
+
+.cover-name {
+  position: relative;
+  bottom: 12px;
+  left: 201px;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    max-width: 275px;
+    text-shadow: 0 0 3px black;
+    color: white;
+}
+
+.timeline-menu-bar {
+  margin-top: 0px;
+  height: 43px;
+  width: 650px;
+  padding-left: 200px;
+  border-left: 1px solid #eee;
+}
+
+.timeline-menu-button {
+  border-right: 1px solid #eee;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  height: 43px;
+  line-height: 3;
+  padding: 0 17px;
+  position: relative;
+  vertical-align: middle;
 }
