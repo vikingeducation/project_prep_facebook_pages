@@ -206,7 +206,7 @@ table {
   font-weight: bold;
 }
 
-/*About styling*/
+/*About page styling*/
 
 .front-navbar-background.about {
   height: 42px;
@@ -377,6 +377,8 @@ table {
 .t-header {
   font-weight: bold;
 }
+
+/*friends page styling*/
 
 #friend-container {
   padding: 0 14px 0 15px;
