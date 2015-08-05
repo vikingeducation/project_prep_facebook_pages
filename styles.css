@@ -7,7 +7,7 @@ body {
 
 div {
   display: block;
-  /*border: 1px solid #ddd;*/
+  border: 1px solid #ddd;
 }
 
 a {
@@ -444,4 +444,108 @@ table {
 .unfriend-cta {
   margin-top: 35px;
   font-size: 14px;
+}
+
+/*Newsfeed styling*/
+
+.newsfeed-page-container {
+  margin: 0 auto;
+  width: 914px;
+}
+
+.newsfeed-left-col {
+  float: left;
+  padding-left: 8px;
+  padding-top: 13px;
+  width: 249px;
+  overflow: hidden;
+}
+
+.profile-section {
+  position: relative;
+  width: 249px;
+  overflow: hidden;
+}
+
+.profile-pic-container {
+  position: relative;
+}
+
+#profile-icon {
+  float: left;
+  width: 75px;
+  height: 75px;
+}
+
+.profile-section-links {
+  display: inline-block;
+  width: 166px;
+  margin-left: 5px;
+  margin-top: 2px;
+  line-height: 20px;
+  overflow: hidden;
+}
+
+#profile-link {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.edit-profile-link {
+  font-size: 14px;
+}
+
+.recent-container {
+  margin-top: 20px;
+}
+
+#recent-header {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.recent-list-container {
+  margin-bottom: 7px;
+}
+
+.recent-display {
+  display: block;
+  position: relative;
+  vertical-align: top;
+  margin-bottom: 10px;
+  width: 249px;
+}
+
+.friend-icon-container {
+  float: left;
+}
+
+.friend-activity-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.friend-activity-container {
+  display: inline-block;
+  margin-left: 5px;
+  overflow: hidden;
+}
+
+.friend-activity-inner-box {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.newsfeed-right-col {
+  display: inline-block;
+  padding-left: 8px;
+  padding-top: 13px;
+  width: 640px;
+  overflow: hidden;
+}
+
+.update-status-container {
+  width: 640px;
+  height: 121px;
 }
