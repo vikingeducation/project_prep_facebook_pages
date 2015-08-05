@@ -7,7 +7,7 @@ body {
 
 div {
   display: block;
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;*/
 }
 
 a {
@@ -314,25 +314,26 @@ table {
   vertical-align: middle;
 }
 
-.about-container {
+.page-container {
   margin: 18px auto;
   width: 914px;
   background: #fff;
   border-radius: 3px;
 }
 
-.about-header-container {
+.page-header-container {
   background: #F6F7F8;
   border-bottom: 1px solid #d3d6db;
   border-radius: 3px 3px 0 0;
   height: 52px;
   padding-top: 16px;
+  margin-bottom: 15px;
   overflow: hidden;
 }
 
-.about-header {
+.page-header {
   float: left;
-  margin-left: 430px;
+  margin-left: 400px;
   font-size: 28px;
   font-weight: bold;
   height: 24px;
@@ -348,52 +349,18 @@ table {
   border-right: 0px;
 }
 
-/*
-.aboutme-info-header {
-  padding-top: 36px;
-  padding-left: 0px;
-  font-size: 24px;
-  font-weight: bold;
-  display: block;
-}
-
-.about-left-column {
-
-}
-
-.about-contents {
-  margin: 0 auto;
-  width: 914px;
-  background: #fff;
-}
-
-.aboutme-line {
-  display: block;
-  clear: both;
-}
-
-.aboutme-attr {
-  float: left;
-
-}
-
-.aboutme-value {
-  float: left;
-  margin-left: 40px;
-}
-*/
 #about-col {
   display: inline-table;
   background: #fff;
   max-width: 457px;
 }
 
-.about-contents {
+.page-contents {
   background: #fff;
   width: 914px;
 }
 
-.about-contents h1 {
+.page-contents h1 {
   padding-top: 36px;
   padding-left: 48px;
   font-size: 22px;
@@ -409,4 +376,70 @@ table {
 
 .t-header {
   font-weight: bold;
+}
+
+#friend-container {
+  padding: 0 14px 0 15px;
+}
+
+#friend-content {
+  position: relative;
+}
+
+#friend-list {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.friend-display {
+  border: 1px solid #E9EAED;
+  display: inline-block;
+  margin: 0 0 13px 13px;
+  padding: 0 10px 0 0;
+  position: relative;
+  vertical-align: top;
+  width: 390px;
+}
+
+.friend-pic-container {
+  position: relative;
+}
+
+.friend-pic {
+  float: left;
+  border: 1px solid #ddd;
+}
+
+.friend-name-container {
+  display: inline-block;
+  height: 100px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.friend-name-inner-container {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.friend-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.friend-count {
+  font-size: 12px;
+  font-weight: 0;
+  margin-top: 5px;
+  color: #9197a3;
+}
+
+.unfriend-cta-container {
+  float: right;
+  height: 100px;
+}
+
+.unfriend-cta {
+  margin-top: 35px;
+  font-size: 14px;
 }
