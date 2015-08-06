@@ -7,7 +7,7 @@ body {
 
 div {
   display: block;
-  border: 1px solid #ddd;
+  /*border: 1px solid #ddd;*/
 }
 
 a {
@@ -500,6 +500,7 @@ table {
 }
 
 #recent-header {
+  display: block;
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -514,7 +515,8 @@ table {
   position: relative;
   vertical-align: top;
   margin-bottom: 10px;
-  width: 249px;
+  width: 248px;
+  clear: both;
 }
 
 .friend-icon-container {
@@ -524,6 +526,7 @@ table {
 .friend-activity-icon {
   height: 50px;
   width: 50px;
+  background: #fff;
 }
 
 .friend-activity-container {
@@ -547,5 +550,46 @@ table {
 
 .update-status-container {
   width: 640px;
-  height: 121px;
+  height: 161px;
+  background: #fff;
+}
+
+.status-header-box {
+  border: 1px solid #ddd;
+  height: 36px;
+}
+
+.status-header-content {
+  display: table;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.status-header-content h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#status-input {
+  width: 634px;
+  height: 79px;
+  text-indent: 10px;
+  font-size: 18px;
+}
+
+.post-cta-box {
+  float: right;
+  margin-top: 6px;
+  margin-right: 6px;
+  border: 1px solid #ddd;
+}
+
+#post-cta {
+  font-size: 16px;
+  color: #fff;
+  background-color: #3A5795;
+}
+
+.newsfeed-content-container {
+  margin-top: 13px;
 }
