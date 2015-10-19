@@ -1,0 +1,234 @@
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar-container {
+	margin: auto;
+	width: 980px;
+	height: 74px;
+}
+.main-background {
+	background-color: #edf0f5;
+}
+.main-container {
+	margin: auto;
+	width: 980px;
+
+}
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+body {
+	color: #333;
+	font-family: Helvetica, "Helvetica Neue", sans-serif;
+}
+
+.left-content h2 {
+	font-family: "Freight Sans Bold";
+	font-size: 28px;
+	line-height: 36px;
+	color: #333;
+	text-align: left;
+}
+
+.right-content h1 {
+	font-size: 36px;
+	line-height: 43px;
+}
+
+.right-content span {
+	font-size: 19px;
+	line-height: 43px;
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Navbar
+  ========================================
+*/
+
+.logo {
+	float: left;
+}
+
+.logo h2 {
+	color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 35px;
+	margin-top: 20px;
+}
+
+.right-navbar {
+	display: inline-block;
+	margin-bottom: 10px;
+	float: right;
+}
+
+.username {
+	display: inline-block;
+	margin-top: 10px;
+	padding-right: 5px;
+}
+
+.username p {
+	color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-bottom: 8px;
+}
+
+.password {
+	display: inline-block;
+	margin-top: 10px;
+	padding-right: 5px;
+}
+
+.password p {
+	color: white;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-bottom: 8px;
+}
+
+.btn {
+	display: inline-block;
+}
+.navbar-background {
+	background-color: #3b5998;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Main Content
+  ========================================
+*/
+
+.left-content {
+	vertical-align: top;
+	display: inline-block;
+	width: 50%;
+	padding-top: 60px;
+	padding-bottom: 100px;
+}
+
+img {
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+.row-1-3 .text{
+	vertical-align: middle;
+	padding-top: 10px;
+}
+
+.row-2-3 .text{
+	vertical-align: middle;
+	padding-top: 10px;
+}
+
+.row-3-3 .text{
+	vertical-align: middle;
+	padding-top: 10px;
+}
+
+.right-content {
+	padding-left: 65px;
+	padding-top: 15px;
+	width: 50%;
+	margin-top: 20;
+	display: inline-block;
+}
+
+.input-info input {
+	height: 40px;
+	border-radius: 5px;
+	width: 205px;
+}
+
+.input {
+	padding-top: 10px;
+}
+
+.input input {
+	width: 410px;
+	border-radius: 5px;
+	height: 40px;
+}
+
+.birthday {
+	padding-top: 15px;
+}
+
+.why {
+	display: inline-block;
+}
+
+.why span small {
+	font-size: 10px;
+}
+
+.gender {
+	font-size: 15px;
+	vertical-align: center;
+}
+
+.terms {
+	padding-top: 5px;
+	font-size: 12px;
+}
+
+.cta-signup {
+	padding-top: 5px;
+}
+
+.cta-signup input {
+	width: 200px;
+	color: white;
+	background-color: green;
+}
