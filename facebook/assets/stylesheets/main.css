@@ -30,9 +30,10 @@
 	height: 450px;
 }
 
-.friends-list {
-	width: 980px;
+.friends-container {
 	border: 1px solid;
+	margin: auto;
+	width: 980px;
 }
 
 /*
@@ -141,7 +142,6 @@ body {
 	margin: auto;
 }
 .about-logo {
-	border: 1px solid;
 	display: inline-block;
 }
 
@@ -390,7 +390,7 @@ img {
 	display: inline-block;
 }
 
-.ffriends {
+.in {
 	background-color: #edf0f5;
 }
 
@@ -408,3 +408,53 @@ img {
    ==================================
 */
 
+.firstrow, .secondrow, .thirdrow {
+	margin: auto;
+	margin-top: 10px;
+	width: 98%;
+	border: 1px solid;
+}
+
+.first, .second {
+	margin: 15px 0 15px 15px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	width: 48%;
+	border: 1px solid;
+	display: inline-block;
+}
+
+.img-container {
+	width: 33%;
+	display: inline-block;
+}
+
+.img-container img {
+	width: 100px;
+	height: 100px;
+	border: 1px solid;
+}
+
+.profile-name {
+	text-decoration: underline;
+}
+
+.num-of-friends {
+	color: grey;
+}
+
+.name-container {
+	position: relative;
+	bottom: 40px;
+	right: 20px;
+	width: 30%;
+	border: 1px solid;
+	display: inline-block;
+}
+
+.btn-unfriend {
+	position: relative;
+	bottom: 45px;
+	right: 10px;
+	display: inline-block;
+}
