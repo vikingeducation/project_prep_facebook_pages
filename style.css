@@ -3,10 +3,6 @@ body{
 	background-color: #F0F8FF;
 }
 
-div{
-	border: 1px solid #777;
-}
-
 .head{
 	display: block;
 	height: 70px;
@@ -78,7 +74,7 @@ div{
 }
 
 .left-main-container{
-	margin-top: 10px;
+	margin-top: 20px;
 	height:568px;
 	width:520px;
 	float:left;
@@ -128,7 +124,143 @@ div{
 
 .right-main-container{
 	float:right;
-	margin-top: 10px;
+	margin-top: 20px;
 	height:568px;
 	width: 450px;
+}
+
+.sign-text-container{
+	width: 399px;
+	height: 48px;
+	font-size: 36px;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.name-container{
+	width:399px;
+	height: 49px;
+}
+
+.email-or-mobile-container{
+	width:399px;
+	height: 49px;
+}
+
+.new-password-container{
+	width:399px;
+	height: 49px;
+}
+
+.confirm-password-container{
+	width:399px;
+	height: 49px;
+}
+
+.first-name-box{
+	width: 172px;
+	height: 21px;
+	padding: 8px 10px;
+	border: 1px solid #bdc7d8;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.surname-box{
+	float:right;
+	width: 172px;
+	height: 21px;
+	padding: 8px 10px;
+	border: 1px solid #bdc7d8;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.email-or-mobile-box{
+	width: 377px;
+	height: 21px;
+	padding: 8px 10px;
+	border: 1px solid #bdc7d8;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.new-password-box{
+	width: 377px;
+	height: 21px;
+	padding: 8px 10px;
+	border: 1px solid #bdc7d8;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.confirm-password-box{
+	width: 377px;
+	height: 21px;
+	padding: 8px 10px;
+	border: 1px solid #bdc7d8;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.birthday-text-container{
+	width: 399px;
+	height: 24px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+
+.dob-container{
+	width: 399px;
+	height: 24px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.day-dropdown{
+	display:inline-block;
+}
+
+.month-dropdown{
+	display:inline-block;
+}
+
+.year-dropdown{
+	display:inline-block;
+}
+
+.male-female-container{
+	width: 399px;
+	height: 24px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.female-radio{
+	display:inline-block;
+}
+
+.male-radio{
+	display:inline-block;
+}
+
+.signup-button-container{
+	width: 399px;
+	height: 24px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.signup-button{
+	width:192px;
+	height:29px;
+	padding: 7px 20px;
+	border: 1px solid #3b6e22;
+	background-color: #69a74e;
+	font-size: 12px;
+	font-weight: bold;
+	border-radius: 5px;
+	color: white;
 }
