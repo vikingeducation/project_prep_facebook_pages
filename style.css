@@ -1,20 +1,29 @@
 body{
 	font-family: helvetica, arial, sans-serif;
+	background-color: #F0F8FF;
 }
 
 div{
 	border: 1px solid #777;
 }
 
-.navbar{
+.head{
+	display: block;
 	height: 70px;
 	border-bottom: 1px solid black;
 	background-color: #3a5795;
 }
 
+.navbar{
+	width: 980px;
+	height: 70px;
+	background-color: #3a5795;
+	margin: 0px auto;
+}
+
 .brand-container{
 	float: left;
-	height: 70px;
+	height: 68px;
 	margin-left: 30px;
 	font-weight: bold;
 	font-size: 30px;
@@ -60,4 +69,66 @@ div{
 	color: white;
 	background-color: #5b74a8;
 	border: 1px solid #2f477a #29447e #1a356e;
+}
+
+.main-container{
+	width:980px;
+	height: 600px;
+	margin:0px auto;
+}
+
+.left-main-container{
+	margin-top: 10px;
+	height:568px;
+	width:520px;
+	float:left;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.left-main-container img{
+	width:327px;
+	height:267px;
+}
+
+.thanks-text-container{
+	color:#3b5998;
+	font-family: "HelveticaNeue-Thin", helvetica, arial, sans-serif;
+	font-size: 45px;
+	line-height: 48px;
+	margin-left: 100px;
+	margin-top: 20px;
+	text-align: center;
+	width:270px;
+	word-spacing: -1px;
+}
+
+.we-text-container{
+	color:#4e5665;
+	font-family: "HelveticaNeue-Light", helvetica, arial, sans-serif;
+	font-size: 25px;
+	line-height: 30px;
+	margin-left: 100px;
+	margin-top: 15px;
+	text-align: center;
+	width:270px;
+	word-spacing: -1px;
+}
+
+.small-logo{
+	margin-top: 20px;
+	width:475px;
+	height:30px;
+}
+
+.small-logo img{
+	width:30px;
+	height:30px;
+}
+
+.right-main-container{
+	float:right;
+	margin-top: 10px;
+	height:568px;
+	width: 450px;
 }
