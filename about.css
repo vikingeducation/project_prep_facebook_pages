@@ -1,4 +1,6 @@
-
+div{
+	border: 1px solid #999;
+}
 
 body{
   font-family: helvetica, arial, sans-serif;
@@ -80,7 +82,7 @@ body{
 
 .main-container{
   display: block;
-  height: 1000px;
+  max-height: 100%;
 }
 
 .user-profile-navigator{
@@ -168,4 +170,43 @@ body{
 	line-height: 30px;
 	color:white;
 	font-family: arial;
+}
+
+.about-container{
+  position: relative;
+  top: 30px;
+  width: 980px;
+  margin: 0px auto;
+}
+
+.about-banner-container{
+	height:43px;
+	line-height:43px;
+	text-align:center;
+	font-weight: bold;
+	background-color: #fff;
+	font-size: 25px;
+	border: 1px solid black;
+}
+
+.about-banner-container a{
+	display:inline-block;
+	float:right;
+	text-decoration: none;
+}
+
+.edit-button{
+	padding: 0 7px;
+	margin:9px;
+	height:25px;
+	line-height: 25px;
+	border: 1px solid #222;
+	font-size: 13px;
+	background-color: #3b5998;
+	color:white;
+}
+
+.about-bottom-container{
+	background-color: #fff;
+	border: 1px solid #999;
 }
