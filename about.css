@@ -1,7 +1,3 @@
-div{
-	border: 1px solid #999;
-}
-
 body{
   font-family: helvetica, arial, sans-serif;
   background-color: #e9eaed;
@@ -82,7 +78,6 @@ body{
 
 .main-container{
   display: block;
-  max-height: 100%;
 }
 
 .user-profile-navigator{
@@ -174,9 +169,8 @@ body{
 
 .about-container{
   position: relative;
-  top: 30px;
   width: 980px;
-  margin: 0px auto;
+  margin: 30px auto;
 }
 
 .about-banner-container{
@@ -187,6 +181,7 @@ body{
 	background-color: #fff;
 	font-size: 25px;
 	border: 1px solid black;
+	color: #444;
 }
 
 .about-banner-container a{
@@ -207,6 +202,73 @@ body{
 }
 
 .about-bottom-container{
+	position:relative;
 	background-color: #fff;
 	border: 1px solid #999;
+	height: 350px;
+}
+
+.about-left-container{
+	float:left;
+	width: 375px;
+}
+
+.left-content-container{
+	width: 305px;
+	margin: 0px auto;
+}
+
+.about-right-container{
+	display:inline-block;
+	width: 595px;
+}
+
+.right-content-container{
+	margin-right: 30px;
+}
+
+.titles{
+	font-weight: bold;
+	font-size: 20px;
+	color: #444;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.basic-table-container{
+	position: relative;
+	color: #333;
+	font-size: 14px;
+}
+
+#college{
+	padding-top: 14px;
+}
+
+#hometown{
+	padding-top: 14px;
+}
+
+#currently{
+	padding-top: 14px;
+}
+
+#telephone{
+	padding-top: 14px;
+}
+
+.field{
+	display: inline-block;
+	font-weight: bold;
+	width: 110px;
+}
+
+.user-info{
+	display: inline-block;
+	width: 175px;
+}
+
+.content-text{
+	font-size: 14px;
+	color: #333;
 }
