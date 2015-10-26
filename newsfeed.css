@@ -211,3 +211,25 @@ body{
   background-color: #5b74a8;
   border: 1px solid #2f477a #29447e #1a356e;
 }
+
+#friend-post{
+  width: 480px;
+  position: relative;
+  top: 50px;
+  height: 200px;
+  padding: 10px;
+  background-color: white;
+}
+
+#friend-post .friend-text-container{
+  position:relative;
+  left:0px;
+  top:-20px;
+}
+
+.user-post{
+  position:absolute;
+  left: -67px;
+  top: 70px;
+  width:476px;
+}
