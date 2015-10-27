@@ -1,0 +1,99 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0; }
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none; }
+
+del {
+  text-decoration: line-through; }
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.top-nav {
+  background-color: #3B5998;
+  border-bottom: 3px solid;
+  border-top: 3px solid; }
+
+.container {
+  width: 980px;
+  margin: 0 auto; }
+
+.logo-container {
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 20px;
+  display: inline-block; }
+  .logo-container .img-container {
+    padding-top: 10px;
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    vertical-align: middle; }
+    .logo-container .img-container img {
+      width: 100%;
+      height: auto;
+      display: inline-block; }
+  .logo-container h1 {
+    font-family: "Helvetica Neue", Helvetica, sans-serif, serif;
+    font-size: 36px;
+    display: inline-block;
+    color: white;
+    vertical-align: middle; }
+
+.search {
+  height: 35px;
+  width: 50%;
+  display: inline-block;
+  border-radius: 5px; }
+
+.profile {
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, sans-serif, serif;
+  font-size: 24px;
+  color: white; }
+
+/*# sourceMappingURL=newsfeed.css.map */

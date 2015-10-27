@@ -1,0 +1,83 @@
+@import 'reset';
+@mixin blue-back($hex: #3B5998) {
+  background-color: #3B5998;
+}
+@mixin display($property: inline-block) {
+  display: $property;
+}
+@mixin add-border {
+  border: 2px solid;
+}
+@mixin center-vertical {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@mixin center-text {
+  vertical-align: middle;
+}
+
+@mixin font ($size: 24px) {
+	font-family: "Helvetica Neue", Helvetica, sans-serif, serif;
+	font-size: $size;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.top-nav {
+  @include blue-back;
+  border-bottom: 3px solid;
+  border-top: 3px solid;
+}
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.logo-container {
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 20px;
+  @include display;
+
+
+
+	.img-container {
+	  padding-top: 10px;
+	  width: 90px;
+	  height: 90px;
+	  @include display;
+	  @include center-text;
+		img {
+		  width: 100%;
+		  height: auto;
+		  display: inline-block;
+		}
+	} 
+
+	h1 { 
+	  @include font(36px);
+	  @include display;
+	  color: white;
+	  @include center-text;
+	}
+}
+
+.search {
+	height: 35px;
+	width: 50%;
+	@include display;
+	border-radius: 5px;
+}
+
+.profile {
+  @include display;
+  @include font;
+  color: white;
+}
