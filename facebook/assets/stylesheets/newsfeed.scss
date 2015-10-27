@@ -1,0 +1,305 @@
+@import 'reset';
+$fb-blue: #3B5998;
+@mixin blue-back($hex: #3B5998) {
+  background-color: #3B5998;
+}
+@mixin display($property: inline-block) {
+  display: $property;
+}
+@mixin add-border {
+  border: 2px solid;
+}
+@mixin center-vertical {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@mixin center-text {
+  vertical-align: middle;
+}
+
+@mixin font ($size: 24px) {
+	font-family: "Helvetica Neue", Helvetica, sans-serif, serif;
+	font-size: $size;
+}
+
+@mixin cf {
+	&:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.top-nav {
+  @include blue-back;
+  border-bottom: 3px solid;
+  border-top: 3px solid;
+}
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.logo-container {
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 20px;
+  @include display;
+
+
+
+	.img-container {
+	  padding-top: 10px;
+	  width: 70px;
+	  height: 70px;
+	  @include display;
+	  @include center-text;
+		img {
+		  width: 100%;
+		  height: auto;
+		  display: inline-block;
+		}
+	} 
+
+	h1 { 
+	  @include font(32px);
+	  @include display;
+	  color: white;
+	  @include center-text;
+	}
+}
+
+.search {
+	height: 30px;
+	width: 50%;
+	@include display;
+	border-radius: 5px;
+}
+
+.profile {
+  @include display;
+  @include font;
+  color: white;
+  vertical-align: middle;
+  padding-left: 2%;
+}
+
+main {
+  width: 80%;
+  border: 2px solid #eee;
+  margin: auto;
+}
+
+#left {
+  height: #right;
+  width: 30%;
+  margin-left: 25px;
+  padding-top: 50px;
+  border-right: 2px solid;
+  display: inline-block;
+
+  footer {
+    color: $fb-blue;
+    text-decoration: underline;
+    padding-right: 30px;
+   }
+}
+
+.edit-profile {
+
+  @include cf;
+  img {
+  	width: 100px;
+  	height: 100px;
+  	border-radius: 10px;
+  	float: left;
+  	margin-right: 10px;
+  }
+  .name {
+	@include font(18px);
+	padding-top: 8px;
+  	text-decoration: underline;
+  	color: $fb-blue;
+  	span {
+  	  padding-top: 4px;
+  	  font-size: 0.6em;
+  	  @include display(block);
+  	}
+  }
+}
+
+section {
+  margin: 30px 0;
+  
+  header {
+  	margin-bottom: 10px;
+    @include font(18px);
+  }
+}
+
+.friend-container {
+  border: 1px solid #eee;
+  color: $fb-blue;
+  margin-bottom: 10px;
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  img {
+  	border: 1px solid;
+  	width: 50px;
+  	height: 50px;
+  	float: left;
+  	margin-right: 5px;
+  }
+  .name {
+  	padding-top: 7px;
+  	text-decoration: underline;
+  }
+  .no-decoration {
+  font-size: 0.6em;
+  text-decoration: none;
+  }
+}
+
+
+#right {
+  margin: 50px 2%;
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+
+  .main {
+  	margin: 0 auto;;
+  }
+}
+
+.post-container{
+  text-align: center;
+  border: 2px solid;
+  
+  header, footer {
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+    border: 1px solid;
+    background-color: #9D9D9D;
+  }
+
+  textarea {
+  	height: 100%;
+  	width: 90%;
+  	margin: 2px auto;
+  }
+
+  footer {
+  	@include cf;
+  	.button {
+  		margin: 5px 5px;
+  		float: right;
+  		@include blue-back;
+  		color: white;
+  		box-shadow: 3px 3px 2px #090909;
+  	}
+  }
+}
+
+.feed {
+  border: 1px solid;
+  margin: 40px auto;
+
+  .comment {
+    width: 90%;
+    margin: 0 auto;
+
+    p {
+    	margin-bottom: 10px;
+    }
+  }
+ 
+  footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid;
+    color: $fb-blue;
+    background-color: #9D9D9D;
+
+
+    .like, .button-comment {
+      display: inline-block;
+      margin: 2px 5px;
+      text-decoration: underline;
+    }
+
+    .like, .liked {
+   	  padding-left: 18px
+    }
+
+    .liked {
+	  margin-top: 10px;
+      margin-left: 5px;
+      text-decoration: underline;
+      display: inline-block;
+    }
+    span {
+    	color: black;
+    	font-size: 0.9em;
+    }
+  }
+
+  .expanded {
+	color: black;
+	header {
+		border-bottom: 2px solid;
+	}
+	section {
+	  border: none;
+	  @include cf;
+	  .button {
+  		margin: 5px 5px;
+  		float: right;
+  		@include blue-back;
+  		color: white;
+  		box-shadow: 3px 3px 2px #090909;
+  	  }
+
+	  .center {
+	    text-align: center;
+	  }
+      textarea {
+  	  height: 100%;
+  	  width: 90%;
+  	  margin: 0 auto;
+    }
+	}
+  }
+}
+
+.edit-container {
+	@include cf;
+
+	.unlike {
+	  float: left;
+	}
+	.delete {
+	  float: right;
+	}
+	.unlike, .delete {
+	  font-size: 15px;
+	  text-decoration: underline;
+	}
+}
+
+.status {
+	margin-top: 15px;
+}
