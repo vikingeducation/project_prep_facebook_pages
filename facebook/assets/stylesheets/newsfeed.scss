@@ -23,6 +23,14 @@ $fb-blue: #3B5998;
 	font-size: $size;
 }
 
+@mixin cf {
+	&:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
 html {
   box-sizing: border-box;
 }
@@ -85,21 +93,30 @@ html {
   padding-left: 2%;
 }
 
-aside {
+main {
+  width: 80%;
+  border: 2px solid #eee;
+  margin: auto;
+}
+
+#left {
+  height: #right;
   width: 30%;
   margin-left: 25px;
   padding-top: 50px;
   border-right: 2px solid;
+  display: inline-block;
+
+  footer {
+    color: $fb-blue;
+    text-decoration: underline;
+    padding-right: 30px;
+   }
 }
 
 .edit-profile {
 
-  &:after {
-    content: '';
-    display: block;
-    clear: both;
-  }
-
+  @include cf;
   img {
   	width: 100px;
   	height: 100px;
@@ -156,9 +173,133 @@ section {
   }
 }
 
-footer {
+
+#right {
+  margin: 50px 2%;
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+
+  .main {
+  	margin: 0 auto;;
+  }
+}
+
+.post-container{
   text-align: center;
-  color: $fb-blue;
-  text-decoration: underline;
-  padding-right: 30px;
+  border: 2px solid;
+  
+  header, footer {
+  	padding-top: 5px;
+  	padding-bottom: 5px;
+    border: 1px solid;
+    background-color: #9D9D9D;
+  }
+
+  textarea {
+  	height: 100%;
+  	width: 90%;
+  	margin: 2px auto;
+  }
+
+  footer {
+  	@include cf;
+  	.button {
+  		margin: 5px 5px;
+  		float: right;
+  		@include blue-back;
+  		color: white;
+  		box-shadow: 3px 3px 2px #090909;
+  	}
+  }
+}
+
+.feed {
+  border: 1px solid;
+  margin: 40px auto;
+
+  .comment {
+    width: 90%;
+    margin: 0 auto;
+
+    p {
+    	margin-bottom: 10px;
+    }
+  }
+ 
+  footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid;
+    color: $fb-blue;
+    background-color: #9D9D9D;
+
+
+    .like, .button-comment {
+      display: inline-block;
+      margin: 2px 5px;
+      text-decoration: underline;
+    }
+
+    .like, .liked {
+   	  padding-left: 18px
+    }
+
+    .liked {
+	  margin-top: 10px;
+      margin-left: 5px;
+      text-decoration: underline;
+      display: inline-block;
+    }
+    span {
+    	color: black;
+    	font-size: 0.9em;
+    }
+  }
+
+  .expanded {
+	color: black;
+	header {
+		border-bottom: 2px solid;
+	}
+	section {
+	  border: none;
+	  @include cf;
+	  .button {
+  		margin: 5px 5px;
+  		float: right;
+  		@include blue-back;
+  		color: white;
+  		box-shadow: 3px 3px 2px #090909;
+  	  }
+
+	  .center {
+	    text-align: center;
+	  }
+      textarea {
+  	  height: 100%;
+  	  width: 90%;
+  	  margin: 0 auto;
+    }
+	}
+  }
+}
+
+.edit-container {
+	@include cf;
+
+	.unlike {
+	  float: left;
+	}
+	.delete {
+	  float: right;
+	}
+	.unlike, .delete {
+	  font-size: 15px;
+	  text-decoration: underline;
+	}
+}
+
+.status {
+	margin-top: 15px;
 }
