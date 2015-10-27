@@ -1,4 +1,5 @@
 @import 'reset';
+$fb-blue: #3B5998;
 @mixin blue-back($hex: #3B5998) {
   background-color: #3B5998;
 }
@@ -50,8 +51,8 @@ html {
 
 	.img-container {
 	  padding-top: 10px;
-	  width: 90px;
-	  height: 90px;
+	  width: 70px;
+	  height: 70px;
 	  @include display;
 	  @include center-text;
 		img {
@@ -62,7 +63,7 @@ html {
 	} 
 
 	h1 { 
-	  @include font(36px);
+	  @include font(32px);
 	  @include display;
 	  color: white;
 	  @include center-text;
@@ -70,7 +71,7 @@ html {
 }
 
 .search {
-	height: 35px;
+	height: 30px;
 	width: 50%;
 	@include display;
 	border-radius: 5px;
@@ -80,4 +81,84 @@ html {
   @include display;
   @include font;
   color: white;
+  vertical-align: middle;
+  padding-left: 2%;
+}
+
+aside {
+  width: 30%;
+  margin-left: 25px;
+  padding-top: 50px;
+  border-right: 2px solid;
+}
+
+.edit-profile {
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  img {
+  	width: 100px;
+  	height: 100px;
+  	border-radius: 10px;
+  	float: left;
+  	margin-right: 10px;
+  }
+  .name {
+	@include font(18px);
+	padding-top: 8px;
+  	text-decoration: underline;
+  	color: $fb-blue;
+  	span {
+  	  padding-top: 4px;
+  	  font-size: 0.6em;
+  	  @include display(block);
+  	}
+  }
+}
+
+section {
+  margin: 30px 0;
+  
+  header {
+  	margin-bottom: 10px;
+    @include font(18px);
+  }
+}
+
+.friend-container {
+  border: 1px solid #eee;
+  color: $fb-blue;
+  margin-bottom: 10px;
+
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  img {
+  	border: 1px solid;
+  	width: 50px;
+  	height: 50px;
+  	float: left;
+  	margin-right: 5px;
+  }
+  .name {
+  	padding-top: 7px;
+  	text-decoration: underline;
+  }
+  .no-decoration {
+  font-size: 0.6em;
+  text-decoration: none;
+  }
+}
+
+footer {
+  text-align: center;
+  color: $fb-blue;
+  text-decoration: underline;
+  padding-right: 30px;
 }

@@ -69,8 +69,8 @@ html {
   display: inline-block; }
   .logo-container .img-container {
     padding-top: 10px;
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     display: inline-block;
     vertical-align: middle; }
     .logo-container .img-container img {
@@ -79,13 +79,13 @@ html {
       display: inline-block; }
   .logo-container h1 {
     font-family: "Helvetica Neue", Helvetica, sans-serif, serif;
-    font-size: 36px;
+    font-size: 32px;
     display: inline-block;
     color: white;
     vertical-align: middle; }
 
 .search {
-  height: 35px;
+  height: 30px;
   width: 50%;
   display: inline-block;
   border-radius: 5px; }
@@ -94,6 +94,69 @@ html {
   display: inline-block;
   font-family: "Helvetica Neue", Helvetica, sans-serif, serif;
   font-size: 24px;
-  color: white; }
+  color: white;
+  vertical-align: middle;
+  padding-left: 2%; }
+
+aside {
+  width: 30%;
+  margin-left: 25px;
+  padding-top: 50px;
+  border-right: 2px solid; }
+
+.edit-profile:after {
+  content: '';
+  display: block;
+  clear: both; }
+.edit-profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 10px; }
+.edit-profile .name {
+  font-family: "Helvetica Neue", Helvetica, sans-serif, serif;
+  font-size: 18px;
+  padding-top: 8px;
+  text-decoration: underline;
+  color: #3B5998; }
+  .edit-profile .name span {
+    padding-top: 4px;
+    font-size: 0.6em;
+    display: block; }
+
+section {
+  margin: 30px 0; }
+  section header {
+    margin-bottom: 10px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif, serif;
+    font-size: 18px; }
+
+.friend-container {
+  border: 1px solid #eee;
+  color: #3B5998;
+  margin-bottom: 10px; }
+  .friend-container:after {
+    content: '';
+    display: block;
+    clear: both; }
+  .friend-container img {
+    border: 1px solid;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 5px; }
+  .friend-container .name {
+    padding-top: 7px;
+    text-decoration: underline; }
+  .friend-container .no-decoration {
+    font-size: 0.6em;
+    text-decoration: none; }
+
+footer {
+  text-align: center;
+  color: #3B5998;
+  text-decoration: underline;
+  padding-right: 30px; }
 
 /*# sourceMappingURL=newsfeed.css.map */
