@@ -7,66 +7,59 @@
 
 	<body>
 		<header>
-			<div>
-				<h1>Facebook</h1>
-			</div>
-			<form>
-  				<fieldset class="account-info">
-    				<label>
-      					Username
-      					<input type="text" name="username">
-    				</label>
-    				<label>
-      					Password
-      					<input type="password" name="password">
-    				</label>
-  				</fieldset>
-  			</form>
+				<h1 class="title">Facebook</h1>
+				<table class="login-table">
+				  <tr>
+				    <td class="login-username">Username</td>
+				    <td class="login-password">Password</td>
+				  </tr>
+				  <tr>
+				    <td class="input-username"><input class="username" type="text" name="username"></td>
+				    <td><input class="password" type="password" name="password"></td>
+				    <td class="login-btn-container"><input class="login-btn" type="submit" name="submit" value="Log in"></td>
+				  </tr>
+				</table>
 		</header>
-
-		<section>
-			<h1>Connect with all your friends!</h1>
-			<ul>
+	<Section class="content-container">
+		<section class="col-2-3">
+			<h1 class="description-title">Connect with all your friends!</h1>
+			<ul class="description">
 				<li>See phtos and updates in your news feed.</li>
-				<li>Post your status for the world to see from your profile</li>
-				<li>Get in touch with your friends by "friending" them</li>
+				<li>Post your status for the world to see from your profile.</li>
+				<li>Get in touch with your friends by "friending" them.</li>
 				<li>Like things becasue you're a positive person!</li>
 			</ul>
-		</sectioin>
-		<aside>
-			<h2>Sign Up</h2>
+		</section>
+		<aside class="col-1-3">
 			<form>
-				<fieldset>
-					<div>
-						<input type="text" name="First Name">
-					</div>
-					<div>
-						<input type="text" name="Last Name">
-					</div>
-					<div>
-						<input type="text" name="Your Email">
-					</div>
-					<div>
-						<input type="text" name="Your New Password">
-					</div>
-					<div>
-						<input type="text" name="Confirm password">
-					</div>
-					<div>
-						<input type="date" name="birthday">
-					</div>
-					<div> 
-						<label for="radio">Female</label>
-						<input type="radio" name="gender" value="Female">
-						<label for="radio">Male</label>
-						<input type="radio" name="gender" value="Male">
-					</div>
-					<div>
-					<input type="button" name="Sign Up!" value="Sign Up!">
-					</div>
-				</fieldset>
+				<h2 class="sign-up">Sign Up</h2>
+			<div class="first-last">
+				<input class="first-name" type="text" name="First Name" placeholder="First Name">
+				<input class="last-name" type="text" name="Last Name" placeholder="Last Name">
+			</div>
+			<div class="email-container">
+				<input class="your-email" type="text" name="Your Email" placeholder="Your Email">
+			</div>
+			<div class="new-password-container">	
+				<input class="new-password" type="text" name="Your New Password" placeholder="Your New Password">
+			</div>
+			<div class="confirm-password-container">	
+				<input class="confirm-password" type="text" name="Confirm password" placeholder="Confirm Your Password">
+			</div>
+			<div class="age-container">
+				<input class="age" type="date" name="birthday">
+			</div>
+			<div class="gender">	
+				<label for="radio">Female</label>
+				<input id="female" type="radio" name="gender" value="Female"><label for="radio">Male</label>
+				<input id="male" type="radio" name="gender" value="Male">
+			</div>
+			<div class="sign-up-btn-container">	
+				<input class="sign-up-btn" type="button" name="Sign Up!" value="Sign Up!">	  
+			</div>
 			</form>
 		</aside>
+	</section>
 	</body>
 
 </html>
