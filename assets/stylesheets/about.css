@@ -1,0 +1,368 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/*==============================================
+      clearfix
+ ==============================================*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+/*==============================================
+      Header
+ ==============================================*/
+header {
+	width: 100%;
+	height: 40px;
+	background-color: #3A5795;
+	position: fixed;
+}
+
+.test div {
+	display: inline-block;
+}
+
+.test {
+	width: 960px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.user-search input {
+	width: 500px;
+	border-radius: 1px;
+	font-size: 16px;
+}
+
+.user-search {
+	margin-left: 125px;
+	margin-top: 8px;
+
+}
+.owner {
+	float: right;
+	margin-top: 10px;
+}
+
+.owner a {
+	text-decoration: none;
+	color: white;
+	font-family: helvetica, arial, sans-serif;
+}
+
+.icon {
+	width: 20px;
+	height: 20px;
+}
+.profile-icon {
+	background-color: #00E033;
+}
+
+.header-title a {
+	text-decoration: none;
+	color: white;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 25px;
+}
+.header-title {
+	margin-top: 6px;
+}
+
+/*==============================================
+      image area
+ ==============================================*/
+
+.top-container {
+	width: 960px;
+	height: 362px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url("https://images.unsplash.com/photo-1443926818681-717d074a57af?fit=crop&fm=jpg&h=1000&ixlib=rb-0.3.5&q=80&w=1925");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.profile-pic-container img {
+	width: 168px;
+	height: 168px;
+
+}
+.profile-pic-container {
+	width: 168px;
+	height: 168px;
+	background-color: #00E033;
+	display: inline-block;
+	margin-top: 180px;
+	margin-left: 8px;
+	position: absolute;
+	z-index: 2;
+	
+}
+
+.top-nav {
+	display: inline-block;
+	margin-left: 200px;
+	color: #4E5665;
+	height: 38px;
+}
+
+.top-nav a{
+	color: #4E5665;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 16px;
+	line-height: 38px;
+	text-decoration: none;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.top-nav a:hover {
+	opacity: 0.5;
+}
+
+.edit {
+	display: inline-block;
+	float: right;
+	color: #4E5665;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 14px;
+	line-height: 38px;
+	margin-right: 10px;
+}
+
+.edit a:hover {
+	opacity: 0.5;
+}
+
+
+.nav-container {
+	height: 38px;
+position: relative;
+top: 325px;
+background-color: white;
+z-index: 1;
+border: solid 1px #D3D6DB;
+}
+
+.link-containers {
+	display: inline-block;
+	border: solid 1px #D3D6DB;
+	border-bottom: none;
+	border-top: none;
+	height: 38px;
+}
+
+.about-container {
+	display: inline-block;
+	height: 38px;
+}
+.friend-container {
+	display: inline-block;
+	border-right: solid 1px #D3D6DB;
+	height: 38px;
+}
+
+
+/*==============================================
+     about bar
+ ==============================================*/
+
+.main-content {
+	width: 960px;
+	height: 400px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 1px #D3D6DB;
+	border-top: none;
+}
+
+
+.about-edit-container {
+	width: 100%;
+	height: 40px;
+	background-color: #EEEEEE;
+	border: solid 1px #D3D6DB;
+	border-right: none;
+	border-left: none;
+}
+
+.about-title {
+	display: inline-block;
+}
+
+.edit-btn {
+	display: inline-block;
+	float: right;
+	margin-right: 40px;
+	margin-top: 5px;
+}
+
+.edit-button {
+	background-color: #3A5795;
+	width: 110px;
+	height: 23px;
+	font-weight: 700;
+	border-radius: 1px;
+	box-shadow: 3px 3px 3px black;
+	cursor: pointer; cursor: hand;
+	color: white;
+	border-color: solid 1px black;
+}
+
+
+.about-title {
+	margin-left: 450px;
+	font-size: 25px;
+	font-family: helvetica, arial, sans-serif;
+	margin-top: 5px;
+}
+
+
+/*==============================================
+      main content
+ ==============================================*/
+
+.table-container {
+	width: 50%;
+	display: inline-block;
+}
+
+.personal-info {
+	letter-spacing: 1px;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 15px;
+	margin-left:  40px
+}
+
+.info-title  {
+	margin-left: 40px;
+}
+
+.table-titles {
+	letter-spacing: 1px;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	padding-top: 15px;
+	padding-right: 5px;
+}
+
+
+
+
+
+
+/*==============================================
+      aside content
+ ==============================================*/
+
+
+.right-content {
+	float: right;
+	width: 50%;
+}
+
+
+.paragraph  {
+	width: 480px;
+	word-wrap: break-word;
+	padding-right: 40px;
+	margin-top: 20px;
+	letter-spacing: 1px;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 15px;
+}
+
+.inspiration {
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: helvetica, arial, sans-serif;
+	font-weight: 700;
+}
+
+.contact-info {
+	margin-left: 40px;
+}
+
+
+
+/*==============================================
+      aside content
+ ==============================================*/
+
+button {
+  outline: none;
+}
+
+input:focus {
+    outline:none;
+}
+
+button:focus {
+	outline: none;
+}
