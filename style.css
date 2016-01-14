@@ -57,24 +57,28 @@ a:hover{
 	clear: both;
 }
 .fb-col-2{
-	float: left;
+	display: inline-block;
 	width: 12%;
 	padding: 5px;
+	vertical-align: top;
 }
 .fb-col-5{
-	float: left;
+	display: inline-block;
 	width: 39%;
 	padding: 5px;
+	vertical-align: top;
 }
 .fb-col-6{
-	float: left;
-	width: 47%;
+	display: inline-block;
+	width: 46.333%;
 	padding: 5px;
+	vertical-align: top;
 }
 .fb-col-7{
-	float: left;
+	display: inline-block;
 	width: 58%;
 	padding: 5px;
+	vertical-align: top;
 }
 /* Forms */
 form.login-form{
@@ -212,4 +216,31 @@ label#input-top-label{
 }
 .signup-form-content{
 	margin-top: 20px;
+}
+.note-text{
+	color: #777;
+	font-size: 11px;
+	line-height: 150%;
+}
+/* Footer */
+#footer{
+	width: 100%;
+}
+#footer a{
+	color: #3b5998;
+	margin-right: 10px;
+}
+.footer-container{
+	width: 980px;
+	margin: 0 auto;
+	font-size: 11px;
+	color: #737373;
+	line-height: 175%;
+}
+.footer-hline{
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+    font-size: 1px;
+    height: 8px;
+    margin-bottom: 8px;
 }
