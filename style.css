@@ -4,8 +4,11 @@ body{
 	color: #000;
 	background-color: #fff;
 }
+div{
+	box-sizing: border-box;
+}
 a{
-	color: #666;
+	color: #3b5998;
 	text-decoration: none;
 }
 a:hover{
@@ -28,13 +31,27 @@ a:hover{
 	border-bottom: 1px solid #133783;
 	box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .52);
 }
+.header-small{
+	height: 42px !important;
+}
 .header-wrapper{
 	width: 980px;
 	margin: 0 auto;
 	padding-top: 13px;
 }
+.fb-about-header-wrapper{
+	padding-top: 0;
+}
 .logo-wrapper{
 	float: left;
+}
+.fb-logo-small{
+	float: left;
+    margin-left: -8px;
+    margin-top: 2px;
+    padding-right: 1px;
+    position: absolute;
+    z-index: 5;
 }
 .the-logo{
 	display: block;
@@ -44,10 +61,55 @@ a:hover{
 	background-image: url('images/4DWZkxH8SQj.png');
 	background-position: 0 0;
 }
+.the-logo-small{
+	background-image: url('images/U6CP1x_Rhle.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -7px -37px;
+    display: block;
+    height: 28px;
+    margin: 5px;
+    outline: none;
+    overflow: hidden;
+    text-indent: -999px;
+    white-space: nowrap;
+    width: 28px;
+    z-index: 2;
+}
 .login-form-wrapper{
 	float: right;
 	width: 390px;
 	color: #fff;
+}
+.fb-user-name{
+	float: right;
+	margin-top: 7px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 27px;
+}
+/* Search */
+.fb-top-search{
+	float: left;
+	width: 450px;
+	margin-left: 34px;
+	margin-top: 8px;
+	border: 1px solid #355089;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+    height: 26px;
+    top: 8px;
+    background-color: #fff;
+}
+.search-INPUT{
+	width: 95%;
+	margin-left: 5px;
+	margin-right: 10px;
+	height: 14px;
+	padding: 5px;
+	border: none;
 }
 /* Columns */
 .fb-vc-row{
@@ -188,7 +250,7 @@ label#input-top-label{
 	margin: 0 auto;
 }
 .homepage-container{
-	
+	position: relative;
 }
 .page-caption{
 	color: #0e385f;
@@ -221,6 +283,138 @@ label#input-top-label{
 	color: #777;
 	font-size: 11px;
 	line-height: 150%;
+}
+/* Profile */
+.about-container{
+	width: 980px;
+	margin: 0 auto;
+}
+.fb-profile-cover{
+	width: 980px;
+	margin: 0 auto;
+	display: block;
+    position: relative;
+    height: 315px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.fb-cover-pic{
+	width: 100%;
+	height: auto;
+}
+.fb-profile-nav{
+	width: 100%;
+	min-height: 41px;
+	border: 1px solid #e9eaed;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.fb-profile-pic{
+	position: absolute;
+	margin-top: -143px;
+	margin-left: 15px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 4px;
+	border: 1px solid #777;
+	padding: 3px;
+	background-color: #fff;
+	z-index: 101;
+}
+.fb-profile-pic img{
+	width: 100%;
+	height: auto;
+}
+.fb-profile-nav-start{
+	padding-left: 201px;
+}
+.fb-profile-nav-start a{
+	display: inline-block;
+	margin-left: -3px;
+	border-left: 1px solid #e9eaed;
+	font-size: 14px;
+    font-weight: bold;
+    height: 43px;
+    line-height: 3.05;
+    padding: 0 17px;
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
+    clear: both;
+}
+.fb-profile-nav-start a:hover{
+	background-color: #f6f7f8;
+	text-decoration: none;
+}
+.fb-counting{
+	font-size: 11px;
+	color: #89919c;
+	font-weight: normal;
+}
+.fb-profile-details{
+	width: 100%;
+	margin: 20px auto;
+	border-radius: 3px;
+	border: 1px solid #e9eaed;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.fb-profile-header{
+	width: 100%;
+	height: 41px;
+	background-color: #e9eaed;
+}
+.fb-profile-header h2{
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 41px;
+}
+.fb-profile-button{
+	float: right;
+	margin-top: -33px;
+	margin-right: 10px;
+}
+.edit-PROFILE{
+	color: #fff;
+	font-weight: bold;
+	padding: 4px 16px;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	background-color: #4683ea;
+	border: 1px solid #4683ea;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+.fb-profile-content{
+	width: 980px;
+	margin: 0 auto;
+}
+.profile-section-wrapper{
+	margin: 10px;
+	padding: 20px;
+	line-height: 150%;
+	border: 0px solid #e9eaed;
+	border-radius: 3px;
+}
+.profile-section-title{
+	margin: 10px 0;
+}
+.profile-section-title h3{
+	font-size: 14px;
+	font-color: #000;
+	font-weight: bold;
+}
+.fb-pr-item{
+	margin: 4px 0;
+	line-height: 24px;
+}
+.fb-pr-item-title{
+	display: inline-block;
+	width: 100px;
+	color: #000;
+	font-weight: bold;
 }
 /* Footer */
 #footer{
