@@ -1,0 +1,94 @@
+body{
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	background-color: #fff;
+}
+a{
+	color: #666;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+/* Header */
+#header{
+	width: 100%;
+	height: 82px;
+	background-image: url('images/header-background.png');
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	background-color: #3a5795;
+	border-bottom: 1px solid #133783;
+	box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .52);
+}
+.header-wrapper{
+	width: 980px;
+	margin: 0 auto;
+	padding-top: 13px;
+}
+.logo-wrapper{
+	float: left;
+}
+.the-logo{
+	display: block;
+	margin-top: 17px;
+	width: 170px;
+	height: 34px;
+	background-image: url('images/4DWZkxH8SQj.png');
+	background-position: 0 0;
+}
+.login-form-wrapper{
+	float: right;
+	width: 390px;
+	color: #fff;
+}
+/* Columns */
+.fb-col-2{
+	float: left;
+	width: auto;
+	padding: 5px;
+}
+.fb-col-5{
+	float: left;
+	width: 39%;
+	padding: 5px;
+}
+/* Forms */
+form.login-form{
+	margin: 0;
+	padding: 0;
+	margin-top: -5px;
+	line-height: 1.5em;
+}
+.login-form-wrapper label, .login-form-wrapper a{
+	color: #9daccb;
+}
+label#input-top-label{
+	color: #fff;
+}
+.name-INPUT, .password-INPUT{
+	width: 100%;
+	margin: 0;
+	padding: 3px;
+	border: 1px solid #1d2a5b;
+	width: 142px;
+}
+.login-BUTTON{
+	padding: 3px 6px;
+	margin: 18px 0 0;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	background-image: url('images/jDUIAfpwjqq.png');
+	background-position: 0 -49px;
+	background-repeat: no-repeat;
+	background-color: #5b74a8;
+	border-width: 1px;
+	border-color: #2f477a #29447e #1a356e;
+	cursor: pointer;
+}
+.keeplogin-CHKBOX{
+	vertical-align: middle;
+	margin-left: 0;
+}
