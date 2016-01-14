@@ -11,6 +11,12 @@ a{
 a:hover{
 	text-decoration: underline;
 }
+.clearfix{
+	zoom: 1;
+}
+.img{
+	border: 0;
+}
 /* Header */
 #header{
 	width: 100%;
@@ -44,14 +50,30 @@ a:hover{
 	color: #fff;
 }
 /* Columns */
+.fb-vc-row{
+	width: 100%;
+	margin-left: -5px;
+	margin-right: -5px;
+	clear: both;
+}
 .fb-col-2{
 	float: left;
-	width: auto;
+	width: 12%;
 	padding: 5px;
 }
 .fb-col-5{
 	float: left;
 	width: 39%;
+	padding: 5px;
+}
+.fb-col-6{
+	float: left;
+	width: 47%;
+	padding: 5px;
+}
+.fb-col-7{
+	float: left;
+	width: 58%;
 	padding: 5px;
 }
 /* Forms */
@@ -67,7 +89,7 @@ form.login-form{
 label#input-top-label{
 	color: #fff;
 }
-.name-INPUT, .password-INPUT{
+.name-INPUT, .login-password-INPUT{
 	width: 100%;
 	margin: 0;
 	padding: 3px;
@@ -91,4 +113,103 @@ label#input-top-label{
 .keeplogin-CHKBOX{
 	vertical-align: middle;
 	margin-left: 0;
+}
+.fb-name-block{
+	height: 45px;
+	margin-bottom: 5px;
+}
+.text-INPUT{
+	width: 155px;
+	font-size: 18px;
+	padding: 8px 10px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+}
+.email-INPUT, .signup-password-INPUT{
+	width: 345px;
+	font-size: 18px;
+	padding: 8px 10px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+}
+.form-input-block{
+	margin: 10px 0;
+}
+.form-subtitle{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	color: #141823;
+    font-size: 18px;
+    font-weight: normal;
+}
+.fb-bday-wrapper{
+	margin: 10px 0;
+}
+.bday-SELECT{
+	font-size: 12px;
+	height: 30px;
+	padding: 5px;
+	border: 1px solid #bdc7d8;
+}
+.gender-select{
+	border-radius: 4px;
+    border-width: 1px;
+    display: inline-block;
+    padding: 5px 0 5px 4px;
+}
+#gender{
+	cursor: pointer;
+	vertical-align: middle;
+}
+.signup-BUTTON{
+	min-width: 194px;
+	padding: 7px 20px;
+	color: #fff;
+	text-align: center;
+	font-size: 19px;
+	letter-spacing: 1px;
+	line-height: 126%;
+	font-weight: bold;
+	background: linear-gradient(#79bc64, #578843);
+	border-width: 1px;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	box-shadow: inset 0 1px 1px #a4e388;
+	border-radius: 5px;
+	cursor: pointer;
+}
+/* Page Container */
+.page-container{
+	width: 980px;
+	margin: 0 auto;
+}
+.homepage-container{
+	
+}
+.page-caption{
+	color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+}
+.signup-form-wrapper{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.signup-form-title{
+	font-size: 36px;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 5px;
+	line-height: 1.34;
+}
+.signup-form-subhtitle{
+	font-size: 19px;
+	color: #141823;
+}
+.signup-form-content{
+	margin-top: 20px;
 }
