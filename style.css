@@ -20,6 +20,12 @@ a:hover{
 .img{
 	border: 0;
 }
+hr{
+	margin: 10px 0;
+	height: 1px;
+	border: none;
+	background-color: #bdc7d8;
+}
 /* Header */
 #header{
 	width: 100%;
@@ -124,6 +130,12 @@ a:hover{
 	padding: 5px;
 	vertical-align: top;
 }
+.fb-col-4{
+	display: inline-block;
+	width: 39%;
+	padding: 5px;
+	vertical-align: top;
+}
 .fb-col-5{
 	display: inline-block;
 	width: 39%;
@@ -141,6 +153,15 @@ a:hover{
 	width: 58%;
 	padding: 5px;
 	vertical-align: top;
+}
+.fb-col-8{
+	display: inline-block;
+	width: 60%;
+	padding: 5px;
+	vertical-align: top;
+}
+.fb-vd-signup-col{
+	width: 49.33333%;
 }
 /* Forms */
 form.login-form{
@@ -347,7 +368,7 @@ label#input-top-label{
 	background-color: #f6f7f8;
 	text-decoration: none;
 }
-.fb-counting{
+.fb-counting, .fb-nf-post-date{
 	font-size: 11px;
 	color: #89919c;
 	font-weight: normal;
@@ -376,7 +397,7 @@ label#input-top-label{
 	margin-top: -33px;
 	margin-right: 10px;
 }
-.edit-PROFILE{
+.edit-PROFILE, .btn-POST{
 	color: #fff;
 	font-weight: bold;
 	padding: 4px 16px;
@@ -431,6 +452,10 @@ label#input-top-label{
 	display: inline-block;
 	vertical-align: middle;
 }
+.fb-nf-coment-liks, .fb-nf-friend-title{
+	display: inline-block;
+	vertical-align: top;
+}
 .fb-friend-photo{
 	width: 110px;
 	height: 110px;
@@ -460,6 +485,148 @@ label#input-top-label{
 	border-radius: 3px;
 	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
 	cursor: pointer;
+}
+/* Newsfeed */
+.fb-left-sidebar{
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 40px;
+}
+.fb-nf-wrapper{
+	padding-top: 40px;
+	border-left: 1px solid #e9eaed;
+}
+.fb-nf-activity-wrapper{
+	width: 100%;
+}
+.fb-nf-profile{
+	display: block;
+	position: relative;
+	width: 100%;
+}
+.fb-nf-profile-pic{
+	display: inline-block;
+	vertical-align: middle;
+	width: 80px;
+	height: 80px;
+	border: 5px solid #fff;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.4);
+	border-radius: 3px;
+	overflow: hidden;
+}
+.fb-nf-profile-pic img{
+	width: 100%;
+	height: auto;
+}
+.fb-nf-profile-details{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	line-height: 150%;
+}
+.fb-nf-profile-details h1{
+	margin-bottom: 10px;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+}
+.fb-nf-col{
+	width: 100%;
+}
+.fb-nf-section{
+	padding: 0;
+	overflow: hidden;
+}
+.fb-nf-post-title, .fb-nf-post-footer{
+	background-color: #e9eaed;
+	min-height: 24px;
+	padding: 5px;
+	text-align: center;
+}
+.fb-nf-post-title h3{
+	line-height: 24px;
+	font-weight: bold;
+}
+.fb-nf-post-content{
+	width: 100%;
+	padding: 10px;
+}
+.fb-nf-post-content textarea{
+	width: 99%;
+	height: 90px;
+}
+.fb-nf-post-footer{
+	display: block;
+	padding: 10px;
+	text-align: left;
+	vertical-align: middle;
+}
+.fb-nf-post-footer a{
+	display: inline-block;
+	text-align: left;
+}
+.fb-nf-links{
+	margin-right: 10px;
+}
+.fb-nf-delete{
+	float: right;
+}
+.fb-nf-align-right, .fb-align-right{
+	text-align: right;
+}
+.btn-POST{
+	right: 0;
+}
+.fb-nf-friend{
+	padding: 10px;
+}
+.fb-nf-friend .fb-friend-content{
+	width: 444px;
+	vertical-align: top;
+}
+.fb-nf-activity-wrapper .fb-friend-content{
+	width: 280px;
+	line-height: 150%;
+}
+.fb-nf-friend .fb-nf-friend-title h3{
+	display: inline-block;
+	vertical-align: middle;
+}
+.fb-nf-friend .fb-nf-friend-title h3 a{
+	display: inline-block;
+	margin-left: 0;
+}
+.fb-nf-friend .fb-nf-comment-date{
+	display: inline-block;
+	vertical-align: middle;
+}
+.fb-nf-photo{
+	width: 50px;
+	height: 50px;
+	border-width: 3px;
+}
+.fb-nf-cancel-btn{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.fb-nf-activity-profile{
+	padding: 10px 0;
+}
+.fb-nf-activity-title{
+	margin-top: 50px;
+}
+.fb-nf-activity-title h3{
+	margin-bottom: 10px;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+}
+.fb-nf-view-all{
+	display: block;
+	margin-top: 20px;
+	font-size: 12px;
+	font-weight: bold;
 }
 /* Footer */
 #footer{
