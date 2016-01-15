@@ -398,6 +398,9 @@ label#input-top-label{
 	border: 0px solid #e9eaed;
 	border-radius: 3px;
 }
+.fb-friends{
+	border: 1px solid #e9eaed;
+}
 .profile-section-title{
 	margin: 10px 0;
 }
@@ -415,6 +418,48 @@ label#input-top-label{
 	width: 100px;
 	color: #000;
 	font-weight: bold;
+}
+/* Friends */
+.fb-friend-col{
+	width: 49%;
+}
+.fb-friend-wrapper{
+	display: block;
+	position: relative;
+}
+.fb-friend-photo, .fb-friend-title, .fb-friend-content, .fb-unfriend-btn {
+	display: inline-block;
+	vertical-align: middle;
+}
+.fb-friend-photo{
+	width: 110px;
+	height: 110px;
+	border: 5px solid #fff;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.4);
+	border-radius: 3px;
+	overflow: hidden;
+}
+.fb-friend-photo img{
+	width: 100%;
+	height: auto;
+}
+.fb-friend-content{
+	min-width: 194px;
+	margin-left: 10px;
+}
+.fb-friend-title h3{
+	font-size: 14px;
+}
+.btn-UNFRIEND{
+	color: #fff;
+	font-weight: bold;
+	padding: 4px 16px;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	background-color: #4683ea;
+	border: 1px solid #4683ea;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,0.3);
+	cursor: pointer;
 }
 /* Footer */
 #footer{
