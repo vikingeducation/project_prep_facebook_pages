@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+
+
+}
+
+/* Styles */
+body {
+  background-color: #EDF0F5;
+  font-family: Tahoma, sans-serif;
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  height: 80px;
+  background-color: #3A5795;
+  color: white;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header h1 {
+  float: left;
+  margin-left: 10%;
+  font-size: 44px;
+  font-weight: 700;
+  padding-top: 27px;
+}
+
+header .email, .password {
+  float: right;
+  margin: 10px;
+  padding-top: 20px;
+}
+
+header .submit {
+    float: right;
+    background-color: #617AAC;
+    border: 2px solid black;
+    padding: 3px 3px;
+    margin-top: 45px;
+    text-align: center;
+    font-size: 13px;
+}
+
+header form {
+  margin-right: 10%;
+}
+
+section {
+  float: left;
+  margin-left: 10%;
+  width: 50%;
+  margin-top: 5%;
+}
+
+section h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+section ul {
+    list-style-type: circle;
+    margin-left: 10%;
+    margin-top: 2em;
+}
+
+section li {
+  margin-top: 2em;
+}
+
+section b {
+  font-weight: 700;
+}
+
+aside {
+  margin-top: 2%;
+  float: left;
+  
+}
+
+aside h1 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: .5em;
+}
+
+aside input { 
+  background-color: white; 
+  border: 2px solid #BDC7D8; 
+  border-radius: 5px;
+  width: 80%;
+  color: #BDC7D8; 
+  font-size: 20px; 
+  padding: 5px 10px; 
+  margin: 4px 2px; 
+}
+
+aside .fname, .lname {
+  float: left;
+  width: 45%;
+}
+aside .fname {
+  margin-right: -5px;
+}
+
+aside a {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+aside .radiom, .radiof {
+  float: left;
+  width: 60px;
+}
+
+aside .btn {
+  background-color: #62994E;
+  border: 2px solid #3B6E22;
+  border-radius: 5px;
+  margin-top: 50px;
+  width: 30%;
+  padding: 8px 20px;
+  text-align: center;
+}
