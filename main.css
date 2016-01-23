@@ -134,7 +134,7 @@ aside h1 {
   padding-bottom: .5em;
 }
 
-aside input { 
+aside form input { 
   background-color: white; 
   border: 2px solid #BDC7D8; 
   border-radius: 5px;
@@ -160,16 +160,36 @@ aside a {
   text-decoration: none;
 }
 
-aside .radiom, .radiof {
-  float: left;
-  width: 60px;
+.birthday {
+  margin-top: 10px;
+  font-size: 20px;
 }
+
+aside .radio { 
+  display: inline-block;
+  border: none; 
+  border-radius: none;
+  vertical-align: middle;
+  width: auto;
+  font-size: 12px; 
+  padding: none; 
+}
+
+select { 
+  width: 15%; 
+  margin-right: -5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 5px; 
+  border: 1px solid gray 
+  border-radius: 4px; 
+  background-color: #DDDDDD; }
 
 aside .btn {
   background-color: #62994E;
   border: 2px solid #3B6E22;
   border-radius: 5px;
-  margin-top: 50px;
+  margin-top: 20px;
   width: 30%;
   padding: 8px 20px;
   text-align: center;
