@@ -410,3 +410,61 @@ aside .btn {
   margin: 5% 5%;
   float: right;
 }
+
+/* friend grid */
+
+.left-friend, .right-friend {
+  display: inline;
+  height: 100px;
+  width: 46%;
+  margin-top: 2.5%;
+  border: 1px solid #cccccc;
+}
+
+.left-friend img, .right-friend img {
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+.left-friend {
+  float: left;
+  margin-left: 2.5%;
+}
+
+.right-friend {
+  float: right;
+  margin-right: 2.5%;
+}
+
+
+.friendname a {
+  font-weight: 700;
+  color: #43609C;
+}
+
+.friendnumber a {
+  text-decoration: none;
+  color: #888888;
+}
+
+
+
+.unfriend {
+  float: right;
+  display: inline;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  border: 2px solid #cccccc;
+  background-color: #46629E;
+  padding: 5px 5px;
+  box-shadow: 1px 1px 1px #888888;
+  position: absolute;
+  margin-left: 20%;
+  margin-top: -2%;
+}
+.unfriend a {
+  text-decoration: none;
+  color: white;
+}
