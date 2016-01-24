@@ -296,7 +296,7 @@ aside .btn {
 
 .upper-content-wrapper .profile-links li {
   display: inline;
-  color: #3B5DB6;
+  color: #888888;
   font-weight: 700;
   font-size: 15px;
   height: 45px;
@@ -305,6 +305,11 @@ aside .btn {
   border: 2px solid #cccccc;
   background-color: white;
   padding: 15px 15px;
+}
+
+.upper-content-wrapper .profile-links li a {
+  text-decoration: none;
+  color: #3B5DB6;
 }
 
 .upper-content-wrapper .username {
@@ -328,4 +333,80 @@ aside .btn {
   margin-top: -35px;
   background-color: white;
   padding: 15px 15px;
+}
+
+/* About Wrapper */
+
+.about-wrapper {
+  display: inline-block;
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #373E4D;
+  background-color: #FFFFFF;
+  padding-bottom: 20px;
+  border: 1px solid #cccccc;
+}
+
+.about-wrapper h3 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.topbar {
+  height: 60px;
+  background-color: #F6F7F8;
+  border-bottom: 1px solid #cccccc;
+}
+
+.topbar h2 {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+}
+
+.topbar .editbutton {
+  text-align: right;
+  display: inline;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  border: 2px solid #cccccc;
+  background-color: #46629E;
+  padding: 5px 5px;
+  box-shadow: 1px 1px 1px #888888;
+  position: absolute;
+  margin-left: 69%;
+  margin-top: -3%;
+}
+.topbar .editbutton a {
+  text-decoration: none;
+  color: white;
+}
+
+/* left content */
+
+.left-content {
+  width: 40%;
+  margin: 5% 5%;
+  float: left;
+}
+
+.left-content strong {
+  font-weight: 700;
+}
+
+.left-content table {
+  line-height: 2em;
+}
+
+
+.right-content {
+  width: 40%;
+  margin: 5% 5%;
+  float: right;
 }
