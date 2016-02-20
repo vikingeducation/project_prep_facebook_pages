@@ -1,7 +1,3 @@
-div{
-  border: 1px solid black;
-}
-
 header{
   width: 100%;
   height: 50px;
@@ -13,8 +9,9 @@ header{
   width: 30px;
   height: 30px;
   float: left;
-  margin-top: 10px;
+  margin-top: 8px;
   margin-left: 90px;
+  border: 2px solid black;
 }
 
 #fb-logo{
@@ -30,6 +27,7 @@ header{
   font-size: 24px;
   margin-top: 13px;
   float: left;
+  margin-left: 5px;
 }
 
 #search-field-wrapper{
@@ -60,7 +58,8 @@ header{
   height: 350px;
   display: inline-block;
   margin-left: 90px;
-  border: 3px solid black; 
+  border: 3px solid black;
+  border-top: none; 
 }
 
 #cover-photo-container{
@@ -130,4 +129,87 @@ header{
   line-height: 56px;
   text-align: center;
   font-weight: bold;
+}
+
+#about-container{
+  width: 1170px;
+  height: 580px;
+  display: inline-block;
+  margin-left: 90px;
+  margin-top: 35px;
+  border: 3px solid black;
+}
+
+#about-header-container{
+  width: 100%;
+  background-color: #EEEEEE;
+  height: 40px;
+  border-bottom: 3px solid black;
+}
+
+#about-header{
+  display: inline-block;
+  min-width: 30px;
+  text-align: center;
+  margin-left: 550px;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px
+}
+
+#profile-edit-button{
+  display: inline-block;
+  width: 130px;
+  text-align: center;
+  float: right;
+  line-height: 24px;
+  margin-right: 10px;
+  margin-top: 7px;
+  background-color: #2A77E3;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 2px 3px black;
+}
+
+#large-info-container{
+  width: 40%;
+  height: 80%;
+  margin-left: 25px;
+  display: inline-block;
+}
+
+.info-header{
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+.info-container{
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.info-bold{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+}
+
+.content{
+  display: inline-block;
+  font-size: 18px;
+  min-width: 1px;
+
+}
+
+#extra-info-container{
+  float: right;
+  width: 53%;
+  display: inline-block;
+}
+
+#about-me{
+  margin-top: 30px;
 }
