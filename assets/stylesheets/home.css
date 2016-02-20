@@ -1,0 +1,65 @@
+div{
+  border: 1px solid black;
+}
+
+header{
+  height: 85px;
+  width: 100%;
+  background-color: #3A5795;
+  color: #FEFEFE;
+}
+
+#title-container{
+  line-height: 85px;
+  font-size: 45px;
+  margin-left: 130px;
+  font-weight: bold;
+  width: 100px;
+  display: inline-block;
+}
+
+#log-in-container{
+  display: inline-block;
+  float: right;
+  line-height: 85px;
+  margin-right: 130px;
+}
+
+#password-container,
+#email-container{
+  display: inline-block;
+  float: right;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+#password-container div,
+#email-container div{
+  margin-bottom: 5px;
+}
+
+#info-container{
+  margin-top: 85px;
+  margin-left: 130px;
+  display: inline-block;
+  width: 610px;
+}
+
+#info-container div{
+
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#pitch-list{
+  list-style-type: circle;
+  list-style-position: inside;
+  margin-left: 32px;
+  font-size: 25px;
+}
+
+#pitch-list li{
+  margin-top: 40px;
+  color: #444;
+}
+
