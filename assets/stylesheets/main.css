@@ -10,8 +10,6 @@ a:hover{
   text-decoration: underline;
 }
 
-
-
 header{
   width: 100%;
   height: 50px;
@@ -298,4 +296,280 @@ header{
   font-weight: bold;
   box-shadow: 2px 2px 3px black;
   margin-left: 25px;
+}
+
+#sidebar{
+  width: 30%;
+  height: 2000px;
+  display: inline-block;
+  border: 3px solid black;
+  float: left;
+}
+
+#muser-container{
+  width: 70%;
+  height: 100px;
+  display: inline-block;
+  margin: 55px 35px;
+}
+
+#muser-pic-container{
+  width: 35%;
+  height: 100%;
+  display: inline-block;
+}
+
+#muser-pic{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+
+#muser-info-container{
+  display: inline-block;
+  vertical-align: top;
+  width: 90px;
+  margin: 10px 10px;
+}
+
+#muser-name{
+  font-weight: bold;
+}
+
+#ra-header{
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0px 35px;
+}
+
+.ra-friend-container{
+  display: inline-block;
+  margin: 20px 35px;
+  width: 80%;
+}
+
+.ra-friend-pic-container{
+  display: inline-block;
+  width: 40px;
+  height: 50px;
+}
+
+.ra-friend-pic{
+  width: 100%;
+  height: 100%;
+}
+
+.ra-friend-info-container{
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 5px;
+  width: 200px;
+}
+
+.ra-name,
+.nf-name{
+  font-weight: bold;
+  display: inline-block;
+  min-width: 30px;
+  margin-right: 10px;
+}
+
+.ra-friend-post-date,
+.nf-friend-post-date{
+  display: inline-block;
+  min-width: 40px;
+  color: grey;
+}
+
+#see-all-friends{
+  display: inline-block;
+  margin: 20px 55px;
+  font-size: 24px;
+}
+
+#newsfeed-container{
+  width: 69%;
+  height: 2000px;
+  display: inline-block;
+  border: 3px solid black;
+  border-right: 4px solid black;
+}
+
+#new-post-container{
+  width: 66%;
+  height: 180px;
+  margin: 50px auto;
+  border: 2px solid black;
+}
+
+#new-post-header-container{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #EEEEEE;
+  line-height: 24px;
+  border: 1px solid black;
+}
+
+#new-post-info-box{
+  width: 95%;
+  height: 45%;
+  margin: 20px auto 10px auto;
+  border: 1px solid black;
+}
+
+#post-field,
+#comment-field{
+  width: 99%;
+  height: 95%;
+  line-height: normal;
+}
+
+#new-post-footer-container{
+  width: 100%;
+  height: 18%;
+  background-color: #EEEEEE;
+  border: 1px solid black;
+  margin-top: 15px;
+}
+
+#post-button{
+  width: 130px;
+  text-align: center;
+  float: right;
+  line-height: 24px;
+  margin-right: 10px;
+  margin-top: 3px;
+  background-color: #2A77E3;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 2px 3px black;
+}
+
+.post-container{
+  width: 66%;
+  margin: 50px auto 0px auto;
+  border: 2px solid black;
+  font-size: 18px;
+}
+
+.nf-friend-container{
+  width: 75%;
+  margin: 10px 10px;
+}
+
+.nf-friend-pic-container{
+  width: 50px;
+  height: 63px;
+  display: inline-block;
+}
+
+.nf-friend-pic{
+  width: 100%;
+  height: 100%;
+}
+
+.nf-friend-info-container{
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  margin: 10px 10px;
+}
+
+.nf-footer-container{
+  width: 100%;
+  height: 12%;
+  background-color: #EEEEEE;
+  border: 1px solid black;
+  margin-top: 15px;
+  margin-top: 28px;
+}
+
+.like, .comment{
+  display: inline-block;  
+  width: 40px;
+  margin-left: 5px;
+  line-height: 30px;
+}
+
+.likes-this{
+  line-height: 30px;
+  margin-left: 5px;
+}
+
+.delete{
+  float: right;
+  display: inline-block;
+  margin-right: 5px;
+  line-height: 30px;
+}
+
+.comment-box{
+  width: 66%;
+  height: 650px;
+  margin: 0px auto;
+  border: 2px solid black;
+  font-size: 18px;
+  background-color: #EDEDED;
+}
+
+.com-info-container{
+  display: inline-block;
+  width: 85%;
+  vertical-align: top;
+  margin: 10px 10px;
+}
+
+.comment-info{
+  margin-top: 15px;
+}
+
+.greyed-out{
+  display: inline-block;
+  color: grey;
+}
+
+.comment-container{
+  margin-top: 0px;
+}
+
+#comment-like{
+  margin: 10px 0px;
+}
+
+#comment-field{
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.cancel{
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+#new-comment-field{
+  width: 95%;
+  height: 105px;
+  margin: 20px auto 0px auto;
+  border: 1px solid black;
+}
+
+#comment-button{
+  width: 130px;
+  text-align: center;
+  float: right;
+  line-height: 24px;
+  margin-right: 10px;
+  margin-top: 20px;
+  background-color: #2A77E3;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 2px 3px black;
+}
+
+.delete{
+  margin-top: 15px;
+  margin-right: 20px;
 }
