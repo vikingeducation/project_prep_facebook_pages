@@ -1,0 +1,129 @@
+header{
+  height: 85px;
+  width: 100%;
+  background-color: #3A5795;
+  color: #FEFEFE;
+}
+
+#title-container{
+  line-height: 85px;
+  font-size: 45px;
+  margin-left: 130px;
+  font-weight: bold;
+  width: 100px;
+  display: inline-block;
+}
+
+#log-in-container{
+  display: inline-block;
+  float: right;
+  line-height: 80px;
+  margin-right: 130px;
+}
+
+#password-container,
+#email-container{
+  display: inline-block;
+  float: right;
+  margin-right: 15px;
+  margin-top: 7px;
+}
+
+#password-container div,
+#email-container div{
+  margin-bottom: 5px;
+}
+
+#info-container{
+  margin-top: 85px;
+  margin-left: 130px;
+  display: inline-block;
+  width: 610px;
+}
+
+#info-container div{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#pitch-list{
+  list-style-type: circle;
+  list-style-position: inside;
+  margin-left: 32px;
+  font-size: 25px;
+}
+
+#pitch-list li{
+  margin-top: 40px;
+  color: #444;
+}
+
+#sign-up-container{
+  display: inline-block;
+  width: 400px;
+  height: 550px;
+  float: right;
+  margin-top: 40px;
+  margin-right: 130px;
+}
+
+#sign-up{
+  font-size: 45px;
+}
+
+.sign-up-field{
+  width: 100%;
+  line-height: 24px;
+  border-radius: 2px;
+  margin-top: 30px;
+}
+
+#first-name{
+  width: 60%;
+}
+
+#last-name{
+  width: 35%;
+  float: right;
+}
+
+#birthday{
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.dropdown select{
+  margin-right: 20px;
+  font-size: 20px;
+  background-color: #DDDDDD;
+}
+
+#gender{
+  display: inline-block;
+  margin-right: 120px;
+  margin-top: 30px;
+}
+
+#gender div{
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+
+#sign-up-button-container{
+  display: inline-block;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#sign-up-button{
+  width: 100%;
+  height: 36px;
+  background-color: #239E0F;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
