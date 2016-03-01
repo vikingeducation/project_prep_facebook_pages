@@ -1,0 +1,23 @@
+/******************************
+
+Universal
+
+******************************/
+
+body {
+  font: 14px Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/******************************
+
+Navbar
+
+******************************/
