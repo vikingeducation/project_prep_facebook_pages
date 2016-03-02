@@ -163,20 +163,23 @@ Profile Components
 
 ******************************/
 
+.cover-photo-box,
 .cover-photo {
   width: 100%;
   height: 313px;
   position: relative;
 }
 
-.cover-photo:before {
-  content: "";
+.cover-shadow {
+  position: absolute;
   width: 100%;
-  height: 313px;
-  background: white;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 75%, rgba(0, 0, 0, .4));
 }
 
-.cover-photo h1 {
+.cover-photo-box h1 {
   font-size: 24px;
   color: #fff;
   text-shadow: 1px 1px 1px #000;
