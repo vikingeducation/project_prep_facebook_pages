@@ -1,4 +1,4 @@
-div,
+/*div,
 form,
 nav,
 footer,* {
@@ -253,26 +253,115 @@ Profile info boxes
 ******************************/
 
 .profile-box {
+  border: 1px solid #d3d6db;
+  margin: 20px 0;
+  background: #fff;
+}
 
+.profile-box table {
+  width: 100%;
 }
 
 .profile-box-header {
   font-size: 24px;
   font-weight: bold;
   padding: 20px 30px;
-  height: 2em;
-  line-height: 2em;
+  height: 2.5em;
+  line-height: 2.5em;
+  background: #f6f7f8;
+  border-bottom: 1px solid #d3d6db;
 }
 
 .profile-box-header img {
-  width: 30px;
-  height: 30px;
-  opacity: .6;
+  width: 28px;
+  height: 28px;
+  opacity: .2;
   vertical-align: middle;
+  margin-left: 20px;
 }
 
 .profile-box-header h2 {
   display: inline;
+}
+
+.box-menu li a {
+  color: #ccc;
+  display: block;
+  height: 2em;
+  line-height: 2em;
+  padding: 0px 20px;
+  margin: 15px 0;
+}
+
+.box-menu li a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.box-menu {
+  background: #fff;
+  border-right: 1px solid #d3d6db;
+  width: 25%;
+}
+
+.box-menu .selected {
+  color: #000;
+  border-left: 3px solid #3b5998;
+  font-weight: bold;
+}
+
+.box-details li img {
+  width: 30px;
+  height: 30px;
+  vertical-align: top;
+}
+
+.box-details li strong {
+  font-size: 14px;
+  color: #555;
+}
+
+.box-details li {
+  padding: 20px 0;
+  margin-left: 25px;
+  position: relative;
+  font-size: 12px;
+  color: #999;
+  border-bottom: 1px solid #ddd;
+  width: 80%;
+  cursor: pointer;
+  line-height: 1.5em;
+}
+
+.box-details li:hover {
+  background: #f6f7f8;
+}
+
+.box-details li:first-child {
+  border-top: none;
+}
+
+.box-details li span {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.basic-info {
+  font-size: 12px;
+  color: #333;
+  width: 250px;
+}
+
+.basic-info img {
+  height: 15px;
+  width: 15px;
+  opacity: .2;
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+.basic-info li {
+  margin-top: 20px;
 }
 
 /******************************
