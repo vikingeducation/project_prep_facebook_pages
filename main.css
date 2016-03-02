@@ -1,4 +1,4 @@
-/*div,
+div,
 form,
 nav,
 footer,* {
@@ -73,6 +73,7 @@ nav {
   background: linear-gradient(#4e69a2, #3a5795);
   border-bottom: 1px solid #1a316d;
   position: relative;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .4);
 }
 
 .logo-container {
@@ -177,6 +178,9 @@ Profile Components
   top: 0;
   left: 0;
   background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 75%, rgba(0, 0, 0, .4));
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  box-sizing: border-box;
 }
 
 .cover-photo-box h1 {
@@ -197,10 +201,19 @@ Profile Components
   display: inline-block;
   padding: 0 20px;
   height: 45px;
-  box-sizing: border-box;
   line-height: 45px;
   font-weight: bold;
   border-right: 1px solid #d3d6db;
+  margin: 0;
+}
+
+.profile-menu li:hover {
+  background: #edf0f5;
+  cursor: pointer;
+}
+
+.profile-menu li a:hover {
+  text-decoration: none;
 }
 
 .profile-menu li:first-child {
@@ -223,6 +236,35 @@ Profile Components
   position: absolute;
   bottom: -25px;
   left: 10px;
+}
+
+/******************************
+
+Profile info boxes
+
+******************************/
+
+.profile-box {
+
+}
+
+.profile-box-header {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px 30px;
+  height: 2em;
+  line-height: 2em;
+}
+
+.profile-box-header img {
+  width: 30px;
+  height: 30px;
+  opacity: .6;
+  vertical-align: middle;
+}
+
+.profile-box-header h2 {
+  display: inline;
 }
 
 /******************************
