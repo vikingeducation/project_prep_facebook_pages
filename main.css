@@ -30,7 +30,6 @@ a:hover {
 .content-box {
   width: 980px;
   margin: 0 auto;
-  /*position: relative;*/
 }
 
 .default-btn-style {
@@ -107,12 +106,72 @@ nav {
   width: 100%;
 }
 
+.nav-acct-container,
 .nav-search-container {
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 25px;
+}
 
+.nav-img {
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+  border-radius: 2px;
 }
 
 .nav-acct-container {
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
 
+.nav-acct-container span {
+  margin-left: 5px;
+}
+
+/******************************
+
+Search bar
+
+******************************/
+
+.nav-search-container {
+  margin-right: 100px;
+  margin-left: 12%;
+}
+
+.nav-search-container form {
+  display: inline-block;
+}
+
+.search-bar,
+.search-img {
+  height: 25px;
+  display: inline-block;
+  box-sizing: border-box;
+  border: none;
+  vertical-align: middle;
+}
+
+.search-bar {
+  margin-left: 5px;
+  margin-right: 0;
+  border-radius: 2px 0 0 2px;
+  width: 400px;
+  background: #fff;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.search-img {
+  width: 50px;
+  background: #eee url("https://d30y9cdsu7xlg0.cloudfront.net/png/16126-200.png") 50% 50% no-repeat;
+  background-size: 15px 15px;
+  margin-left: 0;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
 }
 
 /******************************
@@ -152,6 +211,7 @@ Logo
   color: #fff;
   font-weight: 700;
   letter-spacing: -.05em;
+  display: inline-block;
 }
 
 
