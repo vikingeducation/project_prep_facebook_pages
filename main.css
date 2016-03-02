@@ -3,7 +3,7 @@ form,
 nav,
 footer,* {
   border: 1px solid #ccc !important;
-}*/
+}
 
 
 /******************************
@@ -14,6 +14,8 @@ Universal
 
 body {
   font: 14px Helvetica, sans-serif;
+  background: #edf0f5;
+  color: #333;
 }
 
 a {
@@ -39,6 +41,21 @@ a:hover {
   box-shadow: inset -1px -1px 1px rgba(26, 53, 110, 1);
 }
 
+.main {
+  padding: 40px 0;
+}
+
+/******************************
+
+Columns
+
+******************************/
+
+.col-1-2 {
+  display: inline-block;
+  width: 50%;
+}
+
 /******************************
 
 Navbar
@@ -48,8 +65,6 @@ Navbar
 nav {
   background: linear-gradient(#4e69a2, #3a5795);
   border-bottom: 1px solid #1a316d;
-  padding: 0 10%;
-  height: 80px;
   position: relative;
 }
 
@@ -63,7 +78,6 @@ nav {
   margin-top: 10px;
   width: 400px;
   color: #fff;
-  height: 76px;
 }
 
 /******************************
@@ -104,4 +118,56 @@ Logo
   font-weight: 700;
   letter-spacing: -.05em;
 }
+
+
+/******************************
+
+Footer
+
+******************************/
+
+footer {
+  padding: 20px 0;
+  background: #fff;
+}
+
+/******************************
+
+Signup Page
+
+******************************/
+
+.nav-signup {
+  padding: 0 10%;
+  height: 80px;
+  font-size: 14px;
+}
+
+.perks {
+  margin-top: 30px;
+  font-size: 15px;  
+}
+
+.perks h2 {
+  font-size: 26px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.perks img {
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.perks strong {
+  font-weight: bold;
+
+}
+
+.signup-form {
+  
+}
+
 
