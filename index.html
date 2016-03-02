@@ -58,18 +58,21 @@ world around you on Facebook. </h2>
       </div>
     </div><!--
 
- --><div class="col-1-2">
+ --><div class="col-45">
       <form class="signup-form">
         <h1>Sign Up</h1>
-        <h3>It’s free and always will be.</h3>
-      
-        <input type="text" placeholder="First name" name="first-name" required>
-        <input type="text" placeholder="Last name" name="last-name" required>
+        <p>It&#39;s free and always will be.</p>
+        <div class="col-45">
+          <input type="text" placeholder="First name" name="first-name" required>
+        </div><!--
+     --><div class="col-1-2">
+          <input type="text" placeholder="Last name" name="last-name" required>
+        </div>
         <input type="text" placeholder="Email or mobile number" name="username" required>
         <input type="text" placeholder="Re-enter mail or mobile number" name="re-username" required>
         <input type="password" placeholder="New password" name="password" required>
-        <label>
-          Birthday
+        <label class="signup-birthday">
+          <strong>Birthday</strong><br>
           <select name="month">
             <option value="0" selected>Month</option>
             <option value="1">January</option>
@@ -111,20 +114,23 @@ world around you on Facebook. </h2>
             <option value="1983">1983</option>
             <option value="1984">1984</option>
           </select>
+          <a href="#" class="legal">Why do I need to provide my birthday?</a><br>
           <input type="radio" name="gender" value="female">Female</input>
           <input type="radio" name="gender" value="male">Male</input>
-        </label>
-        <span>By clicking Sign Up, you agree to our Terms and that you have read our Data Policy, including our Cookie Use.</span>
-        <input type="button" value="Sign Up">
+        </label><br>
+        <span class="legal">By clicking Sign Up, you agree to our Terms and that you have read our Data Policy, including our Cookie Use.</span>
+        <input type="button" value="Sign Up" class="signup-cta col-1-2">
+
+        <a href="#">Create a Page</a> for a celebrity, band or business.
       </form>
-      <a href="#">Create a Page</a> for a celebrity, band or business.
     </div>
     
   </section>
 
   <footer>
-    <section class="content-box">
-      <a href="#">English (US)</a>
+    <section class="content-box legal">
+      <a href="#">English (US) </a>
+      <a href="#"> Pirate (Arrr!)</a>
     </section>
   </footer>
 

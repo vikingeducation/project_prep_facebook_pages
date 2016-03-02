@@ -45,6 +45,10 @@ a:hover {
   padding: 40px 0;
 }
 
+.legal {
+  font-size: 10px;
+}
+
 /******************************
 
 Columns
@@ -54,6 +58,7 @@ Columns
 .col-1-2 {
   display: inline-block;
   width: 50%;
+  vertical-align: top;
 }
 
 /******************************
@@ -145,13 +150,15 @@ Signup Page
 
 .perks {
   margin-top: 30px;
-  font-size: 15px;  
+  font-size: 15px;
+  color: #666;  
 }
 
 .perks h2 {
   font-size: 26px;
   font-weight: 700;
   padding-bottom: 10px;
+  color: #333;
 }
 
 .perks img {
@@ -163,11 +170,84 @@ Signup Page
 
 .perks strong {
   font-weight: bold;
-
+  color: #333;
 }
 
 .signup-form {
-  
+  padding-left: 60px;
+  font-size: 18px;
 }
 
+.signup-form h1 {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 5px 0;
+}
 
+.signup-form p {
+  padding: 10px 0;
+  color: #333;
+}
+
+.signup-form input {
+  border: 1px solid #bdc7d8;
+  border-radius: 6px;
+  height: 2em;
+  font-size: 18px;
+  padding: 4px;
+  box-sizing: border-box;
+  margin: auto 5% 10px 0;
+  width: 100%;
+}
+
+.col-45 {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+  margin-right: 5%;
+}
+
+.signup-birthday {
+    font-size: 13px;
+    display: block;
+}
+
+.signup-birthday strong {
+    font-size: 18px;
+    line-height: 2em;
+}
+
+.signup-birthday select {
+  border: 1px solid #bdc7d8;
+  height: 2.5em;
+  padding: 4px;
+  box-sizing: border-box;
+  width: 50px;
+  margin: 10px 0;
+}
+
+.signup-birthday input {
+  height: 15px;
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+  margin: 0 15px 0 5px;
+}
+
+.signup-form .legal {
+  margin: 20px 0;
+}
+
+.signup-form .signup-cta {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background:  #578944;
+  background: linear-gradient(#68ad55, #578944);
+  text-shadow: 1px 1px 1px #333;
+  width: 50%;
+  display: block;
+  margin: 20px 0;
+  vertical-align: middle;
+  height: 40px;
+}
