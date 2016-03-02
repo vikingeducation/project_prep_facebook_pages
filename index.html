@@ -8,32 +8,38 @@
 <body>
 
   <nav>
-    <div class="logo"></div>
+    <section class="content-box">
+
+    <div class="logo-container">
+      <span class="logo">facelook</span>
+    </div>
+    
     <div class="login-container">
       <form>
-        <div class="user-container">
+        <div class="login-box">
           <label>
-            Email or Phone
-            <input type="text" name="username">
+            Email or Phone<br>
+            <input type="text" name="username" class="login-text-input"><br>
           </label>
-          <input type="checkbox">
           <label>
-            Keep me logged in
+            <input type="checkbox"><span class="gray-text">Keep me logged in</span>
           </label>
         </div>
-        <div class="password-container">
+        <div class="login-box">
           <label>
-            Password
-            <input type="password" name="password">
+            Password<br>
+            <input type="password" name="password" class="login-text-input"><br>
           </label>
-          <a href="#">Forgot your password?</a>
+          <a href="#" class="gray-text">Forgot your password?</a>
         </div>
-        <input type="button" value="Log In">
+        <input type="button" value="Log In" class="btn-login">
       </form>
     </div>
+
+    </section>
   </nav>
   
-  <section>
+  <section class="content-box">
     <div>
       <h2>Connect with friends and the
 world around you on Facebook. </h2>

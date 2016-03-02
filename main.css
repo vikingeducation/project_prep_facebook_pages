@@ -1,3 +1,11 @@
+/*div,
+form,
+nav,
+footer,* {
+  border: 1px solid #ccc !important;
+}*/
+
+
 /******************************
 
 Universal
@@ -16,8 +24,79 @@ a:hover {
   text-decoration: underline;
 }
 
+.content-box {
+  width: 980px;
+  margin: 0 auto;
+  /*position: relative;*/
+}
+
 /******************************
 
 Navbar
 
 ******************************/
+
+nav {
+  background: linear-gradient(#4e69a2, #3a5795);
+  border-bottom: 1px solid #1a316d;
+  padding: 0 10%;
+  height: 80px;
+  position: relative;
+}
+
+.logo-container {
+  position: absolute;
+  bottom: 5px;
+}
+
+.login-container {
+  float: right;
+  margin: 5px 0;
+  width: 400px;
+}
+
+/******************************
+
+Login Form
+
+******************************/
+
+
+.login-box {
+  color: #fff;
+  display: inline-block;
+  height: 76px;
+  margin: 5px 0;
+  vertical-align: middle;
+  width: 166px;
+  margin-left: 3px;
+}
+
+.login-text-input {
+  width: 150px;
+  margin: 3px 0;
+}
+
+.btn-login {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.gray-text {
+  color: #9dacc3;
+}
+
+
+/******************************
+
+Logo
+
+******************************/
+
+.logo {
+  font-size: 48px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: -.05em;
+}
+
