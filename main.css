@@ -97,6 +97,14 @@ nav {
 .nav-main {
   height: 45px;
   font-size: 12px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.nav-spacer {
+  height: 45px;
+  width: 100%;
 }
 
 .nav-search-container {
