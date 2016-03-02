@@ -13,26 +13,28 @@
     <div class="logo-container">
       <span class="logo">facelook</span>
     </div>
-    
+
     <div class="login-container">
       <form>
-        <div class="login-box">
-          <label>
-            Email or Phone<br>
-            <input type="text" name="username" class="login-text-input"><br>
-          </label>
-          <label>
+      <table>
+        <tr>
+          <td><label for="username">
+            Email or Phone</td>
+          <td><label for="password">
+            Password</td>
+        </tr>
+        <tr>
+          <td><input type="text" name="username" class="login-text-input"></td>
+          <td><input type="password" name="password" class="login-text-input"></td>
+          <td rowspan="3"><input type="button" value="Log In" class="btn-login default-btn-style"></td>
+        </tr>
+        <tr>
+          <td><label>
             <input type="checkbox"><span class="gray-text">Keep me logged in</span>
-          </label>
-        </div>
-        <div class="login-box">
-          <label>
-            Password<br>
-            <input type="password" name="password" class="login-text-input"><br>
-          </label>
-          <a href="#" class="gray-text">Forgot your password?</a>
-        </div>
-        <input type="button" value="Log In" class="btn-login">
+          </label></td>
+          <td><a href="#" class="gray-text">Forgot your password?</a></td>
+        </tr>
+      </table>
       </form>
     </div>
 

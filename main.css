@@ -30,6 +30,15 @@ a:hover {
   /*position: relative;*/
 }
 
+.default-btn-style {
+  background: linear-gradient(#637bad, #5972a7);
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  font-size: 13px;
+  box-shadow: inset -1px -1px 1px rgba(26, 53, 110, 1);
+}
+
 /******************************
 
 Navbar
@@ -51,8 +60,10 @@ nav {
 
 .login-container {
   float: right;
-  margin: 5px 0;
+  margin-top: 10px;
   width: 400px;
+  color: #fff;
+  height: 76px;
 }
 
 /******************************
@@ -61,25 +72,19 @@ Login Form
 
 ******************************/
 
-
-.login-box {
-  color: #fff;
-  display: inline-block;
-  height: 76px;
-  margin: 5px 0;
-  vertical-align: middle;
-  width: 166px;
-  margin-left: 3px;
+.login-container td {
+  padding: 1px 10px 1px 0;
 }
 
 .login-text-input {
   width: 150px;
   margin: 3px 0;
+  border: none;
 }
 
 .btn-login {
-  display: inline-block;
   vertical-align: middle;
+  font-size: 12px;
 }
 
 .gray-text {
