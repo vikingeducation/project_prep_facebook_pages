@@ -20,6 +20,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #3b5998;
 }
 
 a:hover {
@@ -168,21 +169,57 @@ Profile Components
   position: relative;
 }
 
+.cover-photo:before {
+  content: "";
+  width: 100%;
+  height: 313px;
+  background: white;
+}
+
 .cover-photo h1 {
   font-size: 24px;
   color: #fff;
   text-shadow: 1px 1px 1px #000;
   position: absolute;
   bottom: 15px;
+  left: 190px;
 }
 
 .profile-menu {
+  background: #fff;
+  border: 1px solid #d3d6db;
+}
 
+.profile-menu li {
+  display: inline-block;
+  padding: 0 20px;
+  height: 45px;
+  box-sizing: border-box;
+  line-height: 45px;
+  font-weight: bold;
+  border-right: 1px solid #d3d6db;
+}
+
+.profile-menu li:first-child {
+  margin-left: 190px;
+  border-left: 1px solid #d3d6db;
+}
+
+.profile-menu span {
+  font-size: 12px;
+  font-weight: normal;
+  color: #999;
 }
 
 .profile-photo {
   height: 160px;
   width: 160px;
+  padding: 4px;
+  border: 1px solid #000;
+  background: #fff;
+  position: absolute;
+  bottom: -25px;
+  left: 10px;
 }
 
 /******************************
