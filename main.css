@@ -93,9 +93,14 @@ nav {
   font-size: 14px;
 }
 
+/******************************
+
+User Navbar
+
+******************************/
+
 .nav-main {
   height: 45px;
-  font-size: 12px;
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -109,9 +114,9 @@ nav {
 .nav-acct-container,
 .nav-search-container {
   display: inline-block;
-  margin-top: auto;
-  margin-bottom: auto;
+  margin-top: 10px;
   height: 25px;
+  vertical-align: middle;
 }
 
 .nav-img {
@@ -125,6 +130,10 @@ nav {
   font-size: 12px;
   font-weight: bold;
   color: #fff;
+}
+
+.nav-acct-container * {
+  box-sizing: border-box;
 }
 
 .nav-acct-container span {
@@ -147,7 +156,7 @@ Search bar
 }
 
 .search-bar,
-.search-img {
+.search-btn {
   height: 25px;
   display: inline-block;
   box-sizing: border-box;
@@ -165,7 +174,7 @@ Search bar
   font-size: 14px;
 }
 
-.search-img {
+.search-btn {
   width: 50px;
   background: #eee url("https://d30y9cdsu7xlg0.cloudfront.net/png/16126-200.png") 50% 50% no-repeat;
   background-size: 15px 15px;
@@ -548,16 +557,6 @@ Signup Page
   vertical-align: middle;
   height: 40px;
   cursor: pointer;
-}
-
-/******************************
-
-About Page
-
-******************************/
-
-.about-item {
-
 }
 
 
