@@ -60,6 +60,18 @@ Columns
   vertical-align: top;
 }
 
+.col-40 {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+}
+
+.col-60 {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+}
+
 /******************************
 
 Navbar
@@ -476,7 +488,7 @@ About Page
 
 /******************************
 
-Friends Page
+Profile Boxes
 
 ******************************/
 
@@ -492,6 +504,10 @@ Friends Page
   height: 100px;
   position: relative;
   display: block;
+}
+
+.friend-box a {
+  font-weight: bold;
 }
 
 .friend-box img {
@@ -521,6 +537,37 @@ Friends Page
 .friend-info span {
   font-size: 12px;
   display: block;
+}
+
+/******************************
+
+Timeline
+
+******************************/
+
+.profile-box {
+  margin-left: 0;
+  background: #f6f7f8;
+}
+
+.profile-box h2 {
+  font-size: 16px;
+}
+
+#profile-edit {
+  font-size: 12px;
+  color: #999;
+}
+
+.timeline-friend {
+  margin-left: 0px;
+  padding-bottom: 15px;
+  width: 90%;
+}
+
+#recently-active {
+  padding-left: 15px;
+  font-size: 16px
 }
 
 /******************************
