@@ -70,6 +70,7 @@ Columns
   display: inline-block;
   width: 60%;
   vertical-align: top;
+  position: relative;
 }
 
 /******************************
@@ -353,7 +354,7 @@ Profile info box
 
 .profile-box {
   border: 1px solid #d3d6db;
-  margin: 20px 0;
+  margin: 15px 0;
   background: #fff;
 }
 
@@ -398,6 +399,12 @@ Profile info box
 .box-header-menu li a:hover {
   text-decoration: none;
   color: #333;
+}
+
+.box-footer {
+  border-top: 1px solid #ccc;
+  background: f6f7f8;
+  width: 100%;
 }
 
 /******************************
@@ -488,7 +495,7 @@ About Page
 
 /******************************
 
-Profile Boxes
+People Boxes
 
 ******************************/
 
@@ -559,15 +566,71 @@ Timeline
   color: #999;
 }
 
-.timeline-friend {
+.timeline-box {
   margin-left: 0px;
   padding-bottom: 15px;
+}
+
+#recent-friends {
   width: 90%;
 }
 
 #recently-active {
   padding-left: 15px;
   font-size: 16px
+}
+
+.timeline-friend-box img {
+  height: 60px;
+  width: 60px;
+}
+
+.timeline-friend-box {
+  height: 60px;
+}
+
+.timeline-friend-box .friend-info {
+  padding: 20px 0 0 0;
+}
+
+#all-friends-link{
+  padding-top: 15px;
+  text-align: center;
+}
+
+#post-title {
+  text-align: center;
+}
+
+#post-form {
+  background: #fff;
+}
+
+.postbox {
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 15px;
+  padding: 5px;
+  box-sizing: border-box;
+  height: 75px;
+  resize: none;
+  border: 1px solid #ccc;
+}
+
+#post-btn {
+  float:right;
+  height: 30px;
+  width: 75px;
+  margin: 15px 3% 0 0;
+}
+
+#post-btn-container {
+  height: 45px;
+}
+
+.box-middle {
+  background: #fff;
+  padding-bottom: 15px;
 }
 
 /******************************

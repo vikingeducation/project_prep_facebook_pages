@@ -34,30 +34,32 @@
       </div>
     </div>
 
-    <div class="profile-box timeline-friend">
+    <div class="profile-box timeline-box" id="recent-friends">
       <div class="profile-box-header" id="recently-active">
         Recently Active
       </div>
 
       <div>
         <ul>
-          <li class="friend-box">
+          <li class="friend-box timeline-friend-box">
+            <img src="images/viking-chief.jpg">
+            <div class="friend-info">
+              <a href="">&AElig;sbiorn the Violent</a>
+              <span class="gray-text">Posted on Thursday 12/21/2015</span>
+            </div>
+          </li>
+          <li class="friend-box timeline-friend-box">
             <img src="images/viking-chief.jpg">
             <div class="friend-info">
               <a href="">&AElig;sbiorn the Violent</a>
               <span class="gray-text">348 friends</span>
             </div>
           </li>
-          <li class="friend-box">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Odin,_der_G%C3%B6ttervater.jpg">
-            <div class="friend-info">
-              <a href="">Odin</a>
-              <span class="gray-text">745 friends</span>
-            </div>
-          </li>
-        </ul>
+        </ul>    
           
       </div>
+
+      <div id="all-friends-link"><a href="#" >See All of Your Friends</a></div>
     </div>
 
   </div><!--
@@ -65,7 +67,22 @@
 Right Column
 
   --><div class="col-60">
-    
+  
+    <div class="profile-box timeline-box">
+      <div class="profile-box-header" id="post-title">
+        <h2>Post</h2>
+      </div>
+
+      <div class="box-middle">
+        <form>
+          <textarea name="post-box" placeholder="Tell the world something..." class="postbox"></textarea>
+      </div>
+      <div class="box-footer">
+          <div id="post-btn-container"><input type="submit" name="post-btn" class="btn-login" value="Post" id="post-btn"></div>
+      </div>
+        </form>
+    </div>
+
   </div>
 
 
