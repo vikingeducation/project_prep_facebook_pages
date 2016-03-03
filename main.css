@@ -33,12 +33,10 @@ a:hover {
 }
 
 .default-btn-style {
-  background: linear-gradient(#637bad, #5972a7);
-  color: #fff;
-  border: none;
-  font-weight: 700;
-  font-size: 13px;
-  box-shadow: inset -1px -1px 1px rgba(26, 53, 110, 1);
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: linear-gradient(#fff, #f6f7f8);
+  font-weight: bold;
   cursor: pointer;
 }
 
@@ -202,6 +200,13 @@ Login Form
 .btn-login {
   vertical-align: middle;
   font-size: 12px;
+  background: linear-gradient(#637bad, #5972a7);
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  font-size: 13px;
+  box-shadow: inset -1px -1px 1px rgba(26, 53, 110, 1);
+  cursor: pointer;
 }
 
 .gray-text {
@@ -233,6 +238,10 @@ Footer
 footer {
   padding: 20px 0;
   background: #fff;
+}
+
+footer ul {
+  list-style-type: circle;
 }
 
 /******************************
@@ -284,6 +293,15 @@ Profile Components
   margin: 0;
 }
 
+.profile-menu .selected {
+  border-left: none;
+}
+
+.profile-menu .selected:hover {
+  background: #fff;
+  cursor: default;
+}
+
 .profile-menu li:hover {
   background: #edf0f5;
   cursor: pointer;
@@ -317,7 +335,7 @@ Profile Components
 
 /******************************
 
-Profile info boxes
+Profile info box
 
 ******************************/
 
@@ -352,6 +370,30 @@ Profile info boxes
 .profile-box-header h2 {
   display: inline;
 }
+
+.box-header-menu {
+  font-size: 14px;
+}
+
+.box-header-menu li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.box-header-menu .selected a {
+  color: #333;
+}
+
+.box-header-menu li a:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+/******************************
+
+About Page
+
+******************************/
 
 .box-menu li a {
   color: #ccc;
@@ -431,6 +473,55 @@ Profile info boxes
 
 .basic-info li {
   margin-top: 20px;
+}
+
+/******************************
+
+Friends Page
+
+******************************/
+
+.box-friend-list {
+  padding-bottom: 15px;
+}
+
+.friend-box {
+  width: 90%;
+  border: 1px solid #ddd;
+  margin: 15px 0 0 5%;
+  height: 100px;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+}
+
+.friend-box img {
+  height: 100px;
+  width: 100px;
+  border-right: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+.friend-box input {
+  width: 80px;
+  padding: 6px;
+  display: inline-block;
+  font-size: 13px;
+  position: absolute;
+  top: 30px;
+  right: 10px;
+}
+
+.friend-info {
+  height: 40px;
+  padding: 30px 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.friend-info span {
+  font-size: 12px;
+  display: block;
 }
 
 /******************************
