@@ -7,19 +7,29 @@
 Blue Header #3D5A99
 Dark Blue #15316D
 Light Blue #8AA0CE
+Log in Button #5B74A9
+Sign Up Button #5C8F48
 Complimentary #E5B14C
+faded text #9DACCB
 */
 
 /*
   ===================================
-  Body
+  Body/Wrapper
   ===================================
 */
 
 body {
-  font-family: arial, sans-serif;
+  font-family: helvetica, sans-serif;
 }
 
+.wrapper {
+  width: 100%;
+}
+
+div {
+  /*border: 1px solid black;*/
+}
 
 
 
@@ -52,3 +62,72 @@ body {
 .col-2-3 {
   width:66.66%;
 }
+
+/*
+  ===================================
+  HOMEPAGE
+  ===================================
+*/
+
+/*
+  ===================================
+  Header
+  ===================================
+*/
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #3D5A99;
+}
+
+.navbar div {
+  display: inline-block;
+}
+
+.facelook-title {
+  color: #FFF;
+  font-size: 40px;
+  width: 200px;
+  margin:15px 0 0 20px;
+}
+
+.log-in-container {
+  float: right;
+}
+
+.log-in-container input {
+    width:145px;
+    height: 27px;
+    margin: 22px 15px 0 0;
+
+}
+
+/*
+  ===================================
+  Buttons
+  ===================================
+*/
+
+.btn {
+  border: none;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 2px;
+  vertical-align: middle;
+
+}
+
+.btn:hover {
+
+}
+
+.btn-log-in {
+  width: 50px;
+  height: 27px;
+  margin-right: 20px;
+  background-color: #5B74A9;
+
+}
+
