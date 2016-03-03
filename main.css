@@ -352,11 +352,10 @@ Profile info box
 .profile-box-header {
   font-size: 24px;
   font-weight: bold;
-  padding: 20px 30px;
-  height: 2.5em;
-  line-height: 2.5em;
+  line-height: 1.7em;
   background: #f6f7f8;
   border-bottom: 1px solid #d3d6db;
+  padding: 5px;
 }
 
 .profile-box-header img {
@@ -483,6 +482,7 @@ Friends Page
 
 .box-friend-list {
   padding-bottom: 15px;
+  width: 50%;
 }
 
 .friend-box {
@@ -490,7 +490,6 @@ Friends Page
   border: 1px solid #ddd;
   margin: 15px 0 0 5%;
   height: 100px;
-  box-sizing: border-box;
   position: relative;
   display: block;
 }
@@ -508,13 +507,13 @@ Friends Page
   display: inline-block;
   font-size: 13px;
   position: absolute;
-  top: 30px;
+  top: 35px;
   right: 10px;
 }
 
 .friend-info {
   height: 40px;
-  padding: 30px 0;
+  padding: 35px 0;
   display: inline-block;
   vertical-align: top;
 }
