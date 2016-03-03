@@ -403,8 +403,14 @@ Profile info box
 
 .box-footer {
   border-top: 1px solid #ccc;
-  background: f6f7f8;
+  background: #f6f7f8;
   width: 100%;
+}
+
+.box-footer-content {
+  margin: 0 3%;
+  padding: 7px 0;
+  line-height: 1.5em;
 }
 
 /******************************
@@ -554,7 +560,7 @@ Timeline
 
 .profile-box {
   margin-left: 0;
-  background: #f6f7f8;
+  background: #fff;
 }
 
 .profile-box h2 {
@@ -604,6 +610,7 @@ Timeline
 
 #post-form {
   background: #fff;
+  padding-bottom: 15px
 }
 
 .postbox {
@@ -628,9 +635,70 @@ Timeline
   height: 45px;
 }
 
+.post-user {
+  background: #fff;
+}
+
+.post-user .friend-box,
+.post-user .friend-box img {
+  border: none;
+}
+
+.post-user .friend-box {
+  margin-left: 3%;
+}
+
 .box-middle {
   background: #fff;
   padding-bottom: 15px;
+}
+
+.post-text {
+  font-size: 14px;
+  margin: 15px 3% 0 3%;
+  width: 94%;
+  line-height: 1.5em;
+}
+
+.right-align {
+  float: right;
+}
+
+.comment-friend-box img {
+  height: 30px;
+  width: 30px;
+}
+
+.comment-friend-box {
+  height: 30px;
+  line-height: 1em;
+  margin-left: 0;
+}
+
+.comment-friend-box .friend-info {
+  padding: 1px 0 0 0;
+}
+
+.comment-gray {
+  display: inline-block;
+}
+
+.like-button {
+  vertical-align: middle;
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+  background: url("https://d30y9cdsu7xlg0.cloudfront.net/png/158119-200.png") 0 0 no-repeat;
+  background-size: 15px;
+  display: inline-block;
+}
+
+.comment-input {
+  width: 93%;
+  vertical-align: top;
+  height: 30px;
+  box-sizing: border-box;
+  font-size: 14px
 }
 
 /******************************

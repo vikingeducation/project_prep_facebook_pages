@@ -29,7 +29,7 @@
     <div class="friend-box profile-box">
       <img src="images/orm_profile.jpg">  
       <div class="friend-info">
-        <a href=""><h2>Red Orm</h2></a>
+        <a href="about.html"><h2>Red Orm</h2></a>
         <a href="#" id="profile-edit">Edit Profile</a>
       </div>
     </div>
@@ -59,7 +59,7 @@
           
       </div>
 
-      <div id="all-friends-link"><a href="#" >See All of Your Friends</a></div>
+      <div id="all-friends-link"><a href="users.html" >See All of Your Friends</a></div>
     </div>
 
   </div><!--
@@ -68,99 +68,138 @@ Right Column
 
   --><div class="col-60">
   
-    <div class="profile-box timeline-box">
+    <div class="profile-box">
       <div class="profile-box-header" id="post-title">
         <h2>Post</h2>
       </div>
 
+      <form id="post-form">
+        <textarea name="post-box" placeholder="Tell the world something..." class="postbox"></textarea>
+        <div id="post-btn-container">
+          <input type="submit" name="post-btn" class="btn-login" value="Post" id="post-btn">
+        </div>
+      </form>
+    </div>
+
+<!--  ******TIMELINE********     -->
+
+    <div class="profile-box post-user">
+      <div class="friend-box timeline-friend-box">
+        <img src="images/viking-chief.jpg">
+        <div class="friend-info">
+          <a href="">&AElig;sbiorn the Violent</a>
+          <span class="gray-text">Posted on Thursday 12/21/2015</span>
+        </div>
+      </div>
+
       <div class="box-middle">
-        <form>
-          <textarea name="post-box" placeholder="Tell the world something..." class="postbox"></textarea>
+        <div class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      </div>
+    
+      <div class="box-footer">
+        <div class="box-footer-content">
+          <a href="#">Like</a> &middot; <a href="#">Comment</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="profile-box post-user">
+      <div class="friend-box timeline-friend-box">
+        <img src="images/viking-chief.jpg">
+        <div class="friend-info">
+          <a href="">Magellan</a>
+          <span class="gray-text">Posted on Thursday 12/21/2015</span>
+        </div>
+      </div>
+
+      <div class="box-middle">
+        <div class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      </div>
+    
+      <div class="box-footer">
+        <div class="box-footer-content">
+          <a href="#">Like</a> &middot; <a href="#">Comment</a><br>
+          <div src="https://d30y9cdsu7xlg0.cloudfront.net/png/158119-200.png" class="like-button"></div><a href="#">Captain Ahab</a> and 3 others like this.
+        </div>
+      </div>
+    </div>
+    
+    <div class="profile-box post-user">
+      <div class="friend-box timeline-friend-box">
+        <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTJX2sJIqOX9_WWbHMo86kbqx23R-S7c1oI78BzJ6Ua4T3TFIay4gGAaA">
+        <div class="friend-info">
+          <a href="">Wilson</a>
+          <span class="gray-text">Posted on Thursday 12/21/2015</span>
+        </div>
+      </div>
+
+      <div class="box-middle">
+        <div class="post-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      </div>
+    
+      <div class="box-footer">
+        <div class="box-footer-content">
+          <a href="#">Unlike</a> <span class="right-align"><a href="#">Comment</a></span><br>
+          <div src="https://d30y9cdsu7xlg0.cloudfront.net/png/158119-200.png" class="like-button"></div>You and <a href="#">Captain Ahab</a> and 3 others like this.
+        </div>
       </div>
       <div class="box-footer">
-          <div id="post-btn-container"><input type="submit" name="post-btn" class="btn-login" value="Post" id="post-btn"></div>
+        
+        <div class="box-footer-content">
+          <div class="comment-friend-box">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTJX2sJIqOX9_WWbHMo86kbqx23R-S7c1oI78BzJ6Ua4T3TFIay4gGAaA">
+            <div class="friend-info">
+              <a href="">Wilson</a> I love this! 
+              <span class="gray-text comment-gray">
+              Like &middot; Reply &middot; <div class="like-button"></div> 1  &middot; March 1 at 3:12 pm
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-footer-content">
+          <div class="comment-friend-box">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTJX2sJIqOX9_WWbHMo86kbqx23R-S7c1oI78BzJ6Ua4T3TFIay4gGAaA">
+            <div class="friend-info">
+              <a href="">Wilson</a> I love this! 
+              <span class="gray-text comment-gray">
+              Like &middot; Reply &middot; <div class="like-button"></div> 1  &middot; March 1 at 3:12 pm
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="box-footer-content">
+          <div class="comment-friend-box">
+            <img src="images/orm_profile.jpg">
+            <input type="text" name="user-comment" placeholder="Write a comment..." class="comment-input">
+          </div>
+        </div>
+
+
       </div>
-        </form>
     </div>
+
 
   </div>
 
-
-    <div class="profile-box">
-      <table>
-        <tr>
-          <td colspan="2" class="profile-box-header">
-            <img src="https://d30y9cdsu7xlg0.cloudfront.net/png/182914-200.png">
-            <h2>Friends</h2>
-            <ul class="box-header-menu">
-              <li class="selected"><a href="#">All Friends <span class="gray-text">211</span></a></li><!--
-           --><li><a href="#">Mutual Friends</a></li><!--
-           --><li><a href="#">High School</a></li><!--
-           --><li><a href="#">Current City</a></li><!--
-           --><li><a href="#">People You May Know</a></li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td class="box-friend-list">
-            <ul>
-              <li class="friend-box">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Humpback_whale_fluke_(2).jpg">
-                <div class="friend-info">
-                  <a href="">Moby Dick</a>
-                  <span class="gray-text">0 friends</span>
-                </div>
-                <input class="default-btn-style" type="submit" value="Friends">
-              </li>
-              <li class="friend-box">
-                <img src="images/viking-chief.jpg">
-                <div class="friend-info">
-                  <a href="">&AElig;sbiorn the Violent</a>
-                  <span class="gray-text">348 friends</span>
-                </div>
-                <input class="default-btn-style" type="submit" value="Friends">
-              </li>
-              <li class="friend-box">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Odin,_der_G%C3%B6ttervater.jpg">
-                <div class="friend-info">
-                  <a href="">Odin</a>
-                  <span class="gray-text">745 friends</span>
-                </div>
-                <input class="default-btn-style" type="submit" value="Friends">
-              </li>
-            </ul>
-          </td>
-          <td class="box-friend-list">
-            <ul>
-              <li class="friend-box">
-                <img src="images/beowulf.jpg">
-                <div class="friend-info">
-                  <a href="">Beowulf</a>
-                  <span class="gray-text">493 friends</span>
-                </div>
-                <input class="default-btn-style" type="submit" value="Friends">
-              </li>
-              <li class="friend-box">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/George_Miller_Bligh.jpg">
-                <div class="friend-info">
-                  <a href="">Horatio Hornblower</a>
-                  <span class="gray-text">283 friends</span>
-                </div>
-                <input class="default-btn-style" type="submit" value="Friends">
-              </li>
-              <li class="friend-box">
-                <img src="http://img01.deviantart.net/ecfb/i/2013/354/9/c/dsc_2013_12_20_hagar_the_horrible_by_theeyzmaster-d6ynkkd.png">
-                <div class="friend-info">
-                  <a href="">H&auml;gar the Horrible</a>
-                  <span class="gray-text">937 friends</span>
-                </div>
-                <input class="default-btn-style" type="submit" value="Friends">
-              </li>
-            </ul>
-          </td>
-        </tr>
-      </table>
-    </div>
   </section>
 
   <footer>
@@ -168,9 +207,8 @@ Right Column
       <span class="legal">
         Image credits:
         <ul>
-          <li>Users By Zlatko Najdenovski from the Noun Project</li>
+          <li>Thumbs Up by John T. Garcia from the Noun Project</li>
           <li>Magnifying Glass By Levi Bahn from the Noun Project</li>
-          <li>Mail By Edward Boatman from the Noun Project</li>
           <li>White facebook 6 icon from <a href="http://www.iconsdb.com/white-icons/facebook-6-icon.html">iconsdb.com</a></li>
           <li><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" property="dct:title" rel="dct:type">viking woodwork</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Hans Splinter</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br />Based on a work found <a xmlns:dct="http://purl.org/dc/terms/" href="https://www.flickr.com/photos/archeon/2849555477/in/photolist-5kNHyR-rtqoEU-9QDp9m-71FMVA-6G1sTP-8xF2Pr-q8rtN-mFdVU-f9CSR-EVszg-ni1BoB-oR5dcA-s8Rosh-sqqLV6-e1zcPj-dZQqqE-gRqT9L-7uubqA-nSkMes-7r2eXz-fG8zZr-2WWJvL-bvt4M-mzAfm-8X6wkC-aKWiqg-4WUdDw-8ZJwR-qkXE7y-4CyW6G-oKE39M-5kXfpV-bxuKTS-pFwyWN-HMFWV-6pg4xs-gRqWg8-a6nsib-5edVaZ-5FAmqB-4C1GX7-cM1hwQ-8qo8Vi-5dyYmo-aHrRY-eprDEh-siSWGN-36YQu-p23HLC-MCKRZ" rel="dct:source">here</a>.</li>
           <li><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" property="dct:title" rel="dct:type">Viking warrior</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Pablo G.</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://www.flickr.com/photos/pablogaleano/9473336990" rel="dct:source">https://www.flickr.com/photos/pablogaleano/9473336990</a>.</li>
