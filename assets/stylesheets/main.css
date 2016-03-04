@@ -94,6 +94,11 @@ h3 {
 
 .navbar div {
   display: inline-block;
+  border: 1px solid black;
+}
+
+.navbar div form {
+  display: inline-block;
 }
 
 .facelook-title {
@@ -113,6 +118,24 @@ h3 {
     margin: 22px 15px 0 0;
 
 }
+
+.search-input {
+  width: 453px;
+  height: 27px;
+  position: relative;
+  bottom: 18px;
+  background: url('file:///Users/JoeBernardi/VCS/prep_facebook_pages/assets/images/Magnifying_glass_icon.png');
+  background-color: #FFFFFF;
+  background-repeat: no-repeat;
+  background-size: contain; 
+  background-position: right;
+
+}
+
+.facelook-title {
+  width: 40px;
+}
+
 
 /*
   ===================================
