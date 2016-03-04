@@ -25,12 +25,15 @@ body {
   background-color: #EDF0F5;
 }
 
-.wrapper {
-  min-width: 960px;
+h2,
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333333;
 }
 
-div {
-  /*border: 1px solid black;*/
+.wrapper {
+  min-width: 960px;
 }
 
 
@@ -137,6 +140,24 @@ div {
 
 }
 
+
+
+#sign-up {
+  display: block;
+  height: 55px;
+  width:200px;
+  background: #5C8F48;
+  background: -webkit-linear-gradient(#9CDB81,#5C8F48);
+  background:      -o-linear-gradient(#9CDB81,#5C8F48);
+  background:    -moz-linear-gradient(#9CDB81,#5C8F48);
+  background:         linear-gradient(#9CDB81,#5C8F48);
+  margin: 22px 0;
+  border-radius: 4px;
+  font-size: 24px;
+  color: #FFFFFF;
+  letter-spacing: .1em;
+  text-shadow:1px 2px 2px #333333;
+}
 /*
   ===================================
   Info Container / Sign-up Container
@@ -144,7 +165,6 @@ div {
 */
 
 .main-content {
-  border:1px solid black;
   width: 960px;
   margin: 80px auto;
 }
@@ -153,7 +173,6 @@ div {
   display: inline-block;
   width: 425px;
   height:300px;
-  border: 1px solid black;
   margin-right: 100px;
   vertical-align: top;
 }
@@ -161,8 +180,7 @@ div {
 .sign-up-container {
   display: inline-block;
   width: 425px;
-  height:300px;
-  border: 1px solid black;
+  height:500px;
   float: right;
 
 }
@@ -171,10 +189,20 @@ div {
   font-size: 26px;
 }
 
+.input-sign-up {
+  height: 32px;
+  font-size: 18px;
+  margin:15px auto;
+  padding:5px;
+}
 
+.input-full-width {
+  width: 100%;
+}
 
-
-
+#last-name {
+  float: right;
+}
 /*
   ===================================
   lists
@@ -185,16 +213,19 @@ div {
   color: #333333;
 }
 
-.home-table th {
+
+.header {
   font-size: 28px;
   text-align: left;
+  font-weight: bold;
+  color: #333333;
 }
 
-.home-table td{
+.home-table td { 
   font-size: 20px;
 }
 
-.home-table td{
+.home-table td {
   padding-left: 20px;
   vertical-align: middle;
 
@@ -227,4 +258,24 @@ div {
   margin-top: 15px;
   width:40px;
   height: 40px;
+}
+
+/*
+  ===================================
+  selector
+  ===================================
+*/
+
+select {
+  font-family: arial;
+  font-size: 16px;
+  border: 1px solid #CCC;
+}
+
+.selector {
+  margin-top: 22px;
+}
+
+.radio-buttons {
+  margin-top: 22px;
 }
