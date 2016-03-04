@@ -94,7 +94,6 @@ h3 {
 
 .navbar div {
   display: inline-block;
-  border: 1px solid black;
 }
 
 .navbar div form {
@@ -132,10 +131,48 @@ h3 {
 
 }
 
+/*
+===================================
+About.html
+===================================
+*/
+
 .facelook-title {
   width: 40px;
 }
 
+.navbar-right {
+  margin-top: 15px;
+}
+
+.navbar-right img {
+  width:35px;
+}
+
+.navbar-right ul {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 14px;
+}
+
+.navbar-right li {
+  list-style: none;
+  display: inline-block;
+  border-right: 1px solid #3E588D;
+  padding:0 8px 0 8px;
+  position: relative;
+  bottom: 10px;
+}
+
+.navbar-right img {
+  margin-right: 15px;
+  border:1px solid #333333;
+}
+
+.navbar-right li:last-child {
+  margin-right: 80px;
+  border-right: none;
+}
 
 /*
   ===================================
