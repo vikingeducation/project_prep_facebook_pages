@@ -171,7 +171,7 @@ h3 {
 
 .info-container {
   display: inline-block;
-  width: 425px;
+  width: 430px;
   height:300px;
   margin-right: 100px;
   vertical-align: top;
@@ -241,7 +241,6 @@ h3 {
 
 #network {
   background-image: url('file:///Users/JoeBernardi/VCS/prep_facebook_pages/assets/images/share.png');
-  background-image: url('prep_facebook_pages/assets/images/share.png');
 }
 
 #newsfeed {
