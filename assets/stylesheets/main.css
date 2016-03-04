@@ -68,6 +68,11 @@ h3 {
   width:66.66%;
 }
 
+.container {
+  width:960px;
+  marin:0 auto;
+}
+
 /*
   ===================================
   HOMEPAGE
@@ -131,6 +136,7 @@ h3 {
 
 }
 
+
 /*
 ===================================
 About.html
@@ -180,6 +186,15 @@ About.html
   margin:0 auto;
   display: block;
   background-color: #232937;
+
+}
+
+.poster-image p {
+  color: #FFFFFF;
+  font-size: 24px;
+  position: relative;
+  left:200px;
+  top: 50px;
 }
 
 .profile-image {
@@ -194,6 +209,58 @@ About.html
   z-index: 5;
   border: 4px solid #FFFFFF;
   border-radius: 2px;
+}
+
+.profile-navbar {
+  width:960px;
+  height: 46px;
+  background-color: #FFFFFF;
+  margin:0 auto;
+}
+
+.profile-navbar ul {
+  margin-left: 220px;
+  color: #3B5998;
+  font-weight: 700;
+
+
+
+}
+
+.profile-navbar ul li {
+  display: table-cell;
+  width: 80px;
+  height: 100%;
+  border-right: 1px solid #E9EAED;
+  text-align: center;
+  height: 46px;
+  vertical-align: middle;
+
+}
+
+.profile-navbar ul li:first-child {
+  border-left: 1px solid #E9EAED;
+}
+
+
+.center {
+  margin:0 auto;
+}
+
+.standard-font-color {
+  color: #333333;
+}
+
+.profile-navbar li:hover {
+  background-color: #F6F7F8;
+  cursor: pointer;
+}
+
+#edit-profile {
+  float: right;
+  font-size: 10px;
+  display: inline-block;
+  margin: 16px 10px 0 0;
 }
 
 /*
@@ -380,6 +447,10 @@ select {
 */
 
 a {
+
+}
+
+.facelook-title a {
   text-decoration: none;
   color: white;
 }
