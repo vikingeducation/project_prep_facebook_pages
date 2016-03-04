@@ -290,3 +290,18 @@ select {
 .radio-buttons {
   margin-top: 22px;
 }
+
+/*
+  ===================================
+  Links
+  ===================================
+*/
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1:hover {
+  opacity: .8;
+}
