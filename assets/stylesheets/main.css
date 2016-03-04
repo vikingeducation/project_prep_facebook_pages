@@ -152,26 +152,20 @@ h3 {
 }
 
 .friend-image {
-  height:50px;
+  height:80px;
 }
 
 .friend-container {
-  border:1px solid black;
-  margin:0 auto;
-  width: 400px;
-  height:56px;
-
-
-}
-
-
-
-.friend-container p {
-  border:1px solid black;
-  
-
+  margin:20px auto;
+  width: 420px;
+  height:82px;
+  border:1px solid #333333;
 
 }
+
+
+
+
 
 
 
@@ -290,6 +284,24 @@ About.html
 
 .center {
   margin:0 auto;
+}
+
+.friend-margin {
+  margin-left:-25px;
+}
+
+.friend-summary {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 18px;
+  line-height: 27px;
+
+}
+
+
+.btn-margin-top {
+  margin-top:30px;
+  margin-left: 20px;
 }
 
 .standard-font-color {
