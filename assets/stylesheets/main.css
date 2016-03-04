@@ -11,6 +11,7 @@ Log in Button #5B74A9
 Sign Up Button #5C8F48
 Complimentary #E5B14C
 faded text #9DACCB
+background #EDF0F5
 */
 
 /*
@@ -21,6 +22,7 @@ faded text #9DACCB
 
 body {
   font-family: helvetica, sans-serif;
+  background-color: #EDF0F5;
 }
 
 .wrapper {
@@ -142,24 +144,87 @@ div {
 */
 
 .main-content {
-  width: 780px;
-  margin: 80px auto 80px auto;
+  border:1px solid black;
+  width: 960px;
+  margin: 80px auto;
 }
 
 .info-container {
   display: inline-block;
-  width: 360px;
+  width: 425px;
   height:300px;
   border: 1px solid black;
   margin-right: 100px;
+  vertical-align: top;
 }
 
 .sign-up-container {
   display: inline-block;
-  width: 300px;
+  width: 425px;
   height:300px;
   border: 1px solid black;
+  float: right;
 
 }
 
+.info-container h2 {
+  font-size: 26px;
+}
 
+
+
+
+
+/*
+  ===================================
+  lists
+  ===================================
+*/
+
+.home-table {
+  color: #333333;
+}
+
+.home-table th {
+  font-size: 28px;
+  text-align: left;
+}
+
+.home-table td{
+  font-size: 20px;
+}
+
+.home-table td{
+  padding-left: 20px;
+  vertical-align: middle;
+
+}
+
+.home-table tr {
+  height: 70px;
+}
+
+#post {
+  background-image: url('file:///Users/JoeBernardi/VCS/prep_facebook_pages/assets/images/post.png');
+}
+
+#network {
+  background-image: url('file:///Users/JoeBernardi/VCS/prep_facebook_pages/assets/images/share.png');
+}
+
+#newsfeed {
+  background-image: url('file:///Users/JoeBernardi/VCS/prep_facebook_pages/assets/images/newsfeed.png');
+}
+
+.small-table-font {
+  font-size: 16px;
+  color: #7D7E7F;
+}
+
+.table-icon {
+  background-repeat: no-repeat;
+  display: block;
+  margin-top: 15px;
+  width:40px;
+  height: 40px;
+}
