@@ -80,19 +80,20 @@ h3 {
   width:66.66%;
 }
 
+
 .container {
   width:960px;
   margin:0 auto;
+  border:1px solid black;
 }
 
 
 
 /*
   ===================================
-  HOMEPAGE
+  Images
   ===================================
 */
-
 
 
 /*
@@ -540,6 +541,12 @@ About.html
   height: 40px;
 }
 
+.small-font {
+  font-size: 10px;
+}
+
+
+
 /*
   ===================================
   selector
@@ -580,6 +587,7 @@ a:hover {
   text-decoration: none;
   color: #3B5998;
   
+
 }
 
 .highlight {
