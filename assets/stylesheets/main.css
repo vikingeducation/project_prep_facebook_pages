@@ -184,7 +184,7 @@ h3 {
 }
 
 .profile-image {
-  background-image: url('assets/images/profile_image.png');
+  background-image: url('https://github.com/jdbernardi/prep_facebook_pages/blob/master/assets/images/profile_image.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 165px;
