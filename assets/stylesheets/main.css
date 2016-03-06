@@ -184,7 +184,7 @@ h3 {
 }
 
 .profile-image {
-  background-image: url('file:///Users/JoeBernardi/VCS/prep_facebook_pages/assets/images/profile_image.png');
+  background-image: url('assets/images/profile_image.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 165px;
