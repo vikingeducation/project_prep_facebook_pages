@@ -33,7 +33,9 @@ h3 {
 }
 
 .wrapper {
+  width: 100%;
   min-width: 960px;
+  
 }
 
 .white-background {
@@ -87,6 +89,35 @@ h3 {
   border:1px solid black;
 }
 
+/*
+  ===================================
+  Newsfeed
+  ===================================
+*/
+
+.activity-container {
+  width: 30%;
+  height: 100%;
+  background-color: #FFFFFF;
+  border-right: 2px solid #333333;
+  padding-top: 15px;
+}
+
+.activity-container img {
+  width: 80px;
+}
+
+#profile-newsfeed {
+   border:1px solid black;
+
+}
+
+#profile-newsfeed div{
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 20px;
+
+}
 
 
 /*
