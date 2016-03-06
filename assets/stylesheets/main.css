@@ -157,7 +157,7 @@ h3 {
 */
 
 .input-background-image {
-  background: url('file:///Users/JoeBernardi/VCS/prep_facebook_pages/assets/images/Magnifying_glass_icon.png');
+  background: URL('assets/images/Magnifying_glass_icon.png');
   background-repeat: no-repeat;
   background-size: contain; 
   background-position: right;
@@ -184,9 +184,7 @@ h3 {
 }
 
 .profile-image {
-  background-image: url('file:///Users/JoeBernardi/VCS/prep_facebook_pages/assets/images/profile_image.png');
-  background-repeat: no-repeat;
-  background-size: contain;
+
   width: 165px;
   height: 165px;
   position: relative;
