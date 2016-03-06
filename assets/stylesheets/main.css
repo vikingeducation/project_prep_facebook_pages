@@ -142,8 +142,8 @@ h3 {
 
 .post-container {
   display: inline-block;
-  position: relative;
-  vertical-align: top;
+  width:600px;
+  height:100%;
   border:1px solid black;
 
 }
