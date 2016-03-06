@@ -140,11 +140,61 @@ h3 {
   font-style: italic;
 }
 
+.post-container {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  border:1px solid black;
+
+}
+
 /*
   ===================================
   Images
   ===================================
 */
+
+.input-background-image {
+  background: url('file:///Users/JoeBernardi/VCS/prep_facebook_pages/assets/images/Magnifying_glass_icon.png');
+  background-repeat: no-repeat;
+  background-size: contain; 
+  background-position: right;
+  background-color: #FFFFFF;
+
+}
+
+.poster-image {
+  width:960px;
+  height:250px;
+  margin:0 auto;
+  display: block;
+  background-color: #232937;
+
+}
+
+
+.poster-image p {
+  color: #FFFFFF;
+  font-size: 24px;
+  position: relative;
+  left:200px;
+  top: 50px;
+}
+
+.profile-image {
+  background-image: url('file:///Users/JoeBernardi/VCS/prep_facebook_pages/assets/images/profile_image.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 165px;
+  height: 165px;
+  position: relative;
+  top: 115px;
+  left: 20px;
+  z-index: 5;
+  border: 4px solid #FFFFFF;
+  border-radius: 2px;
+  box-shadow: 0px 1px 1px #333333;
+}
 
 
 /*
@@ -203,14 +253,7 @@ h3 {
 
 }
 
-.input-background-image {
-  background: url('file:///Users/JoeBernardi/VCS/prep_facebook_pages/assets/images/Magnifying_glass_icon.png');
-  background-repeat: no-repeat;
-  background-size: contain; 
-  background-position: right;
-  background-color: #FFFFFF;
 
-}
 
 .friend-image {
   height:80px;
@@ -276,38 +319,6 @@ About.html
   border-right: none;
 }
 
-.poster-image {
-  width:960px;
-  height:250px;
-  margin:0 auto;
-  display: block;
-  background-color: #232937;
-
-}
-
-
-.poster-image p {
-  color: #FFFFFF;
-  font-size: 24px;
-  position: relative;
-  left:200px;
-  top: 50px;
-}
-
-.profile-image {
-  background-image: url('file:///Users/JoeBernardi/VCS/prep_facebook_pages/assets/images/profile_image.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 165px;
-  height: 165px;
-  position: relative;
-  top: 115px;
-  left: 20px;
-  z-index: 5;
-  border: 4px solid #FFFFFF;
-  border-radius: 2px;
-  box-shadow: 0px 1px 1px #333333;
-}
 
 
 
