@@ -101,24 +101,44 @@ h3 {
   background-color: #FFFFFF;
   border-right: 2px solid #333333;
   padding-top: 15px;
+  padding-left: 20px;
 }
 
-.activity-container img {
+#profile-newsfeed-image {
   width: 80px;
+  border:1px solid #333333;
 }
 
-#profile-newsfeed {
-   border:1px solid black;
-
+.twentypx-margin {
+   padding-left: 20px;
 }
 
-#profile-newsfeed div{
+.profile-newsfeed div{
   display: table-cell;
   vertical-align: middle;
-  padding-left: 20px;
-
 }
 
+.friend-newsfeed-img {
+  width: 50px;
+  border:1px solid #333333;
+}
+
+#recently-active {
+  font-size: 18px;
+  font-weight: 500;
+  margin:15px 0;
+}
+
+.activity {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.post-date {
+  font-size: 12px;
+  color: #CCCCCC;
+  font-style: italic;
+}
 
 /*
   ===================================
