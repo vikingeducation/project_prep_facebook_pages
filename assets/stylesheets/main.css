@@ -99,12 +99,13 @@ h3 {
 */
 
 .activity-container {
-  background-color: #FFFFFF;
   border-right: 2px solid #333333;
   padding-top: 15px;
   padding-left: 20px;
   height: 100%;
 }
+
+
 
 #profile-newsfeed-image {
   width: 80px;
@@ -142,12 +143,54 @@ h3 {
   font-style: italic;
 }
 
-.post-container {
-  display: inline-block;
-  width:600px;
-  height:100%;
-  border:1px solid black;
+.user-post-bar {
+  height:25px;
+  width: 100%;
+  background-color: #8AA0CE;
+  text-align: center;
+}
 
+.user-post-bar h3 {
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-top: 5px;
+}
+
+.post-container {
+  margin:20px auto;
+  width:80%;
+  border-radius: 2px;
+  border:1px solid #333333;
+}
+
+.header-border-bottom {
+  border-bottom: 1px solid #333333;
+
+}
+
+.footer-border-top {
+  border-top: 1px solid #333333;
+}
+
+.post-comment {
+  width:90%;
+  height: 70px;
+  display: block;
+  margin:8px auto;
+  font-size: 14px;
+  line-height: 21px;
+  border:1px solid #CCCCCC;
+  resize: none;
+}
+
+.friend-post {
+  font-size: 12px;
+  line-height: 18px;
+  padding:0px 20px 10px 20px;
+}
+
+.post-margin-for-user {
+  margin:8px 0 8px 8px;
 }
 
 /*
@@ -446,6 +489,10 @@ About.html
 
 }
 
+.btn-center-float-right {
+  float: right;
+  margin:2px 5px 0 0;
+}
 
 .btn-default {
   background-color: #5B74A9;
