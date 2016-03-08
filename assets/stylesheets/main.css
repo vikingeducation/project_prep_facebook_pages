@@ -172,6 +172,18 @@ h3 {
   border-top: 1px solid #333333;
 }
 
+.footer-border-top ul {
+  text-align: left;
+  list-style: none;
+  margin: 3px 0 0 5px;
+}
+
+.footer-border-top ul li {
+    display: inline;
+    font-size: 12px;
+
+}
+
 .post-comment {
   width:90%;
   height: 70px;
