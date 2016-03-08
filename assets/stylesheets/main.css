@@ -144,11 +144,16 @@ h3 {
 }
 
 .user-post-bar {
-  height:25px;
   width: 100%;
   background-color: #8AA0CE;
   text-align: center;
 }
+
+.like {
+  text-align: left;
+  font-size: 12px;
+}
+
 
 .user-post-bar h3 {
   font-size: 16px;
@@ -175,7 +180,11 @@ h3 {
 .footer-border-top ul {
   text-align: left;
   list-style: none;
-  margin: 3px 0 0 5px;
+
+}
+
+.comment-padding {
+  padding: 3px 0 4px 5px;
 }
 
 .footer-border-top ul li {
@@ -501,9 +510,13 @@ About.html
 
 }
 
-.btn-center-float-right {
-  float: right;
-  margin:2px 5px 0 0;
+#btn-post {
+  position: relative;
+  display: block;
+  margin:0 5px 5px 0;
+  left:90%;
+
+
 }
 
 .btn-default {
