@@ -140,7 +140,7 @@ h3 {
 .post-date {
   font-size: 12px;
   color: #CCCCCC;
-  font-style: italic;
+  
 }
 
 .user-post-bar {
@@ -212,6 +212,19 @@ h3 {
 
 .post-margin-for-user {
   margin:8px 0 8px 8px;
+}
+
+#btn-comment {
+  position: relative;
+  left:195px;
+  margin-bottom: 5px;
+}
+
+#cancel {
+  float: left;
+  font-size: 12px;
+  position: relative;
+  left:20px;
 }
 
 /*
@@ -535,8 +548,12 @@ About.html
 }
 .delete-comment {
   font-size: 12px;
-  padding: 3px 5px 4px 0;
   float: right;
+}
+
+#delete-comment {
+  float: right;
+  padding-right: 20px;
 }
 
 #btn-log-in {
