@@ -215,7 +215,7 @@ margin: 50px 30px 0 0;
   display: inline-block;
   width: 46%;
   margin-bottom: 0;
-  
+
 }
 
 #short-field input:last-child {
@@ -265,3 +265,122 @@ margin: 50px 30px 0 0;
   color: #fff;
   font-weight: 700;
 }
+
+ /*
+========================
+About
+========================
+ */
+
+/* navbar */
+
+#navbar-logged {
+  height: 50px;
+}
+
+#title-logged {
+  font-size: 14px;
+}
+
+.search-bar {
+  width: 40%;
+  margin: auto;
+  height: 24px;
+  padding-top: 20px;
+}
+
+.search-bar input {
+  padding-left: 10px;
+  width: 100%;
+  height: 24px;
+  border: 1px solid #aaa;
+}
+
+.username {
+  color: #fff;
+  display: inline-block;
+  margin-right: 300px; 
+  position: relative;
+  bottom: 20px;
+  float: right;
+}
+
+
+/* photos */
+
+#main-container-logged {
+  width: 70%;
+  margin: auto;
+}
+
+.cover-photo img {
+  width: 100%;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.profile-photo {
+  position: relative;
+}
+.profile-photo img {
+  height: 200px;
+  width: 200px;
+  border: 5px solid #fff;
+  position: absolute;
+  left: 20px;
+  bottom: -40px;
+}
+
+.cover-photo {
+  position: relative;
+}
+.full-username {
+  color: #fff;
+  font-weight: 400;
+  position: absolute;
+  bottom: 30px;
+  left: 260px;
+  font-size: 26px;
+}
+
+
+.about-navbar {
+  border: 2px solid #ddd;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+}
+
+
+table {
+  width: 80%;
+  margin-left: 230px;
+}
+
+.about-navbar th {
+  width: 15%;
+  margin: auto;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  float: left;
+}
+
+th.table-right-align {
+  float: right;
+  border: none;
+}
+
+
+
+
+ /*
+========================
+Friends
+========================
+ */
+
+  /*
+========================
+News Feed
+========================
+ */
