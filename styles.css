@@ -328,7 +328,7 @@ About
   border: 5px solid #fff;
   position: absolute;
   left: 20px;
-  bottom: -40px;
+  bottom: -30px;
 }
 
 .cover-photo {
@@ -352,7 +352,7 @@ About
 }
 
 
-table {
+.about-navbar table {
   width: 80%;
   margin-left: 230px;
 }
@@ -403,8 +403,54 @@ th.table-right-align {
 
 }
 
+.info-col-2-5 {
+  width: 40%;
+  display: inline-block;
+}
+
+
+.info-col-3-5 {
+  width: 60%;
+  display: inline-block;
+  float: right;
+}
+
+#basic-info {
+  margin: 30px;
+}
+
+#basic-info h3,
+#basic-info caption {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#basic-info caption,
+#basic-info h3,
+#basic-info th {
+  text-align: left;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  line-height: 20px;
+}
+
+#basic-info td {
+  line-height: 30px;
+}
+
+#basic-info p {
+  line-height: 20px; 
+}
+
+
+#basic-info th {
+  padding-right: 20px;
+  width: 120px;
+}
+
 
  /*
+}
 ========================
 Friends
 ========================
