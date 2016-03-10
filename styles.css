@@ -370,7 +370,38 @@ th.table-right-align {
   border: none;
 }
 
+/* about main */
 
+.about-title {
+  width: 100%;
+  background-color: #ddd;
+  position: relative;
+}
+
+.about-title h2 {
+  font-size: 26px;
+  text-align: center;
+  font-weight: 700;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  margin: auto;
+  display: inline-block;
+}
+
+.btn-right-align {
+  position: absolute;
+  bottom: 12px;
+  right: 20px;
+  background-color: #2159A1;  
+  border-radius: 2px;
+  color: #fff;
+  height: 30px;
+  width: 120px;
+  float: right;
+  font-size: 14px;
+
+}
 
 
  /*
