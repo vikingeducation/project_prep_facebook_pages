@@ -22,7 +22,9 @@ Clearfix
  .col-2-5:before,
  .col-2-5:after,
  .sign-up:before,
- .sign-up:after {
+ .sign-up:after,
+ .friend-profile:before,
+ .friend-profile:after {
     display: table;
     content: '';
  }
@@ -38,7 +40,9 @@ Clearfix
  .col-2-5:before,
  .col-2-5:after,
  .sign-up:before,
- .sign-up:after {
+ .sign-up:after
+ .friend-profile:before,
+ .friend-profile:after {
    clear: both;
  }
 
@@ -344,7 +348,7 @@ About
 }
 
 
-.about-navbar {
+.profile-navbar {
   border: 2px solid #ddd;
   height: 50px;
   font-size: 16px;
@@ -352,17 +356,21 @@ About
 }
 
 
-.about-navbar table {
+.profile-navbar table {
   width: 80%;
   margin-left: 230px;
 }
 
-.about-navbar th {
+.profile-navbar th {
   width: 15%;
   margin: auto;
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   float: left;
+}
+
+.profile-navbar th:first-child {
+  background-color: #eee;
 }
 
 th.table-right-align {
@@ -372,13 +380,18 @@ th.table-right-align {
 
 /* about main */
 
-.about-title {
+.profile-main {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+}
+
+.profile-title {
   width: 100%;
   background-color: #ddd;
   position: relative;
 }
 
-.about-title h2 {
+.profile-title h2 {
   font-size: 26px;
   text-align: center;
   font-weight: 700;
@@ -450,11 +463,87 @@ th.table-right-align {
 
 
  /*
-}
 ========================
 Friends
 ========================
  */
+
+/* friends navbar */
+
+ .profile-navbar.friends th:nth-child(4) {
+  background-color: #eee;
+}
+
+ .profile-navbar.friends th:first-child {
+  background-color: #fff;
+}
+
+/* friends main */
+
+.friend-container {
+  width: 100%;
+  margin: auto;
+}
+
+.friend-profile {
+  width: 40%;
+  height: 150px;
+  border: 3px solid #eee;
+  margin: 20px 50px 20px 60px;
+  display: inline-block;
+  position: relative;
+}
+
+.friend-photo {
+  height: 120px;
+  width: 120px;
+  float: left;
+  margin: 13px 20px;
+  border: 2px solid #eee;
+}
+
+.friend-photo img {
+  height: 120px;
+  width: 120px;
+}
+
+
+.friend-name h3,
+.friend-name h4 {
+  width: 40%;
+  float: left;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.friend-name h3 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #444;
+}
+
+.friend-name h4 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #888;
+}
+
+.btn-unfriend {
+  background-color: #ccc;
+  float: right;
+  margin-right: 20px;
+  border-radius: 2px;
+  padding: 5px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 63px;
+}
+
+.btn-unfriend a {
+  color: #333;
+  text-decoration: none;
+}
 
   /*
 ========================
