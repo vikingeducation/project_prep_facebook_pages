@@ -528,6 +528,10 @@ Friends
   color: #888;
 }
 
+.friend-name a {
+  color: #2159A1;
+}
+
 .btn-unfriend {
   background-color: #ccc;
   float: right;
