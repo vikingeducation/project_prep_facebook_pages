@@ -27,6 +27,12 @@ Clearfix
  .col-3-4:after,
  .sign-up:before,
  .sign-up:after,
+ .newsfeed-wrap:before,
+ .newsfeed-wrap:after,
+ .create-post:before,
+ .create-post:after,
+ .published-post:before,
+ .published-post:after,
  .friend-profile:before,
  .friend-profile:after {
     display: table;
@@ -48,7 +54,13 @@ Clearfix
  .col-3-4:before,
  .col-3-4:after,
  .sign-up:before,
- .sign-up:after
+ .sign-up:after,
+ .newsfeed-wrap:before,
+ .newsfeed-wrap:after,
+ .create-post:before,
+ .create-post:after,
+ .published-post:before,
+ .published-post:after,
  .friend-profile:before,
  .friend-profile:after {
    clear: both;
@@ -68,6 +80,12 @@ Clearfix
  .col-1-4:after,
  .col-3-4:before,
  .col-3-4:after,
+ .newsfeed-wrap:before,
+ .newsfeed-wrap:after,
+ .create-post:before,
+ .create-post:after,
+ .published-post:before,
+ .published-post:after,
  .sign-up:before,
  .sign-up:after {
     width: 100%;
@@ -667,6 +685,57 @@ News Feed
   font-size: 12px;
 }
 
-/* posts and comments */
+/* main posts and comments */
 
+.newsfeed-wrap {
+  width: 70%;
+  margin: 25px auto;
+}
 
+.create-post,
+.published-post {
+  border: 1px solid #888;
+  margin: 20px;
+}
+
+.post-footer span,
+.published-post p,
+ textarea {
+  margin: 20px;
+}
+
+textarea {
+  width: 94.5%;
+  height: 40px;
+  color: #555;
+  padding: 20px 0 0 10px;
+}
+
+.post-footer {
+  background-color: #ddd;
+  padding: 20px;
+  border-top: 1px solid #888;
+}
+
+/* create posts */
+
+.create-post h3 {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  background-color: #ddd;
+  padding: 10px 0;
+  border-bottom: 1px solid #888;
+}
+
+.create-post .btn-right-align,
+.published-post .btn-right-align {
+  position: relative;
+}
+
+.create-post .btn-right-align {
+  bottom: 15px;
+}
+
+/* create posts */
