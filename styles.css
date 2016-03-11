@@ -21,6 +21,10 @@ Clearfix
  .col-3-5:after,
  .col-2-5:before,
  .col-2-5:after,
+ .col-1-4:before,
+ .col-1-4:after,
+ .col-3-4:before,
+ .col-3-4:after,
  .sign-up:before,
  .sign-up:after,
  .friend-profile:before,
@@ -39,6 +43,10 @@ Clearfix
  .col-3-5:after,
  .col-2-5:before,
  .col-2-5:after,
+ .col-1-4:before,
+ .col-1-4:after,
+ .col-3-4:before,
+ .col-3-4:after,
  .sign-up:before,
  .sign-up:after
  .friend-profile:before,
@@ -56,6 +64,10 @@ Clearfix
  .col-3-5:after,
  .col-2-5:before,
  .col-2-5:after,
+ .col-1-4:before,
+ .col-1-4:after,
+ .col-3-4:before,
+ .col-3-4:after,
  .sign-up:before,
  .sign-up:after {
     width: 100%;
@@ -81,7 +93,7 @@ Navbar
  */
 
 .wrap,
-.navbar
+.navbar,
 .main-container {
   width: 100%;
   display: block;
@@ -555,4 +567,106 @@ News Feed
 ========================
  */
 
- 
+
+/* newsfeed main */
+
+
+.col-1-4 {
+  width: 24%;
+  display: block;
+  float: left;
+}
+
+.col-3-4 {
+  width: 70%;
+  display: block;
+  float: right;
+  border-left: 2px solid #bbb;
+}
+
+/* left column */
+
+.user-profile {
+  display: block;
+  margin-left: 20px; 
+}
+
+#newsfeed-profile {
+  width: 90%;
+  height: 100px;
+}
+
+#newsfeed-profile .profile-photo {
+  width: 120px;
+  height: 120px;
+  right: -20px;
+  top: 50px;
+  display: inline-block;
+}
+
+#newsfeed-profile .profile-photo img {
+  width: 120px;
+  height: 120px;
+}
+
+#newsfeed-profile img {
+  width: 80px;
+  height: 80px;
+  border: none;
+  border: 2px solid #ddd;
+}
+
+#newsfeed-profile h2,
+#newsfeed-profile h4 {
+  display: inline-block;
+}
+
+#newsfeed-profile.user-profile h4 {
+  margin-left: 180px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#newsfeed-profile.user-profile h2 {
+  margin-left: 180px;
+  font-size: 18px;
+  width: 100%
+}
+
+/* recently active friend photos */
+
+.recently-active {
+  margin-top: 120px; 
+}
+
+.recently-active h2 {
+  margin-left: 60px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+#newsfeed-profile .friend-photo {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+
+#newsfeed-profile img {
+  width: 60px;
+  height: 60px;
+}
+
+.recently-active > h3 {
+  width: 80%;
+  margin-left: 100px;
+  font-size: 14px;
+}
+
+#newsfeed-profile .friend-name h4 {
+  width: 60%;
+  font-size: 12px;
+}
+
+/* posts and comments */
+
+
