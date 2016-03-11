@@ -217,7 +217,6 @@ margin: 50px 30px 0 0;
 .sign-up fieldset {
   padding: 0;
   border: none;
-
 }
 
 #subtitle {
@@ -248,7 +247,6 @@ margin: 50px 30px 0 0;
   display: inline-block;
   width: 46%;
   margin-bottom: 0;
-
 }
 
 #short-field input:last-child {
@@ -281,7 +279,6 @@ margin: 50px 30px 0 0;
   width: 80%;
   display: block;
   padding: 30px 0;
-
 }
 
 .radio-inline {
@@ -376,14 +373,12 @@ About Page
   font-size: 26px;
 }
 
-
 .profile-navbar {
   border: 2px solid #ddd;
   height: 50px;
   font-size: 16px;
   line-height: 50px;
 }
-
 
 .profile-navbar table {
   width: 80%;
@@ -442,7 +437,6 @@ th.table-right-align {
   width: 120px;
   float: right;
   font-size: 14px;
-
 }
 
 .info-col-2-5 {
@@ -489,7 +483,6 @@ th.table-right-align {
   padding-right: 20px;
   width: 120px;
 }
-
 
  /*
 ========================
@@ -695,6 +688,20 @@ News Feed
   margin: 20px;
 }
 
+.published-post p {
+  margin: 0 20px 20px 20px;
+  line-height: 20px;
+}
+
+textarea {
+  width: 94.5%;
+  height: 40px;
+  color: #555;
+  padding: 20px 0 0 10px;
+}
+
+/* post-footer */
+
 .post-footer span,
  textarea {
   margin: 10px;
@@ -709,23 +716,17 @@ News Feed
   margin-top: 20px;
 }
 
-.published-post p {
-  margin: 0 20px 20px 20px;
-  line-height: 20px;
-}
-
-textarea {
-  width: 94.5%;
-  height: 40px;
-  color: #555;
-  padding: 20px 0 0 10px;
-}
-
 .post-footer {
   background-color: #eee;
   border-top: 1px solid #888;
   padding: 10px;
 }
+
+.write-comment .post-footer {
+  border-top: none;
+}
+
+/* post-comments */
 
 .post-comments {
   background-color: #eee;
@@ -763,17 +764,11 @@ textarea {
   font-size: 12px;
 }
 
-
-
 #link-float-right {
   float: right;
 }
 
-.write-comment .post-footer {
-  border-top: none;
-}
-
-/* create posts */
+/* create post */
 
 .create-post h3 {
   font-size: 18px;
@@ -798,7 +793,7 @@ textarea {
   padding: 25px 0;
 }
 
-/* other posts */
+/* published post picture edits */
 
 .published-post #newsfeed-profile {
   border: none;
