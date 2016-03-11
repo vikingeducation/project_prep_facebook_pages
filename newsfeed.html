@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Newsfeed Aleksandr Gorbenko</title>
+    <link rel="stylesheet" type="text/css" href="normalise.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,500,700" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="wrap">  
+      
+      <div class="navbar" id="navbar-logged">
+          <div class="title logged" id="title-logged">
+            <h1>
+              GorbenkoBook
+            </h1>
+          </div>
+
+        <div class="search-bar">
+          <input type="text" name="search" placeholder="Search for Users">
+        </div>
+        <div class="username">
+          <h2>
+            Aleksandr
+          </h2>
+        </div>
+      </div>
+
+      <div class="main-container">
+
+        <div class="col-1-4">
+          <div class="user-profile" id="newsfeed-profile">
+            <div class="profile-photo">
+              <img src="./assets/profile.jpg">
+            </div>
+            <h2><a href="about.html">
+              Aleksandr Gorbenko
+            </a></h2>
+            <h4><a href="about.html">Edit Profile</a></h4>
+
+          </div>
+          <div class="recently-active">
+            <h2>Recently Active</h2>
+
+            <div class="friend-profile" id="newsfeed-profile">
+              <div class="friend-photo">
+                <img src="./assets/jefferson.jpg">
+              </div>
+              <div class="friend-name">
+                <h3><a href="#">Thomas Jefferson</a></h3>
+                  <h4>Posted on Friday 11/03/2016</h4>
+              </div>
+            </div>
+
+            <div class="friend-profile" id="newsfeed-profile">
+              <div class="friend-photo">
+                <img src="./assets/franklin.jpg">
+              </div>
+              <div class="friend-name">
+                <h3><a href="#">Benjamin Franklin</a></h3>
+                  <h4>Posted on Friday 11/03/2016</h4>
+              </div>
+            </div>
+
+            <div class="friend-profile" id="newsfeed-profile">
+              <div class="friend-photo">
+                <img src="./assets/hamilton.jpg">
+              </div>
+              <div class="friend-name">
+                <h3><a href="#">Alexander Hamilton</a></h3>
+                  <h4>Posted on Friday 11/03/2016</h4>
+              </div>
+            </div>
+
+            <div class="friend-profile" id="newsfeed-profile">
+              <div class="friend-photo">
+                <img src="./assets/washington.jpg">
+              </div>
+              <div class="friend-name">
+                <h3><a href="#">George Washington</a></h3>
+                  <h4>Posted on Friday 10/03/2016</h4>
+              </div>
+            </div>
+
+            <div class="friend-profile" id="newsfeed-profile">
+              <div class="friend-photo">
+                <img src="./assets/paine.jpg">
+              </div>
+              <div class="friend-name">
+                <h3><a href="#">Thomas Paine</a></h3>
+                  <h4>Posted on Friday 09/03/2016</h4>
+              </div>
+            </div>
+
+            <div class="friend-profile" id="newsfeed-profile">
+              <div class="friend-photo">
+                <img src="./assets/adams.jpg">
+              </div>
+              <div class="friend-name">
+                <h3><a href="#">John Adams</a></h3>
+                  <h4>Posted on Friday 08/03/2016</h4>
+              </div>
+            </div>
+
+            <h3><a href="friends.html">See All Your Friends</a></h3>
+          </div>
+        </div>
+
+        
+
+        <div class="col-3-4">
+          <section class="newsfeed-wrap">
+          <div class="create-post">
+            <h3>Create a Post</h3>
+            <textarea name="post">Tell the world something...</textarea>
+
+            <div class="post-footer">
+                <button class="btn-right-align">Post</button>
+            </div>
+          </div>
+            
+            <!-- simple post -->
+
+          <div class="published-post">
+            <div class="friend-profile" id="newsfeed-profile">
+              <div class="friend-photo">
+                <img src="./assets/adams.jpg">
+              </div>
+              <div class="friend-name">
+                <h3><a href="#">John Adams</a></h3>
+                  <h4>Posted on Friday 11/03/2016</h4>
+              </div>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="post-footer">
+                <span><a href="#">Like</a></span>
+                <span><a href="#">Comment</a></span>
+            </div>
+          </div>
+
+            <!--post with a like -->
+
+          <div class="published-post">
+            <div class="friend-profile" id="newsfeed-profile">
+              <div class="friend-photo">
+                <img src="./assets/jefferson.jpg">
+              </div>
+              <div class="friend-name">
+                <h3><a href="#">Thomas Jefferson</a></h3>
+                  <h4>Posted on Thursday 10/03/2016</h4>
+              </div>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="post-footer">
+                <span><a href="#">Like</a></span>
+                <span><a href="#">Comment</a></span>
+                <span><a href="#">Thomas Paine</a> likes this.</span>
+            </div>
+          </div>
+            
+            <!--post with the comment -->
+
+          <div class="published-post">
+            <div class="friend-profile" id="newsfeed-profile">
+              <div class="friend-photo">
+                <img src="./assets/washington.jpg">
+              </div>
+              <div class="friend-name">
+                <h3><a href="#">George Washington</a></h3>
+                  <h4>Posted on Wednesday 09/03/2016</h4>
+              </div>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div class="post-footer">
+                <span><a href="#">Unlike</a></span>
+                <span id="link-float-right"><a href="#">Delete</a></span>
+                <span>You and <a href="#">John Adams</a> and three others like this</span>
+            </div>
+
+            <div class="post-comments">
+              <div class="comment">
+                <div class="friend-profile" id="newsfeed-profile">
+                  <div class="friend-photo">
+                    <img src="./assets/hamilton.jpg">
+                  </div>
+                  <h5><a href="#">Alexander Hamilton</a></h5>
+                    <h6>Said on Wednesday 09/03/2016.</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    
+                    <div class="comment-footer">
+                    <span><a href="#">Like</a> 3 other people like this.</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="comment">
+                <div class="friend-profile" id="newsfeed-profile">
+                  <div class="friend-photo">
+                    <img src="./assets/paine.jpg">
+                  </div>
+                  <h5><a href="#">Thomas Paine</a></h5>
+                    <h6>Said on Wednesday 09/03/2016.</h6>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+                  
+                  <div class="comment-footer">
+                  <span><a href="#">Like</a> 3 other people like this.</span>
+                  <span id="link-float-right"><a href="#">Delete</a></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="write-comment">
+
+                <textarea>Write a comment...</textarea>
+                <div class="post-footer">
+                  <span><a href="#">Cancel</a></span>
+                <button class="btn-right-align">Comment</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

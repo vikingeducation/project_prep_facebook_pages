@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GorbenkoBook</title>
+    <link rel="stylesheet" type="text/css" href="normalise.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,500,700" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="wrap">  
+      <div class="navbar">
+
+        <div class="title">
+          <h1>
+            GorbenkoBook
+          </h1>
+        </div>
+
+        <div class="login-form">
+          <form action="#" method="post">
+            <fieldset>
+              <label>
+                <span>Email</span>
+                <input type="text" name="username">
+              </label>
+
+              <label>
+                <span>Password</span>
+                <input type="text" name="password">
+              </label>
+
+              <input id="login-action" type="submit" name="submit" value="Log In">
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
+      <div class="main-container">
+        <div class="col-3-5">
+          <div class="features">
+            <h2 id="subtitle">Connect with all your friends!</h2>
+              <ul>
+                <li><strong>See photos and updates</strong> in your news feed.</li>
+                <li><strong>Post your status for the world to see</strong> from your profile.</li>
+                <li><strong>Get in touch with your friends</strong> by "friending" them.</li>
+                <li><strong>Like things</strong> because you're a positive person!</li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="col-2-5">
+          <div class="sign-up">
+            <h2 id="subtitle">Sign Up</h2>
+
+            <form>
+              <fieldset>
+                <label class="info">
+                  <div id="short-field">
+                    <input type="text" name="name" placeholder="First Name">
+                    <input type="text" name="lastname" placeholder="Last Name">
+                  </div>
+                  <div class="long-field">
+                    <input type="text" name="email" placeholder="Your Email">
+                    <input type="text" name="password" placeholder="Your New Password">
+                    <input type="text" name="password-confirm" placeholder="Confirm Your Password">
+                  </div>
+                </label>
+
+                <label class="birthday">
+                  <strong>Birthday</strong>
+                    <label class="birthday-box">
+                      <select name="day" required>
+                        <option value="Day" selected>Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                      </select>
+                      <select name="month" required>
+                        <option value="month" selected>Month</option>
+                        <option value="january">January</option>
+                        <option value="february">February</option>
+                      </select>
+                      <select name="year" required>
+                        <option value="year" selected>Year</option>
+                        <option value="1992">1992</option>
+                        <option value="1993">1993</option>
+                      </select>
+                    </label>
+                </label>
+
+                <label class="gender">
+                  <label class="radio-inline">
+                    <input type="radio" name="gender" value="Female" checked> Female
+                  </label>
+                  <label class="radio-inline">
+                    <input type="radio" name="gender" value="Male"> Male
+                  </label>
+                </label>
+
+                <label>
+                  <input class="btn-sign-up" type="submit" name="submit" value="Sign Up!">
+                </label>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
