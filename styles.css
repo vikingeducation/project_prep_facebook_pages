@@ -699,9 +699,22 @@ News Feed
 }
 
 .post-footer span,
-.published-post p,
  textarea {
-  margin: 20px;
+  margin: 10px;
+}
+
+.post-footer span {
+  font-size: 14px;
+}
+
+.post-footer span:nth-child(3) {
+  display: block;
+  margin-top: 20px;
+}
+
+.published-post p {
+  margin: 0 80px 20px 20px;
+  line-height: 20px;
 }
 
 textarea {
@@ -712,9 +725,29 @@ textarea {
 }
 
 .post-footer {
-  background-color: #ddd;
-  padding: 20px;
+  background-color: #eee;
   border-top: 1px solid #888;
+  padding: 10px;
+}
+
+.post-comments {
+  background-color: #eee;
+}
+
+.comment p {
+  margin-left: 80px;
+}
+
+.comment {
+  background-color: #eee;
+}
+
+#link-float-right {
+  float: right;
+}
+
+.write-comment .post-footer {
+  border-top: none;
 }
 
 /* create posts */
@@ -724,7 +757,7 @@ textarea {
   font-weight: 500;
   text-align: center;
   width: 100%;
-  background-color: #ddd;
+  background-color: #eee;
   padding: 10px 0;
   border-bottom: 1px solid #888;
 }
@@ -738,4 +771,25 @@ textarea {
   bottom: 15px;
 }
 
-/* create posts */
+.create-post .post-footer {
+  padding: 25px 0;
+}
+
+/* other posts */
+
+.published-post #newsfeed-profile {
+  border: none;
+  height: 80px;
+  margin: 10px 0 0 20px;
+}
+
+.published-post #newsfeed-profile .friend-photo {
+  border: none;
+  margin: 0;
+}
+
+.published-post #newsfeed-profile .friend-name h4,
+.published-post #newsfeed-profile .friend-name h3 {
+  border: none;
+  margin: 10px 0 0 15px;
+}
