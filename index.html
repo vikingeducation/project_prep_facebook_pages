@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign up for Facebook</title>
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
+</head>
+<body>
+  <!-- Nav -->
+  <nav class="nav nav-signup">
+    <div class="col-2-3">
+      <h1>facebook</h1>
+    </div>
+    <form class="col-1-3">
+      <label class="login"> Email or Phone
+        <input class="input-field" type="text" name="email-or-phone"></input>
+      </label>
+      <label class="login"> Password
+        <input class="input-field" type="text" name="password"></input>
+      </label>
+      <button name="login">
+        Log in
+      </button>
+    </form>
+  </nav>
+  <!-- Why Signup -->
+  <section class="why-signup col-2-3">
+    <div>
+      <h4 class="topline">Connect with friends and the</h4>
+      <h4 class="bottomline">world around you on Facebook!</h4>
+      <img src="assets/images/see_photos_and_updates.png" alt="newsfeed">
+      <p><span class="on-fb-you-can">See photos and updates</span> from friends in newsfeed.</p>
+      <img src="assets/images/Share_whats_new.png" alt="star on computer">
+      <p><span class="on-fb-you-can">Share what's new</span> in your life on your timeline.</p>
+      <img src="assets/images/Find_more.png" alt="nodes connect">
+      <p><span class="on-fb-you-can">Find more</span> of what you're looking for with Facebook search.</p>
+    </div>
+  </section>  
+<!-- Signup -->
+  <section class="col-1-3 signup">
+    <div>
+      <h2>Sign Up</h2>
+      <p>It's free and always will be</p>  
+    </div>
+    <form>
+      <fieldset>
+        <div class="form-level name">
+          <input class="all-text-inputs name-width" type="text" name="firstname" placeholder="First Name"></input>
+          <input class="all-text-inputs name-width" type="text" name="lasstname" placeholder="Last Name"></input> 
+        </div>
+        <input class="form-level not-name all-text-inputs" type="text" name="phone-email" placeholder="Mobile number or email"></input>
+        <input class="form-level not-name all-text-inputs" type="text" name="phone-email-2" placeholder="Re-enter mobile number or email"></input>
+        <input class="form-level not-name all-text-inputs" type="text" name="password" placeholder="New password"></input>
+      </fieldset>
+      <fieldset>
+        <label class="birthday">
+          Birthday
+        </label>
+        <div class="input-birthday">
+          <select required name="month">
+            <option value="month" disabled selected>Month</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+          </select>
+          <select required name="day">
+            <option value="day" disabled selected>Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="2">31</option>
+          </select>
+          <select required name="year">
+            <option value="year" disabled selected>Year</option>
+            <option value="2016">2016</option>
+            <option value="1905">1905</option>
+          </select>
+        </div>
+        <div class="select-gender">
+          <input type="radio" name="gender" value="Female">Female</input>
+          <input type="radio" name="gender" value="Male">Male</input>
+        </div>
+        <button name="Sign-Up"> Sign Up</button>
+      </fieldset>
+    </form>
+  </section>
+</body>
+</html>

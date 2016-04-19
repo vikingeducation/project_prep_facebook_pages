@@ -1,0 +1,196 @@
+/**************
+Border Box
+**************/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/***************
+Grid
+***************/
+.main-content {
+  width: 100%;
+}
+
+.col-2-3 {
+  width: 66%;
+  display: inline-block;
+}
+
+.col-1-3 {
+  width: 33%;
+  display: inline-block;
+}
+
+/***************
+Body
+***************/
+html,
+body
+{
+  font-family: helvetica;
+  width: 100%;
+  background: #edf0f5; 
+}
+
+/***************
+Headings
+***************/
+h1 {
+  font-size: 42px;
+  color: #fff;
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+/***************
+Nav
+***************/
+
+.nav {
+  background: #43609c;
+  width: 100%;
+}
+
+/***************
+.nav-signup
+***************/
+.nav-signup {
+  height: 82px;
+}
+
+.nav-signup h1 {
+  padding: 30px 0;
+  margin-left: 13%;
+  display: inline-block;
+}
+
+nav form {
+  display: inline-block;
+}
+
+.login {
+  color: #fff;
+  display: inline-block;
+  margin-right: 5%;
+}
+
+.input-field {
+  display: block;
+}
+
+nav button {
+  height: 22px;
+}
+
+/***************
+.why-signup
+***************/
+
+.why-signup .topline {
+  margin: 10% 24% 0;
+}
+
+.why-signup .bottomline {
+  margin: 0 24% 40px;
+}
+
+.why-signup img {
+  margin: 0 15px 10px 24%;
+  vertical-align: middle;
+}
+
+.why-signup p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.on-fb-you-can {
+  font-weight: bold;
+}
+
+/***************
+Signup
+***************/
+
+.col-1-3 h2 {
+  font-size: 36px;
+}
+
+.col-1-3 p {
+  color: #333;
+}
+
+.signup {
+  vertical-align: top;
+  margin-top: 4%
+}
+
+.signup p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333; 
+}
+
+.form-level {
+  display: block;
+}
+
+.name {
+  width: 362px;
+}
+
+.name-width {
+  width: 178px;
+}
+
+.not-name {
+  width: 362px;
+}
+
+.all-text-inputs {
+  height: 38px;
+}
+
+.birthday {
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 400px;
+}
+
+.signup button {
+  background: #5f9b4c;
+  color: white;
+  width: 178px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.input-birthday {
+  margin-top: 10px;
+}
+
+.input-birthday select:not(:first-child) {
+  margin-left: 5px;
+}
+
+.select-gender {
+  margin-top: 20px;
+}
+
+.select-gender input:last-child {
+  margin-left: 10px;
+}
