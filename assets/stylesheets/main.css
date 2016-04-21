@@ -1,0 +1,763 @@
+/**************
+Border Box
+**************/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/***************
+Grid
+***************/
+.main-content {
+  width: 100%;
+}
+
+.col-2-3 {
+  width: 66%;
+  display: inline-block;
+}
+
+.col-1-3 {
+  width: 33%;
+  display: inline-block;
+}
+
+/***************
+Body
+***************/
+html,
+body
+{
+  font-family: helvetica;
+  width: 100%;
+  background: #edf0f5; 
+}
+
+/***************
+Headings
+***************/
+h1 {
+  font-size: 42px;
+  color: #fff;
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+/***************
+Nav
+***************/
+
+nav {
+  background: #0084b4;
+  width: 100%;
+}
+
+/***************
+.nav-signup
+***************/
+.nav-signup {
+  height: 82px;
+}
+
+.nav-signup h1 {
+  padding: 30px 0;
+  margin-left: 13%;
+  display: inline-block;
+}
+
+nav form {
+  display: inline-block;
+}
+
+.login {
+  color: #fff;
+  display: inline-block;
+  margin-right: 5%;
+}
+
+.input-field {
+  display: block;
+}
+
+nav button {
+  height: 22px;
+}
+
+/***************
+Nav Other Pages
+***************/
+.other-pages-nav {
+  height: 68px;
+  width: 100%;
+}
+
+.fa-facebook-official {
+  margin-left: 10.94%;
+  font-size: 48px;
+  margin-top: 10px;
+}
+
+.nav-search{
+  border: none;
+  padding: 4px 0;
+  margin-left: 37px;
+  margin-top: 23px;
+  vertical-align: top;
+  border-radius: 5px;
+  width: 260px;
+}
+
+.fa-search {
+  margin-top: 26px;
+  vertical-align: top;
+  position: relative;
+  left: -23px;
+  margin-right: 37px;
+}
+
+ .icons-profpic {
+  display: inline-block;
+  margin-right: 10px;
+ }
+
+.nav-bar-illustration i,
+.other-pages-nav img {
+  width: 24px;
+  height: 24px;
+  margin-left: 15px;
+}
+
+.fa-arrow-down {
+  width: 24px;
+  height: 24px;
+  margin-top: 22px;
+  vertical-align: top;
+  margin-left: -10px;
+}
+
+.other-pages-nav button {
+  width: 142px;
+  height: 58px;
+  margin-top: 5px;
+  vertical-align: top;
+}
+
+/***************
+About & Friends Page Structure
+***************/
+
+.profile-background {
+  width: 960px;
+  height: 315px;
+}
+
+.my-profile-picture {
+  height: 168px;
+  width: 168px;
+  position: absolute;
+  top: 230px;
+  left: 170px;
+}
+
+.my-name {
+  color: #fff;
+  font-size: 24px;
+  position: absolute;
+  top: 350px;
+  left: 350px;
+}
+
+.profile-tabs {
+  display: inline-block;
+  width: 875px;
+}
+
+.profile-tabs a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin: 0;
+}
+
+.profile-tabs a:first-child {
+  margin-left: 23%;
+}
+
+.profile-tabs p {
+  padding: 0 40px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.profile-tabs-plus-edit-profile {
+  padding-right: 1px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.profile-tabs-plus-edit-profile a:last-child {
+  display: inline-block;
+}
+
+.about-friends-page-structure {
+  width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+
+/***************
+About Page
+***************/
+
+.about-or-friends {
+  border: 1px solid black;
+}
+
+.about-friends-the-words {
+  margin-left: 480px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.four-eighty-px {
+  width: 480px;
+  height: 300px;
+  display: inline-block;
+  border: 1px solid black;
+  border-right: none;
+}
+
+.center-four-eighty {
+  display: table;
+  margin: 0 auto;
+}
+
+.basic-contact-info-category {
+  font-weight: bold;
+}
+
+.contact-info-the-word {
+  margin-left: 138px;
+  font-weight: bold;
+}
+
+.info-group {
+  display: block;
+}
+
+.info-item {
+  display: inline-block;
+  margin-left: 138px;
+  margin-top: 10px;
+}
+
+.info-item-header {
+  width: 125px;
+}
+
+.info-item-value {
+  margin-left: 0px;
+}
+
+.basic-contact-info-heading {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+
+.four-eighty-px-two {
+  width: 480px;
+  height: 300px;
+  float: right;
+  border: 1px solid black;
+  border-left: none;
+}
+
+.who-you-are {
+  margin-left: 25px;
+}
+
+.about-right-heading {
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+/***************
+Friends Page
+***************/
+
+.friend-box {
+  margin: 10px;
+  width: 460px;
+  height: 80px;
+  border: 1px solid black;
+}
+
+.inner-friend-box {
+  display: inline-block;
+}
+
+.friend-name-and-friend-number {
+  display: inline-block;
+  margin-left: 50px;
+  position: relative;
+  top: -25px;
+}
+
+.unfriend-button {
+  margin-left: 70px;
+  position: relative;
+  top: -40px;
+}
+
+.number-of-friends {
+  color: gray;
+}
+
+.friend-prof-pic {
+  margin: 5px;
+  height: 70px;
+  width: 70px;
+}
+
+/***************
+.why-signup
+***************/
+
+.why-signup .topline {
+  margin: 10% 24% 0;
+}
+
+.why-signup .bottomline {
+  margin: 0 24% 40px;
+}
+
+.why-signup img {
+  margin: 0 15px 10px 24%;
+  vertical-align: middle;
+}
+
+.why-signup p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.on-fb-you-can {
+  font-weight: bold;
+}
+
+/***************
+Signup
+***************/
+
+.col-1-3 h2 {
+  font-size: 36px;
+}
+
+.col-1-3 p {
+  color: #333;
+}
+
+.signup {
+  vertical-align: top;
+  margin-top: 4%
+}
+
+.signup p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333; 
+}
+
+.form-level {
+  display: block;
+}
+
+.name {
+  width: 362px;
+}
+
+.name-width {
+  width: 178px;
+}
+
+.not-name {
+  width: 362px;
+}
+
+.all-text-inputs {
+  height: 38px;
+}
+
+.birthday {
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 400px;
+}
+
+.signup button {
+  background: #5f9b4c;
+  color: white;
+  width: 178px;
+  height: 40px;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.input-birthday {
+  margin-top: 10px;
+}
+
+.input-birthday select:not(:first-child) {
+  margin-left: 5px;
+}
+
+.select-gender {
+  margin-top: 20px;
+}
+
+.select-gender input:last-child {
+  margin-left: 10px;
+}
+
+/***************
+Newsfeed Structure
+***************/
+
+.newsfeed-structure {
+width: 960px;
+margin: 0 auto;
+display: block;
+}
+
+.left-newsfeed {
+  width: 200px;
+  height: 629px;
+  float: left;
+  border: 1px solid black;
+}
+
+.center-newsfeed {
+  width: 500px;
+  height: 100%;
+  padding: 0 20px;
+  float: left;
+}
+
+.right-newsfeed {
+  width: 260px;
+  height: 519px;
+  float: left;
+}
+
+/***************
+Left Newsfeed
+***************/
+
+.left-newsfeed-pic-and-name {
+  height: 77px;
+  background: #0084b4;
+}
+
+.left-newsfeed-pic-and-name img {
+  width: 57px;
+  height: 49px;
+  margin-top: 28px;
+}
+
+.left-newsfeed-pic-and-name p {
+  display: inline-block;
+  position: relative;
+  bottom: 8px;
+}
+
+.left-newsfeed-stats {
+  height: 153px;
+  background: #fff;
+  border: 1px solid black;
+}
+
+.left-newsfeed-stats-half {
+  height: 76.5px;
+}
+
+.left-newsfeed-stats-quarter {
+  width: 98px;
+  height: 76.5px;
+  float: left;
+  text-align: center;
+}
+
+.left-newsfeed-stats-headings {
+  font-size: 13px;
+  margin-top: 12px;
+  margin-bottom: 13px 
+}
+
+.left-newsfeed-calendar {
+  margin-top: 32px;
+  height: 166px;
+}
+
+.left-newsfeed-calendar img {
+  width: 200px;
+  height: 166px;
+  margin-bottom: 7px;
+}
+
+.left-newsfeed-events {
+  display: table;
+  margin: auto;
+  margin-bottom: 11px;
+}
+
+.left-newsfeed-birthdays i {
+  float: left;
+  margin-right: 4px;
+}
+
+.left-newsfeed-birthdays a {
+  display: inline-block;
+}
+
+.left-newsfeed-birthdays p {
+  font-size: 13px;
+}
+
+/***************
+Center Newsfeed
+***************/
+
+.center-newsfeed-border {
+  border: 1px solid black;
+}
+
+.center-newsfeed-lists {
+  margin-bottom: 16px;
+  background: #fff
+}
+
+.center-newsfeed-lists p:first-child {
+  background:  #33CAFF;
+  font-weight: bold;
+}
+
+.center-newsfeed-lists p {
+  border: 1px solid black;
+  display: inline-block;
+  width: 114.5px;
+  height: 70px;
+  text-align: center;
+  padding-top: 27px;
+}
+
+.center-newsfeed-create-post {
+  height: 195px;
+  border: 1px solid black;
+}
+
+.center-newsfeed-post-type p {
+  display: inline-block;
+  width: 228px;
+  height: 35px;
+  padding-top: 9.5px;
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+}
+
+.fa-pencil {
+  position: absolute;
+  top: 165px;
+  left: 392px;
+}
+
+.fa-upload {
+  position: absolute;
+  top: 165px;
+  left: 618px;
+}
+
+.center-newsfeed-create-post textarea {
+  width: 458px;
+  height: 106px;
+  border: 1px solid black;
+}
+
+.center-newsfeed-create-post-icons {
+  font-size: 24px;
+  margin: 12px 12px;
+}
+
+.center-newsfeed-create-post-icons i{
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.center-newsfeed-create-post-icons i:first-child {
+  margin-left: 12px;
+}
+
+#sticky-note {
+  margin-right: 122px;
+}
+
+.center-newsfeed-create-post-icons button {
+  width: 50px;
+  height: 27px;
+}
+
+.center-newsfeed-create-post-icons button:last-child {
+  background: #0084b4;
+}
+
+.center-newsfeed-post-top-half {
+  height: 69px;
+  width: 223px;
+  float: left;
+}
+
+.center-newsfeed-post-top-half img {
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.post-time-and-length {
+  color: gray;
+  font-size: 13px;
+}
+
+.view-full-post {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.fa-chevron-down {
+  margin-top: 0;
+  float: right;
+}
+
+.center-newsfeed-view-new-posts {
+ border: 1px solid black;
+ height: 39px; 
+}
+
+.center-newsfeed-view-new-posts a {
+  text-decoration: none;
+}
+
+.center-newsfeed-view-new-posts p {
+  text-align: center;
+  padding-top: 18px;
+}
+
+.center-newsfeed-post {
+  height: 225px;
+  border: 1px solid black;
+  background: #fff;
+}
+
+.center-newsfeed-post-profile-info {
+  height: 55px;
+}
+
+.center-newsfeed-post-content p {
+  padding: 3px 17px;
+  height: 88px;
+}
+
+.center-newsfeed-post-expand {
+  display: inline-block;
+  width: 228px;
+  margin-bottom: 8px;
+}
+
+.center-newsfeed-post-expand {
+  text-align: center;
+  padding-top: 4px;
+}
+
+.center-newsfeed-like-comment-share {
+  border: 1px solid black;
+  height: 42px;
+  padding-top: 12px;
+}
+
+.center-newsfeed-like-comment-share i:first-child {
+  margin-left: 5px;
+}
+
+
+.center-newsfeed-like-comment-share p {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/***************
+Right Newsfeed
+***************/
+
+.latest-news {
+  height: 304px;
+  background: #fff;
+}
+
+.right-newsfeed-essentially-padding {
+  height: 31px;
+}
+
+.trending-icons {
+  height: 46px;
+  border: 1px solid gray;
+  padding-top: 14px;
+}
+
+.trending-icons p {
+  display: inline-block;
+  margin-right: 90px;
+}
+.trending-icons i {
+  padding-right: 4px;
+}
+
+.news-story {
+  margin-top: 8px;
+}
+
+.see-more-news-stories {
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+}
+
+.languages {
+  margin-top: 24px;
+  background: #fff;
+  height: 114px;
+}
+
+.languages p {
+  display: inline-block;
+  font-size: 12px;
+}
+
+.languages button {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
