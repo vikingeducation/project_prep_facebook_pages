@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Newsfeed</title>
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/font-awesome-4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/main.css">
+</head>
+<body>
+  <nav class="other-pages-nav">
+    <i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i>
+    <input class="nav-search" type="text" placeholder="Search Facebook"></input>
+    <i class="fa fa-search" aria-hidden="true"></i>
+    <div class="icons-profpic">
+      <figure class="nav-bar-illustration">
+      <img src="assets/images/MyGradPic.jpg">    
+      <figcaption>Profile</figcaption>  
+      </figure>
+    </div>
+    <div class="icons-profpic">
+      <figure class="nav-bar-illustration">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <figcaption>Messages</figcaption>
+      </figure>
+    </div>
+    <div class="icons-profpic">
+      <figure class="nav-bar-illustration">
+        <i class="fa fa-globe" aria-hidden="true"></i>
+        <figcaption>Notifications</figcaption>
+      </figure>
+    </div>
+    <div class="icons-profpic">
+      <figure class="nav-bar-illustration">
+        <i class="fa fa-book" aria-hidden="true"></i>
+        <figcaption>Read Later</figcaption>
+      </figure>
+    </div>
+    <div class="icons-profpic">
+      <figure class="nav-bar-illustration">
+        <i class="fa fa-sticky-note-o" aria-hidden="true"></i>
+        <figcaption>Notes</figcaption>
+      </figure>
+    </div>
+    <div class="icons-profpic">
+      <figure class="nav-bar-illustration">
+        <i class="fa fa-calendar" aria-hidden="true"></i>
+        <figcaption>Events</figcaption>
+      </figure>
+    </div>
+    <div class="icons-profpic">
+      <figure class="nav-bar-illustration">
+        <i class="fa fa-comments-o" aria-hidden="true"></i>
+        <figcaption>Groups</figcaption>
+      </figure>
+    </div>
+    <i class="fa fa-arrow-down" aria-hidden="true"></i>    
+    <button name="create-post">
+      Create Post
+    </button>
+  </nav>
+  <div class="newsfeed-structure">
+    <section class="left-newsfeed">
+      <div class="left-newsfeed-pic-and-name">
+        <img src="assets/images/MyGradPic.jpg" alt="profile-picture">
+        <p>Matt Goldwater</p>
+      </div>
+      <div class="left-newsfeed-stats">
+        <div class="left-newsfeed-stats-half">
+          <div class="left-newsfeed-stats-quarter">
+            <p class="left-newsfeed-stats-headings">Posts</p>
+            <p>10.1k</p>
+          </div>
+          <div class="left-newsfeed-stats-quarter">
+            <p class="left-newsfeed-stats-headings">Following</p>
+            <p>1,097</p>
+          </div>
+        </div>
+        <div class="left-newsfeed-stats-half">
+          <div class="left-newsfeed-stats-quarter">
+            <p class="left-newsfeed-stats-headings">Friends</p>
+            <p>2,345</p>
+          </div>
+          <div class="left-newsfeed-stats-quarter">
+            <p class="left-newsfeed-stats-headings">Followers</p>
+            <p>78.3M</p>
+          </div>
+        </div>
+      </div>
+      <div class="left-newsfeed-calendar">
+        <img src="assets/images/calendar-icon-blue_sm.png" alt="calendar">
+      </div>
+      <div class="left-newsfeed-events">
+        <p>You have <a href="#">1 event</a> today</p>
+      </div>
+      <div class="left-newsfeed-birthdays">
+        <i class="fa fa-gift" aria-hidden="true"></i>
+        <p><a href="#">7 friends </a> have birthdays today</p> 
+      </div>
+    </section>
+    <section class="center-newsfeed">
+      <div class="center-newsfeed-border">
+        <div class="center-newsfeed-lists">
+          <p>All</p><!--
+          --><p>Friends</p><!--
+          --><p>Following</p><!--
+          --><p>Other</p>
+        </div>
+        <form class="center-newsfeed-create-post">
+          <div class="center-newsfeed-post-type">
+              <i class="fa fa-pencil" aria-hidden="true"></i>
+              <a href="#"><p>Write</p></a><!--
+              --><a href="#"><i class="fa fa-upload" aria-hidden="true"></i><p>Add Photos / Videos</p></a>
+          </div>
+          <textarea name="post">What's on your mind?</textarea>
+          <div class="center-newsfeed-create-post-icons">
+            <i class="fa fa-camera" aria-hidden="true"></i>
+            <i class="fa fa-tag" aria-hidden="true"></i>
+            <i class="fa fa-smile-o" aria-hidden="true"></i>
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <i id="sticky-note" class="fa fa-sticky-note-o" aria-hidden="true"></i>
+            <button name="post-to">
+              public
+            </button>
+            <button name="post-content">
+              post
+            </button> 
+          </div>
+        </form>
+        <div class="center-newsfeed-view-new-posts">
+          <a href="#"><p>View 5 new posts</p></a>
+        </div>
+        <div class="center-newsfeed-post">
+            <div class="center-newsfeed-post-profile-info">
+              <div class="center-newsfeed-post-top-half">
+                <img src="assets/images/MyGradPic.jpg" alt="Frank Fontana">
+                <p><a href="#">Frank Fontana</a></p>
+                <p class="post-time-and-length">19 mins 10 min read</p>
+              </div>
+              <div class="center-newsfeed-post-top-half">
+                <p class="view-full-post">view full post</p>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="center-newsfeed-post-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+            </div>
+            <div class="center-newsfeed-post-expand">
+              <p>See More</p>
+            </div><!--
+            --><div class="center-newsfeed-post-expand">
+              <p class="center-newsfeed-post-expand">View Full Post</p>
+            </div>
+            <div class="center-newsfeed-like-comment-share">
+            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+            <p>Like</p> 
+            <i class="fa fa-comment-o" aria-hidden="true"></i>
+            <p>Comment</p>
+            <i class="fa fa-share" aria-hidden="true"></i>
+            <p>Share</p>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="right-newsfeed">
+      <aside class="latest-news">
+        <div class="right-newsfeed-essentially-padding"></div>
+        <div class="trending-icons">
+          <p>trending</p>
+          <i class="fa fa-fire" aria-hidden="true"></i>
+          <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+          <i class="fa fa-futbol-o" aria-hidden="true"></i>
+          <i class="fa fa-camera" aria-hidden="true"></i>
+        </div>
+        <div class="news-story">
+          <p><a href="#">web link</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+        </div>
+        <div class="news-story">
+          <p><a href="#">web link</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+        </div>
+        <div class="news-story">
+          <p><a href="#">web link</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad </p>
+        </div>
+        <a class="see-more-news-stories" href="#"><p>See More</p></a>
+      </aside>
+      <aside class="languages">
+        <button>
+          <i class="fa fa-plus" aria-hidden="true"></i>
+        </button>
+        <p>English</p>
+        <a href="#"><p>Espanol</p></a>
+        <p>-</p>
+        <a href="#"><p>Francais (France)</p></a>
+        <p>-</p>
+        <a href="#"><p>Portuges (Brasil)</p></a>
+        <p>-</p>
+        <a href="#"><p>Deutsch</p></a>
+        <p>-</p>
+        <a href="#"><p>Italiano</p></a>
+      </aside>
+      <div class
+      trending
+      trending #1
+      trending #1
+      trending #1
+      trending #1
+    </section>
+  </div>
+  
+</body>
+</html>
