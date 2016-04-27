@@ -160,7 +160,7 @@ home-page-header
 }
 
 .benefits-inner-wrapper {
-	margin-top: 10%;
+	margin: 10% 10% 0 10%;
 }
 
 .main-benefits-wrapper h3 {
@@ -202,7 +202,8 @@ home-page-header
 }
 
 .sign-up-form-wrapper legend {
-	margin: 10px 0;
+	margin: 15px 0;
+	padding-top: 15px;
 	font-size: 18px;
 	font-weight: bold;
 }
@@ -211,4 +212,20 @@ home-page-header
 	font-size: 18px;
 	line-height: 1.5em;
 	margin-right: 10px;
+}
+
+.sign-up-radio {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin-top: 15px;
+}
+
+.sign-up-button {
+	margin-top: 15px;
+	font-size: 24px;
+	height: 1.75em;
+	width: 70%;
+	background: linear-gradient(#5f93d3, #3a7ac9);
+	color: white;
+	font-weight: bold;
 }

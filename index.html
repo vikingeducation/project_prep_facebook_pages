@@ -4,6 +4,8 @@
 <head>
 	<title>Facelook</title>
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 	<script type="text/javascript" src="scripts/main.js"></script>
 </head>
 <body>
@@ -58,45 +60,18 @@
 						<option value="January">November</option>
 						<option value="January">December</option>
 					</select>	
-					<select>
+					<select id="birthday-day">
 						<option value="" disabled selected hidden>Day</option>
-						<option value="1">1</option>
-						<option value="1">2</option>
-						<option value="1">3</option>
-						<option value="1">4</option>
-						<option value="1">5</option>
-						<option value="1">6</option>
-						<option value="1">7</option>
-						<option value="1">8</option>
-						<option value="1">9</option>
-						<option value="1">10</option>
-						<option value="1">11</option>
-						<option value="1">12</option>
-						<option value="1">13</option>
-						<option value="1">14</option>
-						<option value="1">15</option>
-						<option value="1">16</option>
-						<option value="1">17</option>
-						<option value="1">18</option>
-						<option value="1">19</option>
-						<option value="1">20</option>
-						<option value="1">21</option>
-						<option value="1">22</option>
-						<option value="1">23</option>
-						<option value="1">24</option>
-						<option value="1">25</option>
-						<option value="1">26</option>
-						<option value="1">27</option>
-						<option value="1">28</option>
-						<option value="1">29</option>
-						<option value="1">30</option>
-						<option value="1">31</option>
 					</select>
-					<select>
-						<option value="" disabled selected hidden>Year</option>						
+					<select id="birthday-year">
+						<option value="" disabled selected hidden>Year</option>
 					</select>
 				</fieldset>
 			</section>
+			<input class="sign-up-radio" type="radio" name="gender" value="female">Female</input>
+			<input class="sign-up-radio" type="radio" name="gender" value="male">Male</input>
+			<br>
+			<input class="sign-up-button" type="button" value="Sign Up!"></input>
 		</section>
 	</main>
 </body>
