@@ -93,8 +93,13 @@ home-page-header
 	margin-right: auto;
 }
 
+.home-page-header input {
+	border: 1px solid black;
+	box-shadow: 3px 3px 5px black;
+}
+
 .header-input-wrapper {
-	width: 12.5%;
+	width: 14%;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
@@ -118,11 +123,6 @@ home-page-header
 	text-indent: 5px;
 }
 
-.home-page-header input {
-	border: 1px solid black;
-	box-shadow: 3px 3px 5px black;
-}
-
 #home-page-header-email,
 #home-page-header-password {
 	line-height: 1.5em;
@@ -131,7 +131,7 @@ home-page-header
 .button-wrapper {
 	display: flex;
 	align-items: center;
-	margin-right: 20px;
+	margin-right: 60px;
 	width: 5%;
 }
 
@@ -160,7 +160,7 @@ home-page-header
 }
 
 .benefits-inner-wrapper {
-	margin-top: 15%;
+	margin-top: 10%;
 }
 
 .main-benefits-wrapper h3 {
@@ -179,4 +179,36 @@ home-page-header
 .main-sign-up-wrapper h2 {
 	font-size: 60px;
 	margin-top: 20px;
+}
+
+.sign-up-form-wrapper {
+	margin: 5px 0;
+	width: 70%;
+}
+
+.sign-up-form-wrapper input {
+	margin: 10px 0;
+	font-size: 18px;
+	line-height: 1.5em;
+	text-indent: 5px;
+}
+
+.sign-up-form-wrapper input:nth-child(n+1) {
+	width: 48%;
+}
+
+.sign-up-form-wrapper input:nth-child(n+3) {
+	width: 98%;
+}
+
+.sign-up-form-wrapper legend {
+	margin: 10px 0;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.sign-up-form-wrapper select {
+	font-size: 18px;
+	line-height: 1.5em;
+	margin-right: 10px;
 }
