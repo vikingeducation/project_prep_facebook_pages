@@ -2,6 +2,7 @@
 /*
 	> reset
 	> body
+	> titles
 	> home page header
 	> home page main
 	> about page header
@@ -70,11 +71,37 @@ body {
 	flex-wrap: wrap;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
+	/*
+	Why does justif content flex-start leave a gap @about page
+	Creates need for position relative instead of being able to use
+	margin
+	*/
+	justify-content: flex-start;
+	
 }
 
 body *{
 	font-family: Helvetica, sans-serif;
+}
+
+/*
+titles
+*/
+h2 {
+	font-size: 60px;
+}
+
+h3 {
+	font-size: 48px;
+}
+
+h4 {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 24px;
 }
 
 /*
@@ -106,7 +133,7 @@ home-page-header
 }
 
 .home-page-header input,
-.user-about input {
+.user-about-container input {
 	border: 1px solid black;
 	box-shadow: 3px 3px 5px black;
 }
@@ -177,10 +204,6 @@ home-page-header
 	margin: 10% 10% 0 10%;
 }
 
-h3 {
-	font-size: 48px;
-}
-
 .main-benefits-wrapper li {
 	margin: 30px 0;
 	font-size: 20px;
@@ -191,7 +214,6 @@ h3 {
 }
 
 .main-sign-up-wrapper h2 {
-	font-size: 60px;
 	margin-top: 20px;
 }
 
@@ -288,11 +310,6 @@ about page header
 	margin-right: 5px; 
 }
 
-h4 {
-	font-size: 36px;
-	font-weight: bold;
-}
-
 .logged-in-header input {
 	font-size: 18px;
 	width: 100%;
@@ -336,6 +353,15 @@ user menu
 
 .user-menu-banner {
 	width: 100%;
+	height: 355px;
+	max-height: 355px;
+	background: url("https://placehold.it/960x355");
+}
+
+.user-menu-banner h4 {
+	position: relative;
+	left: 225px;
+	top: 310px;
 }
 
 .user-menu-avatar {
@@ -392,34 +418,67 @@ user menu
 }
 
 /*
-user about
+user about container
 */
-.user-about {
+.user-about-container {
 	width: 100%;
 	max-width: 960px;
-	position: relative;
-	bottom: 125px;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	margin: 40px 0;
 }
 
-.about-header {
+.about-container-header {
+	width: 100%;
+	height: 35px;
 	background: #b9b9b9;
 	display: flex;
-	flex-wrap: wrap
-	padding: 5px 0;
+	flex-wrap: wrap;
 	align-items: center;
 }
 
-.about-header h4 {
-	margin-left: auto;
-	margin-right: auto;
+.about-container-header h5 {
+	font-weight: bold;
 	position: relative;
-	left: 50px;
+	left: 450px;
 }
 
-.about-header input {
+.about-container-header input {
 	font-size: 16px;
 	height: 1.75em;
-	margin-right: 5px;
+	margin: 0 5px 0 auto;
+}
+
+.user-about-container section h5 {
+	font-size: 24px;
+	margin: 30px 0 0 25px;
+}
+
+.user-about-container table {
+	font-size: 18px;
+	margin-left: 25px;
+}
+
+.user-about-container table {
+	font-size: 18px;
+	margin: 20px 0 0 25px;
+}
+
+.user-about-container table tr {
+	margin-top: 15px;
+}
+
+.user-about-container p {
+	margin: 15px 25px 0 25px;
+}
+
+.about-container-left {
+	width: 42.5%;
+	display: inline-block;
+
+}
+
+.about-container-right {
+	width: 57.5%;
+	float: right;
+
 }
