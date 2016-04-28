@@ -76,7 +76,7 @@ body {
 	Creates need for position relative instead of being able to use
 	margin
 	*/
-	justify-content: flex-start;
+	justify-content: center;
 	
 }
 
@@ -425,6 +425,7 @@ user about container
 	max-width: 960px;
 	border-bottom: 1px solid black;
 	margin: 40px 0;
+	padding-bottom: 45px;
 }
 
 .about-container-header {
@@ -455,19 +456,24 @@ user about container
 
 .user-about-container table {
 	font-size: 18px;
-	margin-left: 25px;
-}
-
-.user-about-container table {
-	font-size: 18px;
 	margin: 20px 0 0 25px;
 }
 
-.user-about-container table tr {
-	margin-top: 15px;
+.user-about-container td {
+	padding-top: 15px;
+}
+
+.about-container-left article:nth-child(1) td:nth-child(even) {
+	padding-left: 38px;
+}
+
+.user-about-container td:nth-child(even) {
+	padding-left: 20px;
 }
 
 .user-about-container p {
+	font-size: 18px;
+	line-height: 1.5em;
 	margin: 15px 25px 0 25px;
 }
 
