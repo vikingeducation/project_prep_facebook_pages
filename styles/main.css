@@ -150,11 +150,12 @@ home-page-header
 }
 
 /* home-page-main */
-.home-page-main {
+.page-main {
 	flex: 1;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
 	margin: 0;
 	padding: 0;
 }
@@ -292,4 +293,74 @@ about page header
 	font-size: 24px;
 	font-weight: bold;
 	margin-left: auto;
+}
+
+/*
+
+*/
+.user-menu {
+	width: 100%;
+	max-width: 960px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.user-menu-banner {
+	width: 100%;
+}
+
+.user-menu-avatar {
+	max-height: 175px;
+	border: 2px solid white;
+	border-radius: 5px; 
+	position: relative;
+	bottom: 150px;
+	left: 20px;
+	z-index: 1;
+}
+
+.user-menu-footer {
+	width: 100%;
+	max-height: 175px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	position: relative;
+	bottom: 185px;
+	height: 45px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.user-menu-footer nav {
+	margin-left: 220px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.user-menu-footer nav a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	padding: 15px;
+	border-right: 1px solid black; 
+}
+
+.user-menu-footer nav a:first-child {
+	border-left: 1px solid black; 
+}
+
+.gray-text {
+	color: gray;
+}
+
+.user-menu-footer h6 {
+	margin-left: auto;
+	font-size: 18px;
+	margin-right: 5px;
+	text-decoration: underline;
+	color: blue;
 }
