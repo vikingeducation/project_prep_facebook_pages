@@ -72,16 +72,22 @@ body *{
 }
 
 /*
-home-page-header
+header
 */
-.home-page-header {
-	height: 150px;
+.header {
 	width: 100%;
 	background: linear-gradient(#5f93d3, #3a7ac9);
 	color: white;
 	display: flex;
 	flex-wrap: wrap;
-	border-bottom: 1px ;
+	border-bottom: 1px;
+}
+
+/*
+home-page-header
+*/
+.home-page-header {
+	height: 150px;
 }
 
 .header-title {
@@ -228,4 +234,62 @@ home-page-header
 	background: linear-gradient(#5f93d3, #3a7ac9);
 	color: white;
 	font-weight: bold;
+}
+
+/*
+about page header
+*/
+.logged-in-header {
+	height: 50px;
+	padding: 10px 0;
+	justify-content: center;
+}
+
+.logged-in-header-inner {
+	width: 100%;
+	max-width: 960px;
+	justify-content: center;
+	align-items: center;
+}
+
+.logged-in-header-section {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+
+.logged-in-header-section:nth-child(odd) {
+	width: 22%;	
+	
+
+}
+
+.logged-in-header-section:nth-child(even) {
+	width: 56%;
+
+
+}
+
+.logged-in-header img {
+	max-height: 35px;
+	border-radius: 15%;
+	margin-right: 5px; 
+}
+
+.logged-in-header h4 {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.logged-in-header input {
+	font-size: 18px;
+	width: 100%;
+	;
+}
+
+.logged-in-header h5 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: auto;
 }
