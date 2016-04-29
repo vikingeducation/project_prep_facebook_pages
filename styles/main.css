@@ -14,6 +14,8 @@
 	> user about container
 	> friend container
 	> friend tile
+	> friends sidebar
+	> status feed
 */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -85,8 +87,7 @@ body {
 	Creates need for position relative instead of being able to use
 	margin
 	*/
-	justify-content: center;
-	
+	justify-content: center;	
 }
 
 /*
@@ -115,6 +116,10 @@ h4 {
 
 h5 {
 	font-size: 24px;
+}
+
+h6 {
+	font-size: 18px;
 }
 
 /*
@@ -147,7 +152,9 @@ home-page-header
 
 .home-page-header input,
 .user-about-container input,
-.friend-tile input {
+.friend-tile input,
+.post-creator input,
+.comment-creator input {
 	border: 1px solid black;
 	box-shadow: 3px 3px 5px black;
 }
@@ -627,6 +634,149 @@ status feed
 */
 .status-feed {
 	width: 64%;
+	border-right: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+}
 
-	background: green;
+.status-container {
+	width: 80%;
+	border: 1px solid black;
+	margin-top: 25px;
+}
+
+.status-container textarea {
+	width: 90%;
+	margin: auto;
+	padding: 5px;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+.status-container > footer {
+	width: 100%;
+	background: #b9b9b9;
+	border-top: 1px solid black;
+	line-height: 1.5em;
+}
+
+.post-creator {
+	height: 150px;
+	margin-top: 45px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.post-creator header {
+	width: 100%;
+	background: #b9b9b9;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	height: 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.post-creator footer {
+	height: 1.85em;
+	margin-top: auto; 
+	display: flex;
+	align-items: center;
+}
+
+.post-creator input {
+	margin: 0 15px 0 auto;
+}
+
+.status-container header > div {
+	width: 100%;
+	margin: 5px 10px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.status-container img {
+	height: 45px;
+}
+
+.status-container header a,
+.status-container header p {
+	margin-left: 5px;
+}
+
+.post-body {
+	margin: 15px 10px;
+	line-height: 1.25em;
+}
+
+.status-container footer > *:not(input),
+.status-container footer > *:not(hr) {
+	padding-left: 10px;
+}
+
+.like-comment-delete {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.like-comment-delete a:nth-child(even) {
+	margin-left: 10px;
+}
+
+.delete {
+	margin: 0 10px 0 auto;
+}
+
+.status-container footer hr {
+ 	border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));	
+}
+
+.comment-tile {
+	padding: 10px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.comment-tile img {
+	height: 40px;
+	background: white;
+}
+
+.comment-tile div {
+	width: 90%;
+}
+
+.comment-tile div p {
+	margin-bottom: 5px;
+	padding: 0 5px;
+}
+
+.comment-tile footer {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.comment-creator {
+	padding: 15px 10px 10px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.comment-creator textarea {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.status-container:last-child {
+	margin-bottom: 60px;		
 }
