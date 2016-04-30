@@ -181,3 +181,26 @@ aside h4{
 .about-wrapper{
 	margin-top: 25px;
 }
+
+.about-wrapper *{
+	display: inline-block;
+	vertical-align: middle;
+}
+.about-header{
+	position: relative;
+	left: 35%;
+	height: 34px;
+	vertical-align: middle;
+}
+.about-header h3{
+	line-height: 34px;
+}
+
+.about-wrapper button{
+	float: right;
+	height: 20px;
+	width: 100px;
+	background-color: #2b78e4;
+	border: 1px solid black;
+	vertical-align: middle;
+}
