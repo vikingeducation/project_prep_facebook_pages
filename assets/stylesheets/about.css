@@ -80,14 +80,15 @@ header *{
 	Banner
 --------------------------------
 */
-.banner-wrapper{
+.content-wrapper{
 	width: 960px;
 	margin: 0 auto;
 }
 .banner{
+	display: inline-block;
 	width: 77.5%;
 }
-.banner div:first-child{
+.cover-pic{
 	height: 250px;
 	width: 100%;
 	border: 2px solid black;
@@ -144,4 +145,30 @@ ul li:last-child{
 
 ul a{
 	text-decoration: none;
+}
+
+/*
+--------------------------------
+	Aside Sponsor 
+--------------------------------
+*/
+
+aside {
+	display: inline-block;
+	box-sizing: border-box;
+	float: right;
+	width: 22.5%;
+	padding: 30px 15px 0 15px;
+	vertical-align: top;
+}
+aside *{
+	display: inline-block;
+}
+
+aside h4{
+	color: #666;
+	margin-bottom: 10px;
+}
+.ad-wrapper{
+	margin: 10px 0 25px 0;
 }
