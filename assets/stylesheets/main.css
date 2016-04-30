@@ -19,7 +19,7 @@ body{
 */
 header {
 	width: 100%;
-	height: 100px;
+	height: 70px;
 	background-color: #2b78e4;
 }
 header h1,
@@ -30,8 +30,8 @@ header h1,
 }
 
 header h1 {
-	font-size: 28px;
-	line-height: 100px;
+	font-size: 32px;
+	line-height: 70px;
 	margin-left: 20px;
 	color: white;
 	font-weight: bold;
@@ -41,7 +41,7 @@ header button {
 	font-size: 14px;
 	height: 28px;
 	width:  65px;
-	margin-top: 16px;
+	margin-top: 14px;
 	margin-left: 10px;
 	background-color: #2b78e4;
 	color: white;
@@ -51,11 +51,12 @@ header button {
 	width: 400px;
 	height: 60px;
 	float: right;
-	margin-top: 25px;
+	margin-top: 5px;
 }
 
 .sign-in-bar p{
 	font-size: 14px;
+	margin-bottom: 3px;
 	color: white;
 }
 
@@ -65,12 +66,13 @@ header button {
 	margin-left: 10px;
 }
 .logged-in-check{
+	margin-top: 5px;
 	font-size: 12px;
 	color: #ddd;
 }
 
 .user-input {
-	height: 28px;
+	height: 20px;
 	width:  125px;
 	border: 1px solid black;
 	box-shadow: 5px 5px 5px #333;
