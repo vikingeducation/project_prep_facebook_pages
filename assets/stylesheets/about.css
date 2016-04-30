@@ -1,0 +1,147 @@
+/*
+-----------------------------------
+	Header
+-----------------------------------
+*/
+div {
+	border: 1px solid gray;
+}
+
+body *{
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	height:38px;
+	background-color: #2b78e4;
+}
+.header-wrapper{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.search-wrapper{
+	width: 60%;
+	min-width: 300px;
+	margin-top: 2px;
+	display: inline-block;
+	vertical-align: middle;
+}
+header *{
+	vertical-align: middle;
+}
+.search-wrapper img{
+	height: 28px;
+	width: 28px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.search-wrapper input{
+	height: 28px;
+	width: 60%;
+	min-width: 200px;
+	vertical-align: middle;
+	line-height: 28px;
+	padding-left: 3px;
+	border: 2px solid black;
+}
+.header-wrapper > div {
+	padding-top: 3px;
+}
+.user-info *{
+	display: inline-block;
+	vertical-align: middle;
+}
+.user-info{
+	float: right;
+	vertical-align: middle;
+	width: 275px;
+	margin-top: 5px;
+	color: white;
+}
+.user-info img{
+	height: 20px;
+	width: 20px;
+	margin-right: 15px;
+}
+.user-info img:first-child{
+	margin-right: 2px;
+}
+.user-info img:last-child{
+	margin-right: 20px;
+}
+.user-info p{
+	margin-right: 40px;
+}
+
+/*
+--------------------------------
+	Banner
+--------------------------------
+*/
+.banner-wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+.banner{
+	width: 77.5%;
+}
+.banner div:first-child{
+	height: 250px;
+	width: 100%;
+	border: 2px solid black;
+	background-image: url("http://placehold.it/750x250"); 
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#username {
+	font-size: 24px;
+	position: relative;
+	bottom: -210px;
+	left: 120px;
+}
+
+#profile-pic {
+	height: 100px;
+	width: 100px;
+	float: left;
+	position: relative;
+	left: 12px;
+	bottom: 75px;
+	border: 1px solid red;
+}
+
+/*
+--------------------------------
+	Nav Bar
+--------------------------------
+*/
+nav {
+	border: 1px solid green;
+	width: 65%;
+	height: 34px;
+	border: 2.2px solid black;
+	margin-left: 120px;
+}
+.nav-wrapper {
+	width: 100%;
+	height: 34px;
+}
+ul li {
+	font-size: 18px;
+	line-height: 32px;
+	display: inline-block;
+	margin-right: 38px;
+}
+ul li:first-child{
+	margin-left: 38px;
+}
+ul li:last-child{
+	margin-right: 0;
+}
+
+ul a{
+	text-decoration: none;
+}
