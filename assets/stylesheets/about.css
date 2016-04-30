@@ -120,11 +120,13 @@ header *{
 --------------------------------
 */
 nav {
+	display: inline-block;
 	border: 1px solid green;
 	width: 65%;
 	height: 34px;
 	border: 2.2px solid black;
-	margin-left: 120px;
+	margin-left: 22px;
+	margin-right: 0;
 }
 .nav-wrapper {
 	width: 100%;
@@ -145,6 +147,15 @@ ul li:last-child{
 
 ul a{
 	text-decoration: none;
+}
+
+.nav-wrapper p{
+	display: inline-block;
+	/*position: relative;*/
+	float: right;
+	margin-right: 10px;
+	font-size: 14px;
+	line-height: 34px;
 }
 
 /*
