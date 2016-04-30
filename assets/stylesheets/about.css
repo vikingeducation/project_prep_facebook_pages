@@ -3,9 +3,9 @@
 	Header
 -----------------------------------
 */
-div {
+/*div {
 	border: 1px solid gray;
-}
+}*/
 
 body *{
 	box-sizing: border-box;
@@ -88,6 +88,10 @@ header *{
 	display: inline-block;
 	width: 77.5%;
 }
+.persona{
+	border: 2px solid black;
+}
+
 .cover-pic{
 	height: 250px;
 	width: 100%;
@@ -191,19 +195,19 @@ aside h4{
 */
 .about-wrapper{
 	margin-top: 25px;
+	border: 2px solid black;
 }
 
-.about-wrapper *{
-	display: inline-block;
-	vertical-align: middle;
-}
 .about-header{
-	position: relative;
-	left: 35%;
 	height: 34px;
+	text-align: center;
 	vertical-align: middle;
+	background-color: #ccc;
+	border-bottom: 2px solid black;
 }
-.about-header h3{
+.about-header h2{
+	font-size: 24px;
+	display: inline-block;
 	line-height: 34px;
 }
 
@@ -211,7 +215,53 @@ aside h4{
 	float: right;
 	height: 20px;
 	width: 100px;
+	color: white;
 	background-color: #2b78e4;
-	border: 1px solid black;
+	border: 2px solid black;
+	margin: 7px 7px 7px 0;
 	vertical-align: middle;
+}
+
+.about-content{
+	padding: 20px 50px 50px 30px;
+}
+
+.info-title {
+	font-size: 24px;
+	line-height: 24px;
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.tops{
+	margin-top: 0;
+}
+
+.person-info {
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+
+.person-info h5 {
+	font-size: 14px;
+	display: inline-block;
+	width: 100px;
+}
+
+.person-info p {
+	font-size: 14px;
+	display: inline-block;
+}
+
+.person-bio {
+	display: inline-block;
+	width: 50%;
+	margin-left: 40px;
+}
+
+
+.person-bio p{
+	font-size: 14px;
 }
