@@ -334,12 +334,13 @@ aside h4{
 	width: 100%;
 }
 .content-container *{
-	border: 1px solid gray;
+	/*border: 1px solid gray;*/
 }
 
 .persona-sidebar{
 	display: inline-block;
 	width: 25%;
+	height: 100%;
 	border-right: 2px solid black;
 }
 
@@ -452,3 +453,63 @@ aside h4{
 	Feed Posts Styling
 -----------------------------------------
 */
+
+.feed-post {
+	margin-top: 40px;
+	border: 2px solid black;
+}
+
+.feed-post-content {
+	border-bottom: 2px solid black;
+}
+
+.feed-post-content .friend-container{
+	margin: none;
+	padding: none;
+	box-shadow: none;
+	border: none;
+}
+
+.feed-post-content > p{
+	margin: 10px 15px;
+}
+
+.comment-container {
+	background-color: #ccc;
+}
+.comment-container p a{
+	font-size: 14px;
+	color: #2b78e4;
+}
+
+.comment-container ul{
+	margin-left: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.small-cta .social-cta{
+	display: inline-block;
+    margin: 5px 10px 10px 20px;
+}
+
+.small-cta .social-cta a{
+	font-size: 16px;
+	margin-right: 5px;
+}
+
+.comment-container > p{
+	padding: 0 0 10px 20px;
+	font-size: 14px;
+}
+
+.delete{
+	float: right;
+}
+
+hr {
+	width: 95%;
+}
+.comment-wrapper img {
+	margin: 10px 10px;
+}
