@@ -510,6 +510,46 @@ aside h4{
 hr {
 	width: 95%;
 }
-.comment-wrapper img {
-	margin: 10px 10px;
+
+.comment-wrapper {
+	margin-top: 20px;
+	padding-bottom: 10px;
 }
+
+.comment-wrapper img {
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: top;
+	border: 1px solid black;
+}
+
+.each-comment {
+	width: 90%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.each-comment > h6 {
+	margin-bottom: 15px;
+}
+
+.each-comment h6 a {
+	color: #2b78e4;
+}
+
+.each-comment .comment-content-full {
+	margin-bottom: 10px;
+}
+
+.social-cta *{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 14px;
+}
+
+.social-cta p a {
+	margin-right: 15px;
+	font-size: 14px;
+}
+
+.social-cta p 
