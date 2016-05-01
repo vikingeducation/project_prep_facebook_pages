@@ -337,11 +337,10 @@ aside h4{
 	/*border: 1px solid gray;*/
 }
 
-.persona-sidebar{
+.persona-sidebar {
 	display: inline-block;
-	width: 25%;
 	height: 100%;
-	border-right: 2px solid black;
+	width: 25%;
 }
 
 .persona-container {
@@ -404,7 +403,7 @@ aside h4{
 	width: 75%;
 	vertical-align: top;
 	padding: 40px 80px 0 80px;
-
+	border-left: 2px solid black;
 }
 
 .new-post-wrapper {
@@ -552,4 +551,22 @@ hr {
 	font-size: 14px;
 }
 
-.social-cta p 
+.intracomment-wrapper {
+	padding: 0 20px 20px 20px;
+}
+
+.intracomment-wrapper textarea{
+	display: block;
+	border: 2px solid black;
+	margin: 30px auto 15px auto;
+}
+
+.intracomment-wrapper button{
+	display: inline-block;
+	float: right;
+	color: white;
+	background-color: #2b78e4;
+	border: 1px solid black;
+	box-shadow: 1px 1px black;
+	vertical-align: middle;
+}
