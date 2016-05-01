@@ -265,3 +265,62 @@ aside h4{
 .person-bio p{
 	font-size: 14px;
 }
+
+/*
+---------------------------------------
+	Friends Styling
+---------------------------------------
+*/
+
+.friends-content {
+	padding: 20px 20px;
+}
+.friends-col {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 48.5%;
+}
+.friends-col:first-child{
+	margin-right: 15px;
+}
+
+.friends-col:last-child{
+	float: right;
+}
+
+.friend-container {
+	display: table;
+	width: 100%;
+	margin-bottom: 20px;	
+	border: 2px solid black;
+	box-shadow: 2px 2px #000;
+}
+
+.friend-container * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.friend-container img{
+	margin: 10px 10px;
+}
+
+#btn-unfriend {
+	position: relative;
+	float: right;
+	color: black;
+	margin-top: 30px;
+	box-shadow: 2px 1px #000;
+	background-color: #ccc;
+}
+
+.friend-label *{
+	display: block;
+}
+
+.friend-label a{
+	color: #2b78e4;
+}
+.friend-label p{
+	color: #999;
+}
