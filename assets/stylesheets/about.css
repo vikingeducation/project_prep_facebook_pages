@@ -1,0 +1,572 @@
+/*
+-----------------------------------
+	Header
+-----------------------------------
+*/
+/*div {
+	border: 1px solid gray;
+}*/
+
+body *{
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	height:38px;
+	background-color: #2b78e4;
+}
+.header-wrapper{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.search-wrapper{
+	width: 60%;
+	min-width: 300px;
+	margin-top: 2px;
+	display: inline-block;
+	vertical-align: middle;
+}
+header *{
+	vertical-align: middle;
+}
+.search-wrapper img{
+	height: 28px;
+	width: 28px;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+
+.search-wrapper input{
+	height: 28px;
+	width: 60%;
+	min-width: 200px;
+	vertical-align: middle;
+	line-height: 28px;
+	padding-left: 3px;
+	border: 2px solid black;
+}
+.header-wrapper > div {
+	padding-top: 3px;
+}
+.user-info *{
+	display: inline-block;
+	vertical-align: middle;
+}
+.user-info{
+	float: right;
+	vertical-align: middle;
+	width: 275px;
+	margin-top: 5px;
+	color: white;
+}
+.user-info img{
+	height: 20px;
+	width: 20px;
+	margin-right: 15px;
+}
+.user-info img:first-child{
+	margin-right: 2px;
+}
+.user-info img:last-child{
+	margin-right: 20px;
+}
+.user-info p{
+	margin-right: 40px;
+}
+
+/*
+--------------------------------
+	Banner
+--------------------------------
+*/
+.content-wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+.banner{
+	display: inline-block;
+	width: 77.5%;
+}
+.persona{
+	border: 2px solid black;
+}
+
+.cover-pic{
+	height: 250px;
+	width: 100%;
+	border: 2px solid black;
+	background-image: url("http://placehold.it/750x250"); 
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#username {
+	font-size: 24px;
+	position: relative;
+	bottom: -210px;
+	left: 120px;
+}
+
+#profile-pic {
+	height: 100px;
+	width: 100px;
+	float: left;
+	position: relative;
+	left: 12px;
+	bottom: 75px;
+	border: 1px solid red;
+}
+
+/*
+--------------------------------
+	Nav Bar
+--------------------------------
+*/
+nav {
+	display: inline-block;
+	border: 1px solid green;
+	width: 65%;
+	height: 34px;
+	border: 2.2px solid black;
+	margin-left: 22px;
+	margin-right: 0;
+}
+.nav-wrapper {
+	width: 100%;
+	height: 34px;
+}
+ul li {
+	font-size: 18px;
+	line-height: 32px;
+	display: inline-block;
+	margin-right: 38px;
+}
+ul li:first-child{
+	margin-left: 38px;
+}
+ul li:last-child{
+	margin-right: 0;
+}
+
+ul a{
+	text-decoration: none;
+}
+
+.nav-wrapper p{
+	display: inline-block;
+	/*position: relative;*/
+	float: right;
+	margin-right: 10px;
+	font-size: 14px;
+	line-height: 34px;
+}
+
+/*
+--------------------------------
+	Aside Sponsor 
+--------------------------------
+*/
+
+aside {
+	display: inline-block;
+	box-sizing: border-box;
+	float: right;
+	width: 18%;
+	padding: 30px 15px 0 15px;
+	vertical-align: top;
+}
+aside *{
+	display: inline-block;
+}
+
+aside h4{
+	color: #666;
+	margin-bottom: 10px;
+}
+.ad-wrapper{
+	margin: 10px 0 25px 0;
+}
+
+/*
+--------------------------------
+	About Section 
+--------------------------------
+*/
+.about-wrapper{
+	margin-top: 25px;
+	border: 2px solid black;
+}
+
+.about-header{
+	height: 34px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #ccc;
+	border-bottom: 2px solid black;
+}
+.about-header h2{
+	font-size: 24px;
+	display: inline-block;
+	line-height: 34px;
+}
+
+.about-wrapper button{
+	float: right;
+	height: 20px;
+	width: 100px;
+	color: white;
+	background-color: #2b78e4;
+	border: 2px solid black;
+	margin: 7px 7px 7px 0;
+	vertical-align: middle;
+}
+
+.about-content{
+	padding: 20px 50px 50px 30px;
+}
+
+.info-title {
+	font-size: 24px;
+	line-height: 24px;
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.tops{
+	margin-top: 0;
+}
+
+.person-info {
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+
+.person-info h5 {
+	font-size: 14px;
+	display: inline-block;
+	width: 100px;
+}
+
+.person-info p {
+	font-size: 14px;
+	display: inline-block;
+}
+
+.person-bio {
+	display: inline-block;
+	width: 50%;
+	margin-left: 40px;
+}
+
+
+.person-bio p{
+	font-size: 14px;
+}
+
+/*
+---------------------------------------
+	Friends Styling
+---------------------------------------
+*/
+
+.friends-content {
+	padding: 20px 20px;
+}
+.friends-col {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 48.5%;
+}
+.friends-col:first-child{
+	margin-right: 15px;
+}
+
+.friends-col:last-child{
+	float: right;
+}
+
+.friend-container {
+	display: table;
+	width: 100%;
+	margin-bottom: 20px;	
+	border: 2px solid black;
+	box-shadow: 2px 2px #000;
+}
+
+.friend-container * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.friend-container img{
+	margin: 10px 10px;
+}
+
+#btn-unfriend {
+	position: relative;
+	float: right;
+	color: black;
+	margin-top: 35px;
+	box-shadow: 2px 1px #000;
+	background-color: #ccc;
+}
+
+.friend-label *{
+	display: block;
+}
+
+.friend-label a{
+	color: #2b78e4;
+}
+.friend-label p{
+	color: #999;
+}
+
+/*
+---------------------------------------
+	News Feed Styling
+---------------------------------------
+*/
+.content-container {
+	width: 100%;
+}
+.content-container *{
+	/*border: 1px solid gray;*/
+}
+
+.persona-sidebar {
+	display: inline-block;
+	height: 100%;
+	width: 25%;
+}
+
+.persona-container {
+	margin: 30px 0  40px 30px;
+}
+
+.person-label{
+	/*margin-top: 15px;*/
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.person-label *{
+	color: #2b78e4;
+}
+
+.person-label h4{
+	font-size: 18px;
+	line-height: 30px;
+}
+.person-label p{
+	font-size: 14px;
+}
+
+.persona-container img{
+	/*margin: 30px 5px 30px 30px;*/
+	vertical-align: middle;
+}
+
+.suggested-content {
+	margin-left: 30px;
+}
+
+.suggested-content div img{
+	margin-left: 0;
+}
+
+.suggested-content > div{
+	border: none;
+	box-shadow: none;
+	margin-bottom: 0;
+}
+.suggested-content div h4,
+.suggested-content div p{
+	font-size: 14px;
+}
+.friends-link{
+	margin-top: 15px;
+	text-align: center;
+}
+
+/*
+--------------------------
+	News Feed Content Styling
+--------------------------
+*/
+
+.newsfeed-content{
+	display: inline-block;
+	width: 75%;
+	vertical-align: top;
+	padding: 40px 80px 0 80px;
+	border-left: 2px solid black;
+}
+
+.new-post-wrapper {
+	width: 100%;
+	background-color: #ccc;
+	border: 2px solid black;
+}
+
+.new-post-wrapper h5{
+	text-align: center;
+	height: 32px;
+	line-height: 30px;
+	font-size: 18px;
+	border-bottom: 2px solid black;
+}
+
+.post-content {
+	background-color: white;
+	border-bottom: 2px solid black;
+}
+.new-post-wrapper div textarea {
+	line-height: 16px;
+	margin: 10px 10px;
+	overflow-wrap: all;
+	overflow: auto;
+	resize: none;
+/*	width: 500px;
+	height: 75px;*/
+}
+.new-post-btn{
+	height: 38px;
+}
+
+.new-post-btn button {
+	float: right;
+	height: 20px;
+	width: 60px;
+	color: white;
+	background-color: #2b78e4;
+	border: 2px solid black;
+	margin: 7px 7px 7px 0;
+}
+
+/*
+-----------------------------------------
+	Feed Posts Styling
+-----------------------------------------
+*/
+
+.feed-post {
+	margin-top: 40px;
+	border: 2px solid black;
+}
+
+.feed-post-content {
+	border-bottom: 2px solid black;
+}
+
+.feed-post-content .friend-container{
+	margin: none;
+	padding: none;
+	box-shadow: none;
+	border: none;
+}
+
+.feed-post-content > p{
+	margin: 10px 15px;
+}
+
+.comment-container {
+	background-color: #ccc;
+}
+.comment-container p a{
+	font-size: 14px;
+	color: #2b78e4;
+}
+
+.comment-container ul{
+	margin-left: 0;
+	padding: 0;
+	text-align: left;
+}
+
+.small-cta .social-cta{
+	display: inline-block;
+    margin: 5px 10px 10px 20px;
+}
+
+.small-cta .social-cta a{
+	font-size: 16px;
+	margin-right: 5px;
+}
+
+.comment-container > p{
+	padding: 0 0 10px 20px;
+	font-size: 14px;
+}
+
+.delete{
+	float: right;
+}
+
+hr {
+	width: 95%;
+}
+
+.comment-wrapper {
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+.comment-wrapper img {
+	display: inline-block;
+	margin: 0 10px;
+	vertical-align: top;
+	border: 1px solid black;
+}
+
+.each-comment {
+	width: 90%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.each-comment > h6 {
+	margin-bottom: 15px;
+}
+
+.each-comment h6 a {
+	color: #2b78e4;
+}
+
+.each-comment .comment-content-full {
+	margin-bottom: 10px;
+}
+
+.social-cta *{
+	display: inline-block;
+	vertical-align: baseline;
+	font-size: 14px;
+}
+
+.social-cta p a {
+	margin-right: 15px;
+	font-size: 14px;
+}
+
+.intracomment-wrapper {
+	padding: 0 20px 20px 20px;
+}
+
+.intracomment-wrapper textarea{
+	display: block;
+	border: 2px solid black;
+	margin: 30px auto 15px auto;
+}
+
+.intracomment-wrapper button{
+	display: inline-block;
+	float: right;
+	color: white;
+	background-color: #2b78e4;
+	border: 1px solid black;
+	box-shadow: 1px 1px black;
+	vertical-align: middle;
+}
