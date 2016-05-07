@@ -1,0 +1,47 @@
+body {
+  font-family: helvetica;
+}
+
+.navbar {
+  background-color: #2579EB;
+  height: 80px;
+  border: 2px solid black;
+}
+
+.navbar h1{
+  color: white;
+  font-size: 40px;
+  padding-left: 40px;
+  line-height: 80px;
+  float: left;
+}
+
+.log-in-details {
+  display: inline-block;
+  float: right;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+
+.text-to-enter h2{
+  display: inline-block;
+  color: white;
+  padding-right: 116px;
+  font-size: 14px;
+  padding-bottom: 4px;
+}
+
+.email-input {
+  margin-right: 20px;
+  border: 2px solid black;
+}
+
+.password-input {
+  margin-right: 10px;
+  border: 2px solid black;
+}
+
+.log-in {
+  background-color: #ADD8E6;
+  border: 2px solid black;
+}
