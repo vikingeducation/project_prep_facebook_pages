@@ -1,0 +1,102 @@
+
+
+
+.navbar .logo-container {
+  padding-left: 80px;
+  width: 300px;
+}
+
+.navbar .logo-container img{
+  height: 60px;
+  width: 60px;
+  margin-top: 10px;
+  float: left;
+  border: 1px solid black;
+
+}
+
+.navbar .logo-container h1 {
+  display: inline-block;
+  margin-left: -28px;
+}
+
+.navbar .search-bar-holder {
+  display: inline-block;
+  margin-left: 75px;
+  margin-top: 25px;
+}
+
+.navbar .search-bar {
+  display: inline-block;
+  font-size: 22px;
+  width: 600px;
+  padding: 2px;
+  padding-left: 4px;
+  border: 2px solid #aaa;
+}
+
+
+.navbar h2 {
+  float: right;
+  color: white;
+  font-size: 24px;
+  line-height: 80px;
+  margin-right: 80px;
+}
+
+.cover {
+  width: 1200px;
+  height: 375px;
+  border: 1px solid black;
+  background-image: url("#"); 
+  margin: 0 80px;
+  position: relative;
+}
+
+
+.profile-pic {
+  height: 190px;
+  width: 190px;
+  position: absolute;
+  top: 220px;
+  left: 30px;
+}
+
+.profile-pic img{
+  height: 190px;
+  width: 190px;
+
+}
+
+.cover h1{
+  font-size: 40px;
+  position: absolute;
+  top: 315px;
+  left: 250px;
+}
+
+.tabs {
+  width: 1200px;
+  height: 60px;
+  border: 2px solid black;
+  margin: 0 80px;
+}
+
+.tabs h3{
+  font-size: 24px;
+  margin-left: 250px;
+  width: 140px;
+  text-align: center;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  padding-right: 10px;
+
+  line-height: 60px;
+}
+
+
+
+
+
+
+
