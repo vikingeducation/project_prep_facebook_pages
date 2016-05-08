@@ -100,11 +100,36 @@ b{
   padding: 4px;
 }
 
+.sign-up h3{
+  font-size: 18px;
+  margin-top: 22px;
+  margin-bottom: 10px;
+}
 
+select {
+  display: inline-block;
+  margin-right: 10px;
+}
 
+.gender {
+  margin-top: 15px;
+}
 
+.gender h4{
+  display: inline-block;
+  margin-right: 13px;
+  font-size: 13px;
+}
 
-
+.big-sign-up {
+  background-color: #239F0D;
+  width: 295px;
+  color: white;
+  font-size: 18px;
+  border: 2px solid black;
+  margin-top: 8px;
+  padding: 3px 0;
+}
 
 
 
