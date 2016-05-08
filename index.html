@@ -14,13 +14,13 @@
 		<div class="sign_in_wrapper">
 			<div class="sign_in">
 				<form class="sign_in_form">
-					<label for="email">Email:</label><br>
+					<label for="email">Email</label><br>
 					<input class="sign_in_text" type="email" id="email"></input>
 				</form>
 			</div>
 			<div class ="sign_in">
 				<form class="sign_in_form2">
-					<label for="password">Password:</label><br>
+					<label for="password">Password</label><br>
 					<input class="sign_in_text" type="password" id="password"></input>
 					<input class="sign_in_button" type="submit" value="Log In"></input>
 				</form>
@@ -29,8 +29,8 @@
 	</header>
 	<div class ="content_wrapper">
 		<div class="info_block sign_up_content">
+			<h2>Connect with all your friends!</h2>
 			<ul>
-				Connect with all your friends!
 				<li>See photos and updates in your newsfeed.</li>
 				<li>Post your status for the world to see from your profile.</li>
 				<li>Get in touch with friends by "friending" them.</li>
@@ -39,24 +39,18 @@
 		</div>
 		<div class="sign_up sign_up_content">
 			<form class="sign_up_form">
-				<fieldset class="sign_up_text">
-					<legend>Sign Up</legend>
-					<input type="text" placeholder="First Name"></input>
-					<input type="text" placeholder="Last Name"></input>
-					<input type="text" placeholder="Your Email"></input>
-					<input type="text" placeholder="Your New Password"></input>
-					<input type="text" placeholder="Confirm Your Password"></input>
-				</fieldset>
-
-				<fieldset class="sign_up_select">
-					<legend>Birthday</legend>
-					<select name="Month"></select>
-					<select name="Day"></select>
-					<select name="Year"></select>
-					<input type="radio" name="gender" value="female">Female</input>
-					<input type="radio" name="gender" value="male">Male</input>
-					<input type="submit" value="Sign Up!"></input>
-				</fieldset>
+				<h1>Sign Up!</h1>
+				<input class="first_line first" type="text" placeholder="First Name"></input><input class="first_line second" type="text" placeholder="Last Name"></input>
+				<input class="full_line" type="text" placeholder="Your Email"></input>
+				<input class="full_line" type="text" placeholder="Your New Password"></input>
+				<input class="full_line" type="text" placeholder="Confirm Your Password"></input>
+				<h2>Birthday</h2>
+				<select name="Month"></select>
+				<select name="Day"></select>
+				<select name="Year"></select><br>
+				<input type="radio" name="gender" value="female"><span class="radio_text">Female</span></input>
+				<input type="radio" name="gender" value="male"><span class="radio_text">Male</span></input><br>
+				<input id="sign_up_button" type="submit" value="Sign Up!"></input>
 			</form>
 		</div>
 	</div>

@@ -66,11 +66,92 @@ CONTENT STYLES
 	float: left;
 }
 
+/*************
+INFO BLOCK STYLES
+*************/
 
+.info_block {
+	margin-top: 100px;
+	line-height: 50px;
+	padding-left: 20px;
+}
 
+.info_block h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
 
+.info_block ul {
+	list-style: disc inside;
+	padding-left: 30px;
+	color: #555;
+}
 
+/*************
+SIGNUP FORM STYLES
+*************/
 
+.sign_up {
+	margin-top: 20px;
+}
 
+.sign_up_form h1 {
+	font-size: 50px;
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+
+.first_line {
+	display: inline-block;
+	float: left;
+	width: 48%;
+}
+
+.full_line {
+	width: 100%;
+}
+
+.sign_up_form > * {
+	margin: 10px 0;
+}
+
+input[type="text"] {
+	padding: 10px 5px;
+}
+
+.sign_up_form h2 {
+	font-weight: bold;
+}
+
+.sign_up_form select {
+	width: 20%;
+}
+
+.sign_up_form input[type="radio"] {
+	margin-right: 5px;
+	padding-right: 10px;
+}
+
+.radio_text {
+	margin-right: 20px;
+}
+
+#sign_up_button {
+	width: 100%;
+	background: #66CD00;
+	height: 50px;
+	border: 1px solid black;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.first {
+	margin-right: 2%;
+}
+
+.second {
+	margin-left: 2%;
+}
 
 
