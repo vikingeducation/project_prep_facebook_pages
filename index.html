@@ -2,56 +2,63 @@
 <html>
 <head>
 	<title>Welcome to Facelook</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
 <body>
-	<header>
+	<header class="main_sign_in clearfix">
 		<div class="logo">
 			Facelook
 		</div>
-		<div class="sign_in">
-			<form class="sign_in_form">
-				<label for="email">Email:</label>
-				<input type="email" id="email"></input>
-
-				<label for="password">Password:</label>
-				<input type="password" id="password"></input>
-
-				<input type="submit" value="Log In"></input>
-			</form>
+		<div class="sign_in_wrapper">
+			<div class="sign_in">
+				<form class="sign_in_form">
+					<label for="email">Email:</label><br>
+					<input class="sign_in_text" type="email" id="email"></input>
+				</form>
+			</div>
+			<div class ="sign_in">
+				<form class="sign_in_form2">
+					<label for="password">Password:</label><br>
+					<input class="sign_in_text" type="password" id="password"></input>
+					<input class="sign_in_button" type="submit" value="Log In"></input>
+				</form>
+			</div>
 		</div>
 	</header>
+	<div class ="content_wrapper">
+		<div class="info_block sign_up_content">
+			<ul>
+				Connect with all your friends!
+				<li>See photos and updates in your newsfeed.</li>
+				<li>Post your status for the world to see from your profile.</li>
+				<li>Get in touch with friends by "friending" them.</li>
+				<li>Like things because you're a positive person!</li>
+			</ul>
+		</div>
+		<div class="sign_up sign_up_content">
+			<form class="sign_up_form">
+				<fieldset class="sign_up_text">
+					<legend>Sign Up</legend>
+					<input type="text" placeholder="First Name"></input>
+					<input type="text" placeholder="Last Name"></input>
+					<input type="text" placeholder="Your Email"></input>
+					<input type="text" placeholder="Your New Password"></input>
+					<input type="text" placeholder="Confirm Your Password"></input>
+				</fieldset>
 
-	<div class="info_block">
-		<ul>
-			Connect with all your friends!
-			<li>See photos and updates in your newsfeed.</li>
-			<li>Post your status for the world to see from your profile.</li>
-			<li>Get in touch with friends by "friending" them.</li>
-			<li>Like things because you're a positive person!</li>
-		</ul>
+				<fieldset class="sign_up_select">
+					<legend>Birthday</legend>
+					<select name="Month"></select>
+					<select name="Day"></select>
+					<select name="Year"></select>
+					<input type="radio" name="gender" value="female">Female</input>
+					<input type="radio" name="gender" value="male">Male</input>
+					<input type="submit" value="Sign Up!"></input>
+				</fieldset>
+			</form>
+		</div>
 	</div>
-	<div class="sign_up">
-		<form class="sign_up_form">
-			<fieldset class="sign_up_text">
-				<legend>Sign Up</legend>
-				<input type="text" placeholder="First Name"></input>
-				<input type="text" placeholder="Last Name"></input>
-				<input type="text" placeholder="Your Email"></input>
-				<input type="text" placeholder="Your New Password"></input>
-				<input type="text" placeholder="Confirm Your Password"></input>
-			</fieldset>
-
-			<fieldset class="sign_up_select">
-				<legend>Birthday</legend>
-				<select name="Month"></select>
-				<select name="Day"></select>
-				<select name="Year"></select>
-				<input type="radio" name="gender" value="female">Female</input>
-				<input type="radio" name="gender" value="male">Male</input>
-				<input type="submit" value="Sign Up!"></input>
-			</fieldset>
-		</form>
-	</div>`
 </body>
 </html>

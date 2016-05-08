@@ -1,0 +1,76 @@
+/*************
+GLOABL STYLES
+*************/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+/*************
+HEADER STYLES
+*************/
+
+.main_sign_in {
+	height: 100px;
+	background: #3B5998;
+}
+
+.main_sign_in .logo {
+	float: left;
+	line-height: 100px;
+	color: white;
+	font-size: 40px;
+	margin-left: 30px;
+}
+
+.main_sign_in .sign_in_wrapper {
+	float: right;
+	margin-right: 10px;
+}
+
+.main_sign_in .sign_in {
+	float: left;
+	margin: 20px;
+}
+
+.main_sign_in .sign_in_text {
+	margin-top: 10px;
+}
+
+.main_sign_in .sign_in_button {
+	margin-left: 10px;
+}
+
+.main_sign_in label {
+	color: white;
+}
+
+/*************
+CONTENT STYLES
+*************/
+
+.content_wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.sign_up_content {
+	width: 50%;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
