@@ -223,13 +223,79 @@ HEADER STYLES
 /*ABOUT & FRIENDS*/
 
 /*************
-PROFILE TOP STYLES
+PROFILE TOPPER STYLES
 *************/
 
+.profile_topper .topper_images {
+	width: 100%;
+	height: 250px;
+}
+
+.topper_images .cover_image {
+	width: 100%;
+	height: 250px;
+	background: #CCC;
+	position: relative;
+}
+
+.topper_images .cover_image .cover_photo {
+	width: 100%;
+	height: 250px;
+	position: relative;
+}
+
+.topper_images .profile_image {
+	height: 150px;
+	width: 150px;
+	background: red;
+	float: left;
+	position: relative;
+	bottom: 125px;
+	left: 20px;
+}
+
+.topper_images .profile_image img {
+	height: 150px;
+	width: 150px;
+}
+
+.profile_topper .profile_navigation {
+	width: 100%;
+	height: 50px;
+	border: 1px solid black;
+}
 
 
 
+.profile_navigation .button_container {
+	display: inline-block;
+	width: 50%;
+	height: 50px;
+	margin-left: 40px;
+}
 
+.button_container .navigation_buttons {
+	float: left;
+	height: 50px;
+	width: 25%;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	line-height: 50px;
+	text-align: center;
+}
+
+.profile_navigation .edit_link {
+	float: right;
+	line-height: 50px;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.navigation_buttons span {
+	margin-left: 5px;
+	font-size: 14px;
+	color: #AAA;
+}
 
 
 
