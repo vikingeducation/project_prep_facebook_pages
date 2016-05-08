@@ -45,9 +45,11 @@
 }
 
 .cover {
-  width: 1200px;
+  width: 1198px;
   height: 375px;
-  border: 1px solid black;
+  border: 2px solid black;
+  border-top: 0px solid black;
+  border-bottom: 0px;
   background-image: url("#"); 
   margin: 0 80px;
   position: relative;
@@ -165,6 +167,96 @@
   margin-right: 10px;
 }
 
+.about-bar {
+  width: 1198px;
+  border: 2px solid black;
+  background-color: #ccc;
+  height: 60px;
+  margin: 0 80px;
+  margin-top: 20px;
 
+}
+
+.about-bar h1{
+  font-size: 40px;
+  text-align: center;
+  line-height: 60px;
+  margin-left: 90px;
+  
+}
+
+
+.about-bar .edit-your-profile{
+  float:right;
+  background-color: #2579EB;
+  color: white;
+  border: 2px solid black;
+  font-size: 14px;
+  display: inline-block;
+  padding: 4px 8px;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+
+.about-info {
+  width: 1198px;
+  height: 500px;
+  border: 2px solid black;
+  margin: 0 80px;
+  display: inline-block;
+  float: left;
+}
+
+.basic-contact {
+  width: 410px;
+  margin-top: 40px;
+  margin-left: 60px;
+  float: left;
+}
+
+.about-info .basic-contact h1{
+  font-size: 40px;
+}
+
+.items {
+  float: left;
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.items h3{
+  margin-bottom: 20px;
+}
+
+.info-facts{
+  display: inline-block;
+  margin-top: 20px;
+  float: right;
+}
+
+.info-facts p{
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.words-about{
+  display: inline-block;
+  width: 500px;
+  float:right;
+  margin-top: 23px;
+  margin-right: 80px;
+}
+
+.words-about h1{
+  font-size: 40px;
+  padding: 20px 0px;
+}
+
+.words-about p{
+  font-size: 18px;
+  line-height: 22px;
+}
 
 
