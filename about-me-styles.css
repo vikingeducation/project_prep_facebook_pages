@@ -60,6 +60,7 @@
   position: absolute;
   top: 220px;
   left: 30px;
+  border: 1px solid black;
 }
 
 .profile-pic img{
@@ -76,26 +77,93 @@
 }
 
 .tabs {
-  width: 1200px;
+  width: 1198px;
   height: 60px;
   border: 2px solid black;
   margin: 0 80px;
 }
 
-.tabs h3{
+.tabs .left-most-tab h3{
   font-size: 24px;
-  margin-left: 250px;
   width: 140px;
   text-align: center;
   border-right: 2px solid black;
-  border-left: 2px solid black;
   padding-right: 10px;
-
   line-height: 60px;
+  display: inline-block;
 }
 
+.left-most-tab {
+  margin-left: 250px;
+  width: 147px;
+  border-left: 2px solid black;
+  display: inline-block;
+}
 
+.about {
+  display: inline-block;
+  width: 147px;
+}
+.tabs .about h3{
+  font-size: 24px;
+  width: 140px;
+  text-align: center;
+  border-right: 2px solid black;
+  line-height: 60px;
+  padding-right: 7px;
+  display: inline-block;
+  background-color: #ccc;
+}
 
+.tabs .photos{
+  width: 200px;
+  display: inline-block;
+}
+
+.tabs .photos h3 {
+  line-height: 60px;
+  display: inline-block;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.tabs .photos h4 {
+  line-height: 60px;
+  display: inline-block;
+  border-right: 2px solid black;
+  color: #ddd;
+  font-size: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.tabs .friends {
+  display: inline-block;
+  border-right: 1px solid black;
+}
+
+.tabs .friends h3 {
+  line-height: 60px;
+  display: inline-block;
+  font-size: 24px;
+  margin-left: -10px;
+}
+
+.tabs .friends h4 {
+  line-height: 60px;
+  display: inline-block;
+  border-right: 2px solid black;
+  color: #ddd;
+  font-size: 24px;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+
+.tabs a{
+  float:right;
+  line-height: 60px;
+  margin-right: 10px;
+}
 
 
 
