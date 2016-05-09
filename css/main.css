@@ -11,8 +11,10 @@ body {
 	font-family: Helvetica, sans-serif;
 }
 
-.clearfix {
-	overflow: auto;
+.clearfix:after {
+    content:" ";
+    display:table;
+    clear:both;
 }
 
 .wrapper {
@@ -226,6 +228,10 @@ HEADER STYLES
 PROFILE TOPPER STYLES
 *************/
 
+.profile_topper {
+	height: 300px;
+}
+
 .profile_topper .topper_images {
 	width: 100%;
 	height: 250px;
@@ -299,7 +305,6 @@ PROFILE TOPPER STYLES
 	color: #AAA;
 }
 
-
 /*ABOUT*/
 
 /*************
@@ -340,15 +345,21 @@ PROFILE CONTENT STYLES
 
 }
 
-.profile_content .about_content_articles {
+.article_container {
+	height: 450px;
+	width: 100%;
+	display: inline-block;
+}
+
+.article_container .about_content_articles {
+	height: 400px;
 	float: left;
-	height: 100%;
 }
 
-.about_content_articles .article_one {
-	width: 33%;
+.article_container .article_one {
+	width: 40%;
 }
 
-.about_content_articles .article_two {
-	width: 66%;
+.article_container .article_two {
+	width: 60%;
 } 
