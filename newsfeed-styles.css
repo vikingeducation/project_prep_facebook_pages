@@ -1,0 +1,38 @@
+.left-column {
+  width: 420px;
+  height: 100%;
+  border-right: 2px solid black;
+  position: absolute;
+}
+
+.profile-wrapper{
+  width: 300px;
+  height: 100px;
+  margin-left: 40px;
+  margin-top: 60px;
+
+}
+
+.profile-wrapper img{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+
+}
+
+.name-and-edit {
+  display: inline-block;
+  float:right;
+  margin-top: 10px;
+  margin-right: 90px;
+}
+
+.profile-wrapper h3{
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.profile-wrapper h4{
+  font-size: 14px;
+
+}
