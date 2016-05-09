@@ -180,6 +180,12 @@ HEADER STYLES
 	display: inline-block;
 }
 
+.profile_header a,
+.profile_header a:visited {
+	color: white;
+	text-decoration: none;
+}
+
 .profile_header .header_logo h2 {
 	font-size: 30px;
 	line-height: 50px;
@@ -290,11 +296,22 @@ PROFILE TOPPER STYLES
 	text-align: center;
 }
 
+.button_container a,
+.button_container a:visited {
+	color: black;
+	text-decoration: none;
+}
+
 .profile_navigation .edit_link {
 	float: right;
 	line-height: 49px;
 	margin-right: 10px;
 	text-decoration: none;
+}
+
+.edit_link,
+.edit_link:visited {
+	color: #3B5998;
 }
 
 .navigation_buttons span {
@@ -315,6 +332,7 @@ PROFILE TOPPER STYLES
 	font-size: 25px;
 	font-weight: 500;
 }
+
 
 /*ABOUT*/
 
