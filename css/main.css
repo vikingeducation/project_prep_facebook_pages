@@ -415,8 +415,13 @@ PROFILE CONTENT STYLES
 	margin: 0 auto;
 }
 
+/*FRIENDS*/
 
+/*************
+PROFILE CONTENT STYLES
+*************/
 
-
-
+.profile_content .friends_content h2 {
+	margin-right: 160px;
+}
 
