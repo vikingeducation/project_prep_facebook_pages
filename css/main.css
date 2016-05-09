@@ -273,8 +273,6 @@ PROFILE TOPPER STYLES
 	border: 1px solid black;
 }
 
-
-
 .profile_navigation .button_container {
 	display: inline-block;
 	width: 50%;
@@ -303,6 +301,10 @@ PROFILE TOPPER STYLES
 	margin-left: 5px;
 	font-size: 14px;
 	color: #AAA;
+}
+
+.selected {
+	background: lightgray;
 }
 
 /*ABOUT*/
@@ -358,8 +360,36 @@ PROFILE CONTENT STYLES
 
 .article_container .article_one {
 	width: 40%;
+	line-height: 40px;
+}
+
+.article_container .article_one h2,
+.article_container .article_two h2 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.article_one .content_text_heading {
+	margin-right: 60px;
+	font-weight: bold;
 }
 
 .article_container .article_two {
 	width: 60%;
+	line-height: 20px;
 } 
+
+.article_two .content_text_paragraph {
+	margin: 20px 0;
+}
+
+.about_content_text {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
