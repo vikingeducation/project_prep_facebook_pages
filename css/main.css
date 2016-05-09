@@ -307,6 +307,15 @@ PROFILE TOPPER STYLES
 	background: lightgray;
 }
 
+.cover_image .profile_name {
+	display: inline-block;
+	position: absolute;
+	top: 215px;
+	left: 180px;
+	font-size: 25px;
+	font-weight: 500;
+}
+
 /*ABOUT*/
 
 /*************
