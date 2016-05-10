@@ -1,0 +1,142 @@
+body {
+  font-family: tahoma;
+}
+
+.navbar {
+  background-color: #2579EB;
+  height: 80px;
+  border: 2px solid black;
+}
+
+.navbar h1{
+  color: white;
+  font-size: 40px;
+  padding-left: 40px;
+  line-height: 80px;
+  float: left;
+}
+
+.log-in-details {
+  display: inline-block;
+  float: right;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+
+.text-to-enter h2{
+  display: inline-block;
+  color: white;
+  padding-right: 120px;
+  font-size: 13px;
+  padding-bottom: 4px;
+}
+
+.email-input {
+  margin-right: 20px;
+  border: 2px solid black;
+}
+
+.password-input {
+  margin-right: 10px;
+  border: 2px solid black;
+}
+
+.log-in {
+  background-color: #ADD8E6;
+  border: 2px solid black;
+}
+
+ul{
+  list-style-type: disc;
+  padding-left: 20px;
+  line-height: 35px;
+  color: #555;
+}
+
+.connect {
+  width: 500px;
+  float:left;
+  margin-left: 100px;
+  margin-top: 80px;
+}
+
+.connect h2{
+  font-size: 28px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+b{
+  font-weight: 600;
+}
+
+.sign-up {
+  width: 320px;
+  float:right;
+  margin-right: 80px;
+}
+
+.sign-up h1{
+  font-size: 40px;
+  padding: 20px 0;
+}
+
+.name {
+  display: inline-block;
+  color: #444;
+  border: 2px solid #aaa;
+  width: 127px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  padding: 4px ;
+}
+.new-email {
+  display: block;
+  border: 2px solid #aaa;
+  width: 281px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  padding: 4px;
+}
+
+.sign-up h3{
+  font-size: 18px;
+  margin-top: 22px;
+  margin-bottom: 10px;
+}
+
+select {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.gender {
+  margin-top: 15px;
+}
+
+.gender h4{
+  display: inline-block;
+  margin-right: 13px;
+  font-size: 13px;
+}
+
+.big-sign-up {
+  background-color: #239F0D;
+  width: 295px;
+  color: white;
+  font-size: 18px;
+  border: 2px solid black;
+  margin-top: 8px;
+  padding: 3px 0;
+}
+
+
+
+
+
+
+
+
+
+
