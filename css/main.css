@@ -425,3 +425,62 @@ PROFILE CONTENT STYLES
 	margin-right: 160px;
 }
 
+.friend_container {
+	width: 40%;
+	height: 25%;
+	border: 1px solid black;
+	position: relative;
+	display: inline-block;
+	margin-left: 65px;
+	margin-bottom: 20px;
+}
+
+.friend_container .friend_image {
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	border: 1px solid black;
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+.friend_container .friend_image img {
+	height: 80px;
+	width: 80px;
+}
+
+.friend_container .friend_info {
+	display: inline-block;
+	height: 50px;
+	width: 150px;
+	position: absolute;
+	left: 105px;
+	top: 30px;
+	line-height: 25px;
+}
+
+.friend_info a {
+	color: #3B5998;
+}
+
+.friend_info p {
+	color: #AAA;
+}
+
+.friend_container .unfriend_button {
+	height: 25px;
+	width: 120px;
+	border: 1px solid black;
+	display: inline-block;
+	position: absolute;
+	left: 270px;
+	top: 40px;
+	background: lightgray;
+	text-align: center;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+
+
+
