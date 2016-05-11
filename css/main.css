@@ -18,7 +18,7 @@ body {
 }
 
 .wrapper {
-	width: 80%;
+	width: 1020px;
 	margin: 0 auto;
 }
 
@@ -431,8 +431,11 @@ PROFILE CONTENT STYLES
 	border: 1px solid black;
 	position: relative;
 	display: inline-block;
-	margin-left: 65px;
 	margin-bottom: 20px;
+}
+
+.friend_container:nth-child(odd) {
+	margin-right: 10%;
 }
 
 .friend_container .friend_image {
@@ -481,6 +484,9 @@ PROFILE CONTENT STYLES
 	font-size: 14px;
 }
 
-
+.friends_wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
 
 
