@@ -1,0 +1,58 @@
+/* FACEBOOK stylesheet */
+
+body{
+	font-family: lucida,tahoma,verdana,arial,sans-serif;
+}
+
+.topbar{
+	height: 80px;
+	background: #385988;
+}
+
+.logoholder{
+	float: left;
+	line-height: 80px;
+	color: white;
+	font-size: 40px;
+	margin-left: 20px;
+	font-family: lucida,tahoma,verdana,arial,sans-serif;
+}
+
+.login-holder{
+	float: right;
+	margin: 20px;
+	font-family: lucida,tahoma,verdana,arial,sans-serif;
+	font-size: 12px;
+}
+
+.login-container .email{
+	float: left;
+	margin-right: 10px;
+	color: white;
+}
+
+.login-container .password{
+	float: left;
+	margin-right: 10px;
+	color: white;
+}
+
+
+.content{
+
+}
+
+
+.signup{
+	font-size: 40px;
+}
+
+.signupform{
+	font-size: 16px;
+	margin-top: 10px;
+	line-height: 30px;
+}
+
+input{
+	margin-bottom: 20px;
+}
