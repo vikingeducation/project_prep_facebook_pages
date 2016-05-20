@@ -1,0 +1,137 @@
+/*header, aside, section, footer, div {
+  border: 1px solid #ddd;
+}*/
+
+/*Navbar*/
+.login-container {
+  width: 100%;
+  height: 70px;
+  background: #256DE1;
+  position: relative;
+}
+.login-container h1 {
+  color: #fff;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 24px;
+  margin: 0 30px;
+  line-height: 70px;
+  display: inline-block;
+}
+.login-container .login-field {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translateY(-50%);
+}
+.email h3, .password h3 {
+  margin-bottom: 4px;
+}
+.email {
+  display: inline-block;
+  margin-right: 15px;
+}
+.password {
+  display: inline-block;
+  margin-right: 10px;
+}
+.login-container .login-field h3 {
+  color: #fff;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 10px;
+}
+.login-container .login-btn {
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  text-align: center;
+  background: #95BDF7;
+  border: 1px solid #000;
+}
+
+.login-container .login-btn a {
+  font-family: helvetica, arial, sans-serif;
+  text-decoration: none;
+  color: #000;
+  line-height: 20px;
+}
+
+/*Desc container*/
+.desc-container {
+  display: inline-block;
+  width: 55%;
+}
+.desc-container h2 {
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.desc-container li {
+  font-family: helvetica, arial, sans-serif;
+  list-style: disc;
+  margin: 15px 0 0 25%;
+  font-size: 18px;
+}
+/*Signup-container*/
+.signup-container {
+  display: inline-block;
+  width: 40%;
+  float: right;
+}
+.signup-container h2 {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 28px;
+  margin: 20px;
+}
+
+.signup-container .name {
+  display: inline-block;
+}
+.signup-container .name input {
+  width: 140px;
+  margin: 0 0 20px 20px;
+  height: 24px;
+  border: 1px solid #333;
+  padding-left: 5px;
+}
+
+.signup-container .singleLineInput {
+  display: block;
+  margin: 0 0 20px 20px;
+  width: 310px;
+  height: 24px;
+  border: 1px solid #333;
+  padding-left: 5px;
+}
+.signup-container .dob {
+  margin: 20px;
+}
+.signup-container .dob h3 {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.signup-container .sex input {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.signup-container .btn {
+  margin-left: 20px;
+  width: 310px;
+  height: 28px;
+  background-color: #209311;
+  color: #fff;
+  text-align: center;
+  line-height: 28px;
+  border: solid #000;
+  box-shadow: 5px 5px 5px #888888;
+}
+.signup-container .btn a {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
