@@ -1,0 +1,195 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  font-family: helvetica;
+}
+
+nav {
+  position: relative;
+  width: 100%;
+  background-color: #1969d1;
+  line-height: 60px;
+}
+nav img {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin-left: 75px;
+  
+  top: 15px;
+}
+
+nav h1 {
+  position: absolute;
+  display: inline-block;
+  font-size: 30px;
+  color: white;
+  left: 140px;
+}
+nav input {
+  display: inline-block;
+  width: 600px;
+  position: absolute;
+  top: 25px;
+  left: 350px;
+}
+
+nav h2 {
+  display: inline-block;
+  position: absolute;
+  right: 100px;
+  top: 5px;
+  color: white;
+}
+
+#top-container {
+  position: relative;
+  width:  80%;
+  height: 350px;
+  margin: 0 auto;
+  background-image: url("square.png");
+  background-size: cover;
+}
+#top-container img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 20px;
+  top: 215px;
+}
+
+#top-container h1 {
+  position: absolute;
+  top: 280px;
+  left: 130px;
+  font-size: 20px;
+}
+#bottom-container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 3px solid;
+}
+
+#toolbar {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  border: 2px solid;
+}
+
+#toolbar ul {
+  
+}
+#toolbar li {
+  display: inline-block;
+  border-right: 2px solid;
+  padding-left: 10px;
+}
+
+#first-li {
+  border-left: 2px solid;
+}
+#filler-li {
+  width: 150px;
+}
+
+#last-li {
+  float: right;
+}
+
+#head-bar {
+  position: relative;
+  width: 100%;
+  border-bottom: 3px solid;
+  background-color: lightgray;
+}
+
+#head-bar h1 {
+  margin-left: 450px;
+  font-size: 25px;
+}
+
+#head-bar button {
+  position: absolute;
+  display: inline-block;
+  margin: 0 0 0 800px;
+  top: 1px;
+  color: white;
+  background-color: #1969d1;
+  border-radius: 1px;
+
+}
+
+#col-one {
+  width: 45%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-left: 30px;
+}
+
+#col-one h1, #col-two h1 {
+  margin-bottom: 25px;
+  font-size: 25px;
+  padding-top: 30px;
+}
+#col-one ul {
+  margin: 25px 0 25px;
+}
+
+#col-one li {
+  margin-bottom: 9px;
+}
+
+#col-two {
+  width: 55%;
+  float: right;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: 30px;
+}
+
+#col-two p {
+  margin: 0 0 20px 0;
+}
