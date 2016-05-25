@@ -21,7 +21,7 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+  vertical-align: top;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -47,10 +47,9 @@ table {
 
 /*
   ========================================
-  Grid
+  Custom Styles
   ========================================
 */
-
 
 
 /*
@@ -61,7 +60,8 @@ table {
 
 .header-container{
   background-color: #3b5998;
-  border: 5px solid black;
+  border: 2px solid black;
+  font-family: 'Nunito', sans-serif;
 }
 
 .logo{
@@ -96,8 +96,31 @@ table {
   display:inline-block;
 }
 
+.sign-in-field .submit-button{
+  background: #3399ff;
+  color: black;
+  border-style: outset;
+  border-color: #0066A2;
+  height: 28px;
+  width: 80px;
+  font:15px 'Nunito';
+  position: relative;
+  top: 16px;
+}
+
 .sign-in-box{
   border: 3px solid black;
+  height: 20px;
+}
+
+/*
+  ========================================
+  Body Container
+  ========================================
+*/
+.body-container{
+  font-family: 'Nunito', sans-serif;
+  margin-top: 40px;
 }
 
 /*
@@ -109,7 +132,8 @@ table {
 .teaser{
   line-height: 300%;
   margin-left: 150px;
-  margin-top: 40px;
+  margin-top: 60px;
+  top: -60px;
   display: inline-block;
 }
 
@@ -117,7 +141,7 @@ table {
   font-weight: bold
 }
 
-h2{
+.teaser h2{
   font-size: 24px;
   margin-left:-50px;
 }
@@ -133,8 +157,7 @@ ul{
 */
 
 .sign-up{
-  margin-top: 40px;
-  margin-left:320px;
+  margin-left:240px;
   display: inline-block;
 }
 
@@ -144,28 +167,34 @@ ul{
 }
 
 .sign-up h2{
-  margin-left:5px;
+  margin-bottom: 10px;
 }
 
 .sign-up input{
   margin-bottom: 10px;
-  height: 20px;
+
 }
 
 .email, .password{
   display:block;
-  width: 250px;
+  width: 260px;
 }
 
+.birthday-selectors{
+  margin-bottom: 20px;
+}
 .gender-buttons{
   display:block;
+  margin-bottom: 20px;
 }
 
 .sign-up-button{
-  width: 300px;
+  width: 266px;
+  height: 50px;
   color: white;
   background: green;
-  font-size: 20px;
-  border: 5px solid black;
-  padding: 30px;
+  font: 20px 'Nunito';
+  border-style: outset;
+  border-color: black;
+  
 }

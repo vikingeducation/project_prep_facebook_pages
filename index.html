@@ -1,6 +1,7 @@
 <!DOCTYPE html> 
   <html>
   <head>
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css'>
     <title>Welcome to Facelook</title>
     <link rel="stylesheet" href="main.css">
   </head>
@@ -18,7 +19,7 @@
             <input class="sign-in-box" type="text" name="password" id="password">
           </div>
           <div class="sign-in-field">
-            <input type="submit" name="submit" value="Log In">
+            <input class="submit-button" type="submit" name="submit" value="Log In">
           </div>
         </form>
       </div>
@@ -42,6 +43,7 @@
             <input class="password" type="text" name="password" placeholder="Your New Password">
             <input class="password" type="text" name="confirm-password" placeholder="Confirm Your Password">
             <h2>Birthday</h2>
+            <div class="birthday-selectors">
             <select name="month">
               <option value="" default selected>Month</option>
               <option value="January">January</option>
@@ -60,6 +62,7 @@
               <option value="1999">1999</option>
               <option value="1998">1998</option>
             </select>
+          </div>
             <div class="gender-buttons">
               <input type="radio" name="gender" value="Female">Female
               <input type="radio" name="gender" value="Male">Male
