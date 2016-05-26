@@ -113,3 +113,131 @@ table {
   top: 270px;
   left: 200px;
 }
+
+/*
+  ========================================
+  Menu
+  ========================================
+*/
+
+.menu-container{
+  width: 900px;
+  height: 40px;
+  margin-left: 138px;
+  border: 2px solid black;
+  font-family: 'Nunito', sans-serif;
+}
+
+.stats{
+  color: gray;
+}
+
+.menu-bar{
+  margin-left: 200px;
+  list-style-type: none;
+}
+
+.menu-bar li:first-child{
+  border-left: 2px solid black;
+}
+
+.menu-bar li:nth-child(4){
+  border-right: 2px solid black;
+}
+
+.menu-bar li:last-child{
+  margin-left: 139px;
+  border:none;
+}
+
+.menu-bar li{
+  display: inline-block;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 5px;
+  height: 30px;
+  line-height: 30px;
+  width: 100px;
+  text-align: center;
+}
+
+
+/*
+  ========================================
+  About
+  ========================================
+*/
+.about{
+  background-color: #b3b3b3;
+  width: 904px;
+  margin-top: 10px;
+  margin-left: 138px;
+  font-family: 'Nunito', sans-serif;
+  position: relative;
+  text-align: center;
+}
+
+.about h1{
+display: inline-block;
+font-size: 30px;
+}
+
+.about p{
+  display: inline-block;
+  color: white;
+  background-color: #3b5998;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10%;
+  border-style: outset;
+  position: absolute;
+  right: 10px;
+}
+
+/*
+  ========================================
+  Profile container
+  ========================================
+*/
+
+.profile-container{
+  font-family: 'Nunito', sans-serif;
+  margin-left: 138px;
+  border: 2px solid black;
+  width: 900px;
+}
+
+.profile-container h1{
+  font-size:25px;
+}
+
+.information-table{
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+.info{
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.description{
+  margin-top: 40px;
+  margin-left: 40px;
+  display: inline-block;
+  width: 400px;
+}
+
+.contact-information{
+  margin-top: 20px;
+}
+
+.about-me{
+  margin-top:20px;
+}
+
+.description h1{
+  margin-bottom: 10px;
+}
+
+
