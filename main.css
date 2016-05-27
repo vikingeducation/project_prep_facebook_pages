@@ -56,6 +56,7 @@ table {
   background-color: #3b5998;
   border: 2px solid black;
   font-family: 'Nunito', sans-serif;
+  min-width: 1080px;
 }
 
 .logo{
@@ -65,11 +66,6 @@ table {
   display: inline-block;
 }
 
-.log-in{
-  position: absolute;
-  right: 40px;
-  top: 30px;
-}
 
 /*
   ========================================
@@ -79,6 +75,9 @@ table {
 
 .log-in{
   display: inline-block;
+  float:right;
+  margin-top:20px;
+  margin-right:40px;
 }
 
 .label{
@@ -115,6 +114,7 @@ table {
 .body-container{
   font-family: 'Nunito', sans-serif;
   margin-top: 40px;
+  min-width: 1080px;
 }
 
 /*
@@ -151,8 +151,9 @@ ul{
 */
 
 .sign-up{
-  margin-left:240px;
   display: inline-block;
+  float:right;
+  margin-right:120px;
 }
 
 .sign-up h1{

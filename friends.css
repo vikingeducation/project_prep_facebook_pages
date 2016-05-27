@@ -136,7 +136,10 @@ table {
   margin-left: 200px;
   list-style-type: none;
 }
-
+.menu-bar .plain-link{
+  text-decoration: none;
+  color: black;
+}
 .menu-bar .active-page{
   background-color: #e6e6e6;
 }
@@ -226,13 +229,22 @@ font-size: 30px;
 }
 
 .profile-container .unfriend{
-  display: inline;
+  display: inline-block;
   color: black;
   background-color: #e6e6e6;
   border: 2px solid black;
   padding: 3px;
   border-radius: 5%;
   border-style: outset;
+  margin-top: 37px;
+  margin-left:20px;
+  margin-right: 20px;
+}
+
+.left, .right{
+  margin: 20px;
+  border: 2px solid black;
+  display: inline-block;
 }
 
 

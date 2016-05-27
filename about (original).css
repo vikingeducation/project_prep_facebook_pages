@@ -137,10 +137,10 @@ table {
   list-style-type: none;
 }
 
-.menu-bar .active-page{
-  background-color: #e6e6e6;
+.menu-bar .plain-link{
+  text-decoration: none;
+  color: black;
 }
-
 .menu-bar li:first-child{
   border-left: 2px solid black;
 }
@@ -171,7 +171,7 @@ table {
   About
   ========================================
 */
-.page-title{
+.about{
   background-color: #b3b3b3;
   width: 904px;
   margin-top: 10px;
@@ -181,12 +181,12 @@ table {
   text-align: center;
 }
 
-.page-title h1{
+.about h1{
 display: inline-block;
 font-size: 30px;
 }
 
-.page-title p{
+.about p{
   display: inline-block;
   color: white;
   background-color: #3b5998;
@@ -215,26 +215,33 @@ font-size: 30px;
   font-size:25px;
 }
 
-.profile-container .friend-image{
-  display:inline-block;
+.information-table{
+  border-collapse: separate;
+  border-spacing: 20px;
 }
-
-.profile-container .friend-name{
+.info{
   display: inline-block;
-  margin-top:34px;
-  margin-left:10px;
+  margin-left: 40px;
+  margin-top: 40px;
 }
 
-.profile-container .unfriend{
-  display: inline;
-  color: black;
-  background-color: #e6e6e6;
-  border: 2px solid black;
-  padding: 3px;
-  border-radius: 5%;
-  border-style: outset;
+.description{
+  margin-top: 40px;
+  margin-left: 40px;
+  display: inline-block;
+  width: 400px;
 }
 
+.contact-information{
+  margin-top: 20px;
+}
 
+.about-me{
+  margin-top:20px;
+}
+
+.description h1{
+  margin-bottom: 10px;
+}
 
 
