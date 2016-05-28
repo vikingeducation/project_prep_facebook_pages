@@ -1,0 +1,279 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: top;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+.header-container{
+  background-color: #3b5998;
+  border: 2px solid black;
+  font-family: 'Nunito', sans-serif;
+  height: 50px;
+}
+
+.logo-container{
+  margin-left: 100px;
+  display: inline-block;
+}
+
+.logo{
+  display: inline-block;
+}
+
+.title{
+  font-size: 24px;
+  color: white;
+  line-height: 50px;
+}
+
+.search-bar{
+  display: inline-block;
+  line-height: 50px;
+  margin-left: 40px;
+}
+
+.search-field{
+  width: 500px;
+}
+
+.header-user-name{
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  line-height: 50px;
+  margin-left: 140px;
+}
+
+/*
+  ========================================
+  Sidebar
+  ========================================
+*/
+
+.sidebar-container{
+  font-family: 'Nunito', sans-serif;
+  display: inline-block;
+}
+
+.sidebar-entry{
+  margin-left:45px;
+}
+
+.large-entry{
+  margin-top:45px;
+}
+
+.small-entry{
+  margin-top:10px;
+}
+.side-image{
+  display: inline-block;
+}
+
+.side-text{
+  display: inline-block;
+}
+
+.large-text{
+  margin: 35px 15px;
+}
+
+.small-text{
+  margin: 18px 15px;
+}
+
+.side-text h2{
+  font-size: 18px;
+}
+
+.side-text p{
+  font-size: 12px;
+}
+
+.post-date{
+  color: gray;
+  text-decoration: none;
+}
+
+.center{
+  text-align: center;
+}
+
+/*
+  ========================================
+  Main Content
+  ========================================
+*/
+
+.main-content-container{
+  display: inline-block;
+  font-family: 'Nunito', sans-serif;
+  width: 700px;
+  border-left: 2px solid black;
+}
+
+/*
+  ========================================
+  Post Box
+  ========================================
+*/
+
+.post-title{
+border-bottom: 2px solid black;
+padding: 5px 200px;
+background-color: #e6e6e6;
+}
+
+.post-box{
+  border: 2px solid black;
+  margin: 40px 90px;
+}
+
+.post-textarea{
+  width: 490px;
+  height: 50px;
+  margin: 10px;
+}
+.post-button-container{
+  border-top: 2px solid black;
+  background-color: #e6e6e6;
+  padding:3px;
+}
+
+.post-button{
+  color: white;
+  background-color: #3b5998;
+  border: 2px solid black;
+  padding: 3px;
+  border-radius: 5%;
+  border-style: outset;
+  width: 40px;
+  margin: 10px 0px 10px 455px;
+}
+
+/*
+  ========================================
+  Posts
+  ========================================
+*/
+
+.post-text{
+  padding: 10px;
+  font-size: 12px;
+}
+
+.like-comment-container{
+  background-color: #e6e6e6;
+  padding:3px;
+}
+
+.comment-border{
+  border-top: 2px solid black;
+}
+
+.comment-border-grey{
+  border-top: 2px solid gray;
+}
+.like-comment-container{
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.post-reaction{
+  margin-left:10px;
+}
+
+.reaction-text{
+  margin-left: 10px;
+  color:gray;
+}
+
+.clear{
+  clear:both;
+}
+
+.left{
+  float:left;
+}
+
+.right{
+  float:right;
+}
+
+.comment-format{
+  display: inline-block;
+}
+
+.comment-text{
+  margin-left:65px;
+  border: none;
+}
+
+.comment-textarea{
+  width: 490px;
+  height: 50px;
+  margin: 10px 10px 0px 10px;
+}
+
+.comment-button-container{
+  background-color: #e6e6e6;
+  padding:3px;
+}
+
+.comment-button{
+  color: white;
+  background-color: #3b5998;
+  border: 2px solid black;
+  padding: 3px;
+  border-radius: 5%;
+  border-style: outset;
+  width: 55px;
+  margin: 0px 0px 10px 440px;
+}
