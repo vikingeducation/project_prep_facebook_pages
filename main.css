@@ -1,0 +1,645 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: top;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Custom Style
+  ========================================
+*/
+
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+/*For all headers*/
+.header-container{
+  background-color: #3b5998;
+  border: 2px solid black;
+}
+
+/*For index*/
+.main-page-header{
+  min-width: 1080px;
+}
+
+/*For inner pages*/
+.inner-page-header{
+  height: 50px;
+}
+
+/* for inner pages*/
+.logo-container{
+  margin-left: 140px;
+  display: inline-block;
+}
+
+/*For index*/
+.main-page-logo{
+  font-size: 48px;
+  color: white;
+  margin: 20px 40px;
+}
+
+/*all pages*/
+.logo{
+  display: inline-block;
+}
+
+.logo-pic{
+  width: 50px;
+  height: 50px;
+  background: white;
+  border: 1px solid black;
+}
+
+/*Inner pages*/
+.title{
+  font-size: 24px;
+  color: white;
+  line-height: 50px;
+}
+
+.search-bar{
+  display: inline-block;
+  line-height: 50px;
+  margin-left: 40px;
+}
+
+.search-field{
+  width: 500px;
+}
+
+.header-user-name{
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  line-height: 50px;
+  margin-left: 140px;
+}
+
+
+/*
+  ========================================
+  Log-in (index)
+  ========================================
+*/
+
+.log-in{
+  display: inline-block;
+  float:right;
+  margin-top:20px;
+  margin-right:40px;
+}
+
+.label{
+  color:white;
+  display:block;
+}
+
+.sign-in-field{
+  display:inline-block;
+}
+
+.sign-in-field .submit-button{
+  background: #3399ff;
+  color: black;
+  border-style: outset;
+  border-color: #0066A2;
+  height: 28px;
+  width: 80px;
+  font-size:15px;
+  position: relative;
+  top: 16px;
+}
+
+.sign-in-box{
+  border: 3px solid black;
+  height: 20px;
+}
+
+/*
+  ========================================
+  Body Container (index)
+  ========================================
+*/
+.body-container{
+  margin-top: 40px;
+  min-width: 1080px;
+}
+
+/*
+  ========================================
+  Teaser (index)
+  ========================================
+*/
+
+.teaser{
+  line-height: 300%;
+  margin-left: 150px;
+  margin-top: 60px;
+  top: -60px;
+  display: inline-block;
+}
+
+.teaser span{
+  font-weight: bold
+}
+
+.teaser h2{
+  font-size: 24px;
+  margin-left:-50px;
+}
+
+ul{
+  list-style-type: square;
+}
+
+/*
+  ========================================
+  Sign Up (index)
+  ========================================
+*/
+
+.sign-up{
+  display: inline-block;
+  float:right;
+  margin-right:120px;
+}
+
+.sign-up h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.sign-up h2{
+  margin-bottom: 10px;
+}
+
+.sign-up input{
+  margin-bottom: 10px;
+
+}
+
+.email, .password{
+  display:block;
+  width: 260px;
+}
+
+.birthday-selectors{
+  margin-bottom: 20px;
+}
+.gender-buttons{
+  display:block;
+  margin-bottom: 20px;
+}
+
+.sign-up-button{
+  width: 266px;
+  height: 50px;
+  color: white;
+  background: green;
+  font-size: 20px;
+  border-style: outset;
+  border-color: black;
+}
+
+
+/*
+  ========================================
+  Photo (about and friends)
+  ========================================
+*/
+.photo-container{
+  margin-left: 140px;
+  font-size: 24px;
+  position: relative;
+}
+
+.profile-pic{
+  position: absolute;
+  top: 150px;
+  left: 10px;
+  width: 180px;
+  height: 180px;
+  background: white;
+  border: 1px solid black;
+}
+.user-name{
+  position: absolute;
+  top: 270px;
+  left: 200px;
+  color: white;
+}
+
+/*
+  ========================================
+  Menu (about and friends)
+  ========================================
+*/
+
+.menu-container{
+  width: 900px;
+  height: 40px;
+  margin-left: 138px;
+  border: 2px solid black;
+}
+
+.stats{
+  color: gray;
+}
+
+.menu-bar{
+  margin-left: 200px;
+  list-style-type: none;
+}
+
+.plain-link{
+  text-decoration: none;
+  color: black;
+}
+.menu-bar li:first-child{
+  border-left: 2px solid black;
+}
+
+.menu-bar li:nth-child(4){
+  border-right: 2px solid black;
+}
+
+.menu-bar li:last-child{
+  margin-left: 139px;
+  border:none;
+}
+
+.menu-bar li{
+  display: inline-block;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 5px;
+  height: 30px;
+  line-height: 30px;
+  width: 100px;
+  text-align: center;
+}
+
+
+/*
+  ========================================
+  Sidebar (newsfeed)
+  ========================================
+*/
+
+.sidebar-container{
+  display: inline-block;
+}
+
+.sidebar-entry{
+  margin-left:45px;
+}
+
+.large-entry{
+  margin-top:45px;
+}
+
+.small-entry{
+  margin-top:10px;
+}
+.side-image{
+  display: inline-block;
+  margin: 2px 0px 0px 2px;
+  border: 1px solid black;
+}
+
+.large-image{
+  width: 98px;
+  height: 94px;
+}
+
+.small-image{
+  width: 58px;
+  height: 54px;
+}
+
+.side-text{
+  display: inline-block;
+}
+
+.large-text{
+  margin: 35px 15px;
+}
+
+.small-text{
+  margin: 18px 15px;
+}
+
+.side-text h2{
+  font-size: 18px;
+}
+
+.side-text p{
+  font-size: 12px;
+}
+
+.post-date{
+  color: gray;
+  text-decoration: none;
+}
+
+.center{
+  text-align: center;
+}
+
+/*
+  ========================================
+  Page Title (about, friends)
+  ========================================
+*/
+.page-title{
+  background-color: #b3b3b3;
+  width: 904px;
+  margin-top: 10px;
+  margin-left: 138px;
+  position: relative;
+  text-align: center;
+}
+
+.page-title h1{
+display: inline-block;
+font-size: 30px;
+}
+
+.page-title p{
+  display: inline-block;
+  color: white;
+  background-color: #3b5998;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10%;
+  border-style: outset;
+  position: absolute;
+  right: 10px;
+}
+
+/*
+  ========================================
+  Profile container (about)
+  ========================================
+*/
+
+.profile-container{
+  margin-left: 138px;
+  border: 2px solid black;
+  width: 900px;
+}
+
+.profile-container h1{
+  font-size:25px;
+}
+
+.information-table{
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+.info{
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.description{
+  margin-top: 40px;
+  margin-left: 40px;
+  display: inline-block;
+  width: 400px;
+}
+
+.contact-information{
+  margin-top: 20px;
+}
+
+.about-me{
+  margin-top:20px;
+}
+
+.description h1{
+  margin-bottom: 10px;
+}
+
+/*
+  ========================================
+  Profile container (friends)
+  ========================================
+*/
+
+.profile-container .friend-image{
+  display:inline-block;
+  margin: 4px;
+  width: 90px;
+  height: 90px;
+  background: white;
+  border: 1px solid black;
+}
+
+.profile-container .friend-name{
+  display: inline-block;
+  margin-top:34px;
+  margin-left:10px;
+}
+
+.profile-container .unfriend{
+  display: inline-block;
+  color: black;
+  background-color: #e6e6e6;
+  border: 2px solid black;
+  padding: 3px;
+  border-radius: 5%;
+  border-style: outset;
+  margin-top: 37px;
+  margin-left:20px;
+  margin-right: 20px;
+}
+
+.left-friends, .right-friends{
+  margin: 20px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+/*
+  ========================================
+  Main Content (newsfeed)
+  ========================================
+*/
+
+.main-content-container{
+  display: inline-block;
+  width: 700px;
+  border-left: 2px solid black;
+}
+
+/*
+  ========================================
+  Post Box (newsfeed)
+  ========================================
+*/
+
+.post-title{
+border-bottom: 2px solid black;
+padding: 5px 200px;
+background-color: #e6e6e6;
+}
+
+.post-box{
+  border: 2px solid black;
+  margin: 40px 90px;
+}
+
+.post-textarea{
+  width: 490px;
+  height: 50px;
+  margin: 10px;
+}
+.post-button-container{
+  border-top: 2px solid black;
+  background-color: #e6e6e6;
+  padding:3px;
+}
+
+.post-button{
+  color: white;
+  background-color: #3b5998;
+  border: 2px solid black;
+  padding: 3px;
+  border-radius: 5%;
+  border-style: outset;
+  width: 40px;
+  margin: 10px 0px 10px 455px;
+}
+
+/*
+  ========================================
+  Posts (newsfeed)
+  ========================================
+*/
+
+.post-text{
+  padding: 10px;
+  font-size: 12px;
+}
+
+.like-comment-container{
+  background-color: #e6e6e6;
+  padding:3px;
+}
+
+.comment-border{
+  border-top: 2px solid black;
+}
+
+.comment-border-grey{
+  border-top: 2px solid gray;
+}
+.like-comment-container{
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.post-reaction{
+  margin-left:10px;
+}
+
+.reaction-text{
+  margin-left: 10px;
+  color:gray;
+}
+
+.clear{
+  clear:both;
+}
+
+.left{
+  float:left;
+}
+
+.right{
+  float:right;
+}
+
+.comment-format{
+  display: inline-block;
+}
+
+.comment-text{
+  margin-left:65px;
+  border: none;
+}
+
+.comment-textarea{
+  width: 490px;
+  height: 50px;
+  margin: 10px 10px 0px 10px;
+}
+
+.comment-button-container{
+  background-color: #e6e6e6;
+  padding:3px;
+}
+
+.comment-button{
+  color: white;
+  background-color: #3b5998;
+  border: 2px solid black;
+  padding: 3px;
+  border-radius: 5%;
+  border-style: outset;
+  width: 55px;
+  margin: 0px 0px 10px 440px;
+}

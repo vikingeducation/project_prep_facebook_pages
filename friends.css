@@ -1,0 +1,253 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: top;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+.header-container{
+  background-color: #3b5998;
+  border: 2px solid black;
+  font-family: 'Nunito', sans-serif;
+  height: 50px;
+}
+
+.logo-container{
+  margin-left: 140px;
+  display: inline-block;
+}
+
+.logo{
+  display: inline-block;
+}
+
+.title{
+  font-size: 24px;
+  color: white;
+  line-height: 50px;
+}
+
+.search-bar{
+  display: inline-block;
+  line-height: 50px;
+  margin-left: 40px;
+}
+
+.search-field{
+  width: 500px;
+}
+
+.header-user-name{
+  display: inline-block;
+  font-size: 16px;
+  color: white;
+  line-height: 50px;
+  margin-left: 140px;
+}
+
+/*
+  ========================================
+  Photo
+  ========================================
+*/
+.photo-container{
+  margin-left: 140px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  position: relative;
+}
+
+.profile-pic{
+  position: absolute;
+  top: 150px;
+  left: 10px;
+}
+.user-name{
+  position: absolute;
+  top: 270px;
+  left: 200px;
+  color: white;
+}
+
+/*
+  ========================================
+  Menu
+  ========================================
+*/
+
+.menu-container{
+  width: 900px;
+  height: 40px;
+  margin-left: 138px;
+  border: 2px solid black;
+  font-family: 'Nunito', sans-serif;
+}
+
+.stats{
+  color: gray;
+}
+
+.menu-bar{
+  margin-left: 200px;
+  list-style-type: none;
+}
+.menu-bar .plain-link{
+  text-decoration: none;
+  color: black;
+}
+.menu-bar .active-page{
+  background-color: #e6e6e6;
+}
+
+.menu-bar li:first-child{
+  border-left: 2px solid black;
+}
+
+.menu-bar li:nth-child(4){
+  border-right: 2px solid black;
+}
+
+.menu-bar li:last-child{
+  margin-left: 139px;
+  border:none;
+}
+
+.menu-bar li{
+  display: inline-block;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 5px;
+  height: 30px;
+  line-height: 30px;
+  width: 100px;
+  text-align: center;
+}
+
+
+/*
+  ========================================
+  About
+  ========================================
+*/
+.page-title{
+  background-color: #b3b3b3;
+  width: 904px;
+  margin-top: 10px;
+  margin-left: 138px;
+  font-family: 'Nunito', sans-serif;
+  position: relative;
+  text-align: center;
+}
+
+.page-title h1{
+display: inline-block;
+font-size: 30px;
+}
+
+.page-title p{
+  display: inline-block;
+  color: white;
+  background-color: #3b5998;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 10%;
+  border-style: outset;
+  position: absolute;
+  right: 10px;
+}
+
+/*
+  ========================================
+  Profile container
+  ========================================
+*/
+
+.profile-container{
+  font-family: 'Nunito', sans-serif;
+  margin-left: 138px;
+  border: 2px solid black;
+  width: 900px;
+}
+
+.profile-container h1{
+  font-size:25px;
+}
+
+.profile-container .friend-image{
+  display:inline-block;
+}
+
+.profile-container .friend-name{
+  display: inline-block;
+  margin-top:34px;
+  margin-left:10px;
+}
+
+.profile-container .unfriend{
+  display: inline-block;
+  color: black;
+  background-color: #e6e6e6;
+  border: 2px solid black;
+  padding: 3px;
+  border-radius: 5%;
+  border-style: outset;
+  margin-top: 37px;
+  margin-left:20px;
+  margin-right: 20px;
+}
+
+.left, .right{
+  margin: 20px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+
+
+
