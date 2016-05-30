@@ -17,5 +17,10 @@
 .header form{ 
 	display: inline-block;
 	position: absolute; 
-	
+	right: .5rem;
+	top: 1rem;
+ }
+
+ .header input{
+ 	padding-left: .3rem;
  }
