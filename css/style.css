@@ -1,0 +1,21 @@
+.global.header{
+	background-color: blue; 
+	color: white;
+	border-style: solid; 
+	border-color: black;
+	border-width: .2rem; 
+}
+
+.global h1{
+	font-size: 3rem; 
+	display: inline-block;
+	padding-top: 1rem; 
+	padding-left: 2rem; 
+	padding-bottom: .8rem; 
+}
+
+.header form{ 
+	display: inline-block;
+	position: absolute; 
+	
+ }
