@@ -82,9 +82,23 @@
 
 #signup textarea{
 	border-color: grey; 
-	font-size: .9rem; 
+	border-style: solid;
+    color: #656161;
+    font-size: .9rem;
+    box-sizing: border-box;
 }
 
+textarea.long{
+	width: 300px;
+}
+
+textarea.short{
+	width: 150px;
+}
+
+textarea:focus{
+	border-color:#000; 
+}
 #signup label{ 
 	font-weight: bold; 
 	margin-top: .4rem; 
