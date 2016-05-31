@@ -233,6 +233,9 @@ footer{
 #lowerContent{
 	width: 80%; 
 	margin: 0 auto; 
+	border-width: .2rem;
+    border-color: black;
+    border-style: solid;
 }
 
 #lowerContent header{
@@ -273,20 +276,19 @@ div.left, div.right{
 }
 
 .pairs dl{
-	margin-left:1rem;
+	margin-left:1.5rem;
 	margin-top: .4rem; 
 }
 .pairs dt{
-	font-weight: Bold; 
-	display: inline-block;
+	font-weight: Bold;
+    display: inline-block;
+    width: 8rem;
 }
 dt:after{
 	content:":";
 }
 .pairs dd{
 	display: inline-block;
-	margin-left: 15px; 
-
 }
 
 
