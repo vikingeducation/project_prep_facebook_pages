@@ -91,11 +91,11 @@
 }
 
 textarea.long{
-	width: 300px;
+	width: 410px;
 }
 
 textarea.short{
-	width: 150px;
+	width: 200px;
 }
 
 textarea:focus{
@@ -104,8 +104,9 @@ textarea:focus{
 #signup .bolded{ 
 	font-weight: bold; 
 	margin-top: .4rem; 
-	margin-bottom: .2rem; 
+	margin-bottom: 1rem; 
 	font-size: 1rem; 
+	display: block;
 }
 
 #signup .gender{
