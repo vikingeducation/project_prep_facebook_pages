@@ -55,11 +55,12 @@ body{
  	margin-top: 4rem; 
  	margin-left:5rem;
  	margin-right:4rem;
+ 	width: 44rem;
  }
 
  #description h2{
  	font-size: 2rem; 
- 	padding:1rem;
+ 	/*padding:1rem;*/
  }
 
 #description li{
@@ -70,7 +71,7 @@ body{
  	margin-top: 1rem; 
  	margin-bottom: 2rem; 
  	margin-left: .3rem; 
- 	width: 44rem;
+ 	width: 27rem;
  }
 
 #signup h3{
@@ -90,6 +91,7 @@ body{
 	font-weight: bold; 
 	margin-top: .4rem; 
 	margin-bottom: .2rem; 
+	font-size: 1rem; 
 }
 
 
