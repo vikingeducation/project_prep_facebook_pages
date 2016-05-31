@@ -148,3 +148,8 @@ footer{
 	width: 100%;
 	bottom: 0px;
 }
+
+#upperContent{
+	width:70%;
+	margins:0 auto;
+}
