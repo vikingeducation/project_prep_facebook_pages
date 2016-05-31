@@ -128,7 +128,7 @@ textarea:focus{
 footer{
 	background-color: grey; 
 	color: grey;
-	position: relative;
+	position: absolute;
 	bottom: 0px;
 }
 
