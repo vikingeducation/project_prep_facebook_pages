@@ -2,7 +2,7 @@
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }*/
 
-.global.header{
+.global /*.header*/{
 	background-color: #3B5998; 
 	color: #FFFFFF;
 	border-style: solid; 
@@ -18,7 +18,7 @@
 	padding-left: 1rem; 
 	padding-bottom: .8rem; 
 }
-.header form{ 
+/*.header*/ .global form{ 
 	display: inline-block;
 	position: absolute; 
 	right: .5rem;
