@@ -1,20 +1,20 @@
 body{ 
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
-	 }
+}
 
 .global.header{
-	background-color: blue; 
-	color: white;
+	background-color: #3B5998; 
+	color: #FFFFFF;
 	border-style: solid; 
 	border-color: black;
-	border-width: .2rem; 
+	border-width: .1rem; 
 }
 
 .global h1{
-	font-size: 3rem; 
+	font-size: 2rem; 
 	display: inline-block;
 	padding-top: 1rem; 
-	padding-left: 2rem; 
+	padding-left: 1rem; 
 	padding-bottom: .8rem; 
 }
 
