@@ -160,7 +160,7 @@ footer{
 #marquee{
 	height: 300px;
     width: 100%;
-    opacity: .8;
+    opacity: .7;
     border-width: .2rem;
     border-color: black;
     border-style: solid;
@@ -178,7 +178,12 @@ footer{
 }
 
 .userName{
-	position:relative;
+	position: relative;
+    left: 230px;
+    top: -215px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px #787777;
 }
 
 #navbar{
@@ -191,9 +196,9 @@ footer{
 
 #navbar li{
 	display:inline-block;
-	border-width: .2rem;
+	/*border-width: .2rem;
     border-color: black;
-    border-style: solid;
+    border-style: solid;*/
 }
 
 #navbar span{
@@ -201,8 +206,8 @@ footer{
 }
 
 .editProfile{
-	position: relative;
-	right: 3rem;
+	/*position: relative;
+	right: 3rem;*/
 }
 
 
