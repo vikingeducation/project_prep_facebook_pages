@@ -14,6 +14,7 @@
 	font-size: 2rem; 
 	font-weight: bold; 
 	display: inline-block;
+	 margin-left: .3rem;
 }
 
 .global form{ 
@@ -23,7 +24,7 @@
 	top: 1rem;
  }
 
-.global input{
+.global form input{
  	padding-left: .3rem;
  }
 
@@ -37,6 +38,13 @@
  	margin-bottom: .1rem; 
  }
 
+.siteSearch{ 
+	width:100px;
+ }
+
+.userMenu{
+	
+}
  #main #description, #main #signup{
  	display: inline-block;
     font-family: Futura,"Trebuchet MS",Arial,sans-serif;
@@ -54,7 +62,7 @@
  	font-size: 2rem; 
  	font-weight: bold; 
  }
- 
+
  #description ul{
  	padding-left: 3.5rem;
  }
