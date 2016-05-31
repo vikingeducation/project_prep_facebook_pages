@@ -167,7 +167,7 @@ footer{
 	height: 165px;
     width: 165px;
     position: relative;
-    top: -160px;
+    top: -190px;
     left: 15px;
     border-width: .2rem;
     border-color: black;
@@ -177,10 +177,10 @@ footer{
 .userName{
 	position: relative;
     left: 230px;
-    top: -215px;
+    top: -265px;
     font-size: 2rem;
     font-weight: bold;
-    text-shadow: 3px 3px 10px #787777;
+    text-shadow: 3px 3px 6px #787777;
 }
 
 #navbar{
@@ -204,8 +204,8 @@ footer{
 }
 
 #navbar li.tab{
-	padding-left:.5rem;
-	padding-right:.5rem;
+	padding-left:1.5rem;
+	padding-right:1.5rem;
 	padding-top: .5rem;
     padding-bottom: .5rem;
 	border-right-color: black;
