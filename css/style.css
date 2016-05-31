@@ -33,3 +33,7 @@ body{
  form div{
  	display: inline-block; 
  }
+
+ form div label{ 
+ 	display: block; 
+ }
