@@ -48,18 +48,38 @@ body{
 
  #main #description, #main #signup{
  	display: inline-block;
- 	width: 44rem;
+ 	/*width: 44rem;*/
  }
+
+ #description{
+ 	margin-top: 4rem; 
+ 	margin-left:5rem;
+ 	margin-right:4rem;
+ }
+
+ #description h2{
+ 	font-size: 2rem; 
+ 	padding:1rem;
+ }
+
+#description li{
+	margin-top: 1rem; 
+}
 
  #signup{
  	margin-top: 1rem; 
  	margin-bottom: 2rem; 
  	margin-left: .3rem; 
+ 	width: 44rem;
  }
 
 #signup h3{
 	font-size: 2.5rem; 
 	padding-bottom: .8rem; 
+}
+
+#signup div{
+	margin-top:.7rem; 
 }
 
 #signup textarea{
