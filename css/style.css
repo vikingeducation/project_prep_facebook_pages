@@ -129,6 +129,7 @@ footer{
 	background-color: grey; 
 	color: grey;
 	position: absolute;
+	width: 100%;
 	bottom: 0px;
 }
 
