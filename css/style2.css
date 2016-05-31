@@ -152,9 +152,6 @@ footer{
 #upperContent{
 	width: 80%;
     margin: 0 auto;
-   /* border-width: .2rem;
-    border-color: black;
-    border-style: solid;*/
 }
 
 #marquee{
@@ -233,7 +230,36 @@ footer{
 	color:grey;
 }
 
+#lowerContent{
+	width: 80%; 
+	margin: 0 auto; 
+}
 
+#lowerContent header{
+	background-color: grey;
+	border-width: .2rem;
+    border-color: black;
+    border-style: solid;
+}
+#lowerContent h2{
+	text-align: center; 
+	font-weight: bold;
+	display: inline-block;
+}
+
+#lowerContent button{
+	background-color: blue; 
+	color: white;
+	border-width: .1rem;
+    border-color: black;
+    border-style: solid;
+    padding-left: 3rem;
+}
+
+div.left, div.right{
+	display: inline-block;
+	width:400px;
+}
 
 
 
