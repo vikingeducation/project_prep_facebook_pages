@@ -242,29 +242,52 @@ footer{
     border-style: solid;
 }
 #lowerContent h2{
-	text-align: center; 
-	font-weight: bold;
-	display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    padding: .5rem;
+    font-size: 1.4rem;
+    margin-left: 33rem;
 }
 
 #lowerContent button{
-	background-color: blue; 
-	color: white;
-	border-width: .1rem;
+    background-color: blue;
+    color: white;
+    border-width: .1rem;
     border-color: black;
     border-style: solid;
-    padding-left: 3rem;
+    margin-left: 25rem;
 }
 
 div.left, div.right{
 	display: inline-block;
-	width:400px;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
+#lowerContent h3{
+	font-size:1.2rem;
+	font-weight: bold;
+	margin-top: 1.5rem;
+}
 
+.pairs dl{
+	margin-left:1rem;
+	margin-top: .4rem; 
+}
+.pairs dt{
+	font-weight: Bold; 
+	display: inline-block;
+}
+dt:after{
+	content:":";
+}
+.pairs dd{
+	display: inline-block;
+	margin-left: 15px; 
 
-
-
+}
 
 
 
