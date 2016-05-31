@@ -8,16 +8,14 @@
     padding-top: 1rem; 
 	padding-left: 1rem; 
 	padding-bottom: .8rem;
-
 }
+
 .global h1{
 	font-size: 2rem; 
 	font-weight: bold; 
 	display: inline-block;
-	/*padding-top: 1rem; 
-	padding-left: 1rem; 
-	padding-bottom: .8rem;*/ 
 }
+
 .global form{ 
 	display: inline-block;
 	position: absolute; 
@@ -56,6 +54,7 @@
  	font-size: 2rem; 
  	font-weight: bold; 
  }
+ 
  #description ul{
  	padding-left: 3.5rem;
  }
