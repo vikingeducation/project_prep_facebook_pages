@@ -40,8 +40,12 @@ body{
  	margin-bottom: .1rem; 
  }
 
- #signup{
+ /*#signup{
  	float: right;
  	width:30rem;
  	height: 40rem;
+ }*/
+
+ #main #description, #main #signup{
+ 	display: inline-block;
  }
