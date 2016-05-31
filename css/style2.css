@@ -39,12 +39,18 @@
  }
 
 .siteSearch{ 
-	width:100px;
+	width:50%;
+	margin-left: 8rem;
  }
 
 .userMenu{
-	
+margin-left: 11rem; 
 }
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
  #main #description, #main #signup{
  	display: inline-block;
     font-family: Futura,"Trebuchet MS",Arial,sans-serif;
