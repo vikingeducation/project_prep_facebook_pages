@@ -150,17 +150,70 @@ footer{
 }
 
 #upperContent{
-	width:70%;
-	margins:0 auto;
+	width: 80%;
+    margin: 0 auto;
+    border-width: .2rem;
+    border-color: black;
+    border-style: solid;
 }
 
 #marquee{
-	height:400px;
-	width:800px;
-	margins:0 auto;
+	height: 300px;
+    width: 100%;
+    opacity: .8;
+    border-width: .2rem;
+    border-color: black;
+    border-style: solid;
 }
 
 #profilePic{
-	height:100px;
-	width:100px;
+	height: 165px;
+    width: 165px;
+    position: relative;
+    top: -160px;
+    left: 15px;
+    border-width: .2rem;
+    border-color: black;
+    border-style: solid;
 }
+
+.userName{
+	position:relative;
+}
+
+#navbar{
+	margin-left:8rem;
+}
+
+#navbar ul{
+	list-style: none;
+}
+
+#navbar li{
+	display:inline-block;
+	border-width: .2rem;
+    border-color: black;
+    border-style: solid;
+}
+
+#navbar span{
+	color:grey;
+}
+
+.editProfile{
+	position: relative;
+	right: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
