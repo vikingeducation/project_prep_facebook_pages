@@ -29,3 +29,7 @@ body{
  .header input{
  	padding-left: .3rem;
  }
+
+ form div{
+ 	display: inline-block; 
+ }
