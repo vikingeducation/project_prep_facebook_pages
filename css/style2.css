@@ -161,10 +161,10 @@ footer{
 	height: 300px;
     width: 100%;
     opacity: .7;
-    border-width: .2rem;
+    /*border-width: .2rem;
     border-color: black;
     border-style: solid;
-}
+*/}
 
 #profilePic{
 	height: 165px;
@@ -187,18 +187,37 @@ footer{
 }
 
 #navbar{
-	margin-left:12rem;
+	border-bottom-color: black;
+    border-bottom-width: .2rem;
+    border-bottom-style: solid;
+    border-top-color: black;
+    border-top-width: .2rem;
+    border-top-style: solid;
 }
 
 #navbar ul{
 	list-style: none;
+    border-left-style: solid;
+    border-left-color: black;
+    padding-bottom: .5rem;
+    margin-left: 14rem;
+    padding-top: .5rem;
+    border-left-width: .2rem
 }
-
 #navbar li{
 	display:inline-block;
-	/*border-width: .2rem;
-    border-color: black;
-    border-style: solid;*/
+}
+
+#navbar li.tab{
+	padding-left:.5rem;
+	padding-right:.5rem;
+	border-right-color: black;
+    border-right-width: .2rem;
+    border-right-style: solid;
+}
+
+#navbar li.editProfile{
+	padding:2rem;
 }
 
 #navbar span{
