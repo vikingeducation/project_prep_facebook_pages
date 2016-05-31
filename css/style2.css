@@ -41,11 +41,14 @@
 .siteSearch{ 
 	width:50%;
 	margin-left: 8rem;
+	font-weight:lighter;
+	color: grey;
  }
 
 .userMenu{
 margin-left: 11rem; 
 }
+
 a, a:visited, a:hover, a:active {
     text-decoration: none;
     color: inherit;
