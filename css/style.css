@@ -88,6 +88,8 @@
     font-size: .9rem;
     box-sizing: border-box;
     height: 40px;
+    font-weight: 1rem; 
+    border-radius: 5px
 }
 
 textarea.long{
