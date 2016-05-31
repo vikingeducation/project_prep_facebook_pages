@@ -30,7 +30,7 @@ body{
  	padding-left: .3rem;
  }
 
- form div{
+ .header form div{
  	display: inline-block; 
  }
 
@@ -38,4 +38,8 @@ body{
  	display: block; 
  	font-size: .7rem;
  	margin-bottom: .1rem; 
+ }
+
+ #signup{
+
  }
