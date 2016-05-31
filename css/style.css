@@ -125,4 +125,10 @@ textarea:focus{
 	font-weight: bold; 
 }
 
+footer{
+	background-color: grey; 
+	color: grey;
+	position: relative;
+	bottom: 0px;
+}
 
