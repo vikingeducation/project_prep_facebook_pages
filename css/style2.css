@@ -237,12 +237,15 @@ footer{
     border-color: black;
     border-style: solid;
 }
+#lowerContent article{
+	margin-left:2rem;
+}
 
 #lowerContent header{
 	background-color: grey;
-	border-width: .2rem;
-    border-color: black;
-    border-style: solid;
+	border-bottom-width: .2rem;
+    border-bottom-color: black;
+    border-bottom-style: solid;
 }
 #lowerContent h2{
     text-align: center;
