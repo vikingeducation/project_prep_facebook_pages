@@ -25,15 +25,15 @@
 	top: 1rem;
  }
 
- .header input{
+ /*.header*/ .global input{
  	padding-left: .3rem;
  }
 
- .header form div{
+/* .header*/ .global form div{
  	display: inline-block; 
  }
 
- .header label{ 
+ /*.header */.global label{ 
  	display: block; 
  	font-size: .7rem;
  	margin-bottom: .1rem; 
