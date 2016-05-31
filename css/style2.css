@@ -152,15 +152,18 @@ footer{
 #upperContent{
 	width: 80%;
     margin: 0 auto;
-    border-width: .2rem;
+   /* border-width: .2rem;
     border-color: black;
-    border-style: solid;
+    border-style: solid;*/
 }
 
 #marquee{
 	height: 300px;
     width: 100%;
     opacity: .7;
+    border-width: .2rem;
+    border-color: black;
+    border-style: solid;
 }
 
 #profilePic{
@@ -190,6 +193,9 @@ footer{
     border-top-color: black;
     border-top-width: .2rem;
     border-top-style: solid;
+    border-right-color: black;
+    border-right-width: .2rem;
+    border-right-style: solid;
 }
 
 #navbar ul{
