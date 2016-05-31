@@ -1,5 +1,5 @@
 body{ 
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .global.header{
@@ -12,6 +12,7 @@ body{
 
 .global h1{
 	font-size: 2rem; 
+	font-weight: bold; 
 	display: inline-block;
 	padding-top: 1rem; 
 	padding-left: 1rem; 
