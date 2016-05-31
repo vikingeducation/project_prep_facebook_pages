@@ -187,7 +187,7 @@ footer{
 }
 
 #navbar{
-	border-bottom-color: black;
+	/*border-bottom-color: black;
     border-bottom-width: .2rem;
     border-bottom-style: solid;
     border-top-color: black;
@@ -195,7 +195,10 @@ footer{
     border-top-style: solid;
     border-right-color: black;
     border-right-width: .2rem;
-    border-right-style: solid;
+    border-right-style: solid;*/
+     border-width: .2rem;
+    border-color: black;
+    border-style: solid;
 }
 
 #navbar ul{
