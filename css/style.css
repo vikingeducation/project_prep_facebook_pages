@@ -33,7 +33,7 @@
  	display: inline-block; 
  }
 
- form div label{ 
+ .header label{ 
  	display: block; 
  	font-size: .7rem;
  	margin-bottom: .1rem; 
@@ -87,6 +87,7 @@
     color: #656161;
     font-size: .9rem;
     box-sizing: border-box;
+    height: 40px;
 }
 
 textarea.long{
@@ -100,14 +101,25 @@ textarea.short{
 textarea:focus{
 	border-color:#000; 
 }
-#signup label{ 
+#signup .bolded{ 
 	font-weight: bold; 
 	margin-top: .4rem; 
 	margin-bottom: .2rem; 
 	font-size: 1rem; 
 }
 
+#signup .gender{
+	margin-bottom:.5rem;
+}
 
-
+#signup button{
+	width: 300px;
+	height: 40px;
+	background-color: green; 
+	border-color: black; 
+	border-width: .3rem;
+	color: white;
+	font-weight: bold; 
+}
 
 
