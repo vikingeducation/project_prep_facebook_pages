@@ -1,11 +1,10 @@
 
 This repository contains a Facebook clone using basic web development technologies.
-
+	
 Highlights:
 
 	* Fundamental HTML
 	* Fundamental CSS
-
 
 A Facebook Clone
 ===================
