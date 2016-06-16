@@ -1,0 +1,32 @@
+body {
+	font-family: "Arial", arial, sans-serif;
+}
+.header {
+	background: #00f;																																																											
+	height: 75px;
+	border: 2px solid #222;
+}
+.logo {
+	color: white;
+	font-size: 50px;
+	display: block;
+	float: left;
+	margin: 10px 50px;
+}
+.login {
+	display: block;
+	float: right;
+}
+.login h6, .login input {
+	float: left;
+	margin: 25px 10px;
+}
+.login h6 {
+	color: white;
+}
+.login input {
+	border: 2px solid #222;
+}
+.login .button {
+	background: #8080ff;
+}
