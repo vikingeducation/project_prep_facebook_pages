@@ -30,3 +30,14 @@ body {
 .login .button {
 	background: #8080ff;
 }
+
+.sales_copy {
+	width: 60%;
+	display: block;
+	float:left;
+}
+.sign_up_form {
+	width: 40%;
+	display: block;
+	float: right;
+}
