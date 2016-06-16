@@ -8,18 +8,25 @@
   </head>
   <body>
     <div class="wrapper">
-      <h2>facebook</h2>
       <header>
+      <h2>facebook</h2>
         <form class="login-form form">
-          <label for="email-or-phone">Email or Phone</label>
-          <input type="text" id="email-or-phone">
-          <label for="pasword">Password
-          <input type="text" id="password">
+          <div class="login-email text-input">
+            <label for="email-or-phone" class="login-label">Email or Phone</label>
+            <input type="text" id="email-or-phone">
+            <div class="tip">
+              <label for="remember"><input type="checkbox" name="remember" checked> Keep me logged in</label>
+            </div>
+          </div>
+          <div class="login-password text-input">
+            <label for="password" class="login-label">Password</label>
+            <input type="text" id="password">
+            <div class="tip forgot">
+              Forgot your password?
+            </div>
+          </div>
           <button type="submit">Log In</button>
         </form>
-        <div class="forgot">
-          Forgot account?
-        </div>
       </header>
       <div class="left-content-container">
         <h1>Connect with friends and the world around you on Facebook.</h1>
@@ -57,7 +64,7 @@
         </form>
         <hr>
         <p class="create-a-page">
-          <a href="#">Create a Page</a> for a celebrity, band or business.
+          <a href="#">Create a Page</a> for a celebrity, band or business
         </p>
       </div>
     </div>

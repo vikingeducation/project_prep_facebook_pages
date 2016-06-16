@@ -1,0 +1,100 @@
+//Variables
+$blue: #2b78e4
+$dark-blue: #3b5998
+$darker-blue: #29487d
+$light-blue: #9cb4d8
+
+//Global Styles and resets
+* 
+  box-sizing: border-box
+
+h1,h2,h3,p,ul, body, html, input
+  margin: 0
+  padding: 0
+
+button
+  border: 0
+  background: transparent
+  font-family: helvetica
+  font-size: 12px
+  cursor: pointer
+  background: $dark-blue
+  border: 1px solid $darker-blue
+  color: white
+  height: 23px
+
+input
+  border: 1px
+
+html 
+  font-family: helvetica
+
+a
+  text-decoration: none
+  color: $blue
+
+ul
+  list-style: none
+
+//Login Header
+
+header
+  height: 82px
+  background: $dark-blue
+  color: white
+  padding: 13px 142.5px 0
+
+  h2
+    font-size: 40px
+    line-height: 74px
+    display: inline-block
+
+  form 
+    float: right
+    display: inline-block
+    // background: red
+    width: 392px
+    display: flex
+    justify-content: space-between
+    height: 65px
+    align-items: center
+
+    button
+      width: 56px
+      height: 23px
+      background: #4267b2
+
+    .text-input
+      width: 150px
+      font-size: 12px
+      color: white
+
+      .login-label
+        position: relative
+        top: -4px
+
+      input
+        width: 100%
+        height: 23px
+        border: 1px solid #1d2a5b
+
+      .tip
+        color: $light-blue
+        position: relative
+        top: 4px
+
+        input[type="checkbox"]
+          width: 13px
+          height: 13px
+          vertical-align: bottom
+          position: relative
+          top: 0px
+          *overflow: hidden
+
+        label
+          display: block
+          text-indent: -15px
+          padding-left: 15px
+
+      
+    
