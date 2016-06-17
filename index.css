@@ -96,3 +96,18 @@ select {
 #month, #day, #year {
 	color: #c2c2d6;
 }
+#search {
+	width: 50%;
+	margin: 25px 0;
+}
+.search {
+	text-align: center;
+}
+h4 {
+	font-size: 40px;
+	display: block;
+	float: right;
+	color: white;
+	margin: 15px 50px;
+
+}
