@@ -110,10 +110,16 @@ footer {
 	height: 40px;
 }
 
+.about-header img {
+	float: left;
+		margin-left: 100px;
+}
+
 .about-header h3 {
 	color: white;
-	margin: 10px 10px;
-	margin-left: 100px;
+	margin: 6px 10px;
+
+	font-size: 1.6em;
 	display: inline-block;
 }
 
@@ -203,7 +209,8 @@ main.about-main {
 .about {
 	margin-top: 10px;
 	border: 1px solid black;
-	height: 500px;
+	height: 485px;
+	margin-bottom: 80px;
 }
 
 .about-header-real {
@@ -225,6 +232,7 @@ main.about-main {
 .about-header-real button {
 	float: right;
 	margin: 8px;
+	font-size: 1em;
 	background-color: #3771C5;
 	color: white;
 	padding: 2px 8px;
@@ -262,10 +270,11 @@ main.about-main {
 .more-info {
 	margin: 20px;
 	width: 45%;
+	line-height: 1.3em;
 }
 
 .more-info h2 {
 	font-size: 30px;
-	margin: 20px;
+	margin: 40px 0px 10px;
 }
 
