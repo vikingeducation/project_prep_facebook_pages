@@ -1,0 +1,46 @@
+html, body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	border: 1px solid gray;
+}
+
+header {
+	height: 50px;
+	background-color: #237BDD;
+	width: 100%;
+	padding: 10px;
+}
+
+header h1 {
+	display: inline-block;
+	margin: 10px 20px;
+	color: #fff;
+}
+
+header .login-info {
+	display: inline-block;
+	float: right;
+	margin: 10px 30px;
+}
+
+header label {
+	color: #fff;
+}
+
+.info {
+	margin: 90px 60px 0px 100px;
+	line-height: 48px;
+	font-size: 20px;
+}
+
+.info ul {
+	margin-left: 14px;
+}
+
+.float-left {float: left;} .float-right {float: right;}
+
+
