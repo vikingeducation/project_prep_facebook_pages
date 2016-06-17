@@ -4,12 +4,8 @@ html, body {
 	padding: 0;
 }
 
-div {
-	border: 1px solid gray;
-}
-
 header {
-	height: 50px;
+	height: 60px;
 	background-color: #237BDD;
 	width: 100%;
 	padding: 10px;
@@ -19,6 +15,7 @@ header h1 {
 	display: inline-block;
 	margin: 10px 20px;
 	color: #fff;
+	font-size: 2.6em;
 }
 
 header .login-info {
@@ -29,16 +26,81 @@ header .login-info {
 
 header label {
 	color: #fff;
+	margin-right: 100px;
+}
+
+header input {
+	margin-right: 10px;
+}
+
+header input[type="submit"] {
+	background-color: #9DC6F4;
+	box-shadow: 3px 3px 2px #000;
+	border: none;
+	padding: 2px 6px;
+	font-size: 0.8em;
 }
 
 .info {
-	margin: 90px 60px 0px 100px;
+	display: inline-block;
+	margin: 60px 0 0 100px;
 	line-height: 48px;
 	font-size: 20px;
+	with: 20%;
 }
 
 .info ul {
 	margin-left: 14px;
+}
+
+.sign-up {
+	width: 40%;
+	margin: 30px 20px;
+}
+
+.sign-up input {
+	padding: 3px;
+	margin: 1em 1.1em 1em 0;
+	width: 90%;
+}
+
+.sign-up .first-last-name {
+	display: block;
+}
+
+.sign-up .first-last-name input {
+	width: 42%;
+}
+
+.sign-up select {
+	margin: 0px 10px 10px 0px;
+	font-size: 0.9em;
+}
+
+.sign-up input[type="radio"] {
+	margin-left: 0;
+	margin-right: 1px;
+	width: 5%;
+} 
+
+.sign-up input[type="radio"] + input[type="radio"] {
+		margin-left: 10px;
+}
+
+.sign-up-button {
+	background-color: #009D33;
+	color: white;
+	box-shadow: 5px 5px 2px #888;
+	height: 40px;
+	font-size: 20px;
+}
+
+footer {
+	height: 20px;
+	background-color: #C1C1C1;
+	clear: both;
+	padding: 0;
+	margin: 0;
 }
 
 .float-left {float: left;} .float-right {float: right;}

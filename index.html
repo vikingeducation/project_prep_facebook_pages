@@ -12,8 +12,8 @@
 	<div class="login-info">
 		<form>
 			<label for="email">Email</label>
-			<input type="text" id="email">
-			<label for="password">Password</label>
+			<label for="password">Password</label><br>
+			<input type="email" id="email">
 			<input type="password" id="password">
 			<input type="submit" id="submit-btn" value="Log In">
 		</form>
@@ -32,14 +32,16 @@
 	</div>
 	<div class="float-right sign-up">
 		<h1>Sign Up</h1>
-		<input type="text" value="First Name">
-		<input type="text" value="Last Name">
-		<input type="email" value="Your Email">
-		<input type="password" value="Your New Password">
-		<input type="password" value="Confirm Your Password">
-		<h4>Birthday</h4>
+		<div class="first-last-name">
+			<input type="text" placeholder="First Name">
+			<input type="text" placeholder="Last Name">
+		</div>
+		<input type="email" placeholder="Your Email">
+		<input type="password" placeholder="Your New Password">
+		<input type="password" placeholder="Confirm Your Password">
+		<h3>Birthday</h3>
 		<select name="month">
-			<option value="none" selected>Month</option>
+			<option value="month" selected>Month</option>
 			<option value="jan">January</option> 
 			<option value="feb">February</option> 
 			<option value="march">March</option> 
@@ -88,15 +90,12 @@
 			<option value="31">31</option> 
 		</select>
 		<select name="year">
-			<option value="year" selected>Year</option>
+			<option value="year" selected>Year</option></select><br>
 		</select>
 		<input type="radio" name="gender" value="male">Male
 		<input type="radio" name="gender" value="female">Female
 		<input class="sign-up-button" type="submit" value="Sign Up!">
 	</div>
-
-	<footer>
-	</footer>
 </main>
 
 
