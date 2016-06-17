@@ -28,44 +28,118 @@
           <button type="submit">Log In</button>
         </form>
       </header>
-      <div class="left-content-container">
-        <h1>Connect with friends and the world around you on Facebook.</h1>
-        <ul class="user-goals-list">
-          <li>
-            <i class="fa fa-newspaper-o" aria-hidden="true"></i>
-            See photos and updates <span class="light">from friends in News Feed.</span>
-          </li>
-          <li>
-            <i class="fa fa-television" aria-hidden="true"></i>
-            Share what's new <span class="light">in your life on your Timeline.</span>
-          </li>
-          <li>
-            <i class="fa fa-search" aria-hidden="true"></i>
-            Find more <span class="light">of what you're looking for with Facebook Search.</span>
-          </li>
-        </ul>
-      </div>
-      <div class="right-content-container">
-        <h1>Sign Up</h1>
-        <h3>It's free and it always will be.</h3>
-        <form class="signup-form form">
-          <input type="text" id="first-name" placeholder="First Name">
-          <input type="text" id="last-name" placeholder="Last Name">
-          <input type="text" id="mobile-or-email" placeholder="Mobile number or email">
-          <input type="text" id="mobile-or-email-confirmation" placeholder="Re-enter mobile number or email">
-          <input type="text" id="new-password" placeholder="New Password">
-          <label for="birthday">Birthday</label>
-          <input type="date" name="birthday">
-          <div class="tip">Why do I need to provide my birthday?</div>            
-          <input type="radio" name="gender" value="male"> Male
-          <input type="radio" name="gender" value="female"> Female
-          <p>By clicking <a href="#">Sign Up</a>, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Policy</a> inlcuding our <a href="#">Cookie Use.</a></p>
-          <button type="submit">Sign Up</button>
-        </form>
-        <hr>
-        <p class="create-a-page">
-          <a href="#">Create a Page</a> for a celebrity, band or business
-        </p>
+      <div class="main-content-container">
+        <div class="left-content-container">
+          <h1>Connect with friends and the world around you on Facebook.</h1>
+          <ul class="user-goals-list">
+            <li>
+              <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+              See photos and updates <span class="light">from friends in News Feed.</span>
+            </li>
+            <li>
+              <i class="fa fa-television" aria-hidden="true"></i>
+              Share what's new <span class="light">in your life on your Timeline.</span>
+            </li>
+            <li>
+              <i class="fa fa-search" aria-hidden="true"></i>
+              Find more <span class="light">of what you're looking for with Facebook Search.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="right-content-container">
+          <h1>Sign Up</h1>
+          <br>
+          <h3>It's free and it always will be.</h3>
+          <br>
+          <form class="signup-form form">
+            <input type="text" id="first-name" placeholder="First Name">
+            <input type="text" id="last-name" placeholder="Last Name">
+            <br>
+            <input type="text" id="mobile-or-email" placeholder="Mobile number or email">
+            <br>
+            <input type="text" id="mobile-or-email-confirmation" placeholder="Re-enter mobile number or email">
+            <br>
+            <input type="text" id="new-password" placeholder="New Password">
+            <br>
+            <label for="birthday" class="birthday">Birthday</label>
+            <br>
+            <select id="month">
+              <option>Month</option>
+              <option>Jan</option>
+              <option>Feb</option>
+              <option>Mar</option>
+              <option>Apr</option>
+              <option>May</option>
+              <option>Jun</option>
+              <option>Jul</option>
+              <option>Aug</option>
+              <option>Sep</option>
+              <option>Oct</option>
+              <option>Nov</option>
+              <option>Dec</option>
+            </select>
+            <select id="day">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+              <option>16</option>
+              <option>17</option>
+              <option>18</option>
+              <option>19</option>
+              <option>20</option>
+              <option>21</option>
+              <option>22</option>
+              <option>23</option>
+              <option>24</option>
+              <option>25</option>
+              <option>26</option>
+              <option>27</option>
+              <option>28</option>
+              <option>29</option>
+              <option>30</option>
+              <option>31</option>
+            </select>
+            <select id="year">
+              <option>2016</option>
+              <option>2015</option>
+              <option>2014</option>
+              <option>2013</option>
+              <option>2012</option>
+              <option>2011</option>
+              <option>2010</option>
+              <option>2009</option>
+              <option>2008</option>
+              <option>2007</option>
+            </select>
+            <div class="tip">Why do I need to provide my birthday?</div>
+            <br>           
+            <div class="radio-container">
+              <label for="female"><input type="radio" name="gender" id="female" value="female"> Female</label>
+              <label for="male"><input type="radio" name="gender" id="male"value="male"> Male</label>
+            </div>
+            <br>
+            <div class="agreements">
+              By clicking Sign Up, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Policy</a> inlcuding our <a href="#">Cookie Use.</a>
+            </div>
+            <button type="submit">Sign Up</button>
+          </form>
+          <hr>
+          <p class="create-a-page">
+            <a href="#">Create a Page</a> for a celebrity, band or business
+          </p>
+        </div>
       </div>
     </div>
   </body>
