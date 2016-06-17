@@ -24,6 +24,9 @@ body {
 .login h6 {
 	color: white;
 }
+#log-in {
+	color: black;
+}
 .login input {
 	border: 2px solid #222;
 }
@@ -35,9 +38,61 @@ body {
 	width: 60%;
 	display: block;
 	float:left;
+	text-align: center;
+	margin: 50px 0;
+}
+.sales_style {
+	text-align: left;
+	width: 55%;
+	margin-left: 200px;
 }
 .sign_up_form {
 	width: 40%;
 	display: block;
 	float: right;
+	margin: 25px 0;
+}
+h2 {
+	font-size: 40px;
+}
+ul {
+	list-style-type: circle;
+}
+h2 {
+	margin: 40px 0 25px 0;
+}
+li {
+	padding: 15px;
+}
+.first-name, .last-name {
+	width: 140px;
+}
+.email, .password, .password-confirm, .sign-up {
+	width: 300px;
+}
+input {
+	margin: 10px 0;
+	border: 2px solid #222;
+	padding: 5px;
+	color: #c2c2d6;
+}
+.sign-up {
+	background-color: #090;
+	color: white;
+	padding: 5px;
+	margin: 5px 0;
+	border: 2px solid #222;
+}
+h3 {
+	margin-top: 10px;
+}
+.birthday {
+	font-weight: bold;
+	margin: 10px 10px 10px 0;
+}
+select {
+	border: 1px solid #222;
+}
+#month, #day, #year {
+	color: #c2c2d6;
 }
