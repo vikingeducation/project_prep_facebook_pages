@@ -162,7 +162,7 @@ main.about-main {
 	position: relative;
 	top: -200px;
 	left: 30px;
-	border: 1px solid red;
+	border: 1px solid black;
 }
 
 .profile-picture h2 {
@@ -177,21 +177,95 @@ main.about-main {
 .navigation {
 	display: inline-block;
 	margin-left: 40px;
+	padding: 0;
+	border: 1px solid black;
+	float: left;
 }
 
 .navigation h4 {
 	float: left;
 	display: inline-block;
 	padding: 10px 20px;
-	margin: 10px 0;
+	margin: 0;
 	border: 2px solid black;
 }
 
 .navigation a {
 	margin-left: 270px;
-	margin-top: 10px;
 	display: inline-block;
 	padding: 10px 8px;
 }
 
+.about-header {
+	border: 1px solid black;
+}
+
+.about {
+	margin-top: 10px;
+	border: 1px solid black;
+	height: 500px;
+}
+
+.about-header-real {
+	height: 50px;
+	background-color: #eee;
+	text-align: left;
+	width: 100%;
+	border: 2px solid black;
+}
+
+.about-header-real h3 {
+	font-size: 2em;
+	padding: 8px;
+	margin: 0 auto;
+	margin-left: 240px;
+	display: inline-block;
+}
+
+.about-header-real button {
+	float: right;
+	margin: 8px;
+	background-color: #3771C5;
+	color: white;
+	padding: 2px 8px;
+}
+
+.basic-info {
+	display: inline-block;
+	margin: 40px 20px 20px -150px;
+	font-size: 1em;
+	width: 40%;
+}
+
+.basic-info table tr {
+	display: inline-block;
+	margin: 10px;
+}
+
+.basic-info table caption {
+	font-size: 30px;
+	margin-right: 160px;
+}
+
+.basic-info tr {
+	width: 90%;
+}
+
+.basic-info td {
+	width: 200px;
+}
+
+.contact-info {
+	margin: 40px 0;
+}
+
+.more-info {
+	margin: 20px;
+	width: 45%;
+}
+
+.more-info h2 {
+	font-size: 30px;
+	margin: 20px;
+}
 
