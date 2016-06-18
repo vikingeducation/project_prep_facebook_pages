@@ -15,6 +15,9 @@ h1,h2,h3,p,ul, body, html, input
 h1,h2,h3
   display: inline-block
 
+body
+  background-image: linear-gradient(white, rgb(211, 216, 232))
+
 .wrapper, body, html
   height: 100%
 
@@ -31,19 +34,59 @@ a
 ul
   list-style: none
 
-//Login Header
+//Header
 
 header
-  height: 82px
-  background: $dark-blue
+  height: 42px
+  background-image: linear-gradient(#4e69a2, #3b5998 50%)
   color: white
-  padding: 13px 142.5px 0
+  padding: 0 160px  
+
+  .fa-facebook-official
+    font-size: 28px
+    line-height: 42px
 
   h2
     font-size: 40px
     line-height: 74px
     display: inline-block
 
+  input
+    text-indent: 5px
+    height: 23px
+    border: 1px solid #1d2a5b
+
+  #search-bar
+    height: 26px
+    width: 400px
+    position: relative
+    border-radius: 3px
+    top: -5px
+    border: 1px solid #3b5998
+    font-size: 14px
+
+  #search-button
+    background: #f6f7f9
+    height: 26px
+    width: 46px
+    position: relative
+    top: -5px
+    right: 7px
+    border: 1px solid #3b5998
+    border-radius: 0 3px 3px 0
+    border-left: none
+    
+
+    .fa
+      font-size: 16px
+      color: #4b4f56
+
+
+
+
+#login-header
+  height: 82px
+  padding: 13px 142.5px 0
   //login form
 
   form 
@@ -76,10 +119,8 @@ header
         top: -4px
 
       input
-        text-indent: 5px
         width: 100%
         height: 23px
-        border: 1px solid #1d2a5b
 
       .tip
         color: $light-blue
@@ -101,12 +142,10 @@ header
 
 //main-content
 
-.main-content-container
+main
   padding: 13px 142.5px 
-  height: -webkit-calc(100% - 82px)
-  height:    -moz-calc(100% - 82px)
-  height:         calc(100% - 82px)
-  background: linear-gradient(white, rgb(211, 216, 232))
+  color: #333
+  
 
   .left-content-container, .right-content-container
     margin-top: 12px
@@ -114,12 +153,35 @@ header
   .left-content-container
     width: 550px
     display: inline-block
+    padding-top: 40px
+
+    .title
+      width: 450px
 
     h1
-      font-size: 32px
+      font-size: 28px
 
-    li
-      font-size: 16px
+    .user-goals-list
+      margin-top: 20px
+      font-weight: bold
+      font-size: 17px
+      line-height: 20px
+
+      .light
+        font-size: 15px
+        color: #666
+        font-weight: normal
+        line-height: 16px
+
+      li
+        padding: 18px 0
+
+      .fa 
+        font-size: 44px
+        color: #758AB7
+        position: relative
+        top: 9px
+        margin-right: 10px
 
   .right-content-container
     width: 408px
@@ -139,6 +201,7 @@ header
     .signup-form
       margin-top: 20px  
       font-size: 18px  
+      color: #1d2129
 
       input[type="text"]
         border: 1px solid #bdc7d8 
@@ -150,7 +213,17 @@ header
         font-size: 18px
 
       .birthday
+        display: inline-block
+
+      .birthday-label
         line-height: 24px
+        margin-bottom: 0
+
+      .birthday-select
+        font-size: 12px
+        height: 30px
+        padding: 5px
+        border: 1px solid #bdc7d8
 
       #first-name, #last-name
         width: 198px
@@ -163,9 +236,12 @@ header
         color: #365899
         display: inline-block
         width: 140px
-
+        
       .radio-container
         margin-top: 20px
+
+        label
+          margin-right: 12px
 
       .agreements
         font-size: 11px
@@ -192,6 +268,40 @@ header
       font-weight: bold
       font-size: 13px
       color: #666
+
+//profile page
+
+#profile-main
+  padding-top: 0
+
+#profile-column
+  width: 851px
+  
+  header
+    height: 315px
+    background-image: url("../images/dragon_cover.jpg")
+
+    #cover-camera
+      color: #BCBCBB
+      font-size: 20px
+      position: relative
+      top: -130px
+      right: 135px
+
+    img 
+      width: 168px
+      height: 168px
+      border: 4px solid #fff
+      position: relative
+      top: 175px
+      right: 165px
+
+    h1
+      font-weight: normal
+      font-size: 24px
+      position: relative
+      top: 130px
+      right: 155px
 
         
         

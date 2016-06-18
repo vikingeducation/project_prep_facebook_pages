@@ -8,6 +8,9 @@ h1, h2, h3, p, ul, body, html, input {
 h1, h2, h3 {
   display: inline-block; }
 
+body {
+  background-image: linear-gradient(white, #d3d8e8); }
+
 .wrapper, body, html {
   height: 100%; }
 
@@ -25,15 +28,47 @@ ul {
   list-style: none; }
 
 header {
-  height: 82px;
-  background: #3b5998;
+  height: 42px;
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
   color: white;
-  padding: 13px 142.5px 0; }
+  padding: 0 160px; }
+  header .fa-facebook-official {
+    font-size: 28px;
+    line-height: 42px; }
   header h2 {
     font-size: 40px;
     line-height: 74px;
     display: inline-block; }
-  header form {
+  header input {
+    text-indent: 5px;
+    height: 23px;
+    border: 1px solid #1d2a5b; }
+  header #search-bar {
+    height: 26px;
+    width: 400px;
+    position: relative;
+    border-radius: 3px;
+    top: -5px;
+    border: 1px solid #3b5998;
+    font-size: 14px; }
+  header #search-button {
+    background: #f6f7f9;
+    height: 26px;
+    width: 46px;
+    position: relative;
+    top: -5px;
+    right: 7px;
+    border: 1px solid #3b5998;
+    border-radius: 0 3px 3px 0;
+    border-left: none; }
+    header #search-button .fa {
+      font-size: 16px;
+      color: #4b4f56; }
+
+#login-header {
+  height: 82px;
+  padding: 13px 142.5px 0; }
+  #login-header form {
     float: right;
     display: inline-block;
     width: 392px;
@@ -41,7 +76,7 @@ header {
     justify-content: space-between;
     height: 65px;
     align-items: center; }
-    header form button {
+    #login-header form button {
       width: 56px;
       height: 23px;
       background: #4267b2;
@@ -50,65 +85,80 @@ header {
       cursor: pointer;
       border: 1px solid #29487d;
       color: white; }
-    header form .text-input {
+    #login-header form .text-input {
       width: 150px;
       font-size: 12px;
       color: white; }
-      header form .text-input .login-label {
+      #login-header form .text-input .login-label {
         position: relative;
         top: -4px; }
-      header form .text-input input {
-        text-indent: 5px;
+      #login-header form .text-input input {
         width: 100%;
-        height: 23px;
-        border: 1px solid #1d2a5b; }
-      header form .text-input .tip {
+        height: 23px; }
+      #login-header form .text-input .tip {
         color: #9cb4d8;
         position: relative;
         top: 4px; }
-        header form .text-input .tip input[type="checkbox"] {
+        #login-header form .text-input .tip input[type="checkbox"] {
           width: 13px;
           height: 13px;
           vertical-align: bottom;
           position: relative;
           top: 0px;
           *overflow: hidden; }
-        header form .text-input .tip label {
+        #login-header form .text-input .tip label {
           display: block;
           text-indent: -15px;
           padding-left: 15px; }
 
-.main-content-container {
+main {
   padding: 13px 142.5px;
-  height: -webkit-calc(100% - 82px);
-  height: -moz-calc(100% - 82px);
-  height: calc(100% - 82px);
-  background: linear-gradient(white, #d3d8e8); }
-  .main-content-container .left-content-container, .main-content-container .right-content-container {
+  color: #333; }
+  main .left-content-container, main .right-content-container {
     margin-top: 12px; }
-  .main-content-container .left-content-container {
+  main .left-content-container {
     width: 550px;
-    display: inline-block; }
-    .main-content-container .left-content-container h1 {
-      font-size: 32px; }
-    .main-content-container .left-content-container li {
-      font-size: 16px; }
-  .main-content-container .right-content-container {
+    display: inline-block;
+    padding-top: 40px; }
+    main .left-content-container .title {
+      width: 450px; }
+    main .left-content-container h1 {
+      font-size: 28px; }
+    main .left-content-container .user-goals-list {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 20px; }
+      main .left-content-container .user-goals-list .light {
+        font-size: 15px;
+        color: #666;
+        font-weight: normal;
+        line-height: 16px; }
+      main .left-content-container .user-goals-list li {
+        padding: 18px 0; }
+      main .left-content-container .user-goals-list .fa {
+        font-size: 44px;
+        color: #758AB7;
+        position: relative;
+        top: 9px;
+        margin-right: 10px; }
+  main .right-content-container {
     width: 408px;
     display: inline-block;
     float: right; }
-    .main-content-container .right-content-container h1 {
+    main .right-content-container h1 {
       font-size: 36px;
       line-height: 48px;
       margin-bottom: 5px; }
-    .main-content-container .right-content-container h3 {
+    main .right-content-container h3 {
       font-size: 19px;
       line-height: 25px;
       font-weight: normal; }
-    .main-content-container .right-content-container .signup-form {
+    main .right-content-container .signup-form {
       margin-top: 20px;
-      font-size: 18px; }
-      .main-content-container .right-content-container .signup-form input[type="text"] {
+      font-size: 18px;
+      color: #1d2129; }
+      main .right-content-container .signup-form input[type="text"] {
         border: 1px solid #bdc7d8;
         border-radius: 5px;
         height: 39px;
@@ -116,25 +166,35 @@ header {
         padding: 10px;
         margin-bottom: 10px;
         font-size: 18px; }
-      .main-content-container .right-content-container .signup-form .birthday {
-        line-height: 24px; }
-      .main-content-container .right-content-container .signup-form #first-name, .main-content-container .right-content-container .signup-form #last-name {
+      main .right-content-container .signup-form .birthday {
+        display: inline-block; }
+      main .right-content-container .signup-form .birthday-label {
+        line-height: 24px;
+        margin-bottom: 0; }
+      main .right-content-container .signup-form .birthday-select {
+        font-size: 12px;
+        height: 30px;
+        padding: 5px;
+        border: 1px solid #bdc7d8; }
+      main .right-content-container .signup-form #first-name, main .right-content-container .signup-form #last-name {
         width: 198px; }
-      .main-content-container .right-content-container .signup-form #last-name {
+      main .right-content-container .signup-form #last-name {
         float: right; }
-      .main-content-container .right-content-container .signup-form .tip {
+      main .right-content-container .signup-form .tip {
         font-size: 11px;
         color: #365899;
         display: inline-block;
         width: 140px; }
-      .main-content-container .right-content-container .signup-form .radio-container {
+      main .right-content-container .signup-form .radio-container {
         margin-top: 20px; }
-      .main-content-container .right-content-container .signup-form .agreements {
+        main .right-content-container .signup-form .radio-container label {
+          margin-right: 12px; }
+      main .right-content-container .signup-form .agreements {
         font-size: 11px;
         color: #777;
         line-height: 15px;
         width: 320px; }
-      .main-content-container .right-content-container .signup-form button {
+      main .right-content-container .signup-form button {
         color: white;
         font-size: 19px;
         font-weight: bold;
@@ -148,9 +208,37 @@ header {
         border: 1px solid;
         border-color: #3b6e22 #3b6e22 #2c5115;
         border-radius: 5px; }
-    .main-content-container .right-content-container .create-a-page {
+    main .right-content-container .create-a-page {
       font-weight: bold;
       font-size: 13px;
       color: #666; }
+
+#profile-main {
+  padding-top: 0; }
+
+#profile-column {
+  width: 851px; }
+  #profile-column header {
+    height: 315px;
+    background-image: url("../images/dragon_cover.jpg"); }
+    #profile-column header #cover-camera {
+      color: #BCBCBB;
+      font-size: 20px;
+      position: relative;
+      top: -130px;
+      right: 135px; }
+    #profile-column header img {
+      width: 168px;
+      height: 168px;
+      border: 4px solid #fff;
+      position: relative;
+      top: 175px;
+      right: 165px; }
+    #profile-column header h1 {
+      font-weight: normal;
+      font-size: 24px;
+      position: relative;
+      top: 130px;
+      right: 155px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
+      <header id="login-header">
       <h2>facebook</h2>
         <form class="login-form form">
           <div class="login-email text-input">
@@ -28,9 +28,11 @@
           <button type="submit">Log In</button>
         </form>
       </header>
-      <div class="main-content-container">
+      <main>
         <div class="left-content-container">
-          <h1>Connect with friends and the world around you on Facebook.</h1>
+          <div class="title">
+            <h1>Connect with friends and the world around you on Facebook.</h1>
+          </div>
           <ul class="user-goals-list">
             <li>
               <i class="fa fa-newspaper-o" aria-hidden="true"></i>
@@ -61,9 +63,9 @@
             <br>
             <input type="text" id="new-password" placeholder="New Password">
             <br>
-            <label for="birthday" class="birthday">Birthday</label>
+            <label for="birthday" class="birthday-label">Birthday</label>
             <br>
-            <select id="month">
+            <select id="month" class="birthday-select">
               <option>Month</option>
               <option>Jan</option>
               <option>Feb</option>
@@ -78,7 +80,7 @@
               <option>Nov</option>
               <option>Dec</option>
             </select>
-            <select id="day">
+            <select id="day" class="birthday-select">
               <option>1</option>
               <option>2</option>
               <option>3</option>
@@ -111,7 +113,7 @@
               <option>30</option>
               <option>31</option>
             </select>
-            <select id="year">
+            <select id="year" class="birthday-select">
               <option>2016</option>
               <option>2015</option>
               <option>2014</option>
@@ -123,7 +125,9 @@
               <option>2008</option>
               <option>2007</option>
             </select>
-            <div class="tip">Why do I need to provide my birthday?</div>
+            <div class="tip">
+            Why do I need to provide my birthday?
+            </div>
             <br>           
             <div class="radio-container">
               <label for="female"><input type="radio" name="gender" id="female" value="female"> Female</label>
@@ -140,7 +144,7 @@
             <a href="#">Create a Page</a> for a celebrity, band or business
           </p>
         </div>
-      </div>
+      </main>
     </div>
   </body>
 </html>
