@@ -150,7 +150,6 @@ select {
 }
 .about_wrapper {
 	display: block
-	border: 2px solid red;
 }
 .about_nav {
 	margin: 0 auto;
@@ -168,10 +167,62 @@ select {
 	background-color: #eee;
 	margin: 0;
 	border-left: 2px solid #222;
+	width: 100px;
 }
 .about_nav li:nth-child(4) {
 	border-right: 2px solid #222;
 }
 .about_nav a {
 	display: block;
+}
+.info {
+	display: block;
+}
+#info {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+}
+#edit_profile {
+	float: right;
+	background: #00f;
+	color: white;
+	margin-right: 5px;
+}
+#about {
+	border: 1px solid #222;
+	background: #eee;
+	padding: 15px 0;
+	width: 100%;
+	font-size: 24px;
+}
+.basic_info {
+	display: block;
+	width: 45%;
+	float: left;
+}
+.basic_head {
+	float: left;
+	clear: left;
+	font-size: 20px;
+}
+#info_t, #contact_t {
+	clear: left;
+	float: left;
+	text-align: left;
+}
+#about_wrapper {
+	display: block;
+	float: right;
+	width: 45%;
+}
+#about_content {
+	text-align: left;
+}
+h5 {
+	font-size: 20px;
+	padding: 20px 5px;
+}
+td {
+	padding: 0 5px;
 }
