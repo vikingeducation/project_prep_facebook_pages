@@ -64,6 +64,44 @@ header {
     header #search-button .fa {
       font-size: 16px;
       color: #4b4f56; }
+  header #header-icons {
+    display: inline-block;
+    float: right;
+    height: 24px;
+    margin-top: 8px; }
+    header #header-icons ul {
+      display: flex;
+      align-items: center; }
+    header #header-icons li {
+      display: inline-block;
+      line-height: 24px;
+      font-size: 12px;
+      font-weight: bold;
+      -webkit-font-smoothing: antialiased; }
+    header #header-icons .image {
+      display: flex;
+      align-items: center; }
+      header #header-icons .image img {
+        height: 24px; }
+    header #header-icons .name {
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+      padding-right: 10px; }
+    header #header-icons .home {
+      padding-left: 10px; }
+    header #header-icons .icon {
+      display: flex;
+      align-items: center; }
+      header #header-icons .icon .fa {
+        font-size: 20px;
+        margin: 0 8px;
+        color: #1a1a1a; }
+      header #header-icons .icon .fa-users {
+        margin-left: 30px; }
+      header #header-icons .icon .fa-globe {
+        border-right: 1px solid rgba(0, 0, 0, 0.1);
+        padding-right: 20px; }
+    header #header-icons .small .fa {
+      font-size: 16px; }
 
 #login-header {
   height: 82px;
@@ -228,12 +266,15 @@ main {
       top: -130px;
       right: 135px; }
     #profile-column header img {
+      z-index: 100;
       width: 168px;
       height: 168px;
       border: 4px solid #fff;
       position: relative;
       top: 175px;
-      right: 165px; }
+      right: 165px;
+      border-radius: 2px;
+      box-shadow: 0 0 0 1px #aaa; }
     #profile-column header h1 {
       font-weight: normal;
       font-size: 24px;
@@ -269,5 +310,37 @@ main {
       border-left: 1px solid #bbb; }
       #profile-column header #icon-tip .fa {
         color: #999; }
+    #profile-column header #profile-tabs {
+      height: 43px;
+      width: 851px;
+      position: relative;
+      right: 160px;
+      top: 114px;
+      background: white;
+      border: 1px solid #bbb;
+      border-top: none;
+      border-radius: 0 0 2px 2px;
+      padding-left: 200px; }
+      #profile-column header #profile-tabs ul {
+        color: #365899; }
+        #profile-column header #profile-tabs ul li {
+          margin-left: -6px;
+          display: inline-block;
+          line-height: 43px;
+          border-left: 1px solid #ddd;
+          height: 43px;
+          font-size: 14px;
+          font-weight: bold;
+          padding: 0 15px;
+          text-align: center; }
+          #profile-column header #profile-tabs ul li .light {
+            font-size: 11px;
+            color: #999; }
+        #profile-column header #profile-tabs ul .selected {
+          color: #444; }
+        #profile-column header #profile-tabs ul .more {
+          border-right: 1px solid #ddd; }
+          #profile-column header #profile-tabs ul .more .fa {
+            margin-left: 6px; }
 
 /*# sourceMappingURL=main.css.map */
