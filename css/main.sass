@@ -19,7 +19,7 @@ body
   background-image: linear-gradient(white, rgb(211, 216, 232))
 
 .wrapper, body, html
-  height: 100%
+  min-height: 100%
 
 input
   border: 1px
@@ -327,7 +327,7 @@ main
 #profile-column
   width: 851px
   
-  header
+  #profile-header
     height: 315px
     background-image: url("../images/dragon_cover.jpg")
 
@@ -431,7 +431,74 @@ main
           .fa
             margin-left: 6px
 
+  #about
+    margin-top: 60px
+    background-color: white
+    border: 1px solid #d3d6db
+    height: 400px
 
+    header
+      padding-left: 20px
+      background: #f6f7f9
+      height: 60px
+      border-bottom: 1px solid #d3d6db
+
+      .fa
+        color: #777
+        margin-right: 5px
+
+      h2
+        line-height: 60px
+        color: #4b4f56
+        font-size: 20px
+
+    nav
+      padding-left: 16px
+      width: 242px
+      border-right: 1px solid #d3d6db
+      padding-top: 14px
+      display: inline-block
+          
+      li
+        font-size: 14px
+        line-height: 18px
+        color: #aaa
+        margin-bottom: 22px
         
-        
-      
+    .selected
+      font-weight: bold
+      color: black
+
+      #selected-indicator
+        display: inline-block
+        width: 3px
+        height: 25px
+        background: #3B5998
+        position: relative
+        right: 16px
+        top: 8px
+        margin-right: -4px
+
+    #about-content
+      display: inline-block
+      width: 602px
+      float: right
+      font-size: 14px
+      padding: 22px 14px 0
+
+      li
+        display: flex
+        align-items: center
+        height: 100px
+        border-bottom: 1px solid rgba(0, 0, 0, .1)
+        width: 350px
+
+        .icon
+          height: 32px
+          margin-right: 14px
+
+      #last 
+        border-bottom: none
+          
+
+
