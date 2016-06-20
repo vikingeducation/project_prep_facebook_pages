@@ -1,0 +1,44 @@
+body{
+  font-family: Helvetica, sans-serif;
+}
+
+.navbar{
+  height: 82px;
+  width: 100%
+  background-color: #4867AA;
+}
+
+.navbar-content{
+  margin: auto;
+  width: 980px;
+  line-height: 65px;
+  padding-top: 13px;
+}
+
+.pull-left{
+  float: left;
+  vertical-align: middle;
+}
+
+.pull-right{
+  float: right;
+  vertical-align: middle;
+
+}
+
+.clearfix{
+  ***
+}
+
+.col-60{
+  display: inline-block;
+  width: 60%;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.col-40{
+  width: 40%;
+  padding-left: 4px;
+  padding-right: 4px; 
+}
