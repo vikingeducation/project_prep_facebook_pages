@@ -45,6 +45,7 @@ header
   .fa-facebook-official
     font-size: 28px
     line-height: 42px
+    margin-right: 10px
 
   h2
     font-size: 40px
@@ -59,9 +60,7 @@ header
   #search-bar
     height: 26px
     width: 400px
-    position: relative
     border-radius: 3px
-    top: -5px
     border: 1px solid #3b5998
     font-size: 14px
 
@@ -70,12 +69,10 @@ header
     height: 26px
     width: 46px
     position: relative
-    top: -5px
     right: 7px
     border: 1px solid #3b5998
     border-radius: 0 3px 3px 0
     border-left: none
-    
 
     .fa
       font-size: 16px
@@ -85,7 +82,7 @@ header
     display: inline-block
     float: right
     height: 24px
-    margin-top: 8px
+    margin-left: auto
 
     ul
       display: flex
@@ -132,6 +129,12 @@ header
       
       .fa
         font-size: 16px
+
+#small-header
+  display: flex
+  align-items: center
+  justify-content: flex-start
+
 
 #login-header
   height: 82px
@@ -195,7 +198,6 @@ header
 main
   padding: 13px 142.5px 
   color: #333
-  
 
   .left-content-container, .right-content-container
     margin-top: 12px
@@ -323,9 +325,13 @@ main
 
 #profile-main
   padding-top: 0
+  padding-right: 105px
+  display: flex
+  
 
 #profile-column
   width: 851px
+  display: inline-block
   
   #profile-header
     height: 315px
@@ -484,7 +490,7 @@ main
       width: 602px
       float: right
       font-size: 14px
-      padding: 22px 14px 0
+      padding: 0px 14px 0
 
       li
         display: flex
@@ -499,6 +505,15 @@ main
 
       #last 
         border-bottom: none
-          
+
+#sponsored-column
+  display: inline-block
+  background: green
+  width: 150px
+  float: right
+
+  h3
+    font-size: 12px
+
 
 
