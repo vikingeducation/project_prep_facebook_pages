@@ -9,7 +9,7 @@
   <body>
     <div class="wrapper">
       <header id="login-header">
-      <h2>facebook</h2>
+      <h2 id="brand">facebook</h2>
         <form class="login-form form">
           <div class="login-email text-input">
             <label for="email-or-phone" class="login-label">Email or Phone</label>
@@ -54,8 +54,10 @@
           <h3>It's free and it always will be.</h3>
           <br>
           <form class="signup-form form">
-            <input type="text" id="first-name" placeholder="First Name">
-            <input type="text" id="last-name" placeholder="Last Name">
+            <div id="name-input-container">
+              <input type="text" id="first-name" placeholder="First Name">
+              <input type="text" id="last-name" placeholder="Last Name">
+            </div>
             <br>
             <input type="text" id="mobile-or-email" placeholder="Mobile number or email">
             <br>
@@ -126,7 +128,7 @@
               <option>2007</option>
             </select>
             <div class="tip">
-            Why do I need to provide my birthday?
+              Why do I need to provide my birthday?
             </div>
             <br>           
             <div class="radio-container">

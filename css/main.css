@@ -108,9 +108,12 @@ header {
 
 #login-header {
   height: 82px;
-  padding: 13px 142.5px 0; }
+  padding: 13px 142.5px 0;
+  display: flex; }
+  #login-header #brand {
+    margin-right: 320px; }
   #login-header form {
-    float: right;
+    margin-left: auto;
     display: inline-block;
     width: 392px;
     display: flex;
@@ -129,7 +132,8 @@ header {
     #login-header form .text-input {
       width: 150px;
       font-size: 12px;
-      color: white; }
+      color: white;
+      margin-right: 20px; }
       #login-header form .text-input .login-label {
         position: relative;
         top: -4px; }
@@ -161,7 +165,8 @@ main {
   main .left-content-container {
     width: 550px;
     display: inline-block;
-    padding-top: 40px; }
+    padding-top: 40px;
+    margin-right: 30px; }
     main .left-content-container .title {
       width: 450px; }
     main .left-content-container h1 {
@@ -186,7 +191,6 @@ main {
         margin-right: 10px; }
   main .right-content-container {
     width: 408px;
-    display: inline-block;
     margin-left: auto; }
     main .right-content-container h1 {
       font-size: 36px;
@@ -218,17 +222,24 @@ main {
         height: 30px;
         padding: 5px;
         border: 1px solid #bdc7d8; }
-      main .right-content-container .signup-form #first-name, main .right-content-container .signup-form #last-name {
-        width: 198px; }
-      main .right-content-container .signup-form #last-name {
-        float: right; }
+      main .right-content-container .signup-form #name-input-container {
+        display: flex;
+        justify-content: space-between; }
+        main .right-content-container .signup-form #name-input-container #first-name {
+          margin-right: 8px; }
+        main .right-content-container .signup-form #name-input-container #first-name, main .right-content-container .signup-form #name-input-container #last-name {
+          width: 200px;
+          margin-bottom: -10px; }
       main .right-content-container .signup-form .tip {
         font-size: 11px;
         color: #365899;
-        display: inline-block;
-        width: 140px; }
+        display: inline-flex;
+        width: 45%;
+        align-items: center;
+        position: relative;
+        bottom: 7px; }
       main .right-content-container .signup-form .radio-container {
-        margin-top: 20px; }
+        margin-top: 12px; }
         main .right-content-container .signup-form .radio-container label {
           margin-right: 12px; }
       main .right-content-container .signup-form .agreements {

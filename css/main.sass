@@ -139,11 +139,15 @@ header
 #login-header
   height: 82px
   padding: 13px 142.5px 0
+  display: flex
   
   //login form
 
+  #brand
+    margin-right: 320px
+
   form 
-    float: right
+    margin-left: auto
     display: inline-block
     // background: red
     width: 392px
@@ -166,6 +170,7 @@ header
       width: 150px
       font-size: 12px
       color: white
+      margin-right: 20px
 
       .login-label
         position: relative
@@ -207,6 +212,7 @@ main
     width: 550px
     display: inline-block
     padding-top: 40px
+    margin-right: 30px
 
     .title
       width: 450px
@@ -238,7 +244,6 @@ main
 
   .right-content-container
     width: 408px
-    display: inline-block
     margin-left: auto
 
     h1
@@ -278,20 +283,28 @@ main
         padding: 5px
         border: 1px solid #bdc7d8
 
-      #first-name, #last-name
-        width: 198px
+      #name-input-container
+        display: flex
+        justify-content: space-between
 
-      #last-name
-        float: right
+        #first-name
+          margin-right: 8px
+
+        #first-name, #last-name
+          width: 200px
+          margin-bottom: -10px
 
       .tip
         font-size: 11px
         color: #365899
-        display: inline-block
-        width: 140px
+        display: inline-flex
+        width: 45%
+        align-items: center
+        position: relative
+        bottom: 7px
         
       .radio-container
-        margin-top: 20px
+        margin-top: 12px
 
         label
           margin-right: 12px
