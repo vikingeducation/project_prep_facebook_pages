@@ -154,7 +154,8 @@ header {
 
 main {
   padding: 13px 142.5px;
-  color: #333; }
+  color: #333;
+  display: flex; }
   main .left-content-container, main .right-content-container {
     margin-top: 12px; }
   main .left-content-container {
@@ -186,7 +187,7 @@ main {
   main .right-content-container {
     width: 408px;
     display: inline-block;
-    float: right; }
+    margin-left: auto; }
     main .right-content-container h1 {
       font-size: 36px;
       line-height: 48px;
