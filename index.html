@@ -13,17 +13,12 @@
           <h1>facelook<h1>
         </div>
         <div class="pull-right">
-          <table cellspacing="0" class="login">
-            <tbody>
+          <table class="login">
+            <tbody class="t-align">
               <tr>
-                <th>
-                  Email:
-                </th>
-                <th>
-                  Password:
-                </th>
-                <th>
-                </th>
+                <th>Email:</th>
+                <th>Password:</th>
+                <th class="last"></th>
               </tr>
               <tr>
                 <td>
@@ -32,8 +27,17 @@
                 <td>
                   <input type="password" class="login-input">
                 </td>
+                <td class="last">
+                  <input type="submit" class="button" value="Log In">
+                </td>
+              </tr>
+              <tr>
                 <td>
-                  <input type="submit" class="button" value="Login">
+                </td>
+                <td style="color: #9cb4d8">
+                  Forgot account?
+                </td>
+                <td class="last">
                 </td>
               </tr>
             </tbody>
@@ -42,7 +46,7 @@
       </div>
     </div>
     <div class="main-content-container">
-      <section class="left">
+      <section class="col-1">
         <h2>Connect with all your friends!</h2>
         <ul>
           <li>
@@ -59,9 +63,95 @@
           </li>
         </ul>
       </section>
-      <section class="right">
-        <form>
-          Sign Up
-        </form>
+      <section class="col-2">
+        <div class="reg-form-container">
+          <fieldset>
+            <form>
+            <legend class="h2">Sign Up</legend>
+            <div class="row-1">
+              <input type="text" name="first-name" value="First Name">
+              <input type="text" name="last-name" value="Last Name">
+            </div>
+            <div class="row-2">
+              <input type="email" name="email" value="Your Email Address">
+            </div>
+            <div class="row-3">
+              <input type="text" name="password" value="Your New Password">
+            </div>
+            <div class="row-4">
+              <input type="text" name="confirm-password" value="Confirm Your Password">
+            </div>
+            <div class="row-5-6">
+              <fieldset>
+                <legend class="birthday">
+                  Birthday
+                </legend>
+                <select name="birthmonth">
+                  <option value="" disabled selected>Month</option>
+                  <option value="January">January</option>
+                  <option value="February">February</option>
+                  <option value="March">March</option>
+                  <option value="April">April</option>
+                  <option value="May">May</option>
+                  <option value="June">June</option>
+                  <option value="July">July</option>
+                  <option value="August">August</option>
+                  <option value="September">September</option>
+                  <option value="October">October</option>
+                  <option value="November">November</option>
+                  <option value="December">December</option>
+                </select>
+                <select name="birthday">
+                  <?php
+                    for ($i=1; $i<=31; $i++)
+                    {
+                        ?>
+                          <option value="<?php echo $i;?>">
+                            <?php echo $i;?>  
+                          </option>
+                        <?php
+                    }
+                ?>
+                </select>
+                <select name="birthyear" value="year">
+                  <option value="" disabled selected>Year</option>
+                  <option value="January">January</option>
+                  <option value="February">February</option>
+                  <option value="March">March</option>
+                  <option value="April">April</option>
+                  <option value="May">May</option>
+                  <option value="June">June</option>
+                  <option value="July">July</option>
+                  <option value="August">August</option>
+                  <option value="September">September</option>
+                  <option value="October">October</option>
+                  <option value="November">November</option>
+                  <option value="December">December</option>
+                </select>
+              </fieldset>
+            </div>
+            <div class="row-7">
+              <label>
+              <input type="radio" name="gender" value="Female">Female
+              </label>
+              <label>
+              <input type="radio" name="gender" value="Male">Male
+              </label>
+            </div>
+            <div class="row-8">
+              <input type="submit" name="sign-up" class="cta-button" value="Sign Up!">
+            </div>
+          </form>
+          </fieldset>
+        </div>
       </section>
     </div>
+
+
+
+
+
+
+
+
+

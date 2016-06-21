@@ -2,14 +2,6 @@ body{
   font-family: Helvetica, sans-serif;
 }
 
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .navbar{
   position: absolute;
   top: 0;
@@ -22,44 +14,83 @@ body{
 
 .navbar-content{
   margin: auto;
-  max-height: 82px;
-  padding: 0 25px;
+  position: absolute;
+  top: 5px;
+  height: 73px;
+  line-height: 73px;
+  width: 100%;
 }
 
 .pull-left{
   float: left;
-  vertical-align: middle;
 }
 
-h1{
+.navbar h1{
   color: #fff;
   font-size: 40px;
   font-weight: 600;
+  padding-left: 25px;
 }
 
 .pull-right{
   float: right;
+  padding-right: 25px;
 }
 
-.login tbody{
-  height: 82px;
-  line-height: 82px;
+td, th{
+  -webkit-appearance:none;
+}
+
+input .email{
+  width: 150px;
+}
+
+table.login{
+  height: 73px;
+  line-height: 73px;
   width: 392px;
+  vertical-align: middle;
 }
 
-.login th,td{
+.login th{
   height: 24px;
   line-height: 24px;
-  width: 150px;
+  width: 136px;
   padding-left: 14px;
   color: #fff;
+  text-align: left;
+  vertical-align: bottom;
+  font-size: 14px;
+}
+
+.login td{
+  height: 24px;
+  line-height: 24px;
+  width: 136px;
+  padding-left: 14px;
+  text-align: left;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.login-input{
+  width: 144px;
+}
+
+.last{
+  max-width: 78px;
+  vertical-align: middle;
 }
 
 .button{
   height: 24px;
-  line-height: 24px;
+  line-height: 18px;
+  width: 64px;
   font-size: 14px;
-  border: 1px solid #ddd;
+  border: 1px solid #333;
+  background-color: #5a76b2;
+  vertical-align: middle;
+  color: #fff;
 }
 
 .clearfix:after{
@@ -69,40 +100,46 @@ h1{
 }
 
 .main-content-container{
-  position: absolute;
-  margin-top: 83px;
+  margin: 83px auto;
   max-width: 980px;
-  padding: 20px 0;
+  padding: 25px 0;
 }
 
-.left{
+.col-1{
   margin: auto;
   display: inline-block;
-  width: 57%;
-  max-width: 565px;
-  margin-right: 15.999px;
+  max-width: 534px;
+  margin: 25px;
+  vertical-align: middle;
 }
 
 h2{
-  font-size: 36px;
+  font-size: 28px;
   color: #111;
-  line-height: 56px;
+  line-height: 38px;
   padding: 10px 5px;
 }
 
 ul{
   line-height: 51px;
   vertical-align: middle;
-  list-style-type: circle;
+  list-style-type: square;
   list-style-position: inside;
   padding-left: 25px;
 }
 
-.right{
-  margin: auto;
+.col-2{
+  position: absolute;
+  right: 0;
   display: inline-block;
-  width: 35%;
-  max-width: 399px;
+  width: 392px;
+  margin: 25px;
+  vertical-align: middle;
+}
+
+form .h2{
+  font-size: 40px;
+  font-weight: 500;
 }
 
 
