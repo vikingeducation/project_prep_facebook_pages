@@ -7,25 +7,30 @@
     <title>Facebook</title>
   </head>
   <body>
-    <div class="wrapper">
+    <!-- <div class="wrapper"> -->
       <header id="small-header">
-        <i class="fa fa-facebook-official" aria-hidden="true"></i>
-        <input type="text" id="search-bar" placeholder="Search Facebook">
-        <button type="submit" id="search-button">
-        <i class="fa fa-search" aria-hidden="true"></i>
-        </button>
-        <nav id="header-icons">
-          <ul>
-          <li class="image"><img src="images/dany_thumbnail.jpg"></li>
-          <li class="name">&nbspDaenerys</li>
-          <li class="home">Home</li>
-          <li class="icon"><i class="fa fa-users" aria-hidden="true"></i></li>
-          <li class="icon"><i class="fa fa-comments" aria-hidden="true"></i></li>
-          <li class="icon"><i class="fa fa-globe" aria-hidden="true"></i></li>
-          <li class="icon small"><i class="fa fa-lock" aria-hidden="true"></i></li>
-          <li class="icon small"><i class="fa fa-caret-down" aria-hidden="true"></i></li>
-        </nav>
+        <div class="header-wrapper">
+          <i class="fa fa-facebook-official" aria-hidden="true"></i>
+          <input type="text" id="search-bar" placeholder="Search Facebook">
+          <button type="submit" id="search-button">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+          <nav id="header-icons">
+            <ul>
+              <li class="image"><img src="images/dany_thumbnail.jpg"></li>
+              <li class="name">&nbspDaenerys</li>
+              <li class="home">Home</li>
+              <li class="icon"><i class="fa fa-users" aria-hidden="true"></i></li>
+              <li class="icon"><i class="fa fa-comments" aria-hidden="true"></i></li>
+              <li class="icon"><i class="fa fa-globe" aria-hidden="true"></i></li>
+              <li class="icon small"><i class="fa fa-lock" aria-hidden="true"></i></li>
+              <li class="icon small"><i class="fa fa-caret-down" aria-hidden="true"></i></li>
+            </ul>
+          </nav>
+          </div>
       </header>
+      <div id="header-pusher">
+      </div>
       <main id="profile-main">
         <div id="profile-column">
           <header id="profile-header">
@@ -96,8 +101,22 @@ About</h2>
         </div>
         <div id="sponsored-column">
           <h3>Sponsored</h3>
+          <div class="ad">
+            <img src="images/unsullied.jpg">
+            <h5><a href="#">Conquer the World</h5></a>
+            <p class="ad-content">
+              Trained from birth and mindlessly diciplined. The best warlords use The Unsullied.
+            </p>
+          </div>
+          <div class="ad">
+            <img src="images/faceless.jpeg">
+            <h5><a href="#">The Best in Death</h5></a>
+            <p class="ad-content">
+              Archnemesis getting you down? Our assasins have the best reputation on this side of The Narrow Sea.
+            </p>
+          </div>
         </div>
       </main>
-    </div>
+    <!-- </div> -->
   </body>
 </html>

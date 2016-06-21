@@ -1,15 +1,19 @@
 * {
   box-sizing: border-box; }
 
-h1, h2, h3, p, ul, body, html, input {
+h1, h2, h3, h4, h5, p, ul, body, html, input {
   margin: 0;
   padding: 0; }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
   display: inline-block; }
 
 body {
-  background-image: linear-gradient(white, #d3d8e8); }
+  background-image: linear-gradient(white, #d3d8e8);
+  min-width: 960px; }
+
+#login-page {
+  min-width: 1225px !important; }
 
 .wrapper, body, html {
   min-height: 100%; }
@@ -101,10 +105,22 @@ header {
     header #header-icons .small .fa {
       font-size: 16px; }
 
+#header-pusher {
+  height: 42px; }
+
 #small-header {
+  padding: 0;
+  padding-left: 5px;
+  position: fixed;
+  width: 100%;
+  z-index: 2000;
+  border-bottom: 1px solid #29487d; }
+
+.header-wrapper {
   display: flex;
   align-items: center;
-  justify-content: flex-start; }
+  max-width: 960px;
+  margin: 0 auto; }
 
 #login-header {
   height: 82px;
@@ -267,9 +283,11 @@ main {
       color: #666; }
 
 #profile-main {
-  padding-top: 0;
-  padding-right: 105px;
-  display: flex; }
+  padding: 0;
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+  padding-right: 130px; }
 
 #profile-column {
   width: 851px;
@@ -419,11 +437,23 @@ main {
         border-bottom: none; }
 
 #sponsored-column {
-  display: inline-block;
-  background: green;
-  width: 150px;
-  float: right; }
+  width: 160px;
+  position: fixed;
+  padding: 22px 0 0 10px; }
   #sponsored-column h3 {
-    font-size: 12px; }
+    font-size: 12px;
+    color: #90949c; }
+  #sponsored-column .ad {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 6px;
+    padding-top: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-size: 11px; }
+    #sponsored-column .ad h5 {
+      font-size: 11px;
+      margin-bottom: 2px; }
+    #sponsored-column .ad img {
+      width: 150px;
+      margin-bottom: 4px; }
 
 /*# sourceMappingURL=main.css.map */
