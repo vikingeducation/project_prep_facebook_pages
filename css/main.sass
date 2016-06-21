@@ -1,0 +1,593 @@
+//Variables
+$blue: #2b78e4
+$dark-blue: #3b5998
+$darker-blue: #29487d
+$light-blue: #9cb4d8
+
+//Global Styles and resets
+* 
+  box-sizing: border-box
+
+h1,h2,h3, h4, h5, p,ul, body, html, input
+  margin: 0
+  padding: 0
+
+h1,h2,h3, h4, h5
+  display: inline-block
+
+body
+  background-image: linear-gradient(white, rgb(211, 216, 232))
+  min-width: 960px
+
+#login-page
+  min-width: 1225px !important
+
+.wrapper, body, html
+  min-height: 100%
+
+input
+  border: 1px
+
+html 
+  font-family: helvetica
+
+a
+  text-decoration: none
+  color: #365899
+
+ul
+  list-style: none
+
+//Header
+
+header
+  height: 42px
+  background-image: linear-gradient(#4e69a2, #3b5998 50%)
+  color: white
+  padding: 0 160px  
+
+  .fa-facebook-official
+    font-size: 28px
+    line-height: 42px
+    margin-right: 10px
+
+  h2
+    font-size: 40px
+    line-height: 74px
+    display: inline-block
+
+  input
+    text-indent: 5px
+    height: 23px
+    border: 1px solid #1d2a5b
+
+  #search-bar
+    height: 26px
+    width: 400px
+    border-radius: 3px
+    border: 1px solid #3b5998
+    font-size: 14px
+
+  #search-button
+    background: #f6f7f9
+    height: 26px
+    width: 46px
+    position: relative
+    right: 7px
+    border: 1px solid #3b5998
+    border-radius: 0 3px 3px 0
+    border-left: none
+
+    .fa
+      font-size: 16px
+      color: #4b4f56
+
+  #header-icons
+    display: inline-block
+    float: right
+    height: 24px
+    margin-left: auto
+
+    ul
+      display: flex
+      align-items: center
+
+    li
+      display: inline-block
+      line-height: 24px
+      font-size: 12px
+      font-weight: bold
+      -webkit-font-smoothing: antialiased
+
+    .image
+      display: flex
+      align-items: center
+
+      img
+        height: 24px
+
+    .name 
+      border-right: 1px solid rgba(0,0,0,.1)
+      padding-right: 10px
+
+    .home
+      padding-left: 10px
+
+    .icon 
+      display: flex
+      align-items: center
+
+      .fa
+        font-size: 20px
+        margin: 0 8px
+        color: #1a1a1a
+
+      .fa-users
+        margin-left: 30px
+
+      .fa-globe
+        border-right: 1px solid rgba(0,0,0,.1)
+        padding-right: 20px
+
+    .small
+      
+      .fa
+        font-size: 16px
+
+#header-pusher
+  height: 42px
+
+#small-header
+  padding: 0
+  padding-left: 5px
+  position: fixed
+  width: 100%
+  z-index: 2000
+  border-bottom: 1px solid #29487d
+
+.header-wrapper
+  display: flex
+  align-items: center
+  max-width: 960px
+  margin: 0 auto
+
+#login-header
+  height: 82px
+  padding: 13px 142.5px 0
+  display: flex
+  
+  //login form
+
+  #brand
+    margin-right: 320px
+
+  form 
+    margin-left: auto
+    display: inline-block
+    // background: red
+    width: 392px
+    display: flex
+    justify-content: space-between
+    height: 65px
+    align-items: center
+
+    button
+      width: 56px
+      height: 23px
+      background: #4267b2
+      font-family: helvetica
+      font-size: 12px
+      cursor: pointer
+      border: 1px solid $darker-blue
+      color: white
+
+    .text-input
+      width: 150px
+      font-size: 12px
+      color: white
+      margin-right: 20px
+
+      .login-label
+        position: relative
+        top: -4px
+
+      input
+        width: 100%
+        height: 23px
+
+      .tip
+        color: $light-blue
+        position: relative
+        top: 4px
+
+        input[type="checkbox"]
+          width: 13px
+          height: 13px
+          vertical-align: bottom
+          position: relative
+          top: 0px
+          *overflow: hidden
+
+        label
+          display: block
+          text-indent: -15px
+          padding-left: 15px
+
+//main-content
+
+main
+  padding: 13px 142.5px 
+  color: #333
+  display: flex
+
+  .left-content-container, .right-content-container
+    margin-top: 12px
+
+  .left-content-container
+    width: 550px
+    display: inline-block
+    padding-top: 40px
+    margin-right: 30px
+
+    .title
+      width: 450px
+
+    h1
+      font-size: 28px
+
+    .user-goals-list
+      margin-top: 20px
+      font-weight: bold
+      font-size: 17px
+      line-height: 20px
+
+      .light
+        font-size: 15px
+        color: #666
+        font-weight: normal
+        line-height: 16px
+
+      li
+        padding: 18px 0
+
+      .fa 
+        font-size: 44px
+        color: #758AB7
+        position: relative
+        top: 9px
+        margin-right: 10px
+
+  .right-content-container
+    width: 408px
+    margin-left: auto
+
+    h1
+      font-size: 36px
+      line-height: 48px
+      margin-bottom: 5px
+
+    h3 
+      font-size: 19px
+      line-height: 25px
+      font-weight: normal
+
+    .signup-form
+      margin-top: 20px  
+      font-size: 18px  
+      color: #1d2129
+
+      input[type="text"]
+        border: 1px solid #bdc7d8 
+        border-radius: 5px
+        height: 39px
+        width: 100%
+        padding: 10px
+        margin-bottom: 10px
+        font-size: 18px
+
+      .birthday
+        display: inline-block
+
+      .birthday-label
+        line-height: 24px
+        margin-bottom: 0
+
+      .birthday-select
+        font-size: 12px
+        height: 30px
+        padding: 5px
+        border: 1px solid #bdc7d8
+
+      #name-input-container
+        display: flex
+        justify-content: space-between
+
+        #first-name
+          margin-right: 8px
+
+        #first-name, #last-name
+          width: 200px
+          margin-bottom: -10px
+
+      .tip
+        font-size: 11px
+        color: #365899
+        display: inline-flex
+        width: 45%
+        align-items: center
+        position: relative
+        bottom: 7px
+        
+      .radio-container
+        margin-top: 12px
+
+        label
+          margin-right: 12px
+
+      .agreements
+        font-size: 11px
+        color: #777
+        line-height: 15px
+        width: 320px
+
+      button
+        color: white
+        font-size: 19px
+        font-weight: bold
+        text-shadow: 0 1px 2px rgba(0,0,0,.5)
+        cursor: pointer
+        width: 192px
+        margin: 10px 0
+        padding: 7px 20px
+        background: linear-gradient(#67ae55, #578843)
+        box-shadow: inset 0 1px 1px #a4e388
+        border: 1px solid
+        border-color: #3b6e22 #3b6e22 #2c5115
+        border-radius: 5px
+
+    .create-a-page
+      font-weight: bold
+      font-size: 13px
+      color: #666
+
+//profile page
+
+#profile-main
+  padding: 0
+  padding-left: 5px
+  display: flex
+  justify-content: center
+  padding-right: 130px
+  
+
+#profile-column
+  width: 851px
+  display: inline-block
+  margin-bottom: 100px
+  
+  #profile-header
+    height: 315px
+    background-image: url("../images/dragon_cover.jpg")
+
+    #cover-camera
+      color: #BCBCBB
+      font-size: 20px
+      position: relative
+      top: -130px
+      right: 135px      
+
+    img 
+      z-index: 100
+      width: 168px
+      height: 168px
+      border: 4px solid #fff
+      position: relative
+      top: 175px
+      right: 165px
+      border-radius: 2px
+      box-shadow: 0 0 0 1px #aaa
+
+    h1
+      font-weight: normal
+      font-size: 24px
+      position: relative
+      top: 130px
+      right: 155px
+
+    .tip-container
+      display: inline-block
+      position: relative
+      top: 100px
+      left: 395px
+
+    .tip
+      border: 1px solid rgba(0, 0, 0, .4)
+      padding: 5px 10px
+      font-size: 12px
+      font-weight: bold
+      background: #e9ebee
+      color: #4b4f56
+      display: inline-block
+
+      .alert
+        background: #fa3e3e
+        color: white
+        border-radius: 2px
+        padding: 1px 3px
+
+    #update-info
+      border-radius: 2px
+
+    #activity
+      border-radius: 2px 0 0 2px
+
+    #icon-tip
+      width: 35px
+      margin-left: -6px
+      text-align: center
+      border-left: 1px solid #bbb
+
+      .fa
+        color: #999
+
+    #profile-tabs
+      height: 43px
+      width: 851px
+      position: relative
+      right: 160px
+      top: 114px
+      background: white
+      border: 1px solid #bbb
+      border-top: none
+      border-radius: 0 0 2px 2px 
+      padding-left: 200px
+
+      ul
+        color: #365899
+
+        li
+          margin-left: -6px
+          display: inline-block
+          line-height: 43px
+          border-left: 1px solid #ddd
+          height: 43px
+          font-size: 14px
+          font-weight: bold
+          padding: 0 15px
+          text-align: center
+
+          .light
+            font-size: 11px
+            color: #999
+
+        .selected
+          color: #444
+
+        .more 
+          border-right: 1px solid #ddd
+
+          .fa
+            margin-left: 6px
+
+  #about
+    margin-top: 60px
+    background-color: white
+    border: 1px solid #d3d6db
+    height: 400px
+
+    header
+      padding-left: 20px
+      background: #f6f7f9
+      height: 60px
+      border-bottom: 1px solid #d3d6db
+
+      .fa
+        color: #777
+        margin-right: 5px
+
+      h2
+        line-height: 60px
+        color: #4b4f56
+        font-size: 20px
+
+    nav
+      padding-left: 16px
+      width: 242px
+      border-right: 1px solid #d3d6db
+      padding-top: 14px
+      display: inline-block
+          
+      li
+        font-size: 14px
+        line-height: 18px
+        color: #aaa
+        margin-bottom: 22px
+        
+    .selected
+      font-weight: bold
+      color: black
+
+      #selected-indicator
+        display: inline-block
+        width: 3px
+        height: 25px
+        background: #3B5998
+        position: relative
+        right: 16px
+        top: 8px
+        margin-right: -4px
+
+    #about-content
+      display: inline-block
+      width: 602px
+      float: right
+      font-size: 14px
+      padding: 0px 14px 0
+
+      li
+        display: flex
+        align-items: center
+        height: 100px
+        border-bottom: 1px solid rgba(0, 0, 0, .1)
+        width: 350px
+
+        .icon
+          height: 32px
+          margin-right: 14px
+
+      #last 
+        border-bottom: none
+
+#sponsored-column
+  width: 160px
+  position: fixed
+  padding: 22px 0 0 10px
+
+  h3
+    font-size: 12px
+    color: #90949c
+
+  .ad
+    border-top: 1px solid rgba(0, 0, 0, .1)
+    margin-top: 6px
+    padding-top: 12px
+    -webkit-font-smoothing: antialiased
+    font-size: 11px
+
+    h5
+      font-size: 11px
+      margin-bottom: 2px
+
+    img 
+      width: 150px
+      margin-bottom: 4px
+
+#translations, #chat
+  position: fixed
+  bottom: 0
+  background: #f6f7f9
+  border: 1px solid rgba(29, 49, 91, .3)
+  border-radius: 2px 2px 0 0
+
+#translations
+  right: 320px
+  font-size: 16px
+  color: #365899
+  padding: 4px
+  padding-bottom: 2px 
+
+#chat
+  right: 20px
+  padding: 3px 25px
+
+  span
+    font-weight: bold
+    font-size: 12px
+    padding-right: 140px
+    color: #333
+
+  .fa 
+    font-size: 14px
+    color: #888
+
+
