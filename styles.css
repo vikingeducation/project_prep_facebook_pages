@@ -100,15 +100,17 @@ table.login{
 }
 
 .main-content-container{
-  margin: 83px auto;
+  margin: 83px auto 0 auto;
   max-width: 980px;
-  padding: 25px 0;
+  padding: 40px 0;
+  height: 100vh;
 }
 
 .col-1{
   margin: auto;
   display: inline-block;
   max-width: 534px;
+  padding-right: 15px;
   margin: 25px;
   vertical-align: middle;
 }
@@ -123,26 +125,99 @@ h2{
 ul{
   line-height: 51px;
   vertical-align: middle;
-  list-style-type: square;
   list-style-position: inside;
   padding-left: 25px;
+}
+
+strong{
+  font-weight: 600;
 }
 
 .col-2{
   position: absolute;
   right: 0;
   display: inline-block;
-  width: 392px;
-  margin: 25px;
+  width: 314px;
+  margin-right: 103px;
   vertical-align: middle;
 }
 
 form .h2{
   font-size: 40px;
   font-weight: 500;
+  padding-bottom: 20px;
 }
 
+.reg-form-container div{
+  width: 314px;
+  line-height: 36px;
+}
 
+.row-1 input{
+  display: inline-block;
+  -webkit-appearance: none;
+}
+
+.row-1 .first-name{
+  width: 155.5px;
+  margin-right: 5px;
+}
+
+.row-2 .last-name{
+  width: 148px;
+}
+
+.row-1 input,
+.row-2 input,
+.row-3 input,
+.row-4 input,
+.row-5-6 input,
+.row-8 input{
+  -webkit-appearance: none;
+}
+
+.row-2 input,
+.row-3 input,
+.row-4 input,
+.row-8 input{
+  width: 302px;
+}
+
+.row-1 input,
+.row-2 input,
+.row-3 input,
+.row-4 input{
+  border: 1px solid #333;
+  height: 24px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+legend.birthday{
+  font-size: 14px;
+  line-height: 14px;
+  padding-top: 12px;
+}
+
+.row-7 label{
+  font-size: 14px;
+  padding-right: 12px;
+  height: 36px;
+  line-height: 36px;
+}
+
+.cta-button{
+  background-color: #69a74e;
+  color: #fff;
+  border-radius: 5px;
+  height: 32px;
+  font-size: 18px;
+  width: 52px;
+  padding: 4px 20px;
+  border: 1px solid #333;
+  margin: 10px 0;
+  vertical-align: middle;
+}
 
 
 

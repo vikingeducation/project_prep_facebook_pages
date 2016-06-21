@@ -10,7 +10,7 @@
     <div class="navbar">
       <div class="navbar-content clearfix">
         <div class="pull-left">
-          <h1>facelook<h1>
+          <h1>facelook</h1>
         </div>
         <div class="pull-right">
           <table class="login">
@@ -50,16 +50,16 @@
         <h2>Connect with all your friends!</h2>
         <ul>
           <li>
-            <strong>See photos and updates</strong> in your news feed.
+            <strong>&bull; See photos and updates</strong> in your news feed.
           </li>
           <li>
-            <strong>Post your status for the world to see</strong> from your profile.
+            <strong>&bull; Post your status for the world to see</strong> from your profile.
           </li>  
           <li>
-            <strong>Get in touch with your friends</strong> by "friending" them.           
+            <strong>&bull; Get in touch with your friends</strong> by "friending" them.           
           </li>
           <li>
-            <strong>Like things</strong> because you're a positive person!
+            <strong>&bull; Like things</strong> because you're a positive person!
           </li>
         </ul>
       </section>
@@ -69,8 +69,8 @@
             <form>
             <legend class="h2">Sign Up</legend>
             <div class="row-1">
-              <input type="text" name="first-name" value="First Name">
-              <input type="text" name="last-name" value="Last Name">
+              <input type="text" class="first-name" name="first-name" value="First Name">
+              <input type="text" class="last-name" name="last-name" value="Last Name">
             </div>
             <div class="row-2">
               <input type="email" name="email" value="Your Email Address">
@@ -101,41 +101,44 @@
                   <option value="November">November</option>
                   <option value="December">December</option>
                 </select>
-                <select name="birthday">
-                  <?php
-                    for ($i=1; $i<=31; $i++)
-                    {
-                        ?>
-                          <option value="<?php echo $i;?>">
-                            <?php echo $i;?>  
-                          </option>
-                        <?php
-                    }
-                ?>
+                <select name="birthday" value="day">
+                  <option value="" disabled selected>Day</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="Etc">Etc</option>
                 </select>
                 <select name="birthyear" value="year">
                   <option value="" disabled selected>Year</option>
-                  <option value="January">January</option>
-                  <option value="February">February</option>
-                  <option value="March">March</option>
-                  <option value="April">April</option>
-                  <option value="May">May</option>
-                  <option value="June">June</option>
-                  <option value="July">July</option>
-                  <option value="August">August</option>
-                  <option value="September">September</option>
-                  <option value="October">October</option>
-                  <option value="November">November</option>
-                  <option value="December">December</option>
+                  <option value="1984">1984</option>
+                  <option value="1985">1985</option>
+                  <option value="1986">1986</option>
+                  <option value="1987">1987</option>
+                  <option value="1988">1988</option>
+                  <option value="1989">1989</option>
+                  <option value="1990">1990</option>
+                  <option value="1991">1991</option>
+                  <option value="1992">1992</option>
+                  <option value="1993">1993</option>
+                  <option value="1994">1994</option>
+                  <option value="Etc">Etc</option>
                 </select>
               </fieldset>
             </div>
             <div class="row-7">
               <label>
-              <input type="radio" name="gender" value="Female">Female
+              <input type="radio" name="gender" value="Female"> Female
               </label>
               <label>
-              <input type="radio" name="gender" value="Male">Male
+              <input type="radio" name="gender" value="Male"> Male
               </label>
             </div>
             <div class="row-8">
@@ -146,7 +149,8 @@
         </div>
       </section>
     </div>
-
+  </body>
+</html>
 
 
 
