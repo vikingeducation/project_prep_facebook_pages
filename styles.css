@@ -1,0 +1,69 @@
+/*    */
+body {
+  padding-top: 50px; }
+  body nav {
+    background-color: #418EFF;
+    height: 75px;
+    border-bottom: solid black 2px; }
+    body nav #brand {
+      color: white;
+      font-size: 38px;
+      font-weight: 550;
+      line-height: 38px;
+      padding-left: 30px; }
+    body nav label {
+      color: white; }
+  body #navbar {
+    padding-right: 15px;
+    border-bottom: solid black 2px;
+    padding-bottom: 7px; }
+  body #submit {
+    padding-top: 5px; }
+    body #submit button {
+      border: 2px black solid;
+      box-shadow: 3px 3px; }
+  body #password {
+    padding: 0px 10px; }
+    body #password input {
+      border: 2px black solid; }
+  body #email input {
+    border: 2px black solid; }
+  body h2 {
+    font-weight: 600; }
+  body h1 {
+    font-weight: 600; }
+  body h4 {
+    text-align: left; }
+  body #gender {
+    text-align: left; }
+  body main header {
+    text-align: left; }
+    body main header li {
+      text-align: left;
+      padding: 10px;
+      font-size: 14px; }
+  body main #content {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 30px; }
+  body main #signup {
+    padding-top: 20px; }
+
+#sign-btn {
+  border: 1px black solid;
+  box-shadow: 2px 2px;
+  font-size: 30px;
+}
+
+
+#last {
+  display: inline;
+  padding-left: 23px; }
+
+#main-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center; }
+
+
+/*# sourceMappingURL=styles.css.map */
