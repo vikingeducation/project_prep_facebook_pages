@@ -1,6 +1,77 @@
+/**** GLOBALLY SHARED STYLING ****/
+
 body{
   font-family: Helvetica, sans-serif;
 }
+
+.pull-left{
+  float: left;
+  vertical-align: middle;
+}
+
+.center{
+  margin: auto;
+  vertical-align: middle;
+}
+
+.pull-right{
+  float: right;
+  vertical-align: middle;
+}
+
+.left-align{
+  margin: auto;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.button{
+  height: 24px;
+  line-height: 18px;
+  width: 64px;
+  font-size: 14px;
+  border: 1px solid #333;
+  background-color: #5a76b2;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+td, th{
+  -webkit-appearance:none;
+}
+
+.col-smaller{
+  margin: auto;
+  display: inline-block;
+  width: 314px;
+  vertical-align: middle;
+}
+
+.col-larger{
+  margin: auto;
+  display: inline-block;
+  max-width: 534px;
+  vertical-align: middle;
+}
+
+h2{
+  font-size: 28px;
+  color: #111;
+  line-height: 38px;
+  padding: 10px 5px;
+}
+
+strong{
+  font-weight: 600;
+}
+
+/**** HOME PAGE UNIQUE ****/
 
 .navbar{
   position: absolute;
@@ -21,10 +92,6 @@ body{
   width: 100%;
 }
 
-.pull-left{
-  float: left;
-}
-
 .navbar h1{
   color: #fff;
   font-size: 40px;
@@ -32,13 +99,8 @@ body{
   padding-left: 25px;
 }
 
-.pull-right{
-  float: right;
+.home-padding-right{
   padding-right: 25px;
-}
-
-td, th{
-  -webkit-appearance:none;
 }
 
 input .email{
@@ -82,44 +144,28 @@ table.login{
   vertical-align: middle;
 }
 
-.button{
-  height: 24px;
-  line-height: 18px;
-  width: 64px;
-  font-size: 14px;
-  border: 1px solid #333;
-  background-color: #5a76b2;
-  vertical-align: middle;
-  color: #fff;
-}
-
-.clearfix:after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.main-content-container{
+.home-main-content-container{
   margin: 83px auto 0 auto;
   max-width: 980px;
   padding: 40px 0;
   height: 100vh;
 }
 
-.col-1{
-  margin: auto;
-  display: inline-block;
-  max-width: 534px;
-  padding-right: 15px;
-  margin: 25px;
-  vertical-align: middle;
+form .h2{
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 20px;
 }
 
-h2{
-  font-size: 28px;
-  color: #111;
-  line-height: 38px;
-  padding: 10px 5px;
+.home-col-larger{
+  padding-right: 15px;
+  margin: 25px;
+}
+
+.home-col-smaller{
+  position: absolute;
+  right: 0;
+  margin-right: 103px;
 }
 
 ul{
@@ -127,25 +173,6 @@ ul{
   vertical-align: middle;
   list-style-position: inside;
   padding-left: 25px;
-}
-
-strong{
-  font-weight: 600;
-}
-
-.col-2{
-  position: absolute;
-  right: 0;
-  display: inline-block;
-  width: 314px;
-  margin-right: 103px;
-  vertical-align: middle;
-}
-
-form .h2{
-  font-size: 40px;
-  font-weight: 500;
-  padding-bottom: 20px;
 }
 
 .reg-form-container div{
@@ -219,6 +246,158 @@ legend.birthday{
   vertical-align: middle;
 }
 
+/**** ABOUT/FRIENDS SHARED ****/
+
+/* navbar */
+
+.subpgs-navbar{
+  position: absolute;
+  top: 0;
+  background-color: #4867AA;
+  height: 41px;
+  line-height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #333;
+}
+
+.subpgs-navbar-content{
+  margin: auto;
+  position: absolute;
+  top: 2px;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 10%;
+}
+
+.subpgs-navbar h2{
+  color: #fff;
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.logo-icon{
+  margin: auto;
+  width: 26px;
+  vertical-align: middle;
+}
+
+.search-users{
+  -webkit-appearance: none;
+  width: 302px;
+  border: 1px solid #333
+  height 18px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* header */
+
+header{
+  height: 400px;
+  width: 100%;
+  margin-top: 35px;
+  padding: 0 65px;
+  border: 1px solid #333;
+}
+
+.cover-pic-container{
+  margin: auto;
+  line-height: 350px;
+}
+
+img.cover-pic{
+  position: absolute;
+  z-index: 1;
+  top: 36px;
+  height: 300px;
+  width: 100%;
+  margin: auto;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+.profile-pic-container{
+  position: relative;
+  z-index: 2; 
+}
+
+img.profile-pic{
+  position: absolute;
+  top: 5%
+  left: 5%
+  z-index: 3;
+}
+
+ul#menu{
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    color: #333;
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid #333;
+}
+
+ul#menu li a #current{
+  background-color: #ddd
+}
+
+/* main content */
+
+.subpgs-main-content-container{
+  position: relative;
+  margin: auto;
+  max-width: 980px;
+  padding: 
+}
+
+.button-link{
+  padding: 5px;
+  text-decoration: none;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.8);
+  border-radius: 2px
+}
+
+.subpgs-col-smaller{
+  position: absolute;
+  left: 5%;
+}
+
+.subpgs-col-larger{
+  position: absolute;
+  right: 5%;
+}
+
+table.about{
+  height: 40px;
+  line-height: 40px;
+  width: 392px;
+  vertical-align: middle;
+}
+
+.about td{
+  height: 28px;
+  line-height: 28px;
+  padding-right: 5px;
+  text-align: left;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.about td .category{
+  font-weight: 600;
+}
+
+/******* ABOUT UNIQUE *******/
+
+/***** FRIENDS UNIQUE *****/
 
 
 
