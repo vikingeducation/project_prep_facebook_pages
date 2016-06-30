@@ -56,9 +56,39 @@ body {
 
 }
 
+strong {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-bottom: 25px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 60px;
+
+}
+
+li {
+  padding-bottom: 10px;
+}
+
 header {
 	height: 60px;
-	background-color: blue;
+	background-color: #3086FF;
 	width: 100%;
   position: fixed;
 }
@@ -91,24 +121,55 @@ header .submit-box {
   display: inline-block;
   float: right;
   margin-top: 17px;
+  margin-right: 10px;
+}
+
+body .pass-box {
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 body .content {
   width: 50%;
-  padding: 30px 0;
+  padding: 40px 0;
+  padding-left: 30px;
+  padding-top: 50px;
   margin: 60px 0;
   display: inline-block;
   float: left;
 }
 
 body .sign-up {
-  width: 45%;
-  padding: 10px 0;
+  width: 400px;
+  padding: 20px 10px;
   margin: 60px 0;
   display: inline-block;
   float: right;
 }
 
+form {
+  line-height: 40px;
+}
 
-	margin: 40px 0px 10px;
+#last-name {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+#sign-btn {
+  background-color: green;
+  color: white;
+  width: 330px;
+  height: 40px;
+  font-size: 26px;
+  font-weight: bold;
+  box-shadow: 2px 2px 1px black;
+  border: solid black 2px;
+}
+
+#login-btn {
+    background-color: #2A91FF;
+    font-weight: bold;
+    border: 1px solid black;
+    box-shadow: 2px 2px 1px black;
 }
