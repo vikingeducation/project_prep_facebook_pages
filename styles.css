@@ -79,8 +79,10 @@ strong{
 /**** HOME PAGE UNIQUE ****/
 
 .navbar{
-  position: absolute;
+  position: fixed;
+  left: 0;
   top: 0;
+  z-index: 2;
   height: 83px;
   line-height: 82px;
   width: 100%;
@@ -201,12 +203,12 @@ ul{
 }
 
 .row-1 .first-name{
-  width: 155.5px;
+  width: 154.5px;
   margin-right: 5px;
 }
 
 .row-2 .last-name{
-  width: 148px;
+  width: 146px;
 }
 
 .row-1 input,
@@ -235,10 +237,9 @@ ul{
   padding-right: 5px;
 }
 
-legend.birthday{
+.birthday{
   font-size: 14px;
   line-height: 14px;
-  padding-top: 12px;
 }
 
 .row-7 label{
@@ -266,7 +267,8 @@ legend.birthday{
 /* navbar */
 
 .subpgs-navbar{
-  position: absolute;
+  position: fixed;
+  z-index: 6;
   top: 0;
   background-color: #4867AA;
   height: 41px;
@@ -405,12 +407,14 @@ img.profile-pic{
   z-index: 3;
   left: 0;
   bottom: 170px;
-  height: 38px;
-  line-height: 38px;
+  height: 40px;
+  line-height: 40px;
   max-width: 850px;
   border-left: 1px solid #333;
   border-right: 1px solid #333;
   border-bottom: 1px solid #333;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
 ul#menu{
@@ -418,25 +422,30 @@ ul#menu{
   left: 204px;
   top: 0;
   padding: 0;
-  height: 38px;
-  line-height: 38px;
+  height: 41px;
+  line-height: 41px;
   border-right: 1px solid #333;
 }
 
 ul#menu li {
     display: inline;
+    height: 41px;
+    line-height: 41px;
 }
 
 ul#menu li a {
     color: #333;
-    height: 38px;
-    padding: 10px 16px;
+    padding: 11px 16px;
     text-decoration: none;
     border-left: 1px solid #333;
 }
 
 ul#menu li a .faded{
   color: #ddd;
+}
+
+.current{
+  background-color: #ccc;
 }
 
 /* main content */
@@ -450,6 +459,7 @@ ul#menu li a .faded{
 
 .subpgs-main-content{
   border: 1px solid #333;
+  border-radius: 2px;
 }
 
 .main-content-title-bar{
@@ -485,6 +495,7 @@ ul#menu li a .faded{
   box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.8);
   border-radius: 2px
   vertical-align: middle;
+  text-align: center;
 }
 
 .column-container{
@@ -493,6 +504,14 @@ ul#menu li a .faded{
   padding: 5px;
   margin: 0 auto;
   max-width: 850px;
+}
+
+.birthday-fieldset{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  vertical-align: middle;
+  padding-bottom: 6px;
 }
 
 fieldset{
@@ -545,4 +564,102 @@ table .category{
 .about-text-container p{
   font-size: 14px;
   line-height: 20px;
+}
+
+
+/***** FRIENDS UNIQUE *****/
+
+.friends-grid{
+  margin: 15px;
+}
+
+.friends-row-1,
+.friends-row-2,
+.friends-row-3{
+  margin: auto;
+  max-width: 850px;
+}
+
+.col-50{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 46%;
+  border: 1px solid #333;
+  margin: 15px; 
+  padding: 15px 7.5px;
+  border-radius: 2px;
+  height: 120px;
+}
+
+.friend-img-container{
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  height: 88px;
+  width: 88px;
+  border: 1px solid #333;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.friend-img{
+  margin: auto;
+  padding-left: 1px;
+  padding-top: 1px;
+  height: 86px;
+  width: 86px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.friend-name-container{
+  display: inline-block;
+  line-height: 22px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+.friend-name{
+  vertical-align: middle;
+  padding-left: 10px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.friend-friends{
+  padding-left: 10px;
+}
+
+.faded{
+  color: #bbb;
+}
+
+.button-container{
+  display: inline-block;
+  position: relative;
+  right: 0px;
+  width: 100px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+#unfriend-button{
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  width: 78px;
+  padding: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.8);
+  border-radius: 2px;
+  text-align: center;
+  border: 1px solid #333;
+  background-color: #ddd;
+  vertical-align: middle;
+  color: #333;
 }
