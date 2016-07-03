@@ -1,0 +1,665 @@
+/**** GLOBALLY SHARED STYLING ****/
+
+body{
+  font-family: "San Francisco", Helvetica, sans-serif;
+}
+
+h2{
+  color: #333;
+  font-size: 26px;
+  font-weight: 500;
+  vertical-align: middle;
+  line-height: 34px;
+  padding: 0 4px;
+}
+
+h4{
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  vertical-align: middle;
+  line-height: 34px;
+  padding-right: 4px;
+}
+
+.pull-left{
+  float: left;
+  vertical-align: middle;
+}
+
+.pull-right{
+  float: right;
+  vertical-align: middle;
+}
+
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left-align{
+  margin: auto;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.button{
+  height: 24px;
+  line-height: 18px;
+  width: 64px;
+  font-size: 14px;
+  border: 1px solid #333;
+  background-color: #5a76b2;
+  vertical-align: middle;
+  color: #fff;
+}
+
+td, th{
+  -webkit-appearance:none;
+}
+
+.col-smaller{
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.col-larger{
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+strong{
+  font-weight: 600;
+}
+
+/**** HOME PAGE UNIQUE ****/
+
+.navbar{
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  height: 83px;
+  line-height: 82px;
+  width: 100%;
+  background-color: #4867AA;
+  border-bottom: 1px solid #333;
+}
+
+.navbar-content{
+  margin: auto;
+  position: absolute;
+  top: 5px;
+  height: 73px;
+  line-height: 73px;
+  width: 100%;
+}
+
+.navbar h1{
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  padding-left: 25px;
+}
+
+h2 .index{
+  font-size: 28px;
+  color: #111;
+  line-height: 38px;
+  padding: 10px 5px;
+}
+
+.home-padding-right{
+  padding-right: 25px;
+}
+
+input .email{
+  width: 150px;
+}
+
+table.login{
+  height: 73px;
+  line-height: 73px;
+  width: 392px;
+  vertical-align: middle;
+}
+
+.login th{
+  height: 24px;
+  line-height: 24px;
+  width: 136px;
+  padding-left: 14px;
+  color: #fff;
+  text-align: left;
+  vertical-align: bottom;
+  font-size: 14px;
+}
+
+.login td{
+  height: 24px;
+  line-height: 24px;
+  width: 136px;
+  padding-left: 14px;
+  text-align: left;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.login-input{
+  width: 144px;
+}
+
+.last{
+  max-width: 78px;
+  vertical-align: middle;
+}
+
+.home-main-content-container{
+  margin: 83px auto 0 auto;
+  max-width: 980px;
+  padding: 40px 0;
+  height: 100vh;
+}
+
+form .h2{
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.home-col-larger{
+  padding-right: 15px;
+  max-width: 534px;
+  margin: 25px;
+}
+
+.home-col-smaller{
+  position: absolute;
+  right: 0;
+  width: 314px;
+  margin-right: 103px;
+}
+
+ul{
+  line-height: 51px;
+  vertical-align: middle;
+  list-style-position: inside;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+.reg-form-container div{
+  width: 314px;
+  line-height: 36px;
+}
+
+.row-1 input{
+  display: inline-block;
+  -webkit-appearance: none;
+}
+
+.row-1 .first-name{
+  width: 154.5px;
+  margin-right: 5px;
+}
+
+.row-2 .last-name{
+  width: 146px;
+}
+
+.row-1 input,
+.row-2 input,
+.row-3 input,
+.row-4 input,
+.row-5-6 input,
+.row-8 input{
+  -webkit-appearance: none;
+}
+
+.row-2 input,
+.row-3 input,
+.row-4 input,
+.row-8 input{
+  width: 302px;
+}
+
+.row-1 input,
+.row-2 input,
+.row-3 input,
+.row-4 input{
+  border: 1px solid #333;
+  height: 24px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.birthday{
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.row-7 label{
+  font-size: 14px;
+  padding-right: 12px;
+  height: 36px;
+  line-height: 36px;
+}
+
+.cta-button{
+  background-color: #69a74e;
+  color: #fff;
+  border-radius: 5px;
+  height: 32px;
+  font-size: 18px;
+  width: 52px;
+  padding: 4px 20px;
+  border: 1px solid #333;
+  margin: 10px 0;
+  vertical-align: middle;
+}
+
+/**** ABOUT/FRIENDS SHARED ****/
+
+/* navbar */
+
+.subpgs-navbar{
+  position: fixed;
+  z-index: 6;
+  top: 0;
+  background-color: #4867AA;
+  height: 41px;
+  line-height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #333;
+}
+
+.subpgs-navbar-content{
+  height: 34px;
+  max-width: 850px;
+  line-height: 34px;
+  padding: 3px 10%;
+  vertical-align: middle;
+}
+
+.subpgs-navbar h2{
+  display: inline-block;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  vertical-align: middle;
+  padding: 0 4px;
+}
+
+.subpgs-logo{
+  height: 32px;
+  line-height: 32px;
+  vertical-align: middle;
+}
+
+.logo-icon{
+  margin: auto;
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+}
+
+.subpgs-navbar-content form{
+  margin: auto;
+  max-width: 380px;
+  height: 34px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.search-bar-container{
+  margin: auto;
+  width: 314px;
+}
+
+.search-users{
+  -webkit-appearance: none;
+  width: 280px;
+  border: 1px solid #333
+  height 17px;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: middle;
+  align-self: center;
+}
+
+.user-name-container{
+  display: inline-block;
+  margin-right: 0;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+}
+
+/* header */
+
+header{
+  position: relative;
+  top: 41px;
+  height: 357px;
+  max-width: 850px;
+  padding: 0 10% 26px 10%;
+}
+
+.cover-pic-container{
+  position: relative;
+  z-index: 1;
+  top: 0;
+  height: 314px;
+  max-width: 850px;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+img.cover-pic{
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  height: 314px;
+  width: 100%;
+  margin: auto;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+.profile-pic-container{
+  position: relative;
+  left: 18px;
+  bottom: 146px;
+  z-index: 4;
+  height: 168px;
+  width: 168px; 
+  border: 1px solid #333;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+img.profile-pic{
+  position: absolute;
+  z-index: 5;
+  padding: 5px;
+  height: 158px;
+  width: 158px;
+  margin: auto;
+  vertical-align: middle;
+}
+
+.profile-name{
+  position: absolute;
+  z-index: 2;
+  left: 182px;
+  bottom: 34px;
+  width: 300px;
+  color: #fff;
+}
+
+.menu-container{
+  position: relative;
+  z-index: 3;
+  left: 0;
+  bottom: 170px;
+  height: 40px;
+  line-height: 40px;
+  max-width: 850px;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+ul#menu{
+  position: absolute;
+  left: 204px;
+  top: 0;
+  padding: 0;
+  height: 41px;
+  line-height: 41px;
+  border-right: 1px solid #333;
+}
+
+ul#menu li {
+    display: inline;
+    height: 41px;
+    line-height: 41px;
+}
+
+ul#menu li a {
+    color: #333;
+    padding: 11px 16px;
+    text-decoration: none;
+    border-left: 1px solid #333;
+}
+
+ul#menu li a .faded{
+  color: #ddd;
+}
+
+.current{
+  background-color: #ccc;
+}
+
+/* main content */
+
+.subpgs-main-content-container{
+  position: relative;
+  top: 15px;
+  max-width: 850px;
+  padding: 25px 10%;  
+}
+
+.subpgs-main-content{
+  border: 1px solid #333;
+  border-radius: 2px;
+}
+
+.main-content-title-bar{
+  position: relative;
+  top: 0;
+  background-color: #ccc;
+  border-bottom: 1px solid #333;
+  line-height: 40px;
+  height: 40px;
+  max-width: 850px;
+  text-align: center;
+}
+
+.main-content-title-bar h1{
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+.button-link{
+  position: absolute;
+  top: 5px;
+  right: 6px;
+  height: 18px;
+  line-height: 18px;
+  width: 110px;
+  padding: 5px;
+  text-decoration: none;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.8);
+  border-radius: 2px
+  vertical-align: middle;
+  text-align: center;
+}
+
+.column-container{
+  position: relative;
+  top: 0;
+  padding: 5px;
+  margin: 0 auto;
+  max-width: 850px;
+}
+
+.birthday-fieldset{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  vertical-align: middle;
+  padding-bottom: 6px;
+}
+
+fieldset{
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  padding-top: 15px;
+  vertical-align: bottom;
+}
+
+/******* ABOUT UNIQUE *******/
+
+.subpgs-col-smaller{
+  position: relative;
+  left: 0;
+  width: 40%;
+}
+
+.subpgs-col-larger{
+  position: relative;
+  right: 0;
+  width: 59.4%;
+  vertical-align: top;
+}
+
+.table-container{
+  padding: 25px 0 35px 35px;
+}
+
+.about td{
+  height: 28px;
+  line-height: 28px;
+  padding-right: 5px;
+  text-align: left;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+table .category{
+  font-weight: 600;
+  min-width: 112px;
+  padding-right: 10px;
+}
+
+.about-text-container{
+  padding: 25px 35px 35px 25px;
+  text-align: justify;
+}
+
+.about-text-container p{
+  font-size: 14px;
+  line-height: 20px;
+}
+
+
+/***** FRIENDS UNIQUE *****/
+
+.friends-grid{
+  margin: 15px;
+}
+
+.friends-row-1,
+.friends-row-2,
+.friends-row-3{
+  margin: auto;
+  max-width: 850px;
+}
+
+.col-50{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 46%;
+  border: 1px solid #333;
+  margin: 15px; 
+  padding: 15px 7.5px;
+  border-radius: 2px;
+  height: 120px;
+}
+
+.friend-img-container{
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  height: 88px;
+  width: 88px;
+  border: 1px solid #333;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.friend-img{
+  margin: auto;
+  padding-left: 1px;
+  padding-top: 1px;
+  height: 86px;
+  width: 86px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.friend-name-container{
+  display: inline-block;
+  line-height: 22px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+.friend-name{
+  vertical-align: middle;
+  padding-left: 10px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.friend-friends{
+  padding-left: 10px;
+}
+
+.faded{
+  color: #bbb;
+}
+
+.button-container{
+  display: inline-block;
+  position: relative;
+  right: 0px;
+  width: 100px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+#unfriend-button{
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  height: 18px;
+  line-height: 18px;
+  width: 78px;
+  padding: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.8);
+  border-radius: 2px;
+  text-align: center;
+  border: 1px solid #333;
+  background-color: #ddd;
+  vertical-align: middle;
+  color: #333;
+}
