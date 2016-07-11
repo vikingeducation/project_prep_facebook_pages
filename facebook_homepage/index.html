@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Facebook Homepage</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet/normalize.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,500italic' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://use.fontawesome.com/128a7aa032.js"></script>
+</head>
+
+<body onload="addOption_list()">   <!--for table with months days years -->
+<div class="container-wrapper">
+	<div class="container-header">
+
+		<div class="header">
+			<div class="container-logo"><h1 class="logo-style">facebook</h1></div>
+			<div class="container-login">
+				<form>
+				    <li id="email-style">
+				    <label class="style-emailpassword" for="emailphone">Email or Phone</label>
+				    <br>
+					<input class="field-style" id="emailphone" type="email" name="email">
+					</li>
+
+					<li id="password-style">
+					<div class="rightside-left">		
+					<label class="style-emailpassword" for="password">Password</label>
+					<br>
+					<input class="field-style" id="password" type="password" name="password">
+					<br>
+					<span><a class="style-underpassword" href="">Forgot account?</a></span>
+					</div>
+
+					<div class="rightside-right">
+					<input class="submit-button" type="submit" value="Log in">
+					</div>
+
+					</li>
+
+					<li>
+					
+					
+					</li>
+				</form>
+			</div>
+		</div>
+		</div>
+
+		<div class="container-content">
+			<div class="content-left">
+				<h1 class="style-titleleft">Connect with friends and the world around you on Facebook.</h1>
+				<div class="style-connect">
+					<div>
+						<div class="icon-wrapper">
+							<img class="style-icon" src="https://scontent-ord1-1.xx.fbcdn.net/t39.2365-6/851565_602269956474188_918638970_n.png">
+						</div>
+						
+						<div  class="style-text">
+							<span class="left-text">See photos and updates</span> 
+							<span class="right-text">from friends in News Feed.</span>
+						</div>
+					</div>
+					
+
+					<div>
+						<div class="icon-wrapper">
+							<img class="style-icon" src="https://scontent-ord1-1.xx.fbcdn.net/t39.2365-6/851585_216271631855613_2121533625_n.png">
+						</div>
+
+						<div class="style-text">
+							<span class="left-text">Share what's new</span> 
+							<span class="right-text">in your life on your Timeline.</span>
+						</div>
+					</div>
+
+
+					<div>
+						<div class="icon-wrapper">
+							<img src="https://scontent-ord1-1.xx.fbcdn.net/t39.2365-6/851558_160351450817973_1678868765_n.png">
+						</div>
+
+						<div class="style-text" style="padding-bottom: 40px">
+							<span class="left-text">Find more</span> 
+							<span class="right-text">of what you're looking for with Facebook Search.</span>
+						</div>
+					</div>	
+
+					</div> <!-- style-connect -->
+
+			    </div> <!-- content-left -->
+
+			<div class="content-right">
+				<h1 class="style-titleright">Sign Up</h1>
+				<p class="style-titleunder">It's free and always will be.</p>
+				
+				<form name="register_form" action="" id="register_form">
+					<input class="style-fieldsright" type="text" name="firstname" placeholder="First name">
+
+					<input class="style-fieldsright" type="text" name="lastname" placeholder="Last name">
+
+					<input class="style-fieldsright" type="text" name="firstname" placeholder="Mobile number or email">
+
+					<input class="style-fieldsright" type="text" name="firstname" placeholder="Re-enter mobile number or email">
+
+					<input class="style-fieldsright" type="text" name="firstname" placeholder="New password">
+
+					<!-- Drobdown list with months days years -->
+				        <table>
+				            <tr>
+				            <h3 class="style-titlebirthday">Birthday</h3>
+				            </tr>
+				           
+				            <tr>
+				            	<td>
+				                <select class="style-dropdown" name="month_list">
+				                <option value="">Month</option>
+				                </select>
+				                </td>
+
+				                <td>
+				                <select class="style-dropdown" name="day_list">
+				                <option value="">Day</option>
+				                </select>
+				                </td>
+				               
+				                <td>
+				                <select class="style-dropdown" name="year_list">
+				                <option value="">Year</option>
+				                </select>
+				                </td>
+				            </tr>
+
+	       					<a class="style-birthdayquestion">Why do I need to provide my birthday?</a>
+       					 </table> <!-- End Drobdown list with months days years -->
+
+       					<div class="wrapper-checkbox">
+	       					<span class="wrapper-female">
+	       					<input class="style-checkbox" type="radio" name="sex" value="1" id="female">
+	       					<label class="checkbox-title" for="female">Female</label>
+	       					</span>
+ 						      					
+	       					<span class="wrapper-male">
+	       					<input class="style-checkbox" type="radio" name="sex" value="2" id="male">
+	       					<label class="checkbox-title" for="male">Male</label>
+	       					</span>
+       					</div>
+
+       					<div>
+       						<p style="float:left;margin: 10px 0px;font-size: 10px; color: #777;">By clicking Sign Up, you agree to our 
+       						<a style="text-decoration: none;color: #365899;" href="" onmouseover='this.style.textDecoration="none"' 
+    						onmouseout='this.style.textDecoration="underline"'>
+    						Terms
+    						</a> and that you have read our 
+
+    						<a style="text-decoration: none; color: #365899;" href="" onmouseover='this.style.textDecoration="none"' 
+    						onmouseout='this.style.textDecoration="underline"'>
+    						Data Policy
+    						</a>, including our 
+
+  							<a style="text-decoration: none;color: #365899;" href="" onmouseover='this.style.textDecoration="none"' 
+    						onmouseout='this.style.textDecoration="underline"'>
+    						Cookie Use
+    						</a>
+    						</p>
+       					</div> 
+
+       					<div class="style-submitbutton">
+       						<button class="style-greenbutton" type="submit" class="" name="submit" id="greenbutton">Sign Up</button>
+       					</div>
+
+       					<div class="style-businessoption">
+       						<a style="text-decoration: none; color: #365899" href="" onmouseover='this.style.textDecoration="none"' 
+    onmouseout='this.style.textDecoration="underline"'>Create a Page</a>  for a celebrity, band or business.
+       					</div>
+
+				</form>
+
+			</div> <!-- End content-right" -->
+
+		</div> <!-- End container-content" -->
+
+</div> <!-- End container-wrapper" -->
+
+<script>
+	
+	function addOption(selectbox, text, value) {
+    var optn = document.createElement("option");
+    optn.text = text;
+    optn.value = value;
+    selectbox.options.add(optn);
+}
+	function addOption_list() {
+     
+	    for (var i=1; i <= 31;++i) {
+	        addOption(document.register_form.day_list,i,i);
+	    }
+	    for (var i=1; i <= 12;++i) {
+	    addOption(document.register_form.month_list,i,i);
+	    }
+	    for (var i=1900; i < 2006;++i) {
+	    addOption(document.register_form.year_list,i,i);
+	    }
+	}
+
+</script>
+</body>
+
+</html>

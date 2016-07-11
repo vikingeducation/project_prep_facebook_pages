@@ -1,0 +1,484 @@
+
+/*************************************************************
+General
+**************************************************************/
+
+body {
+	font-size: 100%;
+	min-height: 100%;
+	background: #edf0f5;
+}
+
+input {width: 95%;}
+
+
+/***************************************************************
+End of General
+***************************************************************/
+
+
+
+
+/***************************************************************
+Header
+***************************************************************/
+
+
+.header {
+	position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background-color: #3b5998;
+}
+
+
+
+.container-logo {
+	width:30%;
+	float: left;
+	padding-left: 1%;
+	margin: 0 5%;
+}
+
+	.logo-style {
+		width: 180px;
+		margin: 0 5%;
+		padding-top: 30px;
+		color: #fff;
+		font-size: 2.5em;
+	}
+
+.container-login {
+	width: 40%;
+	float: right;
+	padding-top: 2%;
+	padding-right: 2%;
+    padding-left: 2%;
+    height: 70px;
+}
+
+
+
+
+.container-login form li {
+	display:inline-block;
+}
+
+#email-style {
+	width: 40%;
+    float: left;
+}
+
+#password-style {
+	position: absolute;
+	width: 25%;
+	float: right;
+	margin-left:5px;
+}
+
+.style-emailpassword {
+	color: #fff;
+	line-height: 1.8em;
+	font-size:12px;
+}
+
+	.rightside-left {
+	width: 60%;
+	float: left;
+	}
+
+			.style-underpassword {
+				text-decoration: none;
+				color: #ccc;
+				font-size: 12px;
+			}
+
+	.rightside-right {
+	width: 30%;
+	float: right;
+	}
+
+		.submit-button {
+			color: #fff;
+		    background-color: #6486c9;
+		    font-size: 12px;
+		    border: 1px solid black;
+		    border-radius:2px;
+		    padding: 4px 0px;
+		    margin: 17px 5px 15px -10px;
+		    width: 60px;
+		}
+
+
+
+
+/***************************************************************
+End of Header
+**********************************************************v*****/
+
+
+
+/*******************************************v********************
+Content
+*****************************************************************/
+
+
+		.content-left {
+		    width: 55%;
+		    float: left;
+		}
+
+			.style-titleleft {
+				font-size: 1.8em;
+			    padding-top: 42px;
+			    padding-bottom: 10px;
+			    line-height: 36px;
+			}
+
+
+				.icon-wrapper {
+					width: 55px;
+				    text-align: center;
+				    display: inline-block;
+				    margin-top: 20px;
+				    margin-right: 20px;
+				}
+
+					.style-icon {
+						vertical-align: middle;
+					}
+
+					.style-text {
+						width: 440px;
+						vertical-align: middle;
+						display: inline-block;
+					}
+
+						.left-text {
+							font-weight: bold;
+						}
+
+						.right-text {
+							color: #666;
+							font-size: 15px;
+							margin-left: 10px;
+						}
+
+			.content-right {
+			    width: 40%;
+			    float: right;
+			 }
+
+
+			 	.style-titleright {
+			 		margin: 0;
+
+			 	}
+
+			 		.style-titleunder {
+			 			margin-top: 0px;
+			 			font-size: 1.2em;
+    					line-height: 1.5;
+			 		}
+
+
+			 		.style-fieldsright {
+			 			height: 21px;
+					    border-radius: 5px;
+					    border-color: #bdc7d8;
+					    margin: 8px 0px;
+					    padding: 8px 10px;
+					    border: 1px solid #bdc7d8;
+			 		}
+
+			 		.style-titlebirthday {
+			 		    font-weight: 400;
+			 		    line-height: 1.6em;
+			 		    margin-bottom: 3px;		
+			 		}
+
+
+			 				.style-birthdayquestion {
+			 					max-width: 170px;
+							    float: right;
+							    font-size: 10px;
+							    margin-right: 20px;
+							    color: #365899;
+			 				}
+
+			 				.style-birthdayquestion:hover {
+			 					text-decoration: underline;
+			 				}
+
+			 		.style-dropdown {
+			 			background-color: #fff;
+					    font-size: 13px;
+					    height: 30px;
+					    padding: 5px;
+					    border: 1px solid #bdc7d8;
+					    width: 59px;
+			 		}
+
+			 			.wrapper-checkbox {
+			 				padding: 10px 0;
+			 			}
+
+				 				.wrapper-female {
+				 				width: 130px;
+	    						float: left;
+				 				}
+
+				 					.style-checkbox {
+				 						width: 30px;
+				 					}
+
+				 					.checkbox-title {
+				 						color: #1d2129;
+									    font-size: 18px;
+									    font-weight: normal;
+									    line-height: 18px;
+									    padding: 0 10px 0 3px;
+				 					}
+
+				 				.wrapper-male {
+								    width: 100px;
+								    float: right;
+								    margin-right: 150px;			 				}
+								}
+
+
+
+
+								
+
+								.style-submitbutton {
+									float:left;	
+								}
+
+
+									.style-greenbutton {
+										font-size: 19px;
+										font-weight: bold;
+										letter-spacing: normal;
+										margin: 10px 0px;
+										padding: 7px 20px;
+										text-align: center;
+										line-height: 126%;
+										width: 194px;
+										background: linear-gradient(#67ae55, #578843);
+									    background-color: #69a74e;
+									    box-shadow: inset 0 1px 1px #a4e388;
+									    border: 1px solid #2c5115;
+									    border-radius: 5px;
+									    color: #fff;
+									    cursor: pointer;
+									    display: inline-block;
+									    letter-spacing: 1px;
+									    position: relative;
+									    text-shadow: 0 1px 2px rgba(0,0,0,.5)
+									}
+
+									.style-greenbutton:hover {
+										background: #67ae55;
+									}
+
+								.style-businessoption {
+									float:left;	
+									font-size: 13px;
+									font-weight: bold;
+									margin-top: 10px;
+									padding-top: 15px;
+									color: #666;
+									border-top: 1px solid #dddfe2;
+								}
+
+
+/*****************************************************************************
+End of Content
+*************************************************************v****************/
+
+
+
+/***********************************v******************************************
+Responsive Containers
+********************************************************************************/
+
+
+	.container-header {
+	position: relative;
+    width: 100%;
+    padding-bottom: 7%;
+	}
+
+
+	.container-content {
+	width: 980px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    height: 800px;
+    }
+
+    
+
+
+
+
+/***********************************************************************************
+End Responsive Containers
+***********************************************************************************/
+
+
+/******************************************************************************v*****
+Responsive Media Queries 
+*************************************************************************************/
+
+@media screen and (max-width: 1100px) {
+	.container-header {
+		width: 100%;
+	}
+
+	.container-logo {
+		padding-left: 0;
+		margin: 0;
+	}
+
+	.container-login {
+		float: left;
+		width: 60%;
+		margin-right: 10%;
+	}
+
+	#email-style {
+		width: 50%;
+	}
+
+	#password-style {
+		width: 50%;
+		margin-left:5px;
+	}
+
+	.submit-button {
+		padding: 15px 0px 15px 0px;
+    	font-size: 16px;
+    	margin: 10px 5px 15px -10px;
+    	width: 90px;
+	}
+
+
+	.container-content {
+		max-width: 100%;
+	}
+
+		.content-left {
+    	margin-top: 5%;
+    	width: 43%;
+    	margin-left: 2%;
+		}
+			.style-titleleft {
+				padding-top: 52px;
+			}
+
+				.style-text {
+					width:240px;
+				}
+
+		.content-right {
+    	margin-top: 12%;
+    	margin-right: 5%;
+    	width: 40%;
+    	padding-top:15px;
+		}
+
+				.style-birthdayquestion {
+					float: left;
+				}
+
+						.wrapper-female {
+							width: 110px;
+						}
+
+						.wrapper-male {
+							margin-right: 60px;
+						}
+
+}
+
+
+@media screen and (max-width: 680px) {
+
+.content-left {
+	width: 80%;
+    margin: 10% 10%;
+}
+
+			.style-text {
+				width: 300px;
+			}
+
+.content-right {
+	width: 60%;
+	float: left;
+	margin-left: 10%;
+}		
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+	.header {
+		padding-bottom: 18%;
+	}
+
+
+
+	#email-style {
+		width: 75%;
+	}
+
+		input {
+			height: 25px;
+		}
+
+	#password-style {
+		width: 47%;
+		margin-left: 10px;
+	}
+
+		.rightside-left {
+			width: 100%;
+    		float: left;
+		}
+
+		.rightside-right {
+		    float: left;
+		    margin-left: 10px;
+		}
+
+			.submit-button {
+			padding: 0px;
+		}
+
+
+
+
+		.content-left {
+			margin-top: 30%;
+		}
+
+				.style-titleleft {
+					padding: 0;
+					padding-top: 55px;
+				}
+
+		.content-right {
+			margin-top: 0px;
+			padding-top: 0px;
+		}
+}
+
+
+/******************************************************************************
+End of Responsive Media Queries
+******************************************************************************/
