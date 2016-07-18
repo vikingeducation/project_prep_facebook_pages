@@ -1,0 +1,32 @@
+body {
+	
+}
+
+.navbar-container {
+	width: auto;
+	height: 100px;
+	background-color: #3B5998;
+}
+
+.navbar-container .logo {
+	color: white;
+	font-size: 40px;
+	padding: 24px;
+	margin-left: 72px;
+	display: inline-block;
+	text-align: middle;
+}
+
+.sign-in-container {
+	float: right;
+	display: inline-block;
+	color: white;
+}
+
+.sign-in-container h2 {
+	display: inline-block;
+}
+
+
+
+
