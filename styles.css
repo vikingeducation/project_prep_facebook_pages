@@ -3,14 +3,13 @@ body {
 }
 
 .navbar {
-	line-height: 100px;
-
+	line-height: 75px;
 	background-color: #3B5998;
 }
 
 .navbar .logo {
 	color: white;
-	font-size: 30px;
+	font-size: 48px;
 	margin-left: 240px;
 	display: inline-block;
 }
@@ -18,7 +17,7 @@ body {
 
 .sign-in-container {
 	float: right;
-	margin-right: 200px;
+	margin-right: 300px;
 }
 
 
@@ -50,8 +49,104 @@ body {
 	color: white;
 }
 
+.main-content {
+	width: 100%;
+	height: 100%;
+	background-color: #EDF0F5;
+	display: inline-block;
 
+}
 
+.banner {
+	width: 400px;
+	height: 600px;
+	display: inline-block;
+	margin-left: 240px;
+	margin-top: 140px;
+
+}
+
+.banner2 {
+	display: inline-block;
+	float: right;
+	vertical-align: middle;
+	margin-top: 30px;
+	margin-right: 240px;
+}
+
+.banner2 h1{
+	font-size: 34px;
+	padding-bottom: 12px;
+}
+
+.banner2 h2{
+	padding-bottom: 12px;
+	font-size: 21px;
+}
+
+.signup-container {
+	padding: 12px 0;
+	display: inline-block;
+}
+
+.signup-fn {
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+.signup-ln {
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+.signup-fn .password-bar{
+	width: 108px;
+}
+
+.signup-ln .password-bar{
+	width: 120px;
+}
+
+.signup-fn input{
+	padding-left: 4px;
+}
+
+.signup-ln input{
+	padding-left: 4px;
+}
+
+.password-bar{
+	padding: 8px 0;
+}
+
+.password-bar2{
+	width: 240px;
+	padding: 8px 0;
+}
+
+.signup-mobile {
+	padding-bottom: 10px;
+}
+
+.signup-mobile input{
+	padding-left: 4px;
+}
+
+.signup-re {
+	padding-bottom: 10px;
+}
+
+.signup-re input{
+	padding-left: 4px;
+}
+
+.signup-np {
+	padding-bottom: 20px;
+}
+
+.signup-np input{
+	padding-left: 4px;
+}
 
 
 
