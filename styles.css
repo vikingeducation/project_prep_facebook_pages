@@ -1,31 +1,57 @@
 body {
-	
+	font-family: Helvetica, sans-serif;
 }
 
-.navbar-container {
-	width: auto;
-	height: 100px;
+.navbar {
+	line-height: 100px;
+
 	background-color: #3B5998;
 }
 
-.navbar-container .logo {
+.navbar .logo {
 	color: white;
-	font-size: 40px;
-	padding: 24px;
-	margin-left: 72px;
+	font-size: 30px;
+	margin-left: 240px;
 	display: inline-block;
-	text-align: middle;
 }
+
 
 .sign-in-container {
 	float: right;
+	margin-right: 200px;
+}
+
+
+.emailphone {
+	color: white;
+	font-size: 14px;
+	line-height: 20px;
+	vertical-align: middle;
 	display: inline-block;
+}
+
+.password {
+	color: white;
+	font-size: 14px;
+	line-height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 20px;
+}
+
+.loginbtn {
+	float: right;
+	padding-left: 4px;
+	margin-top: 10px;
+}
+
+.loginbtn .search-submit{
+	background: #365899;
 	color: white;
 }
 
-.sign-in-container h2 {
-	display: inline-block;
-}
+
+
 
 
 
