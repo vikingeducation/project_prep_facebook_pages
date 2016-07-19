@@ -57,13 +57,30 @@ body {
 
 }
 
-.banner {
-	width: 400px;
-	height: 600px;
+.banner1 {
+	width: 600px;
+	height: 530px;
 	display: inline-block;
-	margin-left: 240px;
-	margin-top: 140px;
+	padding-left: 150px;
+	margin-top: 90px;
+}
 
+.banner1 h2 {
+	font-size: 30px;
+	padding-bottom: 30px;
+	padding-left: 60px;
+}
+
+.banner1 h3{
+	display: inline-block;
+
+}
+
+.banner1 img{
+	display: inline-block;
+	vertical-align: middle;
+	padding-bottom: 18px;
+	padding-left: 60px;
 }
 
 .banner2 {
@@ -71,7 +88,7 @@ body {
 	float: right;
 	vertical-align: middle;
 	margin-top: 30px;
-	margin-right: 240px;
+	margin-right: 300px;
 }
 
 .banner2 h1{
@@ -100,11 +117,11 @@ body {
 }
 
 .signup-fn .password-bar{
-	width: 108px;
+	width: 158px;
 }
 
 .signup-ln .password-bar{
-	width: 120px;
+	width: 170px;
 }
 
 .signup-fn input{
@@ -116,11 +133,10 @@ body {
 }
 
 .password-bar{
-	padding: 8px 0;
-}
+	padding: 8px 0;}
 
 .password-bar2{
-	width: 240px;
+	width: 340px;
 	padding: 8px 0;
 }
 
