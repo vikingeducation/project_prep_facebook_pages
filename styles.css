@@ -148,6 +148,31 @@ body {
 	padding-left: 4px;
 }
 
+/*======= BIRTHDAY =====*/
 
+.bday-wrapper {
+	margin-bottom: 12px;
+}
+.bday-month {
+	display: inline-block;
+}
+
+.bday-day {
+	display: inline-block;
+}
+
+.bday-year {
+	display: inline-block;
+}
+
+.bday-info h2{
+	font-size: 21px;
+}
+
+.bday-info h3{
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: middle;
+}
 
 
