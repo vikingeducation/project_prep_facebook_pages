@@ -71,17 +71,11 @@ body {
 	padding-left: 60px;
 }
 
-.banner1 h3{
-	display: inline-block;
-
-}
-
-.banner1 img{
-	display: inline-block;
-	vertical-align: middle;
-	padding-bottom: 18px;
+.banner1 li{
+	margin-top: 15px;
 	padding-left: 60px;
 }
+
 
 .banner2 {
 	display: inline-block;
