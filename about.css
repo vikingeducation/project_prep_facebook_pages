@@ -1,3 +1,61 @@
 body {
-	
+	font-family: Helvetica, sans-serif;
 }
+
+.navbar {
+	height: 40px;
+	border-bottom: 1px solid black;
+	background-color: #207DDC;
+}
+
+
+.logo-container {
+	float: left;
+	line-height: 40px;
+	padding-left: 240px;
+}
+
+.logo-container img{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.logo-container h2{
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.search-container {
+	height: 20px;
+	display: inline-block;
+}
+
+.search-container .search-bar{
+	height: 20px;
+	width: 515px;
+	vertical-align: top;
+	margin-top: 8px;
+	margin-left: 40px;
+	padding-left: 6px;
+	font-size: 12px;
+	border: 1px solid black;
+}
+
+.profile {
+	float: right;
+	line-height: 42px;
+	padding-right: 380px;
+	display: inline-block;
+}
+
+.profile h2{
+	font-size: 18px;
+	color: white;
+	display:inline-block;
+	vertical-align: middle;
+}
+
+
