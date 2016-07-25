@@ -12,7 +12,7 @@ body {
 .logo-container {
 	float: left;
 	line-height: 40px;
-	padding-left: 240px;
+	padding-left: 280px;
 }
 
 .logo-container img{
@@ -35,7 +35,7 @@ body {
 
 .search-container .search-bar{
 	height: 20px;
-	width: 515px;
+	width: 540px;
 	vertical-align: top;
 	margin-top: 8px;
 	margin-left: 40px;
@@ -46,8 +46,9 @@ body {
 
 .profile {
 	float: right;
-	line-height: 42px;
-	padding-right: 380px;
+	line-height: 40px;
+	height: 40px;
+	padding-right: 285px;
 	display: inline-block;
 }
 
@@ -57,5 +58,77 @@ body {
 	display:inline-block;
 	vertical-align: middle;
 }
+
+
+.fbcover-wrapper{
+	margin: auto;
+	width: 880px;
+	height: 336px;
+	border: 2px solid gray;
+	position: relative;
+	
+}
+
+.fbcover-wrapper .coverphoto{
+	height: 290px;
+	width: 880px;
+	border-bottom: 2px solid gray;
+}
+
+.fbcover-wrapper .profilepic{
+	position: absolute;
+	border: 2px solid gray;
+	display: block;
+	bottom: 25px;
+	left: 30px;
+	height: 100px;
+	width: 100px;
+
+}
+
+.fbtab{
+	line-height: 38px;
+	width: 880px;
+	margin: auto;
+	text-align: center;
+
+}
+
+
+.tab {
+	position: relative;
+	display: inline-block;
+	
+}
+
+.timeline {
+	border: 1px solid gray;
+
+}
+
+.about {
+	border: 1px solid gray;
+	
+}
+
+.photo {
+	border: 1px solid gray;
+
+}
+
+.friends {
+	border: 1px solid gray;
+
+}
+
+.editprof {
+	border: 1px solid gray;
+	float: right;
+}
+
+.about-bar{
+	width: 880px;
+}
+
 
 
