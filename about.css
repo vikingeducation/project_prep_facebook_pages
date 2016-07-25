@@ -103,7 +103,7 @@ body {
 
 .timeline {
 	border: 1px solid gray;
-
+	border
 }
 
 .about {
@@ -122,13 +122,123 @@ body {
 }
 
 .editprof {
-	border: 1px solid gray;
+	margin-right: 5px;
 	float: right;
+}
+
+.about-wrapper{
+	margin-top: 20px;
 }
 
 .about-bar{
 	width: 880px;
+	height: 30px;
+	margin: auto;
+	padding-top: 10px;
+	border: 2px solid gray;
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+
 }
+
+.edit-profile {
+	float: right;
+	margin-right: 5px;
+}
+
+.personal-info-wrapper {
+	width: 880px;
+	height: 300px;
+	border: 2px solid gray;
+	margin: auto;
+	display: block;
+}
+
+.persona-info-wrapper h3{
+	text-align: middle;
+}
+
+.contain-left{
+	width: 440px;
+	display: inline-block;
+
+}
+
+.contain-right{
+	 width: 440px;
+	 float: right;
+}
+
+.basic-info {
+	margin: 30px;
+}
+
+.basic-info h3{
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.contact-info {
+	margin: 30px;
+	display: inline-block;
+}
+
+.contact-info h3{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.words-info {
+	margin: 30px;
+}
+
+.words-info h3{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.about-me {
+	margin: 30px;
+}
+
+.about-me h3 {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
