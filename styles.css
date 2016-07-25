@@ -1,0 +1,220 @@
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+.navbar {
+	line-height: 75px;
+	background-color: #3B5998;
+}
+
+.navbar .logo {
+	color: white;
+	font-size: 48px;
+	margin-left: 240px;
+	display: inline-block;
+}
+
+
+.sign-in-container {
+	float: right;
+	margin-right: 300px;
+}
+
+
+.emailphone {
+	color: white;
+	font-size: 14px;
+	line-height: 20px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.password {
+	color: white;
+	font-size: 14px;
+	line-height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 20px;
+}
+
+.loginbtn {
+	float: right;
+	padding-left: 4px;
+	margin-top: 10px;
+}
+
+.loginbtn .search-submit{
+	background: #365899;
+	color: white;
+}
+
+.main-content {
+	width: 100%;
+	height: 100%;
+	background-color: #EDF0F5;
+	display: inline-block;
+
+}
+
+.banner1 {
+	width: 600px;
+	height: 530px;
+	display: inline-block;
+	padding-left: 150px;
+	margin-top: 90px;
+}
+
+.banner1 h2 {
+	font-size: 30px;
+	padding-bottom: 30px;
+	padding-left: 60px;
+}
+
+.banner1 li{
+	margin-top: 15px;
+	padding-left: 60px;
+}
+
+
+.banner2 {
+	display: inline-block;
+	float: right;
+	vertical-align: middle;
+	margin-top: 30px;
+	margin-right: 300px;
+}
+
+.banner2 h1{
+	font-size: 34px;
+	padding-bottom: 12px;
+}
+
+.banner2 h2{
+	padding-bottom: 12px;
+	font-size: 21px;
+}
+
+.signup-container {
+	padding: 12px 0;
+	display: inline-block;
+}
+
+.signup-fn {
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+.signup-ln {
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+.signup-fn .password-bar{
+	width: 158px;
+}
+
+.signup-ln .password-bar{
+	width: 170px;
+}
+
+.signup-fn input{
+	padding-left: 4px;
+}
+
+.signup-ln input{
+	padding-left: 4px;
+}
+
+.password-bar{
+	padding: 8px 0;}
+
+.password-bar2{
+	width: 340px;
+	padding: 8px 0;
+}
+
+.signup-mobile {
+	padding-bottom: 10px;
+}
+
+.signup-mobile input{
+	padding-left: 4px;
+}
+
+.signup-re {
+	padding-bottom: 10px;
+}
+
+.signup-re input{
+	padding-left: 4px;
+}
+
+.signup-np {
+	padding-bottom: 20px;
+}
+
+.signup-np input{
+	padding-left: 4px;
+}
+
+/*======= BIRTHDAY =====*/
+
+.bday-wrapper {
+	margin-bottom: 12px;
+}
+.bday-month {
+	display: inline-block;
+}
+
+.bday-day {
+	display: inline-block;
+}
+
+.bday-year {
+	display: inline-block;
+}
+
+.bday-info h2{
+	font-size: 21px;
+}
+
+.bday-info h3{
+	display: inline-block;
+	font-size: 12px;
+	vertical-align: middle;
+}
+
+.sex {
+	margin-bottom: 12px;
+}
+
+.agreeinfo {
+	font-size: 11px;
+	margin-bottom: 18px;
+}
+
+.agreebtn button{
+	width: 180px;
+	height: 35px;
+	text-align: center;
+	font-size: 19px;
+	font-weight: bold;
+	color: white;
+	background: linear-gradient(#67ae55, #578843);
+	background-color: #69a74e;
+	box-shadow: inset 0 1px 1px #a4e388;
+	border-color: #3b6e22 #3b6e22 #2c5115;
+	border-radius: 5px;
+}
+
+.createpage {
+	margin-top: 24px;
+}
+
+.createpage h2{
+	font-size: 12px;
+	font-weight: 500;
+}
+
+

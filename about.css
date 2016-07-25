@@ -1,0 +1,260 @@
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+.navbar {
+	height: 40px;
+	border-bottom: 1px solid black;
+	background-color: #207DDC;
+}
+
+
+.logo-container {
+	float: left;
+	line-height: 40px;
+	padding-left: 280px;
+}
+
+.logo-container img{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+
+.logo-container h2{
+	font-size: 20px;
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.search-container {
+	height: 20px;
+	display: inline-block;
+}
+
+.search-container .search-bar{
+	height: 20px;
+	width: 540px;
+	vertical-align: top;
+	margin-top: 8px;
+	margin-left: 40px;
+	padding-left: 6px;
+	font-size: 12px;
+	border: 1px solid black;
+}
+
+.profile {
+	float: right;
+	line-height: 40px;
+	height: 40px;
+	padding-right: 285px;
+	display: inline-block;
+}
+
+.profile h2{
+	font-size: 18px;
+	color: white;
+	display:inline-block;
+	vertical-align: middle;
+}
+
+
+.fbcover-wrapper{
+	margin: auto;
+	width: 880px;
+	height: 336px;
+	border: 2px solid gray;
+	
+}
+
+.fbcover-wrapper img{
+	width: 880px;
+	height: 336px;
+}
+.fbcover-wrapper .coverphoto{
+	height: 290px;
+	width: 880px;
+	border-bottom: 2px solid gray;
+}
+
+.fbcover-wrapper .profilepic{
+	position: absolute;
+	border: 2px solid gray;
+	display: block;
+	left: 30px;
+	bottom: 20px;
+	height: 100px;
+	width: 100px;
+
+}
+
+.fbtab{
+	line-height: 38px;
+	width: 878px;
+	margin: auto;
+	text-align: center;
+	border: 2px solid gray;
+	display: inline-block;
+	position: relative;
+
+}
+
+
+.tab {
+	position: relative;
+	display: inline-block;
+	
+}
+
+.timeline {
+	border: 1px solid gray;
+	border
+}
+
+.about {
+	border: 1px solid gray;
+	
+}
+
+.photo {
+	border: 1px solid gray;
+
+}
+
+.friends {
+	border: 1px solid gray;
+
+}
+
+.editprof {
+	margin-right: 5px;
+	float: right;
+}
+
+.about-wrapper{
+	margin: auto;
+	left: 277px;
+	padding-top: 70px;
+}
+
+.about-bar{
+	width: 880px;
+	height: 30px;
+	margin: auto;
+	padding-top: 10px;
+	border: 2px solid gray;
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #EEEEEE;
+}
+
+.cta-button {
+	font-weight: bold;
+	color: white;
+	background-color: #2b78e4;
+	border: 2px solid black;
+	padding: 1px;
+}
+
+.edit-profile {
+	float: right;
+	margin-right: 5px;
+}
+
+.personal-info-wrapper {
+	width: 880px;
+	height: 300px;
+	border: 2px solid gray;
+	margin: auto;
+	display: block;
+}
+
+.persona-info-wrapper h3{
+	text-align: middle;
+}
+
+.contain-left{
+	width: 440px;
+	display: inline-block;
+
+}
+
+.contain-right{
+	 width: 440px;
+	 float: right;
+}
+
+.basic-info {
+	margin: 30px;
+}
+
+.basic-info h3{
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.contact-info {
+	margin: 30px;
+	display: inline-block;
+}
+
+.contact-info h3{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.words-info {
+	margin: 30px;
+}
+
+.words-info h3{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.about-me {
+	margin: 30px;
+}
+
+.about-me h3 {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
