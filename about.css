@@ -65,10 +65,13 @@ body {
 	width: 880px;
 	height: 336px;
 	border: 2px solid gray;
-	position: relative;
 	
 }
 
+.fbcover-wrapper img{
+	width: 880px;
+	height: 336px;
+}
 .fbcover-wrapper .coverphoto{
 	height: 290px;
 	width: 880px;
@@ -79,8 +82,8 @@ body {
 	position: absolute;
 	border: 2px solid gray;
 	display: block;
-	bottom: 25px;
 	left: 30px;
+	bottom: 20px;
 	height: 100px;
 	width: 100px;
 
@@ -88,9 +91,12 @@ body {
 
 .fbtab{
 	line-height: 38px;
-	width: 880px;
+	width: 878px;
 	margin: auto;
 	text-align: center;
+	border: 2px solid gray;
+	display: inline-block;
+	position: relative;
 
 }
 
@@ -127,7 +133,9 @@ body {
 }
 
 .about-wrapper{
-	margin-top: 20px;
+	margin: auto;
+	left: 277px;
+	padding-top: 70px;
 }
 
 .about-bar{
@@ -140,7 +148,15 @@ body {
 	text-align: center;
 	font-size: 16px;
 	font-weight: bold;
+	background-color: #EEEEEE;
+}
 
+.cta-button {
+	font-weight: bold;
+	color: white;
+	background-color: #2b78e4;
+	border: 2px solid black;
+	padding: 1px;
 }
 
 .edit-profile {
