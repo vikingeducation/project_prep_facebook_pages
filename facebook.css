@@ -74,12 +74,12 @@ body {
           box-sizing: border-box;
 }
 
-.container, 
+.section, 
 .grid {
   margin: 0 auto;
   width: 100%;
 }
-.container {
+.section {
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -103,7 +103,7 @@ body {
   padding-right: 15px;
 }
 
-.container,
+.section,
 .grid {
   margin: 0 auto;
   width: 100%;
@@ -126,7 +126,7 @@ body {
 .col-2-3 {
   width: 66.66%;
 }
-.container {
+.section {
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -251,29 +251,102 @@ body {
 
 /*
   ========================================
-  Call to Action Text
+  Call to Action
   ========================================
 */
 .cta {
-  padding: 0 70px 0 70px;
+  display: block;
 }
-.cta-txt h2 {
-  padding: 30px 0 15px 0;
-  text-align: left;
+.cta-text {
+  padding: 30px 0 0 40px;
+  display: inline-block;
+}
+.cta-text h2 {
+  padding: 10px 0 5px 0;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: .5px;
 }
-.cta-txt ul {
-  margin-left: 20px;
+.cta-text ul {
+  padding-left: 15px;
 }
-.cta-txt li {
-  padding: 0 0 10px 0;
+.cta-text li {
+  padding: 5px 0;
   text-align: left;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 400;
   color: #666666;
   letter-spacing: .5px;
   list-style-type: disc;
   list-style-position: inside;
+}
+.cta-form {
+  float: right;
+  padding: 5px 72px 5px 5px;
+  display: inline-block;
+  right: 10px;
+}
+.cta-form label {
+  font-weight: 400;
+  color: #333333;
+  font-size: 10px;
+}
+.cta-form legend {
+  line-height: 32px;
+  padding-bottom: 15px;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.cta-form input[type=text], input[type=password], select {
+    width: 100%;
+    padding: 4px 4px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #666666;
+    vertical-align: middle;
+}
+
+.cta-form input:nth-of-type(1) {
+    width: 45%;
+    margin-right: 6px;
+}
+.cta-form input:nth-of-type(2) {
+    float: right;
+    width: 50%;
+}
+
+.cta-form select:nth-of-type(1) {
+    width: 25%;
+    margin-right: 6px;
+}
+.cta-form select:nth-of-type(2) {
+    width: 15%;
+    margin-right: 6px;
+}
+.cta-form select:nth-of-type(3) {
+    width: 16%;
+}
+.cta-form button[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cta-form button[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.cta-form div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5px;
 }
