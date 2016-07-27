@@ -55,7 +55,7 @@ table {
   ========================================
 */
 body {
-  background: #3333ff;
+  background-color: #eeeeff;
   color: #333333;
   font: 300 16px/22px  "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -78,7 +78,6 @@ body {
 .grid {
   margin: 0 auto;
   width: 100%;
-  border: 1px solid red;
 }
 .container {
   padding-left: 30px;
@@ -157,7 +156,7 @@ body {
 */
 
 .row {
-  background: #fff;
+  background: #eeeeff;
   padding: 66px 0 44px 0;
 }
 .row,
@@ -199,7 +198,8 @@ body {
   ========================================
 */
 
-.homepage {
+.header {
+  background: #3333ff;
   color: #eeeeff;
 }
 .homepage-text {
@@ -238,6 +238,7 @@ body {
   padding: 0;
   text-align: left;
   vertical-align: bottom;
+  color: #eeeeff;
 }
 .login-nav div {
   line-height: 32px;
@@ -246,4 +247,33 @@ body {
 }
 .login-nav div:last-child {
   margin-right: 0;
+}
+
+/*
+  ========================================
+  Call to Action Text
+  ========================================
+*/
+.cta {
+  padding: 0 70px 0 70px;
+}
+.cta-txt h2 {
+  padding: 30px 0 15px 0;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: .5px;
+}
+.cta-txt ul {
+  margin-left: 20px;
+}
+.cta-txt li {
+  padding: 0 0 10px 0;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+  color: #666666;
+  letter-spacing: .5px;
+  list-style-type: disc;
+  list-style-position: inside;
 }
