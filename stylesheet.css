@@ -1,0 +1,53 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, sans-serif;
+}
+
+.header{
+	background-color: blue;
+	color: white;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	align-items: center;
+}
+
+.header h1{
+	margin: 0;
+}
+
+.header button{
+	background-color: #6699ff;
+}
+
+.login label{
+	display: block;
+}
+
+.login{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	/*vertical-align: bottom;*/
+}
+
+.login button{
+	display: block;
+}
+
+.email-container,
+.password-container{
+	margin: 0 5px;
+}
+
+.main-container{
+	display: flex;
+	padding: 30px;
+}
+
+

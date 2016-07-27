@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Facebook</title>
+	<!-- <title>Facebook</title> -->
+	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-	<div class ="navbar">
-		<h5>Welcome to Facebook</h5>
-		Left arrow
-		Right arrow
-		Close 
-		<a href="index.html">Home icon</a>
-		<input type="text" class="url" placeholder="">
-		Go button
-	</div>
-	<div class="header">
+	<header class="header">
 		<h1>Facebook</h1>
-		<input type="text" class="email" placeholder="">
-		<input type="text" class="password" placeholder="">
-		<button type="button">Log in</button>
-	</div>
+		<div class="login">
+			<div class="email-container">
+				<label>Email</label>
+				<input type="text" class="email" placeholder="">
+			</div>
+			<div class="password-container">
+				<label>Password</label>
+				<input type="text" class="password" placeholder="">
+			</div>
+			<button type="button">Log in</button>
+		</div>	
+	</header>
 	<div class="main-container">
 		<div class="page-summary">
 			<h2>Connect with all your friends!</h2>
