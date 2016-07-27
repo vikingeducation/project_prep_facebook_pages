@@ -45,9 +45,55 @@ body{
 	margin: 0 5px;
 }
 
+/*********************************** 
+Page content
+************************************/
+
 .main-container{
 	display: flex;
 	padding: 30px;
+	margin:0 50px 0 39px;
+	justify-content: space-between;
 }
 
+.page-summary{
+	width: 100%;
+	padding: 30px;
+}
+
+.page-summary ul li{
+	padding: 15px;
+}
+
+/*********************************** 
+Sign up new user components
+************************************/
+
+.names{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+
+.conf-password, .password-signup, .email-signup{
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+
+
+.sign-up-form button{
+	display: block;
+	color: white;
+	background-color: green;
+	width: 100%;
+}
+
+
+.sign-up-form .gender-container {
+	display: block;
+	margin: 20px 0px;
+}
 
