@@ -101,8 +101,10 @@ body {
 }
 
 .row {
-  background: #eeeeff;
-  padding: 66px 0 44px 0;
+  margin: 0 40px 0 40px;
+  right: 0;
+  left: 0;
+  display: block;
 }
 .row,
 .row-alt {
@@ -141,6 +143,7 @@ body {
 */
 .header {
   background: #3333ff;
+  border: 2px solid #666666;
 }
 .header a, h1, h5{
   font-weight: 400;
@@ -160,10 +163,16 @@ body {
   line-height: 1.2em;
   font-weight: 400;
   letter-spacing: .5px;
-  border: 1px solid green;
 }
-
-
+.logo {
+  padding-left: 6px;
+  border: 3px solid blue;
+  background-color: blue;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+}
 .homepage-link{
   padding: 5px 40px 5px 40px;
   float: left;
@@ -176,28 +185,26 @@ body {
   vertical-align: top;
   display: inline-block;
 }
-.alt-page img {
-  max-height: 28px;
-  max-width: 28px;
-  display: inline-block;
-}
 .user-search {
     width: 50%;
     padding: 4px;
     margin: 8px 0 5px 0; 
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid #666666;
     border-radius: 4px;
     box-sizing: border-box;
     color: #666666;
     vertical-align: middle;
-    border: 1px solid green;
 }
 .user {
   padding: 10px 40px 5px 5px;
   display: inline-block;
   float: right;
+  text-align: right;
   vertical-align: bottom;
+}
+.user:hover {
+  text-decoration: underline;
 }
 .user-login {
   padding: 5px 0;
@@ -327,4 +334,74 @@ body {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 5px;
+}
+
+/*
+  ========================================
+  Cover Page
+  ========================================
+*/
+.hero-text h2 {
+  position: absolute;
+  vertical-align: bottom;
+  top: 345px;
+  left: 235px;
+  color: #333333;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: .05em;
+  z-index: 10;
+}
+.hero-img img {
+  background-image: url(images/NorthShoreMNt.jpg);
+  background-size: cover;
+  border: 2px solid #666666;
+  width: 100%;
+  height: 335px;
+}
+.user-img img {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  top: 253px;
+  left: 80px;
+  vertical-align: bottom;
+  z-index: 10;
+}
+.utility-bar {
+  padding-left: 165px;
+  border: 2px solid #666666;
+  border-top: none;
+  width: 100%;
+  height: auto;
+  float: left;  
+}
+.utility-bar li {
+  float: left;
+  left: 120px;
+  border-right: 2px solid #666666;
+  display: inline;
+  padding: 2px 10px;
+}
+.utility-bar li:first-child {
+  border-left: 2px solid #666666;
+
+}
+.utility-bar li:last-child {
+  border: none;
+  float: right;
+  right: 0;
+  text-decoration: underline;
+}
+.utility-bar a {
+  font-weight: 400;
+  font-size: 10px;
+  text-decoration: none;
+  color: #333333;
+}
+.utility-bar span {
+  padding: 5px;
+  text-decoration: none;
+  color: #666666;
 }
