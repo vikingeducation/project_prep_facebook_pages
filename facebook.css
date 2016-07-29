@@ -73,37 +73,11 @@ body {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-
-.section, 
-.grid {
-  margin: 0 auto;
-  width: 100%;
-}
-.section {
+.container {
   padding-left: 30px;
   padding-right: 30px;
 }
-.col-1-3,
-.col-2-3 {
-  display: inline-block;
-  vertical-align: top;
-}
-
-.col-1-3 {
-  width: 33.33%;
-}
-.col-2-3 {
-  width: 66.66%;
-}
-
-.grid,
-.col-1-3,
-.col-2-3 {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.section,
+.container, 
 .grid {
   margin: 0 auto;
   width: 100%;
@@ -119,17 +93,28 @@ body {
   display: inline-block;
   vertical-align: top;
 }
-
-.col-1-3 {
+.col-1-3 { 
   width: 33.33%;
 }
-.col-2-3 {
+.col-2-3 { 
   width: 66.66%;
 }
-.section {
-  padding-left: 30px;
-  padding-right: 30px;
+
+.row {
+  background: #eeeeff;
+  padding: 66px 0 44px 0;
 }
+.row,
+.row-alt {
+  min-width: 960px;
+}
+.row-alt {
+   background: #cbe2c1;
+   background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+   background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+   background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+   padding: 44px 0 22px 0;
+ }
 
 /*
   ========================================
@@ -151,102 +136,97 @@ body {
 
 /*
   ========================================
-  Rows
+  Navigation bar
   ========================================
 */
-
-.row {
-  background: #eeeeff;
-  padding: 66px 0 44px 0;
-}
-.row,
-.row-alt {
-  min-width: 960px;
-}
-.row-alt {
-   background: #cbe2c1;
-   background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-   background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-   background: linear-gradient(to right, #a1d3b0, #f6f1d3);
-   padding: 44px 0 22px 0;
- }
-
- /*
-  ===========================
-  Colors - Background and text 
-  ===========================
-
-
-.bkgnd-clr-0 { background-color: #00f }
-.bkgnd-clr-1 { background-color: #33f }
-.bkgnd-clr-2 { background-color: #66f }
-.bkgnd-clr-3 { background-color: #99f }
-.bkgnd-clr-4 { background-color: #ccf }
-.bkgnd-clr-5 { background-color: #eef }
-
-
-.clr-0 {color: #000;}
-.clr-1 {color: #333;}
-.clr-2 {color: #666;}
-.clr-3 {color: #999;}
-.clr-4 {color: #ccc;}
-.clr-5 {color: #eeeeff;}
-*/
-/*
-  ========================================
-  Homepage Link
-  ========================================
-*/
-
 .header {
   background: #3333ff;
-  color: #eeeeff;
 }
-.homepage-text {
-  vertical-align: middle;
-  padding: 15px 0 8px 0;
-  float: left;
-  font-size: 36px;
-  line-height: 32px;
+.header a, h1, h5{
   font-weight: 400;
-  letter-spacing: .5px;
-}
-.homepage-text a {
   color: #eeeeff;
   text-decoration: none;
+  line-height: 1.2em;
 }
-.homepage-text a:hover {
+.header h1:hover {
   color: #eeeeff;
   text-decoration: underline;
 }
-
-/*
-  ========================================
-  Login Navigation
-  ========================================
-*/
-
-.login-nav {
-  padding: 10px 0 10px 0;
-  text-align: right;
+.homepage {
   vertical-align: middle;
-  font-size: 14px;
+  padding: 0;
+  float: left;
+  font-size: 28px;
+  line-height: 1.2em;
+  font-weight: 400;
+  letter-spacing: .5px;
+  border: 1px solid green;
+}
+
+
+.homepage-link{
+  padding: 5px 40px 5px 40px;
+  float: left;
+  font-size: 24px;
+  line-height: 1.2em;
   font-weight: 400;
   letter-spacing: .5px;
 }
-.login-nav h5 {
-  padding: 0;
-  text-align: left;
-  vertical-align: bottom;
-  color: #eeeeff;
-}
-.login-nav div {
-  line-height: 32px;
+.alt-page h1 {
+  vertical-align: top;
   display: inline-block;
-  margin: 0 10px;
 }
-.login-nav div:last-child {
-  margin-right: 0;
+.alt-page img {
+  max-height: 28px;
+  max-width: 28px;
+  display: inline-block;
+}
+.user-search {
+    width: 50%;
+    padding: 4px;
+    margin: 8px 0 5px 0; 
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #666666;
+    vertical-align: middle;
+    border: 1px solid green;
+}
+.user {
+  padding: 10px 40px 5px 5px;
+  display: inline-block;
+  float: right;
+  vertical-align: bottom;
+}
+.user-login {
+  padding: 5px 0;
+  text-align: right;
+  vertical-align: middle;
+  letter-spacing: .5px;
+}
+.user-login div {
+  display: inline-block;
+}
+.user-login h5 {
+  padding-bottom: 3px;
+  font-size: 8px;
+  text-align: left;
+}
+.user-login input[type=password], .user-login input[type=text] {
+    padding: 2px 4px;
+    margin: 4px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 125px;
+}
+.btn {
+  font-size: 10px;
+  border-radius: 4px;
+  margin: 0 20px 0 3px;
 }
 
 /*
@@ -282,9 +262,10 @@ body {
 }
 .cta-form {
   float: right;
-  padding: 5px 72px 5px 5px;
+  padding: 5px 75px 5px 5px;
   display: inline-block;
   right: 10px;
+  max-width: 340px;
 }
 .cta-form label {
   font-weight: 400;
@@ -297,10 +278,11 @@ body {
   font-size: 28px;
   font-weight: 400;
 }
-
-.cta-form input[type=text], input[type=password], select {
-    width: 100%;
-    padding: 4px 4px;
+.cta-form input[type=text], 
+.cta-form input[type=password], 
+.cta-form select {
+    width: 256px;
+    padding: 2px 4px;
     margin: 6px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -309,26 +291,24 @@ body {
     color: #666666;
     vertical-align: middle;
 }
-
 .cta-form input:nth-of-type(1) {
-    width: 45%;
+    max-width: 125px;
     margin-right: 6px;
 }
 .cta-form input:nth-of-type(2) {
     float: right;
-    width: 50%;
+    width: 125px;
 }
-
 .cta-form select:nth-of-type(1) {
-    width: 25%;
+    width: 70px;
     margin-right: 6px;
 }
 .cta-form select:nth-of-type(2) {
-    width: 15%;
+    width: 54px;
     margin-right: 6px;
 }
 .cta-form select:nth-of-type(3) {
-    width: 16%;
+    width: 58px;
 }
 .cta-form button[type=submit] {
     width: 100%;
@@ -340,11 +320,9 @@ body {
     border-radius: 4px;
     cursor: pointer;
 }
-
 .cta-form button[type=submit]:hover {
     background-color: #45a049;
 }
-
 .cta-form div {
     border-radius: 5px;
     background-color: #f2f2f2;
