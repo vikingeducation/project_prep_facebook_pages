@@ -12,8 +12,7 @@ body{
 	color: white;
 	width:100%;
 	display: flex;
-	/*justify-content: space-between;*/
-	justify-content: flex-start;
+	justify-content: space-between;
 	padding: 20px;
 	align-items: center;
 }
@@ -34,7 +33,6 @@ body{
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
-	/*vertical-align: bottom;*/
 }
 
 .login button{
@@ -81,6 +79,10 @@ Sign up new user components
 	margin-bottom: 15px;
 }
 
+.first-name {
+	margin-right: 5px;
+}
+
 
 .conf-password, .password-signup, .email-signup{
 	display: block;
@@ -101,5 +103,56 @@ Sign up new user components
 .sign-up-form .gender-container {
 	display: block;
 	margin: 20px 0px;
+}
+
+/**********************************************************************
+Styling for the About page
+***********************************************************************/
+
+.header-one{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.search-users{
+	margin-left: 10px;
+	width: 900px;
+}
+
+.main-image{
+	/*margin: 0 30px 0 30px;*/
+	display: flex;
+	justify-content: center;
+}
+
+.banner{
+	/*margin: 0 30px 0 30px;*/
+	display: flex;
+	justify-content: center;
+}
+
+.dummy{
+	width: 30px;
+}
+
+.main-functions a{
+	width: 1200px;
+	text-decoration: none;
+	padding: 0px 20px 0px 20px;
+	border:1px solid black;
+}
+
+.edit-profile{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.main-content-header{
+	margin: 0 30px 0 30px;
+	display: flex;
+	justify-content: center;
 }
 
