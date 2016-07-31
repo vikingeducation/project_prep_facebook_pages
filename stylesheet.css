@@ -122,32 +122,40 @@ Styling for the About page
 }
 
 .main-image{
-	/*margin: 0 30px 0 30px;*/
 	display: flex;
 	justify-content: center;
 }
 
 .banner{
-	/*margin: 0 30px 0 30px;*/
+	margin: 0 120px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+	align-contents: center;
 }
 
 .dummy{
-	width: 30px;
+	/*width: 70px;*/
+	/*height: 20px;*/
+	border: 1px solid black;
+	padding: 10px 20px;
+}
+
+.main-functions{
+	/*padding: 10px 20px;*/
 }
 
 .main-functions a{
-	width: 1200px;
 	text-decoration: none;
-	padding: 0px 20px 0px 20px;
-	border:1px solid black;
+	border: 1px solid black;
+	/*padding: 10px 20px;*/
 }
 
 .edit-profile{
-	display: flex;
+	padding: 10px 20px;
+	border: 1px solid black;
+	/*display: flex;
 	justify-content: space-between;
-	align-items: flex-end;
+	justify-content: flex-end;*/
 }
 
 .main-content-header{
