@@ -7,8 +7,73 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     </head>
 
-
     <body>
+
+<!-- TOP NAVBAR -->
+    <header class="home-navbar">
+    <h1 class="logo-container">Facelook</h1>
+    <form class="login-container">
+    <fieldset>
+      <label>
+        <h6>Email</h6>
+        <input type="email" name="Email" required>
+      </label>
+      <label>
+        <h6>Password</h6>
+        <input type="password" name="password" required>
+      </label>
+      <input class="btn" type="submit" name="submit" value="Log In">
+      </fieldset>
+    </form>
+
+    </header>
+
+<!--LEFT SECTION-->
+
+    <div class="grid">
+      <section class="col-60-100 home-text">
+        <h2>Connect with all your friends!</h2>
+        <ul>
+          <li>See photos and updates in your news feed.</li>
+          <li>Post your status for the world to see from your profile.</li>
+          <li>Get in touch with your friends by "friending" them</li>
+          <li>Like things because you're a positive person!</li>
+        </ul>
+      </section>
+    
+      <section class="col-40-100">
+        <h1>Sign Up</h1>
+        <form>
+          <fieldset>
+            <input type="text" name="first-name" required placeholder="First Name">
+            <input type="text" name="last-name" required placeholder="Last Name">
+            <input type="email" name="email" required placeholder="Your Email">
+            <input type="text" name="password" required placeholder="Your New Password">
+            <input type="text" name="passoword-confirm" required placeholder="Confirm Your Password">
+            <h4>Birthday</h4>
+
+            <select name="Month">
+              <option value="Month">Month</option>
+            </select>
+
+            <select name="Day">
+              <option value="Day">Day</option>
+            </select>
+
+            <select name="Year">
+              <option value="Year">Year</option>
+            </select>
+          <div class="radio">
+            <input type="radio" name="male" value="male">Male
+            <input type="radio" name="female" value="female">Female
+          </div>
+        </fieldset>
+        <input class="btn-signup" type="submit" value="Sign Up!">
+
+
+        </form>
+        </section>
+      </div>
 
     </body>
 </html>

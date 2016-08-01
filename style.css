@@ -47,4 +47,161 @@ table {
   border-spacing: 0;
 }
 
+body * {
+  border: 0.5px dashed #000;
+}
+
+.grid {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.col-20-100 {
+  width: 20%;
+}
+
+.col-40-100 {
+  width:39%;
+}
+
+.col-60-100 {
+  width: 59%;
+}
+
+.col-20-100,
+.col-40-100,
+.col-60-100 {
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+body {
+  font-family: Helvetica;
+}
+
+h1 {
+  font: bold 36px/48px Helvetica, arial, sans-serif;
+}
+
+h2 {
+    font: bold 30px/42px Helvetica, arial, sans-serif;
+}
+h3 {
+      font: bold 24px/36px Helvetica, arial, sans-serif;
+}
+
+h4 {
+      font: bold 18px/24px Helvetica, arial, sans-serif;
+}
+
+
+h6 {
+    font: bold 12px/18px Helvetica, arial, sans-serif;
+}
+
+/*
+----------------------------------------------------------
+HOME PAGE
+=============================
+*/
+.home-navbar {
+  height: 70px;
+  background: #3B5998;
+  color: #fff;
+  padding: 0 60px 0 40px;
+  line-height: 80px;
+}
+
+.logo-container {
+  width: 200px;
+  display: inline-block;
+}
+.login-container,
+.login-container fieldset {
+  display: inline-block;
+  float: right;
+  height: 70px;
+}
+
+.login-container input {
+  margin: 0;
+  padding-left: 2px;
+  width: 170px;
+  font: bold 12px/18px Helvetica, arial, sans-serif;
+  border: 2px solid #000;
+}
+
+.login-container label {
+  display: inline-block;
+  line-height: 25px;
+}
+
+.home-navbar .btn {
+  background: #3B99ff;
+  width: 80px;
+  border: 2px solid #000;
+}
+
+/* LEFT SECTION*/
+
+.home-text {
+  margin: 70px auto;
+  display: inline-block;
+}
+
+.home-text ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 17px;
+  line-height: 35px;
+  color: #999;
+  margin-left: 40px;
+  padding-top: 15px;
+}
+
+.home-text li {
+  padding-top: 10px
+}
+
+
+/* SIGN UP SECTION*/
+.col-40-100 input {
+  font-size: 15px;
+  border: 2px solid gray;
+  padding: 3px;
+  margin: 8px 3px;
+}
+
+.col-40-100 input:nth-child(n+3) {
+  width: 354px;
+}
+.col-40-100 h1 {
+  margin-top: 30px;
+}
+
+.col-40-100 h4 {
+  margin-top: 20px;
+}
+
+.col-40-100 select {
+  font-size: 15px;
+  padding: 2px;
+  margin: 6px 3px;
+}
+
+.radio {
+  display: block;
+  font-size: 12px;
+}
+
+.btn-signup {
+  border: 2px solid #000;
+  color: #fff;
+  background: #33aa44;
+  font-size: 1.4em !important;
+  font-weight: bold;
+  height: 40px;
+  width: 364px;
+}
 
