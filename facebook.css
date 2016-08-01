@@ -74,6 +74,7 @@ body {
           box-sizing: border-box;
 }
 .container {
+  text-align: center;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -81,6 +82,9 @@ body {
 .grid {
   margin: 0 auto;
   width: 100%;
+}
+.grid {
+    border: 1px solid red;
 }
 .grid,
 .col-1-3,
@@ -99,7 +103,6 @@ body {
 .col-2-3 { 
   width: 66.66%;
 }
-
 .row {
   margin: 0 40px 0 40px;
   right: 0;
@@ -109,6 +112,7 @@ body {
 .row,
 .row-alt {
   min-width: 960px;
+  max-width: 1200px;
 }
 .row-alt {
    background: #cbe2c1;
@@ -158,11 +162,13 @@ body {
 .homepage {
   vertical-align: middle;
   padding: 0;
-  float: left;
   font-size: 28px;
   line-height: 1.2em;
   font-weight: 400;
   letter-spacing: .5px;
+}
+.homepage h1 {
+  padding: 0;
 }
 .logo {
   padding-left: 6px;
@@ -174,7 +180,7 @@ body {
   display: inline-block;
 }
 .homepage-link{
-  padding: 5px 40px 5px 40px;
+  padding: 5px 40px 5px 0;
   float: left;
   font-size: 24px;
   line-height: 1.2em;
@@ -197,7 +203,7 @@ body {
     vertical-align: middle;
 }
 .user {
-  padding: 10px 40px 5px 5px;
+  padding: 10px 5px 5px 5px;
   display: inline-block;
   float: right;
   text-align: right;
@@ -249,6 +255,7 @@ body {
   display: inline-block;
 }
 .cta-text h2 {
+  text-align: left;
   padding: 10px 0 5px 0;
   font-size: 18px;
   font-weight: 400;
@@ -376,7 +383,7 @@ body {
   border-top: none;
   width: 100%;
   height: auto;
-  float: left;  
+  float: left; 
 }
 .utility-bar li {
   float: left;
@@ -409,10 +416,10 @@ body {
 
 /*
   ========================================
-  About
+  alt header
   ========================================
 */
-.about{
+.alt {
   margin-top: 15px;
 }
 .alt-header {
@@ -420,7 +427,7 @@ body {
   position: relative;
   width: 100%;
   height: 50px;
-  border-bottom: 2px solid #333333;
+  border: 2px solid #333333;
   background-color: #cccccc;
 }
 .alt-header h2 {
@@ -447,11 +454,41 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.row {
-  border: 2px solid #333333;
+.main-content {
+  border-left: 2px solid #333333;
+  border-right: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  padding: 20px 40px 60px 40px;
+  margin-bottom: 20px;
 }
-.basic h3 {
-  font-size: 18px;
+.column-1 h3, .column-2 h3 {
+  padding-bottom: 10px;
+  font-size: 20px;
   color: #333333;
   font-weight: 400;
+  text-align: left;
+}
+.column-1 dt {
+  font-weight: 400;
+}
+.column-1 dt{
+  display: inline;
+  float: left;
+  clear: left;
+  width: 140px;
+  text-align: left;
+  font-weight: bold;
+}
+.column-1 dt:after {
+  content: ":";
+}
+.column-1 dd {
+  margin: 0 0 0 110px;
+  padding: 0 0 0.5em 0;
+}
+.column-1 {
+  float: left;
+}
+.column-2 p {
+  text-align: left;
 }
