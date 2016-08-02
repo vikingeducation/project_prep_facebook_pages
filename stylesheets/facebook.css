@@ -62,7 +62,7 @@ body {
 
 /*
   ===========================================
-  grid
+  Container, columns, & rows
   ===========================================
 */
 
@@ -78,15 +78,10 @@ body {
   padding-left: 30px;
   padding-right: 30px;
 }
-.container, 
-.grid {
+.container {
   margin: 0 auto;
   width: 100%;
 }
-.grid {
-    border: 1px solid red;
-}
-.grid,
 .col-1-3,
 .col-2-3,
 .col-1-2 {
@@ -113,19 +108,9 @@ body {
   right: 0;
   left: 0;
   display: block;
-}
-.row,
-.row-alt {
   min-width: 960px;
   max-width: 1200px;
 }
-.row-alt {
-   background: #cbe2c1;
-   background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-   background: -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-   background: linear-gradient(to right, #a1d3b0, #f6f1d3);
-   padding: 44px 0 22px 0;
- }
 
 /*
   ========================================
@@ -147,7 +132,7 @@ body {
 
 /*
   ========================================
-  Navigation bar
+  Navigation bar - link to homepage
   ========================================
 */
 .header {
@@ -164,17 +149,28 @@ body {
   color: #eeeeff;
   text-decoration: underline;
 }
-.homepage {
-  vertical-align: middle;
+.homepage h1 {
   padding: 0;
   font-size: 28px;
   line-height: 1.2em;
   font-weight: 400;
   letter-spacing: .5px;
 }
-.homepage h1 {
-  padding: 0;
+.homepage-link{
+  position: absolute;
+  left: 25px;
+  top: 2%;
+  font-size: 24px;
+  line-height: 1.2em;
+  font-weight: 400;
+  letter-spacing: .5px;
 }
+
+/*
+  ==================================================
+  Navigation bar - link to homepage from other pages
+  ==================================================
+*/
 .logo {
   padding-left: 6px;
   border: 3px solid #eeeeff;
@@ -184,9 +180,9 @@ body {
   height: 28px;
   display: inline-block;
 }
-.homepage-link{
-  padding: 5px 40px 5px 0;
+.alt-homepage-link{
   float: left;
+  padding: 5px 40px 5px 0;
   font-size: 24px;
   line-height: 1.2em;
   font-weight: 400;
@@ -196,6 +192,44 @@ body {
   vertical-align: top;
   display: inline-block;
 }
+
+/*
+  ========================================
+  Navigation bar - user login
+  ========================================
+*/
+.user-login {
+  padding: 5px 0;
+  text-align: right;
+  vertical-align: middle;
+  letter-spacing: .5px;
+}
+.user-login div {
+  display: inline-block;
+}
+.user-login h5 {
+  font-size: 8px;
+  text-align: left;
+}
+.user-login input[type=password], .user-login input[type=text] {
+    padding: 2px 4px 2px 0;
+    margin: 4px 4px 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 125px;
+}
+.login-btn {
+  margin: 0 20px 0 3px;
+}
+
+/*
+  ========================================
+  Navigation bar - user login
+  ========================================
+*/
 .user-search {
     width: 50%;
     padding: 4px;
@@ -217,39 +251,20 @@ body {
 .user:hover {
   text-decoration: underline;
 }
-.user-login {
-  padding: 5px 0;
-  text-align: right;
-  vertical-align: middle;
-  letter-spacing: .5px;
-}
-.user-login div {
-  display: inline-block;
-}
-.user-login h5 {
-  padding-bottom: 3px;
-  font-size: 8px;
-  text-align: left;
-}
-.user-login input[type=password], .user-login input[type=text] {
-    padding: 2px 4px;
-    margin: 4px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    vertical-align: middle;
-    width: 125px;
-}
+
+/*
+  ========================================
+  Button
+  ========================================
+*/
 .btn {
   font-size: 10px;
   border-radius: 4px;
-  margin: 0 20px 0 3px;
 }
 
 /*
   ========================================
-  Call to Action
+  Call to Action - Text
   ========================================
 */
 .cta {
@@ -279,6 +294,12 @@ body {
   list-style-type: disc;
   list-style-position: inside;
 }
+
+/*
+  ========================================
+  Call to Action - Form
+  ========================================
+*/
 .cta-form {
   float: right;
   padding: 5px 75px 5px 5px;
@@ -350,10 +371,10 @@ body {
 
 /*
   ========================================
-  Cover Page
+  Cover Page 
   ========================================
 */
-.hero-text h2 {
+.cover-text h2 {
   position: absolute;
   top: 345px;
   left: 235px;
@@ -363,9 +384,7 @@ body {
   letter-spacing: .05em;
   z-index: 10;
 }
-.hero-img img {
-  background-image: url(images/NorthShoreMNt.jpg);
-  background-size: cover;
+.cover-img img {
   border-right: 2px solid #666666;
   border-left: 2px solid #666666;
   border-bottom: 2px solid #666666;
@@ -382,6 +401,12 @@ body {
   vertical-align: bottom;
   z-index: 10;
 }
+
+/*
+  ========================================
+  Utility Bar 
+  ========================================
+*/
 .utility-bar {
   padding-left: 165px;
   border: 2px solid #666666;
@@ -413,7 +438,11 @@ body {
   text-decoration: none;
   color: #333333;
 }
+.utility-bar a:hover {
+  text-decoration: underline;
+}
 .utility-bar span {
+  font-size: 10px;
   padding: 5px;
   text-decoration: none;
   color: #666666;
@@ -428,9 +457,7 @@ body {
   margin-top: 15px;
 }
 .alt-header {
-  padding-top: 3px;
   position: relative;
-  width: 100%;
   height: 50px;
   border: 2px solid #333333;
   background-color: #cccccc;
@@ -446,7 +473,7 @@ body {
   display: inline-block;
   float: right;
   font-size: 12px;
-  margin: 4px;
+  margin: 6px 8px 6px 8px;
   background-color: #666666;
   color: #eeeeff;
   padding: 8px;
@@ -459,6 +486,12 @@ body {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+/*
+  ========================================
+  Main Content
+  ========================================
+*/
 .main-content {
   border-left: 2px solid #333333;
   border-right: 2px solid #333333;
@@ -466,34 +499,4 @@ body {
   padding: 20px 40px 60px 40px;
   margin-bottom: 20px;
 }
-.column-1 h3, .column-2 h3 {
-  padding-bottom: 10px;
-  font-size: 20px;
-  color: #333333;
-  font-weight: 400;
-  text-align: left;
-}
-.column-1 dt {
-  font-weight: 400;
-}
-.column-1 dt{
-  display: inline;
-  float: left;
-  clear: left;
-  width: 140px;
-  text-align: left;
-  font-weight: bold;
-}
-.column-1 dt:after {
-  content: ":";
-}
-.column-1 dd {
-  margin: 0 0 0 110px;
-  padding: 0 0 0.5em 0;
-}
-.column-1 {
-  float: left;
-}
-.column-2 p {
-  text-align: left;
-}
+

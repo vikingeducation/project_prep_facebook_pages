@@ -3,7 +3,7 @@
   <head>
   	<meta charset="utf-8">
   	<title>Friends page</title>
-    <link rel="stylesheet" href="facebook.css">
+    <link rel="stylesheet" href="stylesheets/facebook.css">
     <link rel="stylesheet" href="stylesheets/friends.css">
     <link rel="stylesheet" type="text/css"
       href="https://fonts.googleapis.com/css?family=Lato:100,300,400">
@@ -12,13 +12,15 @@
   <!-- header -->
   	<header class="header container group">
       <nav class="row alt-page">
-        <div class="homepage-link">
+        <div class="alt-homepage-link">
           <a href="index.html">
             <div class="logo">f</div>
             <h1>Facelook</h1>
           </a>
         </div>
+
         <input class="user-search" type="text" name="user-search" placeholder="Search for Users">
+        
         <div class="user">
           <h5>
             <a href="#">Ben</a>
@@ -29,10 +31,10 @@
 
   <!-- hero -->
 
-    <section class="hero container group">
-      <div class="row hero-img">
+    <section class="container group">
+      <div class="row cover-img">
         <img src="images/NorthShoreMNt.jpg">
-        <div class="hero-text">
+        <div class="cover-text">
     	    <h2>Ben Silbernagel</h2>
         </div>
         <div class="user-img">
@@ -41,10 +43,10 @@
         <div class="utility-bar">
           <nav>
             <ul>
-              <li><a href="index.html">Timeline</a></li><!--
+              <li><a href="#">Timeline</a></li><!--
               --><li><a href="about.html">About</a></li><!--
-              --><li><a href="#">Photos<span>(123)</span></a></li><!--
-              --><li><a href="friends.html">Friends<span>(542)</span></a></li><!--
+              --><li><a href="#">Photos</a><span>(123)</span></li><!--
+              --><li><a href="friends.html">Friends</a><span>(542)</span></li><!--
               --><li><a href="#">Edit Profile</a></li>
             </ul>
           </nav>
@@ -76,7 +78,9 @@
                   </a>
                   <p>432 friends</p>
                 </div>
-                <button class="btn">Unfriend Me</button>
+                <button class="btn friend-btn">
+                  <span>Unfriend Me</span>
+                </button>
               </div>
 
               <div class="friend col-1-2">
@@ -87,8 +91,8 @@
                   </a>
                   <p>432 friends</p>
                 </div>
-                <button class="btn">Unfriend Me</button>
-              </div>
+              <button class="btn">Unfriend Me</button>
+            </div>
 
             <div class="row-2">
 
@@ -138,14 +142,11 @@
                 <button class="btn">Unfriend Me</button>
               </div>
 
-
             </div>
 
         </div>
       </div>
     </section>
-    <footer>
-      
-    </footer>
+
   </body>
 </html>
