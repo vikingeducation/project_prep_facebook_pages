@@ -47,9 +47,9 @@ table {
   border-spacing: 0;
 }
 
-/*body * {
+body * {
   border: 0.5px dashed #444;
-}*/
+}
 
 .grid {
   width: 1000px;
@@ -247,6 +247,7 @@ ABOUT PAGE
   line-height: 40px;
   float: left;
   padding-left: 80px;
+  color: white;
   }
 
 .searchbar-container {
@@ -287,6 +288,7 @@ a {
   bottom: -30px;
   left: 20px;
   border: 5px solid #666;
+  z-index: 80;
 }
 
 .about-img h2 {
@@ -307,7 +309,6 @@ PROFILE NAVBAR
   height: 50px;
   margin-bottom: 20px;
   position: relative;
-  z-index: -1;
 }
 
 .profile-navbar ul {
@@ -316,17 +317,27 @@ PROFILE NAVBAR
 }
 
 .profile-navbar li {
-display: inline-block;
+  float:left;
+}
+
+.profile-navbar li a {
+display: block;
 height: 50px;
 line-height: 50px;
 font-size: 15px;
 min-width: 50px;
 padding: 0 15px;
 border-left: 2px solid black;
+cursor: pointer;
+color: #333;
 }
 
-.profile-navbar a {
-  color: #333;
+.profile-navbar li a:hover {
+  background: #ccc;
+}
+
+.profile-navbar li a:active {
+  background: #444;
 }
 
 .profile-navbar li:last-child {
@@ -369,6 +380,7 @@ ABOUT - INFO SECTION
 
 .section-navbar h2 {
   text-align: center;
+  line-height: 50px;
 }
 
 .btn-profile {
@@ -415,4 +427,27 @@ table td{
 .about {
   border: 2px solid #222;
   margin-bottom: 90px;
+}
+
+
+/*
+----------------------------------------------------------
+FRIENDS
+=============================
+*/
+
+
+
+
+
+/*
+----------------------------------------------------------
+NEWSFEED
+=============================
+*/
+
+.grid-60 {
+  width: 600px;
+  margin: 0 auto;
+  display: inline-block;
 }
