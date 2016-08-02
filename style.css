@@ -113,7 +113,7 @@ HOME PAGE
   line-height: 80px;
 }
 
-.logo-container {
+.home-logo-container {
   width: 200px;
   display: inline-block;
 }
@@ -205,3 +205,59 @@ HOME PAGE
   width: 364px;
 }
 
+
+
+/*
+----------------------------------------------------------
+ABOUT PAGE
+=============================
+*/
+
+.grid2 {
+  width: 1100px;
+  margin: 40px auto 0 auto;
+  display: block;
+}
+
+.navbar {
+  height: 40px;
+  background: #3B5998;
+  color: #fff;
+  line-height: 40px;
+  padding: 0 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar img {
+  display: inline-block;
+  width: 30px;
+  background: #fff;
+}
+
+.logo-container {
+  width: 200px;
+  line-height: 40px;
+  font-size: 23px;
+  line-height: 40px;
+  float: left;
+  }
+
+.searchbar-container {
+  display: inline-block;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.navbar a {
+  float: right;
+}
+
+
+.searchbar {
+  display: inline-block;
+  max-width: 600px;
+  margin: 0 auto;
+ font-size: 16px;
+}
