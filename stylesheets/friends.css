@@ -1,0 +1,61 @@
+/*
+  ========================================
+  Utility Bar 
+  ========================================
+*/
+.utility-bar li:nth-child(4) {
+  background-color: #cccccc;
+}
+
+/*
+  ========================================
+  Main Content
+  ========================================
+*/
+.friend {
+	border: 2px solid #555555;
+	padding: 10px;
+	width: 360px;
+	height: 80px;
+	margin: 0 20px 15px 0;
+	display: inline-block;
+	position: relative;
+}
+.friend div {
+	left: 80px;
+	top: 25%;
+	position: absolute;
+	text-align: left;
+	vertical-align: middle;
+}
+.friend button {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 30%;
+  padding: 8px;
+  font-size: 12px;
+  background-color: #cccccc;
+  border: 1px solid #666666;
+  color: #333333;
+  letter-spacing: .5px;
+}
+.friend-text {
+	display: inline-block;
+}
+.friend-text h4 {
+  text-decoration: underline;
+  color: #333333;
+}
+.friend-text p {
+  text-decoration: none;
+  color: #666666;
+}
+.friend-pic {
+	float: left;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+}
+
+
