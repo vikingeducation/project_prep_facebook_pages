@@ -47,9 +47,9 @@ table {
   border-spacing: 0;
 }
 
-body * {
-  border: 0.5px dashed #000;
-}
+/*body * {
+  border: 0.5px dashed #444;
+}*/
 
 .grid {
   width: 1000px;
@@ -98,6 +98,10 @@ h4 {
 
 h6 {
     font: bold 12px/18px Helvetica, arial, sans-serif;
+}
+
+p {
+      font: 400 13px/18px Helvetica, arial, sans-serif;
 }
 
 /*
@@ -224,40 +228,191 @@ ABOUT PAGE
   background: #3B5998;
   color: #fff;
   line-height: 40px;
-  padding: 0 60px;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 .navbar img {
   display: inline-block;
   width: 30px;
   background: #fff;
+  vertical-align: middle;
 }
 
 .logo-container {
-  width: 200px;
   line-height: 40px;
-  font-size: 23px;
+  font-size: 25px;
   line-height: 40px;
   float: left;
+  padding-left: 80px;
   }
 
 .searchbar-container {
-  display: inline-block;
-  width: 500px;
+  position: absolute;
+  left: 300px;
   margin: 0 auto;
 }
-
-.navbar a {
-  float: right;
-}
-
 
 .searchbar {
-  display: inline-block;
-  max-width: 600px;
-  margin: 0 auto;
- font-size: 16px;
+  font-size: 16px;
+  width: 700px;
+  padding: 3px;
+}
+
+.login-container {
+  float: right;
+  padding-right: 80px;
+  line-height: 40px;
+  color: white;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.about-img {
+  width: 100%;
+  height:350px;
+  background: url("Harry_Potter.jpg") no-repeat;
+  position: relative;
+}
+
+.profile-img img {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  bottom: -30px;
+  left: 20px;
+  border: 5px solid #666;
+}
+
+.about-img h2 {
+  color: white;
+  position: absolute;
+  bottom: 5px;
+  left: 200px;
+}
+
+/*
+----------------------------------------------------------
+PROFILE NAVBAR
+=============================
+*/
+
+.profile-navbar {
+  border: 3px solid #222;
+  height: 50px;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: -1;
+}
+
+.profile-navbar ul {
+  padding-left: 206px;
+  font-weight: bold;
+}
+
+.profile-navbar li {
+display: inline-block;
+height: 50px;
+line-height: 50px;
+font-size: 15px;
+min-width: 50px;
+padding: 0 15px;
+border-left: 2px solid black;
+}
+
+.profile-navbar a {
+  color: #333;
+}
+
+.profile-navbar li:last-child {
+  border-right: 2px solid black;
+}
+
+.profile-navbar .edit-profile {
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 50px;
+  font-size: 14px;
+  padding-right: 20px;
+}
+.profile-navbar .edit-profile a {
+  color: #3355dd;
+}
+
+
+.profile-navbar h5 {
+  color: #666;
+  display: inline;
+  padding-left: 3px;
+  font-weight: 300;
+}
+
+/*
+----------------------------------------------------------
+ABOUT - INFO SECTION
+=============================
+*/
+
+.section-navbar {
+  border-bottom: 2px solid #222;
+  height: 50px;
+  position: relative;
+  background: #ddd;
+  text-align: center;
+}
+
+.section-navbar h2 {
+  text-align: center;
+}
+
+.btn-profile {
+  width: 130px;
+  height: 25px;
+  border: 2px solid #000;
+  background: #3355dd;
+  color: white;
+  position: absolute;
+  top: 7px;
+  right: 20px;
+  line-height: 25px;
+}
+
+table caption {
+  text-align: left;
+}
+table {
+  font-size: 14px;
+  margin: 50px auto;
+  width: 350px;
+}
+table th {
+  font-weight: bold;
+  text-align: left;
+}
+
+table td{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.section-about-right {
+  width: 480px;
+  margin: 50px auto;
+  text-align: justify;
+}
+
+.section-about-right h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.about {
+  border: 2px solid #222;
+  margin-bottom: 90px;
 }
