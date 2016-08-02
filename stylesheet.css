@@ -124,43 +124,65 @@ Styling for the About page
 .main-image{
 	display: flex;
 	justify-content: center;
+	position: relative;
+	z-index: 0;
 }
 
 .banner{
 	margin: 0 120px;
 	display: flex;
-	justify-content: space-between;
-	align-contents: center;
+	/*justify-content: space-between;*/
+
+
 }
 
 .dummy{
-	/*width: 70px;*/
-	/*height: 20px;*/
-	border: 1px solid black;
-	padding: 10px 20px;
+	border: 1px solid #d9d9d9;
+	padding: 10px 130px;
+	
 }
 
 .main-functions{
-	/*padding: 10px 20px;*/
+	display: flex;
+	/*justify-content: space-between;*/
 }
 
 .main-functions a{
 	text-decoration: none;
-	border: 1px solid black;
-	/*padding: 10px 20px;*/
+	border: 1px solid #d9d9d9;
+	padding: 10px 30px;
 }
 
 .edit-profile{
-	padding: 10px 20px;
-	border: 1px solid black;
-	/*display: flex;
-	justify-content: space-between;
-	justify-content: flex-end;*/
+	padding: 10px 30px 10px 301px;
+	border: 1px solid #d9d9d9;
+}
+
+.edit-profile a{
+	color: blue;
 }
 
 .main-content-header{
-	margin: 0 30px 0 30px;
+	margin: 0 120px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
+	background-color: #d9d9d9;
+	width: 1200px;
 }
 
+.profile-image{
+	position: absolute;
+	margin: 0 170px;
+	z-index: 1;
+}
+
+.main-content-header h3{
+	margin-left: 550px;
+}
+
+.main-content-header button{
+	margin-right: 30px;
+	color: white;
+	background-color: blue;
+	/*padding: 2px 2px;*/
+}
