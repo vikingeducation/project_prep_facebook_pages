@@ -181,8 +181,17 @@ Styling for the About page
 }
 
 .main-content-header button{
-	margin-right: 30px;
+	margin: 10px 30px 10px 0;
 	color: white;
 	background-color: blue;
 	/*padding: 2px 2px;*/
+}
+
+.about-content{
+	margin: 0 120px;
+}
+
+.about-content table table td:first-child{
+	font-weight: bold;
+	padding-right: 10px;
 }
