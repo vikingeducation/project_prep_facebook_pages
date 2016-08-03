@@ -426,7 +426,6 @@ table td{
 
 .about {
   border: 2px solid #222;
-  margin-bottom: 90px;
 }
 
 
@@ -436,10 +435,55 @@ FRIENDS
 =============================
 */
 
+.section-friends {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
 
+.friends-box {
+  width: 480px;
+  height: 100px;
+  margin: 20px;
+  padding: 12px;
+  float: left;
+  border: 2px solid #333;
+}
 
+.friends-box img {
+    height: 90px;
+    display: inline-block;
+}
 
+.friend-name {
+  width: 170px;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 13px;
+  color: #666;
+  margin: 25px 7px;
 
+}
+.friend-name a {
+  text-decoration: underline;
+  display: block;
+  font-size: 13px;
+  line-height: 13px;
+}
+
+.btn-unfriend {
+  width: 120px;
+  height: 20px;
+  line-height: 30px;
+  display: inline-block;
+  border: 3px solid #333;
+  line-height: 20px;
+  text-align: center;
+  background: #ccc;
+  font-weight: bold;
+  font-size: 13px;
+}
 /*
 ----------------------------------------------------------
 NEWSFEED
