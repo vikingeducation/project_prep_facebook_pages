@@ -1,0 +1,214 @@
+
+*{
+	box-sizing: border-box;
+	/*Specify that <div> elements should have padding and border 
+	included in the element's total width and height*/
+}
+
+body{
+  font-family: Arial, sans-serif;
+}
+
+.header{
+	background-color: blue;
+	color: white;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	align-items: center;
+}
+
+.header h1{
+	margin: 0;
+}
+
+.header button{
+	background-color: #6699ff;
+}
+
+.login label{
+	display: block;
+}
+
+.login{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.login button{
+	display: block;
+}
+
+.email-container,
+.password-container{
+	margin: 0 5px;
+}
+
+/*********************************** 
+Page content
+************************************/
+
+.main-container{
+	display: flex;
+	padding: 30px;
+	margin:0 50px 0 39px;
+	justify-content: space-between;
+}
+
+/*********************************** 
+Page summary/description
+************************************/
+
+.page-summary{
+	width: 100%;
+	padding: 30px;
+}
+
+.page-summary ul li{
+	padding: 15px;
+	font-size: 20px
+}
+
+/*********************************** 
+Sign up new user components
+************************************/
+
+.names{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.first-name {
+	margin-right: 5px;
+}
+
+
+.conf-password, .password-signup, .email-signup{
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+
+
+.sign-up-form button{
+	display: block;
+	color: white;
+	background-color: green;
+	width: 100%;
+}
+
+
+.sign-up-form .gender-container {
+	display: block;
+	margin: 20px 0px;
+}
+
+/**********************************************************************
+Styling for the About page
+***********************************************************************/
+
+.header-one{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.search-users{
+	margin-left: 10px;
+	width: 900px;
+}
+
+.main-image{
+	display: flex;
+	justify-content: center;
+}
+
+.banner{
+	margin: 0 120px;
+	display: flex;
+	/*justify-content: space-between;*/
+
+
+}
+
+.dummy{
+	border: 1px solid #d9d9d9;
+	padding: 10px 100px;
+	
+}
+
+.main-functions{
+	display: flex;
+	/*justify-content: space-between;*/
+}
+
+.main-functions a{
+	text-decoration: none;
+	border: 1px solid #d9d9d9;
+	padding: 10px 30px;
+}
+
+.edit-profile{
+	padding: 10px 30px 10px 360px;
+	border: 1px solid #d9d9d9;
+}
+
+.edit-profile a{
+	color: blue;
+}
+
+.main-content-header{
+	margin: 20px 120px 0 120px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #d9d9d9;
+	width: 1200px;
+	position: relative;
+}
+
+
+.main-content-header img{
+	position: absolute; 
+	left: 21px; 
+	bottom: 90px
+}
+
+ .username{
+	position: absolute; 
+	left: 195px; 
+	bottom: 115px
+}
+
+.main-content-header .subheading{
+	margin-left: 550px;
+}
+
+.main-content-header button{
+	margin: 10px 30px 10px 0; /*shrinks the size of the bottom and doesn't make it fill the parent div*/
+	color: white;
+	background-color: blue;
+}
+
+.about-content{
+	margin: 0 120px;
+	border: 1px solid #d9d9d9;
+	padding: 15px;
+}
+
+.about-content table table td:first-child{
+	font-weight: bold;
+	padding-right: 10px;
+}
+
+.about-content table td:first-child{
+	width: 40%;
+}
+
+.about-content table table{
+	padding: 15px
+}
