@@ -1,6 +1,8 @@
 
 *{
 	box-sizing: border-box;
+	/*Specify that <div> elements should have padding and border 
+	included in the element's total width and height*/
 }
 
 body{
@@ -124,8 +126,6 @@ Styling for the About page
 .main-image{
 	display: flex;
 	justify-content: center;
-	/*position: relative;*/
-	/*z-index: 0;*/
 }
 
 .banner{
@@ -138,7 +138,7 @@ Styling for the About page
 
 .dummy{
 	border: 1px solid #d9d9d9;
-	padding: 10px 130px;
+	padding: 10px 100px;
 	
 }
 
@@ -154,7 +154,7 @@ Styling for the About page
 }
 
 .edit-profile{
-	padding: 10px 30px 10px 301px;
+	padding: 10px 30px 10px 360px;
 	border: 1px solid #d9d9d9;
 }
 
@@ -163,35 +163,52 @@ Styling for the About page
 }
 
 .main-content-header{
-	margin: 0 120px;
+	margin: 20px 120px 0 120px;
 	display: flex;
 	justify-content: space-between;
 	background-color: #d9d9d9;
 	width: 1200px;
+	position: relative;
 }
 
-.profile-image{
-	position: absolute;
-	margin: 0 170px;
-	z-index: 1;
+
+.main-content-header img{
+	position: absolute; 
+	left: 21px; 
+	bottom: 90px
 }
 
-.main-content-header h3{
+ .username{
+	position: absolute; 
+	left: 195px; 
+	bottom: 115px
+}
+
+.main-content-header .subheading{
 	margin-left: 550px;
 }
 
 .main-content-header button{
-	margin: 10px 30px 10px 0;
+	margin: 10px 30px 10px 0; /*shrinks the size of the bottom and doesn't make it fill the parent div*/
 	color: white;
 	background-color: blue;
-	/*padding: 2px 2px;*/
 }
 
 .about-content{
 	margin: 0 120px;
+	border: 1px solid #d9d9d9;
+	padding: 15px;
 }
 
 .about-content table table td:first-child{
 	font-weight: bold;
 	padding-right: 10px;
+}
+
+.about-content table td:first-child{
+	width: 40%;
+}
+
+.about-content table table{
+	padding: 15px
 }
