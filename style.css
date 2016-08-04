@@ -56,8 +56,9 @@ body * {
   margin: 0 auto;
 }
 
-.col-20-100 {
-  width: 20%;
+.col-30-100 {
+  width: 30%;
+  border-right: 2px solid #333;
 }
 
 .col-40-100 {
@@ -426,6 +427,7 @@ table td{
 
 .about {
   border: 2px solid #222;
+  margin-bottom: 30px;
 }
 
 
@@ -439,56 +441,89 @@ FRIENDS
   width: 100%;
   display: inline-block;
   vertical-align: top;
+  margin-bottom: 15px;
+
 }
 
 .friends-box {
   width: 480px;
   height: 100px;
-  margin: 20px;
   padding: 12px;
   float: left;
+  line-height: 100px;
   border: 2px solid #333;
+  margin: 25px 20px 0 20px;
+  position: relative;
 }
+
+.friends-box:nth-child(odd) {
+  margin-right: 10px;
+  }
 
 .friends-box img {
     height: 90px;
     display: inline-block;
+    margin-left: 15px;
+    margin-top: 3px;
 }
 
 .friend-name {
   width: 170px;
-  display: inline-block;
+  position: absolute;
+  left: 140px;
+  top: 47px;
   font-weight: 400;
+  height: 35px;
   line-height: 20px;
-  font-size: 13px;
+  font-size: 15px;
   color: #666;
-  margin: 25px 7px;
-
 }
+
 .friend-name a {
   text-decoration: underline;
   display: block;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 13px;
 }
 
 .btn-unfriend {
   width: 120px;
   height: 20px;
-  line-height: 30px;
   display: inline-block;
+  position: absolute;
+  right: 20px;
+  top: 51px;
   border: 3px solid #333;
   line-height: 20px;
   text-align: center;
   background: #ccc;
   font-weight: bold;
   font-size: 13px;
+  color: black;
 }
+
+.btn-unfriend:hover {
+  color: white;
+}
+
+
+
 /*
 ----------------------------------------------------------
-NEWSFEED
+NEWSFEED - CHAT SIDE
 =============================
 */
+
+
+.newsfeed-page {
+  width: 99%;
+  display: block;
+}
+
+
+
+
+
 
 .grid-60 {
   width: 600px;
