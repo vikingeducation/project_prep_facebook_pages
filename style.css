@@ -59,6 +59,7 @@ body * {
 .col-30-100 {
   width: 30%;
   border-right: 2px solid #333;
+  padding-left: 30px;
 }
 
 .col-40-100 {
@@ -69,9 +70,15 @@ body * {
   width: 59%;
 }
 
-.col-20-100,
+.col-70-100 {
+  width: 66.8%;
+  margin: 0 auto;
+}
+
+.col-30-100,
 .col-40-100,
-.col-60-100 {
+.col-60-100,
+.col-70-100 {
   display: inline-block;
   vertical-align: top;
 
@@ -514,19 +521,129 @@ NEWSFEED - CHAT SIDE
 =============================
 */
 
-
 .newsfeed-page {
-  width: 99%;
+  width: 99.8%;
+  display: block;
+  margin-top: 40px;
+}
+
+a.profile-post-container {
+  position: relative;
+  display: block;
+  top: 30px;
+  margin-bottom: 60px;
+}
+
+.profile-post-container img {
+  width: 120px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.profile-post-container .profile-chat {
+  color: #334499;
+  text-decoration: underline;
+  display: inline-block;
+  position: absolute;
+  top: 40px;
+  left: 140px;
+}
+
+.friend-post-container {
+  position: relative;
+  display: block;
+  top: 10px;
+  margin-bottom: 10px;
+}
+
+.friend-post-container img {
+  width: 70px;
+  display: inline-block;
+}
+
+.friend-post-container .friend-rec-activity {
+  color: #888;
+  display: inline-block;
+  position: absolute;
+  top: 25px;
+  left: 80px;
+  font-size: 13px;
+}
+
+.friend-rec-activity a {
+  text-decoration: underline;
+  font-size: 13px;
   display: block;
 }
 
-
-
-
-
-
-.grid-60 {
-  width: 600px;
-  margin: 0 auto;
-  display: inline-block;
+.col-30-100 a h5 {
+  display: block;
+ padding-left: 30px;
+  text-decoration: underline;
 }
+
+/*
+----------------------------------------------------------
+NEWSFEED - POST SIDE
+=============================
+*/
+
+.grid-70 {
+  width: 660px;
+  margin: 40px auto 0 auto;
+  display: block;
+}
+
+.post-copied {
+  height: 200px;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.post-copied h4 {
+  text-align: center;
+  background: #aaa;
+  border: 2px solid black;
+}
+
+.post-copied .textarea {
+width: 100%;
+height: 150px;
+border-left: ;
+border-right: ;
+}
+
+.post-copied input {
+  display: block;
+  font-size: 14px;
+  height: 80px;
+  width: 600px;
+  text-align: top;
+  border: 2px solid black;
+  margin: 10px auto;
+}
+
+.button-field {
+  background: #aaa;
+  border: 2px solid black;
+  height: 40px;
+  line-height: 40px;
+}
+
+.button-field .btn {
+  float: right;
+  width: 60px;
+  height: 25px;
+  margin-right: 20px;
+  margin-top: 5px; 
+  font-size: 14px;
+  border: 2px solid black;
+  line-height: 25px;
+  text-align: center;
+  background: #3366bb;
+  color: white;
+
+}
+
+
+
