@@ -1,55 +1,60 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
+   */
+
+   html, body, div, span, applet, object, iframe,
+   h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed, 
+   figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, 
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+
+
+/*
+----------------------------------------------------------
+DEFAULT GRIDS AND FONTS
+=============================
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/*body * {
-  border: 0.5px dashed #444;
-}*/
 
 .grid {
   width: 1000px;
@@ -58,7 +63,6 @@ table {
 
 .col-30-100 {
   width: 30%;
-  border-right: 2px solid #333;
   padding-left: 30px;
 }
 
@@ -73,6 +77,7 @@ table {
 .col-70-100 {
   width: 66.8%;
   margin: 0 auto;
+  border-left: 2px solid #333;
 }
 
 .col-30-100,
@@ -93,23 +98,23 @@ h1 {
 }
 
 h2 {
-    font: bold 30px/42px Helvetica, arial, sans-serif;
+  font: bold 30px/42px Helvetica, arial, sans-serif;
 }
 h3 {
-      font: bold 24px/36px Helvetica, arial, sans-serif;
+  font: bold 24px/36px Helvetica, arial, sans-serif;
 }
 
 h4 {
-      font: bold 18px/24px Helvetica, arial, sans-serif;
+  font: bold 18px/24px Helvetica, arial, sans-serif;
 }
 
 
 h6 {
-    font: bold 12px/18px Helvetica, arial, sans-serif;
+  font: bold 12px/18px Helvetica, arial, sans-serif;
 }
 
 p {
-      font: 400 13px/18px Helvetica, arial, sans-serif;
+  font: 400 13px/18px Helvetica, arial, sans-serif;
 }
 
 /*
@@ -121,38 +126,48 @@ HOME PAGE
   height: 70px;
   background: #3B5998;
   color: #fff;
-  padding: 0 60px 0 40px;
-  line-height: 80px;
+  padding: 0 60px;
+  line-height: 70px;
+  min-width: 980px;
 }
 
 .home-logo-container {
-  width: 200px;
-  display: inline-block;
-}
-.login-container,
-.login-container fieldset {
-  display: inline-block;
-  float: right;
-  height: 70px;
+  float: left;
 }
 
-.login-container input {
-  margin: 0;
-  padding-left: 2px;
-  width: 170px;
-  font: bold 12px/18px Helvetica, arial, sans-serif;
-  border: 2px solid #000;
+
+.login-container {
+  float: right;
+  height: 70px !important;
+  line-height: 70px !important;
+  padding: 0 !important;
+
 }
+
+.login-container fieldset{
+  line-height: 70px !important;
+  margin-right: 35px;
+}
+
+.login-container label input {
+  border: 2px solid #000;
+  font: bold 12px/18px Helvetica, arial, sans-serif;
+  width: 170px;
+}
+
 
 .login-container label {
   display: inline-block;
   line-height: 25px;
 }
 
-.home-navbar .btn {
+.login-container .btn {
   background: #3B99ff;
-  width: 80px;
   border: 2px solid #000;
+  display: inline-block;
+  line-height: 20px;
+  margin: 23px 5px;
+  width: 80px;
 }
 
 /* LEFT SECTION*/
@@ -256,7 +271,7 @@ ABOUT PAGE
   float: left;
   padding-left: 80px;
   color: white;
-  }
+}
 
 .searchbar-container {
   position: absolute;
@@ -270,7 +285,7 @@ ABOUT PAGE
   padding: 3px;
 }
 
-.login-container {
+.login-container-about {
   float: right;
   padding-right: 80px;
   line-height: 40px;
@@ -329,15 +344,15 @@ PROFILE NAVBAR
 }
 
 .profile-navbar li a {
-display: block;
-height: 50px;
-line-height: 50px;
-font-size: 15px;
-min-width: 50px;
-padding: 0 15px;
-border-left: 2px solid black;
-cursor: pointer;
-color: #333;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  font-size: 15px;
+  min-width: 50px;
+  padding: 0 15px;
+  border-left: 2px solid black;
+  cursor: pointer;
+  color: #333;
 }
 
 .profile-navbar li a:hover {
@@ -465,13 +480,13 @@ FRIENDS
 
 .friends-box:nth-child(odd) {
   margin-right: 10px;
-  }
+}
 
 .friends-box img {
-    height: 90px;
-    display: inline-block;
-    margin-left: 15px;
-    margin-top: 3px;
+  height: 90px;
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 3px;
 }
 
 .friend-name {
@@ -535,7 +550,7 @@ a.profile-post-container {
 }
 
 .profile-post-container img {
-  width: 120px;
+  width: 100px;
   display: inline-block;
   margin: 10px;
 }
@@ -579,7 +594,7 @@ a.profile-post-container {
 
 .col-30-100 a h5 {
   display: block;
- padding-left: 30px;
+  padding-left: 30px;
   text-decoration: underline;
 }
 
@@ -599,12 +614,12 @@ NEWSFEED - POST SIDE
   height: 200px;
   display: block;
   margin-bottom: 30px;
+  border: 2px solid black;
+  background: #ddd;
 }
 
 .post-copied h4 {
   text-align: center;
-  background: #ddd;
-  border: 2px solid black;
 }
 
 textarea {
@@ -616,9 +631,14 @@ textarea {
   text-align: start;
 }
 
+.textarea-container {
+  background: white;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
 .button-field {
-  background: #ccc;
-  border: 2px solid black;
+  background: #ddd;
   height: 40px;
   line-height: 40px;
 }
@@ -698,7 +718,6 @@ textarea {
   margin-left: 85px;
   font-size: 13px;
   line-height: 30px;
-  padding-botom: ;
 }
 
 p {
@@ -713,4 +732,3 @@ p {
   line-height: 30px;
   height: 40px;
 }
-
