@@ -89,7 +89,7 @@ table {
   width: 66.66%;
 }
 .col-1-2 {
-  width: 50%;
+  width: 40%;
 }
 
 /*
@@ -123,6 +123,12 @@ body {
 h1{
   font-size: 40px;
   font-weight: 300;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 22px;
 }
 h4 {
   color: #fff;
@@ -215,11 +221,13 @@ input:focus {
   margin-top: -25px;
 }
 .nav li:first-child {
-  padding-left: 300px;
+  padding-left: 210px;
   border: none;
 }
 .nav li:last-child {
   border-right: none;
+  border-left: none;
+  float: right;
 }
 .nav li:last-child a:visited {
   color: #2078bd;
@@ -233,6 +241,65 @@ input:focus {
 }
 .nav span {
   color: #bbb;
+}
+.nav a {
+  text-decoration: underline;
+}
+
+/*
+  ========================================
+  Pane
+  ========================================
+*/
+
+.pane {
+  text-align: center;
+}
+.pane h2 {
+  display: inline-block;
+  border: 2px solid #000;
+  background-color: #bbb;
+  width: 851px;
+  margin: 15px 0 0 1px;
+}
+.btn {
+  font-size: 14px;
+  display: inline-block;
+  float: right;
+  margin: 5px 20px 0 0;
+}
+
+/*
+  ========================================
+  Main
+  ========================================
+*/
+
+.about-left {
+  text-align: left;
+  float: left;
+  padding: 10px 25px 57px 20px;
+  margin: 0 0 40px 25px;
+  border-left: 2px solid #000;
+}
+.about-right {
+  text-align: left;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  margin: 0 24px 0px 26px;
+  padding: 10px 20px 10px 0;
+}
+.about-left td {
+  padding: 5px 10px 5px 0;
+}
+.about-right h3 {
+  padding: 5px 0 5px 0;
+}
+.about-right h3:first-child {
+  padding-top: 0px;
+}
+.about-right {
+  line-height: 1.4;
 }
 
 
