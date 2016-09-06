@@ -84,7 +84,7 @@ HEADERS
     margin: 10px 0 10px 0
   }
 
-  .right a{
+  .right .issue{
   margin-left: 162px;
   color: #ADD8E6;
   text-decoration: none;
@@ -109,6 +109,47 @@ HEADERS
 
 }
 
+.normal div{
+  display: inline-block;
+}
+
+.normal{
+  border-bottom: 1px black solid;
+  background-color:  #3b5998;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.normal h1{
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+}
+
+.searchbar{
+  width: 60%;
+  vertical-align:center;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+.normal img{
+  display: inline-block;
+  vertical-align: middle
+}
+
+.username{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.normal a{
+  color: white;
+  text-decoration: none;
+  }
+
 /*
 ==================
 BUTTONS
@@ -116,11 +157,23 @@ BUTTONS
 */
 
 .btn{
-  font-size: bold;
+  font-style: bold;
   background-color:#0000cc;
   color: white;
   border-color: blue;
   border-radius: 5px; 
+}
+
+.signup{
+  font-style: bold;
+  background-color: #009900;
+  color: white;
+  font-size: 24px;
+  border: 1px black solid;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  box-shadow: 5px 5px 5px #888888;
 }
 
 /*
@@ -215,3 +268,10 @@ li {
   margin-left:20px;
   margin-bottom: 50px;
 }
+
+
+/*
+=================
+ABOUT
+=================
+*/
