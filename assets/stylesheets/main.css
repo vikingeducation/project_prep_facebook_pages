@@ -275,3 +275,49 @@ li {
 ABOUT
 =================
 */
+
+.resize{
+  width:960px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.bigname{
+  font-size: 30px;
+  margin-top: -50px;
+  margin-bottom: 30px;
+  margin-left: 200px
+}
+
+.profilepic{
+  margin-top: -140px;
+  margin-left: 20px;
+  margin-right: 0;
+  width: 150px;
+  height: 160px;
+  border-top: 3px white solid;
+  border-left: 3px white solid;
+  border-right: 3px white solid;
+}
+
+.aboutnav{
+  display: inline-block;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  border-right: 1px black solid;
+  margin-left:0;
+  padding:10px 10px 10px 0px;
+}
+
+.aboutnav a{
+  border-left: solid black 1px;
+  padding: 10px 10px 10px 10px;
+  color: black;
+  text-decoration: none;
+}
+
+#edit{
+  padding-left: 380px;
+  color: blue;
+  text-decoration: underline;
+}
