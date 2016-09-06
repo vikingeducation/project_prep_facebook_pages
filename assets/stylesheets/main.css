@@ -176,6 +176,18 @@ BUTTONS
   box-shadow: 5px 5px 5px #888888;
 }
 
+.bluebtn{
+  display: inline-block;
+  float: right;
+  margin: 5px 5px 5px 5px;
+  padding: 1px 3px 1px 3px;
+  border:1px black solid;
+  background-color:#3b5998;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
 /*
 =================
 BODY ORGANIZATION
@@ -272,7 +284,7 @@ li {
 
 /*
 =================
-ABOUT
+GENERAL PAGE LAYOUTS
 =================
 */
 
@@ -320,4 +332,43 @@ ABOUT
   padding-left: 380px;
   color: blue;
   text-decoration: underline;
+}
+
+.heading{
+  font-size: 30px;
+  display: inline-block;
+  padding-left: 50%;
+}
+
+.topper{
+  border: 1px black solid;
+}
+
+
+/*
+=================
+ABOUT
+=================
+*/
+
+.container{
+  border:1px black solid;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 500px
+}
+
+.container h4{
+  font-size: 34px;
+  margin: 20px 0 20px 0;
+}
+
+.b {
+  font-weight: 700;
+}
+
+.justify{
+  float:right;
+  padding-right: 200px;
 }
