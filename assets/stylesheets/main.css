@@ -111,11 +111,79 @@ HEADERS
 
 /*
 ==================
-HEADERS
+BUTTONS
 ==================
 */
 
 .btn{
   font-size: bold;
-  background-color: 
+  background-color:#0000cc;
+  color: white;
+  border-color: blue;
+  border-radius: 5px; 
+}
+
+/*
+=================
+BODY ORGANIZATION
+=================
+*/
+
+.holder{
+  width: 960px;
+  margin:0 auto;
+  margin-top: 20px;
+}
+
+.leftcntr{
+  width:60%;
+  float:left;
+  margin:0 auto; 
+}
+
+.rightcntr{
+  width:40%;
+  float:right;
+  margin:0 auto;
+}
+
+/*
+=================
+BODY TEXT
+=================
+*/
+
+.leftcntr h3{
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: circle;
+}
+
+.leftcntr ul{
+  margin-left: 40px;
+}
+
+.rightcntr h2{
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.rightcntr input{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.shortform{
+  width: 44%
+}
+
+.longform{
+  width: 90%
 }

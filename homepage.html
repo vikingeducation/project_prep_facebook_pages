@@ -11,13 +11,49 @@
 
     <form class="right">
       Email  <div class="locator">Password</div> <br> 
-      <input type="email" name="email">
+      <input type="email" name="account">
       <input type="password" name="password">
-      <input type="submit" name="submit" value="Log In" class="btn" >
+      <input type="submit" name="login" value="Log In" class="btn" >
       <br>
       <a href="404.html">Forgot Account?</a>
     </form>
 
   </header>
+
+  <div class="holder">
+
+    <div class="leftcntr">
+      <h3>Connect with all your friends!</h2>
+      <ul>
+        <li>See how much better their lives are!</li>
+        <li>Enjoy three hundred terrible selfies!</li>
+        <li>Get random friend requests from strangers!</li>
+        <li>Waste hours upon hours somehow!</li>
+      </ul>
+
+    </div>
+
+    <div class="rightcntr">
+        <h2>Sign Up</h2>
+        <input type="text" name="first name" placeholder="first name"
+        onfocus="this.placeholder = ''" class="shortform">
+        <input type="text" name="last name" placeholder="last name"
+        onfocus="this.placeholder = ''" class="shortform">
+        <input type="email" name="regemail" placeholder="email"
+        onfocus="this.placeholder = ''" class="longform">
+        <input type="password" name="newpassword" placeholder="password"
+        onfocus="this.placeholder = ''" class="longform">
+        <input type="password" name="newpassconfirm" placeholder="confirm password"
+        onfocus="this.placeholder = ''" class="longform">
+        Birthday<br>
+        <input type="date" name="birthday">
+        <br>
+        <input type="radio" name="gender" value="male" checked> Male
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="submit" name="register">
+    </div>
+
+  </div>
+
 </body>
 </html>
