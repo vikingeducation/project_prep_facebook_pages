@@ -187,3 +187,31 @@ li {
 .longform{
   width: 90%
 }
+
+/*
+=================
+404 PAGE
+=================
+*/
+
+.chickens{
+  background-image: url("../pictures/chickens.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.chickens h1{
+  color: blue;
+  font-size:40px;
+  margin-left:20px;
+  margin-bottom: 50px;
+  margin-top: 200px;
+}
+
+.chickens h2{
+  color: blue;
+  font-size:40px;
+  margin-left:20px;
+  margin-bottom: 50px;
+}
