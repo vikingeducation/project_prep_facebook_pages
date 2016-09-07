@@ -517,6 +517,34 @@ NEWSFEED MAIN
 .postholder{
   width: 80%;
   height: 100px;
-  border:black 1px solid;
   margin: 0 auto;
+}
+
+.postholder h3{
+  font-size: 26px;
+  font-weight: 700;
+  width: 100%;
+  border:1px solid black;
+  text-align: center;
+}
+
+.post1{
+  width: 99%;
+  height: 80px;
+  margin-bottom: 0;
+  /*I really wanted to move the placeholder text
+  but its not doable without a lot of work apparently
+  didn't seem worth it for this project*/
+}
+
+.btnmove{
+  padding-right: 10px;
+  padding-top:10px;
+  padding-left: 88%
+}
+
+.styling{
+  width: 100%;
+  border:1px black solid;
+  height: 30px;
 }
