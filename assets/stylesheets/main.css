@@ -188,6 +188,16 @@ BUTTONS
   text-decoration: none;
 }
 
+.ubtn{
+  margin: 5px 5px 5px 5px;
+  padding: 1px 20px 1px 20px;
+  border:1px black solid;
+  background-color:#3b5998;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
 /*
 =================
 BODY ORGANIZATION
@@ -372,3 +382,58 @@ ABOUT
   float:right;
   padding-right: 200px;
 }
+
+/*
+=================
+FRIENDS
+=================
+*/
+
+.bigholder{
+  width:960px;
+  margin:0 auto;
+  border:1px solid black;
+  padding-bottom: 20px;
+}
+
+.friendholder{
+  width: 840px;
+  margin-left: 50px
+  display: inline-block;
+}
+
+.friend{
+  display: inline-block;
+  width: 400px;
+  height: 150px;
+  border:1px black solid;
+  margin-top: 20px;
+  margin-left: 15px
+}
+
+.friend img{
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.friend a{
+  position: relative;
+  top: -50px;
+  margin-left: 10px
+
+}
+
+.number{
+  position: relative;
+  left:120px;
+  color:grey;
+  text-decoration: none;
+}
+
+.friend .unfriend{
+  position: relative;
+  top: -60px;
+  margin-left: 190px;}
