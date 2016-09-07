@@ -539,12 +539,25 @@ NEWSFEED MAIN
 
 .btnmove{
   padding-right: 10px;
-  padding-top:10px;
+  padding-top:5px;
   padding-left: 88%
 }
 
 .styling{
-  width: 100%;
+  width: 98%;
   border:1px black solid;
-  height: 30px;
+  margin-bottom: 40px;
+  padding-left:10px;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.box{
+  margin-top: 10px;
+  border:1px solid black;
+  padding: 5px 10px 5px 10px;
+}
+
+.box p{
+  margin-top: 10px;
 }
