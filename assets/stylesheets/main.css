@@ -445,8 +445,8 @@ NEWSFEED
 */
 
 .sidebar{
-  width: 25%;
-  height: 100%;
+  width: 400px;
+  height: 110%;
   border-right: 1px solid black;
 }
 
@@ -477,4 +477,24 @@ NEWSFEED
   height: 100px;
   width: 120px;
   vertical-align: middle;
+}
+
+.recent li{
+  display: block;
+  width: 80%;
+  margin-left:60px;
+  margin-top: 40px;
+}
+
+.recenthead{
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 30px
+}
+
+.bold{
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 25px;
 }
