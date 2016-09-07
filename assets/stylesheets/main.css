@@ -440,7 +440,7 @@ FRIENDS
 
   /*
 =================
-NEWSFEED
+NEWSFEED SIDEBAR
 =================
 */
 
@@ -448,6 +448,7 @@ NEWSFEED
   width: 400px;
   height: 110%;
   border-right: 1px solid black;
+  display: inline-block;
 }
 
 .usertop{
@@ -497,4 +498,25 @@ NEWSFEED
   font-size: 20px;
   font-weight: 600;
   margin-left: 25px;
+}
+
+  /*
+=================
+NEWSFEED MAIN
+=================
+*/
+
+.posts{
+  width: 66%;
+  height: 100%;
+  position:relative;
+  margin-top: -1030px;
+  margin-left:400px;
+}
+
+.postholder{
+  width: 80%;
+  height: 100px;
+  border:black 1px solid;
+  margin: 0 auto;
 }
