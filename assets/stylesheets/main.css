@@ -561,3 +561,42 @@ NEWSFEED MAIN
 .box p{
   margin-top: 10px;
 }
+
+.recent .up{
+  height: 100px;
+  width: 120px;
+  float: left;
+  padding-right: 10px;
+}
+
+.styling p{
+  margin-top: 10px;
+  margin-bottom:10px;
+  margin-left: 10px;
+}
+
+span{
+  color:grey;
+}
+
+.break{
+  height: 30px;
+}
+
+.styling input{
+  margin-left: 50px;
+  margin-right:10px;
+  margin-bottom: 10px;
+  width: 800px;
+  display: block;
+}
+
+.adjust{
+  padding-left: 55px;
+  padding-top: 10px;
+}
+
+.adjust2{
+  margin-top: 10px;
+  margin-left: 650px;
+}
