@@ -437,3 +437,44 @@ FRIENDS
   position: relative;
   top: -60px;
   margin-left: 190px;}
+
+  /*
+=================
+NEWSFEED
+=================
+*/
+
+.sidebar{
+  width: 25%;
+  height: 100%;
+  border-right: 1px solid black;
+}
+
+.usertop{
+  padding-top: 30px;
+  padding-left: 60px;
+  margin-bottom: 20px;
+}
+
+.usertop img{
+  height: 150px;
+  width: 150px;
+  vertical-align: middle;
+  border:black 1px solid;
+}
+
+.pictext{
+  display: inline-block;
+}
+
+#name{
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.recent img{
+  height: 100px;
+  width: 120px;
+  vertical-align: middle;
+}
