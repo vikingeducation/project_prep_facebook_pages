@@ -8,27 +8,42 @@
 <body>
 
 <header class="header-log-in">
-  facebook
-  Email or Phone
-  Password
-  Forgot Account?
-  Log In
+  <div class="header-content clearfix">
+    <h1>facebook</h1>
+    <table class="form-log-in">
+      <tr>
+        <td>Email or Phone</td>
+        <td>Password</td>
+      </tr>
+      <tr>
+        <td><input type="text" name="emailorphone"></td>
+        <td><input type="text" name="password"></td>
+        <td><input type="submit" name="login" value="Log In"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><a href="#">Forgot Account?</a></td>
+      </tr>
+    </table>
+  </div>
 </header>
 
 <section class="sign-up">
+
   <div class="col-left">
     Connect with friends and the world around you on Facebook.
     See photos and updates from friends in News Feed.
     Share what's new in your life on your Timeline.
     Find more of what you're looking for with Facebook Search.
   </div>
+
   <div class="col-right">
     Sign Up
     It's free and always will be.
-    <input type="text" value="First name" required>
-    <input type="text" value="Last name" required>
-    <input type="text" value="Mobile number or email" required>
-    <input type="text" value="New password" required>
+    <input type="text" placeholder="First name" required>
+    <input type="text" placeholder="Last name" required>
+    <input type="text" placeholder="Mobile number or email" required>
+    <input type="text" placeholder="New password" required>
     Birthday
     <select>
       <option value="Month">Month</option>
@@ -40,10 +55,11 @@
       <option value="Year">Year</option>
     </select>
     By clicking Sign Up, you agree to our Terms and that you have read our Data Policy, including our Cookie Use.
-    <input type"submit" value="Sign Up">
+    <input type="submit" value="Sign Up">
     <hr>
     Create a Page for a celebrity, band or business.
   </div>
+
 </section>
 
 <section class="footer-log-in">
@@ -60,6 +76,7 @@
     <li>हिन्दी</li>
     <li>日本語</li>
   </ul>
+
   <table class="site-map">
     <tr>
       <td>Sign Up</td>

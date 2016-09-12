@@ -1,0 +1,62 @@
+section,
+div,
+input {
+  border: 1px solid #ccc;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+/*
+  Typography ================
+*/
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+/*
+  Header ====================
+*/
+
+.header-log-in {
+  position: relative;
+  height: 5em;
+  width: 100%;
+  background-color: #3b5998;
+}
+
+.header-content {
+  position: absolute;
+  width: 62.5em;
+  bottom: .35em;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.header-content h1 {
+  margin-bottom: 8px;
+}
+
+.form-log-in {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.header-content h1 {
+  color: #fff;
+}
+
