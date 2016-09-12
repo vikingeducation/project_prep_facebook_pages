@@ -1,15 +1,25 @@
 section,
 div,
 input {
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
+}
+
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Tahoma, Helvetica, Arial, sans-serif;
 }
 
 body a {
   text-decoration: none;
+  color: #365899;
 }
 
 body a:hover {
@@ -20,43 +30,230 @@ body a:hover {
   Typography ================
 */
 
+body {
+  color: #333;
+}
+
 h1 {
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 2.5em;
   font-weight: 600;
 }
 
+h2 {
+  font-family: Tahoma, Helvetica, Arial, sans-serif;
+  font-size: 1.8em;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: Tahoma, Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+}
+
+small {
+  font-size: .6875em;
+}
+
+hr {
+  border-top: 1px solid #ccc;
+}
+
 /*
-  Header ====================
+  Login header ==============
 */
 
-.header-log-in {
+.login-header {
   position: relative;
-  height: 5em;
+  height: 85px;
   width: 100%;
   background-color: #3b5998;
 }
 
-.header-content {
+.login-header-content {
+  color: #fff;
   position: absolute;
-  width: 62.5em;
-  bottom: .35em;
+  width: 1000px;
+  bottom: 6px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
 }
 
-.header-content h1 {
-  margin-bottom: 8px;
+.login-header-content h1 {
+  padding-bottom: 8px;
 }
 
-.form-log-in {
+.login-form-container {
   position: absolute;
   right: 0;
   bottom: 0;
 }
 
-.header-content h1 {
+.login-form {
+  border-collapse: separate;
+  border-spacing: 15px 4px;
+}
+
+.login-form {
+  font-size: .8em;
+}
+
+.login-form a {
+  color: #9cb4d8;
+}
+
+.login-form input {
+  padding: 3px;
+  width: 150px;
+  border: 1px solid #333;
+}
+
+.login-form input[type="submit"] {
   color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  width: 50px;
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+  border-radius: 4px;
+}
+
+.login-form input[type="submit"]:hover,
+.login-form input[type="submit"]:active {
+  background-color: #365899;
+}
+
+/*
+  Login content =============
+*/
+
+.signup-main-bkg {
+  background-color: #edf0f5;
+  min-width: 1000px;
+  padding-top: 25px;
+  padding-bottom: 60px;
+}
+
+.signup-main-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.signup-col-left,
+.signup-col-right {
+  vertical-align: top;
+}
+
+.signup-col-left {
+  display: inline-block;
+  width: 580px;
+  padding-top: 65px;
+  padding-right: 75px;
+}
+
+.signup-col-left h2 {
+  padding-bottom: 30px;
+  line-height: 1.25em;
+}
+
+.signup-feature {
+  display: table;
+  padding: 12px 0;
+}
+
+.signup-feature h4 {
+  font-weight: 600;
+  padding-left: 20px;
+  padding-right: 10px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.signup-feature p {
+  color: #666;
+  font-size: .9em;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.signup-col-right {
+  display: inline-block;
+  width: 420px;
+}
+
+.signup-col-right h3 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.signup-col-right input {
+  width: 100%;
+}
+
+.signup-input {
+  margin: 5px 0;
+  font-size: 1.2em;
+  height: 2.2em;
+  padding-left: 12px;
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+}
+
+#signup-firstname {
+  display: inline-block;
+  width: 208px;
+}
+
+#signup-lastname {
+  margin-left: 12px;
+  display: inline-block;
+  width: 200px
+}
+
+.signup-form h3 {
+  padding-bottom: 10px;
+}
+
+.signup-form select {
+  height: 35px;
+  padding: 5px;
+  border: solid 1px #bdc7d8;
+}
+
+.signup-gender {
+  display: table;
+  padding: 20px 0;
+}
+
+.signup-gender input[type="radio"] {
+  width: 13px;
+  height: 13px;
+  margin-right: 8px;
+}
+
+.signup-gender label {
+  display: table-cell;
+  vertical-align: bottom;
+  padding-right: 20px;
+}
+
+#signup-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  font-weight: 600;
+  display: block;
+  color: #fff;
+  background: #67a153;
+  background: -webkit-linear-gradient(#73b25e, #578843);
+  background: -o-linear-gradient(#73b25e, #578843);
+  background: -moz-linear-gradient(#73b25e, #578843);
+  height: 40px;
+  width: 200px;
+  border: 1px solid #3b6e22;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
