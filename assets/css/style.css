@@ -217,7 +217,7 @@ hr {
 }
 
 .signup-form select {
-  height: 35px;
+  height: 30px;
   padding: 5px;
   border: solid 1px #bdc7d8;
 }
@@ -257,3 +257,28 @@ hr {
   cursor: pointer;
 }
 
+/*
+  Footer ====================
+*/
+
+.login-footer {
+  font-size: .75em;
+  color: #888;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+ul.login-languages {
+  padding: 10px 0;
+}
+
+ul.login-languages li {
+  display: inline;
+  padding-right: 8px;
+}
+
+.site-map {
+  border-collapse: separate;
+  border-spacing: 27px 8px;
+  margin-left: -27px;
+}
