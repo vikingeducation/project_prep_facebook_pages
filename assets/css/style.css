@@ -149,33 +149,34 @@ hr {
 .signup-col-left {
   display: inline-block;
   width: 580px;
-  padding-top: 65px;
-  padding-right: 75px;
+  padding-top: 40px;
+  padding-right: 50px;
 }
 
 .signup-col-left h2 {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   line-height: 1.25em;
 }
 
-.signup-feature {
-  display: table;
-  padding: 12px 0;
+table.signup-feature {
+  border-collapse: separate;
+  border-spacing: 15px 30px;
+  margin-left: -15px;
 }
 
-.signup-feature h4 {
-  font-weight: 600;
-  padding-left: 20px;
-  padding-right: 10px;
-  display: table-cell;
+table.signup-feature td {
   vertical-align: middle;
 }
 
-.signup-feature p {
+.signup-feature span {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+.signup-feature .smaller {
+  font-weight: 400;
   color: #666;
   font-size: .9em;
-  display: table-cell;
-  vertical-align: middle;
 }
 
 .signup-col-right {
