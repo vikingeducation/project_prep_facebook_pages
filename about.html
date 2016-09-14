@@ -34,7 +34,7 @@
     </div>
   </section>
 
-  <section class="main-column-alignment">
+  <div class="main-column-alignment">
 
   <div class="main-column">
 
@@ -57,7 +57,7 @@
           </div></a>
         </div>
       </div>
-      <div class="profile-nav-container">
+      <section class="profile-nav-container">
         <div class="profile-nav">
           <span><a href="#">Timeline</a></span>
         </div><!--
@@ -73,39 +73,46 @@
         --><div class="profile-nav">
           <span><a href="#">More</a></span>
         </div>
-      </div>
+      </section>
     </section>
 
     <section class="section-header">
-      <img src="assets/images/about.png"><h1>About</h1>
+      <img src="assets/images/about.png">
+      <h1>About</h1>
     </section>
     <section class="left-panel">
       <ul class="about-nav">
-        <li>Overview</li>
-        <li>Work and Education</li>
-        <li>Places You've Lived</li>
-        <li>Contact and Basic Info</li>
-        <li>Family and Relationships</li>
-        <li>Details About You</li>
-        <li>Life Events</li>
+        <li class="about-nav-current"><a href="#">Overview</a></li>
+        <li><a href="#">Work and Education</a></li>
+        <li><a href="#">Places You've Lived</a></li>
+        <li><a href="#">Contact and Basic Info</a></li>
+        <li><a href="#">Family and Relationships</a></li>
+        <li><a href="#">Details About You</a></li>
+        <li><a href="#">Life Events</a></li>
       </ul>
     </section>
     <section class="right-panel">
       <div class="about-list-container">
         <ul class="about-list">
-          <li><img src="#">Failure at Life</li>
-          <li><img src="#">Studied Illustration at Massachusetts College of Art and Design</li>
-          <li><img src="#">Lives in Baldwin, New York</li>
-          <li><img src="#">This was a Mistake</li>
+          <li>
+            <img src="#">
+            <div>Works at <a href="#">Big Spaceship</a></div></li>
+          <li>
+            <img src="#">
+            <div>Studied Illustration at <a href="#">Mass Art</a></div></li>
+          <li>
+            <img src="#">
+            <div>Lives in <a href="#">New Hyde Park, New York</a></div></li>
+          <li>
+            <img src="#">
+            <div>Married to <a href="#">The Hustle</a></div></li>
         </ul>
       </div>
-      <div class="about-personal-container">
-        <ul class="about-personal">
-          <li>&#40;000&#41;&nbsp;000&#45;0000</li>
-          <li>Baldwin, NY, United States</li>
-          <li>December 9, 1986</li>
-        </ul>
-      </div>
+        <div class="about-personal">
+          <div>(000) 000-0000</div>
+          <div>New Hyde Park, NY, United States</div>
+          <div>November 12, 1984</div>
+        </div>
     </section>
 
     <section class="section-header">
@@ -188,7 +195,7 @@
 
   </div>
 
-  </section>
+  </div>
 
 </body>
 </html>
