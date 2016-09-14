@@ -78,7 +78,7 @@
 
     <section class="section-header">
       <img src="assets/images/about.png">
-      <h1>About</h1>
+      <h1><a href="#">About</a></h1>
     </section>
     <section class="left-panel">
       <ul class="about-nav">
@@ -105,7 +105,7 @@
             <div>Lives in <a href="#">New Hyde Park, New York</a></div></li>
           <li>
             <img src="#">
-            <div>Married to <a href="#">The Hustle</a></div></li>
+            <div>Married to <a href="#">Maggie Wu</a></div></li>
         </ul>
       </div>
         <div class="about-personal">
@@ -117,28 +117,33 @@
 
     <section class="section-header">
 
-      <img src="#">Friends
+      <img src="assets/images/friends.png">
+      <h1><a href="#">Friends</a></h1>
 
       <section class="section-nav-container">
-        <span class="section-nav-link">All Friends</span>
-        <span class="section-nav-link">New Posts</span>
-        <span class="section-nav-link">Birthdays</span>
-        <span class="section-nav-link">College</span>
-        <span class="section-nav-link">High School</span>
-        <span class="section-nav-link">Hometown</span>
-        <span class="section-nav-link">More</span>
+        <div class="align-to-bottom">
+          <span class="section-nav-link">All Friends</span>
+          <span class="section-nav-link"><a href="#">New Posts</a></span>
+          <span class="section-nav-link"><a href="#">Birthdays</a></span>
+          <span class="section-nav-link"><a href="#">College</a></span>
+          <span class="section-nav-link"><a href="#">High School</a></span>
+          <span class="section-nav-link"><a href="#">Hometown</a></span>
+          <span class="section-nav-link"><a href="#">More</a></span>
+        </div>
       </section>
 
       <div class="top-right-container">
-        <span class="btn l">Friend Requests</span>
-        <span class="btn r">Find Friends</span>
-        <span class="btn lr"><img src="#"></span>
+        <a href="#">
+          <div id="friend-requests" class="btn l">Friend Requests</div></a><!--
+        --><a href="#"><div id="find-friends" class="btn r">Find Friends</div></a>
+        <a href="#">
+        <div class="btn lr manage"><img src="assets/images/1x1.png"></div></a>
       </div>
 
       <div class="bottom-right-container">
         <div class="searchbar-small-container">
-          <input type="text" class="searchbar-small" placeholder="Search for your friends">
-          <img src="#">
+          <input type="text" id="searchbar-small" placeholder="Search for your friends">
+          <img id="searchbar-small-icon" src="assets/images/1x1.png">
         </div>
       </div>
 
