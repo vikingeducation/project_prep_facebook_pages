@@ -8,6 +8,8 @@
 </head>
 <body>
 
+<!-- Header Bar -->
+
   <section class="header-bkg">
     <div class="header-container">
       <a id="logo" class="nav-btn" href="#">Facebook</a><!--
@@ -18,7 +20,7 @@
       <div class="header-nav">
         <a href="#">
           <img src="assets/images/profilepic.jpg">
-          <span id="nav-name">Name</span>
+          <span id="nav-name">This</span>
         </a>
         <div class="vr"></div>
         <a href="#">
@@ -34,13 +36,17 @@
     </div>
   </section>
 
-  <div class="main-column-alignment">
+<!-- End Header Bar -->
+<!-- Main Content -->
 
+  <div class="main-column-alignment">
     <div class="main-column">
+
+      <!-- Profile Section -->
 
       <section class="profile-container">
         <div class="cover-photo-container">
-          <h1 id="profile-name">Full Name</h1>
+          <h1 id="profile-name">This Guy</h1>
           <img id="cover-photo" src="#">
           <div class="profile-photo-container">
             <img src="#">
@@ -58,23 +64,27 @@
           </div>
         </div>
         <section class="profile-nav-container">
-          <div class="profile-nav">
-            <span><a href="#">Timeline</a></span>
-          </div><!--
+        <div id="profile-nav-anchor"></div><!--
+          --><a href="#"><div class="profile-nav">
+            <span>Timeline</span>
+          </div></a><!--
           --><div class="profile-nav">
             <span>About</span>
           </div><!--
-          --><div class="profile-nav">
-            <span><a href="#">Friends</a></span>
-          </div><!--
-          --><div class="profile-nav">
-            <span><a href="#">Photos</a></span>
-          </div><!--
-          --><div class="profile-nav">
-            <span><a href="#">More</a></span>
-          </div>
+          --><a href="#"><div class="profile-nav">
+            <span>Friends</span>
+          </div></a><!--
+          --><a href="#"><div class="profile-nav">
+            <span>Photos</span>
+          </div></a><!--
+          --><a href="#"><div class="profile-nav">
+            <span><a href="#">More</span>
+          </div></a>
         </section>
       </section>
+
+      <!-- End Profile Section -->
+      <!-- About Section -->
 
       <section class="section-header">
         <img src="assets/images/about.png">
@@ -114,6 +124,9 @@
             <div>November 12, 1984</div>
           </div>
       </section>
+
+      <!-- End About Section -->
+      <!-- Friends Section -->
 
       <section class="section-header">
 
@@ -198,7 +211,7 @@
             <img src="#"><!--
             --><div class="friends-caption">
               <div><a href="#">Eunhye Kim</a></div>
-              <small>Global AfreecaTV GSL</small>
+              <small>453 friends</small>
             </div>
           </li>
           <li>
@@ -215,6 +228,9 @@
       <section class="see-all">
         <a href="#">See All</a>
       </section>
+
+      <!-- End Friends Section -->
+      <!-- Photos Section -->
 
       <section class="section-header">
 
@@ -273,9 +289,41 @@
         <a href="#">See All</a>
       </section>
 
+      <!-- End Photos Section -->
+      <!-- Events Section-->
+
+      <section class="section-header">
+
+        <img src="assets/images/events.png">
+        <h1><a href="#">Events</a></h1>
+
+        <section class="section-nav-container">
+          <div class="align-to-bottom">
+            <span class="section-nav-link">Past</span>
+            <span class="section-nav-link"><a href="#">Upcoming</a></span>
+            <span class="section-nav-link"><a href="#">Attended</a></span>
+            <span class="section-nav-link"><a href="#">Hosted</a></span>
+          </div>
+        </section>
+
+        <div class="top-right-container">
+          <a href="#"><div id="create-album" class="btn lr">+ Create Event</div></a>
+          <a href="#">
+          <div class="btn lr manage"><img src="assets/images/1x1.png"></div></a>
+        </div>
+
+      </section>
+
       <section class="section-body events-container">
 
         <ul class="events-list">
+          <li>
+            <img src="#"><!--
+            --><div class="events-caption">
+              <div><a href="#">PARTY: No pants allowed but...</a></div>
+              <div>Friday, August 26, 2016 at 6:30...</small>
+            </div>
+          </li>
           <li>
             <img src="#"><!--
             --><div class="events-caption">
@@ -334,8 +382,9 @@
         <a href="#">See All</a>
       </section>
 
-    </div>
+      <!-- End Events Section -->
 
+    </div>
   </div>
 
 </body>
