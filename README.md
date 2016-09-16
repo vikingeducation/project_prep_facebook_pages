@@ -16,10 +16,10 @@ I used separate stylesheets for the **Login (index.css)** and **Timeline (timeli
 
 [Login (standalone page)](http://htmlpreview.github.io/?https://github.com/blackwright/prep_facebook_pages/blob/master/login.html)
 
-[About](https://github.com/blackwright/prep_facebook_pages/blob/master/about.html)
+[About](http://htmlpreview.github.io/?https://github.com/blackwright/prep_facebook_pages/blob/master/about.html)
 
-[Friends](https://github.com/blackwright/prep_facebook_pages/blob/master/friends.html)
+[Friends](http://htmlpreview.github.io/?https://github.com/blackwright/prep_facebook_pages/blob/master/friends.html)
 
-[Photos](https://github.com/blackwright/prep_facebook_pages/blob/master/photos.html)
+[Photos](http://htmlpreview.github.io/?https://github.com/blackwright/prep_facebook_pages/blob/master/photos.html)
 
-[Timeline](https://github.com/blackwright/prep_facebook_pages/blob/master/timeline.html)
+[Timeline](http://htmlpreview.github.io/?https://github.com/blackwright/prep_facebook_pages/blob/master/timeline.html)
