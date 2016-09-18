@@ -9,7 +9,7 @@ header {
   flex-grow: 1;
 }
 .right-column {
-  flex-shrink: 0;
+  width: 340px;
   padding: 1em;
 }
 header h1 {
@@ -21,7 +21,51 @@ header h1 {
 }
 .login-field label {
   display: block;
+  color: white;
 }
 .login-field input {
   width: 10em;
+}
+main {
+  display: flex;
+}
+main .left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em;
+}
+main .left-column ul {
+  margin: 0;
+}
+main .left-column li {
+  margin: .5em;
+}
+.half-width-input {
+  display: inline-block;
+  width: 9.6em;
+  margin: .5em .5em 0em 0em;
+}
+.half-width-input + .half-width-input {
+  margin: .5em .5em 0em 0em;
+}
+.full-width-input {
+  display: block;
+  width: 20em;
+  margin: 1em 1em 1em 0;
+}
+.birthday-label {
+  font-weight: bold;
+  margin-bottom: .5em;
+}
+.sex {
+  margin: 1em 0 .5em 0;
+}
+.green-button {
+  background-color: green;
+  color: white;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: .5em;
 }
