@@ -69,3 +69,34 @@ main .left-column li {
   text-decoration: none;
   padding: .5em;
 }
+@media (min-width: 1001px) {
+  .main-column {
+    width: 1000px;
+    margin: auto;
+  }
+}
+@media (max-width: 1000px) {
+  .main-column {
+    width: 100%;
+  }
+}
+header .main-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+header .logo {
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.search-bar {
+  flex-grow: 2;
+  margin: 0 1em;
+}
+header .username {
+  color: white;
+}
