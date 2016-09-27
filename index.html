@@ -4,25 +4,34 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Facebook - Log In</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="css/screen.css">
 </head>
 <body>
-  <header class="logged-out">
-    <nav class="wrapper">
-      <img src="" alt="Facebook Logo" class="logo">
-      <form action="">
-        <label for="email">Email:</label>
-        <input type="text" id=email>
-        <label for="password">Password:</label>
-        <input type="password" id=password>
-      </form>
+  <header>
+    <nav class="wrapper clearfix">
+      <!-- facebook doesn't make it easy for you to get the wordmark logo -->
+      <div class="logo logged-out float-left">facebook</div>
+      <div class="login float-right">
+        <form action="" class="clearfix">
+          <div class="float-left">
+            <label for="email">Email</label>
+            <input type="text" id=email>
+          </div>
+          <div class="float-right">
+            <label for="password">Password</label>
+            <input type="password" id=password>
+            <input id="submit" value="Log In" type="submit">
+          </div>
+        </form>
+      </div>
     </nav>
   </header>
 
   <main>
-    <div class="wrapper">
-      <div>Connect with friends and the world around you on Facebook.</div>
-      <div>Sign Up</div>
+    <div class="wrapper clearfix">
+      <div class="float-left">Connect with friends and the world around you on Facebook.</div>
+      <div class="float-right">Sign Up</div>
     </div>
   </main>
 </body>
