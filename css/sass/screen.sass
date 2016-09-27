@@ -3,12 +3,17 @@
 // Variables
 $blue-accent: #3B5998 // fb blue
 $dkbl-accent: #1d2a5b // dark blue shadow
+$ltbl-accent: #edf0f5 // light blue highlight
+$form-outline: #bdc7d8 // light greyish-blue
 $white: #fff
 
 $b-font: 'Open Sans'
 $h-font: 'Montserrat'
 
 /* Base */
+*
+  box-sizing: border-box
+
 body
   font-family: $b-font, sans-serif
   font-size: 15px
@@ -17,11 +22,29 @@ header
   background-color: $blue-accent
   color: $white
 
-/* Layout */
-.wrapper
-  width: 980px
-  margin: 0 auto
+main
+  background-color: $ltbl-accent
+  padding: 40px
 
+h2
+  font-size: 2em
+  font-weight: 700
+
+h3
+  font-size: 2.4em
+  font-weight: 700
+  margin-bottom: 5px
+
+h4
+  font-size: 1.2em
+  margin-bottom: 20px
+
+h5
+  font-size: 1.1em
+  margin-top: 10px
+  margin-bottom: 5px
+
+/* Layout & Positioning */
 .float-left
   float: left
 
@@ -33,7 +56,12 @@ header
   display: table
   clear: both
 
-/* module */
+.wrapper
+  @extend .clearfix
+  width: 980px
+  margin: 0 auto
+
+/* Module */
 .logo
   font-family: $h-font, sans-serif
   font-size: 2.4em
@@ -51,10 +79,68 @@ header
     border: 1px solid $dkbl-accent
     padding: 3px
 
-  #email, #password
-    width: 142px
-    margin-right: 0.8em
+.left-module
+  @extend .float-left
+  margin-right: 16px
+  width: 565px
+
+  li
+    margin-top: 30px
+    padding-bottom: 20px
+
+    span
+      font-weight: 700
+
+.right-module
+  @extend .float-right
+
+/* forms */
+#email, #password
+  width: 142px
+  margin-right: 0.8em
+
+#sign-up
+  @extend .clearfix
+
+  input
+    margin-bottom: 10px
+    border-radius: 5px
+    border: 1px solid $form-outline
+    padding: 8px 10px
+    font-size: 1.2em
+
+  select
+    height: 30px
+    padding: 5px
+    border: 1px solid $form-outline
+    font-size: 0.8em
+
+  #fname, #lname
+    @extend .float-left
+    width: 184px
+
+  #fname
+    margin-right: 9px
+
+  #mobile, #mobile-verify, #password
+    width: 377px
+
+  .gender-select
+    margin-top: 10px
+
+  #signup-submit
+    width: 180px
+    line-height: 1.2em
+    font-weight: 700
+    color: #fff
+    margin: 20px 0
+    border: 1px solid #2c5115
+    background-color: #69a74e
 
 /* state */
 .logged-out
   margin-top: 0.8em
+
+.intro
+  padding-top: 42px
+  padding-bottom: 24px

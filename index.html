@@ -9,19 +9,19 @@
 </head>
 <body>
   <header>
-    <nav class="wrapper clearfix">
+    <nav class="wrapper">
       <!-- facebook doesn't make it easy for you to get the wordmark logo -->
       <div class="logo logged-out float-left">facebook</div>
       <div class="login float-right">
         <form action="" class="clearfix">
           <div class="float-left">
             <label for="email">Email</label>
-            <input type="text" id=email>
+            <input type="text" name="email" id="email">
           </div>
           <div class="float-right">
             <label for="password">Password</label>
-            <input type="password" id=password>
-            <input id="submit" value="Log In" type="submit">
+            <input type="password" name="password" id="password">
+            <input id="login-submit" value="Log In" type="submit">
           </div>
         </form>
       </div>
@@ -29,9 +29,59 @@
   </header>
 
   <main>
-    <div class="wrapper clearfix">
-      <div class="float-left">Connect with friends and the world around you on Facebook.</div>
-      <div class="float-right">Sign Up</div>
+    <div class="wrapper">
+      <div class="left-module">
+        <h2 class="intro">Connect with friends and the world around you on Facebook.</h2>
+        <ul>
+          <li><span>See photos and updates</span> from friends in News Feed.</li>
+          <li><span>Share what's new</span> in your life on your Timeline.</li>
+          <li><span>Find more</span> of what you're looking for with Facebook Search.</li>
+        </ul>
+      </div>
+      <div class="right-module">
+        <h3>Sign Up</h3>
+        <h4>It's free and always will be.</h4>
+        <form id="sign-up">
+          <div>
+            <input type="text" name="fname" id="fname" placeholder="First name">
+            <input type="text" name="lname" id="lname" placeholder="Last name">
+          </div>
+          <div>
+            <input type="text" name="mobile" id="mobile" placeholder="Mobile number or email">
+          </div>
+          <div>
+            <input type="text" name="mobile-verify" id="mobile-verify" placeholder="Re-enter mobile number or email">
+          </div>
+          <div>
+            <input type="password" name="password" id="password" placeholder="New password">
+          </div>
+          <div>
+            <h5>Birthday</h5>
+            <select name="month" id="month">
+              <option value="1">January</option>
+              <option value="2">February</option>
+              <option value="3">March</option>
+            </select>
+            <select name="day" id="day">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+            <select name="year" id="year">
+              <option value="1990">1990</option>
+              <option value="1991">1991</option>
+              <option value="1992">1992</option>
+            </select>
+          </div>
+          <div class="gender-select">
+            <input type="radio" value="Female">Female
+            <input type="radio" value="Male">Male
+          </div>
+          <div>
+            <input type="submit" value="Sign Up" id="signup-submit">
+          </div>
+        </form>
+      </div>
     </div>
   </main>
 </body>

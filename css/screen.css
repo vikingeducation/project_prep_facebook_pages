@@ -47,6 +47,9 @@ table {
   border-spacing: 0; }
 
 /* Base */
+* {
+  box-sizing: border-box; }
+
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 15px; }
@@ -55,23 +58,45 @@ header {
   background-color: #3B5998;
   color: #fff; }
 
-/* Layout */
-.wrapper {
-  width: 980px;
-  margin: 0 auto; }
+main {
+  background-color: #edf0f5;
+  padding: 40px; }
 
-.float-left {
+h2 {
+  font-size: 2em;
+  font-weight: 700; }
+
+h3 {
+  font-size: 2.4em;
+  font-weight: 700;
+  margin-bottom: 5px; }
+
+h4 {
+  font-size: 1.2em;
+  margin-bottom: 20px; }
+
+h5 {
+  font-size: 1.1em;
+  margin-top: 10px;
+  margin-bottom: 5px; }
+
+/* Layout & Positioning */
+.float-left, .left-module, #sign-up #fname, #sign-up #lname {
   float: left; }
 
-.float-right {
+.float-right, .right-module {
   float: right; }
 
-.clearfix:after {
+.clearfix:after, .wrapper:after, #sign-up:after {
   content: "";
   display: table;
   clear: both; }
 
-/* module */
+.wrapper {
+  width: 980px;
+  margin: 0 auto; }
+
+/* Module */
 .logo {
   font-family: "Montserrat", sans-serif;
   font-size: 2.4em;
@@ -86,12 +111,55 @@ header {
   .login input {
     border: 1px solid #1d2a5b;
     padding: 3px; }
-  .login #email, .login #password {
-    width: 142px;
-    margin-right: 0.8em; }
+
+.left-module {
+  margin-right: 16px;
+  width: 565px; }
+  .left-module li {
+    margin-top: 30px;
+    padding-bottom: 20px; }
+    .left-module li span {
+      font-weight: 700; }
+
+/* forms */
+#email, #password {
+  width: 142px;
+  margin-right: 0.8em; }
+
+#sign-up input {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #bdc7d8;
+  padding: 8px 10px;
+  font-size: 1.2em; }
+#sign-up select {
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #bdc7d8;
+  font-size: 0.8em; }
+#sign-up #fname, #sign-up #lname {
+  width: 184px; }
+#sign-up #fname {
+  margin-right: 9px; }
+#sign-up #mobile, #sign-up #mobile-verify, #sign-up #password {
+  width: 377px; }
+#sign-up .gender-select {
+  margin-top: 10px; }
+#sign-up #signup-submit {
+  width: 180px;
+  line-height: 1.2em;
+  font-weight: 700;
+  color: #fff;
+  margin: 20px 0;
+  border: 1px solid #2c5115;
+  background-color: #69a74e; }
 
 /* state */
 .logged-out {
   margin-top: 0.8em; }
+
+.intro {
+  padding-top: 42px;
+  padding-bottom: 24px; }
 
 /*# sourceMappingURL=screen.css.map */
