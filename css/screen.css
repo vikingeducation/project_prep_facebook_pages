@@ -52,7 +52,11 @@ table {
 
 body {
   font-family: "Open Sans", sans-serif;
-  font-size: 15px; }
+  font-size: 14px;
+  line-height: 1.4em; }
+
+a {
+  color: #365899; }
 
 header {
   background-color: #3B5998;
@@ -61,6 +65,14 @@ header {
 main {
   background-color: #edf0f5;
   padding: 40px; }
+
+h1 {
+  background-color: #f6f7f9;
+  padding: 16px 16px 12px;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #333;
+  border-bottom: 1px solid #d3d6db; }
 
 h2 {
   font-size: 2em;
@@ -102,6 +114,9 @@ h5 {
   font-size: 2.4em;
   font-weight: 700;
   letter-spacing: -1px; }
+  .logo a, .logo a:hover, .logo a:visited {
+    color: #fff;
+    text-decoration: none; }
 
 .login {
   margin: 1.4em 0; }
@@ -120,6 +135,93 @@ h5 {
     padding-bottom: 20px; }
     .left-module li span {
       font-weight: 700; }
+
+.name-nav img {
+  vertical-align: middle; }
+.name-nav li {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.8em;
+  line-height: 3em;
+  padding: 3px 10px;
+  vertical-align: middle; }
+.name-nav .thumb-photo {
+  height: 25px;
+  background: #fff;
+  border-radius: 3px; }
+
+.cover {
+  background-color: #fff;
+  background: url("../images/cover.png") no-repeat center center;
+  background-size: cover;
+  height: 300px; }
+  .cover .profile-photo {
+    padding: 3px;
+    margin: 15px;
+    position: relative;
+    top: 140px; }
+  .cover .cover-nav {
+    position: relative;
+    top: 260px; }
+  .cover .cover-text {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.7em;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8); }
+  .cover .cover-button {
+    font-size: 0.8em;
+    font-weight: 700;
+    color: #333;
+    margin-right: 12px;
+    padding: 4px 10px; }
+
+.page-tabs {
+  margin-left: 200px; }
+  .page-tabs li {
+    display: inline-block;
+    border-left: 1px solid #d3d6db;
+    padding: 0 17px;
+    line-height: 3em;
+    margin: 0; }
+  .page-tabs a:last-child li {
+    border-right: 1px solid #d3d6db; }
+  .page-tabs a:hover li {
+    background-color: #f6f7f9; }
+
+.module, .cover .cover-button {
+  border: 1px solid #d3d6db;
+  border-radius: 3px;
+  background-color: #fff;
+  margin-bottom: 30px; }
+
+.overview {
+  width: 242px;
+  border-right: 1px solid #d3d6db; }
+  .overview li {
+    color: #90949c;
+    padding: 0 16px;
+    margin: 16px 0;
+    line-height: 1.5em; }
+    .overview li:hover {
+      color: #000; }
+
+.content {
+  padding: 16px;
+  width: 607px; }
+  .content li {
+    padding-bottom: 20px;
+    margin-bottom: 12px;
+    color: #4080ff;
+    font-size: 1.1em;
+    vertical-align: middle; }
+
+.plus {
+  line-height: 0.6em;
+  border: 1px dashed #4080ff;
+  font-size: 1.6em;
+  display: inline-block;
+  padding: 8px;
+  margin-right: 12px; }
 
 /* forms */
 #email, #password {
@@ -154,6 +256,15 @@ h5 {
   border: 1px solid #2c5115;
   background-color: #69a74e; }
 
+.search {
+  min-width: 400px;
+  color: #333;
+  font-size: 1em;
+  padding: 3px;
+  margin: 8px 20px;
+  border: 1px solid #bdc7d8;
+  border-radius: 3px; }
+
 /* state */
 .logged-out {
   margin-top: 0.8em; }
@@ -161,5 +272,14 @@ h5 {
 .intro {
   padding-top: 42px;
   padding-bottom: 24px; }
+
+.logged-in {
+  height: 90vh;
+  padding: 0; }
+
+.overview li:first-of-type {
+  color: #000;
+  font-weight: 700;
+  border-left: 3px solid #3B5998; }
 
 /*# sourceMappingURL=screen.css.map */
