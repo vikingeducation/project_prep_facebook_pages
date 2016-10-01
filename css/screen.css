@@ -195,8 +195,7 @@ h5 {
   margin-bottom: 30px; }
 
 .overview {
-  width: 242px;
-  border-right: 1px solid #d3d6db; }
+  width: 242px; }
   .overview li {
     color: #90949c;
     padding: 0 16px;
@@ -207,7 +206,8 @@ h5 {
 
 .content {
   padding: 16px;
-  width: 607px; }
+  width: 607px;
+  border-left: 1px solid #d3d6db; }
   .content li {
     padding-bottom: 20px;
     margin-bottom: 12px;
