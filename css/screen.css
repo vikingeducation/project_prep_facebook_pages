@@ -1,0 +1,285 @@
+/*-----------------------------------------------
+ * http://meyerweb.com/eric/tools/css/reset/
+ * v2.0 | 20110126
+ * License: none (public domain)
+ * --------------------------------------------- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Base */
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.4em; }
+
+a {
+  color: #365899; }
+
+header {
+  background-color: #3B5998;
+  color: #fff; }
+
+main {
+  background-color: #edf0f5;
+  padding: 40px; }
+
+h1 {
+  background-color: #f6f7f9;
+  padding: 16px 16px 12px;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #333;
+  border-bottom: 1px solid #d3d6db; }
+
+h2 {
+  font-size: 2em;
+  font-weight: 700; }
+
+h3 {
+  font-size: 2.4em;
+  font-weight: 700;
+  margin-bottom: 5px; }
+
+h4 {
+  font-size: 1.2em;
+  margin-bottom: 20px; }
+
+h5 {
+  font-size: 1.1em;
+  margin-top: 10px;
+  margin-bottom: 5px; }
+
+/* Layout & Positioning */
+.float-left, .left-module, #sign-up #fname, #sign-up #lname {
+  float: left; }
+
+.float-right, .right-module {
+  float: right; }
+
+.clearfix:after, .wrapper:after, #sign-up:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.wrapper {
+  width: 980px;
+  margin: 0 auto; }
+
+/* Module */
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4em;
+  font-weight: 700;
+  letter-spacing: -1px; }
+  .logo a, .logo a:hover, .logo a:visited {
+    color: #fff;
+    text-decoration: none; }
+
+.login {
+  margin: 1.4em 0; }
+  .login label {
+    display: block;
+    margin-bottom: 0.3em; }
+  .login input {
+    border: 1px solid #1d2a5b;
+    padding: 3px; }
+
+.left-module {
+  margin-right: 16px;
+  width: 565px; }
+  .left-module li {
+    margin-top: 30px;
+    padding-bottom: 20px; }
+    .left-module li span {
+      font-weight: 700; }
+
+.name-nav img {
+  vertical-align: middle; }
+.name-nav li {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.8em;
+  line-height: 3em;
+  padding: 3px 10px;
+  vertical-align: middle; }
+.name-nav .thumb-photo {
+  height: 25px;
+  background: #fff;
+  border-radius: 3px; }
+
+.cover {
+  background-color: #fff;
+  background: url("../images/cover.png") no-repeat center center;
+  background-size: cover;
+  height: 300px; }
+  .cover .profile-photo {
+    padding: 3px;
+    margin: 15px;
+    position: relative;
+    top: 140px; }
+  .cover .cover-nav {
+    position: relative;
+    top: 260px; }
+  .cover .cover-text {
+    display: inline-block;
+    color: #fff;
+    font-size: 1.7em;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.8); }
+  .cover .cover-button {
+    font-size: 0.8em;
+    font-weight: 700;
+    color: #333;
+    margin-right: 12px;
+    padding: 4px 10px; }
+
+.page-tabs {
+  margin-left: 200px; }
+  .page-tabs li {
+    display: inline-block;
+    border-left: 1px solid #d3d6db;
+    padding: 0 17px;
+    line-height: 3em;
+    margin: 0; }
+  .page-tabs a:last-child li {
+    border-right: 1px solid #d3d6db; }
+  .page-tabs a:hover li {
+    background-color: #f6f7f9; }
+
+.module, .cover .cover-button {
+  border: 1px solid #d3d6db;
+  border-radius: 3px;
+  background-color: #fff;
+  margin-bottom: 30px; }
+
+.overview {
+  width: 242px; }
+  .overview li {
+    color: #90949c;
+    padding: 0 16px;
+    margin: 16px 0;
+    line-height: 1.5em; }
+    .overview li:hover {
+      color: #000; }
+
+.content {
+  padding: 16px;
+  width: 607px;
+  border-left: 1px solid #d3d6db; }
+  .content li {
+    padding-bottom: 20px;
+    margin-bottom: 12px;
+    color: #4080ff;
+    font-size: 1.1em;
+    vertical-align: middle; }
+
+.plus {
+  line-height: 0.6em;
+  border: 1px dashed #4080ff;
+  font-size: 1.6em;
+  display: inline-block;
+  padding: 8px;
+  margin-right: 12px; }
+
+/* forms */
+#email, #password {
+  width: 142px;
+  margin-right: 0.8em; }
+
+#sign-up input {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #bdc7d8;
+  padding: 8px 10px;
+  font-size: 1.2em; }
+#sign-up select {
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #bdc7d8;
+  font-size: 0.8em; }
+#sign-up #fname, #sign-up #lname {
+  width: 184px; }
+#sign-up #fname {
+  margin-right: 9px; }
+#sign-up #mobile, #sign-up #mobile-verify, #sign-up #password {
+  width: 377px; }
+#sign-up .gender-select {
+  margin-top: 10px; }
+#sign-up #signup-submit {
+  width: 180px;
+  line-height: 1.2em;
+  font-weight: 700;
+  color: #fff;
+  margin: 20px 0;
+  border: 1px solid #2c5115;
+  background-color: #69a74e; }
+
+.search {
+  min-width: 400px;
+  color: #333;
+  font-size: 1em;
+  padding: 3px;
+  margin: 8px 20px;
+  border: 1px solid #bdc7d8;
+  border-radius: 3px; }
+
+/* state */
+.logged-out {
+  margin-top: 0.8em; }
+
+.intro {
+  padding-top: 42px;
+  padding-bottom: 24px; }
+
+.logged-in {
+  height: 90vh;
+  padding: 0; }
+
+.overview li:first-of-type {
+  color: #000;
+  font-weight: 700;
+  border-left: 3px solid #3B5998; }
+
+/*# sourceMappingURL=screen.css.map */

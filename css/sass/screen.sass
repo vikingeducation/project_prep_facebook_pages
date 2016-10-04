@@ -1,0 +1,287 @@
+@import '_reset'
+
+// Variables
+$blue-accent: #3B5998 // fb blue
+$dkbl-accent: #1d2a5b // dark blue shadow
+$ltbl-accent: #edf0f5 // light blue highlight
+$light-accent: #f6f7f9 // grey
+$form-outline: #bdc7d8 // light greyish-blue
+$module-outline: #d3d6db // light grey
+$white: #fff
+$grey: #333
+
+$a-color: #365899  // blue
+
+$b-font: 'Open Sans'
+$h-font: 'Montserrat'
+
+/* Base */
+*
+  box-sizing: border-box
+
+body
+  font-family: $b-font, sans-serif
+  font-size: 14px
+  line-height: 1.4em
+
+a
+  color: #365899
+
+header
+  background-color: $blue-accent
+  color: $white
+
+main
+  background-color: $ltbl-accent
+  padding: 40px
+
+h1
+  background-color: $light-accent
+  padding: 16px 16px 12px
+  font-size: 1.5em
+  font-weight: 700
+  color: $grey
+  border-bottom: 1px solid $module-outline
+
+h2
+  font-size: 2em
+  font-weight: 700
+
+h3
+  font-size: 2.4em
+  font-weight: 700
+  margin-bottom: 5px
+
+h4
+  font-size: 1.2em
+  margin-bottom: 20px
+
+h5
+  font-size: 1.1em
+  margin-top: 10px
+  margin-bottom: 5px
+
+/* Layout & Positioning */
+.float-left
+  float: left
+
+.float-right
+  float: right
+
+.clearfix:after
+  content: ""
+  display: table
+  clear: both
+
+.wrapper
+  @extend .clearfix
+  width: 980px
+  margin: 0 auto
+
+/* Module */
+.logo
+  font-family: $h-font, sans-serif
+  font-size: 2.4em
+  font-weight: 700
+  letter-spacing: -1px
+
+  a, a:hover, a:visited
+    color: $white
+    text-decoration: none
+
+.login
+  margin: 1.4em 0
+
+  label
+    display: block
+    margin-bottom: 0.3em
+
+  input
+    border: 1px solid $dkbl-accent
+    padding: 3px
+
+.left-module
+  @extend .float-left
+  margin-right: 16px
+  width: 565px
+
+  li
+    margin-top: 30px
+    padding-bottom: 20px
+
+    span
+      font-weight: 700
+
+.right-module
+  @extend .float-right
+
+.name-nav
+  img
+    vertical-align: middle
+
+  li
+    display: inline-block
+    font-weight: 700
+    font-size: 0.8em
+    line-height: 3em
+    padding: 3px 10px
+    vertical-align: middle
+
+  .thumb-photo
+    height: 25px
+    background: $white
+    border-radius: 3px
+
+.cover
+  background-color: $white
+  background: url("../images/cover.png") no-repeat center center
+  background-size: cover
+  height: 300px
+
+  .profile-photo
+    padding: 3px
+    margin: 15px
+    position: relative
+    top: 140px
+
+  .cover-nav
+    position: relative
+    top: 260px
+
+  .cover-text
+    display: inline-block
+    color: $white
+    font-size: 1.7em
+    text-shadow: 0 0 3px rgba(0,0,0,0.8)
+
+  .cover-button
+    @extend .module
+    font-size: 0.8em
+    font-weight: 700
+    color: $grey
+    margin-right: 12px
+    padding: 4px 10px
+
+.page-tabs
+  margin-left: 200px
+
+  li
+    display: inline-block
+    border-left: 1px solid $module-outline
+    padding: 0 17px
+    line-height: 3em
+    margin: 0
+
+  a
+    &:last-child li
+      border-right: 1px solid $module-outline
+
+    &:hover li
+      background-color: $light-accent
+
+.module
+  border: 1px solid $module-outline
+  border-radius: 3px
+  background-color: $white
+  margin-bottom: 30px
+
+.overview
+  width: 242px
+
+  li
+    color: #90949c
+    padding: 0 16px
+    margin: 16px 0
+    line-height: 1.5em
+
+    &:hover
+      color: #000
+
+.content
+  padding: 16px
+  width: 607px
+  border-left: 1px solid $module-outline
+
+  li
+    padding-bottom: 20px
+    margin-bottom: 12px
+    color: #4080ff
+    font-size: 1.1em
+    vertical-align: middle
+
+.plus
+  line-height: 0.6em
+  border: 1px dashed #4080ff
+  font-size: 1.6em
+  display: inline-block
+  padding: 8px
+  margin-right: 12px
+
+/* forms */
+#email, #password
+  width: 142px
+  margin-right: 0.8em
+
+#sign-up
+  @extend .clearfix
+
+  input
+    margin-bottom: 10px
+    border-radius: 5px
+    border: 1px solid $form-outline
+    padding: 8px 10px
+    font-size: 1.2em
+
+  select
+    height: 30px
+    padding: 5px
+    border: 1px solid $form-outline
+    font-size: 0.8em
+
+  #fname, #lname
+    @extend .float-left
+    width: 184px
+
+  #fname
+    margin-right: 9px
+
+  #mobile, #mobile-verify, #password
+    width: 377px
+
+  .gender-select
+    margin-top: 10px
+
+  #signup-submit
+    width: 180px
+    line-height: 1.2em
+    font-weight: 700
+    color: #fff
+    margin: 20px 0
+    border: 1px solid #2c5115
+    background-color: #69a74e
+
+.search
+  min-width: 400px
+  color: $grey
+  font-size: 1em
+  padding: 3px
+  margin: 8px 20px
+  border: 1px solid $form-outline
+  border-radius: 3px
+
+/* state */
+.logged-out
+  margin-top: 0.8em
+
+.intro
+  padding-top: 42px
+  padding-bottom: 24px
+
+.logged-in
+  height: 90vh
+  padding: 0
+
+.overview li:first-of-type
+  color: #000
+  font-weight: 700
+  border-left: 3px solid $blue-accent
