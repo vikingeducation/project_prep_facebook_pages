@@ -7,25 +7,116 @@
 		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans">
 	</head>
 
-	<header>
-	<div class="fbbanner">
-		<h1>Facebook</h1>
-	</div>
-	<div class="banner-fld">
-		<p>Email</p>
-		<input type="email" name="email">
-	</div>
-	</div>
-	<div class="banner-fld">
-		<p>Password</p>
-		<input type="password" name="password">
-	</div>
-	<div class="login-btn">
-		<button type="submit">Login</button>
-	</div>
+	<header><!--
+	 --><div class="fbbanner">
+			<h1>Facebook</h1>
+		</div><!--
+
+	--><div class="banner-fld">
+			<p>Email</p>
+			<input type="email" name="email">
+		</div><!--
 		
-	</header>
+	 --><div class="banner-fld">
+			<p>Password</p>
+			<input type="password" name="password">
+		</div><!--
+
+	 --><div class="login-btn">
+			<button type="submit">Log in</button>
+		</div><!--
+--></header>
 	<body>
+		<div class="intro">
+			<h2>Connect with all your friends<h2>
+			<ul>
+				<li><b>See photos and updates</b> in your news feed.</li>
+				<li><b>Post your status for the world to see</b> from your profile.</li>
+				<li><b>Get in touch with your friends</b> by "friending" them.</li>
+				<li><b>Like things</b> because you're a positive person!</li>
+			</ul>
+		</div>
+		<div class="signup-form">
+			<h1>Sign Up</h1>
+			<div>
+				<input type="text" class="name" name="first name" placeholder="First Name">
+				<input type="text" class="name" name="last name" placeholder="Last Name">
+				<input type="email" name="email" placeholder="Your Email">
+				<input type="password" name="password" placeholder="Your New Password">
+				<input type="password" name="password" placeholder="Confirm Your Password">
+			</div>
+			<div class="birthday">
+				<h3>Birthday</h3>
+				<form>
+					<select name="month">
+						<option value="" disabled selected hidden>Month</option>
+						<option value="january">January</option>
+						<option value="february">February</option>
+						<option value="march">March</option>
+						<option value="april">April</option>
+						<option value="may">May</option>
+						<option value="june">June</option>
+						<option value="july">July</option>
+						<option value="august">August</option>
+						<option value="september">September</option>
+						<option value="october">October</option>
+						<option value="november">November</option>
+						<option value="december">December</option>
+					</select>
+					<select name="day">
+						<option value="" diabled selected hidden>Day</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+						<option value="24">24</option>
+						<option value="25">25</option>
+						<option value="26">26</option>
+						<option value="27">27</option>
+						<option value="28">28</option>
+						<option value="29">29</option>
+						<option value="30">30</option>
+						<option value="31">31</option>
+					</select>
+					<select id="year" name="year">
+					<option value="" diabled selected hidden>Year</option>
+					  <script>
+
+					  var myDate = new Date();
+					  var year = myDate.getFullYear();
+					  for(var i = 1900; i < year+1; i++){
+						  document.write('<option value="'+i+'">'+i+'</option>');
+					  }
+					  </script>	
+					  <br>
+					  <input type="radio" name="gender" value="Male"> Male
+					  <input type="radio" name="gender" value="Female"> Female
+				
+				</form>
+			</div>
+			<div class="signup-btn">
+				<button type="submit">Sign up!</button>
+			</div>
+		</div>
 
 	</body>
 </html>
