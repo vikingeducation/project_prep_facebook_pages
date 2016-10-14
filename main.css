@@ -618,6 +618,16 @@ header a,header a:hover {
     margin-left:-8px;
     margin-right:-8px;
   }
+
+  header > .container > .services,
+  header > .container > .services * {
+    -webkit-transition: all 250ms linear;
+    -moz-transition: all 250ms linear;
+    -ms-transition: all 250ms linear;
+    -o-transition: all 250ms linear;
+    transition: all 250ms linear;
+  }
+
   header > .container > .services {
     position: absolute;
     top:0;
@@ -629,40 +639,43 @@ header a,header a:hover {
     background:rgba(43,120,228,0);
     width:100%;
     padding:.25em 1em;
-    -webkit-transition: all 250ms linear;
-    -moz-transition: all 250ms linear;
-    -ms-transition: all 250ms linear;
-    -o-transition: all 250ms linear;
-    transition: all 250ms linear;
   }
-  header > .container > .services *{
+
+  header > .container > .services * {
     background: initial;
     background:rgba(43,120,228,0);
   }
+
   .nav-trigger:checked ~ header > .container > .services{
     top:49px;
     z-index:100;
     background:rgba(43,120,228,100);
   }
+
   .nav-trigger:checked ~ header > .container > .services input {
     background: #fff;
   }
+
   .nav-trigger:checked ~ header > .container > .services .signup {
     background: #9fc5f8;
     background: -webkit-linear-gradient(top, #9fc5f8, #a3c1e5);
     background: linear-gradient(top, #9fc5f8, #a3c1e5);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#9fc5f8,endColorstr=#a3c1e5,GradientType=0);
   }
+
   .large .nav-trigger:checked ~ header > .container > .services{
     top:82px;
   }
+
   .nav-trigger:checked ~ .content {
     margin-top: 40px;
     padding-top:0;
   }
+
   .services a{
     float:right;
   }
+  
   .services input {
     flex:1;
   }
