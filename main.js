@@ -69,7 +69,8 @@ function min_height() {
     html = document.documentElement;
   var tallest_height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
   var shortest_height = Math.min(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
-  if (tallest_height !== shortest_height) tallest_height += 11
+  if (tallest_height !== shortest_height) 
+    tallest_height += 48
   body = document.getElementById("body");
   body.style.height = tallest_height + "px";
 }
