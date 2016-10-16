@@ -468,6 +468,17 @@ header .logo,header .quick_access {
   display: inline-block;
 }
 
+header .quick_access.flex {
+  display: inline-flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  font-size: 16px;
+}
+
+.quick_access.flex input {
+  flex: 1;
+}
+
 header .logo img {
   height: 2em;
   width: auto;
