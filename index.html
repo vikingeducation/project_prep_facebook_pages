@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="">
+  <title>Fakebook</title>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="main.css" rel="stylesheet" type="text/css">
+</head>
+<body class="large" id="body">
+  <header id="header">
+    <div class="container">
+      <div class="row">
+        <div class="quarter cell logo"><img alt="Fakebook" src="https://www.facebook.com/images/fb_icon_325x325.png"></div>
+        <div class="quick_access three_quarters flex">
+        <form action="newsfeed.html">
+          <input placeholder="Username" type="text">
+          <input placeholder="Password" type="text">
+          <button class="info" type="submit">Sign In</button>
+        </form>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="content container">
+    <div class="row hidden show_sm">
+      <div class="col cell third sm_align_half md_align_two_thirds">
+        <h1>Sign Up</h1>
+      </div>
+    </div>
+    <div class="row">
+      <section class="col sm_half md_two_thirds cell">
+        <h2>Connect with all your friends!</h2>
+        <ul class="styled">
+          <li><b>See photos and updates</b> in your news feed</li>
+          <li><b>Post your status for the world to see</b> from your profile</li>
+          <li><b>Get in touch with your friends</b> by "friending" them</li>
+          <li><b>Like things</b> because you like to click stuff!</li>
+        </ul>
+      </section>
+      <section class="col sm_half md_third row form">
+        <div class="col cell hidden_sm">
+          <h1>Sign Up</h1>
+        </div>
+        <div class="col cell sm_half">
+          <input name="first" placeholder="First Name" type="text">
+        </div>
+        <div class="col cell sm_half">
+          <input name="first" placeholder="Last Name" type="text">
+        </div>
+        <div class="col cell">
+          <input name="email" placeholder="your@email_address.com" type="email">
+        </div>
+        <div class="col cell">
+          <input name="password" placeholder="New Password" type="password">
+        </div>
+        <div class="col cell">
+          <input name="password_repeat" placeholder="Confirm New Password" type="password">
+        </div>
+        <div class="col cell">
+          <label>Birthday</label>
+        </div>
+        <div class="col cell sm_half md_third">
+          <select name="day">
+            <option class="unselectable" value="--">
+              --Day--
+            </option>
+            <option value="1">
+              1st
+            </option>
+            <option value="2">
+              2nd
+            </option>
+            <option value="...">
+              ...
+            </option>
+            <option value="31">
+              31st
+            </option>
+          </select>
+        </div>
+        <div class="col cell sm_half md_third">
+          <select name="month">
+            <option class="unselectable" value="--">
+              --Month--
+            </option>
+            <option value="1">
+              January
+            </option>
+            <option value="2">
+              February
+            </option>
+            <option value="3">
+              March
+            </option>
+            <option value="4">
+              April
+            </option>
+            <option value="5">
+              May
+            </option>
+            <option value="6">
+              June
+            </option>
+            <option value="7">
+              July
+            </option>
+            <option value="8">
+              August
+            </option>
+            <option value="9">
+              September
+            </option>
+            <option value="10">
+              October
+            </option>
+            <option value="11">
+              November
+            </option>
+            <option value="12">
+              December
+            </option>
+          </select>
+        </div>
+        <div class="col cell md_third">
+          <select name="year">
+            <option class="unselectable" value="--">
+              --Year--
+            </option>
+            <option value="1901">
+              1901
+            </option>
+            <option value="1902">
+              1902
+            </option>
+            <option value="...">
+              ...
+            </option>
+            <option value="2016">
+              2016
+            </option>
+          </select>
+        </div>
+        <div class="col cell half md_third radio">
+          <input id="male" name="gender" type="radio" value="m"> <label for="male">Male</label>
+          <div class="check"></div>
+        </div>
+        <div class="col cell half md_third radio">
+          <input id="female" name="gender" type="radio" value="f"> <label for="female">Female</label>
+          <div class="check"></div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="main.js">
+  </script>
+</body>
+</html>
