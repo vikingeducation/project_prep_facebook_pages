@@ -57,9 +57,7 @@ html{
 	height: 100%;
   
 }
-header{
-	border:1px solid black;
-}
+
 body {min-width: 1000px;
 	
 	font-family: Arial, Helvetica;
@@ -89,7 +87,7 @@ header{
 .fbbanner{
 	width:60%;
 	display: inline-block;
-	border: 1px solid;
+	
 	height: 100px;
 	border-right: hidden;
 	
@@ -111,8 +109,7 @@ margin-left: -25px;
 
 
 width: 15%;
-border-top:1px solid black;
-border-bottom: 1px solid black;
+
 color:white;
 padding-top: 20px;
 }
@@ -127,8 +124,7 @@ margin-left: -25px;
 
 
 width: 15%;
-border-top:1px solid black;
-border-bottom: 1px solid black;
+
 color:white;
 padding-top: 20px;
 }
@@ -170,9 +166,7 @@ margin-left: 53px;
 display: inline-block;
 width: 60px;
 line-height: 100px;
-border-top:1px solid black;
-border-bottom:1px solid black;
-border-left: hidden;
+
 }
 
 .login-btn button{
