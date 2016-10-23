@@ -1,0 +1,302 @@
+.global {
+	background-color: #3B5998; 
+	color: #FFFFFF;
+	border-style: solid; 
+	border-color: black;
+	border-width: .1rem;
+    font-family: Futura,"Trebuchet MS",Arial,sans-serif; 
+    padding-top: 1rem; 
+	padding-left: 1rem; 
+	padding-bottom: .8rem;
+}
+
+.global h1{
+	font-size: 2rem; 
+	font-weight: bold; 
+	display: inline-block;
+	 margin-left: .3rem;
+}
+
+.global form{ 
+	display: inline-block;
+	position: absolute; 
+	right: .5rem;
+	top: 1rem;
+ }
+
+.global form input{
+ 	padding-left: .3rem;
+ }
+
+.global form div{
+ 	display: inline-block; 
+ }
+
+ .global label{ 
+ 	display: block; 
+ 	font-size: .7rem;
+ 	margin-bottom: .1rem; 
+ }
+
+.siteSearch{ 
+	width:50%;
+	margin-left: 8rem;
+	font-weight:lighter;
+	color: grey;
+ }
+
+.userMenu{
+margin-left: 11rem; 
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+ #main #description, #main #signup{
+ 	display: inline-block;
+    font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+ }
+
+ #description{
+ 	margin-top:8rem; 
+ 	margin-left:8rem;
+ 	margin-right:4rem;
+ 	width: 36rem;
+ 	vertical-align: top; 
+ }
+
+ #description h2{
+ 	font-size: 2rem; 
+ 	font-weight: bold; 
+ }
+
+ #description ul{
+ 	padding-left: 3.5rem;
+ }
+
+#description li{
+	margin-top: 1.7rem; 
+	list-style-type: disc;
+}
+
+ #signup{
+ 	margin-top: 3rem; 
+ 	margin-bottom: 2rem; 
+ 	width: 27rem;
+ }
+
+#signup h3{
+	font-size: 2.5rem; 
+	padding-bottom: .8rem; 
+	font-weight: bold;
+}
+
+#signup div{
+	margin-top:.7rem; 
+}
+
+#signup textarea{
+	border-color: grey; 
+	border-style: solid;
+    color: #656161;
+    font-size: .9rem;
+    box-sizing: border-box;
+    height: 40px;
+    border-width: .3rem; 
+    border-radius: 5px
+}
+
+textarea.long{
+	width: 410px;
+}
+
+textarea.short{
+	width: 200px;
+}
+
+textarea:focus{
+	border-color:#000; 
+}
+#signup .bolded{ 
+	font-weight: bold; 
+	margin-top: .4rem; 
+	margin-bottom: 1rem; 
+	font-size: 1rem; 
+	display: block;
+}
+
+#signup .gender{
+	margin-bottom:.5rem;
+}
+
+#signup button{
+	width: 410px;
+	height: 40px;
+	background-color: green; 
+	border-color: black; 
+	border-width: .3rem;
+	color: white;
+	font-weight: bold; 
+}
+
+footer{
+	background-color: grey; 
+	color: grey;
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+}
+
+#upperContent{
+	width: 80%;
+    margin: 0 auto;
+}
+
+#marquee{
+	height: 300px;
+    width: 100%;
+    opacity: .7;
+    border-width: .2rem;
+    border-color: black;
+    border-style: solid;
+}
+
+#profilePic{
+	height: 165px;
+    width: 165px;
+    position: relative;
+    top: -190px;
+    left: 15px;
+    border-width: .2rem;
+    border-color: black;
+    border-style: solid;
+}
+
+.userName{
+	position: relative;
+    left: 230px;
+    top: -265px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 6px #787777;
+}
+
+#navbar{
+	/*border-bottom-color: black;
+    border-bottom-width: .2rem;
+    border-bottom-style: solid;
+    border-top-color: black;
+    border-top-width: .2rem;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-width: .2rem;
+    border-right-style: solid;*/
+     border-width: .2rem;
+    border-color: black;
+    border-style: solid;
+}
+
+#navbar ul{
+	list-style: none;
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: .2rem;
+    margin-left: 14rem;
+}
+#navbar li{
+	display:inline-block;
+}
+
+#navbar li.tab{
+	padding-left:1.5rem;
+	padding-right:1.5rem;
+	padding-top: .5rem;
+    padding-bottom: .5rem;
+	border-right-color: black;
+    border-right-width: .2rem;
+    border-right-style: solid;
+}
+
+#navbar li.editProfile{
+	padding-left: 20rem;
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
+
+#navbar span{
+	color:grey;
+}
+
+#lowerContent{
+	width: 80%; 
+	margin: 0 auto; 
+	border-width: .2rem;
+    border-color: black;
+    border-style: solid;
+}
+#lowerContent article{
+	margin-left:4rem;
+}
+
+#lowerContent header{
+	background-color: grey;
+	border-bottom-width: .2rem;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+}
+#lowerContent h2{
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    padding: .5rem;
+    font-size: 1.4rem;
+    margin-left: 33rem;
+}
+
+#lowerContent button{
+    background-color: blue;
+    color: white;
+    border-width: .1rem;
+    border-color: black;
+    border-style: solid;
+    margin-left: 25rem;
+}
+
+div.left, div.right{
+	display: inline-block;
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+#lowerContent h3{
+	font-size:1.2rem;
+	font-weight: bold;
+	margin-top: 1.5rem;
+}
+
+.pairs dl{
+	margin-left:1.5rem;
+	margin-top: .4rem; 
+}
+.pairs dt{
+	font-weight: Bold;
+    display: inline-block;
+    width: 8rem;
+}
+dt:after{
+	content:":";
+}
+.pairs dd{
+	display: inline-block;
+}
+
+
+
+
+
+
+
