@@ -256,15 +256,30 @@ Grid Title
 	background-color: lightgrey;
 
 }
+.prof-title-f{
+	width:920.63px;
+	height: 42px;
+	margin:0 auto;
+	margin-top: 15px;
+	border:1px solid black;
+	text-align:center;
+	background-color: lightgrey;
+
+}
+.prof-title-f h2{
+	
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 40px;
+	text-align: middle;
+	
+}
 .prof-title h2{
 	
 	display: inline-block;
 	vertical-align: middle;
 	line-height: 40px;
 	margin-left:405px;
-	
-	
-	
 }
 .prof-title button{
 	display: inline-block;
@@ -397,12 +412,28 @@ Prof Body
 	margin-bottom: 100px;
 	
 }
+.content-grid-f{
+	width: 920.63px;
+	height:700px;
+	margin: 0 auto;
+	border:1px solid black;
+	margin-bottom: 100px;
+	
+}
 .content-grid .grid1-2 {
 	width:45%;
 	height: 100%;
 	display: inline-block;
 	vertical-align: top;
-	
+}
+.grid1-2-f {
+	width:50%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 20px;
+
+   
 	
 }
 .content-grid .grid2-2 {
@@ -410,7 +441,19 @@ Prof Body
 	height: 100%;
 	display: inline-block;
 	vertical-align: top;
+}
+.grid2-2-f {
+	width:50%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+	border:1px solid;
+	background-color: grey;
+	padding:20px;
+ 
 	
+	
+
 }
 /*
 ================================
@@ -549,11 +592,7 @@ Body Content
 	padding-top: 20px;
 	padding-bottom: 15px;
 }
-.grid2-2 {
-	
-	display: none;
-
-}
+.
 .grid2-2 p{
 	padding-top: 20px;
 	margin-right: 50px;
@@ -561,7 +600,42 @@ Body Content
 .grid2-2 h2{
 	padding-top: 20px;
 }
+.friend-box{
+	display: inline-block;
+	padding:20px;
+	border:1px solid black;
+	height: 120px;
+	
+	width: 50
+   
+}
+.friend-box img{
+	margin: 10px;
+	vertical-align: middle;
+	padding-top:5px;
+	display: inline-block;
 
+}
+.friend-box-f{
+	
+	display: inline-block;
+	vertical-align: middle;
+	
+}
+.friend-box-f a{
+	text-decoration: underline;
+	color: black;
+}
+.friend-box button{
+	color:white;
+	background-color: grey;
+	box-shadow: 1px 1px 3px black;
+	border:1px solid black;
+	margin-left: 70px;
+	
+
+
+}
 
 
 
