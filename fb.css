@@ -53,7 +53,12 @@ html {
 Start of Rules after reset
 ===================*/
 html{
-	background: linear-gradient(#fcfcfc, #D4D9E9);
+	background: linear-gradient(#fcfcfc, #D4D9E9) fixed;
+	 -webkit-background-size: cover;
+ 	 -moz-background-size: cover;
+ 	 -o-background-size: cover;
+ 	 background-size: cover;
+ 	 background-repeat:no-repeat;
 	height: 100%;
  }
 
@@ -91,12 +96,13 @@ header{
 	height: 100px;
 }
  .main-header{
-	width:84%;
-	min-width: 900px;
+	
+	width: 920.63px;
 	height: 40px;
 	
 	margin: 0 auto;
 	display: table;
+	
 
 
 }
@@ -114,6 +120,7 @@ header{
 	display: inline-block;
 	position: relative;
 	bottom: 3px;
+	color: white;
 	
 
 }
@@ -149,7 +156,7 @@ border: 1px solid black;
 	width: 40px;
 	
 	height: 35px;
-	float: right;
+	margin-left: 14px;
 	line-height: 40px;
 	margin-top: 4px;
 	
@@ -158,7 +165,124 @@ border: 1px solid black;
 .main-header .username h3{
 	font-size: 18px;
 }
+.prof-banner{
+	
+	width: 920.63px;
+	margin: 0 auto;
+	height: 250px;
+	border: 1px solid black;
+	background-image: url("http://static2.hypable.com/wp-content/uploads/2014/09/Hogwarts-lake.png");
+	background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center 13%;
+}
+.prof-banner h2{
+	position: relative;
+	top:55px;
+	left: 180px;
+	color: white;
+}
+.prof-banner img{
+	position: relative;
+	top:120px;
+	left:13px;
+	border: 1px solid black;
+}
+/*
+================================
+Profile Nav
+================================
+*/
+.prof-nav{
+	
+	width: 920.63px;
+	height: 40px;
+	background-color: white;
+	margin: 0 auto;
+	padding-left: 180px;
+	border: 1px solid black;
 
+
+}
+.prof-nav li{
+	display: inline-block;
+	padding-right: 30px;
+	padding-left: 30px;
+	height: 40px;
+	border: 1px solid black;
+	border-right:none;
+	line-height: 40px;
+	text-decoration: none;
+	
+}
+.prof-nav .sndtolast{
+	border-right: 1px solid black;
+}
+.prof-nav a{
+	text-decoration: none;
+	color: black;
+}
+.prof-nav li:last-child{
+	border:none;
+	margin-left: 190px;
+	text-decoration: none;
+	color: blue;
+	margin-right: 0;
+	padding-right: 0;
+
+	
+}
+.prof-nav .edit-prof{
+	text-decoration: underline;
+	color: blue;
+	font-size: 12px;
+	line-height: 40px;
+}
+.prof-nav .edit-prof:hover{
+	color: black;
+}
+/*
+================================
+Grid Title
+================================
+*/
+.prof-title{
+	width:920.63px;
+	height: 42px;
+	margin:0 auto;
+	margin-top: 15px;
+	border:1px solid black;
+	text-align:center;
+	background-color: lightgrey;
+
+}
+.prof-title h2{
+	
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 40px;
+	margin-left:405px;
+	
+	
+	
+}
+.prof-title button{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left:315px; 
+	border:1px solid black;
+	color:white;
+	background-color: #4079DD;
+	box-shadow: 1px 1px 3px black;
+
+}
+.prof-title button:hover{
+	background-color: #244e96; 
+}
+
+
+	
+	
 
 /*
 ================================
@@ -260,7 +384,34 @@ Home page Header
 .login-btn button:hover{
 	background-color:#829fc9;
 }
-
+/*
+================================
+Prof Body
+================================
+*/
+.content-grid{
+	width: 920.63px;
+	height:400px;
+	margin: 0 auto;
+	border:1px solid black;
+	margin-bottom: 100px;
+	
+}
+.content-grid .grid1-2 {
+	width:45%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+	
+	
+}
+.content-grid .grid2-2 {
+	width:55%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: top;
+	
+}
 /*
 ================================
 Body
@@ -378,11 +529,38 @@ Body
 .signup-form button:hover{
 background:linear-gradient(#68cc3d, #4D9A30);
 }
+/*
+================================
+Body Content
+================================
+*/
+
+.grid1-2 table{
+	margin:0 auto;
+	text-align: left;
 
 
+}
+.grid1-2 tr td{
+	padding:13px;
+	text-align: left;
+}
+.grid1-2 th{
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+.grid2-2 {
+	
+	display: none;
 
-
-
+}
+.grid2-2 p{
+	padding-top: 20px;
+	margin-right: 50px;
+}
+.grid2-2 h2{
+	padding-top: 20px;
+}
 
 
 
