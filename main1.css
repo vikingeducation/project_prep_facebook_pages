@@ -1,0 +1,303 @@
+body {
+  font-family: "Helvetica-Neue", Arial, sans-serif;
+}
+
+
+/*
+==================
+GRID 
+==================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container,
+.grid {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.grid,
+.col-1-3,
+.col-2-3,
+.col-1-2 {
+  padding-left: 15px;
+  padding-rigth: 15px;
+}
+
+.col-1-3,
+.col-2-3,
+.col-1-2 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-1-3 {
+  width: 33.33%
+}
+
+.col-2-3 {
+  width: 66.66%;
+}
+
+.col-1-2 {
+  width: 49%
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+/*
+==================
+NAV BAR 
+==================
+*/
+
+.nav {
+  background-color: #3b5998;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 40px;
+}
+
+.nav h1,
+.nav h3 {
+  line-height: 60px;
+}
+
+.nav h1 {
+  display: inline-block;
+  font-size: 30px;
+  float: left;
+}
+
+.nav h3 {
+  font-size: 25px;
+  float: right;
+  margin-right: ;
+}
+
+.nav input {
+  height: 40px;
+  width: 500px;
+  padding-left: 5px;
+  font-size: 25px;
+  display: inline-block;
+  float: left;
+  margin: 30px 40px 0 70px;
+}
+
+.button-bar a {
+  text-decoration: none;
+  color: #6f7277;
+}
+
+/*
+==================
+HEADER
+==================
+*/
+
+.header {
+
+}
+
+.header-image {
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  position: relative;
+  border: 1px solid black;
+}
+
+.profile-pic {
+  height: 120px;
+  width: 120px;
+  background-color: gray;
+  position: absolute;
+  left: 20px;
+  top: 310px;
+}
+
+.header h3 {
+  position: absolute;
+  left: 150px;
+  top: 330px;
+  font-size: 24px;
+}
+
+.button-bar {
+  border: 1px solid #8d8d8e;
+  height: 52px;
+  width: 100%;
+  background-color: #fff;
+  padding-left: 150px;
+}
+
+.button-bar button {
+  border: .2px solid #8d8d8e;
+  font-size: 12px;
+  font-weight: 600;
+  height: 50px;
+  width: 100px;
+  margin: 0;
+  background-color: #fff;
+}
+
+/*
+==================
+ABOUT
+==================
+*/
+
+.about-header {
+  height: 40px;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 50px;
+  position: relative;
+  border: 1px solid #8d8d8e;
+}
+
+.about-header h2, 
+button {
+  display: inline-block;
+}
+
+.about-header h2 {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+}
+
+.about-header button {
+  border: .2px solid #8d8d8e;
+  font-size: 12px;
+  font-weight: 300;
+  height: 27px;
+  width: 120px;
+  float: right;
+  margin: 5px 10px 0 0;
+  background-color: #3b5998;
+  color: white;
+}
+
+.about-content {
+  border: 1px solid #8d8d8e;
+  padding: 30px;
+}
+
+.about-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/*
+==================
+FRIENDS
+==================
+*/
+
+.friends-header {
+  text-align: center;
+  height: 40px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #8d8d8e;
+  margin-top: 50px;
+  position: relative;
+}
+
+.friends-header h2 {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  text-align: center;
+}
+
+.friends-content,
+.friend {
+  border: 1px solid #8d8d8e;
+}
+
+.friends-content {
+  padding: 10px;
+}
+
+.friend {
+  margin: 10px 5px 5px 5px;
+  padding: 20px;
+  height: 120px;
+  position: relative;
+}
+
+.friend-image {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  float: left;
+  margin-right: 20px;
+}
+
+.friend-name {
+  position: absolute;
+}
+
+.friend h2, h5, button {
+  display: inline-block;
+}
+
+.friend h2, a {
+  font-size: 14px;
+  color: #648bc9;
+}
+
+.friend h2 {
+  position: absolute;
+  left: 120px;
+}
+
+.friend h5 {
+  position: absolute;
+  top: 30px;
+  color: #c1c1c1;
+  font-weight: 400;
+}
+
+.friend button {
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  border: 1px solid #8d8d8e;
+  background-color: #e3e5e8;
+  box-shadow: 3px 3px 0 #888;
+}
