@@ -175,6 +175,7 @@ border: 1px solid black;
 	background-size:     cover;                      
     background-repeat:   no-repeat;
     background-position: center 13%;
+    border-top: none;
 }
 .prof-banner h2{
 	position: relative;
@@ -201,6 +202,7 @@ Profile Nav
 	margin: 0 auto;
 	padding-left: 180px;
 	border: 1px solid black;
+	border-top: none;
 
 
 }
@@ -209,8 +211,7 @@ Profile Nav
 	padding-right: 30px;
 	padding-left: 30px;
 	height: 40px;
-	border: 1px solid black;
-	border-right:none;
+	border-left:1px solid black;
 	line-height: 40px;
 	text-decoration: none;
 	
@@ -410,17 +411,19 @@ Prof Body
 	margin: 0 auto;
 	border:1px solid black;
 	margin-bottom: 100px;
-	
+	border-top:none;
 }
 .content-grid-f{
 	width: 920.63px;
-	height:700px;
+	height:500px;
 	margin: 0 auto;
 	border:1px solid black;
 	margin-bottom: 100px;
+	font-size: 0;
+	border-top:none;
 	
 }
-.content-grid .grid1-2 {
+ .grid1-2 {
 	width:45%;
 	height: 100%;
 	display: inline-block;
@@ -432,6 +435,8 @@ Prof Body
 	display: inline-block;
 	vertical-align: top;
 	padding: 20px;
+	box-sizing: border-box;
+	font-size: 16px;
 
    
 	
@@ -447,14 +452,11 @@ Prof Body
 	height: 100%;
 	display: inline-block;
 	vertical-align: top;
-	border:1px solid;
-	background-color: grey;
+	box-sizing: border-box;
+	
 	padding:20px;
- 
-	
-	
-
-}
+	font-size: 16px;
+  }
 /*
 ================================
 Body
@@ -591,6 +593,7 @@ Body Content
 .grid1-2 th{
 	padding-top: 20px;
 	padding-bottom: 15px;
+	text-align: center;
 }
 .
 .grid2-2 p{
@@ -602,11 +605,14 @@ Body Content
 }
 .friend-box{
 	display: inline-block;
-	padding:20px;
+	margin-bottom: 20px;
 	border:1px solid black;
 	height: 120px;
 	
-	width: 50
+	width: 100%;
+
+
+
    
 }
 .friend-box img{
@@ -614,7 +620,7 @@ Body Content
 	vertical-align: middle;
 	padding-top:5px;
 	display: inline-block;
-
+	
 }
 .friend-box-f{
 	
@@ -624,22 +630,88 @@ Body Content
 }
 .friend-box-f a{
 	text-decoration: underline;
-	color: black;
+	color: blue;
 }
 .friend-box button{
 	color:white;
 	background-color: grey;
 	box-shadow: 1px 1px 3px black;
 	border:1px solid black;
-	margin-left: 70px;
-	
+	margin-left: 50px;
+}
+.friend-box button:hover{
+	background-color: #606163;
+}
+
+/*
+================================
+Newsfeed Divs
+================================
+*/
+.content-container{
+min-width: 1245.63px;
+width: 100%;
+text-align: center;
 
 
 }
+.sidebar{
+border:1px solid black;
+height: 900px;
+width: 325px;
+display: inline;
+float:left;
+border-top:none;
+
+}
+.newsfeed{
+	display: inline-block;
+	height: 900px;
+	text-align: middle;
+	width: 920.63px;
+	margin-left: -2px;
+	border: 1px solid black;
+	border-top:none;
+	
 
 
+	
+	
+	text-align: center; 
 
+}
+/*
+================================
+Sidebar
+================================
+*/.prof-logo{
+	display: inline-block;
+	border:1px solid black;
+	width: 90%;
+	height: 200px;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	text-align: middle;
 
+}
+.prof-logo img{
+	vertical-align: middle;
+	
+}
+.prof-logo h3{
+	font-size: 1em;
+	
+
+}
+.prof-logo a{
+
+}
+.helper{
+	display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
 
 
 
