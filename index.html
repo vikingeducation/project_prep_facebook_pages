@@ -41,11 +41,12 @@
     <form>
       <input type="text" name="fname" placeholder="First Name">
       <input type="text" name="lname" placeholder="Last Name">
-      <input type="text" name="new-email" placeholder="Your Email">
-      <input type="text" name="new-password" placeholder="Your New Password">
-      <input type="text" name="confirm-password" placeholder="Confirm Your Password">
+      <input id="full-width-input" type="text" name="new-email" placeholder="Your Email">
+      <input id="full-width-input" type="text" name="new-password" placeholder="Your New Password">
+      <input id="full-width-input" type="text" name="confirm-password" placeholder="Confirm Your Password">
     </form>
-    <select name="Month">
+    <h3>Birthday</h3>
+    <select id="birthday-select" name="Month">
       <option value="January">January</option>
       <option value="February">February</option>
       <option value="March">March</option>
@@ -59,7 +60,7 @@
       <option value="November">November</option>
       <option value="December">December</option>
     </select> 
-    <select name="Day">
+    <select id="birthday-select" name="Day">
       <option value="1">1</option>
       <option value="2">2</option>
       <option value="3">3</option>
@@ -92,7 +93,7 @@
       <option value="30">30</option>
       <option value="31">31</option>
     </select> 
-    <select name="Year">
+    <select id="birthday-select" name="Year">
       <option value="2016">2016</option>
       <option value="2015">2015</option>
       <option value="2014">2014</option>
@@ -143,9 +144,9 @@
       <option value="1969">1969</option>
       <option value="1968">1968</option>
     </select>
-    <form>
-      <input type="radio" name="gender" value="male" checked> Male
-      <input type="radio" name="gender" value="female"> Female
+    <form class="radio-buttons">
+      <div class="female-radio-button"><input type="radio" name="gender" value="male" checked><h3>Female</h3></div>
+      <input type="radio" name="gender" value="female"><h3>Male</h3>
     </form>
     <div class="signup-button"><a href="">Sign Up!</a></div>
   </div>

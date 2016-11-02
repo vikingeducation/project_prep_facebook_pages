@@ -72,8 +72,7 @@ body  {
 .information-container h3 {
   font-size: 24px;
   width: 400px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 40px;
   margin-top: 40px;
 }
 
@@ -91,4 +90,70 @@ body  {
 .signup-container {
   width: 40%;
   float: right;
+  padding-top: 15px;
 }
+
+.signup-container h2 {
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+.signup-container h3 {
+  padding-top: 15px;
+}
+
+.signup-container form {
+  padding-top: 15px;
+}
+
+.signup-container form input {
+  height: 15px;
+  margin: 8px 8px 8px 0px;
+  padding: 2px 2px 2px 5px;
+  border: 2px solid #ccc;
+}
+
+#full-width-input {
+  width: 273px;
+}
+
+#birthday-select {
+  height: 25px;
+  margin: 10px 10px 0px 0px;
+  padding: 2px 2px 2px 5px;
+  border: 2px solid #ccc;
+  background-color: #fff;
+}
+
+.radio-buttons {
+  margin-top: -10px;
+}
+
+.radio-buttons h3 {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-left: -5px;
+}
+
+.female-radio-button {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.signup-button {
+  width: 273px;
+  height: 30px;
+  background-color: green;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+  border: 2px solid #000;
+  margin-top: 10px;
+}
+
+.signup-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
