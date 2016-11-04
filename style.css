@@ -3,7 +3,7 @@ body  {
   font-family: Lucida, Tahoma, Helvetica
 }
 
-/*NAVBAR*/
+/*HOMEPAGE NAVBAR*/
 
 .navbar-container {
   width: 100%;
@@ -60,6 +60,42 @@ body  {
   margin-left: 15px;
   box-shadow: 2px 2px #000;
 }
+
+/*ABOUT NAVBAR*/
+
+.about-navbar-container {
+  width: 100%;
+  height: 30px;
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.about-navbar {
+  width: 80%;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.facelook-logo {
+  display: inline-block;
+  width: 100px;
+  float: left;
+}
+
+.about-navbar-container img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  float: left;
+  padding-top: 5px;
+}
+.about-navbar-container h1 {
+  line-height: 30px;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+
 
 /*INFORMATION CONTAINER*/
 
