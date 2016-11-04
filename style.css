@@ -95,6 +95,23 @@ body  {
   font-size: 15px;
 }
 
+.about-navbar input {
+  width: 50%;
+  line-height: 15px;
+  margin-top: 5px;
+  border: 1px solid #000;
+  padding-left: 5px;
+}
+
+.about-navbar h2 {
+  display: inline-block;
+  line-height: 30px;
+  vertical-align: middle;
+  float: right;
+  font-weight: lighter;
+  font-size: 14px;
+  margin-right: 5px;
+}
 
 
 /*INFORMATION CONTAINER*/
