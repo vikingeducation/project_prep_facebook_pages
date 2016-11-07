@@ -114,22 +114,111 @@ body  {
 }
 
 
+/*ABOUT BANNER*/
+
+.about-viewport {
+  width: 100%;
+  height: 30px;
+}
+
+.profile-banner-container {
+  width: 80%;
+  text-align: center;
+  margin: 0px auto;
+  position: relative;
+}
+
+.banner-image {
+  width: 100%;
+  height: 200px;
+}
+
+.default-profile-container {
+  /*float: left;*/
+  /*position: absolute;
+  top: 120px;
+  right: 425px;*/
+  /*margin-top: -85px;
+  margin-left: 5px;*/
+}
+
+.default-profile-container img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-top: -85px;
+  margin-left: 5px;
+  padding-right: 10px;
+}
+
+.default-profile-container h2 {
+  display: inline-block;
+  line-height: 100px;
+  vertical-align: 25%;
+  float: left;
+  position: absolute;
+  top: 135px;
+  right: 465px;
+}
+
+.profile-navbar {
+  width: 80%;
+  height: 30px;
+  text-align: center;
+  margin: -1px auto 0px auto;
+  border: 1px solid #000;
+}
+
+.profile-navbar ul li {
+  float: left;
+  line-height: 30px;
+  vertical-align: middle;
+  width: 10%px;
+  font-size: 10px;
+  font-weight: lighter;
+  padding: 0px 10px;
+  border-left: 1px solid #000;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.profile-navbar ul li:nth-child(4) {
+  border-right: 1px solid #000;
+}
+
+.profile-navbar ul li p {
+  font-size: 8px;
+  color: #ccc;
+  display: inline-block;
+  padding-left: 3px;
+  line-height: 25px;
+  vertical-align: middle;
+}
+
+.profile-navbar a {
+  float: right;
+  padding-right: 10px;
+  font-size: 12px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
 /*INFORMATION CONTAINER*/
 
-.information-container {
+.information-container, .contact-information-container {
   width: 60%;
   float: left;
   line-height: 40px;
 }
 
-.information-container h3 {
+.information-container h3, .contact-information-container h3 {
   font-size: 24px;
   width: 400px;
   margin-left: 40px;
   margin-top: 40px;
 }
 
-.information-container ul {
+.information-container ul, .contact-information-container ul {
   line-height: 45px;
   font-size: 14px;
   list-style-type: disc;
@@ -140,7 +229,7 @@ body  {
 
 /*SIGNUP CONTAINER*/
 
-.signup-container {
+.signup-container, .about-me-container {
   width: 40%;
   float: right;
   padding-top: 15px;
@@ -151,7 +240,7 @@ body  {
   font-weight: lighter;
 }
 
-.signup-container h3 {
+.signup-container h3, .about-me-container h3 {
   padding-top: 15px;
 }
 
