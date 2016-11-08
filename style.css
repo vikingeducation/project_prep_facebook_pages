@@ -198,8 +198,8 @@ body  {
 
 .about-profile-container {
   width: 80%;
-  height: 500px;
-  text-align: center;
+  height: 400px;
+  /*text-align: center;*/
   margin: 5px auto 0px auto;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
@@ -237,22 +237,63 @@ body  {
   box-shadow: 2px 2px #000;
 }
 
+
+/*ABOUT CONTACT INFORMAION*/
+
+.contact-information-container {
+  width: 50%;
+  float: left;
+  line-height: 40px;
+  /*text-align: center;*/
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.contact-information-container h3 {
+  font-size: 16px;
+  margin-right: 55%;
+  width: 170px;
+}
+
+#information-list-left {
+  list-style-type: none;
+  width: 100px;
+  float: left;
+  font-size: 12px;
+}
+
+#information-list-right {
+  list-style-type: none;
+  width: 200px;
+  font-size: 12px;
+  float: right;
+}
+
+#information-list-left li, #information-list-right li {
+  float: left;
+  width: 150px;
+}
+
+.bottom-list {
+  padding-top: 175px;
+}
+
 /*INFORMATION CONTAINER*/
 
-.information-container, .contact-information-container {
+.information-container {
   width: 60%;
   float: left;
   line-height: 40px;
 }
 
-.information-container h3, .contact-information-container h3 {
+.information-container h3 {
   font-size: 24px;
   width: 400px;
   margin-left: 40px;
   margin-top: 40px;
 }
 
-.information-container ul, .contact-information-container ul {
+.information-container ul {
   line-height: 45px;
   font-size: 14px;
   list-style-type: disc;
