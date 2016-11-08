@@ -117,32 +117,62 @@ body  {
 /*ABOUT BANNER*/
 
 .about-viewport {
-  width: 100%;
+  width: 695px;
   height: 30px;
+  text-align: center;
+  margin: 0px auto 0px auto;
 }
 
 .profile-banner-container {
-  width: 80%;
+  width: 695px;
   text-align: center;
   margin: 0px auto;
-  position: relative;
+  
 }
 
 .banner-image {
-  width: 100%;
+  width: 695px;
   height: 200px;
+  /*position: relative;*/
+  z-index: 1;
 }
 
-.default-profile-container img {
+/*.default-profile-container{
+  z-index: 2;
+}*/
+
+/*.default-profile-container img {
   float: left;
   width: 100px;
   height: 100px;
   margin-top: -85px;
   margin-left: 5px;
   padding-right: 10px;
+}*/
+
+.default-image {
+  width: 120px;
+  height: 100px;
+  float: left;
+  position: relative;
+  bottom: 85px;
+  left: 10px;
+  z-index: 2;
+  border: 1px solid #000;
 }
 
-.default-profile-container h2 {
+.profile-banner-container h2 {
+  display: inline-block;
+  line-height: 30px;
+  vertical-align: 25%;
+  float: left;
+  position: relative;
+  bottom: 35px;
+  left: 20px;
+  z-index: 2;
+}
+
+/*.default-profile-container h2 {
   display: inline-block;
   line-height: 100px;
   vertical-align: 25%;
@@ -150,10 +180,10 @@ body  {
   position: absolute;
   top: 135px;
   right: 465px;
-}
+}*/
 
 .profile-navbar {
-  width: 80%;
+  width: 695px;
   height: 30px;
   text-align: center;
   margin: -1px auto 0px auto;
@@ -197,17 +227,16 @@ body  {
 /*ABOUT PAGE INFORMATION*/
 
 .about-profile-container {
-  width: 80%;
+  width: 695px;
   height: 400px;
-  /*text-align: center;*/
-  margin: 5px auto 0px auto;
+  margin: 5px 0px 100px 0px;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
   border-bottom: 1px solid #000;
 }
 
 .about-profile-navbar {
-  width: 100%;
+  width: 695px;
   height: 30px;
   background-color: #eee;
   border-top: 1px solid #000;
@@ -241,41 +270,56 @@ body  {
 /*ABOUT CONTACT INFORMAION*/
 
 .contact-information-container {
+  display: inline-block;
   width: 50%;
   float: left;
-  line-height: 40px;
-  /*text-align: center;*/
-  margin-left: 40px;
-  margin-top: 15px;
+  margin-left: -100px;
+  line-height: 35px;
+  text-align: left;
+  margin-top: 30px;
 }
 
 .contact-information-container h3 {
-  font-size: 16px;
-  margin-right: 55%;
-  width: 170px;
+  font-size: 20px;
 }
 
 #information-list-left {
-  list-style-type: none;
-  width: 100px;
+  width: 40%;
   float: left;
-  font-size: 12px;
 }
 
 #information-list-right {
-  list-style-type: none;
-  width: 200px;
-  font-size: 12px;
-  float: right;
+  width: 40%;
+  float: right; 
+  padding-right: 40px;
 }
 
 #information-list-left li, #information-list-right li {
-  float: left;
-  width: 150px;
+  font-size: 12px;
 }
 
-.bottom-list {
-  padding-top: 175px;
+.bottom-list  h3 {
+  margin-top: 155px;
+}
+
+/*ABOUT ME CONTAINER*/
+
+.about-me-container {
+  width: 50%;
+  float: right;
+  margin-right: 40px;
+  text-align: left;
+}
+
+.about-me-container h3 {
+  font-size: 20px;
+}
+
+.about-me-container p {
+  width: 300px;
+  font-size: 12px;
+  margin-top: 10px;
+  line-height: 20px;
 }
 
 /*INFORMATION CONTAINER*/
