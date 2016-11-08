@@ -1,0 +1,420 @@
+
+body  {
+  font-family: Lucida, Tahoma, Helvetica
+}
+
+/*HOMEPAGE NAVBAR*/
+
+.navbar-container {
+  width: 100%;
+  height: 60px;
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.navbar-container h1 {
+  float: left;
+  line-height: 60px;
+  vertical-align: middle;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.navbar-container form {
+  float: right;
+  line-height: 60px;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+
+.email-input, .password-input, .login-button {
+  display: inline-block;
+  height: 60px;
+  vertical-align: middle;
+}
+
+.navbar-container label {
+  font-size: 12px;
+  position: relative;
+}
+
+.email-input {
+  margin-right: -35px;
+}
+
+.email-input label {
+  left: 38px;
+  bottom: 20px;
+}
+
+.password-input label {
+  left: 62px;
+  bottom: 20px;
+}
+
+.login-button button {
+  width: 60px;
+  background-color: #6d84b4;
+  border: 2px solid #000;
+  font-size: 12px;
+  margin-left: 15px;
+  box-shadow: 2px 2px #000;
+}
+
+/*ABOUT NAVBAR*/
+
+.about-navbar-container {
+  width: 100%;
+  height: 30px;
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.about-navbar {
+  width: 80%;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.facelook-logo {
+  display: inline-block;
+  width: 100px;
+  float: left;
+}
+
+.about-navbar-container img {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  float: left;
+  padding-top: 5px;
+}
+.about-navbar-container h1 {
+  line-height: 30px;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+.about-navbar input {
+  width: 50%;
+  line-height: 15px;
+  margin-top: 5px;
+  border: 1px solid #000;
+  padding-left: 5px;
+}
+
+.about-navbar h2 {
+  display: inline-block;
+  line-height: 30px;
+  vertical-align: middle;
+  float: right;
+  font-weight: lighter;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+
+/*ABOUT BANNER*/
+
+.about-viewport {
+  width: 695px;
+  height: 30px;
+  text-align: center;
+  margin: 0px auto 0px auto;
+}
+
+.profile-banner-container {
+  width: 695px;
+  text-align: center;
+  margin: 0px auto;
+  
+}
+
+.banner-image {
+  width: 695px;
+  height: 200px;
+  /*position: relative;*/
+  z-index: 1;
+}
+
+/*.default-profile-container{
+  z-index: 2;
+}*/
+
+/*.default-profile-container img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-top: -85px;
+  margin-left: 5px;
+  padding-right: 10px;
+}*/
+
+.default-image {
+  width: 120px;
+  height: 100px;
+  float: left;
+  position: relative;
+  bottom: 85px;
+  left: 10px;
+  z-index: 2;
+  border: 1px solid #000;
+}
+
+.profile-banner-container h2 {
+  display: inline-block;
+  line-height: 30px;
+  vertical-align: 25%;
+  float: left;
+  position: relative;
+  bottom: 35px;
+  left: 20px;
+  z-index: 2;
+}
+
+/*.default-profile-container h2 {
+  display: inline-block;
+  line-height: 100px;
+  vertical-align: 25%;
+  float: left;
+  position: absolute;
+  top: 135px;
+  right: 465px;
+}*/
+
+.profile-navbar {
+  width: 695px;
+  height: 30px;
+  text-align: center;
+  margin: -1px auto 0px auto;
+  border: 1px solid #000;
+}
+
+.profile-navbar ul li {
+  float: left;
+  line-height: 30px;
+  vertical-align: middle;
+  width: 10%px;
+  font-size: 10px;
+  font-weight: lighter;
+  padding: 0px 10px;
+  border-left: 1px solid #000;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.profile-navbar ul li:nth-child(4) {
+  border-right: 1px solid #000;
+}
+
+.profile-navbar ul li p {
+  font-size: 8px;
+  color: #ccc;
+  display: inline-block;
+  padding-left: 3px;
+  line-height: 25px;
+  vertical-align: middle;
+}
+
+.profile-navbar a {
+  float: right;
+  padding-right: 10px;
+  font-size: 12px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+/*ABOUT PAGE INFORMATION*/
+
+.about-profile-container {
+  width: 695px;
+  height: 400px;
+  margin: 5px 0px 100px 0px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.about-profile-navbar {
+  width: 695px;
+  height: 30px;
+  background-color: #eee;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.about-profile-navbar h2 {
+  width: 50px;
+  line-height: 30px;
+  vertical-align: middle;
+  margin: 0px auto;
+}
+
+.about-profile-navbar button {
+  display: inline;
+  width: 100px;
+  height: 15px;
+  line-height: 15px;
+  vertical-align: middle;
+  float: right;
+  margin: -25px 5px 0px 0px;
+  padding-bottom: 15px;
+  background-color: #3b5998;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  box-shadow: 2px 2px #000;
+}
+
+
+/*ABOUT CONTACT INFORMAION*/
+
+.contact-information-container {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  margin-left: -100px;
+  line-height: 35px;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.contact-information-container h3 {
+  font-size: 20px;
+}
+
+#information-list-left {
+  width: 40%;
+  float: left;
+}
+
+#information-list-right {
+  width: 40%;
+  float: right; 
+  padding-right: 40px;
+}
+
+#information-list-left li, #information-list-right li {
+  font-size: 12px;
+}
+
+.bottom-list  h3 {
+  margin-top: 155px;
+}
+
+/*ABOUT ME CONTAINER*/
+
+.about-me-container {
+  width: 50%;
+  float: right;
+  margin-right: 40px;
+  text-align: left;
+}
+
+.about-me-container h3 {
+  font-size: 20px;
+}
+
+.about-me-container p {
+  width: 300px;
+  font-size: 12px;
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+/*INFORMATION CONTAINER*/
+
+.information-container {
+  width: 60%;
+  float: left;
+  line-height: 40px;
+}
+
+.information-container h3 {
+  font-size: 24px;
+  width: 400px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.information-container ul {
+  line-height: 45px;
+  font-size: 14px;
+  list-style-type: disc;
+  padding-left: 90px;
+  padding-top: 12px;
+}
+
+
+/*SIGNUP CONTAINER*/
+
+.signup-container, .about-me-container {
+  width: 40%;
+  float: right;
+  padding-top: 15px;
+}
+
+.signup-container h2 {
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+.signup-container h3, .about-me-container h3 {
+  padding-top: 15px;
+}
+
+.signup-container form {
+  padding-top: 15px;
+}
+
+.signup-container form input {
+  height: 15px;
+  margin: 8px 8px 8px 0px;
+  padding: 2px 2px 2px 5px;
+  border: 2px solid #ccc;
+}
+
+#full-width-input {
+  width: 273px;
+}
+
+#birthday-select {
+  height: 25px;
+  margin: 10px 10px 0px 0px;
+  padding: 2px 2px 2px 5px;
+  border: 2px solid #ccc;
+  background-color: #fff;
+}
+
+.radio-buttons {
+  margin-top: -10px;
+}
+
+.radio-buttons h3 {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-left: -5px;
+}
+
+.female-radio-button {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.signup-button {
+  width: 273px;
+  height: 30px;
+  background-color: green;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+  border: 2px solid #000;
+  margin-top: 10px;
+}
+
+.signup-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
