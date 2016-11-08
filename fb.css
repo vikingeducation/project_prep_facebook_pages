@@ -667,9 +667,14 @@ display: inline-block;
 border-top:none;
 
 }
+.friend-link{
+	display: block;
+	text-align: center;
+	margin-top: 20px;
+}
 .newsfeed{
 	display: inline;
-	height: 1300px;
+	height: 100%;
 	text-align: middle;
 	width: 920.63px;
 	
@@ -679,6 +684,7 @@ border-top:none;
 	float: right;
 	padding: 100px;
 	padding-right: 200px;
+	border-bottom: none;
 	
 	}
 .new-post{
@@ -692,7 +698,7 @@ border-top:none;
 	border-bottom: 1px solid;
 	padding-top:5px;
 	padding-bottom: 5px;
-	background-color: lightgrey;
+	background-color: #d1d1d1;
 }
 .new-post input{
 	margin:5px;
@@ -700,6 +706,7 @@ border-top:none;
 	width: 96%;
 	padding-bottom: 40px;
 	border:1px solid black;
+	font-size: 15px;
 	
 }
  .button-box{
@@ -709,7 +716,7 @@ border-top:none;
 	text-align: right;
 	border-top: none;
 	line-height: 40px;
-	background-color: lightgrey;
+	background-color: #d1d1d1;
 	
 
 
@@ -720,10 +727,13 @@ border-top:none;
 	border:1px solid black;
 	color:white;
 	background-color: #4079DD;
-	margin-right: 50px;
+	margin-right: 15px;
 	vertical-align: middle;
 	box-shadow: 1px 1px 3px black;
 
+}
+.button-box button:hover{
+	background-color: #244e96; 
 }
 .post{
 	border:1px solid black;
@@ -758,19 +768,83 @@ border-top:none;
 	border-top: 1px solid black;
 	min-height: 27px;
 	
-	padding:-10px;
-	background-color: lightgrey;
+	padding: 10px;
+	background-color: #d1d1d1;
 	text-align: left;
 	border:1px solid black;
 	border-top: none;
-	padding:10px;
 
+	
 
+}
 
+.comment img{
+	display: inline-block;
+}
+#first-comment{
+	border-top: 1px solid grey;
+}
+ .comment{
+	
+	
+	margin-top: 15px;
+	padding-top: 15px;
+}
+.comment-p{
+	margin-top: 15px;
+	color: black;
+}
+.comment-box .text-sep{
+	display: inline-block;
+	
+	width:87%;
 }
 .comment-box a{
 	color: #3d75ba;
-	
+		
+}
+.comment-box .delete{
+	float: right;
+}
+#comment-note {
+	display: inline;
+	color: grey;
+}
+.comment .delete-btn{
+	float: right;
+}
+.comment-box .text-sep{
+	vertical-align: top;
+}
+.comment-area button{
+float: right;
+height:25px;
+width:70px;
+border:1px solid black;
+color:white;
+background-color: #4079DD;
+vertical-align: top;
+
+
+box-shadow: 1px 1px 3px black;
+}
+.comment-area button:hover{
+	background-color: #244e96; 
+}
+.comment-area input{
+	display: block;
+	width: 100%;
+	padding-bottom: 70px;
+	font-size: 15px;
+	margin-bottom: 15px;
+
+}
+.comment-area{
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
+.comment-area a{
+
 }
 /*
 ================================
