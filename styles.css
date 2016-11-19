@@ -21,9 +21,9 @@ body {
 
 .header table {
   display: inline-block;
-  width: 40%;
+  width: 35%;
   color: white;
-  margin-left: 350px;
+  margin-left: 400px;
 }
 
 .header table td {
@@ -46,4 +46,32 @@ input.textinput {
   width: 142px;
   font-size: 12px;
   display: inline-block;
+}
+
+.info {
+  display: inline-block;
+  width: 55%;
+  padding: 100px 70px;
+}
+.info h3 {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.info ul {
+  list-style-type: disc;
+  color: #737373;
+  font-size: 22px;
+  margin-left: 50px;
+}
+.info ul li {
+  padding: 15px;
+}
+.info ul li .strong {
+  font-weight: bold;
+}
+.form {
+  display: inline-block;
+  width: 45%;
 }
