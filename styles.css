@@ -1,0 +1,49 @@
+body {
+  font-family: Helvetica;
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #3B5998;
+  border-bottom: 1px solid #1d2a5b;
+}
+
+.header h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 40px;
+  width: 30%;
+  line-height: 80px;
+}
+
+.header table {
+  display: inline-block;
+  width: 40%;
+  color: white;
+  margin-left: 350px;
+}
+
+.header table td {
+  padding-right: 10px;
+  padding-top: 3px;
+}
+
+input.login {
+  width: 60px;
+  height: 24px;
+  background-color: #365899;
+  color: white;
+  font-weight: bold;
+  border: 1px solid #333;
+}
+
+input.textinput {
+  padding: 2px;
+  border: 1px solid #1d2a5b;
+  width: 142px;
+  font-size: 12px;
+  display: inline-block;
+}
