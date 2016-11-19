@@ -7,21 +7,23 @@
   </head>
 
   <body>
+   
     <div class="header">
-      <h1>Facelook</h1>
-      <table>
+      <h1>Facelook</h1><!--
+      --><table>
         <tr>
           <td><label for="email">Email</label></td>
           <td><label for="password">Password</label></td>
         </tr>
         <tr>
-          <td><input class="textinput" type="text" name="email"></td>
-          <td><input class="textinput" type="text" name="password"></td>
+          <td><input class="textinput" type="email" name="email"></td>
+          <td><input class="textinput" type="password" name="password"></td>
           <td><input class="login" type="submit" value="Log In"></td>
         </tr>
       </table>
     </div>
 
+    <div class="grid">
     <div class="info">
       <h3>Connect with all your friends!</h3>
         <ul>
@@ -33,8 +35,27 @@
     </div><!--
 
     --><div class="form">
-
+    <form>
+      <h2>Sign Up</h2>
+      <input class="textinput" type="text" placeholder="First Name">
+      <input class="textinput" type="text" placeholder="Last Name"><br>
+      <input class="textinput-large" type="text" placeholder="Your Email"><br>
+      <input class="textinput-large"type="text" placeholder="Your New Password"><br>
+      <input class="textinput-large"type="text" placeholder="Confirm Your New Password">
+      <div class="birthday">
+      <h6>Birthday</h6>
+      <input type="date"><br>
     </div>
+    <div class="birthday gender">
+      <input type="radio" name="gender" value="female">Female   
+      <input type="radio" name="gender" value="male">Male
+      </div>
+
+      <input class="textinput-large signup" type="submit" value="Sign Up!">
     
+    </form>
+    </div>
+  </div>
+   
   </body>
 </html>

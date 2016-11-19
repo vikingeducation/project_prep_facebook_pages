@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-  width: 100%;
+  min-width: 960px;
   height: 80px;
   background-color: #3B5998;
   border-bottom: 1px solid #1d2a5b;
@@ -13,21 +13,21 @@ body {
   color: white;
   font-size: 42px;
   font-weight: bold;
-  display: inline-block;
+  float: left;
   margin-left: 40px;
-  width: 30%;
+  
   line-height: 80px;
 }
 
 .header table {
-  display: inline-block;
-  width: 35%;
+  float: right;
   color: white;
-  margin-left: 400px;
+  margin-top: 10px;
+  margin-right: 65px;
 }
 
 .header table td {
-  padding-right: 10px;
+  padding-right: 15px;
   padding-top: 3px;
 }
 
@@ -41,37 +41,80 @@ input.login {
 }
 
 input.textinput {
-  padding: 2px;
+  padding: 4px;
   border: 1px solid #1d2a5b;
   width: 142px;
   font-size: 12px;
-  display: inline-block;
+  margin-right: 10px;
 }
 
 .info {
+  width: 54%;
   display: inline-block;
-  width: 55%;
-  padding: 100px 70px;
+  vertical-align: top;
 }
 .info h3 {
   font-size: 36px;
   font-weight: bold;
   letter-spacing: 1px;
   margin-bottom: 15px;
+  padding-top: 100px;
+  text-align: center;
 }
 .info ul {
   list-style-type: disc;
   color: #737373;
   font-size: 22px;
-  margin-left: 50px;
+  padding-left: 140px;
 }
 .info ul li {
-  padding: 15px;
+  padding-top: 20px;
 }
+
 .info ul li .strong {
   font-weight: bold;
 }
-.form {
+.grid {
+  width: 100%;
   display: inline-block;
-  width: 45%;
+}
+.form {
+  width: 44%;
+  display: inline-block;
+  text-align: center;
+}
+
+.form h2 {
+  font-size: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: left;
+  padding-left: 135px;
+}
+.form input {
+  padding: 5px;
+  margin: 8px 15px 8px 0;
+  border: 2px solid #CCCCCC;
+}
+.form .textinput-large {
+  width: 318px;
+}
+
+.form .birthday {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  padding-left: 130px;
+}
+.form .birthday.gender {
+  font-weight: normal;
+}
+
+.form input.signup {
+  background-color: #239E0F;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
