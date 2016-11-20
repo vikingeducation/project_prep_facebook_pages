@@ -2,31 +2,30 @@ body {
   font-family: Helvetica;
 }
 
-.header {
+.header-home {
   min-width: 1200px;
   height: 80px;
   background-color: #3B5998;
   border-bottom: 1px solid #1d2a5b;
 }
 
-.header h1 {
+.header-home h1 {
   color: white;
   font-size: 42px;
   font-weight: bold;
   float: left;
   margin-left: 40px;
-  
   line-height: 80px;
 }
 
-.header table {
+.header-home table {
   float: right;
   color: white;
   margin-top: 10px;
   margin-right: 65px;
 }
 
-.header table td {
+.header-home table td {
   padding-right: 15px;
   padding-top: 3px;
 }
@@ -118,8 +117,53 @@ input.textinput {
 }
 .grid:after {
   visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.header {
+  min-width: 1200px;
+  height: 45px;
+  background-color: #3B5998;
+  border-bottom: 1px solid #1d2a5b;
+  line-height: 45px;
+}
+.logo-group {
+  float: left;
+}
+.logo-group h2 {
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.logo-group img {
+  width: 30px;
+  height: 30px;
+  margin-left: 100px;
+  margin-top: 4px;
+  }
+
+.search-bar {
+  float: left;
+}
+.search-bar input {
+  width: 700px;
+  height: 18px;
+  margin-left: 60px;
+}
+.profile-name {
+  float: right;
+}
+.profile-name h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 100px;
+}
+
+
