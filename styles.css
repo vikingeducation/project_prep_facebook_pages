@@ -225,10 +225,10 @@ input.textinput {
 
 .main-container {
   width: 1200px;
-  height: 500px;
+  height: 750px;
   position: relative;
   top: 60px;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
   border: 2px solid #333;
 }
 .main-container .name-bar {
@@ -249,7 +249,6 @@ input.textinput {
   float: right;
   height: 31px;
   margin-top: 7px;
-  
   width: 180px;
   background-color: #3B5998;
   color: white;
@@ -284,4 +283,37 @@ input.textinput {
 .about-right p {
   line-height: 1.5;
 }
-
+.friend-box {
+  border: 2px solid black;
+  width: 525px;
+  height: 150px;
+  padding: 10px;
+  float: left;
+  margin: 20px;
+}
+.friend-box img {
+  width: 120px;
+  height: 120px;
+  margin: 17px;
+  float: left;
+  border: 1px solid #333;
+  padding: 2px;
+}
+.friend-box h6 {
+  float: left;
+  margin-top: 65px;
+  color: #bbb;
+  font-weight: bold;
+}
+.friend-box h6 a {
+  color: #5888b5;
+}
+.friend-box input {
+  width: 150px;
+  margin-left: 50px;
+  margin-top: 65px;
+  background-color: #DCDCDC;
+  border-radius: 2px;
+  height: 25px;
+  border: 2px solid #333;
+}
