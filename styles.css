@@ -126,7 +126,7 @@ input.textinput {
 
 .header {
   min-width: 1200px;
-  height: 45px;
+  height: 50px;
   background-color: #3B5998;
   border-bottom: 1px solid #1d2a5b;
   line-height: 45px;
@@ -166,4 +166,59 @@ input.textinput {
   margin-right: 100px;
 }
 
+.back-container {
+  width: 1200px;
+  height: 350px;
+  margin: 0 auto;
+  position: relative;
+}
 
+.back-container img {
+  height: 350px;
+  width: 100%;
+}
+.back-container img.profile-pic {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 20px;
+  top: 215px;
+  border: 1px solid black;
+}
+.back-container h4 {
+  position: absolute;
+  bottom: 8px;
+  left: 210px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.back-container .nav {
+  border: 2px solid #333;
+}
+.back-container li {
+  display: inline-block;
+  margin: 0;
+  border-left: 2px solid #333;
+  line-height: 45px;
+  width: 160px;
+  font-weight: bold;
+  text-align: center;
+}
+.back-container li:last-child {
+  text-align: right;
+  width: 300px;
+  padding-right: 30px;
+  
+}
+.back-container li:last-child a {
+  color: #5888b5;
+}
+.back-container ul {
+  margin-left: 210px;
+}
+.back-container .nav .grey {
+  color: #bbb;
+}
+.back-container .nav-active {
+  background-color: #EEEEEE;
+}
