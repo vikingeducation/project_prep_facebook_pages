@@ -327,7 +327,6 @@ input.textinput {
 .newsfeed-left {
   float: left;
   width: 350px;
-  border-right: 2px solid #333;
   margin-left: 30px;
 }
 .newsfeed-profile img {
@@ -381,15 +380,98 @@ input.textinput {
   font-size: 18px;
 }
 .newsfeed-right {
-  width: 850px;
-  height: 200px;
+  min-width: 750px;
   float: left;
-  margin-left: 20px;
-  border: 1px solid red;
+  padding-left: 30px;
+  border-left: 2px solid #333;
 }
 
 .newsfeed-right .post {
   width: 650px;
-  margin: auto;
-  border: 2px solid black;
+  margin: 40px auto;
+  border: 2px solid #333;
+}
+.post .post-header {
+  width: 650px;
+  border-bottom: 2px solid #333;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #f4efef;
+}
+.post textarea {
+  width: 620px;
+  margin: 10px;
+  border: 2px solid #333;
+  height: 60px;
+  vertical-align: top;
+  font-size: 14px;
+  line-height: 20px;
+}
+.post .post-footer {
+  width: 650px;
+  text-align: right;
+  background-color: #f4efef;
+  line-height: 2;
+  border-top: 2px solid #333;
+}
+.post-footer input {
+  font-weight: bold;
+  color: white;
+  background-color: #3B5998;
+  width: 80px;
+  height: 24px;
+  border: 1px solid #333;
+  margin-right: 25px;
+}
+.post .newsfeed-active {
+  margin: 20px 20px 0 20px;
+}
+.post p {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+.post .like-comment {
+  text-align: left;
+}
+.post .like-comment a {
+  font-weight: bold;
+  color: #5888b5;
+  margin-left: 20px;
+}
+
+.post-footer p {
+  line-height: 2;
+  margin-bottom: 0;
+}
+.post-footer .right-comment {
+  float: right;
+  margin-right: 10px;
+}
+.post .like-comment .no-left {
+  margin-left: 0;
+}
+.post .post-footer .newsfeed-active {
+  border-top: 2px solid #aaa;
+  padding-top: 7px;
+}
+.post .post-footer .newsfeed-active h6 {
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+.post .post-footer .newsfeed-active img {
+  margin-bottom: 70px;
+}
+.post-footer .comments-area {
+  line-height: 1.3;
+}
+.post-footer h6 {
+  color: #aaa;
+  display: inline;
+}
+.post-footer textarea {
+  height: 80px;
 }
