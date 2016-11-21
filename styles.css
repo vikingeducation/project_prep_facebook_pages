@@ -136,10 +136,14 @@ input.textinput {
   float: left;
 }
 .logo-group h2 {
-  color: white;
+  
   font-size: 26px;
   font-weight: bold;
   display: inline-block;
+}
+.logo-group h2 a {
+  color: white;
+  text-decoration: none;
 }
 
 .logo-group img {
