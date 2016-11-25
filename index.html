@@ -6,61 +6,83 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<div class="login-bar">
-			<img src="images/logo.png">
-			<form>
-				<label for="account-login">Email or phone</label>
-				<input type="text" id="account-login">
-				<label for="password">Password</label>
-				<input type="text" id="password">
-				<input type="submit" value="Log In">
-			</form>
-		</div>
-		<div class="main-container">
-			<div class="left">
-				<p>Facebook helps you connect and share with the people in your life.</p>
-				<img src="images/network.png">
-			</div>
-			<div class="right">
-				<h3>Create an account</h3>
-				<p>It's free and always will be.</p>
-				<form>
-					<input type="text" placeholder="First name">
-					<input type="text" placeholder="Surname">
-					<input type="text" placeholder="Mobile number or email address">
-					<input type="text" placeholder="Re-enter mobile number or email address">
-					<input type="text" placeholder="New password">
-					<label for="birthday">Birthday</label>
-					<select name="day">
-						<option value="0" selected="1">Day</option>
-						<option value="1">...</option>
-					</select>
-					<select name="month">
-						<option value="0" selected="1">Month</option>
-						<option value="January">...</option>
-					</select>
-					<select name="year">
-						<option value="0" selected="1">Year</option>
-						<option value="1979">...</option>
-					</select>
-					<a href="#">Why do I need to provide my date of birth?</a>
-					<input type="radio" name="sex" value="female">Female
-					<input type="radio" name="sex" value="male">Male
-				<p>By clicking Create an account, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>.</p>
-				<button class="cta-button">Create an account</button>
-				</form>
-				<p><a href="#">Create a Page</a> for a celebrity, band or business.</p>
-			</div>
-		</div>
-		<div class="footer">
-			<ul class="footer-links">
-				<li><a href="#">English (UK)</a></li><li><a href="#">中文(简体)</a></li><li><a href="#">Bahasa Indonesia</a></li><li><a href="#">日本語</a></li><li><a href="#">ภาษาไทย</a></li><li><a href="#">Tiếng Việt</a></li><li><a href="#">한국어</a></li><li><a href="#">Español</a></li><li><a href="#">Português (Brasil)</a></li><li><a href="#">Français (France)</a></li><li><a href="#">Deutsch</a></li>
-			</ul>
-			<ul class="footer-links">
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-		</div>
-	</body>
+		<div class="navbar login-bar">
+			<div class="inner-container">
+				<img src="images/logo.png" class="logo">
+				<form class="form-login">
+					<table>
+						<thead>
+							<tr>
+								<td><label for="account-login">Email or phone</label>
+							</td>
+							<td><label for="password">Password</label></td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><input type="text" id="account-login">
+						</td>
+						<td><input type="text" id="password"><br>
+					</td>
+					<td><button type="submit" value="Log In" class="cta-button">Log In</button></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><a href="#">Forgot account?</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</form>
+</div>
+</div>
+</div>
+<div class="main-container logged-out">
+	<div class="inner-container">
+	<div class="values-container">
+	<h2>Connect with all your friends!</h2>
+	</div>
+<div class="signup-container">
+	<h3>Create an account</h3>
+	<p>It's free and always will be.</p>
+<form>
+	<input type="text" placeholder="First name">
+	<input type="text" placeholder="Surname">
+	<input type="text" placeholder="Mobile number or email address">
+	<input type="text" placeholder="Re-enter mobile number or email address">
+	<input type="text" placeholder="New password">
+	<label for="birthday">Birthday</label>
+	<select name="day">
+		<option value="0" selected="1">Day</option>
+		<option value="1">...</option>
+	</select>
+	<select name="month">
+		<option value="0" selected="1">Month</option>
+		<option value="January">...</option>
+	</select>
+	<select name="year">
+		<option value="0" selected="1">Year</option>
+		<option value="1979">...</option>
+	</select>
+	<a href="#">Why do I need to provide my date of birth?</a>
+	<input type="radio" name="sex" value="female">Female
+	<input type="radio" name="sex" value="male">Male
+	<p>By clicking Create an account, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>.</p>
+	<button class="cta-button">Create an account</button>
+</form>
+<p><a href="#">Create a Page</a> for a celebrity, band or business.</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<ul class="footer-links">
+<li><a href="#">English (UK)</a></li><li><a href="#">中文(简体)</a></li><li><a href="#">Bahasa Indonesia</a></li><li><a href="#">日本語</a></li><li><a href="#">ภาษาไทย</a></li><li><a href="#">Tiếng Việt</a></li><li><a href="#">한국어</a></li><li><a href="#">Español</a></li><li><a href="#">Português (Brasil)</a></li><li><a href="#">Français (France)</a></li><li><a href="#">Deutsch</a></li>
+</ul>
+<ul class="footer-links">
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</div>
+</body>
 </html>

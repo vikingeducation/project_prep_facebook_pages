@@ -1,0 +1,63 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:16px;
+}
+.navbar {
+	background-color:#3B5998;
+	padding:10px;
+}
+.login-bar {
+	height:60px;
+}
+.login-bar .logo {
+	width: 175px;
+    float: left;
+    margin-top:15px;
+}
+.form-login {
+	float:right;
+	margin-top:5px;
+}
+.form-login label {
+	display:block;
+	margin-bottom:5px;
+	color: #fff;
+	font-size:12px;
+}
+.form-login input {
+	margin-right:5px;
+	background-color: #F9FEBC;
+	border: 1px solid #000;
+	padding:5px;
+}
+.form-login a {
+	color: #9CB4D8;
+	font-size:12px;
+	text-decoration: none;
+}
+.form-login a:hover {
+	text-decoration: underline;
+}
+.main-container {
+	clear:both;
+	margin-top:40px;
+}
+.inner-container {
+	max-width:980px;
+	margin:0 auto;
+}
+.values-container h2 {
+	font-size:24px;
+	font-weight:bold;
+	line-height:1.2;
+}
+
+.cta-button {
+	color: #fff;
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	padding:3px;
+}
+.cta-button:hover {
+	background-color: transparent;
+}
