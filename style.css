@@ -9,9 +9,29 @@ a {
 a:hover{
 	text-decoration: underline;
 }
-
+.icon {
+	width:25px; 
+	height:25px;
+}
 .navbar {
 	background-color:#3B5998;
+	padding:10px;
+	height:25px;
+	color: #fff;
+	font-size:14px;
+}
+.navbar .logo {
+	width:25px;
+	margin-right:5px;
+}
+.navbar a {
+	color: #fff;
+}
+.quicknav {
+	margin-top:-10px;
+}
+.quicknav li {
+	display: inline-block;
 	padding:10px;
 }
 .login-bar {
@@ -20,6 +40,21 @@ a:hover{
 .login-bar .logo {
 	width: 175px;
     margin-top:15px;
+}
+/* SEARCH FORM */
+.form-search {
+	display:inline-block;
+}
+.form-search input {
+	font-size:16px;
+	width:425px;
+}
+.search-button {
+	border:0;
+	margin-left:-32px;
+}
+.search-button img {
+	width:16px;
 }
 
 /* LOGIN FORM */
@@ -54,6 +89,10 @@ a:hover{
 }
 .inner-container {
 	max-width:980px;
+	margin:0 auto;
+}
+.inner-container.logged-in {
+	max-width:1180px;
 	margin:0 auto;
 }
 
@@ -136,6 +175,9 @@ a:hover{
 }
 .vam {
 	vertical-align:middle;
+}
+.vat {
+	vertical-align:top;
 }
 .cta-button {
 	color: #fff;
