@@ -1,0 +1,355 @@
+body {
+	font-family: sans-serif;
+	font-size:16px;
+	color: #333;
+}
+a {
+	color: #365899;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.std-button {
+	padding:5px 10px;
+	border:1px solid #666;
+	font-weight:bold;
+	background:white;
+	margin-right:5px;
+	font-size:12px;
+	color: #666;
+}
+.std-button:hover {
+	background: #f4f4f4;
+	text-decoration: none;
+}
+.icon {
+	width:25px; 
+	height:25px;
+}
+.navbar {
+	background-color:#3B5998;
+	padding:10px;
+	height:25px;
+	color: #fff;
+	font-size:14px;
+}
+.navbar .logo {
+	width:25px;
+	margin-right:5px;
+}
+.navbar a {
+	color: #fff;
+}
+.quicknav {
+	margin-top:-10px;
+}
+.quicknav li {
+	display: inline-block;
+	padding:10px;
+}
+.login-bar {
+	height:60px;
+}
+.login-bar .logo {
+	width: 175px;
+    margin-top:15px;
+}
+/* SEARCH FORM */
+.form-search {
+	display:inline-block;
+}
+.form-search input {
+	font-size:16px;
+	width:425px;
+}
+.search-button {
+	border:0;
+	margin-left:-32px;
+}
+.search-button img {
+	width:16px;
+}
+
+/* LOGIN FORM */
+.form-login {
+	margin-top:5px;
+}
+.form-login label {
+	display:block;
+	margin-bottom:5px;
+	color: #fff;
+	font-size:12px;
+}
+.form-login input {
+	margin-right:5px;
+	background-color: #F9FEBC;
+	border: 1px solid #000;
+	padding:5px;
+}
+
+.form-login a {
+	color: #9CB4D8;
+}
+.form-login a:hover {
+	text-decoration: underline;
+}
+
+/* CONTAINER */
+.main-container {
+	clear:both;
+	padding-top:40px;
+	background-color: #EDF0F5;
+}
+.main-container.about {
+	padding-top:0;
+}
+.inner-container {
+	max-width:980px;
+	margin:0 auto;
+}
+.inner-container.logged-in {
+	max-width:1180px;
+	margin:0 auto;
+}
+
+
+/* SIGNUP FORM */
+.form-signup .radio {
+	width:auto;
+	display:inline-block;
+}
+.signup-container {
+	max-width: 350px;
+	display:inline-block;
+}
+.signup-container h3{
+	font-size:36px;
+	font-weight:bold;
+}
+.form-signup input  {
+	font-size:18px;
+	border-radius:5px;
+	border:1px solid #ccc;
+	width: 322px;
+}
+.form-signup .half {
+	width:150px;
+	display:inline-block;
+}
+.form-signup input {
+	padding:5px;
+	margin-bottom:5px;
+	margin-right:5px;
+}
+.form-signup select{
+	font-size:14px;
+}
+
+/* PROFILE */
+.profile-container {
+	width:860px;
+	display:inline-block;
+}
+.ad-container {
+	display:inline-block;
+}
+.profile-top {
+	position:relative;
+}
+.cover-photo {
+	background-image: url('images/cover_photo.jpg');
+	height:300px;
+	background-position:50% 50%;
+	border:1px solid #666;
+	border-width:0px 1px 1px;
+}
+.profile-pic {
+	position: absolute;
+	bottom:-30px;
+	left:15px;
+	background:#fff;
+	border:1px solid #666;
+	border-radius:5px;
+	width: 165px;
+	height:165px;
+}
+.profile-pic img{
+	width:160px;
+	height:160px;
+	margin:3px;
+}
+.profile-name {
+	color: #fff;
+	font-size:24px;
+	position:absolute;
+	left:200px;
+	bottom:20px;
+}
+.profile-links {
+	background-color:#fff;
+	width:100%;
+	border:1px solid #e4e4e4;
+}
+.profile-menu {
+	margin-left:200px;
+}
+.profile-menu li {
+	display:inline-block;
+	padding:15px;
+	border-left:1px solid #e4e4e4;
+	font-weight:bold;
+	font-size:14px;
+}
+.profile-menu li:last-child {
+	border-right:1px solid #e4e4e4;
+}
+.profile-section {
+	border:1px solid #e4e4e4;
+	background-color: #fff;
+}
+.profile-section a {
+	color:#4B83F2;
+}
+.profile-section h2 {
+	font-size:22px;
+	font-weight:bold;
+}
+.profile-section .header {
+	background-color: #F6F7F9;
+	padding:20px 20px 15px;
+	border-bottom:1px solid #e4e4e4;
+}
+.profile-section .sidebar {
+	float:left;
+	border-right:1px solid #e4e4e4;
+	width:30%;
+}
+.profile-section .sidebar .menu li {
+	padding: 5px 0 5px 20px;
+	margin:20px 0;
+}
+.profile-section .sidebar .menu .active {
+	border-left:4px solid #3B5998;
+}
+.profile-section .main {
+	padding:20px;
+	margin-left:30%;
+}
+.profile-section .main .roles {
+	float:left;
+	width:60%;
+	margin-right:20px;
+}
+.profile-section .main .roles li {
+	padding:30px;
+	border-bottom:1px solid #e4e4e4;
+	font-size:14px;
+}
+.profile-section .main .roles li:first-child {
+	padding-top:10px;
+}
+.profile-section .main .contact li {
+	font-size:12px;
+	padding:10px;
+}
+
+.cover-buttons{
+	position:absolute;
+	right:20px;
+	bottom:20px;
+}
+
+.values-container {
+	width:500px;
+	margin-right:80px;
+	display:inline-block;
+	vertical-align: top;
+}
+.values-container h2 {
+	font-size:26px;
+	font-weight:bold;
+	line-height:1.4;
+	padding: 30px 0;
+}
+.values-container span {
+	color: #666;
+}
+.values-container img {
+	margin-right:20px;
+}
+.values-container h3 {
+	display:inline;
+	font-weight:bold;
+	padding-right:10px;
+}
+
+/* FOOTER LINKS */
+.footer-links li {
+	display:inline-block;
+	margin:10px;
+}
+
+
+.mbm {
+	margin-bottom:20px;
+}
+.mts {
+	margin-top:10px;
+}
+.mtm {
+	margin-top:20px;
+}
+.mtl {
+	margin-top:30px;
+}
+.mbs {
+	margin-bottom:10px;
+}
+.vam {
+	vertical-align:middle;
+}
+.vat {
+	vertical-align:top;
+}
+.cta-button {
+	color: #fff;
+	background-color: #4267b2;
+	border: 1px solid #29487d;
+	padding:3px;
+}
+.cta-button:hover {
+	background-color: transparent;
+}
+.cta-button.standout {
+	background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    font-weight:bold;
+    padding:10px 20px;
+
+}
+
+/* UTILITY CLASSES */
+
+hr {
+	border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #ccc;
+}
+.fl {
+	float:left;
+}
+.fr {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+.smaller-text {
+	font-size:70%;
+}
+.larger-text {
+	font-size:110%;
+}
