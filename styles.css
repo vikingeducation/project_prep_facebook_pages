@@ -1,54 +1,7 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-header {
-  height: 100px;
-  background: #006EE3;
-}
 
 /*
 =======================================
-      Homepage
+      ******Homepage******
 =======================================
 */
 
@@ -59,7 +12,7 @@ body{
   font-family: sans-serif;
 }
 
-h1 {
+.home-header h1 {
   color: white;
   font-size: 45px;
 }
@@ -67,6 +20,10 @@ h1 {
 .container {
   max-width: 960px;
   margin: 0 auto;
+}
+.home-header {
+  height: 100px;
+  background: #006EE3;
 }
 /*
 =======================================
@@ -211,8 +168,192 @@ h1 {
   margin-top: 40px;
 }
 
+/*
+=======================================
+      ******About Page******
+=======================================
+*/
 
 
+/*
+=======================================
+      Header
+=======================================
+*/
+.about-header {
+  height: 100px;
+  padding: 0 5% 0 5%;
+  background: #006EE3;
+  color: white;
+}
 
+.about-logo-container {
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+  width: 20%;
+}
+.about-logo-container h1 {
+  display: inline-block;
+  font-size: 30px
+}
 
+.about-logo-container img{
+  height: 60px;
+  width: 60px;
+  vertical-align: middle;
+  border-radius: 15px;
+  
+}
 
+.about-input-container {
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+  width: 50%;
+  text-align: center;
+}
+
+.about-input-container input {
+  vertical-align: middle;
+  width: 400px;
+}
+
+.about-username-container {
+  display: inline-block;
+  float: right;
+  line-height: 100px;
+  width: 20%;
+  font-size: 24px;
+  text-align: center
+}
+
+/*
+====================
+About Top
+====================
+*/
+.about-top {
+  position: relative;
+}
+.about-profile-pic {
+  width: 90%;
+  height: 400px;
+  margin: 0 5%;
+}
+
+.about-profile-pic-inset {
+  position: absolute;
+  top: 60%;
+  left: 7%;
+  height: 150px;
+  width: 175px;
+}
+
+.about-top h2 {
+  position: absolute;
+  left: 30%;
+  bottom: 15%;
+  font-size: 24px;  
+}
+
+.about-top-nav {
+  margin: 0 5%;
+  border: 1px solid black;
+  height: 50px;
+  line-height: 46px;
+  width: 90%;  
+}
+.about-top-nav li{
+  display: inline-block;
+  width: 100px;
+  border: 1px solid black;
+  padding-left: 5px;
+}
+
+.about-top-nav ul{
+  padding-left: 25%;
+  width: 100%
+}
+
+.about-top-nav ul a {
+  float: right;
+  padding-right: 5%;
+}
+
+.about-top-nav span {
+  color: #CBCBCB;
+}
+
+/*
+====================
+Bottom 
+====================
+*/
+
+.about-bottom-header {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 10px;
+  border: 2px solid black
+}
+
+.about-bottom-header .btn{
+  float: right;
+  font-size: 14px;
+  background: #006EE3;
+  color: white;
+  padding: 0 10px;
+  border: 3px solid black;
+  height: 40px;
+  margin-top: 5px;
+  line-height: 40px;
+}
+
+.about-bottom-header h2 {
+  display: inline-block;
+}
+
+.about-bottom {
+  width: 90%;
+  margin: 0 5%;
+}
+
+.about-bottom h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.about-bottom-left {
+  display: inline-block;
+  width: 45%;
+  float: left;
+  margin: 0 2.5%;
+  padding-top: 25px
+}
+
+.about-bottom-right {
+  display: inline-block;
+  float: right;
+  width: 45%;
+  margin: 0 2.5%;
+  padding-top: 25px
+}
+
+.about-bottom-col-container {
+  height: 400px;
+  border: 1px solid black;
+}
+
+.about-bottom-left li {
+  margin: 12px 0;
+}
+
+.about-bottom-left span {
+  font-weight: bold;
+  margin-right: 10px
+}
