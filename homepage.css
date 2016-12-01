@@ -1,0 +1,45 @@
+.login {
+	color:#fff;
+	font-weight:normal;
+	padding-left:1px;
+	padding-bottom: 4px;
+}
+
+table {
+	display:table;
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: grey;
+}
+
+td, th {
+	text-align:left;
+	display: table-cell;
+	vertical-align: inherit;
+}
+
+label {
+	cursor:pointer;
+	vertical-align: middle;
+}
+
+.floatright .inputtext {
+	border-color: #1d2a5b;
+	margin:0;
+	width:142px;
+}
+
+#loginbutton {
+	border: border: 1px solid #ced0d4;
+	border-radius: 2px;
+	display:inline-block;
+	font-size:12px;
+	font-weight: bold;
+    line-height: 18px;
+    padding: 2px 6px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    vertical-align: top;
+    white-space: nowrap;
+}
