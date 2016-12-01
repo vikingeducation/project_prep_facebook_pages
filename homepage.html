@@ -3,45 +3,159 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Google</title>
+    <title>Facelook</title>
     <link rel="stylesheet" type="text/css" href="homepage.css"/>
   </head>
 
   <body>
+
   	<div class="nav">
   		<div class="floatleft">
   			<h1>Facelook</h1>
   		</div>
 
-  		<div class="floatright">
-  			<table cellspacing="0" role="presentation">
-          <tbody>
-            <tr>
-              <td class="login">
-                <label for="email">Email or Phone</label>
-              </td>
-              <td class="login">
-                <label for="pass">Password</label>
-              </td>
-            </tr>
+  		<div class="floatright1">
+        <div class="email">
+          <p>Email or phone</p>
+            <input type="email" name="email">
+        </div>
+      </div>
 
-            <tr>
-              <td>
-                <input type="email" class="inputtext" name="email" id="email" value="" tabindex="1">
-              </td> 
-              <td>
-                <input type="password" class="inputtext" name="pass" id="pass" tabindex="2">
-              </td>
-              <td>
-                <label id="loginbutton">
-                  <input value="Log In" tabindex="4">
-                </label>
-              </td>
-            </tr>
-          </tbody>  
-        </table>
-  		</div>
-  	</div>
+      <div class="floatright2">
+        <div class="password">
+          <p>Password</p>
+          <input type="hidden" class="pass" name="password">
+        </div>
+      </div>
+
+      <div class="login-btn">
+        <button type="submit">Log in </button>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="mainleft">
+        <h2>Connect with friends and the world around you on Facelook</h2>
+        <div class="maindescription">
+          <ul>
+            <li> <img class="photoimage" src="homepageimages/photo.png">
+            <p> <span>See photos and updates</span> from friends in News Feed.</p></li>
+            <li> <img class="screenimage" src="homepageimages/screen.png">
+            <p> <span>Share what's new</span> in your life on your Timeline</p></li>
+            <li> <img class="triangleimage" src="homepageimages/triangle.png">
+            <p> <span>Find more</span> of what you're looking for with Facelook Search</p></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mainleft">
+        <h3>Sign Up</h3>
+        <p>It's free and always will be.</p>
+
+        <div class="Signupform">
+        <input type="text" class="name" name="first name" placeholder="First Name">
+        <input type="text" class="name" name="last name" placeholder="Last Name">
+        <br>
+        <input type="email" class="fullwidth" name="email" placeholder="Your Email">
+        <br>
+        <input type="password" class="fullwidth" name="password" placeholder="Your New Password">
+        <br>
+        <input type="password" class="fullwidth" name="password" placeholder="Confirm Your Password">
+      </div>
+
+      <div class="birthday">
+        <h4>Birthday</h4>
+
+        <form class="birthdayform"
+            <select name="month">
+              <option value="" disabled selected hidden>Month</option>
+              <option value="january">January</option>
+              <option value="february">February</option>
+              <option value="march">March</option>
+              <option value="april">April</option>
+              <option value="may">May</option>
+              <option value="june">June</option>
+              <option value="july">July</option>
+              <option value="august">August</option>
+              <option value="september">September</option>
+              <option value="october">October</option>
+              <option value="november">November</option>
+              <option value="december">December</option>
+            </select>
+            <select name="day">
+              <option value="" diabled selected hidden>Day</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <select name="Year">
+              <option value="" diabled selected hidden>Year</option>
+              <option value="1">1990</option>
+              <option value="2">1991</option>
+              <option value="3">1992</option>
+              <option value="4">1993</option>
+              <option value="5">1994</option>
+              <option value="6">1995</option>
+              <option value="7">1996</option>
+              <option value="8">1997</option>
+              <option value="9">1998</option>
+              <option value="10">1999</option>
+              <option value="11">2000</option>
+              <option value="12">2001</option>
+            </select>
+      </div>
+
+      <input type="radio" class="radio" name="gender" value="Male"> <p>Male</p>    <input type="radio" class="radio" name="gender" value="Female"> <p>Female</p>
+            </form>
+      </div>  
+
+      <button type="submit">Sign up!</button>
+      
+    </div>
+
+  </body>
+</html>
+
+
+        <div class="disclaimer">
+          <p>By clicking Sign Up, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use.</a></p>
+        </div>
+
+        <div class="Signup-btn">
+          <button type="submit">Sign Up</button>
+        </div>
+      </div>
+    </div>
+
+
 
 
 
