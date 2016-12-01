@@ -1,0 +1,218 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header {
+  height: 100px;
+  background: #006EE3;
+}
+
+/*
+=======================================
+      Homepage
+=======================================
+*/
+
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 45px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/*
+=======================================
+      Header
+=======================================
+*/
+
+.header-left {
+  float: left;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.header-right {
+  float: right;
+  padding-top: 40px;
+  padding-right: 50px;
+}
+
+.header-right button{
+  height: 25px;
+  width: 80px;
+  background: #93C3F9;
+  margin-top: 20px;
+}
+
+.header-right input{
+  height: 25px;
+  width: 150px;
+  
+}
+
+.first-name {
+  display: block;
+  float: left;
+}
+.last-name {
+  display: block;
+  float: left;
+}
+.first-name, .last-name {
+  margin-right: 10px;
+  color: white;
+}
+
+.first-name h3, .last-name h3{
+  margin-bottom: 5px;
+}
+
+.header-right input, .header-right button {
+  border: 2px solid black;
+}
+
+/*
+=======================================
+      left-side
+=======================================
+*/
+
+.left {
+  width: 66.666%;
+  float: left;
+  padding-left: 150px;
+  padding-top: 100px;
+}
+
+.left ul {
+  margin-left: 50px;
+  list-style: circle;
+}
+
+.left li{
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: #666666;
+}
+
+.left h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  word-spacing: 10px;
+}
+
+/*
+=======================================
+      right-side
+=======================================
+*/
+.right {
+  width: 33.3333%;
+  float: left;
+  padding-top: 50px;
+}
+
+.right h2 {
+  padding-bottom: 25px;
+  font-size: 40px;
+  text-align: left;
+}
+
+#first-name, #last-name{
+  width: 45%;
+  height: 35px;
+  display: inline-block;
+  margin: 0, 5%;
+}
+
+.other-inputs input {
+  display: block;
+  width: 90%;
+  margin: 20px 0;
+  height: 35px;
+}
+
+.right h3 {
+  margin: 25px 0;
+}
+
+.birthday-selector {
+  margin-bottom: 20px;
+}
+
+.birthday-selector select{
+  margin-right: 25px;
+  margin-bottom: 25px;
+  height: 30px;
+}
+
+.birthday-selector h3{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.submit-button {
+  width: 80%;
+  height: 50px;
+  color: white;
+  background: #00A82B;
+  font-size: 20px;
+  border: 3px solid black;
+  margin-top: 40px;
+}
+
+
+
+
+
+
