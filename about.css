@@ -50,6 +50,7 @@ table {
 /* 
 end of CSS reset
 */
+
 div {
 	display: block;
 }
@@ -80,9 +81,74 @@ div {
 	height: 42px;
 }
 
-.logo {
+.logo_container {
 	float:left;
 }
+
+.logo {
+	margin:7px 0;
+	margin-left: -2px;
+	margin-right: 5px;
+}
+.logo img {
+	height: 27px;
+	width: 30px;
+	display: inline-block;
+	padding: 2px;
+	outline: none;
+	position: relative;
+}
+
+.search_bar_container {
+	float:left;
+	display: block;
+	width: 100%;
+}
+
+.search_bar {
+	margin-left: 0;
+    min-width: 144px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #3b5998;
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: 26px;
+    left: -1px;
+    margin-top: 0;
+    max-width: 448px;
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 48px;
+    position: relative;
+    top: 8px;
+}
+
+form {
+	margin:0;
+	padding:0;
+	display: block;
+}
+
+
+.innerwrap {
+	overflow: hidden;
+	zoom: 1;
+}
+
+input {
+	color: #90949c;
+	height: 21px;
+    padding-top: 2px;
+    line-height: 18px;
+    padding: 3px 0 0;
+    text-shadow: none;
+    background: 0;
+    box-sizing: border-box;
+    outline: 1px solid rgba(0, 0, 0, 0);
+    width: 100%;
+}
+
 
 
 
