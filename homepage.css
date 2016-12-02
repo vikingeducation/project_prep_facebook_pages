@@ -62,6 +62,11 @@ CSS for overall Navigation Bar
 	background-color: #43609c;
 }
 
+.navcontainer{
+	margin-right: 58.5px;
+	margin-left: 58.5px;
+}
+
 .navleft {
 	float:left;
 }
@@ -146,7 +151,8 @@ CSS for Main overall
 	min-width: 980px;
 	min-height: 608px;
 	display: inline-block;
-	margin: 0 auto;
+	margin right: 58.5px;
+	margin-left: 58.5px;
 	font-family: 'Karla',helvetica, sans-serif;
 }
 
