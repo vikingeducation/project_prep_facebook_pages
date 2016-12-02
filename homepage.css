@@ -131,7 +131,7 @@ input#pass.inputtext {
 
 /* 
 ------------------------------------------
-CSS for Main elements
+CSS for Main overall
 ------------------------------------------
 */
 
@@ -144,13 +144,25 @@ CSS for Main elements
 
 .main {
 	min-width: 980px;
-	display: block;
+	min-height: 608px;
+	display: inline-block;
 	margin: 0 auto;
 	font-family: 'Reem Kufi', sans-serif;
 }
 
+
+/* 
+------------------------------------------
+CSS for Mainleft elements
+------------------------------------------
+*/
+
 .mainleft {
 	margin-right:15.999px;
+	width: 565px;
+	min-height: 367px;
+	display: inline-block;
+	vertical-align: top;
 }
 
 .mainleft h2 {
@@ -166,4 +178,43 @@ CSS for Main elements
 	padding-bottom: 10px
 }
 
+.image {
+	text-align: center;
+	width: 55px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+img {
+	vertical-align: middle;
+}
+
+p {
+	width: 440px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.bold {
+	font-weight: bold;
+	letter-spacing: normal;
+	font-size: 17px;
+	line-height: 22px;
+	margin-top: 20px;
+}
+
+.normal {
+	margin-left: 10px;
+	color: #666;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.mainright {
+	width: 399px;
+	height: 568px;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
 
