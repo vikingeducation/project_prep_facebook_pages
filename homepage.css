@@ -1,0 +1,330 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of CSS reset
+*/
+
+
+/* 
+------------------------------------------
+CSS for overall Navigation Bar
+------------------------------------------
+*/
+.nav {
+	width: auto;
+	height: 83px;
+	background-color: #43609c;
+}
+
+.navcontainer{
+	margin-right: 58.5px;
+	margin-left: 58.5px;
+}
+
+.navleft {
+	float:left;
+}
+
+.navleft h1{
+	font-size: 40px;
+	padding: 30px 0 0 7px;
+	display: block;
+	text-align: left;
+	color: #fff;
+	width: 50%;
+	font-family: 'Reem Kufi', sans-serif;
+	font-weight: bold;
+}
+
+.navright {
+	float:right;
+	color:#fff;
+	padding: 25px 20px 20px 10px;
+}
+
+table {
+	display: table;
+	border-collapse: separate;
+	border-color:grey;
+}
+
+tr, td {
+	padding: 0 0 0 14px;
+}
+
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+}
+
+label, a {
+	font-family: 'Ubuntu', sans-serif;
+	font-size:12px;
+	line-height: 16px;
+}
+
+a {
+	color: #9CB4D8;
+	text-decoration: none;
+}
+
+input#email.inputtext {
+	background-color: rgb(250, 255, 189);
+	color: black;
+	width: 142px;
+}
+
+input#pass.inputtext {
+	background-color: rgb(250, 255, 189);
+	color: black;
+	width: 142px;
+}
+
+.loginbuttonconfirm input {
+	background-color: #4267b2;
+	border-color: #29487d;
+	color:white;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* 
+------------------------------------------
+CSS for Main overall
+------------------------------------------
+*/
+
+#overallcontainer {
+	margin: 0;
+    outline: none;
+    padding: 0;
+    width: auto;
+}
+
+.main {
+	min-width: 980px;
+	min-height: 608px;
+	display: inline-block;
+	margin right: 58.5px;
+	margin-left: 58.5px;
+	font-family: 'Karla',helvetica, sans-serif;
+}
+
+
+/* 
+------------------------------------------
+CSS for mainleft elements
+------------------------------------------
+*/
+
+.mainleft {
+	margin-right:15.999px;
+	width: 565px;
+	min-height: 367px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.mainleft h2 {
+	padding: 42px 0 24px;
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: bold;
+	color:#333333;
+}
+
+.description {
+	margin-top: 20px;
+	padding-bottom: 10px
+}
+
+.image {
+	text-align: center;
+	width: 55px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+img {
+	vertical-align: middle;
+}
+
+p {
+	width: 440px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.bold {
+	font-weight: bold;
+	letter-spacing: normal;
+	font-size: 17px;
+	line-height: 22px;
+	margin-top: 20px;
+}
+
+.normal {
+	margin-left: 10px;
+	color: #666;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+
+/* 
+------------------------------------------
+CSS for mainright elements
+------------------------------------------
+*/
+
+.mainright {
+	width: 399px;
+	height: 568px;
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+}
+
+.mainright h3 {
+	font-size: 36px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.free {
+	margin-bottom: 20px;
+	font-size: 19px;
+	line-height: 126%;
+}
+
+/* 
+------------------------------------------
+CSS for mainright info
+------------------------------------------
+*/
+
+.info {
+	padding-bottom: 30px;
+	display:block;
+}
+
+.firstnamebox {
+	margin-right: 8px;
+	margin-bottom: 10px;
+}
+
+.leftnamebox {
+	float:left;
+	margin-right: 8px;
+	margin-bottom: 10px;
+}
+
+.fullwidth {
+	margin-bottom: 10px;
+	width: 265px;
+}
+
+h4 {
+	font-size: 18px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+.gender {
+	margin-top: 10px;
+	position: relative;
+	display: block;
+}
+
+.genderwrapper {
+	display: inline-block;
+}
+
+.gendermargins {
+	margin-right: 4px;
+	border-width: 1px;
+	display: inline-block;
+	padding: 5px 0 5px 4px;
+}
+
+.genderfont {
+	font-size:18px;
+	line-height: 18px;
+	padding-bottom: 0 10px 0 3px
+}
+
+.disclaimer p {
+	color: #777;
+	font-size: 11px;
+	width: 316px;
+}
+
+.signupbtn {
+	padding: 7px 20px;
+	font-size: 19px;
+	font-weight: bold;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	min-width: 194px;
+	text-align: center;
+	background: #67ae55;
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+
+
