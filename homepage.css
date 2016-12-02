@@ -1,45 +1,169 @@
-.login {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of CSS reset
+*/
+
+
+/* 
+------------------------------------------
+CSS for overall Navigation Bar
+------------------------------------------
+*/
+.nav {
+	width: auto;
+	height: 83px;
+	background-color: #43609c;
+}
+
+.navleft {
+	float:left;
+}
+
+.navleft h1{
+	font-size: 40px;
+	padding: 30px 0 0 7px;
+	display: block;
+	text-align: left;
+	color: #fff;
+	width: 50%;
+	font-family: 'Reem Kufi', sans-serif;
+	font-weight: bold;
+}
+
+.navright {
+	float:right;
 	color:#fff;
-	font-weight:normal;
-	padding-left:1px;
-	padding-bottom: 4px;
+	padding: 25px 20px 20px 10px;
 }
 
 table {
-	display:table;
+	display: table;
 	border-collapse: separate;
-	border-spacing: 2px;
-	border-color: grey;
+	border-color:grey;
 }
 
-td, th {
-	text-align:left;
-	display: table-cell;
-	vertical-align: inherit;
+tr, td {
+	padding: 0 0 0 14px;
 }
 
-label {
-	cursor:pointer;
+tbody {
+	display: table-row-group;
 	vertical-align: middle;
 }
 
-.floatright .inputtext {
-	border-color: #1d2a5b;
-	margin:0;
-	width:142px;
+label, a {
+	font-family: 'Ubuntu', sans-serif;
+	font-size:12px;
+	line-height: 16px;
 }
 
-#loginbutton {
-	border: border: 1px solid #ced0d4;
-	border-radius: 2px;
-	display:inline-block;
-	font-size:12px;
-	font-weight: bold;
-    line-height: 18px;
-    padding: 2px 6px;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: none;
-    vertical-align: top;
-    white-space: nowrap;
+a {
+	color: #9CB4D8;
+	text-decoration: none;
 }
+
+input#email.inputtext {
+	background-color: rgb(250, 255, 189);
+	color: black;
+	width: 142px;
+}
+
+input#pass.inputtext {
+	background-color: rgb(250, 255, 189);
+	color: black;
+	width: 142px;
+}
+
+.loginbuttonconfirm input {
+	background-color: #4267b2;
+	border-color: #29487d;
+	color:white;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* 
+------------------------------------------
+CSS for Main elements
+------------------------------------------
+*/
+
+#overallcontainer {
+	margin: 0;
+    outline: none;
+    padding: 0;
+    width: auto;
+}
+
+.main {
+	min-width: 980px;
+	display: block;
+	margin: 0 auto;
+	font-family: 'Reem Kufi', sans-serif;
+}
+
+.mainleft {
+	margin-right:15.999px;
+}
+
+.mainleft h2 {
+	padding: 42px 0 24px;
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: bold;
+	color:#333333;
+}
+
+.description {
+	margin-top: 20px;
+	padding-bottom: 10px
+}
+
+
