@@ -1,0 +1,61 @@
+/* Header CSS for homepage */
+
+.header {
+    background-color: #3b5998;
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    border-bottom: 1px solid #133783;
+    min-height: 42px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    min-width: 800px;
+    padding: 0 140px;
+}
+
+.brand {
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 27px;
+}
+
+.account-login {
+  float: right;
+}
+
+.email, .password, .login {
+  float: left;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-bottom: 7px;
+  padding: 0 7px;
+}
+
+.header input {
+  margin: 7px 0;
+  border: 1px solid #1d2a5b;
+  width: 140px;
+  height: 20px;
+  padding: 0 4px;
+  font-size: 11px;
+}
+
+.password a {
+  text-decoration: none;
+  color: #9cb4d8;
+}
+
+.login a {
+  text-decoration: none;
+  color: white;
+}
+
+.login-button {
+  margin-top: 19px;
+  display: inline-block;
+  height: 20px;
+  border: 1px solid #29487d;
+  line-height: 20px;
+  background-color: #4267b2;
+  padding: 0 6px;
+}
