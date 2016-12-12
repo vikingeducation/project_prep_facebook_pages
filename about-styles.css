@@ -1,0 +1,130 @@
+html {
+    color: #222;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #ddd
+}
+
+.search-bar {
+    background-color: #365899;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.search-bar > * {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.search-bar img {
+    height: 30px;
+    margin-left: 200px;
+    float: left;
+}
+
+.search-bar input {
+    width: 700px;
+    border: none;
+    height: 26px;
+    margin-left: 15px;
+    padding-left: 5px;
+}
+
+.search-bar h3 {
+    float: right;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 200px;
+}
+
+.main-area {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    height: 300px;
+}
+
+.bottom-area {
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 380px;
+    border: 1px dashed black;
+}
+
+.main-image {
+    width: 100%;
+    height: 260px;
+    background-image: url("https://patpgmr.files.wordpress.com/2016/11/nature-winter-mountain-scene.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #555;
+    border-top: none;
+}
+
+.profile-image {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    background-image: url("https://avatars2.githubusercontent.com/u/7129571?v=3&s=460");
+    background-size: 95% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+    left: 15px;
+    bottom: 190px;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.tabs {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #555;
+    border-top: none;
+    background-color: #fff;
+}
+
+.tab-elements {
+    margin-left: 200px;
+    font-size: 0;
+    /*to avoid white-space beteen li's*/
+    display: inline-block;
+}
+
+.tab-elements a {
+    border: 0;
+    text-decoration: none;
+    color: #222;
+}
+
+.tab-elements:first-child {
+    border-left: 1px solid #555;
+    /*to avoid duplicate border*/
+    width: 500px;
+}
+
+.tab-elements a li {
+    display: inline-block;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 40px;
+    border-right: 1px solid #555;
+    margin: 0;
+    font-size: 16px;
+}
+
+#edit-profile {
+    display: inline-block;
+    line-height: 40px;
+    margin-left: 400px;
+}
+
+
+
