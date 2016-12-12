@@ -1,0 +1,222 @@
+* {
+    color: #222;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(237, 240, 245);
+}
+
+.header {
+    background-color: #365899;
+    height: 85px;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 280px;
+    margin-top: 30px;
+    color: #fff;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.login {
+    float: right;
+    margin-top: 15px;
+    margin-right: 240px;
+    font-size: 12px;
+}
+
+.login label {
+    color: #fff;
+}
+
+input,
+label,
+button {
+    display: block;
+}
+
+.login input {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.login a {
+    text-decoration: none;
+    color: #9cb4d8;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+.email-box {
+    float: left;
+    margin-right: 30px;
+}
+
+.password-box {
+    float: left;
+}
+
+.login button {
+    border: none;
+    background-color: #4267b2;
+    width: 50px;
+    height: 22px;
+    float: right;
+    padding: 2px 6px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 15px;
+    border: 1px solid #29487d;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.login button:hover {
+    background-color: #365899;
+}
+
+.left {
+    float: left;
+    width: 550px;
+    margin-left: 280px;
+    margin-top: 60px;
+}
+
+.left h3 {
+    margin-bottom: 40px;
+}
+
+.standout {
+    margin-bottom: 20px;
+    height: 60px;
+    color: #777;
+}
+
+.standout * {
+    vertical-align: middle;
+}
+
+.standout em {
+    margin-left: 12px;
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+.signup-wrapper {
+    width: 400px;
+    float: right;
+    margin-right: 280px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.signup input[type=text] {
+    padding: 0 5px;
+    height: 36px;
+    width: 386px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    margin-bottom: 10px;
+}
+
+#firstname {
+    display: inline-block;
+    width: 181px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+#lastname {
+    width: 181px;
+    float: right;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+::-webkit-input-placeholder {
+    font-size: 18px;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 18px;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 18px;
+}
+
+:-ms-input-placeholder {
+    font-size: 18px;
+}
+
+.signup > h4 {
+    margin-top: 20px;
+}
+
+.signup ul {
+    height: 32px;
+    margin-bottom: 20px;
+}
+
+#month {
+    /*needed to eliminate double borders*/
+    border-left: 1px solid #999;
+}
+
+.signup li {
+    display: block;
+    float: left;
+    color: #000;
+    background-color: #ddd;
+    font-size: 14px;
+    vertical-align: center;
+    border: 1px solid #999;
+    border-left: 0;
+    line-height: 32px;
+    padding: 0px 10px;
+}
+
+.radio {
+    height: 16px;
+    width: 16px;
+    display: inline;
+}
+
+.signup label {
+    font-size: 18px;
+    display: inline;
+    margin-right: 20px;
+}
+
+#signup-btn {
+    margin-top: 20px;
+    background-image: linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
+    height: 40px;
+    width: 200px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
