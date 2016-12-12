@@ -304,6 +304,7 @@ input[type="radio"] {
 }
 
 .navbar-element span {
+  font-weight: normal;
   color: #a9a9a9;
 }
 
