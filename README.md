@@ -6,3 +6,5 @@ prep_facebook_pages
 ## Preview pages:
 
 [Homepage](https://htmlpreview.github.io/?https://github.com/ats89/prep_facebook_pages/blob/master/homepage.html)
+
+[About page](https://htmlpreview.github.io/?https://github.com/ats89/prep_facebook_pages/blob/master/about.html)

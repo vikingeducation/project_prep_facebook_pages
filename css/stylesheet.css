@@ -47,6 +47,26 @@ body {
   overflow: hidden;
 } 
 
+h2 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+}
+
+span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
 /* Header CSS for homepage */
 
 .logo-box-hp {
@@ -103,11 +123,9 @@ body {
   font-size: 16px;
 }
 
-.facelook-features h1 {
+.facelook-features h2 {
   margin-top: 40px;
   margin-bottom: 60px;
-  font-weight: 500;
-  font-size: 30px;
 }
 
 .facelook-features i {
@@ -115,7 +133,6 @@ body {
 }
 
 .facelook-features span {
-  font-weight: bold;
   font-size: 18px;
 }
 
@@ -161,12 +178,6 @@ body {
   width: 94.5%;
 }
 
-.sign-up h3 {
-  font-weight: bold;
-  font-size: 20px;
-  margin-bottom: 15px;
-}
-
 .birthday-entry select {
   font-size: 12px;
 }
@@ -180,7 +191,6 @@ input[type="radio"] {
   text-decoration: none;
   font-size: 18px;
   color: white;
-
 }
 
 .create-acct-button {
@@ -237,8 +247,10 @@ input[type="radio"] {
 
 /* Main content CSS for about page */
 
-.top-content {
+.top-content, .bottom-content {
   box-shadow: 2px 2px 2px #3b5998;
+  margin-bottom: 20px;
+  background-color: white;
 }
 
 .banner img {
@@ -252,7 +264,6 @@ input[type="radio"] {
 .profile-navbar {
   width: 100%;
   height: 42px;
-  background-color: white;
   margin-top: -3px;
   margin-bottom: 15px;
   border: 2px solid #3b5998;
@@ -303,9 +314,62 @@ input[type="radio"] {
 .edit-profile {
   float: right;
   margin-top: 13px;
-  margin-right: 20px;
+  margin-right: 3.5%;
 }
 
 .edit-profile a {
   color: #46b8da;
+}
+
+.bottom-content {
+  overflow: hidden;
+  border: 2px solid #3b5998;
+  padding-bottom: 30px;
+}
+
+.about-header {
+  height: 42px;
+  border-bottom: 2px solid #3b5998;
+  background-color: #d3d3d3;
+  line-height: 42px;
+  text-align: center;
+}
+
+.about-content {
+  padding: 30px;
+}
+
+.edit-profile-button a {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+}
+
+.edit-profile-button {
+  position: relative;
+  left: 41%;
+  top: -42px;
+  display: inline-block;
+  width: 130px;
+  height: 26px;
+  line-height: 26px;
+  background-color: #4f85f7;
+  border: 1px solid #133783;
+  border-radius: 3px;
+  box-shadow: 2px 1px 2px #133783;
+}
+
+.left-column {
+  float: left;
+  width: 40%;
+}
+
+.right-column {
+  float: right;
+  width: 55%;
+}
+
+td {
+  padding-bottom: 15px;
+  min-width: 140px;
 }
