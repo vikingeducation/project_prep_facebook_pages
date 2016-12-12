@@ -3,7 +3,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* Header CSS for homepage */
+/* Header CSS across all pages */
 
 .header {
     background-color: #3b5998;
@@ -16,15 +16,50 @@ body {
     padding: 0 120px;
 }
 
-.brand {
+.logo {
   float: left;
-  font-size: 40px;
   font-weight: bold;
+}
+
+.logo-box {
+  font-size: 36px;
+  margin-top: 3px;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+}
+
+.header input {
+  margin: 7px 0;
+  border: 1px solid #1d2a5b;
+  height: 20px;
+  padding: 0 4px;
+  font-size: 12px;
+}
+
+/* Main Content CSS across all pages */
+
+.main-content {
+  min-width: 900px;
+  padding: 0 120px;
+  overflow: hidden;
+} 
+
+/* Header CSS for homepage */
+
+.logo-box-hp {
   margin-top: 27px;
+  font-size: 40px;
 }
 
 .account-login {
   float: right;
+}
+
+.account-login input {
+  width: 140px;
 }
 
 .email, .password, .login {
@@ -33,15 +68,6 @@ body {
   margin-top: 15px;
   margin-bottom: 7px;
   padding: 0 7px;
-}
-
-.header input {
-  margin: 7px 0;
-  border: 1px solid #1d2a5b;
-  width: 140px;
-  height: 20px;
-  padding: 0 4px;
-  font-size: 11px;
 }
 
 .password a {
@@ -66,11 +92,9 @@ body {
 
 /* Main content CSS for homepage */
 
-.main-content {
-  min-width: 900px;
-  padding: 30px 120px;
-  overflow: hidden;
-} 
+.main-content-hp {
+  padding-top: 30px;
+}
 
 .facelook-features {
   float: left;
@@ -172,3 +196,116 @@ input[type="radio"] {
   text-align: center;
 }
 
+/* Header CSS for other pages */
+.avatar {
+  float: left;
+  height: 34px;
+  width: 34px;
+  background-color: #9cb4d8;
+  border-radius: 5px;
+  margin-top: 4px;
+  margin-right: 6px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.avatar img {
+  height: 30px;
+  width: auto;
+  display: block-inline;
+  margin-top: 2px;
+}
+
+.search-bar {
+  float: left;
+  height: 36px;
+  margin-top: 3px;
+  margin-left: 50px;
+  width: 60%;
+}
+
+.search-bar input {
+  width: 100%;
+}
+
+.username {
+  float: right;
+  font-size: 16px;
+  margin-top: 13px;
+  margin-right: 5px;
+}
+
+/* Main content CSS for about page */
+
+.top-content {
+  box-shadow: 2px 2px 2px #3b5998;
+}
+
+.banner img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-right: 2px solid #3b5998;
+  border-left: 2px solid #3b5998;
+}
+
+.profile-navbar {
+  width: 100%;
+  height: 42px;
+  background-color: white;
+  margin-top: -3px;
+  margin-bottom: 15px;
+  border: 2px solid #3b5998;
+  font-size: 16px;
+}
+
+.profile-picture {
+  position: absolute;
+  left: 140px;
+  top: 185px;
+  height: 200px;
+  width: 200px;
+  border: 2px solid #3b5998;
+  border-radius: 5px;
+  background-color: #d7e1ef;
+  text-align: center;
+}
+
+.profile-picture img {
+  max-height: 180px;
+  max-width: 180px;
+  margin-top: 10px;
+  object-fit: cover;
+}
+
+.navbar-element {
+  float: left;
+  display: inline-block;
+  border-right: 2px solid #3b5998;
+  height: 42px;
+  padding: 0 20px;
+  line-height: 42px;
+}
+
+.navbar-first-element {
+  margin-left: 240px;
+  border-left: 2px solid #3b5998;
+}
+
+.navbar-element span {
+  color: #a9a9a9;
+}
+
+.navbar-active {
+  background-color: #d3d3d3;
+}
+
+.edit-profile {
+  float: right;
+  margin-top: 13px;
+  margin-right: 20px;
+}
+
+.edit-profile a {
+  color: #46b8da;
+}
