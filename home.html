@@ -17,18 +17,18 @@
       <form action="#" method="post">
 
         <!-- input box labels -->
-        <div class="input-label input-label-email">
+        <div class="inline-form-label">
           <label for="email">Email</label>
         </div>
-        <div class="input-label input-label-password">
+        <div class="inline-form-label input-label-password">
           <label for="password">Password</label>
         </div>
         
         <!-- input boxes and button -->
         <br>
-        <div class="inputs-and-btns-container">
-          <input class="input-box input-box-email" type="text" name="email">
-          <input class="input-box input-box-password" type="password" name="password">
+        <div>
+          <input class="login-input-box input-box-email input-box-border" type="text" name="email">
+          <input class="login-input-box left-margin-1 input-box-border" type="password" name="password">
           <button class="login-button" name="login">Log In</button>
         </div>
       </form>
@@ -41,18 +41,57 @@
       <div class="homepage-blurb">
         <h2><strong>Connect with all your friends!</strong></h2>
         <ul>
-          <li><span class="homepage-list-item">See photos and updates</span> in your news feed.</li>
-          <li><span class="homepage-list-item">Post your status for the world to see</span> from your profile.</li>
-          <li><span class="homepage-list-item">Get in touch with your friends</span> by "friending" them.</li>
-          <li><span class="homepage-list-item">Like things</span> because you're a positive person!</li>
+          <li><span class="homepage-list-emphasis">See photos and updates</span> in your news feed.</li>
+          <li><span class="homepage-list-emphasis">Post your status for the world to see</span> from your profile.</li>
+          <li><span class="homepage-list-emphasis">Get in touch with your friends</span> by "friending" them.</li>
+          <li><span class="homepage-list-emphasis">Like things</span> because you're a positive person!</li>
         </ul>
       </div>
     </div><!--
 
     --><div class="col-right">
-      Sign Up
-      <form>
-      </form>
+      <div class="top-margin-1">
+        <h1><strong>Sign Up</strong></h1>
+        <form>
+          
+          <!-- registration form input fields -->
+          <input class="input-field-small inline-block top-margin-1 input-box-border" type="text" name="first-name" placeholder="First Name">
+          <input class="input-field-small inline-block top-margin-1 input-box-border left-margin-2" type="text" name="last-name" placeholder="Last Name">
+          <input class="input-field-large top-margin-1 input-box-border" type="text" name="email" placeholder="Your Email">
+          <input class="input-field-large top-margin-1 input-box-border" type="password" name="password" placeholder="Your New Password">
+          <input class="input-field-large top-margin-1 input-box-border" type="password" name="password-confirm" placeholder="Confirm Your Password">
+          
+          <!-- registration form birthday selector -->
+          <!-- <label for="birthday">Birthday</label> -->
+          <h2 class="top-margin-1">Birthday</h2>
+          <select name="month">
+            <option value="" disabled selected hidden>Month</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+          </select>
+          <select name="day">
+            <option value="" disabled selected hidden>Day</option>
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+          </select>
+          <select name="year">
+            <option value="" disabled selected hidden>Year</option>
+            <option value="1998">1998</option>
+            <option value="1997">1997</option>
+          </select>
+
+          <!-- gender selector -->
+          <div class="gender-selector-container top-margin-1">
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+          </div>
+
+          <button class="signup-button top-margin-1" name="login">Sign Up!</button>
+
+        </form>
+      </div>
     </div>
   </section>
 </body>
