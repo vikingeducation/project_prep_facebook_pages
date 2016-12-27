@@ -67,6 +67,10 @@ Layout styles for all pages
           box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+}
+
 body {
   font: 300 16px/22px "Lato", "Helvetica Neue", Helvetica, "Open Sans", Arial, sans-serif;
   color: #1d2129;
