@@ -96,16 +96,24 @@ h1 {
   line-height: 44px;
 }
 
+h2 {
+  font-size: 24px;
+  line-height: 44px;
+}
+
+strong {
+  font-weight: 400;
+}
+
+cite, em {
+  font-style: italic;
+}
+
 /*
 ========================================
 Layout styles for home page
 ========================================
 */
-
-.grid {
-  width: 960px;
-  margin: 0 auto;
-}
 
 .col-left {
   width: 55%;
@@ -121,7 +129,6 @@ Layout styles for home page
   vertical-align: top;
 }
 
-.grid,
 .col-left,
 .col-right {
   padding-left: 15px;
@@ -179,4 +186,25 @@ Layout styles for home page
   background-color: #4267b2;
   border: 1px solid #ced0d4;
   color: #fff;
+}
+
+.homepage-blurb {
+  margin-top: 40px;
+  margin-left: 16px;
+}
+
+.homepage-blurb ul {
+  margin-top: 20px;
+  margin-left: 16px;
+}
+
+.homepage-blurb ul li {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin-top: 16px;
+}
+
+.homepage-list-item {
+  font-weight: 400;
+  color: #666;
 }
