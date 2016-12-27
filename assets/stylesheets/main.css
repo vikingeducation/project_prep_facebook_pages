@@ -114,6 +114,11 @@ Properties for all pages
   width: 100%;
 }
 
+.input-field-small,
+.input-field-large {
+  padding: 4px 4px;
+}
+
 
 /*
 ========================================
@@ -187,11 +192,11 @@ Layout styles for home page
 }
 
 .input-label-password {
-  margin-left: 96px;
+  margin-left: 124px;
 }
 
 .login-input-box {
-  width: 120px;
+  width: 39%;
   padding: 2px;
 }
 
@@ -231,9 +236,10 @@ Layout styles for home page
 
 .signup-button {
   width: 100%;
-  background-color: #60d123;
+  background-color: #63bc32;
   color: #fff;
   font-size: 16px;
+  padding: 8px 0;
 }
 
 
