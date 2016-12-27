@@ -132,13 +132,49 @@ Layout styles for home page
   height: 100px;
 }
 
-.top-navbar h1 {
+.top-navbar h1,
+.top-navbar form {
   padding-top: 24px;
 }
 
+.top-navbar h1 {
+  color: #fff;
+}
 
+.inputs-and-btns-container {
+  margin-left: 96px;
+}
 
+.input-label {
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+}
 
+.input-label-email {
+  margin-left: 96px;
+}
 
+.input-label-password {
+  margin-left: 116px;
+}
 
+.input-box {
 
+}
+
+.input-box-email {
+
+}
+
+.input-box-password {
+  margin-left: 16px;
+}
+
+.login-button {
+  margin-left: 16px;
+  font-size: 14px;
+  background-color: #4267b2;
+  border: 1px solid #ced0d4;
+  color: #fff;
+}
