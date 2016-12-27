@@ -107,23 +107,23 @@ Layout styles for home page
   margin: 0 auto;
 }
 
-.col-2-5 {
-  width: 40%;
+.col-left {
+  width: 55%;
 }
 
-.col-3-5 {
-  width: 60%;
+.col-right {
+  width: 45%;
 }
 
-.col-2-5, 
-.col-3-5 {
+.col-left,
+.col-right { 
   display: inline-block;
   vertical-align: top;
 }
 
 .grid,
-.col-2-5,
-.col-3-5 {
+.col-left,
+.col-right {
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -138,11 +138,12 @@ Layout styles for home page
 }
 
 .top-navbar h1 {
+  font-size: 40px;
   color: #fff;
 }
 
 .inputs-and-btns-container {
-  margin-left: 96px;
+  margin-left: 8px;
 }
 
 .input-label {
@@ -152,15 +153,16 @@ Layout styles for home page
 }
 
 .input-label-email {
-  margin-left: 96px;
+  margin-left: 8px;
 }
 
 .input-label-password {
-  margin-left: 116px;
+  margin-left: 96px;
 }
 
 .input-box {
-
+  width: 120px;
+  padding: 2px;
 }
 
 .input-box-email {
@@ -168,11 +170,11 @@ Layout styles for home page
 }
 
 .input-box-password {
-  margin-left: 16px;
+  margin-left: 8px;
 }
 
 .login-button {
-  margin-left: 16px;
+  margin-left: 8px;
   font-size: 14px;
   background-color: #4267b2;
   border: 1px solid #ced0d4;
