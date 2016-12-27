@@ -151,7 +151,7 @@ cite, em {
 
 /*
 ========================================
-Layout styles for home page
+Layout styles for Home page
 ========================================
 */
 
@@ -175,16 +175,16 @@ Layout styles for home page
   padding-right: 15px;
 }
 
-.top-navbar {
+.homepage-top-navbar {
   height: 100px;
 }
 
-.top-navbar h1,
-.top-navbar form {
+.homepage-top-navbar h1,
+.homepage-top-navbar form {
   padding-top: 24px;
 }
 
-.top-navbar h1 {
+.homepage-top-navbar h1 {
   font-size: 40px;
   color: #fff;
 }
@@ -247,6 +247,10 @@ Layout styles for home page
 }
 
 
-
+/*
+========================================
+Layout styles for About page
+========================================
+*/
 
 
