@@ -52,3 +52,93 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/*
+========================================
+Layout styles for all pages
+========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font: 300 16px/22px "Lato", "Helvetica Neue", Helvetica, "Open Sans", Arial, sans-serif;
+  color: #1d2129;
+}
+
+.main-container {
+  width: 960px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.navbar-color {
+  background: #3b5998;
+  background: linear-gradient(#4e69a2, #3b5998 50%);
+}
+
+/*
+========================================
+Typography
+========================================
+*/
+
+
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+/*
+========================================
+Layout styles for home page
+========================================
+*/
+
+.grid {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.col-2-5 {
+  width: 40%;
+}
+
+.col-3-5 {
+  width: 60%;
+}
+
+.col-2-5, 
+.col-3-5 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.grid,
+.col-2-5,
+.col-3-5 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.top-navbar {
+  height: 100px;
+}
+
+.top-navbar h1 {
+  padding-top: 24px;
+}
+
+
+
+
+
+
+
