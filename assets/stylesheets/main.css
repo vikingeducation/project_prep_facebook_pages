@@ -79,8 +79,8 @@ body {
 .main-container {
   width: 960px;
   margin: 0 auto;
-  padding-left: 30px;
-  padding-right: 30px;
+  /*padding-left: 30px;
+  padding-right: 30px;*/
 }
 
 .navbar-color {
@@ -273,7 +273,7 @@ Layout styles for About page navbar
 
 .about-top-navbar-displayname {
   position: relative;
-  left: 296px;
+  left: 352px;
 }
 
 .about-top-navbar .main-container form input {
@@ -322,7 +322,7 @@ cover/profile image section
   border: 1px solid #333;
   position: absolute;
   bottom: 20px;
-  left: 50px;
+  left: 22px;
 }
 
 .about-links-bar {
@@ -353,3 +353,12 @@ cover/profile image section
   vertical-align: middle;
   font-weight: bold;
 }
+
+
+/*
+========================================
+Layout styles for About page's
+details section
+========================================
+*/
+
