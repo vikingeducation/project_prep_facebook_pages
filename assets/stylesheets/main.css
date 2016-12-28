@@ -273,7 +273,7 @@ Layout styles for About page navbar
 
 .about-top-navbar-displayname {
   position: relative;
-  left: 352px;
+  left: 260px;
 }
 
 .about-top-navbar .main-container form input {
@@ -362,3 +362,40 @@ details section
 ========================================
 */
 
+.about-details-container {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+.about-details-pane-header-bar {
+  height: 48px;
+  width: 100%;
+  background-color: #eee;
+}
+
+.about-details-pane-header-bar h2 {
+  position: relative;
+  left: 420px;
+}
+
+.about-details-edit-profile-button {
+  color: #fff;
+  /*background-color: #4e69a2;*/
+  background-color: #3b5998;
+  border: 1px solid #333;
+  padding: 2px 6px;
+  position: relative;
+  left: 754px;
+}
+
+.left-subcol {
+  width: 40%;
+}
+
+.right-subcol {
+  width: 60%;
+}
+
+.about-details-bottom-section .col-smaller h2 {
+  margin-bottom: 12px;
+}
