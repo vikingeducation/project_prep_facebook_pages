@@ -248,5 +248,48 @@ Layout styles for About page
 */
 
 .about-top-navbar {
+  height: 40px;
+}
 
+.about-top-navbar .main-container img {
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.about-top-navbar .main-container p {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 18px;
+  position: relative;
+  bottom: 2px;
+  color: #fff;
+  margin-top: 4px;
+}
+
+.about-top-navbar .main-container form {
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.about-top-navbar-displayname {
+  position: relative;
+  left: 300px;
+}
+
+.about-top-navbar .main-container form input {
+  position: relative;
+  bottom: 4px;
+  left: 20px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  height: 20px;
+  width: 440px;
+  padding-left: 4px;
+}
+
+.about-navbar-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  top: 4px;
 }
