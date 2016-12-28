@@ -243,7 +243,7 @@ Layout styles for Home page
 
 /*
 ========================================
-Layout styles for About page
+Layout styles for About page navbar
 ========================================
 */
 
@@ -273,7 +273,7 @@ Layout styles for About page
 
 .about-top-navbar-displayname {
   position: relative;
-  left: 300px;
+  left: 296px;
 }
 
 .about-top-navbar .main-container form input {
@@ -292,4 +292,64 @@ Layout styles for About page
   width: 24px;
   position: relative;
   top: 2px;
+}
+
+/*
+========================================
+Layout styles for About page's
+cover/profile image section
+========================================
+*/
+
+.about-cover-profile-container {
+  position: relative;
+  background-color: #fff;
+}
+
+.about-cover-image {
+  /*width: 900px;*/
+  width: 100%;
+  height: 320px;
+  display: block;
+  border: 1px solid #333;
+  border-top: 0;
+}
+
+.about-profile-picture {
+  width: 150px;
+  height: 170px;
+  display: block;
+  border: 1px solid #333;
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+}
+
+.about-links-bar {
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+.about-links-bar-col-1 {
+  width: 20%;
+}
+
+.about-links-bar-col-4,
+.about-links-bar-col-5 {
+  width: 13%;
+}
+
+.about-links-bar-col-6 {
+  width: 35%;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.about-links-bar td {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  height: 40px;
+  vertical-align: middle;
+  font-weight: bold;
 }
