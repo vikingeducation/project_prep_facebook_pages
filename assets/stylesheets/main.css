@@ -88,11 +88,25 @@ body {
   background: linear-gradient(#4e69a2, #3b5998 50%);
 }
 
-/*
-========================================
-Properties for all pages
-========================================
-*/
+.col-bigger {
+  width: 55%;
+}
+
+.col-smaller {
+  width: 45%;
+}
+
+.col-bigger,
+.col-smaller { 
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-bigger,
+.col-smaller {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 .left-margin-1 {
   margin-left: 8px;
@@ -154,26 +168,6 @@ cite, em {
 Layout styles for Home page
 ========================================
 */
-
-.col-left {
-  width: 55%;
-}
-
-.col-right {
-  width: 45%;
-}
-
-.col-left,
-.col-right { 
-  display: inline-block;
-  vertical-align: top;
-}
-
-.col-left,
-.col-right {
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 .homepage-top-navbar {
   height: 100px;
@@ -253,4 +247,6 @@ Layout styles for About page
 ========================================
 */
 
+.about-top-navbar {
 
+}
