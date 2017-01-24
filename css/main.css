@@ -1,0 +1,200 @@
+* {
+    font-family: Tahoma, sans-serif;
+    cursor: default;
+}
+
+
+/*------------------
+  HEADER
+-------------------*/
+
+header {
+    background-color: #3C5A98;
+    color: #fff;
+    font-family: Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    padding-left: 2.5em;
+    font-size: 2.75em;
+    font-weight: 600;
+}
+
+.log-in-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-right: 7em;
+}
+
+.email, .password, .log-in-button {
+    display: inline-block;
+    margin-left: .7em;
+}
+
+.email p, .password p {
+    font-size: .725em;
+    margin-bottom: .5em;
+}
+
+.password a {
+    font-size: .725em;
+    color: #9cb4d8;
+    display: block;
+    text-decoration: none;
+    margin-top: .5em;
+}
+
+.log-in-button {
+    margin-top: 1.1em;
+}
+
+.log-in-button a {
+    border: 1px solid #29487D;
+    background-color: #4267B2;
+    color: #fff;
+    font-size: .725em;
+    text-decoration: none;
+    padding: .3em .5em;
+}
+
+.log-in-button a:hover {
+    background-color: #3C5A98;
+}
+
+.input-width {
+    width: 15em;
+}
+
+
+/*------------------
+  BODY STYLE
+-------------------*/
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: #EDF0F5;
+    height: 100vh;
+}
+
+.left {
+    flex: 1;
+    text-align: center;
+}
+
+.left h1 {
+    font-size: 1.9em;
+    line-height: 1.3em;
+    margin-top: 2em;
+    margin-bottom: 2.1em;
+    margin-left: 3.2em;
+    text-align: left;
+}
+
+.left ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left li {
+    margin-left: 4em;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: left;
+}
+
+.icon-1:before {
+    font-family: 'FontAwesome';
+    font-size: 1.5em;
+    content: '\f03e';
+    margin: 0 10px 0 -15px;
+    color: #9CB4D8;
+}
+
+.icon-2:before {
+    font-family: 'FontAwesome';
+    font-size: 1.5em;
+    content: '\f0e8';
+    margin: 0 10px 0 -15px;
+    color: #9CB4D8;
+}
+
+.icon-3:before {
+    font-family: 'FontAwesome';
+    content: '\f1e1';
+    font-size: 1.5em;
+    margin: 0 10px 0 -15px;
+    color: #9CB4D8;
+}
+
+.right {
+    flex: 1;
+    text-align: left;
+    padding-left: 1em;
+}
+
+.right h1 {
+    font-size: 2em;
+    margin-top: 1em;
+    padding-left: 1em;
+}
+
+.sign-up-form {
+    margin: 1em 0 0 2em;
+}
+
+.sign-up-form input {
+    margin-bottom: 20px;
+    margin-right: 15px;
+    padding: 0 10px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+}
+
+#phone-email, #password, #pw-confirm {
+    width: 76%
+}
+
+.birthday {
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-left: 1.5em;
+    margin-top: 1em;
+    text-align: left;
+}
+.birthday select{
+    margin-top: 1.5em;
+}
+
+.gender input{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: 1em;
+    text-align: left;
+    margin-left: 1.5em;
+}
+
+.create-account {
+  margin-top: 2.5em;
+  margin-left: 2em;
+}
+.create-account a {
+  background: #79bc64;
+  border-radius: 4px;
+  text-shadow: 0px 1px 0px #898a88;
+  box-shadow: 0px 0px 0px #a4e388;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #3b6e22  1px;
+  text-decoration: none;
+}
