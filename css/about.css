@@ -491,3 +491,49 @@ header input:focus {
   color: #D3D6DB;
   outline: none;
 }
+
+.friends-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: #F6F7F9;
+  border: .5px solid #D3D6DB;
+  width: 830px;
+  height: auto;
+  margin-left: 3em;
+  align-items: center;
+  padding: 1.8em 0;
+}
+
+.friend-listing-left, .friend-listing-right {
+  display: flex;
+  width: 48%;
+  flex 1;
+  border: .5px solid #D3D6DB;
+  margin-top: 1em;
+  align-items: center;
+  justify-content: space-between;
+}
+.friend-listing-left p, .friend-listing-right p {
+  color: #36589F;
+  margin-left: -7.8em;
+}
+
+
+
+.friend-listing-left img, .friend-listing-right img{
+    width: 100px;
+    height: 100px;
+}
+
+.friend-listing-left a, .friend-listing-right a {
+  background-color: #F6F7F9;
+  border: .4px solid #D3D6DB;
+  color: #4B4F56;
+  font-size: .8em;
+  height: 25px;
+  text-decoration: none;
+  padding: .5em 1.3em;
+  margin-right: .8em;
+}
