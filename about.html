@@ -1,17 +1,127 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-    <title></title>
+    <title>About</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="css/reset.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-  </head>
+    <link href="css/about.css" rel="stylesheet">
+</head>
 
-  <body>
+<body>
+    <header>
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <div class="searchbox">
+            <input type="text" name="search" value="" autocomplete="off">
+            <a href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+        </div>
+        <div class="user">
+            <div class="usernav">
+                <ul>
+                    <li><img src="img/user.png" alt="user-picture"></li>
+                    <li><a href="#">User</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><i class="fa fa-users left" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-comments" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-globe" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-lock" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
     <main>
-      <h1>hello</h1>
+        <div class="wrapper">
+            <img src="img/old-man.jpg" alt="">
+            <h1>User Name</h1>
+            <div class="info-links">
+                <a href="#">Update Info</a>
+                <a href="#" style="margin-right: 0px; border-radius: 2px 0 0 2px;">View Actvity Log</a>
+                <a href="#" style="border-radius: 0 2px 2px 0;"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+            </div>
+        </div>
+
+        <!--Lower navigation under cover photo-->
+        <div class="lower-nav-bar">
+            <div class="lower-nav-links">
+                <ul>
+                    <li><a href="#">Timeline</a></li>
+                    <li id="selected"><a href="#">About</a></li>
+                    <li><a href="#">Friends</a></li>
+                    <li><a href="#">Photos</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- About section -->
+        <div class="about">
+            <h2><a href="#">About</a></h2>
+        </div>
+        <div class="about-section">
+            <div class="left">
+                <ul>
+                    <li><a href="#" class="link-selected" style="color: #000;">Overview</a></li>
+                    <li><a href="#">Work and Education</a></li>
+                    <li><a href="#">Places You've Lived</a></li>
+                    <li><a href="#">Contact and Basic Info</a></li>
+                    <li><a href="#">Family and Relationships</a></li>
+                    <li><a href="#">Details About You</a></li>
+                    <li><a href="#">Life Events</a></li>
+                </ul>
+            </div>
+            <div class="middle">
+                <div class="plus-box">
+                    <div class="text">
+                        <p>Add a workplace</p>
+                    </div>
+                </div>
+
+                <div class="plus-box">
+                    <div class="text">
+                        <p>Add a school</p>
+                    </div>
+                </div>
+
+                <div class="plus-box">
+                    <div class="text">
+                        <p>Add your current city</p>
+                    </div>
+
+                </div>
+                <div class="plus-box">
+                    <div class="text">
+                        <p>Add your hometown</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="info-right">
+                    <i class="fa fa-mobile" aria-hidden="true"></i>
+                    <div class="person-text">
+                        <p>+1 555 555 5555</p>
+                    </div>
+                </div>
+
+                <div class="info-right">
+                    <i class="fa fa-building-o" aria-hidden="true"></i>
+                    <div class="person-text">
+                        <p>City, State, Country</p>
+                    </div>
+
+                </div>
+                <div class="info-right">
+                    <i class="fa fa-birthday-cake" aria-hidden="true"></i>
+                    <div class="person-text">
+                        <p>May 01 1900</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
-  </body>
+</body>
+
 </html>
