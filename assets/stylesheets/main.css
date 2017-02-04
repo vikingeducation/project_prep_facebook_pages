@@ -59,19 +59,19 @@ Box Sizing
 ==================
 */
 
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /*
 =================
 Home Page Header
 =================
 */
-
- *,
- *:before,
- *:after {
-     -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-           box-sizing: border-box;
- }
 
 .header {
     background-color: #2B78E4;
@@ -86,7 +86,6 @@ Home Page Header
     margin-top: 20px;
     margin-left: 10px;
     font-weight: bold;
-    padding: 5spx;
 }
 
 .login {
@@ -111,6 +110,112 @@ Home Page Header
 
 /*
 ================
-Left Section CSS
+Section CSS
 ================
  */
+
+.section {
+    width: 100%;
+    display: inline-block;
+}
+
+/*
+==================
+Right Content CSS
+==================
+ */
+
+.right-content {
+    float: right;
+    display: block;
+    position: relative;
+    bottom: 230px;
+    margin-right: 60px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.enroll {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.emailbox input{
+    width: 100%;
+}
+
+.newpassword input {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.confirmpassword input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.firstname {
+    display: inline-block;
+}
+
+.firstname input {
+    margin-right: 10px;
+}
+
+.birthday {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.month,
+.day {
+    margin-right: 5px;
+}
+
+.month,
+.day,
+.year {
+    margin-bottom: 12px;
+    color: #A9A9BB;
+}
+
+.radio {
+    margin-bottom: 15px;
+}
+
+.radio input {
+    margin: 0 auto;
+}
+
+.signup {
+    width: 100%;
+    background: #239E0F;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border: 2px solid black;
+    font-weight: bold;
+    box-shadow: 2px 2px black;
+}
+
+/*
+================
+left Section CSS
+================
+ */
+
+.connect {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+
+.connectfriend li {
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 20px;
+    list-style-type: circle;
+    text-indent: 1.4em
+
+}
