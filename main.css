@@ -219,3 +219,179 @@ left Section CSS
     text-indent: 1.4em
 
 }
+
+/*
+===============
+About Page CSS
+===============
+ */
+
+ .header-about {
+     background-color: #2B78E4;
+     height: 50px;
+     color: white;
+     border-bottom: 2px solid black;
+ }
+
+ .header-about h1 {
+     display: inline-block;
+     font-size: 30px;
+     margin-left: 20px;
+     margin-top: 10px;
+     font-weight: bold;
+ }
+
+.search {
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 20px;
+    padding-bottom: 15px;
+
+}
+
+.search input {
+    width: 400%;
+}
+
+.username {
+    display: inline-block;
+    float: right;
+    font-size: 25px;
+    margin-top: 1.2%;
+    margin-right: 10%;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.top-section {
+    border: 2px solid black;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-image: url("pictures/comet.jpg");
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 270px;
+
+}
+
+.top-section p {
+    color: white;
+    position: relative;
+    top: 30%;
+    left: 17%;
+    font-size: 20px;
+}
+
+
+.nav-bar {
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+    display: inline-block;
+    padding: 20px;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+nav {
+    margin-left: 17%;
+    padding-left: 5px;
+
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    border: solid 2px black;
+    height: auto;
+    width: 100px;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: inherit;
+}
+
+nav a:hover {
+    background: lightgrey;
+}
+.edit {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    text-decoration: underline;
+    border: none;
+    color: blue;
+}
+
+img.background {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 58%;
+    left: 2%;
+}
+
+.bottom-header {
+    border: 2px solid black;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10px;
+    background: #EEEEEE;
+    padding: 10px;
+    height: 50px;
+}
+.about{
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50%;
+}
+
+.edit-btn {
+    display: inline-block;
+    float: right;
+    border: 2px solid black;
+    padding: 5px;
+    background: #2B78E4;
+    color: white;
+    box-shadow: 2px 2px black;
+}
+
+.main {
+    margin-right: 10%;
+    margin-left: 10%;
+    border: 2px solid black;
+}
+
+table th {
+    font-weight: bold;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.main h2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.about-me {
+    display: inline-block;
+    margin-left: 50%;
+    position: relative;
+    bottom: 335px;
+}
+
+.about-me h2 {
+    margin-bottom: 3%;
+}
+
+.about-me p {
+    margin-right: 12%;
+    margin-left: 2%;
+}
