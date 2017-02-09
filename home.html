@@ -4,22 +4,20 @@
   <head>
     <link href="./style.css" rel="stylesheet" type="text/css">
     <metadata charset = "utf-8">
-    <title>Welcome to Facebook</title>
+    <title>Welcome to Facenook</title>
   </head>
 
   <body>
 
-    <header>
-      <nav>
-        <h1>Facebook</h1>
+    <header class="top-bar">
+        <h1 class="facenook">Facenook</h1>
         <form id="login-form" method="post">
-          <label for="email">Email</label>
+          <label class="white-text" for="email">Email</label>
           <input name="email" id="email" type="text">
-          <label for="password">Password</label>
+          <label class="white-text" for="password">Password</label>
           <input name="password" id="password" type="password">
           <input type="submit" value="Log In">
         </form>
-      </nav>
     </header>
 
     <main>
@@ -198,7 +196,7 @@
 
         <input type="radio" name="gender" value="female">Female
         <input type="radio" name="gender" value="male">Male
-        <input type="submit" value="Sign Up!">
+        <input type="submit" value="Sign Up!" id="sign-up-button">
       </form>
     </main>
   </body>

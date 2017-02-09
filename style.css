@@ -1,0 +1,20 @@
+.top-bar {
+  background: #056FED;
+  height: auto;
+  position: relative;
+  top: -20px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+#login-form {
+}
+
+.facenook {
+  color: #fff;
+}
+
+.white-text {
+  color: #fff;
+}
