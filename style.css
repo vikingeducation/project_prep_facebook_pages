@@ -1,20 +1,113 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strong, sub, sup, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+  /* font: 100% */
+	font-family: Times, sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* my code below */
 .top-bar {
-  background: #056FED;
-  height: auto;
-  position: relative;
-  top: -20px;
+  background: #066DEE;
+  display: flex;
+  padding: 5px;
+  position: fixed;
   width: 100%;
-  padding-left: 10px;
-  padding-right: 5px;
-}
-
-#login-form {
-}
-
-.facenook {
-  color: #fff;
+  height: 50px;
 }
 
 .white-text {
   color: #fff;
+}
+
+.nook,
+section {
+  padding-left: 100px;
+}
+
+form {
+  padding-right: 100px;
+}
+.home {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  display: inline-block;
+}
+
+.pwd {
+  float: right;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+main {
+  display: flex;
+  padding-top: 60px;
+}
+
+section {
+  width: 66.66%;
+  height: 500px;
+  line-height: 50px;
+  padding-top: 60px;
+  padding-left: auto;
+  padding-right: auto;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  color: #666;
+}
+
+#sign-up-form {
+  width: 33.33%;
+  line-height: 2;
+}
+
+#main-action {
+  font-size: 50px;
 }

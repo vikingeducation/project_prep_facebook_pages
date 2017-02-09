@@ -3,20 +3,24 @@
 
   <head>
     <link href="./style.css" rel="stylesheet" type="text/css">
-    <metadata charset = "utf-8">
+
     <title>Welcome to Facenook</title>
   </head>
 
-  <body>
+  <body class="clearfix">
 
-    <header class="top-bar">
-        <h1 class="facenook">Facenook</h1>
+    <header class="top-bar home">
+        <h1 class="nook white-text">Facenook</h1>
         <form id="login-form" method="post">
-          <label class="white-text" for="email">Email</label>
-          <input name="email" id="email" type="text">
-          <label class="white-text" for="password">Password</label>
-          <input name="password" id="password" type="password">
-          <input type="submit" value="Log In">
+          <div class="login email">
+            <label class="white-text" for="email">Email</label><br>
+            <input name="email" id="email" type="text">
+          </div>
+          <div class="login pwd">
+            <label class="white-text" for="password">Password</label><br>
+            <input name="password" id="password" type="password">
+            <input type="submit" value="Log In" style="background:#96C2FE">
+          </div>
         </form>
     </header>
 
@@ -33,7 +37,7 @@
       </section>
 
       <form id="sign-up-form" method="post">
-        <h1>Sign up!</h1>
+        <h1 id="main-action">Sign up!</h1>
         <input type="text" value="First Name">
         <input type="text" value="Last Name">
         <input type="text" value="Email">
