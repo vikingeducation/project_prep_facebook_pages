@@ -109,6 +109,10 @@ aside {
     order: -1;
 }
 
+#first-name, #last-name {
+    width: 50%;
+}
+
 .visually-hidden {
     display: none;
 }
