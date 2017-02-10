@@ -54,9 +54,22 @@ html {
   font-size: 16px;
 }
 
+nav {
+    display:flex;
+    justify-content: space-between;
+}
+
+main {
+    display:flex;
+}
+
 li {
   margin-left: 20px;
   list-style: disc;
+}
+
+aside {
+    order: -1;
 }
 
 .visually-hidden {
