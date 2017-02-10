@@ -71,6 +71,15 @@ main {
     display:flex;
 }
 
+form {
+    display: flex;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
 li {
   margin-left: 20px;
   list-style: disc;
