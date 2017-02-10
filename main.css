@@ -87,7 +87,7 @@ form {
     display: flex;
 }
 
-form > div {
+#sign-up form > div {
     width: 100%;
 }
 
