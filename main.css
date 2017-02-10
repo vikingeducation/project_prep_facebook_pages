@@ -71,6 +71,18 @@ main {
     display:flex;
 }
 
+main > aside {
+    width: 70%;
+}
+
+main > section {
+    width: 30%;
+}
+
+#sign-up form {
+    flex-wrap: wrap;
+}
+
 form {
     display: flex;
 }
