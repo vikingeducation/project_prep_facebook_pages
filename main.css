@@ -59,6 +59,14 @@ nav {
     justify-content: space-between;
 }
 
+nav label {
+    display: block;
+}
+
+nav .button {
+    align-self: flex-end;
+}
+
 main {
     display:flex;
 }
