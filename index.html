@@ -49,19 +49,25 @@
                         <label for="password-confirm" class="visually-hidden">Confirm Password</label>
                         <input type="password" id="password-confirm" name="password-confirm" placeholder="Confirm Your Password"/>
                     </div>
-                    <div>Birthday
-                        <label for="year" class="visually-hidden">Year</label>
-                        <select id="year" name="year">
-                            <option></option>
-                        </select>
-                        <label for="month" class="visually-hidden">Month</label>
-                        <select id="month" name="month">
-                            <option></option>
-                        </select>
-                        <label for="day" class="visually-hidden">Day</label>
-                        <select id="day" name="day">
-                            <option></option>
-                        </select>
+                    <div>
+                        <fieldset>
+                            <legend>Birthday</legend>
+                            <label for="year" class="visually-hidden">Year</label>
+                            <select id="year" name="year">
+                                <option value="" disabled selected>Year</option>
+                                <option></option>
+                            </select>
+                            <label for="month" class="visually-hidden">Month</label>
+                            <select id="month" name="month">
+                                <option value="" disabled selected>Month</option>
+                                <option></option>
+                            </select>
+                            <label for="day" class="visually-hidden">Day</label>
+                            <select id="day" name="day">
+                                <option value="" disabled selected>Day</option>
+                                <option></option>
+                            </select>
+                        </fieldset>
                     </div>
                     <div>
                         <ul>
