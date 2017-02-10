@@ -72,11 +72,11 @@ main {
 }
 
 main > aside {
-    width: 70%;
+    width: 60%;
 }
 
 main > section {
-    width: 30%;
+    width: 40%;
 }
 
 #sign-up form {
@@ -107,6 +107,11 @@ li {
 
 aside {
     order: -1;
+}
+
+aside ul, #sign-up form{
+    width: 80%;
+    margin: 0 auto;
 }
 
 #first-name, #last-name {
