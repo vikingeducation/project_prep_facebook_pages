@@ -59,6 +59,10 @@ li {
   list-style: disc;
 }
 
+.visually-hidden {
+    display: none;
+}
+
 
 
 @media (min-width: 990px) {
