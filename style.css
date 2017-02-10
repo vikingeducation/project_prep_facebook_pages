@@ -47,6 +47,11 @@ table {
 	border-spacing: 0;
 }
 /* my code below */
+main {
+	width: 1024px;
+	margin: 0 auto;
+}
+
 .top-bar {
   background: #066DEE;
   display: flex;
@@ -54,33 +59,31 @@ table {
   position: fixed;
   width: 100%;
   height: 50px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .white-text {
   color: #fff;
 }
 
-.nook,
-.home-benefits {
-  padding-left: 100px;
-}
-
-form {
-  padding-right: 100px;
-}
-.home {
-  justify-content: space-between;
-  align-items: center;
-}
-
 .login {
   display: inline-block;
+}
+
+#email,
+#password {
+	width: 150px;
 }
 
 .pwd {
   float: right;
   padding-left: 20px;
-  padding-right: 20px;
+  margin-right: 150px;
+}
+
+.nook {
+		margin-left: 130px;
 }
 
 main {
@@ -93,8 +96,8 @@ main {
   height: 500px;
   line-height: 50px;
   padding: 60px auto;
-	margin: 100px 50px;
 	letter-spacing: 2px;
+	margin-top: 100px;
 }
 
 ul {
@@ -123,8 +126,9 @@ ul {
 .smaller-input-box {
 	width: 45%;
 }
+
  #first-name-box {
-	 margin-right: 19px;
+	 margin-right: 14px;
  }
 
 #birthday {
@@ -139,4 +143,9 @@ ul {
 	height: auto;
 	font-size: 20px;
 	border: 2px solid black;
+}
+
+/* about page code */
+.html {
+	max-width: 1024px;
 }

@@ -3,40 +3,46 @@
 
   <head>
     <link href="./style.css" rel="stylesheet" type="text/css">
-    <metadata charset = "utf-8">
     <title>Welcome to Facenook</title>
   </head>
 
-  <body>
+  <body class="about-body">
 
     <header class="top-bar about">
+      <div class="left-top">
         <img href="./cat.jpg" style="height:10px; width:10px;">
         <h1 class="facenook white-text">Facenook</h1>
+      </div>
         <input class="search-bar" type="text" value="Search for Users">
+      <div class="right-top">
         <img href="./cat.jpg" style="height:10px; width:10px;">
         <div class="white-text">Your Name</div>
+      </div>
     </header>
 
-    <main>
+    <main class="main-about">
 
-      <article>
-        <img href="./blooming_flower_garden_199003.jpg" style="height: 100px; width:100px;">
-        <img href="./cat.jpg" style="height: 20px; width: 20px;">
-        <h1>Cat Doe</h1>
-        <nav>
+      <article class="top-main-section">
+        <img id="cover-photo" href="./blooming_flower_garden_199003.jpg" style="height:250px; width:990px">
+        <nav class="timeline-links">
           <ul>
-            <li>Timeline</li>
-            <li>About</li>
-            <li>Photos (213)</li>
-            <li>Friends (234)</li>
+            <li class="first-link link">Timeline</li>
+            <li class="link">About</li>
+            <li class="link">Photos (213)</li>
+            <li class="link">Friends (234)</li>
+            <li class="edit-profile-link"><a href="profile.html">Edit Profile</a></li>
           </ul>
-          <a href="profile.html">Edit Profile</a>
         </nav>
       </article>
 
-      <section class="information-section">
+      <div class="name-pic-block">
+        <img id="profile-picture"href="./cat.jpg" style="height: 200px; width: 200px;">
+        <h1 id="profile-name">Cat Doe</h1>
+      </div>
 
-        <header>
+      <section class="info-section">
+
+        <header class="about-heading">
           <h1>About</h1>
           <input class="white-text" type="submit" value="Edit your Profile">
         </header>
