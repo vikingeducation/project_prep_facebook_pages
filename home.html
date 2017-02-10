@@ -26,7 +26,7 @@
 
     <main>
 
-      <section>
+      <section class="home-benefits">
         <h1>Connect with all your friends!</h1>
         <ul>
           <li><strong>See photos and updates</strong> in your news feed.</li>
@@ -37,13 +37,14 @@
       </section>
 
       <form id="sign-up-form" method="post">
-        <h1 id="main-action">Sign up!</h1>
-        <input type="text" value="First Name">
-        <input type="text" value="Last Name">
-        <input type="text" value="Email">
-        <input type="password" value="Your New Password">
-        <input type="password" value="Confirm Your Password">
-        <label for="birthday">Birthday</label>
+        <h1 id="main-action">Sign up</h1>
+        <div class="form-elements">
+        <input id="first-name-box" class="smaller-input-box" type="text" value="First Name">
+        <input class="smaller-input-box" type="text" value="Last Name">
+        <input class="wide-box" type="text" value="Email"><br>
+        <input class="wide-box" type="password" value="Your New Password"><br>
+        <input class="wide-box" type="password" value="Confirm Your Password"><br>
+        <label id="birthday" for="birthday"><strong>Birthday</strong></label><br>
 
         <select name="Month">
           <option value="Month">Month</option>
@@ -196,11 +197,12 @@
         	<option value="1922">1922</option>
         	<option value="1921">1921</option>
         	<option value="1920">1920</option>
-        </select>
+        </select><br>
 
         <input type="radio" name="gender" value="female">Female
-        <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="male">Male<br>
         <input type="submit" value="Sign Up!" id="sign-up-button">
+      </div>
       </form>
     </main>
   </body>

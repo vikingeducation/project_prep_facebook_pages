@@ -61,7 +61,7 @@ table {
 }
 
 .nook,
-section {
+.home-benefits {
   padding-left: 100px;
 }
 
@@ -88,13 +88,13 @@ main {
   padding-top: 60px;
 }
 
-section {
+.home-benefits {
   width: 66.66%;
   height: 500px;
   line-height: 50px;
-  padding-top: 60px;
-  padding-left: auto;
-  padding-right: auto;
+  padding: 60px auto;
+	margin: 100px 50px;
+	letter-spacing: 2px;
 }
 
 ul {
@@ -105,9 +105,38 @@ ul {
 
 #sign-up-form {
   width: 33.33%;
-  line-height: 2;
 }
 
 #main-action {
   font-size: 50px;
+	padding: 30px 0;
+}
+
+.form-elements {
+	line-height: 2.5;
+}
+
+.wide-box {
+	width: 100%;
+}
+
+.smaller-input-box {
+	width: 45%;
+}
+ #first-name-box {
+	 margin-right: 19px;
+ }
+
+#birthday {
+	font-size: 20px;
+	padding-bottom: 3px;
+}
+
+#sign-up-button {
+	background: #00A600;
+	color: #fff;
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	border: 2px solid black;
 }
