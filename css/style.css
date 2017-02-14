@@ -1,0 +1,35 @@
+/*
+-----------------------------------
+HEADER
+-----------------------------------
+*/
+#header-holder {
+	height: 82px;
+	background: #3B5998;
+
+}
+
+body {
+	background: #FCFCFD;
+}
+ 
+#container {
+	background: red;
+	width: 980px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+/*
+-----------------------------------
+FRAME
+-----------------------------------
+*/
+.col-left {
+	width: 580px;
+	
+}
+.col-right {
+	width: 400px;
+	float: right;
+}
