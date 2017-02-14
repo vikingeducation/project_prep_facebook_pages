@@ -67,6 +67,7 @@ table {
   height: 50px;
   justify-content: space-between;
   align-items: center;
+	z-index: 2;
 }
 
 .white-text {
@@ -184,7 +185,8 @@ ul {
 
 .bar,
 .link,
-.time-link-links {
+.time-link-links,
+.friend-summary {
 		border: 1px solid black;
 }
 
@@ -195,6 +197,7 @@ ul {
 	left: 20px;
 	width: 400px;
 	height: 200px;
+	z-index: 1;
 }
 
 #profile-pic,
@@ -221,13 +224,38 @@ ul {
 
 .about {
 	clear: both;
+	*zoom: 1;
 }
 */
+
+.blue-bar {
+	display: block;
+	width: 100%;
+	padding-left: 180px;
+}
+
 .about-heading,
 .left-side,
-.right-side {
+.right-side,
+.far-right,
+.far-left,
+.right-top,
+.left-top {
 	display: inline-block;
+}
 
+.search-bar {
+	width: 550px;
+	height: 20px;
+	margin-left: 40px;
+	margin-right: 150px;
+}
+
+.left-top,
+.right-top,
+.search-bar {
+	vertical-align: middle;
+	margin-top: 10px;
 }
 
 .about-title {
@@ -243,7 +271,7 @@ ul {
 
 .bar {
 	background-color: #EEEEEE;
-	margin-bottom: 70px;
+	margin-bottom: 40px;
 }
 .left-side {
 	width: 40%;
@@ -273,6 +301,11 @@ ul {
 .heading {
 	font-size: 25px;
 	text-align: left;
+	letter-spacing: 2px;
+}
+
+.about-me {
+	margin-top: 20px;
 }
 
 td {
@@ -284,4 +317,16 @@ td {
 }
 .info-section {
 	height: auto;
+}
+/*
+ below code for friend page
+*/
+
+.friend-summary {
+	width: calc(50% - 15px);
+	display: inline-block;
+}
+
+.friend-bar {
+	margin-bottom: 30px;
 }
