@@ -20,11 +20,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
   /* font: 100% */
-<<<<<<< HEAD
 	font-family: 'Pangolin', cursive;
-=======
-	font-family: Times, sans-serif;
->>>>>>> 39f6a7d3892f9b4dc524cb6ef083a256ffb674c7
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -50,7 +46,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-<<<<<<< HEAD
 
 
 /* my code below */
@@ -63,14 +58,9 @@ table {
 	margin-right: auto;
 }
 */
-=======
-/* my code below */
-main {
-	width: 1024px;
-	margin: 0 auto;
-}
 
->>>>>>> 39f6a7d3892f9b4dc524cb6ef083a256ffb674c7
+/* my code below */
+
 .top-bar {
   background: #066DEE;
   display: flex;
@@ -80,23 +70,13 @@ main {
   height: 50px;
   justify-content: space-between;
   align-items: center;
-<<<<<<< HEAD
 	z-index: 2;
-=======
->>>>>>> 39f6a7d3892f9b4dc524cb6ef083a256ffb674c7
 }
 
 .white-text {
   color: #fff;
 }
 
-<<<<<<< HEAD
-=======
-.login {
-  display: inline-block;
-}
-
->>>>>>> 39f6a7d3892f9b4dc524cb6ef083a256ffb674c7
 #email,
 #password {
 	width: 150px;
@@ -246,7 +226,7 @@ ul {
 .blue-bar {
 	display: block;
 	width: 100%;
-	padding-left: 180px;
+	padding-left: 140px;
 }
 
 .about-heading,
@@ -268,7 +248,7 @@ ul {
 	width: 550px;
 	height: 20px;
 	margin-left: 40px;
-	margin-right: 150px;
+	margin-right: 220px;
 }
 
 .left-top,
