@@ -3,28 +3,31 @@
 
   <head>
     <link href="./style.css" rel="stylesheet" type="text/css">
-    <metadata charset = "utf-8">
-    <title>Welcome to Facebook</title>
+    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+
+    <title>Welcome to Facenook</title>
   </head>
 
   <body>
 
-    <header>
-      <nav>
-        <h1>Facebook</h1>
+    <header class="top-bar home">
+        <h1 class="nook white-text">Facenook</h1>
         <form id="login-form" method="post">
-          <label for="email">Email</label>
-          <input name="email" id="email" type="text">
-          <label for="password">Password</label>
-          <input name="password" id="password" type="password">
-          <input type="submit" value="Log In">
+          <div class="login email">
+            <label class="white-text" for="email">Email</label><br>
+            <input name="email" id="email" type="text">
+          </div>
+          <div class="login pwd">
+            <label class="white-text" for="password">Password</label><br>
+            <input name="password" id="password" type="password">
+            <input type="submit" value="Log In" style="background:#96C2FE">
+          </div>
         </form>
-      </nav>
     </header>
 
-    <main>
+    <main class="main">
 
-      <section>
+      <section class="home-benefits">
         <h1>Connect with all your friends!</h1>
         <ul>
           <li><strong>See photos and updates</strong> in your news feed.</li>
@@ -35,13 +38,14 @@
       </section>
 
       <form id="sign-up-form" method="post">
-        <h1>Sign up!</h1>
-        <input type="text" value="First Name">
-        <input type="text" value="Last Name">
-        <input type="text" value="Email">
-        <input type="password" value="Your New Password">
-        <input type="password" value="Confirm Your Password">
-        <label for="birthday">Birthday</label>
+        <h1 id="main-action">Sign up</h1>
+        <div class="form-elements">
+        <input id="first-name-box" class="smaller-input-box" type="text" value="First Name">
+        <input class="smaller-input-box" type="text" value="Last Name">
+        <input class="wide-box" type="text" value="Email"><br>
+        <input class="wide-box" type="password" value="Your New Password"><br>
+        <input class="wide-box" type="password" value="Confirm Your Password"><br>
+        <label id="birthday" for="birthday"><strong>Birthday</strong></label><br>
 
         <select name="Month">
           <option value="Month">Month</option>
@@ -194,11 +198,12 @@
         	<option value="1922">1922</option>
         	<option value="1921">1921</option>
         	<option value="1920">1920</option>
-        </select>
+        </select><br>
 
         <input type="radio" name="gender" value="female">Female
-        <input type="radio" name="gender" value="male">Male
-        <input type="submit" value="Sign Up!">
+        <input type="radio" name="gender" value="male">Male<br>
+        <input type="submit" value="Sign Up!" id="sign-up-button">
+      </div>
       </form>
     </main>
   </body>

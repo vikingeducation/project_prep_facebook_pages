@@ -154,17 +154,134 @@ ul {
 /* about page code */
 
 .top-main-section {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	height: 460px;
 }
 
 .timeline-links {
-	width: 990px;
-	padding: 10px;
+	width: 1024px;
+	text-align: center;
+	table-layout: fixed;
+}
 
+.empty,
+.edit-profile-link {
+	width: 25%;
 }
 
 .edit-profile-link {
 	text-align: right;
+	vertical-align: middle;
+}
+
+#cover-photo {
+	margin-top: 60px;
+}
+
+.link {
+	vertical-align: middle;
+	padding: 20px 10px;
+}
+
+.bar,
+.link,
+.time-link-links {
+		border: 1px solid black;
+}
+
+.name-pic-block {
+	position: relative;
+	display: inline-block;
+	top: -240px;
+	left: 20px;
+	width: 400px;
+	height: 200px;
+}
+
+#profile-pic,
+#profile-name {
+	display: inline-block;
+}
+
+#profile-name {
+	height: 80px;
+	vertical-align: bottom;
+	margin-left: 10px;
+	font-size: 35px;
+}
+/* when this is active helps the layout of the nav bar- but should probably find a better way to fix the nav bar
+.about:before,
+.about:after {
+	content: "";
+	display: table;
+}
+
+.about:after {
+	clear: both;
+}
+
+.about {
+	clear: both;
+}
+*/
+.about-heading,
+.left-side,
+.right-side {
+	display: inline-block;
+
+}
+
+.about-title {
+	width: 87%;
+	text-align: center;
+	font-size: 30px;
+	margin: 5px 0px;
+}
+
+.edit {
+	background-color: #0A6DED;
+}
+
+.bar {
+	background-color: #EEEEEE;
+	margin-bottom: 70px;
+}
+.left-side {
+	width: 40%;
+	height: auto;
+}
+
+.right-side {
+	width: 53%;
+}
+
+.right-side,
+.left-side {
+		vertical-align: top;
+		line-height: 1.5;
+}
+
+.heading,
+#first-table {
+	margin-bottom: 20px;
+}
+
+#first-table,
+#second-table {
+	width: 100%;
+}
+
+.heading {
+	font-size: 25px;
+	text-align: left;
+}
+
+td {
+	height: 30px;
+}
+
+.bold {
+	font-weight: bold;
+}
+.info-section {
+	height: auto;
 }
