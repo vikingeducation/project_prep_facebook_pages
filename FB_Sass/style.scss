@@ -1,0 +1,332 @@
+@import "colors", "sassreset";
+
+$main-border: 1px solid black;
+$quarter-width: 25%;
+
+.about-heading,
+.left-side,
+.right-side,
+.far-right,
+.far-left,
+.right-top,
+.left-top,
+.friend-name,
+.friend-summary input,
+.login,
+#profile-pic,
+#profile-name,
+.name-pic-block,
+#sign-up-form   {
+	display: inline-block;
+}
+
+.form-elements,
+.top-bar,
+#sign-up-button,
+.timeline-links,
+.blue-bar,
+#first-table,
+#second-table {
+  width: 100%;
+}
+
+.white-text {
+  color: $whitetext;
+}
+
+.top-bar {
+  background: $primary-color;
+  display: flex;
+  padding: 5px;
+  position: fixed;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+	z-index: 2;
+}
+
+#email,
+#password {
+  width: 150px;
+}
+
+.pwd {
+  float: right;
+  padding-left: 20px;
+  margin-right: 150px;
+}
+
+.nook {
+		margin-left: 130px;
+}
+
+.nook,
+.home-benefits h1 {
+  font-size: 40px;
+}
+
+.home-benefits {
+  height: 400px;
+  line-height: 50px;
+	padding: 10px auto;
+	letter-spacing: 2px;
+	display: inline-block;
+	width: $quarter-width*2;
+	vertical-align: top;
+	margin-top: 150px;
+	margin-left: 80px;
+
+  ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  color: $darker-grey;
+}
+
+}
+
+#sign-up-form {
+  width: 33.33%;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+#main-action {
+  font-size: 50px;
+	padding: 30px 0;
+}
+
+.form-elements {
+	line-height: 2.5;
+}
+
+.wide-box {
+	width: 99%;
+}
+
+.smaller-input-box {
+	width: 45%;
+}
+
+#first-name-box {
+  margin-right: 30px;
+}
+
+#birthday {
+ font-size: 20px;
+ padding-bottom: 3px;
+}
+
+#sign-up-button {
+	background: $primary-color;
+	color: $whitetext;
+	height: auto;
+	font-size: 20px;
+	border: $main-border;
+}
+
+/* about page code */
+
+.about-bar {
+	margin-bottom: 40px;
+}
+
+.top-main-section {
+	height: 460px;
+}
+
+.top-main-section,
+.bar,
+.friend-container,
+#cover-photo,
+.info-section {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.timeline-links {
+	text-align: center;
+	table-layout: fixed;
+
+  td {
+    vertical-align: middle;
+  	padding: 20px 10px;
+  }
+}
+
+.link,
+.edit-profile-link {
+  width: $quarter-width;
+}
+
+.edit-profile-link {
+  text-align: right;
+	vertical-align: middle;
+}
+
+#cover-photo {
+	margin-top: 60px;
+}
+
+.bar,
+.link,
+.time-link-links,
+.friend-summary,
+.friend-container {
+		border: $main-border;
+  }
+
+.name-pic-block {
+	position: relative;
+	top: -240px;
+	left: 20px;
+	width: 400px;
+	height: 200px;
+	z-index: 1;
+}
+
+#profile-name {
+	height: 80px;
+	vertical-align: bottom;
+	margin-left: 10px;
+	font-size: 35px;
+}
+
+.blue-bar {
+	display: block;
+	padding-left: 140px;
+}
+
+.search-bar {
+	width: 550px;
+	height: 20px;
+	margin-left: 40px;
+	margin-right: 220px;
+}
+
+.left-top,
+.right-top,
+.search-bar {
+	vertical-align: middle;
+	margin-top: 10px;
+}
+
+.about-title {
+	width: 87%;
+}
+
+.about-title,
+.friends-title {
+	text-align: center;
+	font-size: 30px;
+	margin: 5px 0px;
+}
+
+.edit {
+	background-color: $primary-color;
+	position: relative;
+	top: -5px;
+	right: -10px;
+}
+
+.bar,
+.about-link,
+.friend-link  {
+	background-color: $light-grey;
+}
+.about-link,
+.friend-link {
+	margin-bottom: 40px;
+}
+
+.info-section {
+	height: auto;
+}
+
+.left-side {
+  @extend .info-section;
+	width: 40%;
+	margin-left: 50px;
+}
+
+.right-side {
+	width: 53%;
+}
+
+.right-side,
+.left-side {
+		vertical-align: top;
+		line-height: 1.5;
+}
+
+.heading,
+#first-table {
+	margin-bottom: 20px;
+}
+
+.heading {
+	font-size: 25px;
+	text-align: left;
+	letter-spacing: 2px;
+}
+
+.about-me {
+	margin-top: 20px;
+}
+
+td {
+	height: 30px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/*
+ below code for friend page
+*/
+
+.friend-container {
+	border-spacing: 20px 20px;
+	border-collapse: separate;
+}
+
+.friend-summary {
+	padding: 10px;
+
+  img {
+  	margin-top: 30px;
+  	margin-bottom: 30px;
+  	margin-left: 20px;
+  }
+
+  input {
+  	position: relative;
+  	bottom: 110px;
+  	left: 50px;
+  	width: 150px;
+  	font-size: 16px;
+  	background: $light-grey;
+  }
+
+  a {
+  	font-size: 20px;
+  	letter-spacing: 1px;
+  }
+
+  p {
+  	font-size: 18px;
+  	color: $light-grey;
+  }
+}
+
+.friend-bar {
+	margin-bottom: 5px;
+}
+
+.friend-name {
+	position: relative;
+	bottom: 90px;
+	left: 20px;
+	line-height: 1.5;
+}
