@@ -1,0 +1,96 @@
+/*
+  ===================
+  Clearfix
+  ===================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ===================
+  Positioning
+  ===================
+*/
+
+body {
+  
+}
+
+header {
+
+}
+
+main {
+
+}
+
+#description {
+
+}
+
+#cta {
+
+}
+
+/*
+  ===================
+  Typography
+  ===================
+*/
+
+body {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+header {
+
+}
+
+#main-title {
+
+}
+
+/*
+  ===================
+  Additional Styles
+  ===================
+*/
+
+li {
+
+}
+
+input[name="submit"] {
+
+}
+
+input[name="signup"] {
+
+}
