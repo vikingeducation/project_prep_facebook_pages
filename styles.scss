@@ -1,26 +1,43 @@
-header {
+body {
+	margin: 0;
+	padding: 0;
+}
+.header {
 	background: #2B78E4;
 	height: 150px;
-}
-.title-bar {
-	padding-top: 1px;
+	display: block;
 }
 
-
-
-.nav-form {
-	
-
-}
-
-.face {
+.name {
+	float: left;
 	color: #ffffff;
-	font-weight: 100;
-	padding-left: 60px;
-	float:left;
-	font-size: 71px
 }
 
-.login-form {
+.menu-login {
+	float:right;
+}
+
+.column-1 {
+	float: left;
+}
+
+.column-2 {
 	float: right;
 }
+
+.email-btn {
+	width: 377px;
+}
+
+.email-2-btn {
+	width: 377px;
+}
+
+.email-3-btn {
+	width: 377px;
+}
+
+label {
+	color: #ffffff;
+}
+

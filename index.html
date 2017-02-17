@@ -6,45 +6,84 @@
     	<link rel="stylesheet" href="styles.scss">
     </head>
     <body>
-    <div class=header-container>
-    	<header class=title-bar>
-    		
-    		<div class="nav-form">
-    		<h1 class="face">Facelook</h1>
-    			<form class="nav-form">
-    				<table class="login-form">
-    					<tr>
-    						<td>
-    							<label> email</label>
+ 		<div class="header">
+ 			<div class="name">
+ 				<h1>facelook</h1>
+ 			</div>
+ 			<div class="menu-login">
+ 				<form class="login-form">
+ 					<table>
+ 						<tbody>
+							<tr>
+								<td>
+									<label for="email">Email
+									</label>
+								</td>
+								<td>
+									<label for="password">Password</label>
+								</td>
+							</tr>
+							<tr>
+								<td id="email">
+									<input type="email" name="email">
+								</td>
+								<td id="password">
+									<input type="password" name="password">
+								</td>
+								<td>		
+          						 <button class="btn" type="submit">Login</button>
+        						
+								</td>
 
-    						</td>
-    						<td> 
-    							<label>password</label>
-    						</td>
-    					</tr>
-    					<tr>
-    						<td>
-    							<input type="password">
-    						</td>
-    						<td>
-    							<input type="email">
-    						</td>
-    						<td>
-    							 <button class="btn" type="submit">Login</button>
-    						</td>
-    					</tr>
-    					
-    				</table>
-    			</form>
-    		</div>
-    		    	</div>
-    		    	</div>
-    	</header>
+							</tr>
+							<tr></tr>	
+ 						</tbody>
+ 					</table>
+ 					
+ 				</form>
+ 			</div>
+ 		</div>
+ 		<div class="main-content-container">
+ 			<div class="column-1">
+ 				<h2>Connect with all your friends</h2>
+ 				<div>
+ 					<ul>
+ 						<li>
+ 							<p>See photos and updates in your news feed</p>
+ 						</li>
+ 						<li>
+ 							<p>
+ 								Post your status for the world to see from your profile
+ 							</p>
+ 						</li>
+ 					</ul>
+ 				</div>
+ 			</div>
+ 			<div class= column-2>
+ 				<div>
+ 					<h1>Sign up</h1>
+ 					<form>
+ 						<div>
+ 							<input placeholder="First Name">
+ 							<input placeholder="Last Name">
+ 						</div>
+ 						<div>
+ 							<input class="email-btn" placeholder="Your Email">
+ 						</div>
+ 						<div>
+ 							<input class="email-2-btn" placeholder="Your New Password">
+ 						</div>
+ 						<div>
+ 							<input class="email-3-btn"placeholder="Confirm Your Password">
+ 						</div>
 
-    	<section>
-    		<div class="main-content"></div>
+ 						<div>
+ 							<button class="signup-btn">Sign Up</button>
+ 						</div>
+ 					</form>
 
-    		<div class="signup"></div>
-    	</section>
+ 				</div>
+ 			</div>
+ 		</div>
     </body>
 </html>
