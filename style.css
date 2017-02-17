@@ -6,7 +6,6 @@ HEADER
 #header{
 	height: 82px;
 	background: #3B5998;
-
 }
 
 body {
@@ -25,6 +24,10 @@ TYPOGRAPHY
 	font-size: 48px;
 	color: white;
 	width: auto;
+	font-weight: 600;
+	position: absolute;
+	top: 25%
+
 }
 
 .headline-right {
@@ -67,6 +70,9 @@ FRAME
 .header-container {
 	width: 980px;
 	margin: 0 auto;
+	height: 82px;
+	position: relative;
+
 }
 
 .col-left {
@@ -112,8 +118,21 @@ FORM STYLING
 	font-size: 11px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	line-height: 1.4;
 }
 
 .gender {
 	padding-top: 15px;
 }
+
+/*
+-----------------------------------------
+SIGNUP FORM
+-----------------------------------------
+*/
+
+.signup-form {
+	float: right;
+	position: absolute;
+	top: 35%;
+	right: 0%;
