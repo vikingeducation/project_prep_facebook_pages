@@ -23,24 +23,50 @@
   ===================
 */
 
+html,
 body {
-  
+  height: auto;
+  width: auto;
 }
 
 header {
+  height: 50px;
+  width: auto;
+  padding: 1%;
+}
 
+#main-title {
+  float: left;
+  width: 63%;
+  margin-left: 1.5%;
+  line-height: 50px;
+}
+
+#login {
+  float: right;
+  width: 30%;
+  margin-right: 3%;
+  line-height: 50px;
+}
+
+#login > label {
+  line-height: normal;
 }
 
 main {
-
+  margin: 0 5%;
 }
 
 #description {
-
+  float: left;
+  width: 63%;
+  margin: 75px 1.5% 0 1.5%;
 }
 
 #cta {
-
+  float: right;
+  width: 30%;
+  margin: 15px 1.5% 0 1.5%;
 }
 
 /*
@@ -50,31 +76,71 @@ main {
 */
 
 body {
-
-}
-
-h1 {
-
-}
-
-h2 {
-
-}
-
-h3 {
-
-}
-
-p {
-
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
 }
 
 header {
+  color: #fff;
+}
 
+h1 {
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+
+label {
+  display: inline-block;
+  font-size: small;
+}
+
+label.bold {
+  font-size: 16px;
+  font-weight: 600;
+  margin: .5em 0em;
+  display: block;
+}
+
+label > select {
+  display: inline-block;
+  margin: .5em;
 }
 
 #main-title {
+  padding: 0;
+}
 
+#cta > h1 {
+  margin-bottom: 15px;
+}
+
+input {
+  margin: 0 1em 1em 0;
+}
+
+input[name="gender"] {
+  margin-right: 1em;
+}
+
+input[name="login-email"],
+input[name="login-password"],
+input[name="signup"] {
+  margin-top: .5em;
+}
+
+.selector {
+  margin: 0 1em 0 0;
+}
+
+input[name="email"],
+input[name="password"],
+input[name="confirm-password"], {
+  display: block;
+  width: inherit;
+}
+
+input[name="signup"] {
+  display: block;
 }
 
 /*
@@ -83,12 +149,18 @@ header {
   ===================
 */
 
+header {
+  background-color: #3b5998;
+  border-style: solid;
+  border-bottom: 1em;
+}
+
 li {
 
 }
 
 input[name="submit"] {
-
+  box-shadow:
 }
 
 input[name="signup"] {

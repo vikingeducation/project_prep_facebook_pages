@@ -2,28 +2,31 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" type="text/css" href="index.css">
     <title>Welcome to Facelook</title>
   </head>
 
   <body>
     <header>
-      <h1 id="main-title">Facelook</h1>
-      <form id="login" action="/login" method="post">
-        <label>Email
-          <input type="email" name="email">
-        </label>
-        <label>Password
-          <input type="password" name="password">
-        </label>
-        <input type="submit" name="submit" value="Log In">
-      </form>
+      <div class="group">
+        <h1 id="main-title">Facelook</h1>
+        <form id="login" action="/login" method="post">
+          <label id="login-email">Email<br>
+            <input type="email" name="login-email">
+          </label>
+          <label id="login-password">Password<br>
+            <input type="password" name="login-password">
+          </label>
+          <input type="submit" name="submit" value="Log In">
+        </form>
+      </div>
     </header>
 
     <main>
       <div class="group">
         <section id="description">
-          <h2>Connect with all your friends!</h2>
+          <h1>Connect with all your friends!</h1>
           <ul>
             <li>See photos and updates in your news feed</li>
             <li>Post your status for the world to see from your profile</li>
@@ -32,21 +35,21 @@
           </ul>
         </section>
         <section id="cta">
-          <h2 class="large">Sign Up</h2>
+          <h1>Sign Up</h1>
           <form id="create-account" action="/signup" method="post">
             <input type="text" name="fname" placeholder="First Name">
             <input type="text" name="lname" placeholder="Last Name">
             <input type="email" name="email" placeholder="Your Email">
             <input type="password" name="password" placeholder="Your New Password">
             <input type="password" name="confirm-password" placeholder="Confirm Your Password">
-            <h3>Birthday</h3>
+            <label id="birthday" class="bold">Birthday<br>
               <select name="birth-month" placeholder="Month">
                 <option value="January">January</option>
               	<option value="Febuary">Febuary</option>
               	<option value="March">March</option>
               	<option value="April">April</option>
               	<option value="May">May</option>
-              	<option value="June">June</option>
+                <option value="June">June</option>
               	<option value="July">July</option>
               	<option value="August">August</option>
               	<option value="September">September</option>
@@ -136,12 +139,13 @@
                 <option value='1992'>1992</option>
                 <option value='1993'>1993</option>
               </select>
-            <label>
-              <input type="radio" name="gender" value="Female" checked> Female
+            </label>
+            <label class="selector">
+              <input type="radio" name="gender" value="Female" checked>Female
             </label>
             <label>
-              <input type="radio" name="gender" value="Male"> Male
-            </label>
+              <input type="radio" name="gender" value="Male">Male
+            </label class="selector">
             <input type="submit" name="signup" value="Sign Up!">
           </form>
         </section>
