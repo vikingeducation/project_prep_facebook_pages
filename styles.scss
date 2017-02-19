@@ -11,6 +11,7 @@ body {
 .name {
 	float: left;
 	color: #ffffff;
+	font-size: 30px;
 }
 
 .menu-login {
@@ -37,7 +38,20 @@ body {
 	width: 377px;
 }
 
+.signup-btn {
+	background-color: #239E0F;
+	font-size: 15px;
+	width: 50%;
+}
+
+.signup-btn p {
+	color: #ffffff;
+}
+
 label {
 	color: #ffffff;
 }
 
+.column-1 p {
+	color: #737373;
+}
