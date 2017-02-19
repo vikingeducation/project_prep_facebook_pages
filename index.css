@@ -30,43 +30,71 @@ body {
 }
 
 header {
-  height: 50px;
+  height: 2%;
   width: auto;
-  padding: 1%;
 }
 
 #main-title {
   float: left;
   width: 63%;
-  margin-left: 1.5%;
-  line-height: 50px;
+  margin: 2% 0 2% 1%;
 }
 
 #login {
   float: right;
   width: 30%;
-  margin-right: 3%;
-  line-height: 50px;
-}
-
-#login > label {
-  line-height: normal;
+  margin: 2% 2% 1% 0;
 }
 
 main {
-  margin: 0 5%;
+  margin: 0 4%;
 }
 
 #description {
   float: left;
   width: 63%;
-  margin: 75px 1.5% 0 1.5%;
+  margin: 10% 2% 0 2%;
 }
 
 #cta {
   float: right;
   width: 30%;
-  margin: 15px 1.5% 0 1.5%;
+  margin: 1% .5%;
+}
+
+#cta > h1 {
+  margin: .5em 0;
+}
+
+input {
+  margin: 0 1em 1em 0;
+}
+
+input[name="login-email"],
+input[name="login-password"],
+input[name="signup"] {
+  margin-top: .5em;
+}
+
+.selector {
+  margin: 0 1em 0 0;
+}
+
+label > select {
+  display: inline-block;
+  margin: .5em;
+}
+
+input[name="email"],
+input[name="password"],
+input[name="confirm-password"],
+input[name="signup"] {
+  display: block;
+  width: 271px;
+}
+
+ul {
+  margin-left: 10%;
 }
 
 /*
@@ -101,68 +129,27 @@ label.bold {
   display: block;
 }
 
-label > select {
-  display: inline-block;
-  margin: .5em;
+li {
+  list-style-type: disc;
+  line-height: 3em;
 }
-
-#main-title {
-  padding: 0;
-}
-
-#cta > h1 {
-  margin-bottom: 15px;
-}
-
-input {
-  margin: 0 1em 1em 0;
-}
-
-input[name="gender"] {
-  margin-right: 1em;
-}
-
-input[name="login-email"],
-input[name="login-password"],
-input[name="signup"] {
-  margin-top: .5em;
-}
-
-.selector {
-  margin: 0 1em 0 0;
-}
-
-input[name="email"],
-input[name="password"],
-input[name="confirm-password"], {
-  display: block;
-  width: inherit;
-}
-
-input[name="signup"] {
-  display: block;
-}
-
-/*
-  ===================
-  Additional Styles
-  ===================
-*/
 
 header {
   background-color: #3b5998;
-  border-style: solid;
-  border-bottom: 1em;
-}
-
-li {
-
+  border-bottom: 2px solid #000;
 }
 
 input[name="submit"] {
-  box-shadow:
+  background-color: #ADD8E6;
+  font-weight: 700;
+  box-shadow: 2px 2px 2px #000;
 }
 
 input[name="signup"] {
-
+  padding: 10px;
+  background-color: green;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  box-shadow: 3px 3px 3px #000;
 }
