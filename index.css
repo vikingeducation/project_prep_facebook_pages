@@ -110,6 +110,8 @@ body {
 
 header {
   color: #fff;
+  background-color: #3b5998;
+  border-bottom: 2px solid #000;
 }
 
 h1 {
@@ -132,11 +134,6 @@ label.bold {
 li {
   list-style-type: disc;
   line-height: 3em;
-}
-
-header {
-  background-color: #3b5998;
-  border-bottom: 2px solid #000;
 }
 
 input[name="submit"] {
