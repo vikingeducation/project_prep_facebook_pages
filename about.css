@@ -1,0 +1,10 @@
+header {
+	display: inline-flex;
+}
+
+ul {
+	display: inline-flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
