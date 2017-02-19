@@ -1,84 +1,98 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/about.css">
     <title>Welcome to Facelook</title>
   </head>
 
   <body>
     <header>
-      <img src="/images/profile-small.jpg">
-      <h1 id="main-title">Facelook</h1>
-      <input name="search" type="text" placeholder="Search for Users">
-      <a id="profile-link" href="/profile">Harry</a>
+      <div class="flexbox">
+        <img id=header-img src="placeholder.png">
+        <h1 id="main-title">Facelook</h1>
+        <input name="search" type="text" placeholder="Search for Users">
+        <a id="profile-link" href="/profile">Harry</a>
+      </div>
     </header>
 
+    <div id="bg-img-container">
+        <img id="bg-img" src="placeholder.png">
+    </div>
+
     <nav>
-      <img src="/images/profile-bg.jpg">
-      <img src="/images/profile.jpg">
-      <ul id="navbar">
-        <li>Timeline</li>
-        <li>About</li>
-        <li>Photos <span class="number">(123)</span></li>
-        <li>Friends <span class="number">(542)</span></li>
-      </ul>
-      <a href="/profile">Edit Profile</a>
+      <img id="profile-img" src="placeholder.png">
+      <div id="navbar">
+        <ul>
+          <li>Timeline</li><!--
+          --><li>About</li><!--
+          --><li>Photos <span class="number">(123)</span></li><!--
+          --><li>Friends <span class="number">(542)</span></li>
+        </ul>
+        <a href="/profile">Edit Profile</a>
+      </div>
     </nav>
 
     <main>
-      <div id="sub-header">
-        <h1>About</h1>
+      <section id="subheader">
+        <h1 id="about">About</h1>
         <button name="edit">
           <a href="/edit">Edit Your Profile</a>
         </button>
-      </div>
-
-      <section id="basic">
-        <h2>Basic Information</h2>
-        <table>
-          <tr>
-            <td class="bold">Birthday:</td>
-            <td>July 31st, 1980</td>
-          </tr>
-          <tr>
-            <td class="bold">College:</td>
-            <td>Hogwarts</td>
-          </tr>
-          <tr>
-            <td class="bold">Hometown:</td>
-            <td>Godrick's Hollow, England</td>
-          </tr>
-          <tr>
-            <td class="bold">Currently Lives:</td>
-            <td>Godrick's Hollow, England</td>
-          </tr>
-        </table>
       </section>
 
-      <section id="contact">
-        <h2>Contact Information</h2>
-        <table>
-          <tr>
-            <td class="bold">Email:</td>
-            <td>harry_potter@hogwarts.edu</td>
-          </tr>
-          <tr>
-            <td class="bold">Telephone:</td>
-            <td>555-123-4567</td>
-          </tr>
-        </table>
-        </section>
+      <section id="main-content" class="group">
+        <div class="column-left">
+          <section id="basic">
+            <h2>Basic Information</h2>
+            <table>
+              <tr>
+                <td class="bold">Birthday:</td>
+                <td>July 31st, 1980</td>
+              </tr>
+              <tr>
+                <td class="bold">College:</td>
+                <td>Hogwarts</td>
+              </tr>
+              <tr>
+                <td class="bold">Hometown:</td>
+                <td>Godrick's Hollow, England</td>
+              </tr>
+              <tr>
+                <td class="bold">Currently Lives:</td>
+                <td>Godrick's Hollow, England</td>
+              </tr>
+            </table>
+          </section>
 
-      <section id="quote">
-        <h2>Words to Live By</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <section id="contact">
+            <h2>Contact Information</h2>
+            <table>
+              <tr>
+                <td class="bold">Email:</td>
+                <td>harry_potter@hogwarts.edu</td>
+              </tr>
+              <tr>
+                <td class="bold">Telephone:</td>
+                <td>555-123-4567</td>
+              </tr>
+            </table>
+          </section>
+        </div>
+
+        <div class="column-right">
+          <section id="quote">
+            <h2>Words to Live By</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </section>
+
+          <section id="about-me">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </section>
+        </div>
       </section>
 
-      <section id="about">
-        <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      </section>
     </main>
   </body>

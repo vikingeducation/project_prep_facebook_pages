@@ -139,7 +139,7 @@ li {
 input[name="submit"] {
   background-color: #ADD8E6;
   font-weight: 700;
-  box-shadow: 2px 2px 2px #000;
+  box-shadow: 1px 1px 1px #000;
 }
 
 input[name="signup"] {
@@ -148,5 +148,5 @@ input[name="signup"] {
   color: #fff;
   font-weight: 700;
   font-size: 16px;
-  box-shadow: 3px 3px 3px #000;
+  box-shadow: 1px 1px 1px #000;
 }

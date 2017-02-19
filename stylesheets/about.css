@@ -1,0 +1,234 @@
+/*
+  ===================
+  Clearfix
+  ===================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ===================
+  Styles
+  ===================
+*/
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+header {
+  color: #fff;
+  background-color: #3b5998;
+  height: auto;
+  width: 100%;
+  padding: 5px 0;
+  border-bottom: 2px solid #000;
+}
+
+.flexbox {
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin: 0 5%;
+}
+
+#header-img {
+  order: 1;
+  flex: 0 1 auto;
+  align-self: center;
+  margin-right: 5px;
+  height: 25px;
+  width: 25px;
+}
+
+#main-title {
+  order: 2;
+  flex: 2 1 auto;
+}
+
+input[name="search"] {
+  order: 3;
+  flex: 6 1 auto;
+}
+
+#profile-link {
+  order: 4;
+  flex: 2 1 auto;
+  align-self: flex-end;
+  margin-left: 20%;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: small;
+  color: #fff;
+}
+
+#profile-link:
+
+a {
+  font-size: small;
+}
+
+#subheader {
+  display: inline-block;
+  background-color: #d3d3d3;
+  border-bottom: 2px solid #000;
+  border-top: 2px solid #000;
+  width: 100%;
+  line-height: 2%;
+  margin-top: 2.5%
+}
+
+#about {
+  float: left;
+  margin-left: 45%;
+}
+
+button[name="edit"] {
+  float: right;
+  margin-top: .5em;
+  margin-right: 2%;
+  background-color: #3b5998;
+  box-shadow: 1px 1px 1px #000;
+}
+
+button > a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+}
+
+#profile-img {
+  position: absolute;
+  top: 36%;
+  left: 6%;
+  height: 100px;
+  width: 100px;
+}
+
+#navbar {
+  display: inline-block;
+  width: 100%;
+}
+
+#navbar > ul {
+  margin-left: 20%;
+  height: 100%;
+  display: inline-block;
+  width: 65%;
+}
+
+#navbar > a {
+  width: 20%;
+  text-align: right;
+  margin-right: 2.5%;
+}
+
+#navbar > ul > li {
+  display: inline-block;
+  border-right: 2px solid #000;
+  padding: 0 5px;
+  height: 100%;
+  line-height: 2em;
+}
+
+#navbar > ul:first-child {
+  border-left: 2px solid #000;
+}
+
+li:hover {
+  background-color: #d3d3d3;
+}
+
+main,
+nav,
+#bg-img-container {
+  width: auto;
+  border-width: 0 2px 2px 2px;
+  border-style: solid;
+  border-color: #000;
+  margin: 0 5%;
+}
+
+#bg-img {
+  height: 250px;
+  width: 100%;
+}
+
+table {
+  table-layout: fixed;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+
+tr {
+  margin-bottom: 10px;
+}
+
+td {
+  line-height: 1em;
+  padding: 15px 0;
+  word-wrap: break-word;
+}
+
+td.bold {
+  font-weight: 700;
+  padding-right: 10px;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+table {
+  margin-bottom: 24px;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+#main-content {
+  padding: 5%;
+}
+
+.column-left {
+  float: left;
+  width: 45%;
+  margin-right: 2.5%;
+}
+
+.column-right {
+  float: right;
+  width: 45%;
+  margin-left: 2.5%;
+}
