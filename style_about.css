@@ -1,0 +1,113 @@
+/*
+-----------------------------------
+HEADER
+-----------------------------------
+*/
+#header{
+	height: 42px;
+	background: #3B5998;
+	display: flex;
+}
+
+body {
+	background: #e9ebee;
+	font-family: helvetica;
+}
+ 
+.search-bar {
+	display: inline-block;
+}
+
+
+/*
+----------------------------------
+TYPOGRAPHY
+----------------------------------
+*/
+.main-title {
+	font-size: 24px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+.logo-container {
+	width: 25px;
+	height: 25px;
+	background: white;
+	overflow: hidden;
+	display: inline-block;
+
+}
+
+.logo {
+	font-size: 42px;
+	font-weight: 500;
+	padding-left: 40%;
+	color: #3B5998;
+	display: inline-block;
+
+}
+
+.info {
+	text-align: left;
+	padding-bottom: 15px;
+}
+
+p {
+	padding-bottom: 30px;
+	line-height: 1.4;
+}
+/*
+-----------------------------------
+FRAME
+-----------------------------------
+*/
+
+#container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.about-big-picture {
+	height: 350px;
+	background: white;
+}
+
+.header-container {
+	width: 980px;
+	margin: 0 auto;
+	height: 82px;
+	display: inline-block;
+
+}
+
+.col-left {
+	width: 40%;
+	float: left;
+	height: 300px;
+	background: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+
+}
+.col-right {
+	width: 55%;
+	float: right;
+	background: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+}	
+
+.row {
+	margin-bottom: 20px;
+	background: white;
+}
+
+
+
