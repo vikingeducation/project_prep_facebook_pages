@@ -1,42 +1,18 @@
-/*
-  ===================
-  Clearfix
-  ===================
-*/
+@import "clearfix";
+@import "colors";
 
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  clear: both;
-  *zoom: 1;
-}
-
-/*
-  ===================
-  Styles
-  ===================
-*/
-
-html,
-body {
+html {
   height: 100%;
   width: 100%;
-}
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+  }
 }
 
 header {
-  color: #fff;
-  background-color: #3b5998;
+  color: $white;
+  background-color: $fb-blue;
   height: auto;
   width: 100%;
   padding: 5px 0;
