@@ -1,13 +1,14 @@
-@import "clearfix";
 @import "colors";
+@import "mixins";
 
-html {
+html, body {
   height: 100%;
   width: 100%;
-  body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em;
-  }
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
 }
 
 header {
@@ -16,7 +17,7 @@ header {
   height: auto;
   width: 100%;
   padding: 5px 0;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid $black;
 }
 
 .flexbox {
@@ -53,19 +54,19 @@ input[name="search"] {
   margin-left: 20%;
   text-decoration: none;
   font-weight: 700;
-  font-size: small;
-  color: #fff;
+  color: $white;
 }
 
-a {
+a,
+#profile-link {
   font-size: small;
 }
 
 #subheader {
   display: inline-block;
   background-color: #d3d3d3;
-  border-bottom: 2px solid #000;
-  border-top: 2px solid #000;
+  border-bottom: 2px solid $black;
+  border-top: 2px solid $black;
   width: 100%;
   line-height: 2%;
   margin-top: 2.5%
@@ -80,14 +81,14 @@ button[name="edit"] {
   float: right;
   margin-top: .5em;
   margin-right: 2%;
-  background-color: #3b5998;
-  box-shadow: 1px 1px 1px #000;
+  background-color: $fb-blue;
+  box-shadow: 1px 1px 1px $black;
 }
 
 button a {
   font-weight: 600;
   text-decoration: none;
-  color: #fff;
+  color: $white;
 }
 
 #profile-img {
@@ -118,14 +119,14 @@ button a {
 
 #navbar ul li {
   display: inline-block;
-  border-right: 2px solid #000;
+  border-right: 2px solid $black;
   padding: 0 5px;
   height: 100%;
   line-height: 2em;
 }
 
 #navbar ul:first-child {
-  border-left: 2px solid #000;
+  border-left: 2px solid $black;
 }
 
 li:hover {
@@ -138,7 +139,7 @@ nav,
   width: auto;
   border-width: 0 2px 2px 2px;
   border-style: solid;
-  border-color: #000;
+  border-color: $black;
   margin: 0 5%;
 }
 
@@ -197,12 +198,10 @@ section {
 
 .column-left {
   float: left;
-  width: 45%;
-  margin-right: 2.5%;
+  @include column;
 }
 
 .column-right {
   float: right;
-  width: 45%;
-  margin-left: 2.5%;
+  @include column;
 }

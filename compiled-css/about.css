@@ -1,19 +1,23 @@
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
 .group {
   clear: both;
-  zoom: 1; }
-  .group .group:after {
-    clear: both; }
+  *zoom: 1;
+}
 
-.group:before .group:after {
-  content: "";
-  display: table; }
-
-html {
+html, body {
   height: 100%;
   width: 100%; }
-  html body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1em; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em; }
 
 header {
   color: #fff;
@@ -53,10 +57,10 @@ input[name="search"] {
   margin-left: 20%;
   text-decoration: none;
   font-weight: 700;
-  font-size: small;
   color: #fff; }
 
-a {
+a,
+#profile-link {
   font-size: small; }
 
 #subheader {
@@ -173,11 +177,11 @@ section {
 .column-left {
   float: left;
   width: 45%;
-  margin-right: 2.5%; }
+  margin: 0 1.25%; }
 
 .column-right {
   float: right;
   width: 45%;
-  margin-left: 2.5%; }
+  margin: 0 1.25%; }
 
 /*# sourceMappingURL=about.css.map */
