@@ -6,6 +6,7 @@ body {
 	background: #2B78E4;
 	height: 150px;
 	display: block;
+	border-bottom: 2px solid;
 }
 
 .name {
@@ -13,17 +14,25 @@ body {
 	color: #ffffff;
 	font-size: 30px;
 }
+.name h1 {
+	padding-left: 65px;
+}
 
 .menu-login {
 	float:right;
+	margin-right: 170px;
+	margin-top: 60px;
 }
 
 .column-1 {
 	float: left;
+	padding-left: 200px
 }
 
 .column-2 {
 	float: right;
+	padding-right: 350px;
+
 }
 
 .email-btn {
@@ -54,4 +63,17 @@ label {
 
 .column-1 p {
 	color: #737373;
+}
+
+
+.email {
+	padding-bottom: 20px;
+}
+
+.password {
+	padding-bottom: 20px;
+}
+
+.user-name {
+	padding-bottom: 20px;
 }
