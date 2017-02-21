@@ -85,33 +85,28 @@ ul li {
 	padding-bottom: 20px;
 	background: lightgrey;
 
-}
-
-.about-header h2 {
+		h2 {
 	margin-left: 36%;
+  }
 }
 
 .left-content {
 	float: left;
-}
-
-.left-content h2 {
-	padding-bottom: 20px;
+	 h2 {
+	   padding-bottom: 20px;
+	}
 }
 
 .right-content {
 	float: right;
 	width: 40%;
 	line-height: initial;
-}
-
-.right-content h1 {
+ h1 {
+	padding-bottom: 20px;
+ p {
 	padding-bottom: 20px;
 }
-.right-contendt p {
-	padding-bottom: 20px;
-}
-
+}}
 .left-content h2 {
 	font-size: 34px;
 }
@@ -136,12 +131,11 @@ ul li {
 
 .hometown span {
 	display: inline-flex;
-  padding-bottom: 20px;
-}
-
-.hometown span p {
+    padding-bottom: 20px;
+    
+    span p {
 	margin-left: 106px;
-}
+}}
 
 .right-content h1 {
 	font-size: 34px;
