@@ -1,0 +1,129 @@
+/**********
+  HOMEPAGE
+  **********/
+
+* {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #2B78E5;
+  color: white;
+  height: 100px;
+  border: 3px solid black;
+  width: 100%;
+}
+
+header h1 {
+  float: left;
+  margin-left: 35px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.login {
+  float: right;
+  margin-top: 25px;
+  margin-right: 80px;
+}
+
+.login input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 3px solid black;
+  padding: 5px;
+}
+
+.password-login {
+  float: left;
+}
+
+.email-login {
+  float: left;
+  margin-right: 30px;
+}
+
+.log-in {
+  background-color: #96BBEB;
+  border: 3px solid black;
+  margin-top: 23px;
+  margin-left: 10px;
+  padding: 5px;
+  width: 80px;
+  font-weight: bold;
+}
+
+.list {
+  float: left;
+  margin: 120px 100px;
+  max-width: 50%;
+}
+
+.list h3 {
+  font-size: 28px;
+  padding-bottom: 8px;
+}
+
+li {
+  margin-left: 6px;
+  margin-bottom: 28px;
+}
+
+.sign-up {
+  float: right;
+  margin-top: 50px;
+  margin-right: 140px;
+  max-width: 50%;
+}
+
+.sign-up h1 {
+  font-size: 48px;
+}
+
+.sign-up h4 {
+  font-size: 20px;
+}
+
+.sign-up input {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 8px;
+  border: 3px solid #C1C1C1;
+  font-weight: bold;
+}
+
+#first-name {
+  display: inline-block;
+  float: left;
+  width: 40%;
+}
+
+#last-name {
+  float: right;
+  width: 40%;
+}
+
+#email, #password-sign-up, #confirm-password {
+  width: 94%;
+}
+
+.month, .day {
+  margin-right: 20px;
+}
+
+.month, .day, .year {
+  border: 2px solid black;
+}
+
+.gender input {
+  margin-top: 25px;
+  margin-right: 0px;
+}
+
+.sign-up-button {
+  width: 95%;
+  height: 45px;
+  background-color: #239D0F;
+  color: white;
+  border: 3px solid black;
+}
