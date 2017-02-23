@@ -9,7 +9,6 @@
 }
 
 .about-logo-container {
-  background-image: url(anon-user.png);
   width: 50px;
   height: 50px;
   border: 3px solid black;
@@ -55,7 +54,6 @@
 }
 
 .about-top-background img {
-  background-image: url("anon-profile.png");
   margin-left: 15px;
   margin-top: 140px;
   border: 3px solid black;
