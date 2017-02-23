@@ -1,0 +1,176 @@
+
+/**********
+  ABOUT
+  **********/
+
+
+* {
+  font-family: sans-serif;
+}
+
+.about-logo-container {
+  background-image: url(anon-user.png);
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  display: inline-flex;
+  align-items: center;
+}
+
+.about-header {
+  background-color: #2B78E5;
+  color: white;
+  display: inline-flex;
+  width: 100%;
+  padding-left: 80px;
+  align-items: center;
+}
+
+.about-header h1 {
+  margin-left: 10px;
+}
+
+.about-search input {
+  width: 600px;
+  margin-left: 250px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about-username {
+  margin-left: 120px;
+}
+
+.about-top-background {
+  height: 360px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 3px solid black;
+}
+
+.about-top-background h1 {
+  margin-left: 290px;
+  margin-top: 310px;
+}
+
+.about-top-background img {
+  background-image: url("anon-profile.png");
+  margin-left: 15px;
+  margin-top: 140px;
+  border: 3px solid black;
+  position: absolute;
+}
+
+.about-nav {
+  padding-left: 275px;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bold;
+  border: 3px solid black;
+  max-width: 100%;
+}
+
+.about-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0 10px;
+
+}
+
+.about-nav ul li {
+  padding: 20px;
+  display: inline-flex;
+  border-left: 3px solid black;
+}
+
+.about-nav span {
+  color: gray;
+  padding-left: 5px;
+}
+
+#friends-list {
+  border-right: 3px solid black;
+}
+
+.edit-link {
+  padding: 20px;
+  color: #2B78E5;
+  float: right;
+}
+
+.about-header-middle {
+  display: inline-flex;
+  border: 3px solid black;
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  background-color: #D7D7D7;
+}
+
+.about-header-middle h1 {
+  margin: auto;
+  max-width: 50%;
+  padding-left: 300px;
+}
+
+.about-edit-profile {
+  color: white;
+  background-color: #2B78E5;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 7px 7px 7px 180px;
+  width: 150px;
+  font-weight: bold;
+}
+
+.about-main {
+  display: inline-flex;
+  width: 90%;
+  border: 3px solid black;
+  margin-left: 5%;
+  max-height: 100%;
+}
+
+.about-main-left {
+  float: left;
+  max-width: 50%;
+  padding-left: 80px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  display: inline-block;
+  line-height: 2;
+}
+
+#about-basic-list {
+  text-align: left;
+
+}
+
+#basic-list-title {
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+#about-contact-list {
+  text-align: left;
+}
+
+#about-contact-list td {
+  padding-right: 40px;
+}
+
+.about-main-right {
+  float: right;
+  line-height: 1.5;
+  max-width: 50%;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-left: 80px;
+}
+
+.about-main-right p {
+  padding-bottom: 15px;
+}

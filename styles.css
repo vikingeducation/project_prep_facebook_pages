@@ -1,3 +1,7 @@
+/**********
+  HOMEPAGE
+  **********/
+
 * {
   font-family: sans-serif;
 }
@@ -20,7 +24,7 @@ header h1 {
 .login {
   float: right;
   margin-top: 25px;
-  margin-right: 40px;
+  margin-right: 80px;
 }
 
 .login input {
@@ -51,7 +55,8 @@ header h1 {
 
 .list {
   float: left;
-  margin: 75px 50px;
+  margin: 120px 100px;
+  max-width: 50%;
 }
 
 .list h3 {
@@ -66,7 +71,9 @@ li {
 
 .sign-up {
   float: right;
-  margin-right: 110px;
+  margin-top: 50px;
+  margin-right: 140px;
+  max-width: 50%;
 }
 
 .sign-up h1 {
