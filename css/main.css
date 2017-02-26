@@ -1,0 +1,118 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+nav {
+	height: 100px;
+	background-color: #157aa9;
+}
+
+nav li.facebook {
+	display: inline-block;
+	padding: 25px 33px;
+
+	font-size: 35px;
+	font-family: sans-serif;
+
+	color: white;
+	font-weight: bold;
+}
+
+nav #form {
+	height: 100%;
+	width: 600px;
+	float: right;
+
+	position: relative;
+	top: -90px;
+}
+
+nav form li {
+	display: inline-block;
+	padding: 20px;
+}
+
+nav form li label {
+	font-size: 16px;
+	font-family: sans-serif;
+	color: white;
+}
+
+nav form li input {
+	margin-top: 5px;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+nav form li button {
+	height: 29px;
+	width: 89px;	
+
+	border: 1px solid black;
+	box-shadow: 1px 1px 1px black;
+}
+
+nav form li button:hover {
+	cursor: pointer;
+}
+
+.signup {
+	height: 550px;
+	width: 43%;
+	float: right;
+	clear: right;
+
+	position: relative;
+	top: -90px;
+}
+
+.signup h1 {
+	padding: 25px 0;
+
+	font-size: 50px;
+	font-family: sans-serif;
+	text-align: left;
+	font-weight: lighter;
+}
+
+.signup .name {
+	text-align: center;
+}
+
+.signup .name input {
+	padding: 10px 3px;
+}
+
+.signup .name input:nth-child(1){
+	margin-right: 20px;
+}
+
+.signup .email {
+	padding-top: 15px;
+	text-align: center;
+}
+
+.signup .email input {
+	padding: 10px 3px;
+	width: 375px;
+}
+
+.password {
+	padding-top: 15px;
+	text-align: center;
+}
+
+.password input {	
+	padding: 10px 3px;
+	width: 375px;
+}
+
+.password input:nth-child(1){
+	margin-bottom: 15px;
+}
+
+.birth-gender {
+	width: 375px;
+	text-align: center;
+}
