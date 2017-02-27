@@ -1,0 +1,202 @@
+nav {
+	height: 105px;
+	background-color: #157aa9;
+}
+
+.first {
+	float: left;
+	width: 75%;
+	margin-left: 75px;
+}
+
+nav .first li {
+	display: inline-block;
+	padding: 25px 33px;
+	margin-top: 5px;
+
+	font-size: 35px;
+	font-family: sans-serif;
+
+	color: white;
+	font-weight: bold;
+
+}
+
+.first li:first-child {
+  margin-top: 5px;
+  background-color: white;
+  
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  
+  position: relative;  
+  top: 15px;
+  left: 25px;
+}
+
+.first li:nth-child(2){
+	font-size: 30px;	
+}
+
+.first li:nth-child(3) input{
+	padding: 10px;
+	width: 500px;
+}
+
+.second li {
+	padding: 40px 15px 0 15px;
+	font-size: 20px;
+	color: white;
+	font-family: sans-serif;
+}
+
+.header-img {
+	height: 400px;
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+.header {
+	height: 55px;
+	width: 80%;
+
+	margin: 0 auto;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.profile-img {
+	height: 175px;
+	width: 175px;
+	position: absolute;
+	border: 1px solid black;
+	top: 350px;
+	left: 160px;
+
+	z-index: 2;
+	background-color: white;
+}
+
+.name {
+	position: absolute;
+	top: 460px;
+	left: 375px;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+.header li {
+	height: 55px;
+	width: 11%;
+	border-right: 1px solid black;
+	display: inline-block;
+	text-align: center;
+}
+
+.header li p {
+	padding-top: 20px;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+.header li:first-child{
+	margin-left: 225px;
+	border-left: 1px solid black;
+}
+
+.header li:last-child {
+	float: right;
+	border: 0;
+}
+
+.about {
+	height: 500px;
+	width: 80%;
+	margin: 50px auto;
+	border: 1px solid black;
+}
+
+.about-header {
+	height: 50px;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+.about-header h1 {
+	font-size: 25px;
+	padding-top: 10px;
+	font-family: sans-serif;
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+.about-header button {
+	float: right;
+	position: relative;
+	bottom: 27px;
+	right: 10px;
+
+	height: 35px;
+	width: 100px;
+
+	border: 1px solid #323232;
+	border-radius: 5px;
+	background-color: #157aa9;
+	color: white;
+
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+}
+
+.info {
+	height: 450px;
+	width: 50%;
+	text-align: left;
+}
+
+.info h1 {
+	font-family: sans-serif;
+	font-size: 25px;
+
+	padding: 15px 0 15px 50px;
+}
+
+.info table td {
+	font-family: sans-serif;
+	width: 200px;
+
+	padding: 15px 0 15px 65px;
+}
+
+.info table td b {
+	font-weight: bold;
+}
+
+.about-me {
+	height: 450px;
+	width: 50%;
+
+	text-align: center;
+}
+
+.about-me h1 {
+	font-size: 25px;
+	font-family: sans-serif;
+	padding: 15px 0;
+	text-align: left;
+}
+
+.about-me p {
+	text-align: left;
+	font-family: sans-serif;
+	font-size: 15px;
+}
