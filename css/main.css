@@ -3,7 +3,7 @@ nav {
 	background-color: #157aa9;
 }
 
-nav li .facebook {
+nav li.facebook {
 	display: inline-block;
 	padding: 25px 33px;
 
