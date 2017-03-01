@@ -7,32 +7,34 @@
       <title>Facelook Home Page</title>
     </head>
     <body>
-      <nav>
-        <div>Facelook</div>
-        <form action="#" method="post">
-            <div>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email"/>
-            </div>
-            <div>
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password"/>
-            </div>
-            <div class="button">
-                <button type="submit">Submit</button>
+      <nav class="display-flex padding-around-20 space-between align-flex-bot">
+        <h1 class="margin-around-5px">Facelook</h1>
+        <form action="#" method="post" class="width-40">
+            <div class="display-flex align-flex-bot">
+                <div class="flex-grow-1 margin-around-5px">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"/>
+                </div>
+                <div class="flex-grow-1 margin-around-5px">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password"/>
+                </div>
+                <div class="button margin-around-5px">
+                    <button type="submit">Submit</button>
+                </div>
             </div>
         </form>
       </nav>
-      <main>
+      <main class="display-flex padding-around-20">
     
-        <section id="sign-up">
+        <section class="order-last width-40" id="sign-up">
             <form>
-                <div>Sign Up</div>
-                <div>
+                <h2>Sign Up</h2>
+                <div class="display-inline-block width-50 padding-right-5px border-box">
                     <label for="first-name" class="visually-hidden">First Name</label>
                     <input type="text" id="first-name" name="first-name" placeholder="First Name"/>
-                </div>
-                <div>
+                </div><!--
+             --><div class="display-inline-block width-50 padding-left-5px border-box">
                     <label for="last-name" class="visually-hidden">Last Name</label>
                     <input type="text" id="last-name" name="last-name" placeholder="Last Name"/>
                 </div>
@@ -87,13 +89,16 @@
                 </div>
           </section>
         
-          <aside id="sign-up-info">
-            <ul>Connect with all your friends
-                <li>See photos and updates in your news feed.</li>
-                <li>Post your status for the world to see from your profile</li>
-                <li>Get in touch with your friends by "friending" them</li>
-                <li>Link things because you're a positive person!</li>
-            </ul>
+          <aside class="order-first flex-grow-1 text-align-center" id="sign-up-info">
+            <div class="text-align-left display-inline-block">
+                <h3>Connect with all your friends</h3>
+                <ul class="display-inline-block">
+                    <li>See photos and updates in your news feed.</li>
+                    <li>Post your status for the world to see from your profile</li>
+                    <li>Get in touch with your friends by "friending" them</li>
+                    <li>Link things because you're a positive person!</li>
+                </ul>
+            </div>
           </aside>
         </main>
         <script src="https://use.fontawesome.com/ccb44d2ec3.js"></script>    

@@ -48,8 +48,113 @@ table {
 }
 
 /*CSS Reset End */
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+}
+h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+h3 {
+    font-weight: bold;
+    font-size: 1.17em;
+}
+h4 {
+    font-weight: bold;
+    font-size: 1em;
+}
+h5 {
+    font-weight: bold;
+    font-size: .83em;
+}
+h6 {
+    font-weight: bold;
+    font-size: .67em;
+}
 
 
+.display-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-flex-bot {
+    align-items: flex-end;
+}
+.padding-around-20 {
+    padding: 20px;
+}
+
+.margin-around-5px {
+    margin: 5px;
+}
+.width-40 {
+    width: 40%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.flex-grow-1 {
+    flex: 1;
+}
+
+.font-size-2em {
+    font-size: 2em;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.order-first {
+    order:-1;
+}
+
+.order-last {
+    order: 1;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-left {
+    text-align: left
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.padding-left-5px {
+    padding-left: 5px;
+}
+
+.padding-right-5px {
+    padding-right: 5px;
+}
+
+li {
+    list-style: disc inside;
+}
+
+
+/*
 html {
   font-size: 16px;
 }
@@ -90,12 +195,9 @@ form {
 #sign-up form > div {
     width: 100%;
 }
+*/
 
-input {
-    width: 100%;
-    box-sizing: border-box;
-}
-
+/*
 input[type="radio"] {
     width: initial;
 }
@@ -117,12 +219,10 @@ aside ul, #sign-up form{
 #first-name, #last-name {
     width: 50%;
 }
-
+*/
 .visually-hidden {
     display: none;
 }
-
-
 
 @media (min-width: 990px) {
 
