@@ -104,3 +104,8 @@ li{
   color: #444;
   padding: 1.5em 1em;
 }
+
+.first-name,
+.last-name{
+  display: inline-block;
+}
