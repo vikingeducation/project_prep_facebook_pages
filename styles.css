@@ -126,9 +126,37 @@ li{
 }
 
 .signup-row{
-  padding: 5px;
+  padding: 15px;
 }
 
 .signup-text{
   font-size: 3em;
+}
+
+.signup-button{
+  background-color: #669E51;
+  display: flex;
+}
+
+.button-text{
+  flex-grow: 1;
+  background-color: #669E51;
+  color: #fff;
+}
+
+.first-name,
+.last-name,
+.signup-email,
+.signup-new-password,
+.signup-confirm-password{
+  display: flex;
+}
+
+.signup-text h2,
+.first-name textarea,
+.last-name textarea,
+.signup-email textarea,
+.signup-new-password textarea,
+.signup-confirm-password textarea{
+  flex-grow: 1;
 }
