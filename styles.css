@@ -61,14 +61,14 @@ table {
 }
 
 .logo{
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bold;
   color: #fff;
-  padding: 10px;
+  padding: 20px 50px;
 }
 
 .table{
-  padding: 5px;
+  padding: 5px 55px 0px 0px;
 }
 
 .table-header{
@@ -120,5 +120,15 @@ li{
 }
 
 .signup-container{
-  padding-top: 10%;
+  padding-top: 2.5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-row{
+  padding: 5px;
+}
+
+.signup-text{
+  font-size: 3em;
 }
