@@ -187,77 +187,15 @@ li {
     border-bottom: 1px solid #888;
 }
 
+.text-white {
+    color: #eed;
+}
+
 .small-box-shadow {
     -webkit-box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.4);
     -moz-box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.4);
     box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.4);
 }
-/*
-html {
-  font-size: 16px;
-}
-
-nav {
-    display:flex;
-    justify-content: space-between;
-}
-
-nav label {
-    display: block;
-}
-
-nav .button {
-    align-self: flex-end;
-}
-
-main {
-    display:flex;
-}
-
-main > aside {
-    width: 60%;
-}
-
-main > section {
-    width: 40%;
-}
-
-#sign-up form {
-    flex-wrap: wrap;
-}
-
-form {
-    display: flex;
-}
-
-#sign-up form > div {
-    width: 100%;
-}
-*/
-
-/*
-input[type="radio"] {
-    width: initial;
-}
-
-li {
-  margin-left: 20px;
-  list-style: disc;
-}
-
-aside {
-    order: -1;
-}
-
-aside ul, #sign-up form{
-    width: 80%;
-    margin: 0 auto;
-}
-
-#first-name, #last-name {
-    width: 50%;
-}
-*/
 .visually-hidden {
     display: none;
 }
