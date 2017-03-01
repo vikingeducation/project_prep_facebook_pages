@@ -46,3 +46,46 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.header-flex{
+  background-color: #0079E5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px;
+}
+
+.table{
+  padding: 5px;
+}
+
+.table-header{
+  font-weight: bold;
+  color: #fff;
+}
+
+textarea{
+  resize: none;
+}
+
+th{
+  text-align: left;
+  padding: 5px;
+}
+
+td{
+  vertical-align: middle;
+  padding: 5px;
+}

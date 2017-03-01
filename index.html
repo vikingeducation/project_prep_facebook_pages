@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheets" href="styles.css" />
+    <link rel="stylesheet" href="styles.css">
 
     <title>Welcome to Facelook</title>
   </head>
@@ -9,32 +9,37 @@
   <div class="container">
     <main>
       <header class="header-flex">
-        <h1>Facelook</h1>
-        <table>
-          <thead>
-            <tr>
-              <th>
-                E-mail
-              </th>
-              <th>
-                Password
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <textarea>e-mail</textarea>
-              </td>
-              <td>
-                <textarea>password</textarea>
-              </td>
-              <td>
-                <button>Log In</button>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="logo">
+          <h1>Facelook</h1>
+        </div>
+
+        <div class="table">
+          <table>
+            <thead class="table-header">
+              <tr>
+                <th scope="col">
+                  E-mail
+                </th>
+                <th scope="col">
+                  Password
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-body">
+                <td>
+                  <textarea rows="1">e-mail</textarea>
+                </td>
+                <td>
+                  <textarea rows="1">password</textarea>
+                </td>
+                <td>
+                  <button>Log In</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </header>
     </main>
   </div>
