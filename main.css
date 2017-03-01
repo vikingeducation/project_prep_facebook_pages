@@ -200,6 +200,19 @@ li {
     display: none;
 }
 
+
+/* Styles of About Page */
+.content-container {
+    padding: 0 10%;
+}
+
+
+
+
+
+
+
+
 @media (min-width: 990px) {
 
 }
