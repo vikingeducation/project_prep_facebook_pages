@@ -47,6 +47,10 @@ table {
 	border-spacing: 0;
 }
 
+html{
+  font-family: helvetica sans-serif;
+}
+
 *,
 *::before,
 *::after {
@@ -155,8 +159,8 @@ div .name-textarea{
   font-size: 3em;
 }
 
-.signup-button{
-  background-color: #669E51
+a{
+  text-decoration: none;
 }
 
 .button-text{
