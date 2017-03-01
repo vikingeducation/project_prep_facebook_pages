@@ -73,6 +73,9 @@ h6 {
     font-size: .67em;
 }
 
+button:hover {
+    cursor: pointer;
+}
 
 .display-flex {
     display: flex;
@@ -168,8 +171,27 @@ li {
     padding-top: calc(1.2em + 10px);
 }
 
+.background-color-green {
+    background : #1CD000;
+}
 
+.background-color-blue {
+    background: #5A94FF;
+}
 
+.background-color-soft-blue {
+    background: #7598D7;
+}
+
+.border-bottom-gray {
+    border-bottom: 1px solid #888;
+}
+
+.small-box-shadow {
+    -webkit-box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.4);
+    -moz-box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.4);
+    box-shadow: 1px 2px 4px 1px rgba(0,0,0,0.4);
+}
 /*
 html {
   font-size: 16px;
