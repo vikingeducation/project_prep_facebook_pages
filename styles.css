@@ -54,7 +54,7 @@ table {
 }
 
 .header-flex{
-  background-color: #0079E5;
+  background-color: #3B5998;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -108,4 +108,17 @@ li{
 .first-name,
 .last-name{
   display: inline-block;
+}
+
+.body-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-container{
+  padding-top: 10%;
+}
+
+.signup-container{
+  padding-top: 10%;
 }
