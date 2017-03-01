@@ -30,27 +30,27 @@
         <section class="order-last width-40" id="sign-up">
             <form>
                 <h2>Sign Up</h2>
-                <div class="display-inline-block width-50 padding-right-5px border-box">
+                <div class="display-inline-block width-50 padding-right-5px border-box padding-top-bot-10px">
                     <label for="first-name" class="visually-hidden">First Name</label>
                     <input type="text" id="first-name" name="first-name" placeholder="First Name"/>
                 </div><!--
-             --><div class="display-inline-block width-50 padding-left-5px border-box">
+             --><div class="display-inline-block width-50 padding-left-5px border-box padding-top-bot-10px">
                     <label for="last-name" class="visually-hidden">Last Name</label>
                     <input type="text" id="last-name" name="last-name" placeholder="Last Name"/>
                 </div>
-                <div>
+                <div class="padding-top-bot-10px">
                     <label for="new-email" class="visually-hidden">Email</label>
                     <input type="text" id="new-email" name="new-email" placeholder="Your Email Address"/>
                 </div>
-                <div>
+                <div class="padding-top-bot-10px">
                     <label for="new-password" class="visually-hidden">Password</label>
                     <input type="password" id="new-password" name="new-password" placeholder="Your New Password"/>
                 </div>
-                <div>
+                <div class="padding-top-bot-10px">
                     <label for="password-confirm" class="visually-hidden">Confirm Password</label>
                     <input type="password" id="password-confirm" name="password-confirm" placeholder="Confirm Your Password"/>
                 </div>
-                <div>
+                <div class="padding-top-bot-10px">
                     <div>Birthday</div>
                     <label for="year" class="visually-hidden">Year</label>
                     <select id="year" name="year">
@@ -68,31 +68,35 @@
                         <option></option>
                     </select>
                 </div>
-                <div>
-                    <ul>
-                        <li>
-                            <label for="male">
+                <div class="padding-top-bot-10px">
+                    <ul class="">
+                        <li class="display-inline-block">
+                            <div class="display-inline-block radio-button-25px">
                                 <input type="radio" id="male" name="sex" value="male"/>
+                            </div>
+                            <label for="male">
                                 Male
                             </label>
                         </li>
-                        <li>
-                            <label for="female">
+                        <li class="display-inline-block">
+                            <div class="display-inline-block radio-button-25px">
                                 <input type="radio" id="female" name="sex" value="female"/>
+                            </div>
+                            <label for="female">
                                 Female
                             </label>
                         </li>
                     </ul>
                 </div>
                 <div class="button">
-                    <button type="submit">Sign Up!</button>
+                    <button type="submit" class="width-100">Sign Up!</button>
                 </div>
           </section>
         
-          <aside class="order-first flex-grow-1 text-align-center" id="sign-up-info">
+          <aside class="order-first flex-grow-1 text-align-center align-with-form" id="sign-up-info">
             <div class="text-align-left display-inline-block">
                 <h3>Connect with all your friends</h3>
-                <ul class="display-inline-block">
+                <ul class="display-inline-block indent-text-1-2em">
                     <li>See photos and updates in your news feed.</li>
                     <li>Post your status for the world to see from your profile</li>
                     <li>Get in touch with your friends by "friending" them</li>

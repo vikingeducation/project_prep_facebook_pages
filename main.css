@@ -148,10 +148,26 @@ input {
 .padding-right-5px {
     padding-right: 5px;
 }
-
-li {
-    list-style: disc inside;
+.radio-button-25px {
+    width: 25px;
 }
+li {
+    list-style: disc;
+}
+
+.padding-top-bot-10px {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.indent-text-1-2em {
+    padding-left: 1.2em;
+}
+
+.align-with-form {
+    padding-top: calc(1.2em + 10px);
+}
+
 
 
 /*
