@@ -105,21 +105,17 @@ li{
   padding: 1.5em 1em;
 }
 
-.first-name,
-.last-name{
-  display: inline-block;
-}
-
 .body-container{
   display: flex;
   justify-content: space-around;
 }
 
 .list-container{
-  padding-top: 10%;
+  padding-top: 8%;
 }
 
 .signup-container{
+  flex-grow: .25;
   padding-top: 2.5%;
   display: flex;
   flex-direction: column;
@@ -129,34 +125,57 @@ li{
   padding: 15px;
 }
 
+.name-row{
+  display: flex;
+}
+
+.first-name,
+.last-name{
+  flex-grow: 1;
+}
+
+.first-name{
+  padding-right: .5em;
+}
+
+.last-name{
+  padding-left: .5em;
+}
+
+div .name-textarea{
+  display: flex;
+}
+
+.name-textarea textarea{
+  flex-grow: 1;
+}
+
+
 .signup-text{
   font-size: 3em;
 }
 
 .signup-button{
-  background-color: #669E51;
-  display: flex;
+  background-color: #669E51
 }
 
 .button-text{
-  flex-grow: 1;
   background-color: #669E51;
   color: #fff;
 }
 
-.first-name,
-.last-name,
-.signup-email,
-.signup-new-password,
-.signup-confirm-password{
+
+div .signup-email,
+div .signup-new-password,
+div .signup-confirm-password,
+div .signup-button{
   display: flex;
 }
 
-.signup-text h2,
-.first-name textarea,
-.last-name textarea,
+
 .signup-email textarea,
 .signup-new-password textarea,
-.signup-confirm-password textarea{
+.signup-confirm-password textarea,
+.signup-button button{
   flex-grow: 1;
 }
