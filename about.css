@@ -103,9 +103,8 @@ html{
 	color: #fff;
 }
 
-.body-flex{
+.body-header-flex{
 	display: flex;
-	padding: 1px 10% 0px 10%;
 }
 
 .body-header-image{
@@ -113,23 +112,26 @@ html{
 	width: 100%;
 	background-color: #fff;
 	border: 2px solid #000;
+	border-top: 1px solid #000;
 	margin: auto;
 }
 
 .nav-flex{
 	display: flex;
-	padding: 1px 10% 0px 10%;
-
+	padding: 0px 0px 0px 10%;
+	border: 2px solid #000;
+	border-top: 1px solid #000;
+	justify-content: space-between;
 }
 
 .nav-container{
-	width: 100%;
-	border: 2px solid #000;
+	width: 75%;
 }
 
 .link-container{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
+	padding-left: 5em;
 }
 
 .nav-buttons{
@@ -163,4 +165,40 @@ html{
 	border-right: 2px solid #000;
 	height: 3em;
 	width: 10em;
+}
+
+div .relative-for-profile{
+	padding: 0px 10%;
+	position: relative;
+
+}
+
+div .profile-picture-container{
+	height: 11em;
+	width: 10em;
+	background-color: #fff;
+	border: 2px solid #000;
+	position: absolute;
+	bottom: 1.5em;
+	left: 9.5em;
+	;
+}
+
+.editprofile-container-container{
+	width: 100%;
+}
+
+.editprofile-container{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+	padding-right: 1em;
+}
+
+.editprofile-link{
+	color: #3B5998;
+	text-decoration: underline;
+
+
 }
