@@ -81,6 +81,15 @@ th {
     text-align: left;
     width: 33%;
 }
+th, td {
+    padding: 10px;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
 
 button:hover {
     cursor: pointer;
@@ -88,6 +97,10 @@ button:hover {
 
 .display-flex {
     display: flex;
+}
+
+.align-flex-center {
+    align-items: center;
 }
 
 .space-between {
@@ -100,9 +113,16 @@ button:hover {
 .padding-around-20 {
     padding: 20px;
 }
+.padding-around-10 {
+    padding: 10px;
+}
 
 .margin-around-5px {
     margin: 5px;
+}
+
+.padding-around-5px {
+    padding: 5px;
 }
 
 .width-10 {
@@ -131,6 +151,10 @@ button:hover {
 
 .height-33vh {
     height: 33vh;
+}
+
+.height-10vh {
+    height: 10vh;
 }
 
 .flex-grow-1 {
@@ -189,6 +213,10 @@ input {
     padding-left: 20px;
 }
 
+.padding-bot-20px {
+    padding-bottom: 20px;
+}
+
 .radio-button-25px {
     width: 25px;
 }
@@ -219,6 +247,10 @@ li {
 
 .background-color-soft-blue {
     background: #7598D7;
+}
+
+.background-color-gray {
+    background: #d9d9d9;
 }
 
 .border-bottom-gray {
@@ -259,9 +291,28 @@ li {
     right: 0;
 }
 
+.position-top-bot-0 {
+    top: 0;
+    bottom: 0;
+}
+
+.max-width-150px {
+    max-width: 150px;
+}
+
+
+.border-black-1px {
+    border: 1px solid black;
+}
+
 /* Styles of About Page */
 .content-container {
     padding: 0 10%;
+}
+
+.pic-holder {
+    background-image: url(http://lorempixel.com/800/400/);
+    background-size: cover;
 }
 
 
