@@ -80,13 +80,13 @@ table {
 th {
     text-align: left;
     width: 33%;
+    font-weight: bold;
 }
 th, td {
     padding: 10px;
 }
 
 nav {
-    height: 10vh;
     display: flex;
     align-items: center;
 }
