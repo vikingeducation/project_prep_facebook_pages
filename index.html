@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width; initial-scale=1.0">
+      <link href="main.css" rel="stylesheet" type="text/css">
+      <title>Facelook Home Page</title>
+    </head>
+    <body>
+      <nav class="display-flex padding-around-20 space-between align-flex-bot background-color-blue small-box-shadow border-bottom-gray">
+        <h1 class="margin-around-5px text-white">Facelook</h1>
+        <form action="#" method="post" class="width-40">
+            <div class="display-flex align-flex-bot">
+                <div class="flex-grow-1 margin-around-5px">
+                    <label for="email" class="text-white">Email</label>
+                    <input type="email" id="email" name="email"/>
+                </div>
+                <div class="flex-grow-1 margin-around-5px">
+                    <label for="password" class="text-white">Password</label>
+                    <input type="password" id="password" name="password"/>
+                </div>
+                <div class="button margin-around-5px small-box-shadow">
+                    <button type="submit" class="background-color-soft-blue">Log In</button>
+                </div>
+            </div>
+        </form>
+      </nav>
+      <main class="display-flex padding-around-20">
+    
+        <section class="order-last width-40" id="sign-up">
+            <form>
+                <h2>Sign Up</h2>
+                <div class="display-inline-block width-50 padding-right-5px border-box padding-top-bot-10px">
+                    <label for="first-name" class="visually-hidden">First Name</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="First Name"/>
+                </div><!--
+             --><div class="display-inline-block width-50 padding-left-5px border-box padding-top-bot-10px">
+                    <label for="last-name" class="visually-hidden">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Last Name"/>
+                </div>
+                <div class="padding-top-bot-10px">
+                    <label for="new-email" class="visually-hidden">Email</label>
+                    <input type="text" id="new-email" name="new-email" placeholder="Your Email Address"/>
+                </div>
+                <div class="padding-top-bot-10px">
+                    <label for="new-password" class="visually-hidden">Password</label>
+                    <input type="password" id="new-password" name="new-password" placeholder="Your New Password"/>
+                </div>
+                <div class="padding-top-bot-10px">
+                    <label for="password-confirm" class="visually-hidden">Confirm Password</label>
+                    <input type="password" id="password-confirm" name="password-confirm" placeholder="Confirm Your Password"/>
+                </div>
+                <div class="padding-top-bot-10px">
+                    <div>Birthday</div>
+                    <label for="year" class="visually-hidden">Year</label>
+                    <select id="year" name="year">
+                        <option value="" disabled selected>Year</option>
+                        <option></option>
+                    </select>
+                    <label for="month" class="visually-hidden">Month</label>
+                    <select id="month" name="month">
+                        <option value="" disabled selected>Month</option>
+                        <option></option>
+                    </select>
+                    <label for="day" class="visually-hidden">Day</label>
+                    <select id="day" name="day">
+                        <option value="" disabled selected>Day</option>
+                        <option></option>
+                    </select>
+                </div>
+                <div class="padding-top-bot-10px">
+                    <ul class="">
+                        <li class="display-inline-block">
+                            <div class="display-inline-block radio-button-25px">
+                                <input type="radio" id="male" name="sex" value="male"/>
+                            </div>
+                            <label for="male">
+                                Male
+                            </label>
+                        </li>
+                        <li class="display-inline-block">
+                            <div class="display-inline-block radio-button-25px">
+                                <input type="radio" id="female" name="sex" value="female"/>
+                            </div>
+                            <label for="female">
+                                Female
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="button small-box-shadow">
+                    <button type="submit" class="width-100 background-color-green text-white">Sign Up!</button>
+                </div>
+          </section>
+        
+          <aside class="order-first flex-grow-1 text-align-center align-with-form" id="sign-up-info">
+            <div class="text-align-left display-inline-block">
+                <h3>Connect with all your friends</h3>
+                <ul class="display-inline-block indent-text-1-2em">
+                    <li>See photos and updates in your news feed.</li>
+                    <li>Post your status for the world to see from your profile</li>
+                    <li>Get in touch with your friends by "friending" them</li>
+                    <li>Link things because you're a positive person!</li>
+                </ul>
+            </div>
+          </aside>
+        </main>
+        <script src="https://use.fontawesome.com/ccb44d2ec3.js"></script>    
+    </body>
+</html>
