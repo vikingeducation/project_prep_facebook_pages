@@ -115,3 +115,52 @@ html{
 	border: 2px solid #000;
 	margin: auto;
 }
+
+.nav-flex{
+	display: flex;
+	padding: 1px 10% 0px 10%;
+
+}
+
+.nav-container{
+	width: 100%;
+	border: 2px solid #000;
+}
+
+.link-container{
+	display: flex;
+	justify-content: center;
+}
+
+.nav-buttons{
+	background-color: #fff;
+	padding: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	height: 3em;
+	width: 10em;
+}
+
+.timeline-button{
+	background-color: #fff;
+	padding: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 2px solid #000;
+	border-right: 1px solid #000;
+	height: 3em;
+	width: 10em;
+}
+
+.friends-button{
+	background-color: #fff;
+	padding: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 1px solid #000;
+	border-right: 2px solid #000;
+	height: 3em;
+	width: 10em;
+}
