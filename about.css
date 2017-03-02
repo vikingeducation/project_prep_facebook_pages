@@ -199,6 +199,34 @@ div .profile-picture-container{
 .editprofile-link{
 	color: #3B5998;
 	text-decoration: underline;
+}
 
+.about-section-title-container{
+	padding: 0px 10%;
+	display: flex;
+	padding-top: 2px;
+}
 
+.about-title-container{
+	border: 2px solid #000;
+	flex-grow: 1;
+}
+
+.title-container{
+	width: 100%;
+}
+
+.about-title-edit-profile{
+	background-color: #3B5998;
+	color: #fff;
+}
+
+.about-flex-container{
+	display: flex;
+	background-color: #EEEEEE
+}
+
+.about-title{
+	font-size: 2em;
+	text-align: center;
 }
