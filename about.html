@@ -7,30 +7,112 @@
       <title>Facelook About Page</title>
     </head>
     <body>
-        <nav class="content-container">
-            <div>
-                <div class="logo">
+        <nav class="content-container background-color-blue">
+            <div class="display-flex align-flex-bot">
+                <div class="logo width-25">
                     Facelook
                 </div>
-                <div class="search-bar">
-                    <form id="fb-search" action="#" method="get">
-                        <div>
-                            <label form="fb-search" for="search" hidden="true">Hey Joe Bob</label>
+                <div class="search-bar width-50">
+                    <form id="fb-search" action="#" method="get" class="display-flex">
+                        <div class="flex-grow-1">
+                            <label form="fb-search" for="search" hidden="true">Search Bar</label>
                             <input type="search" name="search" id="search" form="fb-search" placeholder="Find your friends!">
                         </div><!--
                      --><div>
-                            <label></label>
-                            <input>
+                            <label form="fb-search" for="submit-search" hidden="true">Submit Search</label>
+                            <button type="submit" id="submit-search" form="fb-search" name="submit-search">Icon</button>
                         </div>
                     </form>
                 </div>
-                <div class="profile">
-                    
+                <div class="profile width-25 text-align-right">
+                    Name
                 </div>
             </div>
         </nav>
         <main class="content-container">
-            
+            <section class="">
+                <div class="pic-holder height-33vh">
+                    <i></i>
+                </div>
+                <div class="menu-bar display-flex">
+                    <div class="menu-button padding-around-20 flex-grow-1 position-relative">
+                        <div class="position-absolute padding-inherit position-left-bot-0">
+                            <img class="width-100" src="http://placehold.it/350x350" alt="placeholder image">
+                        </div>
+                    </div>
+                    <div class="menu-button padding-around-20">Timeline</div>
+                    <div class="menu-button padding-around-20">About</div>
+                    <div class="menu-button padding-around-20">Photos</div>
+                    <div class="menu-button padding-around-20">Friends</div>
+                    <div class="menu-button padding-around-20 flex-grow-1 text-align-right">Edit profile</div>
+                </div>
+            </section>
+            <section class="padding-left-20px padding-right-20px">
+                <header class="text-align-center position-relative">
+                    About
+                    <button class="position-absolute position-right-0">Edit Your Profile</button>
+                </header>
+                <article class="about-user display-flex">
+                    <div class="padding-around-20 width-40">
+                        <div>
+                            <h4>Basic Information</h4>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>Birthday</th>
+                                        <td>August 21, 1990</td>
+                                    </tr>
+                                    <tr>
+                                        <th>College</th>
+                                        <td>University of Texas at Austin</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Hometown</th>
+                                        <td>Dallas, Texas</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Currently lives</th>
+                                        <td>Dallas, Texas</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div>
+                            <h4>Contact Information</h4>
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th>Email</th>
+                                        <td>rttomlinson@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Telephone</th>
+                                        <td>469-644-8649</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="padding-around-20 width-60">
+                        <div>
+                            <h3>Words to live by</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                        <div>
+                            <h3>About Me</h3>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>    
+                        </div>
+                    </div>
+                </article>
+                
+                
+            </section>
         </main>
     </body>
 </html>
