@@ -81,19 +81,15 @@ td, th {
   border-bottom: 2px solid black;
 }
 
-.header {
+.header, .content {
   flex: 4 1 auto;
 }
 
-.login {
+.login, .signup {
   flex: 1 1 auto;
 }
 
-.right {
-  align-content: flex-end;
-}
-
-#submit_login {
+#login_submit {
   background-color: #63B7FF;
   border: none;
   text-align: center;
