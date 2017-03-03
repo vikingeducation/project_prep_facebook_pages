@@ -46,3 +46,35 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*
+  ==================================
+  Custom Styles
+  ==================================
+*/
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.header, .login {
+  background-color: #06F;
+  color: white;
+  padding: 10px;
+  border-bottom: 2px solid black;
+}
+
+.header {
+  flex: 2 auto;
+}
+
+.login {
+  flex: 1 auto;
+}
