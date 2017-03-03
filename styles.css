@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.clearfix::before,
+.clearfix::after{
+  display: table;
+  content: " ";
+}
+.clearfix::after{
+  clear: both;
+}
+
+label{
+  display: block;
+}
+#first-page-nav{
+  background: #397add;
+  width: 100%;
+  height: 75px;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+}
+#first-page-h1{
+  font-size: 25px;
+  color: white;
+  margin:15px 40px 15px 40px;
+  float: left;
+}
+#login{
+  color:white;
+  margin:15px 40px 15px 40px;
+  float: right;
+}
+#cheat{
+  color: #397add;
+}
+.front-page-login{
+  margin-left: 15px;
+  float: left;
+}
+main{
+  max-width: 990px;
+  margin: auto;
+}
+#first-page-description{
+  width:calc(60% - 30px);
+  margin-top: 75px;
+  margin-left: 25px;
+  float: left;
+}
+#sigh-up{
+  width: calc(40% - 30px);
+  float: left;
+}
+h2{
+  font-size: 35px;
+  margin-top: 25px;
+}
+h3{
+  font-size: 24px;
+}
+ul{
+  margin-left: 45px;
+  margin-top: 25px
+}
+li{
+  line-height: 200%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*hold for length*/
