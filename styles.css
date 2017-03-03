@@ -54,8 +54,18 @@ table {
 */
 
 h1 {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: bold;
+  padding: auto 0;
+}
+
+th {
+  text-align: left;
+  padding-bottom: 5px
+}
+
+td, th {
+  padding: 0 10px;
 }
 
 .wrapper {
@@ -67,14 +77,26 @@ h1 {
 .header, .login {
   background-color: #06F;
   color: white;
-  padding: 10px;
+  padding: 20px;
   border-bottom: 2px solid black;
 }
 
 .header {
-  flex: 2 auto;
+  flex: 4 1 auto;
 }
 
 .login {
-  flex: 1 auto;
+  flex: 1 1 auto;
+}
+
+.right {
+  align-content: flex-end;
+}
+
+#submit_login {
+  background-color: #63B7FF;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 10px;
 }
