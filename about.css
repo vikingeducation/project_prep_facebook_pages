@@ -230,3 +230,43 @@ div .profile-picture-container{
 	font-size: 2em;
 	text-align: center;
 }
+
+.about-header-body-container{
+	display: flex;
+	flex-direction: column;
+}
+
+.about-header-body-container-child{
+	padding: 0px 10%;
+}
+
+.about-body-container{
+	display: flex;
+}
+
+.about-body-left,
+.about-body-right{
+	width: 50%;
+	padding: 4%;
+
+}
+
+.about-table-title{
+	font-size: 2em;
+}
+
+.table-bold{
+	font-weight: bolder;
+}
+
+.about-table-head{
+	text-align: left;
+}
+
+tr{
+	height:4em;
+}
+ .about-body-p-header{
+	 font-size: 2em;
+	 padding: 5% 0px;
+ }
