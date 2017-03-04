@@ -54,7 +54,7 @@ main{
 }
 #first-page-description{
   width:calc(60% - 30px);
-  margin-top: 175px;
+  margin-top: 150px;
   margin-left: 25px;
   float: left;
 }
@@ -74,6 +74,12 @@ h2{
 }
 h3{
   font-size: 24px;
+  margin-top: 25px;
+}
+a{
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
 }
 ul{
   margin-left: 45px;
@@ -81,6 +87,10 @@ ul{
 }
 li{
   line-height: 200%;
+}
+td{
+  height: 34px;
+  width: 165px;
 }
 [name="last-name"]{
   margin-left: 8px;
@@ -127,13 +137,14 @@ nav > h6{
 [alt="background image"]{
   width: 990px;
   z-index: -100;
+  border-bottom: 1px solid black;
 }
 [alt="profile picture"]{
   height: 220px;
   width: 200px;
   position:relative;;
   left: 15px;
-  top: -210px;
+  top: -207px;
 
 }
  .inner-navbar{
@@ -148,10 +159,61 @@ nav > h6{
 
 #content-about{
   position: relative;
-  top: -350px;
+  top: -220px;
 }
-
-
+#header{
+  width: 100%;
+  background: lightgray;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+#header > h4{
+  line-height: 200%;
+  float: left;
+  margin-left: 48%;
+}
+#header > button{
+  padding: 5px;
+  margin: 5px;
+  float: right;
+}
+.nav-button{
+  position: relative;
+  font-size: 14px;
+  top: -24px;
+  left: 256px;
+  border-left: 2px solid black;
+  padding-left:10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  float: left;
+}
+#edit-profile{
+  position: relative;
+  top: -24px;
+  left: 600px;
+  text-decoration: underline;
+}
+.selected{
+  background: lightgrey;
+}
+.last-btn{
+  border-right: 2px solid black;
+}
+#content-about{
+  min-width: 986px;
+  border: 2px solid black;
+  padding-bottom: 45px;
+}
+#list-info-about{
+  width: 475px;
+  float:left;
+  padding-left: 35px;
+}
+#paragraph-info-about{
+  width: 475px;
+  float:left;
+}
 
 
 
