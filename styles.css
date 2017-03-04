@@ -1,0 +1,87 @@
+body {
+  font-family: "Lucida Grande";
+  font-font-size: 14px; }
+
+h1 {
+  font-size: 36px;
+  font-weight: bold; }
+
+h2 {
+  font-size: 24px;
+  line-height: 36px; }
+
+li {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: inside;
+  color: dimgray;
+  line-height: 36px;
+  text-indent: 2em;
+  font-size: 14px; }
+
+header {
+  background-color: #3b5998;
+  position: relative;
+  height: 83px;
+  color: white; }
+
+body {
+  background-color: #edf0f5; }
+
+#main-logo {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%; }
+
+#login {
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0; }
+
+main {
+  display: inline-block;
+  position: relative;
+  left: 2em;
+  top: -3em;
+  width: 58%; }
+
+aside {
+  display: inline-block;
+  position: relative;
+  right: 2em;
+  top: 2em;
+  width: 40%; }
+
+aside > * {
+  margin-bottom: 1em; }
+
+#sign-up > * {
+  margin-bottom: 1em; }
+
+.name {
+  width: 45%; }
+
+.input {
+  width: 100%; }
+
+#last-name {
+  position: absolute;
+  right: 0;
+  padding-right: 0;
+  margin-right: 0; }
+
+#sign-up-button {
+  font-size: 24px;
+  line-height: 36px;
+  width: 100%;
+  background-color: #67ae55;
+  color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: thin; }
+
+/*# sourceMappingURL=styles.css.map */
