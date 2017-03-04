@@ -28,14 +28,53 @@ body {
 }
 
 .section {
-  display: inline-flex;
   margin: 0 auto;
   position: relative;
   max-width: 1340px;
   min-width: 1340px;
 }
 
+.sec0 {
+  float: left;
+  height: 450px;
+  min-width: 1340px;
+  display: block;
+}
+#big-image {
+  height: 80%;
+  background-color: lightblue;
+}
 
+#navbar{
+  height: 12%;
+  border: black solid;
+  margin: 0 auto;
+}
+
+#navbar ul {
+  padding: 0;
+  background-position: center;
+  margin: -4px 0px 0px 277px;
+  text-align: left;
+  height: 102%;
+}
+
+#navbar li {
+  height: 100%;
+  border: black solid;
+  font-size: x-large;
+  display: inline-block;
+  margin: 0px -8px 0px 0px;
+  padding: 0px 20px 0px 20px;
+
+}
+
+#navbar a {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  top: 14px;
+  }
 
 .sec1 {
   float: left;
@@ -51,6 +90,7 @@ body {
 
 @media all and (min-width: 600px) {
   .header {order: -1; }
+  .sec0   { order: 1; }
   .sec1   {order: 2; }
   .sec2   { order: 3; }
 }
@@ -64,35 +104,37 @@ body {
 }
 
 #logo {
-  font-size: 4em;
+  font-size: 2em;
   text-align: left;
   color: white;
-  margin: 10px;
-  padding: 10px;
+  margin: 0px 0px 0px 120px;
 }
 
-.login {
+.searchbar {
+  display: inline-block;
   position: relative;
-  left: 40%;
-  top: 46px;
+  left: 5%;
+  top: 8px;
 
 }
 
 .group {
-  width: 205px;
   margin-bottom: 10px;
   font-weight: bold;
   color: white;
   text-align: left;
-  display: inline-block;
+  display: inline;
 }
 
 .normal {
-  width: 180px;
+  width: 580px;
 }
 
-#loginbt {
-  background: lightblue;
+
+.header p {
+  font-size: 1.3em;
+  margin: 7px 0px 0px 20%;
+  color: white;
 }
 
 
