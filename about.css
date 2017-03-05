@@ -87,6 +87,7 @@ html{
 .search{
 	flex-grow: 2;
 	padding: 0px 200px 0px 50px;
+
 }
 
 .textarea-container{
@@ -95,6 +96,7 @@ html{
 
 .search textarea{
 	flex-grow: 1;
+
 }
 
 .user-name{
