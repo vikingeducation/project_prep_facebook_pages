@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+  font-family: helvetica sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.user-profile-picture{
+  height: 5em;
+  width: 5em;
+  background-color: #fff;
+  border: 2px solid #000;
+}
+
+.editprofile-link{
+  font-size: .9em;
+}
+
+.user-profile-name{
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: #3B5998;
+  text-decoration: underline;
+}
+
+.user-profile-text{
+  display:flex;
+  flex-direction: column;
+	margin-left: 3%;
+}
+
+.user-profile-container{
+  display: flex;
+  justify-content: flex-start;
+	padding: 15%;
+}
+
+.recent-activity-container{
+  border-right: 1px solid #000;
+  width: 30%;
+}
+
+.user-activity-profile-picture{
+	height: 3em;
+	width: 3em;
+	background-color: #fff;
+	border: 1px solid #000;
+}
+
+.activity-container{
+	display: flex;
+	flex-direction: column;
+	padding-left: 10%;
+}
+
+.user-activity-container{
+	display: flex;
+	align-items: center;
+	padding: 5% 0px;
+}
+
+.user-activity-title{
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+.user-activity-profile-text{
+	padding-left: 5%;
+	width: 100%;
+}
+
+.user-activity-profile-name{
+	color: #3B59A1;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+.user-activity-date{
+	color: #777;
+	font-weight: bolder;
+}
+
+.see-your-friends{
+	color: #3B5998;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+.all-friends{
+	padding-left: 10%;
+}
+
+.newsfeed-body-container{
+	display: flex;
+}
+
+.text-area{
+	resize: none;
+	border: none;
+	height: 4em;
+	width: 100%;
+}
+
+.newsfeed-container{
+	width: 70%;
+	padding: 5% 10%;
+}
+
+.post-area-top{
+	background-color: #ddd;
+	height: 2em;
+	width: 100%;
+	border-bottom: 2px solid #000;
+	color: #000;
+	text-align: center;
+}
+
+.post-area-bottom{
+	background-color: #ddd;
+	height: 3em;
+	width: 100%;
+	border-top: 2px solid #000;
+}
+
+.post-area-position{
+	display: flex;
+	justify-content: flex-end;
+	height: 100%;
+}
+
+.post-button-style{
+	border: 2px solid #000;
+	background-color: #3B5998;
+	color: #fff;
+	height: 2em;
+	width: 4em;
+	align-self: center;
+	margin-right: 2%;
+}
+
+.post-area-container{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #000;
+}
+
+.interaction-options{
+	display: inline-block;
+}
+
+.newsfeed-activity-container{
+	margin-top: 5%;
+	border: 2px solid #000;
+	padding: 1% 1%;
+}
+
+.user-post-activity-container{
+	display: flex;
+	align-items: center;
+	padding: 0px 0px;
+	padding-bottom: 2%;
+}
+
+.post-interaction{
+	border: 2px solid #000;
+	border-top: none;
+	background-color: #ddd;
+	color:#3B5998;
+	height: 1.5em;
+}
+
+.interaction-options{
+	text-decoration: underline;
+	padding-left: 1%;
+	padding-top: .5%;
+}
