@@ -1,0 +1,276 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+  font-family: helvetica sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.header-flex{
+  background-color: #3B5998;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	padding: 0px 100px;
+	border: 2px solid #000;
+}
+
+.logo-profile-picture-container{
+	display: flex;
+	align-items: center;
+}
+
+.header-profile-picture{
+	height: 2em;
+	width: 2em;
+	background-color: #fff;
+}
+
+.logo{
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  padding: 5px;
+}
+
+.search{
+	flex-grow: 2;
+	padding: 0px 200px 0px 50px;
+
+}
+
+.textarea-container{
+	display: flex;
+}
+
+.search textarea{
+	flex-grow: 1;
+
+}
+
+.user-name{
+	font-size: 1.3;
+	font-weight: bolder;
+	color: #fff;
+}
+
+.body-header-flex{
+	display: flex;
+}
+
+.body-header-image{
+	height: 25em;
+	width: 100%;
+	background-color: #fff;
+	border: 2px solid #000;
+	border-top: 1px solid #000;
+	margin: auto;
+}
+
+.nav-flex{
+	display: flex;
+	padding: 0px 0px 0px 10%;
+	border: 2px solid #000;
+	border-top: 1px solid #000;
+	justify-content: space-between;
+}
+
+.nav-container{
+	width: 75%;
+}
+
+.link-container{
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 5em;
+}
+
+.nav-buttons{
+	background-color: #fff;
+	padding: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	height: 3em;
+	width: 10em;
+}
+
+.timeline-button{
+	background-color: #fff;
+	padding: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 2px solid #000;
+	border-right: 1px solid #000;
+	height: 3em;
+	width: 10em;
+}
+
+.friends-button{
+	background-color: #fff;
+	padding: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 1px solid #000;
+	border-right: 2px solid #000;
+	height: 3em;
+	width: 10em;
+}
+
+div .relative-for-profile{
+	padding: 0px 10%;
+	position: relative;
+
+}
+
+div .profile-picture-container{
+	height: 11em;
+	width: 10em;
+	background-color: #fff;
+	border: 2px solid #000;
+	position: absolute;
+	bottom: 1.5em;
+	left: 9.5em;
+	;
+}
+
+.editprofile-container-container{
+	width: 100%;
+}
+
+.editprofile-container{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
+	padding-right: 1em;
+}
+
+.editprofile-link{
+	color: #3B5998;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+.about-section-title-container{
+	padding: 0px 10%;
+	display: flex;
+	padding-top: 2px;
+}
+
+.about-title-container{
+	border: 2px solid #000;
+	flex-grow: 1;
+}
+
+.title-container{
+	width: 100%;
+}
+
+.about-title-edit-profile{
+	background-color: #3B5998;
+	color: #fff;
+}
+
+.about-flex-container{
+	display: flex;
+  background-color: #ddd;
+}
+
+.about-title{
+	font-size: 2em;
+	text-align: center;
+}
+
+.about-header-body-container{
+	display: flex;
+	flex-direction: column;
+}
+
+.about-header-body-container-child{
+	padding: 0px 10%;
+}
+
+.about-body-container{
+	display: flex;
+	border: 2px solid #000;
+	border-top-style: none;
+}
+
+.about-body-left,
+.about-body-right{
+	width: 50%;
+	padding: 4%;
+}
+
+.about-table-title{
+	font-size: 2em;
+}
+
+.table-bold{
+	font-weight: bolder;
+}
+
+.about-table-head{
+	text-align: left;
+}
+
+tr{
+	height:4em;
+}
+ .about-body-p-header{
+	 font-size: 2em;
+	 padding: 5% 0px;
+ }
