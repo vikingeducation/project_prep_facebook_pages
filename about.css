@@ -1,0 +1,233 @@
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper > * {
+  float: right;
+  flex: 1 100%;
+}
+
+.header {
+  background: #007FFF;
+  border: solid 3px black;
+  width: 100%;
+  min-width: 1340px;
+}
+
+.section {
+  margin: 0 auto;
+  position: relative;
+  max-width: 1340px;
+  min-width: 1340px;
+}
+
+.sec0 {
+  float: left;
+  height: 450px;
+  min-width: 1340px;
+  display: block;
+}
+#big-image {
+  height: 80%;
+  background-color: lightblue;
+}
+
+#navbar{
+  height: 12%;
+  border: black solid;
+  margin: 0 auto;
+}
+
+#navbar ul {
+  padding: 0;
+  background-position: center;
+  margin: -4px 0px 0px 277px;
+  text-align: left;
+  height: 102%;
+}
+
+#navbar li {
+  height: 100%;
+  border: black solid;
+  font-size: x-large;
+  display: inline-block;
+  margin: 0px -8px 0px 0px;
+  padding: 0px 20px 0px 20px;
+
+}
+
+#navbar a {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  top: 14px;
+  }
+
+.sec1 {
+  float: left;
+  height: 450px;
+  min-width: 820px;
+}
+
+.sec2 {
+  float: left;
+  height: 450px;
+  width: 500px;
+}
+
+@media all and (min-width: 600px) {
+  .header {order: -1; }
+  .sec0   { order: 1; }
+  .sec1   {order: 2; }
+  .sec2   { order: 3; }
+}
+
+#heading {
+
+  display: inline-flex;
+  margin: 0 auto;
+  position: relative;
+  min-width: 1340px;
+}
+
+#logo {
+  font-size: 2em;
+  text-align: left;
+  color: white;
+  margin: 0px 0px 0px 120px;
+}
+
+.searchbar {
+  display: inline-block;
+  position: relative;
+  left: 5%;
+  top: 8px;
+
+}
+
+.group {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  display: inline;
+}
+
+.normal {
+  width: 580px;
+}
+
+
+.header p {
+  font-size: 1.3em;
+  margin: 7px 0px 0px 20%;
+  color: white;
+}
+
+
+#sectone {
+  position: relative;
+  top: 55px;
+}
+
+#container {
+  position: relative;
+  bottom: 20px;
+  left: 90px;
+  font-size: 1.2em;
+  width: 475px;
+}
+
+#connect {
+  width: 500px;
+  margin-left: 30px;
+  font-size: xx-large;
+}
+
+#reasons {
+  text-align: left;
+}
+
+#reasons li {
+  padding: 8px;
+}
+
+
+
+
+#signuptit {
+  margin: 30px 0;
+  text-align: left;
+  font-size: 3em;
+}
+
+#signupform {
+  position: relative;
+  width: 450px;
+  text-align: left;
+  height: 300px;
+}
+
+#names input {
+  padding-left: 5px;
+  margin: 0 12px 20px 0;
+  display: inline;
+  text-align: left;
+  border: solid grey;
+  height: 22px;
+}
+
+#info input {
+  padding-left: 5px;
+  margin: 0 17px 20px 0;
+  display: inline-block;
+  text-align: left;
+  border: solid grey;
+  width: 388px;
+  height: 22px;
+}
+
+#birthd {
+  font-size: large;
+  color: black;
+}
+
+#birth {
+  width: 400px;
+  position: inline-block;
+  margin: 5px 0 10px 0;
+}
+
+#gen {
+  margin: 0 0 10px 0;
+  font-weight: bold;
+  color: #3B3C36;
+}
+
+#signupbt {
+  width: 385px;
+  height: 40px;
+  background-color: #228B22;
+  border: black solid;
+  color: white;
+  font-size: large;
+
+}
+
+.sel{
+border: solid grey;
+height: 28px;
+}
