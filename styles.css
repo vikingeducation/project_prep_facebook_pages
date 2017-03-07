@@ -199,9 +199,7 @@ label {
 .firstname {
   margin-right: 8px;
 }
-.lastname {
 
-}
 .form-row input{
   font-size: 18px;
   display: inline-block;
@@ -217,7 +215,24 @@ label {
 }
 .date-container {
   position: relative;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
-date-span-one {
-  display: inline-block;
+.radiolabel {
+  font-size: 19px;
+  font-weight: 900;
+  color: black;
+  margin: 30px;
+}
+select {
+  font-size: 18px;
+}
+.bottom-button {
+  font-size: 19px;
+  font-weight: 900;
+  padding: 10px 20px;
+  margin-top: 30px;
+  background-color: #69a74e;
+  color: white;
+  border-radius: 5px;
 }
