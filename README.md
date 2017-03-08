@@ -1,3 +1,7 @@
+Spencer R. 
+
+Had to reconcile my methods w/ fb's a lot but definitely a cool project. Spent a lot of time tinkering with details. 
+
 prep_facebook_pages
 ===================
 
