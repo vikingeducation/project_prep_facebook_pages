@@ -14,6 +14,9 @@ line-height: 1.34;
 margin: 0;
 padding: 0;
 }
+#about-page {
+  background-color: #e9ebee
+}
 
 form {
   display: block;
@@ -67,6 +70,22 @@ label {
     line-height: 0;
     visibility: hidden;
 }
+.about-main {
+  width: 851px;
+  margin: 0 auto;
+  position: relative;
+  zoom: 1;
+  clear: both;
+  min-height: 1000px;
+}
+.about-main-container {
+  background-color: white;
+}
+
+#coverphoto {
+  width: 851px;
+  height: 355px;
+}
 
 .left {
   float: left;
@@ -84,6 +103,81 @@ label {
   height: 82px;
   min-width: 980px;
 }
+.name-div {
+  top: 289px;
+  left: 251px;
+  position: absolute;
+  color: white
+}
+
+.section-nav {
+  min-height: 41px;
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+.nbar {
+  padding-left: 201px;
+  text-align: center;
+  border: 1px solid; #e9eaed;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius:2px;
+  vertical-align: middle;
+  clear: right;
+  border: 1px solid #e9eaed;
+}
+#naver {
+  border-right: 1px solid #e9eaed;
+  float: left;
+  height: 43px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  padding-left: 22px;
+  padding-top: 15px;
+  padding-right: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #3b5998;
+}
+
+.about-nav-container {
+  display: flex;
+  height: 43px;
+  color: white;
+  min-width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+}
+.about-content{
+  margin-top: 18px;
+  width: 851px;
+  background-color: white;
+  border: 1px solid #d3d6db;
+  border-radius: 3px;
+  margin-bottom: 35px;
+  position: relative;
+}
+.about-content-header {
+  padding:16px 0px 12px 32px;
+  background-color: #f6f7f9;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+
+}
+
+#profilep {
+  height: 166px;
+  width: 166px;
+  padding: 2px 2px 2px 2px;
+  top: 223px;
+  left: 27px;
+  background: white;
+  border-radius: 3px;
+  position: absolute;
+}
 .home-nav {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -92,6 +186,20 @@ label {
   padding-top: 13px;
   width:980px;
 }
+.about-nav {
+  display: flex;
+  width: 960px;
+  height: 42px;
+  padding: 0;
+  margin: auto;
+}
+.about-a {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-start;
+}
+
+
 #home-header {
   display: block;
   margin: 0;
@@ -102,6 +210,19 @@ label {
   font-weight: 900;
   color: white;
 }
+
+#about-header {
+  display: block;
+  margin: 0;
+  margin-top: -1px;
+  margin-bottom: 0;
+  margin-right: 20px;
+  padding: 0;
+  font-size: 31px;
+  font-weight: 900;
+  color: white;
+}
+
 #logo {
   display: block;
   color: inherit;
@@ -114,16 +235,38 @@ label {
   border: 1px solid #1d2a5b;
   padding: 3px 3px 4px 3px;
   margin-top: 4px;
+  border-radius: 2px;
+}
+.search-input {
+  width: 100%;
+  max-width: 500px;
+  min-width: 150px;
+  border: 1px solid #1d2a5b;
+  padding: 4px 3px 3px 3px;
+  border-radius: 2px;
+  line-height: 18px;
+  color: grey;
+  margin-top: 8px;
+  margin-bottom: 7px
+}
+.top-section {
+  border: 1px solid #e9eaed;
+}
+.search-box{
+  width: 100%;
+  align-content: center;
 }
 .login-button {
   background-color: #4267b2;
   border: 1px solid #29487c;
   display: inline-block;
+  margin-top: 3px;
   font-weight: bold;
   line-height: 18px;
-  padding: 2px 6px;
+  padding: 2.5px 6px;
   text-align: center;
-  text-decoration: none:
+  text-decoration: none;
+  border-radius: 2px;
 
 }
 .login-button input {
@@ -171,9 +314,26 @@ label {
   vertical-align: middle;
   border: 0;
 }
+.small-av {
+  width: 26px;
+  height: 26px;
+  margin-top: 8px;
+  margin-bottom: 7px;
+}
 .big-icon-caption {
   width: 440px;
   display: inline-block;
+}
+.thing {
+  display: block;
+  width: 100%;
+  margin-left: 80px;
+}
+#namething {
+  display: inline-block;;
+  position: absolute;
+  top: 0;
+  margin-left: 30px;
 }
 .leftspan {
   font-weight: 900;
@@ -235,4 +395,18 @@ select {
   background-color: #69a74e;
   color: white;
   border-radius: 5px;
+}
+.table-zone{
+  padding: 20px 60px 20px 30px;
+  font-size: 1.3em;
+  border-top: 1px solid #e9ebee;
+}
+.table-zone table {
+  width: 100%;
+}
+.table-zone td {
+  padding: 20px 0 20px 0;
+}
+.table-zone thead {
+  border-top: 1px solid #e9ebee;
 }
