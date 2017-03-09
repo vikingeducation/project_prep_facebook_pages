@@ -65,9 +65,60 @@ header input[type="email"] {
   border: 1px solid black;
 }
 /*     Left Section    */
-.grey {
-  color:#676767;
+.bold {
+  font-weight: bold;
 }
-ul,li {
-  list-style: disc;
+ul {
+  list-style:disc;
+  margin: 15px;
+}
+li {
+  margin: 10px 0 0 0;
+  color:#676767;
+  margin: 25px;
+}
+#left {
+  display:inline-block;
+  margin: 80px 0 0 140px;
+  float: left;
+}
+/*     Right Section    */
+#right {
+  display:inline-block;
+  float: right;
+  margin: 20px 140px 0 0;
+}
+#right input {
+  border: 2px lightgrey solid;
+  margin: 5px;
+  #width: 340px;
+}
+#right h1 {
+  margin: 10px 0;
+}
+#right p {
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+#right input:nth-child(5) {
+  width: 356px;
+}
+#right input:nth-child(9) {
+  width: 356px;
+}
+#right input:nth-child(7) {
+  width: 356px;
+}
+select {
+  margin: 5px;
+}
+button{
+  margin: 10px;
+  width: 350px;
+  color: white;
+  background: #239D0F;
+  border: 2px solid black;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+
 }
