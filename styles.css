@@ -1,0 +1,73 @@
+/*              CLEARFIX             */
+
+.clearfix::before, .clearfix::after {
+    display: table;
+    content: " ";
+}
+
+.clearfix::after {
+    clear: both;
+}
+/*     ALL    */
+
+h1 {
+  font-size: 200%;
+  font-weight: bold;
+}
+h2 {
+  font-size: 150%;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+
+/*     HEADER    */
+header {
+  box-sizing: border-box;
+  width: 100%;
+  background: #2B78E5;
+  padding: 1em;
+  #display: flex;
+  border: 2px solid black;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 400%;
+  #margin: 3em;
+  font-family: monospace;
+}
+header a:hover {
+  background-color: rgba(92, 151, 221, 0.2);
+}
+header form {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+header label {
+  color: white;
+}
+header input {
+  border: 2px solid black;
+}
+header input[type="submit"] {
+  color: black;
+  background: rgb(92, 151, 221);
+  border: 1px solid black;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+}
+header input[type="password"] {
+  border: 1px solid black;
+}
+header input[type="email"] {
+  border: 1px solid black;
+}
+/*     Left Section    */
+.grey {
+  color:#676767;
+}
+ul,li {
+  list-style: disc;
+}
