@@ -3,6 +3,7 @@ body {
   min-width: 1200px;
 }
 
+/* Sign Up Page */
 .header-home {
   min-width: 1200px;
   height: 80px;
@@ -125,6 +126,7 @@ input.textinput {
   height: 0;
 }
 
+/* Top header for all pages */
 .header {
   min-width: 1200px;
   height: 50px;
@@ -171,6 +173,7 @@ input.textinput {
   margin-right: 100px;
 }
 
+/* Background photo and info */
 .back-container {
   width: 1200px;
   height: 350px;
@@ -217,7 +220,6 @@ input.textinput {
   text-align: right;
   width: 300px;
   padding-right: 30px;
-  
 }
 .back-container li:last-child a {
   color: #5888b5;
@@ -233,6 +235,7 @@ input.textinput {
   background-color: #EEEEEE;
 }
 
+/* Main */
 .main-container {
   width: 1200px;
   height: 750px;
@@ -293,6 +296,8 @@ input.textinput {
 .about-right p {
   line-height: 1.5;
 }
+
+/* Friends page */
 .friend-box {
   border: 2px solid black;
   width: 525px;
@@ -327,7 +332,7 @@ input.textinput {
   height: 25px;
   border: 2px solid #333;
 }
-
+/* Newsfeed */
 .newsfeed-left {
   float: left;
   width: 350px;
