@@ -13,16 +13,24 @@
 /* HEADER */
 
 header {
+  background: #2B78E5;
+  border: 2px solid black;
     background: #2B78E5;
     border: 2px solid black;
 }
 
 header * {
+  display: inline-block;
+  margin: 1% 0;
     display: inline-block;
     margin: 1% 0;
 }
 
 header p {
+  color:white;
+  margin-right: 5%;
+  font-family: monospace;
+  font-size: 130%;
     color: white;
     margin-right: 5%;
     font-family: monospace;
@@ -47,70 +55,3 @@ header input {
 
 
 /* SECTION */
-
-#top {
-  height: 500px;
-}
-#background {
-  width: 76%;
-  height: 50%;
-  margin: 0 12%;
-  background: white;
-  border: 1px solid black;
-  border-top: none;
-}
-nav {
-  width: 76%;
-  height: 9%;
-  margin: 0 12% 2%;
-  background: white;
-  border: 1px solid black;
-  border-top: none;
-}
-nav * {
-  display: inline-block;
-}
-nav li {
-  border: 1px solid black;
-  display: block;
-  float: left;
-  padding: 15px;
-  border-top: none;
-  border-left: none;
-  border-bottom: none;
-}
-nav li:first-child {
-  border-left: 1px solid black;
-}
-nav li a {
-  text-decoration: none;
-  color:black;
-}
-nav li a:hover {
-  text-decoration: underline;
-}
-#photo {
-  margin: 0 8px 5px;
-  width: 125px;
-  height: 125px;
-  background: lightskyblue;
-  position: relative;
-  top:-125px;
-}
-.link{
-  float: right;
-  margin: 11px;
-  margin-top: 13px;
-}
-.grey {
-  color: grey;
-}
-#photo p {
-  position: relative;
-  left: 140px;
-  top:50px;
-  font-size: 150%;
-  font-weight: bold;
-  width: 400px;
-}
-/* End Section first */
