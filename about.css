@@ -13,24 +13,24 @@
 /* HEADER */
 
 header {
-  background: #2B78E5;
-  border: 2px solid black;
+    background: #2B78E5;
+    border: 2px solid black;
     background: #2B78E5;
     border: 2px solid black;
 }
 
 header * {
-  display: inline-block;
-  margin: 1% 0;
+    display: inline-block;
+    margin: 1% 0;
     display: inline-block;
     margin: 1% 0;
 }
 
 header p {
-  color:white;
-  margin-right: 5%;
-  font-family: monospace;
-  font-size: 130%;
+    color: white;
+    margin-right: 5%;
+    font-family: monospace;
+    font-size: 130%;
     color: white;
     margin-right: 5%;
     font-family: monospace;
@@ -54,4 +54,75 @@ header input {
 }
 
 
-/* SECTION */
+/* SECTION  background and photo*/
+#top *{
+  font-family: monospace;
+}
+#background {
+  width: 76%;
+  height: 200px;
+  background: red;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-top: none;
+}
+#nav {
+  width: 76%;
+  height: 40px;
+  background: yellow;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-top: none;
+}
+#nav * {
+  display: inline-block;
+  box-sizing: border-box;
+}
+#photo {
+  margin: 10px;
+  height: 125px;
+  width: 20%;
+  max-width: 110px;
+  background: green;
+  position: relative;
+  top:-100px;
+  float: left;
+  border: 1px solid black;
+}
+#photo p {
+  position: absolute;
+  left:120px;
+  top: 40px;
+  font-size: 150%;
+  font-weight: bold;
+  width: 200px;
+}
+#nav ul {
+
+  float: left;
+  height: 100%;
+}
+#nav li {
+    display: block;
+    float: left;
+    border: 1px solid black;
+    height: 100%;
+    border-bottom: none;
+    border-top: none;
+}
+#nav li a{
+  color: black;
+  text-decoration: none;
+  align-items: center;
+}
+#nav li a:hover {
+  text-decoration: underline;
+}
+.grey {
+  color:grey;
+}
+#nav a {
+  float: right;
+  margin: 10px;
+}
+/* Section About            */
