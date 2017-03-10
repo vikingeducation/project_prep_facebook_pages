@@ -73,6 +73,7 @@ header input {
   margin: 0 auto;
   border: 1px solid black;
   border-top: none;
+  position: relative;
 }
 #nav * {
   display: inline-block;
@@ -84,7 +85,7 @@ header input {
   width: 20%;
   max-width: 110px;
   background: green;
-  position: relative;
+  position: absolute;
   top:-100px;
   float: left;
   border: 1px solid black;
@@ -101,6 +102,7 @@ header input {
 
   float: left;
   height: 100%;
+  margin-left: 150px;
 }
 #nav li {
     display: block;
@@ -126,3 +128,54 @@ header input {
   margin: 10px;
 }
 /* Section About            */
+#bottom * {
+  font-family: monospace;
+}
+#friends {
+  font-size: 200%;
+  font-weight: bold;
+  text-align: center;
+  background: red;
+  width: 76%;
+  margin: 0 auto;
+  border: 1px solid black;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+#granger {
+  border: 2px solid black;
+  border-top: none;
+  box-sizing: border-box;
+  width: 76%;
+  height: 500px;
+  margin: 0 auto;
+  background: blue;
+}
+.hermiona {
+  float: left;
+  height: 120px;
+  width: 45%;
+  margin: 2%;
+  background: silver;
+  border: 2px solid black;
+}
+.hermiona {
+
+}
+.but{
+  background: white;
+  height: 90%;
+  width: 25%;
+  margin: 5px;
+  float: left;
+}
+.block {
+  display: block;
+  float: left;
+  margin-top: 35px;
+  margin-left: 5px;
+}
+button {
+  float: right;
+  margin-top: 35px;
+}
