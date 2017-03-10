@@ -8,3 +8,31 @@
 .clearfix::after {
     clear: both;
 }
+header {
+  background: #2B78E5;
+  border: 2px solid black;
+}
+header * {
+  display: inline-block;
+  margin: 1% 0;
+}
+header p {
+  color:white;
+  margin-right: 5%;
+  font-family: monospace;
+  font-size: 130%;
+}
+header div {
+  background: white;
+  border: 1px solid black;
+  #font-size: 140%;
+  height: 75%;
+  width: 3%;
+  margin-left: 5%;
+  text-align: center;
+}
+header input {
+  margin: 0 10%;
+  width: 44%;
+  border: 2px solid grey;
+}
