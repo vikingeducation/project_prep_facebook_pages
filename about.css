@@ -1,0 +1,231 @@
+/*              CLEARFIX             */
+
+.clearfix::before, .clearfix::after {
+    display: table;
+    content: " ";
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+
+/* HEADER */
+
+header {
+    background: #2B78E5;
+    border: 2px solid black;
+    background: #2B78E5;
+    border: 2px solid black;
+}
+
+header * {
+    display: inline-block;
+    margin: 1% 0;
+    display: inline-block;
+    margin: 1% 0;
+}
+
+header p {
+    color: white;
+    margin-right: 5%;
+    font-family: monospace;
+    font-size: 130%;
+    color: white;
+    margin-right: 5%;
+    font-family: monospace;
+    font-size: 130%;
+}
+
+header div {
+    background: white;
+    border: 1px solid black;
+    #font-size: 140%;
+    height: 75%;
+    width: 3%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+header input {
+    margin: 0 10%;
+    width: 44%;
+    border: 2px solid grey;
+}
+
+
+/* SECTION  background and photo*/
+
+#top * {
+    font-family: monospace;
+}
+
+#background {
+    width: 76%;
+    height: 200px;
+    background: red;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-top: none;
+}
+
+#nav {
+    width: 76%;
+    height: 40px;
+    background: yellow;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-top: none;
+    position: relative;
+}
+
+#nav * {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#photo {
+    margin: 10px;
+    height: 125px;
+    width: 20%;
+    max-width: 110px;
+    background: green;
+    position: absolute;
+    top: -100px;
+    float: left;
+    border: 1px solid black;
+}
+
+#photo p {
+    position: absolute;
+    left: 120px;
+    top: 40px;
+    font-size: 150%;
+    font-weight: bold;
+    width: 200px;
+}
+
+#nav ul {
+    float: left;
+    height: 100%;
+    margin-left: 150px;
+}
+
+#nav li {
+    display: block;
+    float: left;
+    border: 1px solid black;
+    height: 100%;
+    border-bottom: none;
+    border-top: none;
+}
+
+#nav li a {
+    color: black;
+    text-decoration: none;
+    align-items: center;
+}
+
+#nav li a:hover {
+    text-decoration: underline;
+}
+
+.grey {
+    color: grey;
+}
+
+#nav a {
+    float: right;
+    margin: 10px;
+}
+
+
+/* Section About            */
+
+#bottom * {
+    font-family: monospace;
+}
+
+#friends {
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    background: red;
+    width: 76%;
+    margin: 0 auto;
+    padding: 2px;
+    border: 1px solid black;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+#granger {
+    border: 2px solid black;
+    border-top: none;
+    box-sizing: border-box;
+    width: 76%;
+    height: 600px;
+    margin: 0 auto;
+    background: white;
+    font-size: 100%;
+}
+
+.hermiona {
+    float: left;
+    height: 120px;
+    width: 45%;
+    margin: 2%;
+    background: silver;
+    border: 2px solid black;
+}
+
+.hermiona {}
+
+.but {
+    background: white;
+    height: 90%;
+    width: 25%;
+    margin: 5px;
+    float: left;
+}
+
+.block {
+    display: block;
+    float: left;
+    margin-top: 35px;
+    margin-left: 5px;
+}
+
+.hermiona button {
+    float: right;
+    margin-top: 35px;
+}
+
+/*                                        ABout CSS          */
+#friends button {
+  background : rgb(58, 187, 193);
+  box-sizing: border-box;
+  border: 2px solid black;
+  float: right;
+  margin: 2px;
+  color: white;
+}
+.basic {
+  padding: 25px;
+}
+.basic h1{
+  font-size: 200%;
+  font-weight: bold;
+  margin: 5px;
+}
+.basic h4 {
+  font-weight: bold;
+  display: inline-block;
+  margin: 3px;
+}
+.basic p {
+  display: inline-block;
+}
+.right {
+  float: right;
+}
