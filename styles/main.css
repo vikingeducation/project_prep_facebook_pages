@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+}
+
+input {
+    height: 1.5em;
+}
+
+.border-black-2px {
+    border: 2px solid black;
+}
+
+.button-light-blue {
+    background: #a0c6f7;
+    border: 2px solid black;
+}
+
+.font-size-24 {
+    font-size: 1.5em;
+}
+
+.font-size-32 {
+    font-size: 2em;
+}
+
+.font-size-48 {
+font-size: 3em;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.blue-background {
+    background: #317be1;
+}
+
+div#title {
+    display: inline-block;
+    width: 59%;
+}
+
+div#login {
+    display: inline-block;
+    width: 39%;
+}
+
+#login-button {
+    padding: 3px 10px;
+}
+
+#login label {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#login span {
+    display: block;
+    margin-bottom: 2px;
+}
+
+section#features {
+    float: left;
+    width: calc(59% - 100px);
+    padding: 70px 30px 50px 70px;
+}
+
+section#signup {
+    float: right;
+    width: 39%;
+}
