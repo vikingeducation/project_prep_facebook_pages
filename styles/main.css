@@ -6,9 +6,16 @@ header {
     padding: 15px 35px;
 }
 
-.vertical-align {
-    display: flex;
-    align-items: center;
+nav li {
+    display: inline-block;
+    line-height: 2em;
+    width: 125px;
+    margin-left: -5px;
+}
+
+nav a {
+    margin: 10px 10px 0px 0px;
+    text-decoration: underline;
 }
 
 .border-black-2px {
@@ -61,6 +68,10 @@ font-size: 3em;
     display: inline-block;
 }
 
+.text-gray-light {
+    color: #a6afb5;
+}
+
 .width-full {
     width: 100%;
 }
@@ -75,6 +86,21 @@ font-size: 3em;
 
 .right {
     float: right;
+}
+
+#image-large {
+    height: 300px;
+    background-image: url("http://placekitten.com/500/300");
+}
+
+#image-profile {
+    position: absolute;
+    left: 30px;
+    bottom: -25px;
+
+    background: url("http://placekitten.com/150/150") no-repeat;
+    width: 150px;
+    height: 150px;
 }
 
 #login-button {
