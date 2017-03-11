@@ -50,8 +50,16 @@ font-size: 3em;
     background: #317be1;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 .width-full {
     width: 100%;
+}
+
+.width-59-percent {
+    width: 59%;
 }
 
 .left {
@@ -63,13 +71,7 @@ font-size: 3em;
 }
 
 div#title {
-    display: inline-block;
-    width: 59%;
-}
 
-div#login {
-    display: inline-block;
-    width: 39%;
 }
 
 #login-button {
@@ -78,6 +80,11 @@ div#login {
 
 #signup-button {
     height: 35px;
+}
+
+#logo {
+    background: url("/images/facelook_logo.jpg") left no-repeat;
+    padding-left: 45px;
 }
 
 #login label {
