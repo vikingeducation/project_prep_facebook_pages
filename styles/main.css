@@ -16,7 +16,14 @@ input {
 
 .button-light-blue {
     background: #a0c6f7;
-    border: 2px solid black;
+}
+
+.button-green {
+    background: #2c9c20;
+}
+
+.font-size-18 {
+    font-size: 1.125em;
 }
 
 .font-size-24 {
@@ -43,6 +50,18 @@ font-size: 3em;
     background: #317be1;
 }
 
+.width-full {
+    width: 100%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 div#title {
     display: inline-block;
     width: 59%;
@@ -57,6 +76,10 @@ div#login {
     padding: 3px 10px;
 }
 
+#signup-button {
+    height: 35px;
+}
+
 #login label {
     display: inline-block;
     margin-right: 15px;
@@ -68,12 +91,55 @@ div#login {
 }
 
 section#features {
-    float: left;
     width: calc(59% - 100px);
     padding: 70px 30px 50px 70px;
 }
 
 section#signup {
-    float: right;
-    width: 39%;
+    width: calc(39% - 70px);
+    padding: 25px 70px 30px 0px;
+}
+
+h1#connect-title {
+    margin-bottom: 20px;
+}
+
+#features-list li {
+    margin-left: 40px;
+    margin-bottom: 15px;
+    list-style-type: disc;
+}
+
+#signup input {
+    margin-bottom: 15px;
+}
+
+#signup input[name="first-name"] {
+    margin-right: 10px;
+    width: calc(47% - 10px);
+}
+
+#signup input[name="last-name"] {
+    width: 47%;
+}
+
+#signup-title {
+    margin-bottom: 25px;
+}
+
+#signup-form label {
+    margin-right: 15px;
+}
+
+#signup-form select {
+    width: 60px;
+    margin: 10px 5px 10px 0px;
+}
+
+#signup-form select#month {
+    width: 90px;
+}
+
+#signup-form fieldset {
+    margin-bottom: 10px;
 }
