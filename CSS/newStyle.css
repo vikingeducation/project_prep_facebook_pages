@@ -1,0 +1,145 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* End reset */
+body {
+  font-family: arial; }
+
+/* Header bar*/
+.top-bar {
+  background: #297add;
+  height: 60px; }
+  .top-bar div {
+    float: left; }
+  .top-bar .title-container {
+    width: 15%;
+    margin-right: 46%;
+    margin-left: 2%; }
+    .top-bar .title-container h1 {
+      color: white;
+      font-size: 38px;
+      padding-left: 3%;
+      padding-top: 11px; }
+  .top-bar .login-form {
+    color: white;
+    font-size: 14px;
+    width: 15%;
+    margin-top: 10px; }
+    .top-bar .login-form input {
+      width: 90%;
+      color: black; }
+  .top-bar .login-button-container {
+    width: 5%;
+    margin-top: 23px;
+    margin-right: 2%; }
+    .top-bar .login-button-container input {
+      display: inline-block;
+      width: 100%;
+      background-color: #9dc5f4;
+      border: 2px solid black;
+      font-size: 12px;
+      padding-left: 0px;
+      padding-right: 0px; }
+
+/* Lefthand content (welcome message)*/
+.welcome-container {
+  float: left;
+  width: 63%;
+  padding-top: 80px; }
+  .welcome-container .connect-text {
+    margin: auto;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px; }
+  .welcome-container .ul-container {
+    margin-left: 20%;
+    margin-right: 5%; }
+    .welcome-container .ul-container ul {
+      width: 90%;
+      margin: auto; }
+      .welcome-container .ul-container ul li {
+        font-size: 16px;
+        color: #797979;
+        list-style-type: disc;
+        padding-bottom: 15px; }
+        .welcome-container .ul-container ul li .list-bold {
+          font-weight: bold; }
+
+/* Righthand content (sign up form)*/
+.sign-up-container {
+  float: left;
+  width: 36%; }
+  .sign-up-container select,
+  .sign-up-container .names,
+  .sign-up-container .full-length-input,
+  .sign-up-container .gender-buttons {
+    margin-bottom: 15px; }
+  .sign-up-container .sign-up-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 36px; }
+  .sign-up-container .names {
+    width: 100%; }
+  .sign-up-container .half-length-input {
+    display: inline-block;
+    width: 38%; }
+  .sign-up-container .full-length-input {
+    display: inline-block;
+    width: 78.5%; }
+  .sign-up-container h4 {
+    font-style: bold;
+    font-size: 16px;
+    margin-bottom: 5px; }
+  .sign-up-container .info-submit-button {
+    color: white;
+    font-size: 18px;
+    background: #009d32;
+    border: 2px solid black;
+    width: 78.5%; }
+
+/*# sourceMappingURL=newStyle.css.map */

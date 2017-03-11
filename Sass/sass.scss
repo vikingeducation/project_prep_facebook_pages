@@ -1,0 +1,139 @@
+@import "Partials/colors";
+@import "Partials/reset";
+
+body {
+	font-family: arial;
+}
+
+/* Header bar*/
+.top-bar{
+	background: $header-bgd;
+	height: 60px;
+
+  div {
+    float:left;
+  }
+
+	.title-container{
+		width:15%;
+		margin-right: 46%;
+		margin-left:2%;
+
+		h1 {
+			color: $light-text;
+			font-size: 38px;
+			padding-left: 3%;
+			padding-top: 11px;
+		}
+	}
+
+	.login-form{
+		color:$light-text;
+		font-size: 14px;
+		width:15%;
+		margin-top: 10px;
+
+		input {
+			width:90%;
+			color:black;
+		}
+	}
+
+	.login-button-container{
+		width: 5%;
+		margin-top: 23px;
+		margin-right:2%;
+
+		input {
+			display: inline-block;
+			width:100%;
+			background-color:$log-in-bttn-bgd;
+			border: 2px solid black;
+			font-size: 12px;
+			padding-left:0px;
+			padding-right:0px;
+		}
+	}
+}
+
+/* Lefthand content (welcome message)*/
+.welcome-container{
+	float:left;
+	width:63%;
+	padding-top: 80px;
+
+	.connect-text{
+		margin:auto;
+		font-size: 30px;
+		font-weight: bold;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	.ul-container {
+		margin-left: 20%;
+		margin-right: 5%;
+		ul {
+			width:90%;
+			margin:auto;
+
+			li {
+				font-size: 16px;
+				color:$grey-text;
+				list-style-type: disc;
+				padding-bottom: 15px;
+
+				.list-bold {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+
+/* Righthand content (sign up form)*/
+.sign-up-container {
+	float: left;
+	width:36%;
+
+		select,
+		.names,
+		.full-length-input,
+		.gender-buttons {
+			margin-bottom: 15px;
+		}
+
+	.sign-up-header {
+		padding-top:20px;
+		padding-bottom:20px;
+		font-size: 36px;
+	}
+
+	.names {
+		width: 100%;
+	}
+
+	.half-length-input {
+		display: inline-block;
+	  width: 38%;
+	}
+
+	.full-length-input {
+		display: inline-block;
+		width: 78.5%;
+	}
+
+	h4 {
+		font-style: bold;
+		font-size:16px;
+		margin-bottom: 5px;
+	}
+
+	.info-submit-button {
+		color:$light-text;
+		font-size: 18px;
+		background: $sign-up-bttn-bgd;
+		border:2px solid black;
+		width: 78.5%;
+	}
+}
