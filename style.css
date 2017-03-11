@@ -31,9 +31,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/*ol, ul {
 	list-style: none;
-}
+}*/
 blockquote, q {
 	quotes: none;
 }
@@ -50,7 +50,7 @@ table {
 /* End reset */
 
 body {
-	font-family: courier;
+	font-family: arial;
 }
 .top-bar{
 	background: dodgerblue;
@@ -59,24 +59,22 @@ body {
 
 .title-container{
 	float:left;
-	width:20%;
-	margin-right: 30%;
+	width:15%;
+	margin-right: 46%;
 	margin-left:2%;
 }
 
 .site-title {
 	color: white;
-	font-size: 30px;
-	font-weight: bold;
+	font-size: 38px;
 	padding-left: 3%;
-	padding-top: 15px;
+	padding-top: 11px;
 }
 .login-form{
 	color:white;
 	font-size: 14px;
 	float:left;
 	width:15%;
-	margin-right: 2%;
 	margin-top: 10px;
 }
 
@@ -86,19 +84,76 @@ body {
 
 }
 
-.login-button{
+.login-button-container{
 	float:left;
-	width: 10%;
+	width: 5%;
 	margin-top: 23px;
 	margin-right:2%;
 }
 
+.login-button{
+	display: inline-block;
+	width:100%;
+	background-color:#8cd0f7;
+	border: 2px solid #8cd0f7;
+	font-size: 12px;
+	padding-left:0px;
+	padding-right:0px;
+}
 .welcome-container{
 	float:left;
-	width:50%;
+	width:63%;
+	padding-top: 80px;
 }
 
-.sign-up {
-	float:left;
-	width:50%
+.connect-text{
+	margin:auto;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.ul-container {
+	margin-left: 20%;
+	margin-right: 5%;
+}
+
+ul {
+	width:90%;
+	margin:auto;
+}
+
+li {
+	font-size: 16px;
+	color:darkgrey;
+	list-style-type: disc;
+	padding-bottom: 15px;
+}
+
+.list-bold {
+	font-weight: bold;
+}
+
+.sign-up-container {
+	float: left;
+	width:36%;
+}
+
+.sign-up-header {
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size: 36px;
+}
+
+.names {
+	width: 100%;
+}
+
+.first-name {
+	width: 50%;
+}
+
+.last-name {
+	width:50%;
 }

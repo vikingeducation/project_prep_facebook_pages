@@ -24,8 +24,8 @@
               <h5>Password</h5>
               <input type="password"  class="login-input">
             </div>
-            <div class="login-button">
-              <input type="button" value="Log In">
+            <div class="login-button-container">
+              <input type="button" value="Log In" class="login-button">
             </div>
           </div>
       </div>
@@ -35,19 +35,22 @@
     <main>
       <div class="welcome-container">
         <h3 class="connect-text">Connect with all your friends!</h3>
-        <ul>
-          <li><span class="list-bold">See photos and updates</span> in your news feed</li>
-          <li><span class="list-bold">Post your status for the world to see</span> from your profile</li>
-          <li><span class="list-bold">Get in touch with your friends</span> by "friending" them</li>
-          <li><span class="list-bold">Like things</span> because you're a positive person</li>
-        </ul>
+        <div class="ul-container">
+          <ul>
+            <li><span class="list-bold">See photos and updates</span> in your news feed</li>
+            <li><span class="list-bold">Post your status for the world to see</span> from your profile</li>
+            <li><span class="list-bold">Get in touch with your friends</span> by "friending" them</li>
+            <li><span class="list-bold">Like things</span> because you're a positive person</li>
+          </ul>
+        </div>
       </div>
 
-      <div class="sign-up">
+      <div class="sign-up-container">
+        <h2 class="sign-up-header">Sign Up</h2>
         <form class="new-user-info">
           <div class="names">
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
+            <input type="text" class="fist-name" placeholder="First Name">
+            <input type="text" class="fist-name" placeholder="Last Name">
           </div>
             <input type="text" placeholder="Your Email">
             <input type="text" placeholder="Your New Password">
