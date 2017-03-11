@@ -3,11 +3,12 @@ body {
 }
 
 header {
-    padding: 20px 35px;
+    padding: 15px 35px;
 }
 
-input {
-    height: 1.5em;
+.vertical-align {
+    display: flex;
+    align-items: center;
 }
 
 .border-black-2px {
@@ -22,8 +23,13 @@ input {
     background: #2c9c20;
 }
 
+.center-text {
+    text-align: center;
+}
+
 .font-size-18 {
     font-size: 1.125em;
+    margin: auto;
 }
 
 .font-size-24 {
@@ -32,6 +38,7 @@ input {
 
 .font-size-32 {
     font-size: 2em;
+    margin: auto;
 }
 
 .font-size-48 {

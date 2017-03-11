@@ -5,19 +5,23 @@
   <title>Facelook-About</title>
 
   <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/bootstrap.css">
+  <link rel="stylesheet" href="styles/bootstrap-grid.css">
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-<header class="blue-background border-black-2px">
-  <div id="title">
+<header class="row blue-background border-black-2px vertical-align" style="display: flex; align-items: center;">
+  <div id="title" class="col-md-3">
     <h1 id="logo" class="font-size-32 color-white">Facelook</h1>
   </div>
-  <div id="search">
+  <div id="search" class="col-md-6">
     <form id="search-form" method="get">
-      <input class="width-full" type="search" placeholder="Search for users">
+      <input type="search" placeholder="Search for users" class="width-full">
     </form>
   </div>
-  <div id="user-name" class="color-white font-size-18">Harry</div>
+  <div id="user-name" class="col-md-3">
+    <h2 class="color-white font-size-18 center-text">Harry</h2>
+  </div>
 </header>
 </body>
 </html>
