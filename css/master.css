@@ -2,6 +2,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 12px;
   margin: 0;
+  background: #edf0f5;
 }
 
 .login {
@@ -21,8 +22,6 @@ div, aside, header, table {
   margin: 0px;
 }
 
-
-
 .logo a {
   text-decoration: none;
 }
@@ -38,7 +37,10 @@ div, aside, header, table {
   line-height: 22px;
 }
 
-
+.list li {
+  margin-bottom: 5px;
+  font-size:
+}
 
 .flex-container {
   display: -webkit-flex;
@@ -68,9 +70,10 @@ div, aside, header, table {
 }
 
 .aside1-header {
-  padding: 42px 0 0 100px;
+  padding: 42px 0 0 0;
   font-size: 28px;
   padding-left: 40px;
+  margin-left: 100px;
 }
 .aside1 {
   margin-right: 50px;
