@@ -1,0 +1,208 @@
+body {
+  width: 100%;
+  padding-left: 0px;
+  margin-left: 0px;
+  font-family: Arial, Verdana, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background: #c4c9d1; }
+
+header {
+  background: #465290;
+  padding-left: 0px;
+  grid-column: 1 / 7;
+  grid-row: 1 / 2;
+  display: inline-flex; }
+  header h1 {
+    font-size: 40px;
+    color: #fff;
+    margin-left: 20%; }
+  header .info {
+    display: inline-flex;
+    margin-left: 17%;
+    margin-right: 15px; }
+    header .info a, header .info #button, header .info .form .note p, .form .note header .info p {
+      margin-left: 25px;
+      margin-top: 24px;
+      text-decoration: none;
+      color: #fff; }
+    header .info #email, header .info #password {
+      width: 160px; }
+    header .info #button {
+      background: #343d6c;
+      color: #fff;
+      border: 1px solid #fff;
+      height: 20px;
+      margin-top: 40px; }
+    header .info a:hover, header .info #button:hover, header .info .form .note p:hover, .form .note header .info p:hover {
+      color: #465290; }
+    header .info #button:hover {
+      background: white; }
+
+/*
+  =================
+  Forms
+  =================
+*/
+.form {
+  grid-column: 4 / 6;
+  grid-row: 2 / 3; }
+  .form h1 {
+    font-weight: 200;
+    color: #26262b; }
+  .form p {
+    color: #26262b; }
+  .form .name #one, .form .name .two {
+    width: 47.6%;
+    height: 30px;
+    border: 1px solid #83888a;
+    border-radius: 10px;
+    font-size: 1.1em;
+    padding-left: 5px; }
+  .form .name .two {
+    width: 98%;
+    margin-top: 15px; }
+  .form .birthday {
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 15px;
+    margin-bottom: 10px; }
+  .form a, .form header .info #button, header .info .form #button, .form .note p {
+    font-size: .5em;
+    text-decoration: none;
+    color: #26262b; }
+  .form a:hover, .form header .info #button:hover, header .info .form #button:hover, .form .note p:hover {
+    color: #a1a6ab; }
+  .form .note p {
+    font-size: .8em; }
+  .form .note #create {
+    width: 250px;
+    height: 40px;
+    font-size: 25px;
+    padding-left: 5px;
+    background: linear-gradient(to bottom, #99b350, #343828);
+    color: #fff;
+    border: 1px solid #26262b;
+    border-radius: 10px; }
+  .form .note #create:hover {
+    background: #c8e6b9;
+    color: #5a635d; }
+  .form p a, .form p header .info #button, header .info .form p #button, .form p .note p, .form .note p p {
+    color: #465290;
+    font-size: 1.1em; }
+  .form p a:hover, .form p header .info #button:hover, header .info .form p #button:hover, .form p .note p:hover, .form .note p p:hover {
+    color: #fff; }
+  .form p {
+    color: #26262b; }
+
+/*
+  =================
+  Aside
+  =================
+*/
+aside {
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
+  margin-left: 30%; }
+  aside h1 {
+    font-size: 2em;
+    font-weight: 200;
+    color: #26262b; }
+  aside img {
+    margin-top: 22px; }
+
+/*
+  ================
+  Footer
+  ================
+*/
+footer {
+  background: #8b95a4;
+  color: #26262b;
+  padding-left: 10px;
+  padding-right: 10px;
+  grid-column: 1 / 7;
+  grid-row: 3 / 4; }
+  footer .language {
+    padding-top: 15px;
+    padding-bottom: 10px; }
+    footer .language a, footer .language header .info #button, header .info footer .language #button, footer .language .form .note p, .form .note footer .language p {
+      color: #26262b;
+      margin-right: 15px;
+      text-decoration: none; }
+    footer .language a:hover, footer .language header .info #button:hover, header .info footer .language #button:hover, footer .language .form .note p:hover, .form .note footer .language p:hover {
+      color: white; }
+  footer .page-list a, footer .page-list header .info #button, header .info footer .page-list #button, footer .page-list .form .note p, .form .note footer .page-list p {
+    color: #26262b;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-top: 15px;
+    line-height: 1.2em; }
+  footer .page-list a:hover, footer .page-list header .info #button:hover, header .info footer .page-list #button:hover, footer .page-list .form .note p:hover, .form .note footer .page-list p:hover {
+    color: white; }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header h1 {
+    margin-left: 5%; }
+  header .info {
+    margin-left: 5%; } }
+@media (min-width: 321px) and (max-width: 767px) {
+  aside {
+    display: none; }
+
+  .form .name,
+  .birthday,
+  .radio {
+    display: none; }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px; }
+    header h1 {
+      width: 100%;
+      grid-column: 1 / 3;
+      grid-row: 1 / 2;
+      padding-left: 8%;
+      padding-top: 15px;
+      padding-bottom: 15px; }
+    header .info {
+      width: 100%;
+      background: #c4c9d1;
+      grid-column: 1 / 3;
+      grid-row: 2 / 3;
+      display: inline-grid;
+      margin-left: 0px; }
+      header .info a, header .info #button, header .info .form .note p, .form .note header .info p {
+        padding-left: 22%;
+        color: #26262b; }
+      header .info a:hover, header .info #button:hover, header .info .form .note p:hover, .form .note header .info p:hover {
+        color: #fff; }
+      header .info #button {
+        margin-left: 28%;
+        width: 41%;
+        text-align: center;
+        color: #fff;
+        padding-left: 20px; }
+
+  .form h1, .form p {
+    text-align: center; }
+  .form .note {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    padding-left: 5px;
+    padding-right: 5px; }
+    .form .note input[type=button] {
+      margin-left: 19%; }
+
+  footer {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    padding-bottom: 0px; } }
+
+/*# sourceMappingURL=facebook.css.map */
