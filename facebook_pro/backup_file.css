@@ -1,0 +1,356 @@
+/*http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ================
+  Grids
+  ================
+*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: "";
+}
+.clearfix::after {
+  clear: both;
+}
+
+
+body {
+  font-family: Arial, Verdana, sans-serif;
+  background: #cacfd5;
+  display: grid;
+  grid-template-columns: [col] 1fr [col] 1fr [col] 1fr [col] 1fr [col] 1fr;
+  grid-gap: 10px;
+}
+
+/*
+  =================
+  Header
+  =================
+*/
+header {
+  grid-column: col 1 / col 6;
+  grid-row: 1;
+  display: flex;
+  background: #465290;
+}
+header h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  margin-left: 15%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+header .info {
+  display: flex;
+  margin-left: 30%;
+  padding-top: 10px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  line-height: 1.5em;
+  font-size: .8em;
+  padding-top: 4px;
+}
+header #button {
+  width: 60px;
+  height: 25px;
+  background: #6076c6;
+  color: white;
+  margin-top: 20px;
+  border: 1px solid #272d32;
+}
+header #button:hover {
+  background: #465290;
+  color: #272d32;
+}
+/*
+  =================
+  Forms
+  =================
+*/
+.form {
+  width: 405px;
+  grid-column: col 4 / col 6;
+  grid-row: 2 / 6;
+}
+.form h1 {
+  font-size: 35px;
+  padding-top: 25px;
+}
+.form p {
+  font-size: 20px;
+  padding-top: 10px;
+  color: #50515c;
+  padding-bottom: 15px;
+}
+.form .name #one {
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  border: 1px solid #747583;
+  border-radius: 10px 10px 10px 10px;
+}
+.form .name .two {
+  width: 405px;
+  height: 40px;
+  margin-top: 10px;
+  border: 1px solid #747583;
+  border-radius: 10px 10px 10px 10px;
+}
+input[placeholder] {
+  font-size: 1.3em;
+  padding-left: 5px;
+}
+
+.form .birthday {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  color: #393f46;
+}
+.form .birthday a {
+  text-decoration: none;
+  font-size: .5em;
+  color: #63676e;
+}
+.form .radio {
+  color: #393f46;
+  font-size: 1.2em;
+}
+.form .note p {
+  color: #63676e;
+  font-size: .8em;
+  line-height: 1.2em;
+}
+.form .note #create {
+  width: 200px;
+  height: 40px;
+  background: linear-gradient(to bottom, #5c8549, #39463a);
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 1.3em;
+  margin-bottom: 15px;
+}
+.form .note #create:hover {
+  background: #acc49d;
+}
+.form p {
+  font-size: 1em;
+  color: #383d44;
+}
+.form p a {
+  text-decoration: none;
+  color: #243c61;
+}
+
+/*
+  =================
+  Aside
+  =================
+*/
+aside {
+  grid-column: col 1 / col 4;
+  grid-row: 2 / 6;
+  padding-left: 30%;
+  padding-top: 25px;
+}
+aside h1 {
+  font-size: 35px;
+  padding-left: 25%;
+  padding-bottom: 30px;
+  font-weight: 500;
+}
+aside img {
+  padding-left: 27%;
+}
+/*
+  ==================
+  Footer
+  ==================
+*/
+footer {
+  grid-column: col 1 / col 6;
+  grid-row: 6 / 7;
+  background: #90969a;
+  line-height: 1.5em;
+  padding-top: 10px;
+  padding-left: 15px;
+  text-decoration: none;
+  color: #48617c;
+}
+footer .language a {
+  text-decoration: none;
+  color: #3b4a5b;
+  margin-left: 15px;
+}
+footer .page-list a {
+  text-decoration: none;
+  color: #3b4a5b;
+  margin-left: 15px;
+}
+footer p a {
+  text-decoration: none;
+  color: blue;
+}
+footer p {
+  color: black;
+  margin-left: 15px;
+}
+@media (min-width: 480px) and (max-width: 960px) {
+  header h1 {
+    margin-left: 10px;
+  }
+  header .info {
+    margin-left: 10px;
+  }
+  aside {
+    display: none;
+  }
+  .form {
+    grid-column: col 1 / col 6;
+    grid-row: auto;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    width: 100%;
+    grid-template-columns: [col] 1fr [col] 1fr;
+    grid-gap: 10px;
+  }
+  aside {
+    display: none;
+  }
+  header {
+    background: #cacfd5;
+    display: grid;
+    grid-template-columns: [col] 1fr [col] 1fr;
+    grid-gap: 10px;
+  }
+  header h1 {
+    width: 100%;
+    margin-left: 0px;
+    background: #465290;
+    grid-column: col 1 / col 3;
+    grid-row: 1 / 2;
+    padding-left: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    padding-left: 10%;
+  }
+  .info a {
+    color: #292d32;
+    font-size: 1em;
+    padding-bottom: 0px;
+    line-height: .8em;
+  }
+  .info #button {
+    margin-top: 10px;
+    width: 130px;
+  }
+  .form h1 {
+    display: none;
+  }
+  .form p {
+    display: none;
+  }
+  .form .name {
+    display: none;
+  }
+  .form .birthday {
+    display: none;
+  }
+  .form .radio {
+    display: none;
+  }
+  .form .note {
+    grid-column: col 1 / col 3;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -15%;
+  }
+  .form .note p {
+    grid-column: col 1 / col 3;
+  }
+  footer {
+    width: 480px;;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    font-size: .8em;
+    margin-top: 180px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  footer p a {
+    display: none;
+  }
+  footer p {
+    padding-left: 35%;
+    padding-top: 20px;
+  }
+}

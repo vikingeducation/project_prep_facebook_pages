@@ -1,0 +1,40 @@
+header {
+  background: $mainColor;
+  padding-left: 0px;
+  grid-column: 1 / 7;
+  grid-row: 1 / 2;
+  display: inline-flex;
+  h1 {
+    font-size: 40px;
+    color: #fff;
+    margin-left: 20%;
+  }
+  .info {
+    display: inline-flex;
+    margin-left: 17%;
+    margin-right: 15px;
+    a {
+      margin-left: 25px;
+      margin-top: 24px;
+      text-decoration: none;
+      color: #fff;
+    }
+    #email, #password {
+      width: 160px;
+    }
+    #button {
+      @extend a;
+      background: #343d6c;
+      color: #fff;
+      border: 1px solid #fff;
+      height: 20px;
+      margin-top: 40px;
+    }
+    a:hover {
+      color: $mainColor;
+    }
+    #button:hover {
+      background: lighten($mainColor, 60%);
+    }
+  }
+}

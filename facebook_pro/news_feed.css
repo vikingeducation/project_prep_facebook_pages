@@ -1,0 +1,315 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+  ================
+  Body
+  ================
+*/
+body {
+  font-family: Arial, Verdana, sans-serif;
+  display: grid;
+  padding-left: 15%;
+  padding-right: 15%;
+  grid-template-columns: 2fr 4fr;
+  grid-template-rows: auto;
+  grid-gap: 5px;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #3f4346;
+}
+
+/*
+  ================
+  Header
+  ================
+*/
+header {
+  background: #465290;
+  display: inline-flex;
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+header h2 {
+  width: 30px;
+  height: 30px;
+  background: white;
+  color: #465290;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 20%;
+}
+header input[type=text] {
+  width: 220px;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: grey;
+  font-size: 1em;
+}
+header p {
+  margin-left: 22%;
+  color: white;
+  margin-top: 24px;
+}
+header a {
+  text-decoration: none;
+  margin-left: 3%;
+  margin-top: 24px;
+  color: white;
+}
+header a:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+/*
+  ==================
+  Section "post"
+  ==================
+*/
+.post {
+  width: 100%;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+.post .post_copied {
+  background: #afb7c2;
+  border: 1px solid #3f4346;
+}
+.post .post_copied h3 {
+  background: grey;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.post .post_copied textarea {
+  width: 95%;
+  margin-top: 5px;
+  margin-left: 2.0%;
+  height: 100px;
+}
+.post input[type=submit] {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 50px;
+  font-size: 1em;
+  background: blue;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 2%;
+}
+.post input[type=submit]:hover {
+  background: #8994bb;
+  color: #32373c;
+}
+
+.post .posted {
+  background: #d8dde4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  margin-top: 25px;
+  padding-top: 10px;
+  padding-left: 10px;
+  border: 1px solid #3f4346;
+}
+.post .posted img {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+.post .posted a {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  margin-top: 20px;
+}
+.post .posted a:hover {
+  color: grey;
+}
+.post .posted .date {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  margin-top: -10px;
+}
+.post .posted p {
+  grid-column: 1 / 5;
+  grid-row: 3 / 4;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+.post .posted .comment {
+  grid-column: 1 / 5;
+  grid-row: 4 / 5;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.post .posted #critic {
+  grid-column: 1 / 5;
+  grid-row: 5 / 6;
+}
+.post .posted .postedly {
+  grid-column: 1 / 5;
+  grid-row: 6 / 7;
+}
+/*
+  =================
+  Postedly
+  =================
+*/
+.post .posted .postedly {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+.post .posted .postedly img {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+.post .posted .postedly a {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.post .posted .postedly .date {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+.post .posted .postedly p {
+  grid-column: 1 / 5;
+  grid-row: 3 / 4;
+}
+
+.post .posted .postedly textarea {
+  grid-column: 1 / 5;
+  grid-row: 5 / 6;
+  width: 95%;
+  padding-right: -left: 2%;
+  padding-right: 3%;
+}
+.post .posted .postedly input[type=text] {
+  grid-column: 3 / 5;
+  grid-row: 6 / 7;
+  background: green;
+  color: white;
+  border-radius: 10px 10px 10px 10px;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 50px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.post .posted .postedly input[type=text]:hover {
+  background: #b8cfa8;
+  color: black;
+}
+.post .posted .postedly #cancel {
+  grid-column: 1 / 3;
+  grid-row: 6 / 7;
+  margin-bottom: 20px;
+}
+/*
+  ==================
+  Aside
+  ==================
+*/
+aside {
+  background: #d5d5d5;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+aside .me {
+  flex-direction: row;
+  background: #465290;
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+aside .me a {
+  color: #cfb52c;
+  line-height: 1.4em;
+}
+
+aside .people h5 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 1.4em;
+}
+aside .people .person {
+  background: #465290;
+  margin-top: 15px;
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.4em;
+}
+aside .people .person a {
+  color: #cfb52c;
+}
+aside .people .person a:hover {
+  color: grey;
+}
+aside a {
+  margin-top: 20px;
+}
+
+aside a:hover {
+  color: grey;
+}
