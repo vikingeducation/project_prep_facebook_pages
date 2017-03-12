@@ -1,0 +1,139 @@
+html {
+  height: 100vh;
+  background: linear-gradient(to bottom, #FFF, #C4CBD5);
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  background-color: #3B5998;
+  height: 80px;
+  color: #FFF;
+  font-size: 12px;
+}
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+.logo, .log-in {
+  display: inline-block;
+}
+.logo {
+    float: left;
+    font-size: 40px;
+    line-height: 80px;
+}
+.log-in {
+  float: right;
+}
+.inline {
+  display: inline-block;
+  line-height: 20px;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.inline label, .inline input {
+  display: block;
+}
+.btn-log-in {
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #4267B2;
+  border: 1px solid #29487D;
+  cursor: pointer;
+  font-weight: bold;
+  color: #FFF;
+  line-height: 18px;
+}
+.btn-log-in:hover {
+  background-color: #365899;
+}
+
+/* Main */
+
+.presentation {
+  width: 50%;
+  float: left;
+}
+.formulaire {
+  width: 50%;
+  float: right;
+}
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 80px 0 30px 30px;
+}
+ul {
+  list-style-type: square;
+  font-size: 16px;
+  line-height: 2.5;
+  margin-left: 70px;
+}
+strong {
+  font-weight: bold;
+}
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: left;
+  margin: 40px 0 30px 0;
+}
+fieldset input {
+  height: 39px;
+  border: 1px solid #BDC7D8;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.field-1 input {
+  margin: 0 30px 20px 0;
+}
+.field-2 input {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.field-2 {
+  margin-bottom: 30px;
+}
+.bday {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.b-select {
+  height: 30px;
+  margin-bottom: 30px;
+}
+fieldset.radio {
+  display: block;
+  font-size: 18px;
+}
+.radio input {
+  height: 16px;
+  width: auto;
+  display: inline;
+}
+.radio input:nth-of-type(2) {
+  margin-left: 20px;
+}
+.btn-submit {
+  width: 199px;
+  height: 39px;
+  font-size: 20px;
+  color: #FFF;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #235A00;
+  background-color: #348300;
+}
+.btn-submit:hover {
+  background-color: #388B02;
+  cursor: pointer;
+}
