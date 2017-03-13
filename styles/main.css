@@ -1,0 +1,185 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    padding: 15px 35px;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 2em;
+    width: 125px;
+    margin-left: -5px;
+}
+
+nav a {
+    margin: 10px 10px 0px 0px;
+    text-decoration: underline;
+}
+
+.border-black-2px {
+    border: 2px solid black;
+}
+
+.button-light-blue {
+    background: #a0c6f7;
+}
+
+.button-green {
+    background: #2c9c20;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.font-size-18 {
+    font-size: 1.125em;
+    margin: auto;
+}
+
+.font-size-24 {
+    font-size: 1.5em;
+}
+
+.font-size-32 {
+    font-size: 2em;
+    margin: auto;
+}
+
+.font-size-48 {
+font-size: 3em;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.blue-background {
+    background: #317be1;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.text-gray-light {
+    color: #a6afb5;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.width-59-percent {
+    width: 59%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#image-large {
+    height: 300px;
+    background-image: url("http://placekitten.com/500/300");
+}
+
+#image-profile {
+    position: absolute;
+    left: 30px;
+    bottom: -25px;
+
+    background: url("http://placekitten.com/150/150") no-repeat;
+    width: 150px;
+    height: 150px;
+}
+
+#login-button {
+    padding: 3px 10px;
+}
+
+#profile-info {
+    padding-top: 1.5em;
+}
+
+#signup-button {
+    height: 35px;
+}
+
+#logo {
+    background: url("/images/facelook_logo.jpg") left no-repeat;
+    padding-left: 45px;
+}
+
+#login label {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#login span {
+    display: block;
+    margin-bottom: 2px;
+}
+
+section#features {
+    width: calc(59% - 100px);
+    padding: 70px 30px 50px 70px;
+}
+
+section#signup {
+    width: calc(39% - 70px);
+    padding: 25px 70px 30px 0px;
+}
+
+h1#connect-title {
+    margin-bottom: 20px;
+}
+
+#features-list li {
+    margin-left: 40px;
+    margin-bottom: 15px;
+    list-style-type: disc;
+}
+
+#signup input {
+    margin-bottom: 15px;
+}
+
+#signup input[name="first-name"] {
+    margin-right: 10px;
+    width: calc(47% - 10px);
+}
+
+#signup input[name="last-name"] {
+    width: 47%;
+}
+
+#signup-title {
+    margin-bottom: 25px;
+}
+
+#signup-form label {
+    margin-right: 15px;
+}
+
+#signup-form select {
+    width: 60px;
+    margin: 10px 5px 10px 0px;
+}
+
+#signup-form select#month {
+    width: 90px;
+}
+
+#signup-form fieldset {
+    margin-bottom: 10px;
+}

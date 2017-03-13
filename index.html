@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Facelook, a cheap Facebook clone</title>
+
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+<header class="blue-background border-black-2px">
+  <div id="title" class="inline-block width-59-percent">
+    <h1 class="font-size-48 color-white">Facelook</h1>
+  </div>
+  <div id="login" class="inline-block">
+    <form id="login-form" method="post">
+      <label for="email">
+        <span class="color-white">Email</span>
+        <input id="email" type="email" class="border-black-2px">
+      </label>
+      <label for="password">
+        <span class="color-white">Password</span>
+        <input id="password" type="password" class="border-black-2px">
+      </label>
+      <button type="submit"
+              form="login-form"
+              id="login-button"
+              class="button-light-blue border-black-2px">
+        Log in
+      </button>
+    </form>
+  </div>
+</header>
+
+<main>
+  <section id="features" class="left">
+    <h1 id="connect-title" class="font-size-24 font-bold">Connect with all your friends!</h1>
+    <ul id="features-list">
+      <li>See photos and updates in your news feed.</li>
+      <li>Post your status for the world to see from your profile.</li>
+      <li>Get in touch with your friends by "friending" them.</li>
+      <li>Like things because you're a positive person!</li>
+    </ul>
+  </section>
+  <section id="signup" class="right">
+    <h1 id="signup-title" class="font-size-32">Sign Up</h1>
+    <form id="signup-form" action="" method="post">
+      <input class="left" name="first-name" placeholder="First name" required>
+      <input class="right" name="last-name" placeholder="Last name" required>
+      <input class="width-full" name="signup-email" placeholder="Your email" required>
+      <input class="width-full"
+             name="password"
+             type="password"
+             placeholder="Your new password"
+             required>
+      <input class="width-full"
+             name="password-confirm"
+             type="password"
+             placeholder="Confirm your password"
+             required>
+
+      <fieldset class="font-bold">
+        <legend>Birthday</legend>
+        <select name="month" id="month">
+          <option value="Month" selected>Month</option>
+          <option value="January">January</option>
+          <option value="February">February</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+          <option value="August">August</option>
+          <option value="September">September</option>
+          <option value="October">October</option>
+          <option value="November">November</option>
+          <option value="December">December</option>
+        </select>
+
+        <select name="day" id="day">
+          <option value="Day" selected>Day</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+
+        <!--Like with Facebook, if not your chronological, then your maturity age-->
+        <select name="year" id="year">
+          <option value="Year" selected>Year</option>
+          <option value="2006">2006</option>
+          <option value="2005">2005</option>
+          <option value="2004">2004</option>
+          <option value="2003">2003</option>
+          <option value="2002">2002</option>
+          <option value="2001">2001</option>
+          <option value="2000">2000</option>
+          <option value="1999">1999</option>
+          <option value="1998">1998</option>
+          <option value="1997">1997</option>
+        </select>
+      </fieldset>
+
+      <label for="Male">
+        <input type="radio" id="Male" name="gender">
+        Male
+      </label>
+      <label for="Female">
+        <input type="radio" id="Female" name="gender">
+        Female
+      </label>
+      <label for="Neither">
+        <input type="radio" id="Neither" name="gender">
+        Neither
+      </label>
+
+      <button type="submit"
+              id="signup-button"
+              class="button-green color-white font-size-18 width-full bord">
+        Sign up!
+      </button>
+    </form>
+  </section>
+</main>
+
+</body>
+</html>
