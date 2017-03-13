@@ -107,6 +107,10 @@ font-size: 3em;
     padding: 3px 10px;
 }
 
+#profile-info {
+    padding-top: 1.5em;
+}
+
 #signup-button {
     height: 35px;
 }
