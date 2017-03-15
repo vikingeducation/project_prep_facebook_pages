@@ -118,3 +118,10 @@ input {
   margin: 15px 0;
   padding: 5px;
 }
+
+#profile-img {
+  position: absolute;
+  top: 185px;
+  left: 25%;
+  border: 1px dashed black;
+}
