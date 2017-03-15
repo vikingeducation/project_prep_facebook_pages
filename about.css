@@ -120,7 +120,7 @@ input {
 }
 
 #profile-img {
-  position: absolute;
+  position: relative;
   top: 185px;
   left: 25%;
   border: 1px dashed black;
