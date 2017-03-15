@@ -53,6 +53,23 @@ table {
  =========================================
 */
 
+h1 {
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: bold;
+  font-family: "Comfortaa", sans-serif;
+  padding: 10px;
+}
+
+h5 {
+  font-weight: bold;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.h5 h5 {
+  padding: 10px 0;
+}
+
 .title h3 {
   margin: 15px 10px 0 0;
 }
@@ -88,13 +105,14 @@ table {
 .title, .content {
   width: 990px;
   margin: 0 auto;
+  position: relative;
 }
 
 .title {
   color: white;
 }
 
-.title-container:after {
+.title-container:after, ul {
   content: "";
   display: table;
   clear: both;
@@ -120,8 +138,97 @@ input {
 }
 
 #profile-img {
-  position: relative;
-  top: 185px;
-  left: 25%;
+  position: absolute;
+  top: 125px;
+  left: 15px;
   border: 1px dashed black;
+}
+
+#background-img {
+  border: 2px solid black;
+}
+
+.nav {
+
+}
+
+.nav ul {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nav li {
+  font-family: 'Comfortaa', sans-serif;
+  display: inline-block;
+  border: 2px solid black;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  width: 130px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid #06F;
+}
+
+.edit-profile a {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  width: 100px;
+}
+
+.edit-profile-big a {
+  position: absolute;
+  bottom: 13px;
+  right: 10px;
+  width: 115px;
+  padding: 5px;
+  border: 2px solid black;
+  background-color: #06F;
+  color: white;
+  text-decoration: none;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+.grey {
+  background-color: lightgrey;
+  border-bottom: 0;
+}
+
+.top-margin {
+  margin-top: 20px;
+}
+
+table {
+  margin: 20px;
+}
+
+td {
+  padding: 5px;
+}
+
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.padding {
+  padding: 20px;
+  padding-top: 35px;
+}
+
+.width {
+  width: 50%;
 }
