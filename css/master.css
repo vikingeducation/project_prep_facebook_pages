@@ -3,6 +3,7 @@ body {
   font-size: 12px;
   margin: 0;
   background: #edf0f5;
+  width: 100%;
 }
 
 .login {
