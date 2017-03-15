@@ -59,6 +59,17 @@ h1 {
   padding: auto 0;
 }
 
+h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
 th {
   text-align: left;
   padding-bottom: 5px
@@ -66,6 +77,10 @@ th {
 
 td, th {
   padding: 0 10px;
+}
+
+ul, li {
+  list-style: inside;
 }
 
 .wrapper {
@@ -94,5 +109,31 @@ td, th {
   border: none;
   text-align: center;
   text-decoration: none;
+  padding: 5px 10px;
+}
+
+.content {
+	padding: 20px;
+	padding-left: 50px;
+	line-height: 40px;
+	margin-left: 100px;
+}
+
+.signup-table tbody tr td {
+	padding: 7px;
+}
+
+input[type="text"], input[type="submit"] {
+	width: 100%;
+	padding: 3px;
+}
+
+#signup-submit {
+	color: white;
+  background-color: green;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+	font-size: 1.5em;
   padding: 5px 10px;
 }
