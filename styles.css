@@ -54,6 +54,12 @@ table {
 }
 
 /** Globals **/
+
+:root {
+  --color-facelook-blue: rgb(68, 119, 173);
+  --color-facelook-green: rgb(20, 208, 55);
+}
+
 html {
   font-family: 'Raleway', sans-serif;
 }
@@ -68,7 +74,7 @@ html {
 .home-header {
   height: 90px;
   width: 100%;
-  background-color: rgb(68, 119, 173);
+  background-color: var(--color-facelook-blue, blue);
 }
 
 .home-header >h1 {
@@ -91,7 +97,7 @@ html {
   padding-left: 5px;
 }
 
-@media (max-width:606px) {
+@media (max-width:605px) {
   .home-header{
     height: 180px;
   }
@@ -117,7 +123,7 @@ html {
   padding-left: 110px;
 }
 
-@media (max-width:606px) {
+@media (max-width:605px) {
 
   .welcome >h2{
     text-align: left;
@@ -178,7 +184,7 @@ html {
   width: 99.5%;
   color: white;
   font-size: 1.1em;
-  background-color: rgb(20, 208, 55);
+  background-color: var(--color-facelook-green, green);
 }
 
 @media (max-width:860px) {
@@ -189,10 +195,10 @@ html {
   }
 }
 
-@media (max-width:606px) {
+@media (max-width:605px) {
   .sign-up {
     clear: left;
     float: left;
-    padding-left: 15px;
+    padding-left: 20px;
   }
 }
