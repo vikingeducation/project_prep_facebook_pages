@@ -1,0 +1,198 @@
+/** Table of Contents
+
+0 - CSS Reset
+1 - Globlals
+2 - Home Page
+2.1 - Title Bar and Sign-In form
+2.2 - Welcome Message
+2.3 - Sign-Up form
+
+**/
+
+/** CSS Reset **/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label  legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/** Globals **/
+html {
+  font-family: 'Raleway', sans-serif;
+}
+
+.small-font {
+  font-size: 0.8em;
+}
+
+/** 2 - Home Page **/
+/** 2.1 - styling & layout for title and sign-in form **/
+
+.home-header {
+  height: 90px;
+  width: 100%;
+  background-color: rgb(68, 119, 173);
+}
+
+.home-header >h1 {
+  font-size: 3em;
+  color: white;
+  padding: 20px;
+  float: left;
+}
+
+.login-form {
+  float: right;
+  padding: 20px;
+}
+
+.login-form label {
+  color: white;
+}
+
+.login-form td {
+  padding-left: 5px;
+}
+
+@media (max-width:606px) {
+  .home-header{
+    height: 180px;
+  }
+  .login-form {
+    float:left;
+  }
+}
+
+/** 2.2 - styling and layout for welcome message **/
+
+.welcome {
+  float: left;
+}
+
+.welcome >h2 {
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.welcome >ul {
+  line-height: 2;
+  padding-left: 110px;
+}
+
+@media (max-width:606px) {
+
+  .welcome >h2{
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 10px
+  }
+  .welcome >ul {
+    padding-left: 40px;
+  }
+}
+
+
+/** 2.3 - styling for Sign-Up form **/
+
+.sign-up {
+  float: right;
+  padding-top: 20px;
+  margin-right: 23px;
+}
+
+.sign-up >h1 {
+  font-size: 2em;
+}
+
+.sign-up-form {
+  padding-right: 50px;
+}
+
+.sign-up-form >h2 {
+  margin-top: 10px;
+}
+
+.sign-up-form input[type=text] {
+  width: 49%;
+  margin-top: 10px;
+}
+
+.sign-up-form input[type=email] {
+  width: 99.5%;
+  margin-top: 10px;
+}
+
+.sign-up-form input[type=password] {
+  width: 99.5%;
+  margin-top: 10px;
+}
+
+.sign-up-form select {
+  margin-top: 10px;
+}
+
+.sign-up-form input[type=radio] {
+  margin-top: 15px;
+}
+
+.sign-up-form input[type=submit] {
+  margin-top: 10px;
+  width: 99.5%;
+  color: white;
+  font-size: 1.1em;
+  background-color: rgb(20, 208, 55);
+}
+
+@media (max-width:860px) {
+  .sign-up {
+    clear: left;
+    float: left;
+    padding-left: 90px;
+  }
+}
+
+@media (max-width:606px) {
+  .sign-up {
+    clear: left;
+    float: left;
+    padding-left: 15px;
+  }
+}
