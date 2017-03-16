@@ -1,7 +1,7 @@
 /** Table of Contents
 
 0 - CSS Reset
-1 - Globlals
+1 - Globlals & Custom Variables
 2 - Home Page
 2.1 - Title Bar and Sign-In form
 2.2 - Welcome Message
@@ -53,7 +53,7 @@ table {
 	border-spacing: 0;
 }
 
-/** Globals **/
+/** Globals & Custom Variables**/
 
 :root {
   --color-facelook-blue: rgb(68, 119, 173);
@@ -97,6 +97,13 @@ html {
   padding-left: 5px;
 }
 
+@media (min-width: 1000px) {
+  .login-form {
+    position: absolute;
+    left: 633px;
+  }
+}
+
 @media (max-width:605px) {
   .home-header{
     height: 180px;
@@ -107,6 +114,10 @@ html {
 }
 
 /** 2.2 - styling and layout for welcome message **/
+
+.page-content {
+  max-width: 1000px;
+}
 
 .welcome {
   float: left;
