@@ -141,17 +141,34 @@ select {
   padding: 8px;
   margin-right: 5px;
   border: 1px solid #bdc7d8;
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 
 input[type="radio"] {
   margin: 3px 0.5ex;
 }
 
+.gender {
+  margin-bottom: 7px;
+}
+
 .genderLabel {
   font-size: 18px;
   line-heiht: 18px;
   padding: 0 10px 0 3px;
+  margin-bottom: 8px;
+}
+
+button {
+  font-size: 19px;
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: green;
+  color: white;
+  width: 399px;
+  text-align: center;
+  padding: 10px;
 }
 
 
