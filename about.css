@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+ =========================================
+ Custom Styles
+ =========================================
+*/
+
+h1 {
+  text-align: center;
+  font-size: 2.2em;
+  font-weight: bold;
+  font-family: "Comfortaa", sans-serif;
+  padding: 10px;
+}
+
+h5 {
+  font-weight: bold;
+  font-family: "Comfortaa", sans-serif;
+}
+
+.h5 h5 {
+  padding: 10px 0;
+}
+
+.title h3 {
+  margin: 15px 10px 0 0;
+}
+
+.title img {
+  margin: 10px 10px 0 0
+}
+
+.title h3, .title h4 {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: bold;
+}
+
+.title h3 {
+  font-size: 2em;
+}
+
+.title h4 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.title-container {
+  width: 100%;
+  background-color: #06F;
+  border-bottom: 2px solid black;
+}
+
+.content-container {
+  width: 100%;
+}
+
+.title, .content {
+  width: 990px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.title {
+  color: white;
+}
+
+.title-container:after, ul {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.search {
+  width: 60%;
+  margin-left: 20px;
+}
+
+input {
+  width: 100%;
+  margin: 15px 0;
+  padding: 5px;
+}
+
+#profile-img {
+  position: absolute;
+  top: 125px;
+  left: 15px;
+  border: 1px dashed black;
+}
+
+#background-img {
+  border: 2px solid black;
+}
+
+.nav {
+
+}
+
+.nav ul {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nav li {
+  font-family: 'Comfortaa', sans-serif;
+  display: inline-block;
+  border: 2px solid black;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  width: 130px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid #06F;
+}
+
+.edit-profile a {
+  position: absolute;
+  bottom: 15px;
+  right: 10px;
+  width: 100px;
+}
+
+.edit-profile-big a {
+  position: absolute;
+  bottom: 13px;
+  right: 10px;
+  width: 115px;
+  padding: 5px;
+  border: 2px solid black;
+  background-color: #06F;
+  color: white;
+  text-decoration: none;
+}
+
+.border {
+  border: 2px solid black;
+}
+
+.grey {
+  background-color: lightgrey;
+  border-bottom: 0;
+}
+
+.top-margin {
+  margin-top: 20px;
+}
+
+table {
+  margin: 20px;
+}
+
+td {
+  padding: 5px;
+}
+
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.padding {
+  padding: 20px;
+  padding-top: 35px;
+}
+
+.width {
+  width: 50%;
+}

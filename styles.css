@@ -1,0 +1,139 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ==================================
+  Custom Styles
+  ==================================
+*/
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  padding: auto 0;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+th {
+  text-align: left;
+  padding-bottom: 5px
+}
+
+td, th {
+  padding: 0 10px;
+}
+
+ul, li {
+  list-style: inside;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.header, .login {
+  background-color: #06F;
+  color: white;
+  padding: 20px;
+  border-bottom: 2px solid black;
+}
+
+.header, .content {
+  flex: 4 1 auto;
+}
+
+.login, .signup {
+  flex: 1 1 auto;
+}
+
+#login_submit {
+  background-color: #63B7FF;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.content {
+	padding: 20px;
+	padding-left: 50px;
+	line-height: 40px;
+	margin-left: 100px;
+}
+
+.signup-table tbody tr td {
+	padding: 7px;
+}
+
+input[type="text"], input[type="submit"] {
+	width: 100%;
+	padding: 3px;
+}
+
+#signup-submit {
+	color: white;
+  background-color: green;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+	font-size: 1.5em;
+  padding: 5px 10px;
+}
