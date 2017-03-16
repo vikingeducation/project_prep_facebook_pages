@@ -6,6 +6,12 @@
 2.1 - Title Bar and Sign-In form
 2.2 - Welcome Message
 2.3 - Sign-Up form
+3 - About Page
+3.1 - Page Header (reused across logged-in pages)
+3.2 - Profile Banner (reused on About and Friends)
+3.3 - Profile Contents
+4 - Friends Page
+5 - Newsfeed
 
 **/
 
@@ -58,6 +64,7 @@ table {
 :root {
   --color-facelook-blue: rgb(68, 119, 173);
   --color-facelook-green: rgb(20, 208, 55);
+  --color-facelook-dk-blue: rgb(31, 23, 120);
 }
 
 html {
@@ -167,18 +174,24 @@ html {
   margin-top: 10px;
 }
 
+.form-no-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
 .sign-up-form input[type=text] {
-  width: 49%;
+  width: 45%;
   margin-top: 10px;
 }
 
 .sign-up-form input[type=email] {
-  width: 99.5%;
+  width: 98%;
   margin-top: 10px;
 }
 
 .sign-up-form input[type=password] {
-  width: 99.5%;
+  width: 98%;
   margin-top: 10px;
 }
 
@@ -192,7 +205,7 @@ html {
 
 .sign-up-form input[type=submit] {
   margin-top: 10px;
-  width: 99.5%;
+  width: 100%;
   color: white;
   font-size: 1.1em;
   background-color: var(--color-facelook-green, green);
@@ -211,5 +224,241 @@ html {
     clear: left;
     float: left;
     padding-left: 20px;
+  }
+}
+
+/** 3 - About Page  **/
+
+
+/** 3.1 - Page Header (reused across logged-in pages) **/
+
+.page-header {
+
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  padding-left: 5%;
+  background-color: var(--color-facelook-blue, blue)
+}
+
+.logo {
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.logo >a{
+  float: right;
+  font-size: 2em;
+  padding-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.header-search-bar {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 60%;
+}
+
+.header-search-bar input[type="search"] {
+  width: 100%;
+}
+
+.page-header >h3 {
+  font-size: 1.1em;
+  color: white;
+  padding-right: 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media (max-width:650px) {
+  .logo >a{
+    display: none;
+  }
+}
+
+/** 3.2 - Profile Banner (reused on About and Friends) **/
+
+.profile-banner {
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.profile-banner-image {
+  border: 1px solid black;
+  border-bottom: none;
+}
+
+.profile-banner-image >img {
+  height: 300px;
+  width: 100%;
+  object-fit: fill;
+  object-position: center;
+}
+
+.profile-user-image >img{
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  position: absolute;
+  top: 160px;
+  left: 7.5%;
+}
+
+.profile-banner >h3{
+  font-size: 1.5em;
+  font-weight: bold;
+  position: absolute;
+  top: 305px;
+  left: 285px;
+  color: white;
+
+}
+
+.profile-user-image-nav {
+  float: left;
+  height: 30px;
+  width: 35%;
+  border: 1px solid black;
+  background-color: var(--color-facebook-dk-blue, darkblue);
+}
+
+.profile-nav-bar {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.profile-timeline-nav, .profile-about-nav, .profile-photos-nav, .profile-friends-nav, .profile-edit-profile-nav {
+  float: left;
+  height: 30px;
+  width: 12%;
+  text-align: center;
+  border: 1px solid black;
+  border-left: none;
+  font-size: .7em;
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-facebook-dk-blue, darkblue);
+}
+
+
+
+.profile-edit-profile-nav {
+
+  width: 16%;
+
+}
+
+.profile-edit-profile-nav >a,
+.profile-timeline-nav >a,
+.profile-about-nav >a,
+.profile-photos-nav >a,
+.profile-friends-nav >a{
+  margin-top: auto;
+  margin-bottom: auto;
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width:650px) {
+  .profile-user-image >img{
+    top: 70px;
+    object-position: left;
+  }
+  .profile-banner >h3{
+    left: 7.5%;
+  }
+}
+
+
+/** 3.3 - Profile Contents **/
+
+.profile-contents {
+  clear: both;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: absolute;
+  top: 400px;
+  border: 1px solid black;
+}
+
+.about-header-bar {
+  height: 30px;
+  border: 1px solid black;
+  background-color: var(--color-facelook-dk-blue, darkblue);
+}
+
+.about-header-bar >h2 {
+  font-size: 1.4em;
+  padding-top: 5px;
+  text-align: center;
+  color: white;
+}
+
+.about-header-bar >form{
+  float: right;
+  position: relative;
+  top: -22px;
+  padding-right: 5px;
+}
+
+.about-header-bar >form>input[type="submit"]{
+  background-color: var(--color-facelook-blue, blue);
+  color: white;
+}
+
+.about-column-left {
+  float: left;
+  width: 40%;
+  padding-left: 5%;
+  padding-top: 3%;
+  line-height: 2;
+}
+
+.about-column-left td {
+  font-size: 0.75em;
+  padding-left: 5px;
+}
+
+#about-heading-basic, #about-heading-contact, .about-column-right >h3 {
+  font-size: 1.2em;
+}
+
+#about-heading-contact {
+  padding-top: 10px;
+}
+
+.about-column-right {
+  float: right;
+  width: 50%;
+  padding-top: 2%;
+  padding-right: 5%;
+
+}
+
+.about-column-right >p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width:700px) {
+  .about-column-left {
+    float: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .about-column-right {
+    margin-top: 20px;
+    clear: both;
+    float: none;
+    width: 83%;
+    margin-left: auto;
+    margin-right: auto;
+
   }
 }
