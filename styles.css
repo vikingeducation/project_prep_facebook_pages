@@ -1,0 +1,186 @@
+html, body, ul, ol, li, form, fieldset, legend
+{
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p { margin: 0; padding: 0; }
+
+  .logged_out_menubar_container {
+  height: 82px;
+  min-width: 980px;
+  background-color: #365899;
+}
+
+.facelook-title {
+  color: white;
+  width: 170px;
+  height: 34px;
+  font-family: Helvetica, sans-serif;
+  font-size: 2.5em;
+  padding-top:10px;
+  float: left;
+}
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden
+}
+
+.logged_out_menubar {
+  margin: 0 auto;
+  padding-top: 13px;
+  width: 980px;
+}
+
+.menu_login_container {
+  width: 392px;
+  height: 65px;
+  /*background-color: pink;*/
+}
+
+.menu_login_container label {
+  color: white;
+}
+
+.menu_login_container input {
+  padding: 3px;
+  border: 1px solid #bdc7d8;
+}
+
+.menu_login_container table tr td {
+  padding: 0 0 0 14px;
+}
+
+#loginButton {
+  border: 1px solid ##29487d;
+  background-color: #4267b2;
+  padding: 2px 6px;
+}
+
+.rfloat {
+  float: right;
+}
+
+.globalContainer {
+  background-color: #ECEFF4;
+}
+
+.mainContainer {
+  width: 980px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.connect {
+ display: inline-block;
+  margin-right: 10.999px !important;
+  width: 564px;
+  margin-top: 15px;
+}
+
+.connectTitle {
+  font-size: 28px;
+  margin: 42px 0 24px;
+}
+
+.connect li {
+  margin-left: 60px;
+  margin-top: 17px;
+  padding-bottom: 17px;
+}
+
+.signUp {
+  width: 399px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.signupH2 {
+  font-size: 36px;
+  padding-bottom: 24px;
+}
+
+.regbox {
+margin: 0 auto 0 auto;
+padding-bottom: 30px;
+}
+
+.firstName, .lastName, .email, .signUpPassword, .confirmPassword {
+  display: inline-block;
+  font-size: 18px;
+  padding: 8px 10px;
+  width: 172px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.email, .signUpPassword, .confirmPassword {
+  box-sizing: border-box;
+  width: 399px;
+}
+
+.confirmPassword {
+  margin-bottom: 0;
+}
+
+.bdayLabel {
+  margin-top: 10px;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+select {
+  font-size: 15px;
+  height: 30px;
+  padding: 8px;
+  margin-right: 5px;
+  border: 1px solid #bdc7d8;
+  margin-bottom: 16px;
+}
+
+input[type="radio"] {
+  margin: 3px 0.5ex;
+}
+
+.gender {
+  margin-bottom: 7px;
+}
+
+.genderLabel {
+  font-size: 18px;
+  line-heiht: 18px;
+  padding: 0 10px 0 3px;
+  margin-bottom: 8px;
+}
+
+button {
+  font-size: 19px;
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: green;
+  color: white;
+  width: 399px;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
