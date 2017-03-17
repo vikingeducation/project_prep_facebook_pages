@@ -179,9 +179,14 @@ footer {
 }
 
 .form-no-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .sign-up-form input[type=text] {
@@ -238,9 +243,15 @@ footer {
 
 .page-header {
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
   height: 40px;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-left: 5%;
   background-color: var(--color-facelook-blue, blue)
 }
@@ -299,14 +310,17 @@ footer {
 .profile-banner-image img {
   height: 300px;
   width: 100%;
-  object-fit: fill;
-  object-position: center;
+  -o-object-fit: fill;
+     object-fit: fill;
+  -o-object-position: center;
+     object-position: center;
 }
 
 .profile-user-image img{
   height: 200px;
   width: 200px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   position: absolute;
   top: 155px;
   left: 7.5%;
@@ -333,8 +347,11 @@ footer {
 
 .profile-nav-bar {
 	margin-top: -5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .profile-timeline-nav, .profile-about-nav, .profile-photos-nav, .profile-friends-nav, .profile-edit-profile-nav {
@@ -346,8 +363,12 @@ footer {
   border: 1px solid black;
   border-left: none;
   font-size: .7em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: var(--color-facebook-dk-blue, darkblue);
 }
 
@@ -373,7 +394,8 @@ footer {
 @media (max-width:650px) {
   .profile-user-image >img{
     top: 70px;
-    object-position: left;
+    -o-object-position: left;
+       object-position: left;
   }
   .profile-banner >h3{
     left: 7.5%;
@@ -495,9 +517,15 @@ footer {
 }
 
 .friend-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .friend {
@@ -514,7 +542,8 @@ footer {
 	height: 50px;
 	width: 50px;
   padding: 10px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .friend div {
