@@ -17,10 +17,10 @@
 
 /** CSS Reset **/
 
-html, body, div, span, applet, object, iframe,
+html, body, img, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
+del, dfn, em, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd,
@@ -33,17 +33,15 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
   position: relative;
 }
 
@@ -74,6 +72,11 @@ html {
 
 .small-font {
   font-size: 0.8em;
+}
+
+footer {
+	clear: both;
+	height: 50px;
 }
 
 /** 2 - Home Page **/
@@ -266,7 +269,7 @@ html {
   width: 100%;
 }
 
-.page-header >h3 {
+.page-header h3 {
   font-size: 1.1em;
   color: white;
   padding-right: 5%;
@@ -293,27 +296,27 @@ html {
   border-bottom: none;
 }
 
-.profile-banner-image >img {
+.profile-banner-image img {
   height: 300px;
   width: 100%;
   object-fit: fill;
   object-position: center;
 }
 
-.profile-user-image >img{
+.profile-user-image img{
   height: 200px;
   width: 200px;
   object-fit: contain;
   position: absolute;
-  top: 160px;
+  top: 155px;
   left: 7.5%;
 }
 
-.profile-banner >h3{
+.profile-banner h3{
   font-size: 1.5em;
   font-weight: bold;
   position: absolute;
-  top: 305px;
+  top: 300px;
   left: 285px;
   color: white;
 
@@ -321,6 +324,7 @@ html {
 
 .profile-user-image-nav {
   float: left;
+
   height: 30px;
   width: 35%;
   border: 1px solid black;
@@ -328,14 +332,16 @@ html {
 }
 
 .profile-nav-bar {
+	margin-top: -5px;
   display: flex;
   flex-wrap: nowrap;
 }
 
 .profile-timeline-nav, .profile-about-nav, .profile-photos-nav, .profile-friends-nav, .profile-edit-profile-nav {
-  float: left;
-  height: 30px;
-  width: 12%;
+	box-sizing: border-box;
+	float: left;
+  height: 32px;
+  width: 13%;
   text-align: center;
   border: 1px solid black;
   border-left: none;
@@ -378,12 +384,11 @@ html {
 /** 3.3 - Profile Contents **/
 
 .profile-contents {
-  clear: both;
-  margin-left: 5%;
-  margin-right: 5%;
-  position: absolute;
-  top: 400px;
-  border: 1px solid black;
+	margin-top: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: 1px solid black;
+	overflow: auto;
 }
 
 .about-header-bar {
@@ -392,36 +397,38 @@ html {
   background-color: var(--color-facelook-dk-blue, darkblue);
 }
 
-.about-header-bar >h2 {
+.about-header-bar h2 {
+	padding-top: 2px;
   font-size: 1.4em;
-  padding-top: 5px;
   text-align: center;
   color: white;
 }
 
-.about-header-bar >form{
+.about-header-bar form{
   float: right;
   position: relative;
-  top: -22px;
+  top: -25px;
   padding-right: 5px;
 }
 
-.about-header-bar >form>input[type="submit"]{
+.about-header-bar input[type="submit"]{
   background-color: var(--color-facelook-blue, blue);
   color: white;
 }
 
 .about-column-left {
+
   float: left;
   width: 40%;
   padding-left: 5%;
   padding-top: 3%;
-  line-height: 2;
+
 }
 
 .about-column-left td {
   font-size: 0.75em;
   padding-left: 5px;
+	padding-top: 10px;
 }
 
 #about-heading-basic, #about-heading-contact, .about-column-right >h3 {
@@ -429,7 +436,7 @@ html {
 }
 
 #about-heading-contact {
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .about-column-right {
@@ -440,10 +447,12 @@ html {
 
 }
 
-.about-column-right >p{
+.about-column-right p{
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+
 
 @media (max-width:700px) {
   .about-column-left {
@@ -463,6 +472,8 @@ html {
 
   }
 }
+
+
 /** 4 - Friend Page **/
 
 
@@ -473,7 +484,7 @@ html {
 	border: 1px solid black;
 }
 
-.content-box >h2 {
+.content-box h2 {
   background-color: var(--color-facelook-dk-blue, darkblue);
   height: 30px;
   font-size: 1.4em;
@@ -492,24 +503,24 @@ html {
   font-size: 0.75em;
   width: 45%;
   border: 1px solid black;
-	display: inline;
+	display: inline-block;
   margin: 10px;
   padding-right: 10px;
 }
 
-.friend >img {
+.friend img {
 	float:left;
-  width: 50;
-  height: 50;
+	height: 50px;
+	width: 50px;
   padding: 10px;
   object-fit: cover;
 }
 
-.friend >div {
+.friend div {
   margin-top: 20px;
 }
 
-.friend >form {
+.friend form {
   float: right;
 	position: relative;
 	top: -15px;
