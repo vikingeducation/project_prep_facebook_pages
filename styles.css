@@ -44,6 +44,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  position: relative;
 }
 
 blockquote, q {
@@ -461,4 +462,55 @@ html {
     margin-right: auto;
 
   }
+}
+/** 4 - Friend Page **/
+
+
+.content-box {
+	margin-top: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: 1px solid black;
+}
+
+.content-box >h2 {
+  background-color: var(--color-facelook-dk-blue, darkblue);
+  height: 30px;
+  font-size: 1.4em;
+  padding-top: 7px;
+  text-align: center;
+  color: white;
+}
+
+.friend-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.friend {
+  font-size: 0.75em;
+  width: 45%;
+  border: 1px solid black;
+	display: inline;
+  margin: 10px;
+  padding-right: 10px;
+}
+
+.friend >img {
+	float:left;
+  width: 50;
+  height: 50;
+  padding: 10px;
+  object-fit: cover;
+}
+
+.friend >div {
+  margin-top: 20px;
+}
+
+.friend >form {
+  float: right;
+	position: relative;
+	top: -15px;
 }
