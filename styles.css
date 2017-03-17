@@ -251,7 +251,7 @@ footer {
   margin-bottom: auto;
 }
 
-.logo >a{
+.logo a {
   float: right;
   font-size: 2em;
   padding-left: 5px;
@@ -414,6 +414,7 @@ footer {
 .about-header-bar input[type="submit"]{
   background-color: var(--color-facelook-blue, blue);
   color: white;
+	border-radius: 5px;
 }
 
 .about-column-left {
@@ -431,7 +432,7 @@ footer {
 	padding-top: 10px;
 }
 
-#about-heading-basic, #about-heading-contact, .about-column-right >h3 {
+#about-heading-basic, #about-heading-contact, .about-column-right h3 {
   font-size: 1.2em;
 }
 
