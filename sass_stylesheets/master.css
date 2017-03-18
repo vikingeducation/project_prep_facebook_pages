@@ -8,14 +8,9 @@ body {
 .login {
   color: #fff; }
 
-.login-table th, td {
+.login-table th, .login-table td {
   margin-top: 20px;
   padding: 4px; }
-
-.login-table td {
-  margin-top: 20px;
-  padding: 4px;}
-
 .login-table th {
   text-align: left; }
 
@@ -35,9 +30,8 @@ div, aside, header, table {
   line-height: 22px;
   padding-left: 200px;
   line-height: 20px; }
-
-.list li {
-  margin-bottom: 5px; }
+  .list li {
+    margin-bottom: 5px; }
 
 .flex-container {
   display: -webkit-flex;
@@ -66,28 +60,25 @@ div, aside, header, table {
   font-size: 28px;
   padding-left: 40px;
   margin-left: 100px; }
+
 .aside1 {
   margin-right: 50px; }
 
-
 .aside2 {
   padding-right: 30px; }
-
-.aside2 h3 {
-  margin-bottom: 8px; }
-
-.aside2 input {
-  font-size: 18px;
-  padding: 8px 10px;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  margin-right: 10px; }
-
-.aside2 select {
-  font-size: 13px;
-  height: 30px;
-  padding: 5px;
-  margin-bottom: 10px; }
+  .aside2 h3 {
+    margin-bottom: 8px; }
+  .aside2 input {
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px; }
+  .aside2 select {
+    font-size: 13px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px; }
 
 .half-input {
   width: 172px; }
@@ -125,4 +116,6 @@ div, aside, header, table {
   color: #9cb4d8; }
 
 .signup:hover {
-background: linear-gradient(#79bc64, #578843); }
+  background: linear-gradient(#79bc64, #578843); }
+
+/*# sourceMappingURL=master.css.map */
