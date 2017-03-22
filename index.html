@@ -11,10 +11,10 @@
     <title>Welcome To Facelook</title>
   </head>
   <body>
-    <div id="header-container" class="flex overall-container">
-      <header id="search-bar" class="flex login content-container">
+    <div id="header-container" class="overall-container">
+      <header id="header-bar" class="login content-container">
         <h1 class="fb-logo">Facelook</h1>
-        <form action="about.html" method="post">
+        <form action="about.html" method="get">
           <table>
             <tr>
               <td><label for="email">Email</label></td>
@@ -29,8 +29,8 @@
         </form>
       </header>
     </div>
-    <div id="main-container" class="flex overall-container">
-      <main class="flex content-container">
+    <div id="main-container" class="overall-container">
+      <main class="content-container signup">
         <section class="about-fb">
           <h2>Connect with all your friends!</h2>
           <ul>
@@ -42,8 +42,8 @@
         </section>
         <section class="signup-form">
           <h1>Sign Up</h1>
-          <form action="about.html" method="post">
-            <section class="user-info flex">
+          <form action="about.html" method="get">
+            <section class="signup-info">
               <div id="name">
                 <input type="text" name="firstname" placeholder="First Name">
                 <input type="text" name="lastname" placeholder="Last Name">
@@ -90,7 +90,7 @@
                 <input type="radio" name="gender" id="gender-radio">Female
                 <input type="radio" name="gender" id="gender-radio">Male
               </div>
-              <div id="signup-submit">
+              <div class="submit-button">
                 <button name="submit"><strong>Sign Up!</strong></button>
               </div>
             </section>

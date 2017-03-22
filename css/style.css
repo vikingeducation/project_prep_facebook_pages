@@ -15,6 +15,7 @@ body
     font: 400 16px/20px 'Roboto', Arial, sans-serif;
 
     color: #2d2d2d;
+    background-color: #e9ebee;
 }
 
 html,
@@ -65,12 +66,6 @@ input[type=radio] + input[type=radio]
     margin-left: 20px;
 }
 
-main.content-container
-{
-    justify-content: space-between;
-    padding: 50px 0;
-}
-
 select
 {
     font-size: 14px;
@@ -85,7 +80,7 @@ select + select
 }
 
 #birthday,
-.user-info
+.signup-info
 {
     flex-direction: column;
 }
@@ -101,30 +96,28 @@ select + select
     margin-top: 10px;
 }
 
-#header-container
+#header-bar
 {
-    width: 100%;
+    display: flex;
 
-    background-color: #3e5b99;
-}
-
-#main-container
-{
-    background-color: #e9ebee;
-}
-
-#name > input + input
-{
-    margin-left: 10px;
-}
-
-#search-bar
-{
-    justify-content: space-between;
     color: white;
+
+    justify-content: space-between;
 }
 
-#search-bar button
+#header-bar > div
+{
+    display: flex;
+
+    align-items: center;
+}
+
+#header-bar img
+{
+    padding-right: 5px;
+}
+
+#header-bar button
 {
     padding: 4px 8px;
 
@@ -132,20 +125,46 @@ select + select
     background-color: #4267b2;
 }
 
-#signup-submit
+#header-bar label,
+#header-bar input
 {
-    box-shadow: 0 3px 5px;
+    font-size: 12px;
 }
 
-#signup-submit button
+#header-bar input
 {
-    font-size: 1em;
+    padding: 3px;
+
+    border: 1px solid #2d2d2d;
+}
+
+#header-container
+{
+    display: flex;
 
     width: 100%;
-    padding: 10px 0;
 
-    border: 2px solid #2d2d2d;
-    background-color: #249d0f;
+    background-color: #3e5b99;
+}
+
+#main-container
+{
+    display: flex;
+}
+
+#name > input + input
+{
+    margin-left: 10px;
+}
+
+#search-input input
+{
+    width: 500px;
+    height: 24px;
+    padding-left: 10px;
+
+    border: none;
+    border-radius: 3px;
 }
 
 .about-fb,
@@ -171,30 +190,21 @@ select + select
 
 .content-container
 {
+    display: flex;
+
     width: 980px;
+
     align-items: center;
 }
 
-.flex{
-  display: flex;
+.flex
+{
+    display: flex;
 }
 
 .login
 {
     padding: 25px 0;
-}
-
-.login label,
-.login input
-{
-    font-size: 12px;
-}
-
-.login input
-{
-    padding: 3px;
-
-    border: 1px solid #2d2d2d;
 }
 
 .login td
@@ -207,6 +217,18 @@ select + select
     justify-content: center;
 }
 
+.search
+{
+    padding: 10px 0;
+}
+
+.signup
+{
+    padding: 50px 0;
+
+    justify-content: space-between;
+}
+
 .signup-form
 {
     width: 36%;
@@ -217,17 +239,31 @@ select + select
     padding-bottom: 30px;
 }
 
-.user-info > div
+.signup-form .submit-button{
+    box-shadow: 0 3px 5px;
+}
+
+.signup-form .submit-button button{
+    border: 2px solid #2d2d2d;
+    background-color: #249d0f;
+}
+
+.signup-info
 {
     display: flex;
 }
 
-.user-info > div + div
+.signup-info > div
+{
+    display: flex;
+}
+
+.signup-info > div + div
 {
     margin-top: 10px;
 }
 
-.user-info input[type=text]
+.signup-info input[type=text]
 {
     font-size: .8em;
 
@@ -237,4 +273,10 @@ select + select
     border: 2px solid #ccc;
     border-radius: 5px;
 }
-l
+
+.submit-button button{
+    font-size: 1em;
+
+    width: 100%;
+    padding: 10px 0;
+}

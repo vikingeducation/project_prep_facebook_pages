@@ -28,6 +28,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+a:link,a:active,a:visited,a:hover,a {
+  text-decoration: none;
+  color: inherit;
+}
 body {
   line-height: 1;
 }
