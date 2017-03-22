@@ -1,0 +1,240 @@
+html
+{
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    font: 400 16px/20px 'Roboto', Arial, sans-serif;
+
+    color: #2d2d2d;
+}
+
+html,
+body
+{
+    height: 100%;
+}
+
+button
+{
+    margin: 0;
+
+    color: white;
+    border: 0;
+}
+
+h1
+{
+    font-size: 3em;
+    font-weight: 400;
+}
+
+h1.fb-logo
+{
+    font-weight: 700;
+
+    text-transform: lowercase;
+}
+
+h2
+{
+    font-size: 2.25em;
+    font-weight: 700;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+input
+{
+    border: none;
+}
+
+input[type=radio] + input[type=radio]
+{
+    margin-left: 20px;
+}
+
+main.content-container
+{
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+select
+{
+    font-size: 14px;
+
+    height: 30px;
+    padding: 5px;
+}
+
+select + select
+{
+    margin-left: 10px;
+}
+
+#birthday,
+.user-info
+{
+    flex-direction: column;
+}
+
+#birthday,
+#gender
+{
+    margin-top: 20px;
+}
+
+#birthday > div + div
+{
+    margin-top: 10px;
+}
+
+#header-container
+{
+    width: 100%;
+
+    background-color: #3e5b99;
+}
+
+#main-container
+{
+    background-color: #e9ebee;
+}
+
+#name > input + input
+{
+    margin-left: 10px;
+}
+
+#search-bar
+{
+    justify-content: space-between;
+    color: white;
+}
+
+#search-bar button
+{
+    padding: 4px 8px;
+
+    border: 1px solid #29487d;
+    background-color: #4267b2;
+}
+
+#signup-submit
+{
+    box-shadow: 0 3px 5px;
+}
+
+#signup-submit button
+{
+    font-size: 1em;
+
+    width: 100%;
+    padding: 10px 0;
+
+    border: 2px solid #2d2d2d;
+    background-color: #249d0f;
+}
+
+.about-fb,
+.about-fb > ul
+{
+    margin-left: 30px;
+}
+
+.about-fb > h2
+{
+    padding-bottom: 30px;
+}
+
+.about-fb > ul
+{
+    list-style: disc inside;
+}
+
+.about-fb li + li
+{
+    padding-top: 20px;
+}
+
+.content-container
+{
+    width: 980px;
+    align-items: center;
+}
+
+.flex{
+  display: flex;
+}
+
+.login
+{
+    padding: 25px 0;
+}
+
+.login label,
+.login input
+{
+    font-size: 12px;
+}
+
+.login input
+{
+    padding: 3px;
+
+    border: 1px solid #2d2d2d;
+}
+
+.login td
+{
+    padding: 0 7px;
+}
+
+.overall-container
+{
+    justify-content: center;
+}
+
+.signup-form
+{
+    width: 36%;
+}
+
+.signup-form > h1
+{
+    padding-bottom: 30px;
+}
+
+.user-info > div
+{
+    display: flex;
+}
+
+.user-info > div + div
+{
+    margin-top: 10px;
+}
+
+.user-info input[type=text]
+{
+    font-size: .8em;
+
+    width: 100%;
+    padding: 8px;
+
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+l

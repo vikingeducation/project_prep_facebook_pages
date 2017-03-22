@@ -11,56 +11,92 @@
     <title>Welcome To Facelook</title>
   </head>
   <body>
-    <header id="search-bar" class="login">
-      <h1>Facelook</h1>
-      <form action="about.html">
-        <label for="email">Email</label>
-        <input type="text" name="email" id="email">
-        <label for="password">Password</label>
-        <input type="text" name="password" id="password">
-        <button name="submit"><strong>Log In</strong></button>
-      </form>
-    </header>
-    <main>
-      <section class="about-fb">
-        <h2>Connect with all your friends</h2>
-        <ul>
-          <li>See photos and updates in your news feed</li>
-          <li>Post your status for the world to see from your profile</li>
-          <li>Get in touch with your friends by "friending" them</li>
-          <li>Like things because you're a positive person!</li>
-        </ul>
-      </section>
-      <section class="signup-form">
-        <h1>Sign Up</h1>
-        <form action="about.html">
+    <div id="header-container" class="flex overall-container">
+      <header id="search-bar" class="flex login content-container">
+        <h1 class="fb-logo">Facelook</h1>
+        <form action="about.html" method="post">
           <table>
             <tr>
-              <td class="first-name">
-                <input type="text" name="firstname" placeholder="First Name">
-              </td>
-              <td class="last-name">
-                <input type="text" name="lastname" placeholder="Last Name">
-              </td>
+              <td><label for="email">Email</label></td>
+              <td><label for="password">Password</label></td>
             </tr>
             <tr>
-              <td colspan="2" class="email">
-                <input type="text" name="email" placeholder="Your Email">
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2" class="password">
-                <input type="text" name="password" placeholder="Your New Password">
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2" class="password">
-                <input type="text" name="pass-conf" placeholder="Confirm Your Password">
-              </td>
+              <td><input type="text" name="email" id="email"></td>
+              <td><input type="text" name="password" id="password"></td>
+              <td><button name="submit"><strong>Log In</strong></button></td>
             </tr>
           </table>
         </form>
-      </section>
-    </main>
+      </header>
+    </div>
+    <div id="main-container" class="flex overall-container">
+      <main class="flex content-container">
+        <section class="about-fb">
+          <h2>Connect with all your friends!</h2>
+          <ul>
+            <li>See photos and updates in your news feed</li>
+            <li>Post your status for the world to see from your profile</li>
+            <li>Get in touch with your friends by "friending" them</li>
+            <li>Like things because you're a positive person!</li>
+          </ul>
+        </section>
+        <section class="signup-form">
+          <h1>Sign Up</h1>
+          <form action="about.html" method="post">
+            <section class="user-info flex">
+              <div id="name">
+                <input type="text" name="firstname" placeholder="First Name">
+                <input type="text" name="lastname" placeholder="Last Name">
+              </div>
+              <div class="email">
+                <input type="text" name="email" placeholder="Your Email">
+              </div>
+              <div class="password">
+                <input type="text" name="password" placeholder="Your New Password">
+              </div>
+              <div class="pass-conf">
+                <input type="text" name="pass-conf" placeholder="Confirm Your Password">
+              </div>
+              <div id="birthday">
+                <div><h3>Birthday</h3></div>
+                <div>
+                  <select name="month" id="month-select">
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                  </select>
+                  <select name="day" id="day-select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                  <select name="year" id="year-select">
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                  </select>
+                </div>
+              </div>
+              <div id="gender">
+                <input type="radio" name="gender" id="gender-radio">Female
+                <input type="radio" name="gender" id="gender-radio">Male
+              </div>
+              <div id="signup-submit">
+                <button name="submit"><strong>Sign Up!</strong></button>
+              </div>
+            </section>
+          </form>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
