@@ -12,7 +12,7 @@ html
 
 body
 {
-    font: 400 16px/20px 'Roboto', Arial, sans-serif;
+    font: 400 14px/18px 'Roboto', Arial, sans-serif;
 
     color: #2d2d2d;
     background-color: #e9ebee;
@@ -56,6 +56,11 @@ h3
     font-size: 1.2em;
 }
 
+img
+{
+    display: block;
+}
+
 input
 {
     border: none;
@@ -79,6 +84,15 @@ select + select
     margin-left: 10px;
 }
 
+#nav,
+#profile-picture,
+#profile-info-container
+{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+}
+
 #birthday,
 .signup-info
 {
@@ -94,6 +108,11 @@ select + select
 #birthday > div + div
 {
     margin-top: 10px;
+}
+
+#cover-photo
+{
+    position: relative;
 }
 
 #header-bar
@@ -152,9 +171,63 @@ select + select
     display: flex;
 }
 
+#nav
+{
+    display: flex;
+
+    width: 100%;
+    height: 43px;
+
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#nav > a
+{
+    font-size: .9em;
+
+    padding-right: 15px;
+
+    color: #4267b2;
+}
+
+#nav li
+{
+    float: left;
+
+    padding: 11px 15px 10px 15px;
+
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+#nav li + li
+{
+    border-left: 0;
+}
+
+#nav ul
+{
+    flex: 1;
+    font-size: 1.1em;
+}
+
 #name > input + input
 {
     margin-left: 10px;
+}
+
+#profile-picture
+{
+    position: absolute;
+    z-index: 1;
+    bottom: -25px;
+    left: 15px;
+
+    padding: 3px;
 }
 
 #search-input input
@@ -165,6 +238,17 @@ select + select
 
     border: none;
     border-radius: 3px;
+}
+
+.current,
+.box-header{
+    background-color: #E0E3E6;
+}
+
+.about
+{
+    flex-flow: column;
+    justify-content: flex-start;
 }
 
 .about-fb,
@@ -188,6 +272,32 @@ select + select
     padding-top: 20px;
 }
 
+.bold{
+    font-weight: 700;
+}
+
+.box-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.box-header>.submit-button{
+    position: absolute;
+    right: 7px;
+}
+
+.box-header>.submit-button>button{
+    background-color: #4267b2;
+    padding: 5px;
+    font-size: .9em;
+    border-radius: 3px;
+}
+
 .content-container
 {
     display: flex;
@@ -197,9 +307,25 @@ select + select
     align-items: center;
 }
 
-.flex
+.content-container.about
 {
+    width: 851px;
+}
+
+.inner-content-box-container{
     display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px 20px;
+}
+
+.inner-content-box-container>div{
+    flex: 1;
+    padding: 0 30px;
+}
+
+.left-align{
+    text-align: left;
 }
 
 .login
@@ -210,6 +336,27 @@ select + select
 .login td
 {
     padding: 0 7px;
+}
+
+.main-item
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-item + .main-item
+{
+    margin-top: 15px;
+}
+
+.nav-cushion
+{
+    width: 204px;
 }
 
 .overall-container
@@ -239,11 +386,13 @@ select + select
     padding-bottom: 30px;
 }
 
-.signup-form .submit-button{
+.signup-info > .submit-button
+{
     box-shadow: 0 3px 5px;
 }
 
-.signup-form .submit-button button{
+.signup-info > .submit-button button
+{
     border: 2px solid #2d2d2d;
     background-color: #249d0f;
 }
@@ -274,9 +423,26 @@ select + select
     border-radius: 5px;
 }
 
-.submit-button button{
+.submit-button button
+{
     font-size: 1em;
 
     width: 100%;
     padding: 10px 0;
+}
+
+.text-item{
+    padding-bottom: 1.5em;
+}
+
+.text-item>div{
+    padding: 5px 0;
+}
+
+.text-item > h3{
+    padding-bottom: .6em;
+}
+
+.two-column{
+    column-count: 2;
 }
