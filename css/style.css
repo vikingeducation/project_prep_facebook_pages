@@ -56,6 +56,11 @@ h3
     font-size: 1.2em;
 }
 
+h4{
+    font-size: 1.1em;
+    color: #4267b2;
+}
+
 img
 {
     display: block;
@@ -86,7 +91,8 @@ select + select
 
 #nav,
 #profile-picture,
-#profile-info-container
+#profile-info-container,
+.box-item
 {
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -176,7 +182,7 @@ select + select
     display: flex;
 
     width: 100%;
-    height: 43px;
+    height: 41px;
 
     border-top-left-radius: 0;
     border-top-right-radius: 0;
@@ -245,12 +251,6 @@ select + select
     background-color: #E0E3E6;
 }
 
-.about
-{
-    flex-flow: column;
-    justify-content: flex-start;
-}
-
 .about-fb,
 .about-fb > ul
 {
@@ -274,6 +274,28 @@ select + select
 
 .bold{
     font-weight: 700;
+}
+
+.box-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 calc(50% - 14px);
+    margin: 7px;
+}
+
+.box-item > img{
+    padding: 3px;
+}
+
+.box-item > *{
+    margin: 8px;
+}
+
+.box-item-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
 .box-header{
@@ -307,7 +329,7 @@ select + select
     align-items: center;
 }
 
-.content-container.about
+.content-container.profile
 {
     width: 851px;
 }
@@ -317,11 +339,12 @@ select + select
     justify-content: center;
     align-content: center;
     padding: 50px 20px;
+    width: 100%;
 }
 
 .inner-content-box-container>div{
-    flex: 1;
     padding: 0 30px;
+    width: 100%;
 }
 
 .left-align{
@@ -362,6 +385,12 @@ select + select
 .overall-container
 {
     justify-content: center;
+}
+
+.profile
+{
+    flex-flow: column;
+    justify-content: flex-start;
 }
 
 .search
@@ -445,4 +474,16 @@ select + select
 
 .two-column{
     column-count: 2;
+}
+
+.unfriend{
+    font-size: .9em;
+}
+
+.unfriend button{
+    background-color: #DEDEDE;
+    padding: 5px;
+    border-radius: 3px;
+    color: inherit;
+    border: 1px solid;
 }
