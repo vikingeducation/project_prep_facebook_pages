@@ -1,0 +1,489 @@
+html
+{
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    font: 400 14px/18px 'Roboto', Arial, sans-serif;
+
+    color: #2d2d2d;
+    background-color: #e9ebee;
+}
+
+html,
+body
+{
+    height: 100%;
+}
+
+button
+{
+    margin: 0;
+
+    color: white;
+    border: 0;
+}
+
+h1
+{
+    font-size: 3em;
+    font-weight: 400;
+}
+
+h1.fb-logo
+{
+    font-weight: 700;
+
+    text-transform: lowercase;
+}
+
+h2
+{
+    font-size: 2.25em;
+    font-weight: 700;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4{
+    font-size: 1.1em;
+    color: #4267b2;
+}
+
+img
+{
+    display: block;
+}
+
+input
+{
+    border: none;
+}
+
+input[type=radio] + input[type=radio]
+{
+    margin-left: 20px;
+}
+
+select
+{
+    font-size: 14px;
+
+    height: 30px;
+    padding: 5px;
+}
+
+select + select
+{
+    margin-left: 10px;
+}
+
+#nav,
+#profile-picture,
+#profile-info-container,
+.box-item
+{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+}
+
+#birthday,
+.signup-info
+{
+    flex-direction: column;
+}
+
+#birthday,
+#gender
+{
+    margin-top: 20px;
+}
+
+#birthday > div + div
+{
+    margin-top: 10px;
+}
+
+#cover-photo
+{
+    position: relative;
+}
+
+#header-bar
+{
+    display: flex;
+
+    color: white;
+
+    justify-content: space-between;
+}
+
+#header-bar > div
+{
+    display: flex;
+
+    align-items: center;
+}
+
+#header-bar img
+{
+    padding-right: 5px;
+}
+
+#header-bar button
+{
+    padding: 4px 8px;
+
+    border: 1px solid #29487d;
+    background-color: #4267b2;
+}
+
+#header-bar label,
+#header-bar input
+{
+    font-size: 12px;
+}
+
+#header-bar input
+{
+    padding: 3px;
+
+    border: 1px solid #2d2d2d;
+}
+
+#header-container
+{
+    display: flex;
+
+    width: 100%;
+
+    background-color: #3e5b99;
+}
+
+#main-container
+{
+    display: flex;
+}
+
+#nav
+{
+    display: flex;
+
+    width: 100%;
+    height: 41px;
+
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#nav > a
+{
+    font-size: .9em;
+
+    padding-right: 15px;
+
+    color: #4267b2;
+}
+
+#nav li
+{
+    float: left;
+
+    padding: 11px 15px 10px 15px;
+
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+
+#nav li + li
+{
+    border-left: 0;
+}
+
+#nav ul
+{
+    flex: 1;
+    font-size: 1.1em;
+}
+
+#name > input + input
+{
+    margin-left: 10px;
+}
+
+#profile-picture
+{
+    position: absolute;
+    z-index: 1;
+    bottom: -25px;
+    left: 15px;
+
+    padding: 3px;
+}
+
+#search-input input
+{
+    width: 500px;
+    height: 24px;
+    padding-left: 10px;
+
+    border: none;
+    border-radius: 3px;
+}
+
+.current,
+.box-header{
+    background-color: #E0E3E6;
+}
+
+.about-fb,
+.about-fb > ul
+{
+    margin-left: 30px;
+}
+
+.about-fb > h2
+{
+    padding-bottom: 30px;
+}
+
+.about-fb > ul
+{
+    list-style: disc inside;
+}
+
+.about-fb li + li
+{
+    padding-top: 20px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.box-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 calc(50% - 14px);
+    margin: 7px;
+}
+
+.box-item > img{
+    padding: 3px;
+}
+
+.box-item > *{
+    margin: 8px;
+}
+
+.box-item-container{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+.box-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+.box-header>.submit-button{
+    position: absolute;
+    right: 7px;
+}
+
+.box-header>.submit-button>button{
+    background-color: #4267b2;
+    padding: 5px;
+    font-size: .9em;
+    border-radius: 3px;
+}
+
+.content-container
+{
+    display: flex;
+
+    width: 980px;
+
+    align-items: center;
+}
+
+.content-container.profile
+{
+    width: 851px;
+}
+
+.inner-content-box-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px 20px;
+    width: 100%;
+}
+
+.inner-content-box-container>div{
+    padding: 0 30px;
+    width: 100%;
+}
+
+.left-align{
+    text-align: left;
+}
+
+.login
+{
+    padding: 25px 0;
+}
+
+.login td
+{
+    padding: 0 7px;
+}
+
+.main-item
+{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-item + .main-item
+{
+    margin-top: 15px;
+}
+
+.nav-cushion
+{
+    width: 204px;
+}
+
+.overall-container
+{
+    justify-content: center;
+}
+
+.profile
+{
+    flex-flow: column;
+    justify-content: flex-start;
+}
+
+.search
+{
+    padding: 10px 0;
+}
+
+.signup
+{
+    padding: 50px 0;
+
+    justify-content: space-between;
+}
+
+.signup-form
+{
+    width: 36%;
+}
+
+.signup-form > h1
+{
+    padding-bottom: 30px;
+}
+
+.signup-info > .submit-button
+{
+    box-shadow: 0 3px 5px;
+}
+
+.signup-info > .submit-button button
+{
+    border: 2px solid #2d2d2d;
+    background-color: #249d0f;
+}
+
+.signup-info
+{
+    display: flex;
+}
+
+.signup-info > div
+{
+    display: flex;
+}
+
+.signup-info > div + div
+{
+    margin-top: 10px;
+}
+
+.signup-info input[type=text]
+{
+    font-size: .8em;
+
+    width: 100%;
+    padding: 8px;
+
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button button
+{
+    font-size: 1em;
+
+    width: 100%;
+    padding: 10px 0;
+}
+
+.text-item{
+    padding-bottom: 1.5em;
+}
+
+.text-item>div{
+    padding: 5px 0;
+}
+
+.text-item > h3{
+    padding-bottom: .6em;
+}
+
+.two-column{
+    column-count: 2;
+}
+
+.unfriend{
+    font-size: .9em;
+}
+
+.unfriend button{
+    background-color: #DEDEDE;
+    padding: 5px;
+    border-radius: 3px;
+    color: inherit;
+    border: 1px solid;
+}
