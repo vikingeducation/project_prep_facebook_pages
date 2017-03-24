@@ -2,26 +2,33 @@
 <title>Facelook</title>
 
 <head>
-  <link type="text/css" href="styles.css" />
+  <link type="text/css" href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
-  <header class="header">
-    <div class="logo">Facelook</div>
-    <div class="login">
-      <form>
-        <label>Email
-            <input type="email" name="login_email" />
-          </label>
-        <label>Password
-            <input type="password" name="login_password" />
-          </label>
-        <input type="submit" value="Log In" name="login_submit" />
-      </form>
+  <header class="header flex flex-row">
+    <div class="logo_container">
+      <div class="logo">Facelook</div>
     </div>
+    <div class="login_container">
+      <div class="login">
+        <form class="login_form flex flex-row">
+          <div class="login_email_container">
+            <label id="login_email_label">Email</label>
+            <input type="email" name="login_email" />
+          </div>
+          <div class="login_password_container">
+            <label id="login_password_label">Password</label>
+            <input type="password" name="login_password" />
+          </div>
+          <div class="login_button_container">
+            <input type="submit" value="Log In" name="login_submit" id="login_submit" />
+        </form>
+        </div>
+      </div>
   </header>
-  <section class="intro">
-    <div class="intro-header">
+  <main class="main flex">
+    <section class="intro">
       <h1>Connect with all your friends!</h1>
       <ul class="intro_list">
         <li>See photos and updates in your news feed.</li>
@@ -29,34 +36,34 @@
         <li>Get in touch with your friends by "friending" them.</li>
         <li>Like things because you're a positive person!</li>
       </ul>
-    </div>
-  </section>
-  <section class="signup">
-    <h1>Sign Up</h1>
-    <div class="signup_form">
-      <form>
-        <input type="text" placeholder="First Name" name="sign_up_first_name" />
-        <input type="text" placeholder="Last Name" name="signup_last_name" />
-        <input type="email" placeholder="Your Email" name="signup_email" />
-        <input type="text" placeholder="Your New Password" name="signup_password" />
-        <input type="text" placeholder="Confirm Your Password" name="signup_password_confirm" />
-        <h4>Birthday</h4>
-        <select>
+    </section>
+    <section class="signup">
+      <h1>Sign Up</h1>
+      <div class="signup_form">
+        <form>
+          <input type="text" placeholder="First Name" name="sign_up_first_name" />
+          <input type="text" placeholder="Last Name" name="signup_last_name" />
+          <input type="email" placeholder="Your Email" name="signup_email" />
+          <input type="text" placeholder="Your New Password" name="signup_password" />
+          <input type="text" placeholder="Confirm Your Password" name="signup_password_confirm" />
+          <h4>Birthday</h4>
+          <select>
           <option value="" selected disabled>Month</option>
         </select>
-        <select>
+          <select>
           <option value="" selected disabled>Day</option>
         </select>
-        <select>
+          <select>
           <option value="" selected disabled>Year</option>
         </select>
 
-        <input type="radio" value="Female" name="gender" />Female
-        <input type="radio" value="Male" name="gender" />Male
-        <input type="submit" value="Sign Up!" name="submit" />
-      </form>
-    </div>
-  </section>
+          <input type="radio" value="Female" name="gender" />Female
+          <input type="radio" value="Male" name="gender" />Male
+          <input type="submit" value="Sign Up!" name="submit" />
+        </form>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
