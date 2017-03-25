@@ -60,7 +60,7 @@ header#login {
 header#about {
     display: flex;
     position: relative;
-    height: 42px;
+    height: 50px;
     align-items: center;
     flex-direction: row;
 }
@@ -125,8 +125,54 @@ header .search input {
     border-radius: 2px;
     padding: 3px;
     margin-left: 10px;
-    margin-top: 5px;
+    width: 350px;
 }
+
+header nav p {
+    color: white;
+    font-size: .9em;
+    display: inline-block;
+}
+
+header nav p:first-of-type {
+    margin-left: 200px;
+    padding-right: 12px;
+    margin-right: 12px;
+    border-right: 1px solid #354F88;
+}
+
+header nav p:last-of-type {
+    margin-right: 20px;
+}
+
+button[name="search"] {
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 26px;
+    margin-left: -4px;
+    width: 30px;
+    background-color: #F6F7F9;
+}
+
+button[name="search"] .fa {
+    color: #4E5665;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav .fa {
+    color: #17233D;
+    margin: 0px 4px;
+}
+
+nav .fa-globe {
+    padding-right: 20px;
+    border-right: 1px solid #354F88;
+    margin-right: 20px;
+}
+
 
 /*
  * Main styles
