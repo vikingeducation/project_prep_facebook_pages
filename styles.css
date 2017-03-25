@@ -1,7 +1,7 @@
 /*
  * Global styles
  */
- 
+
 a {
     color: #3B5998;
     font-weight: 500;
@@ -14,14 +14,20 @@ a:hover {
     text-decoration: underline;
 }
 
-* {
+html, body, * {
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
 }
 
-.fa-3x {
+main .fa {
     display: inline-block;
     color: #ADBAD4;
+    vertical-align: middle;
+}
+
+header .fa {
+    display: inline-block;
+    color: white;
     vertical-align: middle;
 }
 
@@ -36,7 +42,6 @@ a:hover {
 
 header {
     width: 100%;
-    height: 85px;
 
     background: rgba(78,105,162,1);
     background: -moz-linear-gradient(top, rgba(78,105,162,1) 0%, rgba(59,88,152,1) 49%, rgba(59,88,152,1) 100%);
@@ -48,6 +53,18 @@ header {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e69a2', endColorstr='#3b5898', GradientType=0 );
 }
 
+header#login {
+    height: 85px;
+}
+
+header#about {
+    display: flex;
+    position: relative;
+    height: 42px;
+    align-items: center;
+    flex-direction: row;
+}
+
 header h1 {
     color: white;
     font-family: 'Titillium Web', sans-serif;
@@ -57,7 +74,6 @@ header h1 {
 
     padding-top: 30px;
 }
-
 
 .login {
     padding-top: 25px;
@@ -77,7 +93,7 @@ header h1 {
 }
 
 .login input[type="password"] {
-    width: 60%;
+    width: 130px;
     margin-right: 20px;
 }
 
@@ -88,9 +104,30 @@ button[name="login"] {
     font-size: .8em;
     font-weight: 700;
     box-sizing: border-box;
-    width: 19%;
+    width: 50px;
     height: 80%;
 }
+
+button[name="login"]>p{
+    white-space: nowrap;
+}
+
+.flex-row {
+    margin-left: 25%;
+}
+
+header .search form {
+    display: inline-block;
+}
+
+header .search input {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 3px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
 /*
  * Main styles
  */
