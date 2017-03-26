@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End reset */
+
+body {
+	font-family: arial;
+}
+.top-bar{
+	background: dodgerblue;
+	height: 60px;
+}
+
+.title-container{
+	float:left;
+	width:15%;
+	margin-right: 46%;
+	margin-left:2%;
+}
+
+.site-title {
+	color: white;
+	font-size: 38px;
+	padding-left: 3%;
+	padding-top: 11px;
+}
+.login-form{
+	color:white;
+	font-size: 14px;
+	float:left;
+	width:15%;
+	margin-top: 10px;
+}
+
+.login-input{
+	width:90%;
+	color:black;
+
+}
+
+.login-button-container{
+	float:left;
+	width: 5%;
+	margin-top: 23px;
+	margin-right:2%;
+}
+
+.login-button{
+	display: inline-block;
+	width:100%;
+	background-color:#8cd0f7;
+	border: 2px solid black;
+	font-size: 12px;
+	padding-left:0px;
+	padding-right:0px;
+}
+.welcome-container{
+	float:left;
+	width:63%;
+	padding-top: 80px;
+}
+
+.connect-text{
+	margin:auto;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.ul-container {
+	margin-left: 20%;
+	margin-right: 5%;
+}
+
+ul {
+	width:90%;
+	margin:auto;
+}
+
+li {
+	font-size: 16px;
+	color:darkgrey;
+	list-style-type: disc;
+	padding-bottom: 15px;
+}
+
+.list-bold {
+	font-weight: bold;
+}
+
+.sign-up-container {
+	float: left;
+	width:36%;
+}
+
+.sign-up-header {
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size: 36px;
+}
+
+.names {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.half-length-input {
+	display: inline-block;
+  width: 38%;
+
+}
+
+.full-length-input {
+	display: inline-block;
+	width: 78.5%;
+	margin-bottom: 15px;
+}
+
+h4 {
+	font-style: bold;
+	font-size:16px;
+	margin-bottom: 5px;
+}
+
+select {
+	margin-bottom: 15px;
+}
+
+.gender-buttons {
+	padding-bottom: 15px;
+}
+
+.info-submit-button {
+	color:white;
+	font-size: 18px;
+	background: green;
+	border:2px solid black;
+	width: 78.5%;
+}
