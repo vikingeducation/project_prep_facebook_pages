@@ -1,0 +1,522 @@
+/*
+ * Global styles
+ */
+
+a {
+    color: #3B5998;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+html, body, * {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #EDF0F5;
+}
+
+main .fa {
+    display: inline-block;
+    color: #ADBAD4;
+    vertical-align: middle;
+}
+
+header .fa {
+    display: inline-block;
+    color: white;
+    vertical-align: middle;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/*
+ * Header styles
+ */
+
+header {
+    width: 100%;
+
+    background: rgba(78,105,162,1);
+    background: -moz-linear-gradient(top, rgba(78,105,162,1) 0%, rgba(59,88,152,1) 49%, rgba(59,88,152,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(78,105,162,1)), color-stop(49%, rgba(59,88,152,1)), color-stop(100%, rgba(59,88,152,1)));
+    background: -webkit-linear-gradient(top, rgba(78,105,162,1) 0%, rgba(59,88,152,1) 49%, rgba(59,88,152,1) 100%);
+    background: -o-linear-gradient(top, rgba(78,105,162,1) 0%, rgba(59,88,152,1) 49%, rgba(59,88,152,1) 100%);
+    background: -ms-linear-gradient(top, rgba(78,105,162,1) 0%, rgba(59,88,152,1) 49%, rgba(59,88,152,1) 100%);
+    background: linear-gradient(to bottom, rgba(78,105,162,1) 0%, rgba(59,88,152,1) 49%, rgba(59,88,152,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e69a2', endColorstr='#3b5898', GradientType=0 );
+
+    border-bottom: 1px solid #29487D;
+}
+
+header#login {
+    height: 85px;
+}
+
+header.main {
+    min-width: 1000px;
+    display: flex;
+    position: relative;
+    height: 50px;
+    align-items: center;
+    flex-direction: row;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    padding-top: 30px;
+}
+
+.login {
+    padding-top: 25px;
+    margin-right: 5%;
+    font-size: .8em;
+    color: white;
+}
+
+.login input[type="text"], 
+.login input[type="password"] {
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+.login input[type="text"] {
+    width: 100%;
+}
+
+.login input[type="password"] {
+    width: 130px;
+    margin-right: 20px;
+}
+
+button[name="login"] {
+    box-sizing: border-box;
+    background-color: #4267B2;
+    border: 1px solid black;
+    font-size: .8em;
+    font-weight: 700;
+    color: white;
+    width: 50px;
+    height: 80%;
+}
+
+button[name="login"]>p{
+    white-space: nowrap;
+}
+
+.flex-row {
+    margin-left: 25%;
+}
+
+header .search form {
+    display: inline-block;
+}
+
+header .search input {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 3px;
+    margin-left: 10px;
+    width: 350px;
+}
+
+header nav p {
+    color: white;
+    font-size: .9em;
+    font-weight: 500;
+    display: inline-block;
+}
+
+header nav p:first-of-type {
+    margin-left: 200px;
+    padding-right: 12px;
+    margin-right: 12px;
+    border-right: 1px solid #354F88;
+}
+
+header nav p:last-of-type {
+    margin-right: 20px;
+}
+
+button[name="search"] {
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 26px;
+    margin-left: -4px;
+    width: 30px;
+    background-color: #F6F7F9;
+}
+
+button[name="search"] .fa {
+    color: #4E5665;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav .fa {
+    color: #17233D;
+    margin: 0px 4px;
+}
+
+nav .fa-globe {
+    padding-right: 20px;
+    border-right: 1px solid #354F88;
+    margin-right: 20px;
+}
+
+
+/*
+ * Main styles
+ */
+main p {
+    font-family: 'Roboto', sans-serif;
+}
+
+main h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.9em;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    margin-top: 10px;
+}
+
+main h3 {
+    margin: 60px 0px 40px 0px;
+    line-height: 1.3em;
+}
+
+
+main h4 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.1em;
+    padding: 0px 7px 50px 20px;
+}
+
+main p.splash-header {
+    display: inline;
+}
+
+.sign-up {
+    width: 80%;
+}
+
+main .left-margin {
+    min-width: 0px;
+}
+
+main h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    margin-top: 25px;
+}
+
+main h5 {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+main form input[type="text"],
+main form input[type="password"] {
+    font-size: 1.3em;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #BDC7D8;
+    margin: 4px 10px 6px 0px;
+    padding: 4px 0px 4px 4px;
+    width: calc(100% - 10px);
+}
+
+label[for="month"] {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: 15px 0px 10px 0px;
+}
+
+label.gender {
+    padding: 0px 10px;
+    font-size: 1.2em;
+}
+
+main input[type="radio"] {
+    padding: 0px 10px;
+    margin: 20px 0px;
+}
+
+main form select {
+    font-size: .8em;
+    background-color: #DDDDDD;
+    border: 1px solid #BDC7D8;
+    padding: 4px 3px 4px 8px;
+}
+
+#birthday-info {
+    font-size: .7em;
+    padding: 5px;
+    line-height: 1.2em;
+}
+
+#privacy {
+    width: 85%;
+    margin-bottom: 25px;
+}
+
+main form small {
+    font-size: .7em;
+    color: #777;
+}
+
+button[name="create-account"] {
+    background: rgba(150,214,124,1);
+    background: -moz-linear-gradient(top, rgba(150,214,124,1) 0%, rgba(101,170,83,1) 7%, rgba(87,137,67,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(150,214,124,1)), color-stop(7%, rgba(101,170,83,1)), color-stop(100%, rgba(87,137,67,1)));
+    background: -webkit-linear-gradient(top, rgba(150,214,124,1) 0%, rgba(101,170,83,1) 7%, rgba(87,137,67,1) 100%);
+    background: -o-linear-gradient(top, rgba(150,214,124,1) 0%, rgba(101,170,83,1) 7%, rgba(87,137,67,1) 100%);
+    background: -ms-linear-gradient(top, rgba(150,214,124,1) 0%, rgba(101,170,83,1) 7%, rgba(87,137,67,1) 100%);
+    background: linear-gradient(to bottom, rgba(150,214,124,1) 0%, rgba(101,170,83,1) 7%, rgba(87,137,67,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#96d67c', endColorstr='#578943', GradientType=0 );
+
+    padding: 10px 30px;
+    border: 1px solid #3B6E22;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-shadow: 1px 1px black;
+}
+
+#page-create {
+    margin-top: 25px;
+    border-top: 1px solid #DDD;
+    padding-top: 20px;
+    font-size: .9em;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+section {
+    position: relative;
+    height: 500px;
+    background-color: white;
+    margin-bottom: 25px;
+    border: 1px solid #D3D6DB;
+}
+
+section.cover {
+    min-width: 900px;
+    height: 360px;
+}
+
+section.cover h1 {
+    font-size: 1.6em;
+    position: relative;
+    bottom: 50px;
+    padding-left: 230px;
+    height: 50px;
+    color: white;
+
+    background: rgba(255,255,255,0);
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.92) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(100%, rgba(0,0,0,0.92)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.92) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.92) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.92) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(0,0,0,0.92) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000', GradientType=0 );
+}
+
+section.cover img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 310px;
+    overflow: hidden;
+}
+
+section.cover #profile-pic {
+    object-fit: cover;
+    width: 170px;
+    max-height: 170px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #B3B3B3;
+    border-radius: 2px;
+}
+
+ul.profile-options {
+    position: relative;
+    bottom: 50px;
+    left: 220px;
+    list-style: none;
+    font-size: 1.1em;
+}
+
+.profile-options a {
+    font-weight: 600;
+}
+
+.profile-options .fa {
+    color: #3B5998;
+}
+.profile-options li {
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding: 16px 18px;
+    display: inline-block;
+    height: 100%;
+    margin: 0px;
+    border-right: 1px solid #D3D6DB;
+}
+
+.profile-options li:first-of-type {
+    border-left: 1px solid #D3D6DB;
+}
+
+.profile-options small {
+    font-size: .8em;
+    color: #89919C;
+    font-weight: 400;
+}
+
+div .cover-buttons {
+    position: relative;
+}
+
+.cover button {
+    display: inline-block;
+    position: relative;
+    bottom: 150px;
+    left: 73%;
+
+    background-color: #F6F7F9;
+    border: 1px solid black;
+    letter-spacing: -1px;
+    font-size: .9em;
+    font-weight: 600;
+    padding: 7px 7px;
+}
+
+section.about {
+    min-width: 900px;
+}
+
+section.about .fa {
+    color: #ADB3BC;
+    padding-right: 10px;
+}
+
+section.about h2 {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    width: 100%;
+    background-color: #F6F7F9;
+    border-bottom: 1px solid #D3D6DB;
+    font-size: 1.5em;
+}
+
+section.about ul.about-options {
+    display: inline-block;
+    width: 30%;
+    padding: 10px 0px 110px 20px;
+    letter-spacing: -1px;
+    color: #89919C;
+    border-right: 1px solid #D3D6DB;
+    margin-right: 0px;
+}
+
+ul.about-options li {
+    padding: 15px 0px;
+}
+
+ul.about-options li a {
+    color: #89919C;
+}
+
+ul.about-options li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+li .selected {
+    margin-left: -20px;
+    border-left: 4px solid #3B5998;
+    padding-left: 15px;
+    color: black;
+    font-weight: 700;
+}
+
+ul.overview {
+    position: absolute;
+    display: inline-block;
+    width: 42%;
+}
+
+ul.overview .fa {
+    padding-right: 30px;
+    float: left;
+}
+
+ul.overview li p:first-of-type {
+    display: inline-block;
+    clear: left;
+    padding-bottom: 3px;
+}
+
+ul.overview li p:nth-child(3) {
+    color: #89919C;
+    font-size: .8em;
+}
+
+ul.overview li {
+    padding: 30px 0px 30px 0px;
+    margin-left: 30px;
+    border-bottom: 1px solid #D3D6DB;
+}
+
+ul.contact {
+    font-size: .8em;
+    position: absolute;
+    top: 20%;
+    left: 78%;
+    display: inline-block;
+    width: 20%;
+}
+
+ul.contact .fa {
+    min-width: 32px;
+    padding-right: 2px;
+    float: left;
+    vertical-align: middle;
+}
+
+ul.contact li {
+    padding-bottom: 40px;
+}
