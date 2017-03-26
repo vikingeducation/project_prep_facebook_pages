@@ -9,14 +9,16 @@ a {
 }
 
 a:hover {
-    color: #3B5998;
-    font-weight: 500;
     text-decoration: underline;
 }
 
 html, body, * {
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #EDF0F5;
 }
 
 main .fa {
@@ -31,7 +33,7 @@ header .fa {
     vertical-align: middle;
 }
 
-.flex-container-nw {
+.flex-container {
     display: flex;
     flex-wrap: nowrap;
 }
@@ -51,13 +53,16 @@ header {
     background: -ms-linear-gradient(top, rgba(78,105,162,1) 0%, rgba(59,88,152,1) 49%, rgba(59,88,152,1) 100%);
     background: linear-gradient(to bottom, rgba(78,105,162,1) 0%, rgba(59,88,152,1) 49%, rgba(59,88,152,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e69a2', endColorstr='#3b5898', GradientType=0 );
+
+    border-bottom: 1px solid #29487D;
 }
 
 header#login {
     height: 85px;
 }
 
-header#about {
+header.main {
+    min-width: 1000px;
     display: flex;
     position: relative;
     height: 50px;
@@ -98,12 +103,12 @@ header h1 {
 }
 
 button[name="login"] {
+    box-sizing: border-box;
     background-color: #4267B2;
-    color: white;
     border: 1px solid black;
     font-size: .8em;
     font-weight: 700;
-    box-sizing: border-box;
+    color: white;
     width: 50px;
     height: 80%;
 }
@@ -131,6 +136,7 @@ header .search input {
 header nav p {
     color: white;
     font-size: .9em;
+    font-weight: 500;
     display: inline-block;
 }
 
@@ -177,11 +183,6 @@ nav .fa-globe {
 /*
  * Main styles
  */
-
-main {
-    background-color: #EDF0F5;
-}
-
 main p {
     font-family: 'Roboto', sans-serif;
 }
@@ -214,6 +215,10 @@ main p.splash-header {
 
 .sign-up {
     width: 80%;
+}
+
+main .left-margin {
+    min-width: 0px;
 }
 
 main h2 {
@@ -312,4 +317,206 @@ button[name="create-account"] {
     font-size: .9em;
     font-weight: 500;
     margin-bottom: 60px;
+}
+
+section {
+    position: relative;
+    height: 500px;
+    background-color: white;
+    margin-bottom: 25px;
+    border: 1px solid #D3D6DB;
+}
+
+section.cover {
+    min-width: 900px;
+    height: 360px;
+}
+
+section.cover h1 {
+    font-size: 1.6em;
+    position: relative;
+    bottom: 50px;
+    padding-left: 230px;
+    height: 50px;
+    color: white;
+
+    background: rgba(255,255,255,0);
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.92) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(100%, rgba(0,0,0,0.92)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.92) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.92) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.92) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(0,0,0,0.92) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000', GradientType=0 );
+}
+
+section.cover img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 310px;
+    overflow: hidden;
+}
+
+section.cover #profile-pic {
+    object-fit: cover;
+    width: 170px;
+    max-height: 170px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #B3B3B3;
+    border-radius: 2px;
+}
+
+ul.profile-options {
+    position: relative;
+    bottom: 50px;
+    left: 220px;
+    list-style: none;
+    font-size: 1.1em;
+}
+
+.profile-options a {
+    font-weight: 600;
+}
+
+.profile-options .fa {
+    color: #3B5998;
+}
+.profile-options li {
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding: 16px 18px;
+    display: inline-block;
+    height: 100%;
+    margin: 0px;
+    border-right: 1px solid #D3D6DB;
+}
+
+.profile-options li:first-of-type {
+    border-left: 1px solid #D3D6DB;
+}
+
+.profile-options small {
+    font-size: .8em;
+    color: #89919C;
+    font-weight: 400;
+}
+
+div .cover-buttons {
+    position: relative;
+}
+
+.cover button {
+    display: inline-block;
+    position: relative;
+    bottom: 150px;
+    left: 73%;
+
+    background-color: #F6F7F9;
+    border: 1px solid black;
+    letter-spacing: -1px;
+    font-size: .9em;
+    font-weight: 600;
+    padding: 7px 7px;
+}
+
+section.about {
+    min-width: 900px;
+}
+
+section.about .fa {
+    color: #ADB3BC;
+    padding-right: 10px;
+}
+
+section.about h2 {
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    width: 100%;
+    background-color: #F6F7F9;
+    border-bottom: 1px solid #D3D6DB;
+    font-size: 1.5em;
+}
+
+section.about ul.about-options {
+    display: inline-block;
+    width: 30%;
+    padding: 10px 0px 110px 20px;
+    letter-spacing: -1px;
+    color: #89919C;
+    border-right: 1px solid #D3D6DB;
+    margin-right: 0px;
+}
+
+ul.about-options li {
+    padding: 15px 0px;
+}
+
+ul.about-options li a {
+    color: #89919C;
+}
+
+ul.about-options li a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+li .selected {
+    margin-left: -20px;
+    border-left: 4px solid #3B5998;
+    padding-left: 15px;
+    color: black;
+    font-weight: 700;
+}
+
+ul.overview {
+    position: absolute;
+    display: inline-block;
+    width: 42%;
+}
+
+ul.overview .fa {
+    padding-right: 30px;
+    float: left;
+}
+
+ul.overview li p:first-of-type {
+    display: inline-block;
+    clear: left;
+    padding-bottom: 3px;
+}
+
+ul.overview li p:nth-child(3) {
+    color: #89919C;
+    font-size: .8em;
+}
+
+ul.overview li {
+    padding: 30px 0px 30px 0px;
+    margin-left: 30px;
+    border-bottom: 1px solid #D3D6DB;
+}
+
+ul.contact {
+    font-size: .8em;
+    position: absolute;
+    top: 20%;
+    left: 78%;
+    display: inline-block;
+    width: 20%;
+}
+
+ul.contact .fa {
+    min-width: 32px;
+    padding-right: 2px;
+    float: left;
+    vertical-align: middle;
+}
+
+ul.contact li {
+    padding-bottom: 40px;
 }

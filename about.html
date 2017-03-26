@@ -15,7 +15,7 @@
     <title>Current User</title>
 </head>
 <body>
-    <header id="about">
+    <header class="main">
         <div class="flex-row search">
             <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
             <form action="search.html">
@@ -38,8 +38,80 @@
     </header>
     <main>
         <div class="pure-g">
-            <div class="pure-u-1-4"></div>
+            <div class="pure-u-1-4 left-margin"></div>
             <div class="pure-u-1-2">
+                <section class="cover">
+                    <img src="img/cover.jpg" alt="Picture of man about to jump into ocean">
+                    <h1>Current User</h1>
+                    <img src="img/profile.jpg" id="profile-pic" alt="Picture of person">
+                    <ul class="profile-options">
+                        <li><a>Timeline</a></li>
+                        <li>About</li>
+                        <li><a>Friends</a> <small>1,234</small></li>
+                        <li><a>Photos</a></li>
+                        <li><a>More</a> <i class="fa fa-caret-down fa-1x" aria-hidden="true"></i></li>
+                    </ul>
+                    
+                    <button name="update-info">Update Info</button>
+                    <button name="activity-log">View Activity Log</button>
+                    <button name="more-options">...</button>
+                    
+                </section>
+
+                <section class="about">
+                    <h2><i class="fa fa-user fa-1x" aria-hidden="true"></i>About</h2>
+                    <ul class="about-options">
+                        <li><span class="selected">Overview</li>
+                        <li><a href="">Work and Education</a></li>
+                        <li><a href="">Places You've Lived</a></li>
+                        <li><a href="">Contact and Basic Info</a></li>
+                        <li><a href="">Family and Relationships</a></li>
+                        <li><a href="">Details About You</a></li>
+                        <li><a href="">Life Events</a></li>
+                    </ul>
+                    <ul class="overview">
+                        <li>
+                            <i class="fa fa-building fa-2x" aria-hidden="true"></i>
+                            <p>Former Lorem Ipsum at Lorem Ipsum</p>
+                            <p>January 2016 to January 2017</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-building fa-2x" aria-hidden="true"></i>
+                            <p>Former Lorem Ipsum at Lorem Ipsum</p>
+                            <p>January 2015 to January 2016</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-building fa-2x" aria-hidden="true"></i>
+                            <p>Former Lorem Ipsum at Lorem Ipsum</p>
+                            <p>January 2014 to January 2015</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-users fa-2x" aria-hidden="true"></i>
+                            <p>23 family members</p>
+                        </li>
+                    </ul>
+                    <ul class="contact">
+                        <li>
+                            <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+                            <p>(123) 456-7890</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-home fa-2x" aria-hidden="true"></i>
+                            <p>New York, NY United States 12345</p>
+
+                        </li>
+                        <li>
+                            <i class="fa fa-link fa-2x" aria-hidden="true"></i>
+                            <p>http://domain.org</p>
+
+                        </li>
+                        <li>
+                            <i class="fa fa-birthday-cake fa-2x" aria-hidden="true"></i>
+                            <p>January 1, 1900</p>
+
+                        </li>
+                    </ul>
+                </section>
             </div> 
         </div>
     </main>
