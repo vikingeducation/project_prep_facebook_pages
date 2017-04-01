@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Facelook</title>
+
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1 class="logo">Facelook</h1>
+
+      <form class="login" action="#" method="post">
+        <label for="email">Email<label>
+        <input type="email" id="email" name="email">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+
+        <button class="button" type="submit">
+          Log In
+        </button>
+      </form>
+    </header>
+
+    <main>
+      <section class="introduction">
+        <h2 class="introduction__title">
+          Connect with all your friends!
+        </h2>
+
+        <article class="features-list">
+          <ul>
+            <li>See photos and updates on your newsfeed</li>
+            <li>Post your status for hte world to see from your profile</li>
+            <li>Get in touch with your friends by "friending" them</li>
+            <li>Like things because you're a positive person</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="sign-up">
+        <h2 class="sign-up__title">Sign Up</h2>
+
+        <form class="sign-up__form" action="#" method="post">
+          <ul>
+            <li>
+              <label for="first-name" id="first-name" name="first-name"></label>
+
+              <input type="text" id="first-name" name="first-name"
+                placeholder="First Name">
+
+              <label for="last-name" id="last-name" name="last-name"></label>
+
+              <input type="text" id="last-name" name="last-name"
+                placeholder="Last Name">
+            </li>
+
+            <li>
+              <label for="email" id="email" name="email"></label>
+              <input type="email" id="email" name="email" placeholder="Email">
+            </li>
+
+            <li>
+              <label for="password" id="password" name="password"></label>
+
+              <input type="password" id="password" name="password"
+                placeholder="Your new password">
+            </li>
+
+            <li>
+              <label for="password-confirm" id="password-confirm"
+                name="password-confirm">
+              </label>
+
+              <input type="password" id="password-confirm" name="password-confirm"
+                placeholder="Confirm your password">
+            </li>
+          </ul>
+
+          <fieldset>
+            <legend>Birthday</legend>
+
+            <ul>
+              <li>
+                <label for="bithday-month"></label>
+                <select id="birthday-month" name="bithday-month">
+                  <option value="" disabled selected>Month</option>
+                  <option value="1">January</option>
+                  <option value="2">February</option>
+                  <option value="3">March</option>
+                  <option value="4">April</option>
+                </select>
+              </li>
+
+
+              <li>
+                <label for="bithday-day"></label>
+                <select id="birthday-day" name="bithday-day">
+                  <option value="" disabled selected>Day</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                </select>
+              </li>
+
+              <li>
+                <label for="bithday-year"></label>
+                <select id="birthday-year" name="bithday-year">
+                  <option value="" disabled selected>Year</option>
+                  <option value="1">2000</option>
+                  <option value="2">2001</option>
+                  <option value="3">2002</option>
+                  <option value="4">2003</option>
+                </select>
+              </li>
+            </ul>
+          </fieldset>
+
+          <fieldset>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="F">
+
+            <label for="male">male</label>
+            <input type="radio" id="male" name="gender" value="M">
+          </fieldset>
+
+          <button>
+            Sign Up!
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
