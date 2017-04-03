@@ -8,7 +8,7 @@
   <body>
     <nav>
       <h1>Facelook</h1>
-      <form>
+      <form id="log-in">
         <div>
           <label for="email">Email</label>
           <input type="email" id="email" name="email">
@@ -18,57 +18,55 @@
           <input type="password" id="password" name="password">
         </div>
         <div class="button">
-          <button type="submit" id="log-in">Log In</button>
+          <button type="submit" id="log-in-btn">Log In</button>
         </div>
       </form>
     </nav>
-    <body>
-      <section>
-        <h2>Connect with all your friends!</h2>
-        <ul>
-          <li>
-            See photos and updates in your news feed.
-          </li>
-          <li>
-            Post your status for the world to see from your profile.
-          </li>
-          <li>
-            Get in touch with your friends by "friending" them.
-          </li>
-          <li>
-            Like things because you're a positive person!
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Sign Up</h2>
-        <form>
-          <input type="text" name="first-name">
-          <input type="text" name="last-name">
-          <input type="email" name="email">
-          <input type="password" name="password">
-          <input type="password" name="password-confirm">
-          <label>Birthday</label>
-          <select name="month">
-            <option value="january">January</option>
-            <option value="february">February</option>
-            <<option value="march">March</option>
-          </select>
-          <select name="Day">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <<option value="3">3</option>
-          </select>
-          <select name="Year">
-            <option value="1999">1999</option>
-            <option value="1998">1998</option>
-            <<option value="1997">1997</option>
-          </select>
-          <input type="radio" name="gender" value="female">Female
-          <input type="radio" name="gender" value="male">Male
-          <button type="submit" id="sign-up">Sign Up</button>
-        </form>
-      </section>
-    </body>
+    <section id="left-panel">
+      <h2>Connect with all your friends!</h2>
+      <ul>
+        <li>
+          See photos and updates in your news feed.
+        </li>
+        <li>
+          Post your status for the world to see from your profile.
+        </li>
+        <li>
+          Get in touch with your friends by "friending" them.
+        </li>
+        <li>
+          Like things because you're a positive person!
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Sign Up</h2>
+      <form id="sign-up">
+        <input type="text" name="first-name">
+        <input type="text" name="last-name">
+        <input type="email" name="email">
+        <input type="password" name="password">
+        <input type="password" name="password-confirm">
+        <label>Birthday</label>
+        <select name="month">
+          <option value="january">January</option>
+          <option value="february">February</option>
+          <<option value="march">March</option>
+        </select>
+        <select name="Day">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <<option value="3">3</option>
+        </select>
+        <select name="Year">
+          <option value="1999">1999</option>
+          <option value="1998">1998</option>
+          <<option value="1997">1997</option>
+        </select>
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="male">Male
+        <button type="submit" id="sign-up-btn">Sign Up</button>
+      </form>
+    </section>
   </body>
 </html>

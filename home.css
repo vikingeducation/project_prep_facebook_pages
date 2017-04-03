@@ -48,11 +48,46 @@ table {
 }
 
 
+* {
+  font: "San Francisco", "Arial", sans-serif;
+}
+
+body {
+  display: flex;
+	flex-wrap: wrap;
+}
 
 nav {
   background: #4178DD;
+	width: 100vw;
+	height: 10vh;
 }
 
 h1 {
-  
+	font-size: 30px;
+	float: left;
+	color: #FFFFFF;
+	margin: 0 auto;
+}
+
+#log-in {
+	float: right;
+	display: flex;
+}
+
+#log-in div {
+	display: flex;
+	flex-direction: column;
+}
+
+section {
+
+}
+
+#left-panel {
+	width: 60vw;
+}
+
+#sign-up {
+	width: 40vw;
 }
