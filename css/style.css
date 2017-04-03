@@ -27,11 +27,24 @@ nav.navigation {
   width: 850px;
   margin: 0 auto;
 }
+.container-large {
+  width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.active-friends {
+  width: 200px;
+  box-sizing: border-box;
+}
 .ib-header {
   height: 40px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+.ib-header a:hover {
+  background-color: transparent;
 }
 .fb-logo {
   font-size: 28px;
@@ -365,4 +378,113 @@ fieldset.radio {
 }
 .unfriend:hover {
   background-color: #e9ebee;
+}
+.active-friends-profile {
+  flex-basis: 150px;
+  flex-grow: 1;
+  margin: 10px 0;
+  display: inline-flex;
+}
+.Profile-name {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Profile-name p:first-of-type {
+    font-size: 1em;
+    font-weight: bold;
+    color: #4561A1;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+.Profile-name p:nth-of-type(2) {
+  font-size: 14px;
+  color: #4561A1;
+  text-decoration: underline;
+}
+.news {
+  border-left: 1px solid #ced0d4;
+}
+.container-post {
+  width: 600px;
+  margin-left: 100px;
+  margin-top: 30px;
+  border: 1px solid #d3d6db;
+}
+.container-post h2 {
+  text-align: center;
+  font-weight: bold;
+  background-color: #FFF;
+  line-height: 30px;
+  border-bottom: 1px solid #d3d6db;
+}
+.TellTheWorld {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Post-area {
+  width: 90%;
+}
+.post-button {
+  height: 30px;
+  background-color: #FFF;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: 1px solid #d3d6db;
+}
+.post-button button {
+  height: 20px;
+  width: 80px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: #3B5998;
+  color: #FFF;
+  border: 1px solid #ced0d4;
+  font-size: 12px;
+  font-weight: bold;
+}
+.friend-post {
+  padding: 0 10px 10px 10px;
+  background-color: #FFF;
+  border-bottom: 1px solid #d3d6db;
+}
+.friend-post p {
+  font-size: 14px;
+}
+.comment {
+  font-size: 12px;
+}
+.border {
+  border-bottom: 1px solid #d3d6db;
+}
+.comment span {
+  line-height: 22px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #4561A1;
+}
+.margin {
+  margin-left: 10px;
+}
+.comment p {
+  margin-left: 10px;
+}
+.like {
+  display: flex;
+  justify-content: space-between;
+}
+.like span {
+  margin-right: 10px;
+}
+.comment-list {
+  background-color: #FFF;
+  padding: 10px;
+}
+.top-margin {
+  margin-top: 20px;
 }
