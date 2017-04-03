@@ -53,11 +53,12 @@ body {
 	font-family: Arial, sans-serif;
 	font-size: 14px;
 	box-sizing: border-box;
+	line-height: 1.3em;
 }
 
 .container {
 	padding: 15px;
-	margin-top: 100px;
+	margin-top: 70px;
 	margin-right: 10%;
 	margin-left: 10%;
 	display: flex;
@@ -76,15 +77,15 @@ button {
 	margin: 5px;
   padding: 5px 8px 4px 8px;
 	background-color: #80ccff;
-	border: 1px solid black;
-	border-radius: 3px;
-	-webkit-box-shadow: 1px 2px 7px 1px rgba(0,0,0,0.37);
-  -moz-box-shadow: 1px 2px 7px 1px rgba(0,0,0,0.37);
-  box-shadow: 1px 2px 7px 1px rgba(0,0,0,0.37);
+	border: 1px solid gray;
+	border-radius: 2px;
+	-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.55);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.55);
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.55);
 }
 
 button:hover {
-	background-color: #0099ff;
+	background-color: #2e5cb8;
 }
 
 /** Blue Top Nav **/
@@ -98,58 +99,68 @@ button:hover {
 	display: flex;
   flex-flow: row;
 	flex-direction: row;
-	justify-content: space-between;
+
 	align-items: center;
   padding-top: 12px;
 	padding-bottom: 10px;
 	padding-left: 10%;
-	border-bottom: 1px solid black;
-	-webkit-box-shadow: -3px 14px 63px -7px rgba(0,0,0,0.32);
-  -moz-box-shadow: -3px 14px 63px -7px rgba(0,0,0,0.32);
-  box-shadow: -3px 14px 63px -7px rgba(0,0,0,0.32);
+	border-bottom: 1px solid gray;
+	-webkit-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.66);
+  -moz-box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.66);
+  box-shadow: 0px 3px 23px -4px rgba(0,0,0,0.66);
 }
 
 .username {
-	padding-right: 20%;
+	margin-right: 15%;
+	margin-left: 15px;
 	font-weight: bold;
+
 }
 .logo {
 	font-size: 35px;
 	font-weight: bold;
-	margin-left: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 
 .search input[type="search"] {
 	display: inline-block;
 	margin-right: 10px;
-	margin-left: 10px;
+	margin-left: 15px;
 	width:800px;
-
+	border: 1px solid gray;
 }
 
 .user-profile-img img {
 	width:30px;
 	height: 30px;
+	margin-left: -27px;
   display: inline-block;
-	border: 1px solid black;
+	border: 1px solid gray;
 }
 
 /** Header - Cover Photo **/
 
 .profile-header {
 	position: relative;
-  height: 40%;
+  height: 350px;
+	padding: 10px;
+	margin-top: 0;
 	background: url(https://s-media-cache-ak0.pinimg.com/originals/bf/67/1b/bf671b9cfcab6862ac7feaa6917a9d43.jpg) no-repeat;
 	background-size: cover;
-	padding: 10px;
 	border: 1px solid gray;
 	border-collapse: collapse;
+	-webkit-box-shadow: 0px 0px 2pax 0px rgba(0,0,0,0.55);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.55);
+  box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.55);
+
 }
 
 .profile-header img {
 	left: 5px;
 	bottom: 10px;
 	border: 1px solid gray;
+	border-bottom: none;
 	display: table-cell;
 }
 
@@ -186,7 +197,7 @@ button:hover {
 	border: none;
 	border-radius: 0px;
 	box-shadow: none;
-	border-right: 1px solid black;
+	border-right: 1px solid gray;
 }
 
 .navigation button:hover {
@@ -201,27 +212,70 @@ button:hover {
 	position: absolute;
 	right: 10px;
 	align-self: center;
-	color:#2e5cb8
+	color: #2e5cb8;
+}
+
+/** About **/
+
+.about-container {
+	width: 100%;
+
+	border: 1px solid gray;
+	margin-top:10px;
+}
+
+.headline {
+	width:100%;
+  display: inline-block;
+	text-align: center;
+	background-color: #f0f5f5;
+	border-bottom: 1px solid gray;
+	position: relative;
+
+}
+
+.headline h2 {
+	font-size: 18px;
+	align-self: center;
+	font-weight: bold;
+	padding: 10px;
+	display: inline-block;
+}
+
+
+.edit-profile-button {
+  position: absolute;
+  right: 10px;
+	display: inline-block;
+}
+
+.about-content {
+	padding: 60px;
+}
+
+.about-content h2 {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 0px 10px 0;
 }
 
 .float-left {
-	width: 60%;
-	font-size: 21px;
-	line-height: 1.8em;
-	padding: 10px;
-	align-self: center;
+	float: left;
+	width: 40%;
 }
-.float-left h2 {
-	font-size: 26px;
+
+dl {
+	line-height: 1.7em;
+	padding-bottom: 20px;
+}
+dt {
+	display: inline;
 	font-weight: bold;
-	padding-bottom: 15px;
+}
+dd {
+	display: inline;
 }
 
-ul {
-	list-style: inside;
-	list-style-type: disc;
-}
-
-li {
-	margin-left: 7px;
+p {
+	padding-bottom: 20px;
 }
