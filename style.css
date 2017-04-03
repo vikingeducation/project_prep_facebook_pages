@@ -1,0 +1,199 @@
+/* RESET ------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* NORMALIZE -----------------------------------*/
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  font-size: 1.75rem;
+  line-height: 1.25em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 1.25em;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.05em;
+  margin-bottom: 1em;
+}
+
+header, section {
+  padding: 1em;
+}
+
+p {
+  line-height: 1.25em;
+}
+
+/* UTILITIES --------------------------------------*/
+.select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  min-width: 80px;
+  margin-bottom: .5em;
+
+  border-radius: 0;
+  background:
+    url(https://d30y9cdsu7xlg0.cloudfront.net/png/10897-200.png) 100% / 30% no-repeat #fff;
+}
+
+.fieldset select[class='select']:not(:first-of-type) {
+  margin-left: 1em;
+}
+
+.list {
+  list-style-type: circle;
+}
+
+.list__item {
+  margin-bottom: 1em;
+}
+
+.legend, .label {
+  font-size: 1em;
+}
+
+.fieldset, .legend {
+  margin-bottom: .5em;
+}
+
+.btn {
+  box-shadow: 5px 5px 5px #333
+}
+
+.btn--primary {
+  color: #fff;
+  background-color: green;
+}
+
+.btn--large {
+  width: 100%
+}
+
+/* HEADER -----------------------------------------*/
+.header {
+  color: #fff;
+
+  background-color: #3b5998;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 1em;
+}
+
+.logo {
+  margin-bottom: 0;
+}
+
+.login__fields__item {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.login__field__input {
+  display: block;
+  margin-top: .5em;
+}
+
+.login-button {
+  background-color: #9daccb;
+
+  margin-right: 0;
+  border-radius: 3px;
+}
+
+/* INTRODUCTION ------------------------------------*/
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 960px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.introduction {
+  padding: 5em 1em 0 1em;;
+}
+
+.introduction__title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.features {
+  padding-left: 2em;
+}
+
+
+/* SIGN-UP ------------------------------------*/
+.sign-up__title {
+  margin-bottom: 1rem;
+}
+
+.sign-up__fields__group {
+  margin-bottom: 1em;
+}
+
