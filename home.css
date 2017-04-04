@@ -31,9 +31,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -50,6 +47,7 @@ table {
 
 * {
   font: "San Francisco", "Arial", sans-serif;
+	border: 1px solid red;
 }
 
 body {
@@ -61,23 +59,33 @@ nav {
   background: #4178DD;
 	width: 100vw;
 	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 h1 {
 	font-size: 30px;
-	float: left;
 	color: #FFFFFF;
-	margin: 0 auto;
+	padding: 10px;
 }
 
-#log-in {
-	float: right;
+#log-in-form {
+	width: 70vw;
 	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
 }
 
-#log-in div {
+.form-column {
 	display: flex;
 	flex-direction: column;
+	padding: 8px;
+}
+.form-column label {
+	color: #FFFFFF;
+	padding-bottom: 3px;
+	font-size: 16px;
 }
 
 section {
@@ -90,4 +98,12 @@ section {
 
 #sign-up {
 	width: 40vw;
+}
+
+#left-panel h2 {
+	font-size: 26px;
+}
+
+li {
+	font-size: 20px;
 }
