@@ -1,0 +1,190 @@
+@import 'mixins';
+@import 'colors';
+$border: 1px solid gray;
+
+
+@include cssreset;
+
+/** Global **/
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	box-sizing: border-box;
+	line-height: 1.3em;
+}
+
+.container {
+	padding: 15px;
+	margin-top: 70px;
+	margin-right: 10%;
+	margin-left: 10%;
+	display: flex;
+	justify-content: space-around;
+}
+
+input {
+	margin-top: 5px;
+	margin-bottom: 6px;
+	border: $border;
+	padding: 5px 6px 3px 6px;
+	border-radius: 2px;
+}
+
+button {
+	margin: 5px;
+  padding: 5px 8px 4px 8px;
+	background-color: lighten($primaryColor, 30%);
+	border: $border;
+	border-radius: 2px;
+	@include boxshadow;
+  &:hover {	background-color: lighten($primaryColor, 20%); }
+}
+
+/** Blue Top Nav **/
+.blue-top {
+  position: fixed;
+	z-index: 1;
+  top: 0;
+  width: 100%;
+  background-color: $primaryColor;
+  color: white;
+	display: flex;
+  flex-flow: row;
+	flex-direction: row;
+	align-items: center;
+  padding-top: 12px;
+	padding-bottom: 10px;
+	padding-left: 10%;
+	border-bottom: $border;
+  @include boxshadow;
+  .username {
+	   margin-right: 15%;
+	   margin-left: 15px;
+	   font-weight: bold;}
+  .logo {
+	   font-size: 35px;
+	   font-weight: bold;
+	   margin-left: 15px;
+	   margin-right: 15px;}
+  .search input[type="search"] {
+	   display: inline-block;
+	   margin-right: 10px;
+	   margin-left: 15px;
+	   width:800px;
+	   border: $border;}
+  .user-profile-img img {
+	   width:30px;
+	   height: 30px;
+	   margin-left: -27px;
+     display: inline-block;
+	   border: $border;}
+}
+
+/** Header - Cover Photo **/
+
+.profile-header {
+	position: relative;
+  height: 350px;
+	padding: 10px;
+	margin-top: 0;
+	background: url(https://s-media-cache-ak0.pinimg.com/originals/bf/67/1b/bf671b9cfcab6862ac7feaa6917a9d43.jpg) no-repeat;
+	background-size: cover;
+	border: $border;
+	border-collapse: collapse;
+	@include boxshadow;
+  img {
+	   left: 5px;
+	   bottom: 10px;
+	   border: $border;
+	   border-bottom: none;
+	   display: table-cell;}
+  .img-description {
+	   width: 130px;
+	   float: left;
+	   padding:10px;
+	   text-align: center;
+	   background-color: white;
+     border: $border;
+	   border-top: none;}
+  .navigation {
+     	background-color: white;
+     	border-top: $border;
+     	display: inline-block;
+     	width: 100%;
+     	position: absolute;
+     	bottom: 0;
+     	left: 0;
+     	display: flex;
+     	flex-flow: row;
+     	flex-direction: row;
+      button {
+        background-color: white;
+     	  color: black;
+     	  padding: 10px;
+     	  margin: 0;
+     	  border: none;
+     	  border-radius: 0px;
+     	  box-shadow: none;
+     	  border-right: $border;
+        &:hover {background-color: $lightGray;
+     	  padding: 10px;}
+     }
+     .nav-buttons button {
+     	display: inline-block;
+     }
+     .edit-profile {
+     	position: absolute;
+     	right: 10px;
+     	align-self: center;
+     	color: $primaryColor;
+		}
+	}
+}
+/** About **/
+
+.about-container {
+	width: 100%;
+	border: $border;
+	margin-top:10px;
+	padding-bottom:20px;
+}
+
+.headline {
+	width:100%;
+  display: inline-block;
+	text-align: center;
+	background-color: $lightGray;
+	border-bottom: $border;
+	position: relative;
+  h2 {
+	   font-size: 18px;
+	   align-self: center;
+	   font-weight: bold;
+	   padding: 10px;
+	   display: inline-block;}
+  .edit-profile-button {
+    position: absolute;
+    right: 10px;
+	  display: inline-block;}
+}
+
+.about-content {
+	padding: 60px;
+  h2 {
+	  font-size: 18px;
+	  font-weight: bold;
+	  padding: 10px 0px 10px 0;}
+}
+
+.float-left {
+	float: left;
+	width: 40%;
+  dl {
+	   line-height: 1.7em;
+	   padding-bottom: 20px;}
+  dt {
+	   display: inline;
+	   font-weight: bold;}
+  dd { display: inline; }
+  p { padding-bottom: 20px; }
+}
