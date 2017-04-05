@@ -193,7 +193,11 @@ nav.navigation {
   font-weight: normal;
   color: #BBB;
 }
+/* Aside */
 
+.active-friends h2 {
+  font-weight: bold;
+}
 
 /* Main */
 
@@ -427,7 +431,9 @@ fieldset.radio {
   align-items: center;
 }
 .Post-area {
+  display: block;
   width: 90%;
+  margin: 0 auto;
 }
 .post-button {
   height: 30px;
@@ -437,7 +443,8 @@ fieldset.radio {
   align-items: center;
   border-top: 1px solid #d3d6db;
 }
-.post-button button {
+.post-button button,
+span button {
   height: 20px;
   width: 80px;
   margin-right: 10px;
@@ -483,8 +490,8 @@ fieldset.radio {
 }
 .comment-list {
   background-color: #FFF;
-  padding: 10px;
+  padding: 10px 60px;
 }
 .top-margin {
-  margin-top: 20px;
+  margin-top: 30px;
 }
