@@ -7,6 +7,7 @@
   </head>
   <body>
     <nav>
+      <div id="nav-content">
       <h1>Facelook</h1>
       <form id="log-in">
         <div id="log-in-form">
@@ -23,7 +24,9 @@
         </div>
       </div>
       </form>
+    </div>
     </nav>
+    <div id="main-content">
     <section id="left-panel">
       <h2>Connect with all your friends!</h2>
       <ul>
@@ -41,34 +44,48 @@
         </li>
       </ul>
     </section>
-    <section>
+    <section id="sign-up">
       <h2>Sign Up</h2>
-      <form id="sign-up">
-        <input type="text" name="first-name">
-        <input type="text" name="last-name">
+      <form id="sign-up-form">
+        <div class="form-row">
+          <input type="text" name="first-name">
+          <input type="text" name="last-name">
+        </div>
+        <div class="form-row">
         <input type="email" name="email">
+        </div>
+        <div class="form-row">
         <input type="password" name="password">
+        </div>
+        <div class="form-row">
         <input type="password" name="password-confirm">
+        </div>
         <label>Birthday</label>
-        <select name="month">
-          <option value="january">January</option>
-          <option value="february">February</option>
-          <<option value="march">March</option>
-        </select>
-        <select name="Day">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <<option value="3">3</option>
-        </select>
-        <select name="Year">
-          <option value="1999">1999</option>
-          <option value="1998">1998</option>
-          <<option value="1997">1997</option>
-        </select>
-        <input type="radio" name="gender" value="female">Female
-        <input type="radio" name="gender" value="male">Male
+<div class="form-row">
+  <select name="month">
+    <option value="january">January</option>
+    <option value="february">February</option>
+    <<option value="march">March</option>
+  </select>
+  <select name="Day">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <<option value="3">3</option>
+  </select>
+  <select name="Year">
+    <option value="1999">1999</option>
+    <option value="1998">1998</option>
+    <<option value="1997">1997</option>
+  </select>
+</div>
+        <div class="form-row">
+          <input type="radio" name="gender" value="female">Female
+          <input type="radio" name="gender" value="male">Male
+        </div>
+
         <button type="submit" id="sign-up-btn">Sign Up</button>
       </form>
     </section>
+  </div>
   </body>
 </html>
