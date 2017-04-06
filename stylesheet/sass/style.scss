@@ -1,0 +1,503 @@
+/* Fichier variables et couleur */
+@import "_colors.scss", "_base.scss";
+
+html {
+  background-color: $html-background-color;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/* Top Navigation Bar */
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    background-color: $link-hover-bkg-color;
+  }
+}
+.navigation {
+  width: 100%;
+  background-color: $navbar-background-color;
+  color: $text-color;
+  @extend %font-12;
+}
+.index-head {
+  height: 80px;
+}
+.ib-header {
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  p {
+    @extend %bold-font;
+    padding: 0 15px;
+    height: 24px;
+    line-height: 24px;
+      &:hover {
+        background-color: $menu-hover-bkg-color;
+        border-radius: 2px;
+        cursor: pointer;
+      }
+  }
+  a:hover {
+    background-color: transparent;
+  }
+}
+.fb-logo {
+  font-size: 28px;
+  margin: 0 10px;
+}
+.logo, .log-in, .inline {
+  display: inline-block;
+}
+.logo {
+    float: left;
+    font-size: 40px;
+    line-height: 80px;
+}
+.log-in {
+  float: right;
+}
+.inline {
+  line-height: 20px;
+  margin-right: 30px;
+  margin-top: 20px;
+  label, input {
+    display: block;
+  }
+}
+.search-bar {
+  width: 400px;
+  height: 24px;
+  background-color: $html-background-color;
+  border-radius: 2px;
+  @extend %flex-between;
+  align-items: baseline;
+  margin-right: 40px;
+  input {
+    width: 350px;
+    height: 24px;
+    border: none;
+    border-radius: 2px;
+    padding: 0 5px;
+  }
+}
+.search-icon {
+  @extend %font-14;
+  color: $search-icon-color;
+  margin: 0 auto;
+}
+.user-photo {
+  width: 24px;
+  height: 24px;
+  background-color: $user-photo-bkg-color;
+  border-radius: 2px;
+  @extend %text-center;
+  line-height: 24px;
+}
+.btn-log-in {
+  padding: 0 20px;
+  background-color: $btn-log-in-bkg-color;
+  border: 1px solid $btn-log-in-border-color;
+  cursor: pointer;
+  @extend %bold-font;
+  color: $text-color;
+  line-height: 18px;
+  &:hover {
+    background-color: $btn-log-in-bkg-hover-color;
+  }
+}
+
+
+/* Container */
+.container {
+  width: 850px;
+  margin: 0 auto;
+}
+.container-large {
+  width: 1050px;
+  margin: 0 auto;
+@extend %flex-center;
+}
+
+
+/* Aside */
+.active-friends {
+  width: 200px;
+  box-sizing: border-box;
+  h2 {
+    @extend %bold-font;
+  }
+}
+.active-friends-profile {
+  flex-basis: 150px;
+  flex-grow: 1;
+  margin: 10px 0;
+  display: inline-flex;
+}
+.Profile-name {
+  margin: 0 20px;
+@extend %flex-center;
+  flex-direction: column;
+  p:first-of-type {
+      font-size: 1em;
+      @extend %bold-font;
+      color: $menu-text-color;
+      text-decoration: underline;
+      margin-bottom: 5px;
+  }
+  p:nth-of-type(2) {
+    @extend %font-14;
+    color: $menu-text-color;
+    text-decoration: underline;
+  }
+}
+
+
+/* Menu Bannière de profil */
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: $menu-text-color;
+  li {
+    list-style-type: none;
+    height: 45px;
+    line-height: 45px;
+    background-color: $menu-bkg-color;
+    border-right: $grey-border;
+    border-bottom: $grey-border;
+    @extend %text-center;
+    @extend %font-14;
+    @extend %bold-font;
+    &:nth-of-type(-6n+7) {
+      flex-grow: 5;
+    }
+    &:nth-of-type(n+2):nth-of-type(-n+6) {
+      flex-grow: 1;
+    }
+  }
+}
+.profile-pic {
+  position: relative;
+  img {
+    position: absolute;
+    bottom: 22px;
+    left: 13px;
+    border: 3px solid $pic-border-color;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px $friends-nber-color;
+  }
+  h1 {
+    position: absolute;
+    font-size: 2em;
+    color: $text-color;
+    top: -50px;
+    left: 200px;
+    text-align: left;
+    width: 200px;
+  }
+}
+.active {
+  color: $menu-active-color;
+  position: relative;
+}
+.up-arrow {
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid $html-background-color;
+  bottom: -1px;
+  left: calc(50% - 10px);
+  z-index: 1;
+}
+.friends-nber {
+  @extend %font-12;
+  font-weight: normal;
+  color: $friends-nber-color;
+}
+
+
+/* Ad et Formulaire de connexion */
+.presentation {
+  width: 48%;
+  float: left;
+  h2 {
+    font-size: 24px;
+    @extend %bold-font;
+    margin: 80px 0 30px 30px;
+  }
+}
+.formulaire {
+  width: 50%;
+  float: right;
+}
+.join-us {
+  list-style-type: square;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-left: 70px;
+}
+strong {
+  @extend %bold-font;
+}
+.sign-up {
+  font-size: 40px;
+  @extend %bold-font;
+  line-height: 1.5;
+  text-align: left;
+  margin: 40px 0 30px 0;
+}
+fieldset input {
+  height: 39px;
+  border: 1px solid $field-border-color;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.field-1 input {
+  margin: 0 30px 20px 0;
+}
+.field-2 {
+  margin-bottom: 30px;
+  input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.bday {
+  display: block;
+  font-size: 18px;
+  @extend %bold-font;
+  margin-bottom: 15px;
+}
+.b-select {
+  height: 30px;
+  margin-bottom: 30px;
+}
+fieldset.radio {
+  display: block;
+  font-size: 18px;
+}
+.radio input {
+  height: 16px;
+  width: auto;
+  display: inline;
+  &:nth-of-type(2) {
+    margin-left: 20px;
+  }
+}
+.btn-submit {
+  width: 199px;
+  height: 39px;
+  font-size: 20px;
+  color: $text-color;
+  @extend %bold-font;
+  border-radius: 5px;
+  border: 1px solid $btn-submit-border-color;
+  background-color: $btn-submit-bkg-color;
+  &:hover {
+    background-color: $btn-submit-hover-bkg-color;
+    cursor: pointer;
+  }
+}
+
+
+/* Main About et Friends*/
+
+.bandeauMain {
+  margin-top: 30px;
+  border: $grey-border;
+}
+.bandeauMain-title {
+  height: 58px;
+  line-height: 58px;
+  background-color: $bandeau-bkg-color;
+  color: $bandeau-text-color;
+  padding-left: 15px;
+  font-size: 20px;
+  @extend %bold-font;
+  border-bottom: $grey-border;
+  span {
+    margin-left: 20px;
+  }
+  h2 {
+    @extend %text-center;
+  }
+}
+.user-info {
+  display: flex;
+}
+.section-info {
+  flex-basis: 50%;
+  flex-grow: 1;
+  background-color: $menu-bkg-color;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  p {
+    line-height: 1.4;
+  }
+  h2 {
+    font-size: 20px;
+    @extend %bold-font;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  &:last-of-type {
+    padding-right: 30px;
+  }
+}
+.user-table-info tr {
+  height: 30px;
+}
+.user-table-info td {
+  vertical-align: middle;
+}
+.user-table-info td:first-child {
+  width: 150px;
+}
+.Friends-List {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  padding: 10px;
+  background: $menu-bkg-color;
+}
+.Friend-info {
+  flex-basis: 150px;
+  flex-grow: 1;
+  margin: 10px;
+  padding: 20px;
+  border: $grey-border;
+  display: inline-flex;
+  background: $menu-bkg-color;
+}
+.Friend-name {
+  margin: 0 20px;
+  @extend %flex-center;
+  flex-direction: column;
+  p:first-of-type {
+      font-size: 0.8em;
+      @extend %bold-font;
+      color: $menu-text-color;
+      text-decoration: underline;
+      margin-bottom: 5px;
+  }
+  p:nth-of-type(2) {
+    @extend %font-12;
+    color: $friends-nber-color;
+  }
+}
+.unfriend {
+  height: 30px;
+  width: 100px;
+  margin: auto;
+  cursor: pointer;
+  background-color: $btn-unfriend-bkg-color;
+  color: $bandeau-text-color;
+  border: 1px solid $news-border-color;
+  @extend %font-12;
+  @extend %bold-font;
+  &:hover {
+    background-color: $btn-unfriend-hover-bkg-color;
+  }
+}
+
+
+/* News */
+
+
+.news {
+  border-left: 1px solid $news-border-color;
+}
+.container-post {
+  width: 600px;
+  margin: 30px 0 0 100px;
+  border: $grey-border;
+  h2 {
+    @extend %text-center;
+    @extend %bold-font;
+    background-color: $menu-bkg-color;
+    line-height: 30px;
+    border-bottom: $grey-border;
+  }
+}
+.TellTheWorld {
+  width: 100%;
+  height: 100px;
+  @extend %flex-center;
+  align-items: center;
+}
+.Post-area {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+}
+.post-button {
+  height: 30px;
+  background-color: $menu-bkg-color;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: $grey-border;
+}
+.post-button button,
+span button {
+  height: 20px;
+  width: 80px;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: $btn-log-in-bkg-color;
+  color: $text-color;
+  border: 1px solid $btn-log-in-border-color;
+  @extend %font-12;
+  @extend %bold-font;
+}
+.friend-post {
+  padding: 0 10px 10px 10px;
+  background-color: $menu-bkg-color;
+  border-bottom: $grey-border;
+  p {
+    @extend %font-14;
+  }
+}
+.comment {
+  @extend %font-12;
+  span {
+    line-height: 22px;
+    @extend %bold-font;
+    text-decoration: underline;
+    color: $menu-text-color;
+  }
+  p {
+    margin-left: 10px;
+  }
+}
+.border {
+  border-bottom: $grey-border;
+}
+.margin {
+  margin-left: 10px;
+}
+.like {
+  @extend %flex-between;
+  span {
+    margin-right: 10px;
+  }
+}
+.comment-list {
+  background-color: $menu-bkg-color;
+  padding: 10px 60px;
+}
+.top-margin {
+  margin-top: 30px;
+}
