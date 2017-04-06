@@ -48,42 +48,54 @@
       <h2>Sign Up</h2>
       <form id="sign-up-form">
         <div class="form-row">
-          <input type="text" name="first-name">
-          <input type="text" name="last-name">
+          <input type="text" name="first-name" placeholder="First Name">
+          <input type="text" name="last-name" placeholder="Last Name">
         </div>
         <div class="form-row">
-        <input type="email" name="email">
+        <input type="email" name="email" placeholder="Your Email">
         </div>
         <div class="form-row">
-        <input type="password" name="password">
+        <input type="password" name="password" placeholder="Your New Password">
         </div>
         <div class="form-row">
-        <input type="password" name="password-confirm">
+        <input type="password" name="password-confirm" placeholder="Confirm Password">
         </div>
-        <label>Birthday</label>
+        <label class ="sign-up-label">Birthday</label>
 <div class="form-row">
-  <select name="month">
+  <select name="month" placeholder="Month">
+    <option value="" disabled selected hidden>
+      Month
+    </option>
     <option value="january">January</option>
     <option value="february">February</option>
     <<option value="march">March</option>
   </select>
   <select name="Day">
+    <option value="" disabled selected hidden>
+      Day
+    </option>
     <option value="1">1</option>
     <option value="2">2</option>
     <<option value="3">3</option>
   </select>
   <select name="Year">
+    <option value="" disabled selected hidden>
+      Year
+    </option>
     <option value="1999">1999</option>
     <option value="1998">1998</option>
     <<option value="1997">1997</option>
   </select>
 </div>
         <div class="form-row">
-          <input type="radio" name="gender" value="female">Female
-          <input type="radio" name="gender" value="male">Male
+          <input type="radio" name="gender" value="female"
+          id="gender-1"><label for="gender-1">Female</label>
+          <input type="radio" name="gender" value="male"
+          id="gender-2"><label for="gender-2">Male</label>
         </div>
-
-        <button type="submit" id="sign-up-btn">Sign Up</button>
+        <div class="form-row">
+        <button type="submit" class="sign-up-btn">Sign Up</button>
+        </div>
       </form>
     </section>
   </div>
