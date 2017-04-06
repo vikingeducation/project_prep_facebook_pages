@@ -1,0 +1,325 @@
+/* RESET ------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  margin-bottom: 3em;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* NORMALIZE -----------------------------------*/
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  font-size: 1.75rem;
+  line-height: 1.25em;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 1.25em;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.05em;
+  margin-bottom: 1rem;
+}
+
+header {
+  padding: 1em;
+}
+
+p {
+  line-height: 1.25em;
+  margin-bottom: 1em;
+}
+
+dl {
+  content: '';
+  display: table;
+}
+
+dt {
+  font-weight: bold;
+  width: 130px;
+  float: left;
+  clear: left;
+  margin-bottom: 1em;
+}
+
+dt:after {
+  content: ':'
+}
+
+dd {
+  display: block;
+  margin-left: 140px;
+  margin-bottom: 1em;
+}
+
+
+/* UTILITIES --------------------------------------*/
+.select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  min-width: 80px;
+  margin-bottom: .5em;
+
+  border-radius: 0;
+  background:
+    url(https://d30y9cdsu7xlg0.cloudfront.net/png/10897-200.png) 100% / 30% no-repeat #fff;
+}
+
+.fieldset select[class='select']:not(:first-of-type) {
+  margin-left: 1em;
+}
+
+.list {
+  list-style-type: circle;
+}
+
+.list__item {
+  margin-bottom: 1em;
+}
+
+.legend, .label {
+  font-size: 1em;
+}
+
+.fieldset, .legend {
+  margin-bottom: .5em;
+}
+
+.btn {
+  box-shadow: 5px 5px 5px #333;
+}
+
+.btn--primary {
+  color: #fff;
+  background-color: green;
+}
+
+.btn--large {
+  width: 100%
+}
+
+.link {
+  display: block;
+  padding: 1em;
+}
+
+.hide {
+  display: none;
+}
+
+/* HEADER -----------------------------------------*/
+.header {
+  color: #fff;
+
+  background-color: #3b5998;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-bottom: 0;
+}
+
+.login__fields__item {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.login__field__input {
+  display: block;
+  margin-top: .5em;
+}
+
+.login-button {
+  background-color: #9daccb;
+
+  margin-right: 0;
+  border-radius: 3px;
+}
+
+/* INTRODUCTION ------------------------------------*/
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 960px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.introduction {
+  padding: 5em 1em 0 1em;;
+}
+
+.introduction__title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.features {
+  padding-left: 2em;
+}
+
+
+/* SIGN-UP ------------------------------------*/
+.sign-up__title {
+  margin-bottom: 1rem;
+}
+
+.sign-up__fields__group {
+  margin-bottom: 1em;
+}
+
+/* ABOUT -----------------------------------------*/
+.about {
+  width: 820px;
+  margin: 0 auto;
+}
+
+.overview__container {
+  width: inherit;
+}
+
+/* PROFILE -----------------------------------------*/
+.profile__container {
+  position: relative;
+  padding: 0;
+}
+
+.profile__username {
+  position: absolute;
+  bottom: 0;
+  left: 200px;
+  margin-bottom: 0;
+}
+
+.profile__picture {
+  position: absolute;
+  bottom: -1.5em;
+  left: 1em;
+  border: 1px solid;
+}
+
+/* NAV ---------------------------------------------------*/
+.profile__nav {
+  display: flex;
+  border: 1px solid;
+  width: inherit;
+  padding-left: 200px;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__link {
+  border-left: 1px solid black;
+}
+
+.nav__list__item:last-child .nav__link {
+  border-right: 1px solid black;
+}
+
+/* SEARCH ------------------------------------------------*/
+.search__input {
+  width: 600px;
+  margin-left: 5%;
+  margin-right: 15%;
+}
+
+/* DETAILS__HEADER ----------------------------------------*/
+.details__container {
+  width: inherit;
+}
+
+.details__header {
+  background-color: #bbb;
+  width: inherit;
+  display: flex;
+  align-items: baseline;
+  border: 1px solid;
+}
+
+.section__subtitle {
+  margin: 0 auto;
+}
+
+.section__link {
+  background-color: blue;
+  color: #fff;
+}
+
+/* OUTLINE---------------------------------------------*/
+.details__subcontainer {
+  display: flex;
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+  padding: 1em;
+}
+
+.outline {
+  margin-bottom: 2em;
+  margin-right: 2.5em;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Facelook</title>
+
+    <link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="logo">Facelook</h1>
+
+      <form class="login" action="#" method="post">
+        <ul class="login__fields">
+          <li class="login__fields__item">
+            <label for="email" class="login__field__label">Email</label>
+            <input type="email" id="email" name="email" class="login__field__input">
+          </li>
+
+          <li class="login__fields__item">
+            <label for="password" class="login__field__label">Password</label>
+            <input type="password" id="password" name="password"
+              class="login__field__input">
+          </li>
+
+          <li class="login__fields__item">
+            <button class="login-button" type="submit">
+              Log In
+            </button>
+          </li>
+        </ul>
+      </form>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="introduction">
+          <h2 class="introduction__title">
+            Connect with all your friends!
+          </h2>
+
+          <article class="features">
+            <ul class="list">
+              <li class="list__item">
+                See photos and updates on your newsfeed
+              </li>
+
+              <li class="list__item">
+                Post your status for the world to see from your profile
+              </li>
+
+              <li class="list__item">
+                Get in touch with your friends by "friending" them
+              </li>
+
+              <li class="list__item">
+                Like things because you're a positive person
+              </li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="sign-up">
+          <h2 class="sign-up__title">Sign Up</h2>
+
+          <form class="sign-up__form" action="#" method="post">
+            <ul class="sign-up__fields">
+              <li class="sign-up__fields__group">
+                <label for="first-name" id="first-name" name="first-name"></label>
+
+                <input type="text" id="first-name" name="first-name"
+                  placeholder="First Name" class="sign-up__field__input">
+
+                <label for="last-name" id="last-name" name="last-name"></label>
+
+                <input type="text" id="last-name" name="last-name"
+                  placeholder="Last Name" class="sign-up__field__input">
+              </li>
+
+              <li class="sign-up__fields__group">
+                <label for="email" id="email" name="email"></label>
+
+                <input type="email" id="email" name="email" placeholder="Email"
+                  class="sign-up__field__input">
+              </li>
+
+              <li class="sign-up__fields__group">
+                <label for="password" id="password" name="password"></label>
+
+                <input type="password" id="password" name="password"
+                  placeholder="Your new password" class="sign-up__field__input">
+              </li>
+
+              <li class="sign-up__fields__group">
+                <label for="password-confirm" id="password-confirm"
+                  name="password-confirm">
+                </label>
+
+                <input type="password" id="password-confirm" name="password-confirm"
+                  placeholder="Confirm your password" class="sign-up__field__input">
+              </li>
+            </ul>
+
+            <fieldset class="fieldset">
+              <legend class="legend">Birthday</legend>
+              <label for="bithday-month"></label>
+              <select id="birthday-month" name="bithday-month" class="select">
+                <option value="" disabled selected>Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+              </select>
+
+              <label for="bithday-day"></label>
+              <select id="birthday-day" name="bithday-day" class="select">
+                <option value="" disabled selected>Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+
+              <label for="bithday-year"></label>
+              <select id="birthday-year" name="bithday-year" class="select">
+                <option value="" disabled selected>Year</option>
+                <option value="1">2000</option>
+                <option value="2">2001</option>
+                <option value="3">2002</option>
+                <option value="4">2003</option>
+              </select>
+            </fieldset>
+
+            <fieldset class="fieldset">
+              <input type="radio" id="female" name="gender" value="F">
+              <label for="female" class="label">Female</label>
+
+              <input type="radio" id="male" name="gender" value="M">
+              <label for="male" class="label">Male</label>
+            </fieldset>
+
+            <button class='btn btn--primary btn--large'>
+              Sign Up!
+            </button>
+          </form>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
