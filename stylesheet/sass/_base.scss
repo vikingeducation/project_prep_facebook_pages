@@ -1,0 +1,25 @@
+// borders
+
+$grey-border: 1px solid $menu-border-color;
+
+//Placeholders
+%flex-center {
+  display: flex;
+  justify-content: center;
+}
+%flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+%bold-font {
+  font-weight: bold;
+}
+%font-12 {
+  font-size: 12px;
+}
+%font-14 {
+  font-size: 14px;
+}
+%text-center {
+  text-align: center;
+}
