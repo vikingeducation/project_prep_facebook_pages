@@ -49,20 +49,63 @@ table {
 }
 /*********************************************/
 body { font-family: Arial, Helvetica, sans-serif;}
-.flex {
-  display: flex;
+.flex { display: flex; }
+.flex-row { flex-flow: row nowrap; }
+.flex-column { flex-flow: column nowrap; }
+.flex-space-between {
+  justify-content:space-between;
 }
 
-.flex-row {
-  flex-flow: row nowrap;
+.flex-center{
+  justify-content:center;
+}
+.flex-justified{
+  justify-content:space-around;
+}
+.flex-item{
+  align-self:center;
 }
 
-.header{ 
+.flex-item-top{
+  align-self:flex-start;
+}
+.header, .header_about{ 
   background-color: #317BE1;
   max-height:100px;
   color:white;
 }
+.header_about{
+  max-height: 75px; 
+}
+.header_container, .wallpaper, .nav_main, .about_main {
+  width:75%;
+  margin: auto;
+}
+.wallpaper {
+  height:15em;
+  border: 1px solid #666;
+}
+.about_main {
+  border:1px solid #666;
+  margin-bottom:10%;
+}
 
+.nav_main{
+  clear:both;
+}
+.nav_container {
+  padding-left:20%;
+}
+
+#end_nav {
+  margin-left:auto;
+  padding-right:1em;
+}
+
+.about_header {
+  font-size:2em;
+  text-align:center;
+}
 .logo_container {
   flex: 0 2 66%;
   padding: 1em 2em;
@@ -71,6 +114,94 @@ body { font-family: Arial, Helvetica, sans-serif;}
     font-size:4em;
     font-weight:bold;
 }
+.logo_img{
+  width:2em;
+  padding: .5em .5em .5em 0em;
+}
+#search_box{
+  margin: 0em 1em 0em 3em;
+  width:50%;
+  font-size:1em;
+}
+.menu li{
+  flex: 1 1 100%;
+  padding:1em 2em;
+  border: 1px solid #666;
+}
+.username{
+  margin-left:auto;
+}
+.company_name {
+  font-size: 1.75em;
+}
+
+.main_header {
+  width:100%;
+}
+.main_header_about {
+  border: 1px solid #666;
+  padding: .5em;
+  background-color:#eee;
+  position:relative;
+}
+
+.profile_picture{
+  border:1px solid #666;
+  width:150px;
+  height:150px;
+  position:absolute;
+  top:175px;
+  left:215px;
+  background-color:burlywood;
+}
+.profile_name {
+  position:absolute;
+  top:240px;
+  left:375px;
+  font-size:2.5em;
+}
+
+#edit_profile{
+  position:absolute;
+  right:0px;
+  margin-right:2%;
+}
+
+.nav_main{
+  border: 1px solid #666;
+  border-top:none;
+}
+.about_left_side{
+  flex: 0 1 50%;
+}
+.about_right_side {
+  flex: 0 1 50%;
+}
+.basic, .contact, .words_to_live_by, .about_me {
+  /*margin:auto; */
+  padding:20px;
+}
+
+.basic_details, .contact_details {
+  padding:1em;
+}
+.basic_details td, .contact_details td{
+  padding:.75em .75em .75em 0em;
+}
+
+.about_section_header {
+  font-size:2em;
+  padding: .5em .5em .5em 0em;
+}
+.about_me, .words_to_live_by p {
+  line-height: 1.5em;
+  padding-right:10%;
+}
+.about_right_side {
+  padding-right:20px;  
+}
+
+
 .login_container {
   flex: 0 1 33%;
   padding: 2em;
@@ -82,7 +213,6 @@ body { font-family: Arial, Helvetica, sans-serif;}
   flex: 0 1 35%;
   display: block;
 }
-
 .login_password_container, label {
   flex: 0 1 35%;
   display: block;
@@ -97,8 +227,9 @@ body { font-family: Arial, Helvetica, sans-serif;}
   padding: 1em 0em;
 }
 
-#login_submit {
-  background-color:#A0C6F7;
+.button_small {
+  background-color:#317BE1;
+  color:white;
 }
 
 .intro {
@@ -127,12 +258,58 @@ body { font-family: Arial, Helvetica, sans-serif;}
 .signup {
   flex: 0 1 33%;
   box-sizing:border-box;
+  padding:2em 1em;
+}
+.signup_header {
+ font-size:2.5em;
+ padding:.5em 0em;
 }
 /*****Login Form****/
+#signup_first_name, #signup_last_name, #signup_email, #signup_password, #signup_password_confirm  {
+  width:100%;
+  padding: .25em;
+  margin: .5em 0em;
+  float:left;
+  box-sizing:border-box;
+  font-size:1em;
+}
+
+#signup_first_name, #signup_last_name {
+  width:48%;
+}
+
+#signup_last_name {
+  float:right;
+}
+
 .login_submit{
   background-color:#A2C8FA;
   color:black;
 }
-/*********************/
+.gender_radio {
+  clear: both;
+  padding: 2em 1em 1em 0em;
+}
+#signup_up_button {
+  background-color: #2C9C20;
+  color:#fff;
+  font-size:1.25em;
+  width:80%;
+  padding:.25em;
+}
 
+select {
+  padding:.25em;
+  font-size:1.25em;
+  box-sizing:border-box;
+  font-size:1em;
+}
+
+
+/*********************/
+.birthdate {
+  padding:1em 0em;
+  font-size:1.25em;
+  clear:both;
+}
 
