@@ -1,0 +1,71 @@
+<!Doctype html>
+<title>Facelook</title>
+
+<head>
+  <link type="text/css" href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header flex flex-row">
+    <div class="logo_container">
+      <div class="logo">Facelook</div>
+    </div>
+    <div class="login_container">
+      <div class="login">
+        <form class="login_form flex flex-row">
+          <div class="login_email_container">
+            <label id="login_email_label">Email</label>
+            <input type="email" name="login_email" />
+          </div>
+          <div class="login_password_container">
+            <label id="login_password_label">Password</label>
+            <input type="password" name="login_password" />
+          </div>
+          <div class="login_button_container">
+            <input type="submit" value="Log In" name="login_submit" class="button_small" />
+        </form>
+        </div>
+      </div>
+  </header>
+  <main class="main flex">
+    <section class="intro">
+      <h1 class="intro_header">Connect with all your friends!</h1>
+      <ul class="intro_list">
+        <li>See photos and updates in your news feed.</li>
+        <li>Post your status for the world to see from your profile.</li>
+        <li>Get in touch with your friends by "friending" them.</li>
+        <li>Like things because you're a positive person!</li>
+      </ul>
+    </section>
+    <section class="signup">
+      <h1 class="signup_header">Sign Up</h1>
+      <div class="signup_form">
+        <form>
+          <input id="signup_first_name" type="text" placeholder="First Name" name="signup_first_name" />
+          <input id="signup_last_name" type="text" placeholder="Last Name" name="signup_last_name" />
+          <input id="signup_email" type="email" placeholder="Your Email" name="signup_email" id="sign_up_email" />
+          <input id="signup_password" type="password" placeholder="Your New Password" name="signup_password" />
+          <input id="signup_password_confirm" type="password" placeholder="Confirm Your Password" name="signup_password_confirm" />
+          <label class="birthdate">Birthday</label>
+          <select>
+              <option value="" selected disabled>Month</option>
+            </select>
+          <select>
+              <option value="" selected disabled>Day</option>
+            </select>
+          <select>
+              <option value="" selected disabled>Year</option>
+            </select>
+
+          <div class="gender_radio">
+            <input type="radio" value="Female" name="gender" />Female
+            <input type="radio" value="Male" name="gender" />Male
+          </div>
+          <input type="submit" value="Sign Up!" name="submit" id="signup_up_button" />
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
