@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to Facebook</title>
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="home.css">
+  </head>
+  <body>
+    <nav>
+      <div id="nav-content">
+      <h1>Facelook</h1>
+      <form id="log-in">
+        <div id="log-in-form">
+        <div class="form-column">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="form-column">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password">
+        </div>
+        <div class="button form-column">
+          <button type="submit" id="log-in-btn">Log In</button>
+        </div>
+      </div>
+      </form>
+    </div>
+    </nav>
+    <div id="main-content">
+    <section id="left-panel">
+      <h2>Connect with all your friends!</h2>
+      <ul>
+        <li>
+          See photos and updates in your news feed.
+        </li>
+        <li>
+          Post your status for the world to see from your profile.
+        </li>
+        <li>
+          Get in touch with your friends by "friending" them.
+        </li>
+        <li>
+          Like things because you're a positive person!
+        </li>
+      </ul>
+    </section>
+    <section id="sign-up">
+      <h2>Sign Up</h2>
+      <form id="sign-up-form">
+        <div class="form-row">
+          <input type="text" name="first-name" placeholder="First Name">
+          <input type="text" name="last-name" placeholder="Last Name">
+        </div>
+        <div class="form-row">
+        <input type="email" name="email" placeholder="Your Email">
+        </div>
+        <div class="form-row">
+        <input type="password" name="password" placeholder="Your New Password">
+        </div>
+        <div class="form-row">
+        <input type="password" name="password-confirm" placeholder="Confirm Password">
+        </div>
+        <label class ="sign-up-label">Birthday</label>
+<div class="form-row">
+  <select name="month" placeholder="Month">
+    <option value="" disabled selected hidden>
+      Month
+    </option>
+    <option value="january">January</option>
+    <option value="february">February</option>
+    <<option value="march">March</option>
+  </select>
+  <select name="Day">
+    <option value="" disabled selected hidden>
+      Day
+    </option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <<option value="3">3</option>
+  </select>
+  <select name="Year">
+    <option value="" disabled selected hidden>
+      Year
+    </option>
+    <option value="1999">1999</option>
+    <option value="1998">1998</option>
+    <<option value="1997">1997</option>
+  </select>
+</div>
+        <div class="form-row">
+          <input type="radio" name="gender" value="female"
+          id="gender-1"><label for="gender-1">Female</label>
+          <input type="radio" name="gender" value="male"
+          id="gender-2"><label for="gender-2">Male</label>
+        </div>
+        <div class="form-row">
+        <button type="submit" class="sign-up-btn">Sign Up</button>
+        </div>
+      </form>
+    </section>
+  </div>
+  </body>
+</html>
