@@ -1,0 +1,169 @@
+/** {
+  border: 1px solid red;
+}*/
+
+nav {
+  background: #4178DD;
+	width: 100vw;
+	height: 50px;
+}
+
+.nav-content {
+  display: inline;
+  height: 30px;
+  float: left;
+  margin: 5px;
+  white-space: nowrap;
+}
+
+.header-container {
+  width: 815px;
+  margin: 0 auto;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 40px;
+  white-space: nowrap;
+  color: #FFFFFF;
+}
+
+.header-container input {
+  width: 300px;
+}
+
+.header-container h2 {
+  float: right;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.upper {
+  width: 851px;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.profile-photo {
+  position: relative;
+  bottom: 150px;
+  left: 20px;
+  width: 170px;
+  height: 170px;
+  border: 1px solid black;
+}
+
+.upper header {
+  width: 100%;
+  height: 315px;
+}
+
+.upper h2 {
+  font-size: 24px;
+  position: relative;
+  bottom: 210px;
+  left: 210px;
+}
+
+.upper footer {
+  width: 847px;
+  height: 55px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.upper ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: auto auto auto 200px;
+  font-size: 17.5px;
+  list-style: none;
+}
+
+li {
+  border: 2px solid black;
+  padding: 18.5px;
+}
+
+em {
+  color: #bfbfbf;
+}
+
+a {
+  float: right;
+  margin: auto;
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.lower {
+  width: 851px;
+  height: 300px;
+  margin: 0 auto;
+  position: relative;
+  top: -60px;
+}
+
+.info {
+  height: 350px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: space-around;
+}
+
+.lower article {
+  width: 45%;
+  margin: 5px 0;
+}
+
+.lower header {
+  height: 40px;
+  background: #bfbfbf;
+  border: 2px solid black;
+  display: flex;
+}
+
+.lower header h3 {
+  margin: auto;
+  /*display: inline;*/
+}
+
+.lower h3 {
+  font-size: 22px;
+  padding: 5px 0;
+}
+
+.lower button {
+  /*float: right;*/
+  margin: auto 5px;
+  background: #4178DD;
+  color: #fff;
+  height: 30px;
+}
+
+table {
+  padding: 5px 0;
+  width: 100%
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+td {
+  padding: 5px 0;
+}
