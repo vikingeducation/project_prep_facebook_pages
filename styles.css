@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
 
+/**
+ * Global
+ */
+
 *, *:before, *:after {
 	box-sizing: border-box;
 	margin: 0;
@@ -38,6 +42,11 @@ input::placeholder {
 	padding-left: 5px;
 }
 
+
+/**
+ * Header
+ */
+
 .logo {
 	color: white;
 	padding-top: 8px;
@@ -51,6 +60,10 @@ input::placeholder {
 	height: 20px;
 }
 
+/**
+ * Login
+ */
+
 .form-group-email {
 	margin-right: -41%;
 	margin-top: 12px;
@@ -61,24 +74,24 @@ input::placeholder {
 	margin-top: 12px;
 }
 
-.about-section {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	width: 60%;
-}
-
-.register-section {
-	width: 40%;
-}
-
 .login-btn {
 	background-color: #a0c6f7;
 	border: 1px solid black;
 	padding: 5px;
 	margin-left: 10px;
 	width: 50px
+}
+
+/**
+ * Introduction (Left Side)
+ */
+
+.about-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 60%;
 }
 
 .headlines-list {
@@ -95,6 +108,14 @@ input::placeholder {
 	margin-bottom: 20px;
 }
 
+/**
+ * Register Section
+ */
+
+.register-section {
+	width: 40%;
+}
+
 .form-group-block {
 	display: flex;
 	flex-direction: column;
@@ -105,6 +126,10 @@ input::placeholder {
 	margin-right: 10px;
 	margin-top: 15px;
 }
+
+/**
+ * Signup Form
+ */
 
 .signup-text {
 	font-size: 2.6em;
@@ -127,6 +152,10 @@ input::placeholder {
 .signup-input-width-lg {
 	width: 400px;
 }
+
+/**
+ * Birthday Form
+ */
 
 .birthday-text {
 	margin-top: 15px;
