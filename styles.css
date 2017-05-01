@@ -1,0 +1,72 @@
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clearfix::after,
+.clearfix::before {
+  display: table;
+  content: " ";
+}
+.clearfix::after {
+  clear: both;
+}
+
+html {
+  font-family: helvetica, arial, sans-serif, serif;
+}
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+/* MAIN */
+#main {
+  height: 82px;
+  background-color: #3B5998;
+}
+#main-header {
+  display: inline;
+  float:left;
+  margin: 20px 0px 0px 250px;
+}
+
+/* LOGIN */
+#username {
+  margin: 5px 0px 0px 0px;
+}
+#login {
+  display: inline;
+  float: right;
+}
+#login-table {
+  margin: 10px 250px 0px 0px;
+}
+#login-button {
+  background-color: #4267B2;
+  border: 1px solid darkblue;
+}
+.login-button-text {
+  margin: 10px 0px 10px 0px;
+  line-height: 21px;
+}
+/* TEXT */
+.white-text {
+  color: white;
+}
+.forgot-text {
+  color: #9CB4D8;
+  font-size: 14px;
+  margin: 10px 0px 0px 10px
+}
+.login-text {
+  font-size: 12px;
+  padding: 0px;
+  letter-spacing: 1px;
+  margin: 0px 20px 20px 0px;
+}
+/* MARGINS */
+.TLMargin510 {
+  margin: 5px 0px 0px 10px;
+}
