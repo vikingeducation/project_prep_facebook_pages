@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facelook</title>
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+	<header>
+		<h1 class="logo">Facelook</h1>
+
+		<div class="form-group-email">
+			<label for="email">Email</label>
+			<input class="login-input" type="text" name="email">
+		</div>
+
+		<div class="form-group-password">
+			<label for="password">Password</label>
+			<input class="login-input" type="password" name="password">
+			<button class="login-btn">Log In</button>
+		</div>
+
+	</header>
+	<main>
+		<div class="about-section">
+			<h1 class="headlines">Connect with all your friends!</h1>
+			<ul class="headlines-list">
+				<li>See photos and updates in your news feed</li>
+				<li>Post your status for the world to see from your profile</li>
+				<li>Get in touch with your friends by "friending" them</li>
+				<li>Like things because you're a positive person</li>
+			</ul>
+		</div>
+		<div class="register-section">
+			<h1 class="signup-text">Sign Up</h1>
+			<form>
+				<input class="signup-input signup-input-width-sm input-margin" type="text" name="first-name" placeholder="First Name">
+				<input class="signup-input signup-input-width-sm" type="text" name="last-name" placeholder="Last Name">
+
+				<div class="form-group-block">
+					<input class="signup-input signup-input-width-lg" type="text" name="email" placeholder="Your Email">
+					<input class="signup-input signup-input-width-lg" type="password" name="password" placeholder="Your New Password">
+					<input class="signup-input signup-input-width-lg" type="password" name="password-confirm" placeholder="Confirm Your Password">
+				</div>
+
+				<h3 class="birthday-text">Birthday</h3>
+
+				<select class="select-form">
+				    <option value="" disabled selected>Month</option>
+				</select>
+
+				<select class="select-form">
+				    <option value="" disabled selected>Day</option>
+				</select>
+
+				<select class="select-form">
+				    <option value="" disabled selected>Year</option>
+				</select>
+
+				<div class="input-gender">
+					<input type="radio" name="gender" value="female"><span>Female</span>
+					<input type="radio" name="gender" value="male"><span>Male</span>
+				</div>
+				<button class="signup-btn">Sign Up!</button>
+			</form>
+		</div>
+	</main>
+
+</body>
+</html>
