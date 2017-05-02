@@ -29,16 +29,52 @@
       </table>
     </form>
   </div>
-  <div id="body">
+  <div id="body" class="clearfix">
     <section id="main-image">
-      <h2 id="info">
+      <h3 id="info">
         Facebook Helps you connect and share with the<br />
         people in your life.
-      </h2>
+      </h3>
       <img src="fb.png" id="fb-img" />
     </section>
     <section id="signup">
-
+      <header>
+        <h2 id="signup-header">Create an account</h2>
+        <h3 id="signup-sub">It's free and always will be.</h3>
+      </header>
+      <form>
+        <table>
+          <tr>
+            <td><input id="firstname" type="text" class="small-box" placeholder="First Name" /></td>
+            <td><input type="text" class="small-box" placeholder="Surname"/></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="text" class="big-box" placeholder="Mobile number or email address"/></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="text" class="big-box" placeholder="New Password"/></td>
+          </tr>
+          <tr>
+            <td><h3 id="birthday">Birthday</h3></td>
+          </tr>
+          <tr>
+            <td><select name="day" value="day">
+            <option value="1">Day
+            </option></select><select name="month">
+            <option value="1">Month
+            </option></select><select name="year">
+            <option value="1980">Year
+            </option></select></td>
+          </tr>
+          <tr>
+            <td><input type="radio" value="male" />Male
+            <input type="radio" value="Female" />Female</td>
+          </tr>
+          <tr>
+            <td colspan="2"><input id="create-button" type="button" value="Create an account"</td>
+          </tr>
+        </table>
+      </form>
     </section>
   </div>
 </body>
