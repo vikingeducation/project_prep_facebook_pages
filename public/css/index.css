@@ -10,14 +10,14 @@ html, body {
 
 
 header {
-	position: relative;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 100%;
-	height: 80px;
-	background-color: #317be1;
-	border: 1px solid black;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  background-color: #317be1;
+  border: 1px solid black;
 }
 
 label {
@@ -41,7 +41,7 @@ input::placeholder {
  * Header
  */
 
-.logo {
+header .logo {
 	color: white;
 	padding-top: 8px;
 	padding-left: 40px;
@@ -58,21 +58,21 @@ input::placeholder {
  * Login
  */
 
-.form-group-email {
+header .form-group-email {
 	width: 100%;
 	position: absolute;
 	left: 60%;
 	margin-top: 12px;
 }
 
-.form-group-password {
+header .form-group-password {
 	position: absolute;
 	width: 100%;
 	margin-top: 12px;
 	left: 76.5%;
 }
 
-.login-btn {
+header .form-group-password .login-btn {
 	background-color: #a0c6f7;
 	border: 1px solid black;
 	padding: 5px;
@@ -80,7 +80,7 @@ input::placeholder {
 	width: 50px
 }
 
-.login-btn a {
+header .form-group-password .login-btn a {
 	text-decoration: none;
 	color: black;
 }
@@ -106,7 +106,7 @@ input::placeholder {
 	margin-bottom: 20px;
 }
 
-.headlines {
+main .about-section .headlines {
 	padding-right: 160px;
 	margin-bottom: 20px;
 	margin-top: 50px;

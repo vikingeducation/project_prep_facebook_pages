@@ -2,13 +2,12 @@
  * Global
  */
 
-html, body {
-	height: 1200px;
-	font-family: 'Open Sans', sans-serif;
+html {
+  height: 1200px;
+  font-family: 'Open Sans', sans-serif;
 }
-
-body {
-	height: 100%;
+html body {
+  height: 100%;
 }
 
 header {
@@ -106,7 +105,7 @@ input::placeholder {
  * Landscape Items
  */
 
-.profile-pic {
+.landscape-container .profile-pic {
 	position: absolute;
 	width: 150px;
 	height: 150px;
@@ -120,14 +119,14 @@ input::placeholder {
 
 }
 
-.profile-name-block {
+.landscape-container .profile-name-block {
 	color: white;
 	position: absolute;
 	bottom: 47px;
 	left: 170px;
 }
 
-.landscape-bar {
+.landscape-container .landscape-bar {
 	background-color: white;
 	display: flex;
 	flex-direction: row;
@@ -136,15 +135,15 @@ input::placeholder {
 	border-top: 1px solid black;
 }
 
-.first-link-margin {
+.landscape-container .landscape-bar .first-link-margin {
 	margin-left: 170px;
 }
 
-.timeline-link {
+.landscape-container .landscape-bar .timeline-link {
 	border-left: 1px solid black;
 }
 
-.link-block {
+.landscape-container .landscape-bar .link-block {
 	height: 100%;
 	border-right: 1px solid black;
 	padding-top: 10px;
@@ -152,30 +151,30 @@ input::placeholder {
 	padding-left: 20px;
 }
 
-.link-block a {
+.landscape-container .landscape-bar .link-block a {
 	text-decoration: none;
 	color: black;
 }
 
-.selected {
+.landscape-container .landscape-bar .selected {
 	background-color: #eeeeee;
 }
 
-.unselected {
+.landscape-container .landscape-bar .unselected {
 	background-color: white;
 }
 
-.edit-link {
+.landscape-container .landscape-bar .edit-block .edit-link {
 	color: blue;
 }
 
-.edit-block {
+.landscape-container .landscape-bar .edit-block {
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: 10px;
 }
 
-.grayed-text {
+.landscape-container .landscape-bar .link-block a .grayed-text {
 	color: #d3d3d3;
 }
 
@@ -184,7 +183,7 @@ input::placeholder {
  * About Items
  */
 
-.about-bar {
+.about-container .about-bar {
 	position: relative;
 	background-color: #eeeeee;
 	display: flex;
@@ -196,11 +195,11 @@ input::placeholder {
 	border-bottom: 1px solid black;
 }
 
-.about-title {
+.about-container .about-bar .about-title {
 	font-size: 1.6em;
 }
 
-.edit-btn {
+.about-container .about-bar .edit-btn {
 	font-size: 0.9em;
 	position: absolute;
 	color: white;
@@ -223,7 +222,7 @@ input::placeholder {
 
 }
 
-.basic-info-block {
+.about-container .about-block .basic-info-block {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -267,12 +266,12 @@ input::placeholder {
 	height: 160px;
 }
 
-.contact-label {
+.basic-info-block .contact-block .contact-label {
 	width: 35%;
 	height: 100%;
 }
 
-.contact-info {
+.basic-info-block .contact-block .contact-info	 {
 	width: 65%;
 	height: 100%;
 }
