@@ -10,6 +10,7 @@ html, body {
 
 
 header {
+	position: relative;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -49,7 +50,7 @@ input::placeholder {
 
 .login-input {
 	border: 1px solid black;
-	width: 189px;
+	width: 15%;
 	height: 20px;
 }
 
@@ -58,13 +59,17 @@ input::placeholder {
  */
 
 .form-group-email {
-	margin-right: -42%;
+	width: 100%;
+	position: absolute;
+	left: 60%;
 	margin-top: 12px;
 }
 
 .form-group-password {
-	margin-right: 47px;
+	position: absolute;
+	width: 100%;
 	margin-top: 12px;
+	left: 76.5%;
 }
 
 .login-btn {
