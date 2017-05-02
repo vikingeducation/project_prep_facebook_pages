@@ -3,7 +3,7 @@ prep_facebook_pages
 
 [Here's a mockup of Facebook](https://faded-soda.surge.sh/).
 
-[Here's the mockup using SASS](https://efficacious-cough.surge.sh/).
+[Here's the mockup using SASS](https://adventurous-doctor.surge.sh/).
 
 ## On the Login Page
 * Clicking "Log In" on the upper right corner takes you to the profile page.
