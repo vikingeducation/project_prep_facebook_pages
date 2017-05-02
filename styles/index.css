@@ -150,11 +150,11 @@ input::placeholder {
 }
 
 .signup-input-width-sm {
-	width: 193px;
+	width: 38%;
 }
 
 .signup-input-width-lg {
-	width: 400px;
+	width: 79%;
 }
 
 /**
