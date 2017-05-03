@@ -1,0 +1,305 @@
+@import 'reset', 'variables';
+
+html {
+	height: 1200px;
+	font-family: 'Open Sans', sans-serif;
+
+	body {
+		height: 100%;
+	}
+}
+
+main {
+	height: 100%;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+
+input::placeholder {
+	padding-left: 5px;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 50px;
+	background-color: $default-header-color;
+	border: $black-border;
+
+	.header-block {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		margin-right: 8%;
+		margin-left: 8%;
+
+		.logo {
+			margin-top: 9px;
+			width: 30px;
+			height: 30px;
+			border: $black-border;
+			background: url($logo-picture)
+									no-repeat
+									center / cover;
+		}
+
+		.logo-text {
+			margin-top: 7px;
+			margin-left: 10px;
+			font-size: 1.5em;
+			color: $main-text-color;
+
+			a {
+				color: $main-text-color;
+				text-decoration: none;
+			}
+		}
+
+		.user-search {
+			margin-top: 13px;
+			margin-left: 35px;
+			height: 25px;
+			width: 700px;
+			border: $black-border;
+		}
+
+		.header-username {
+			color: $main-text-color;
+			margin-top: 13px;
+			text-decoration: none;
+			margin-left: auto; /*flexbox move item to right*/
+		}
+	}
+}
+
+.landscape-container {
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+	background: url($cover-picture)
+							no-repeat
+							center / cover;
+	height: 40%;
+	border-left: $black-border;
+	border-right: $black-border;
+	border-bottom: $black-border;
+
+	.profile-pic {
+		position: absolute;
+		width: 150px;
+		height: 150px;
+		background: url($profile-picture)
+								no-repeat
+								center / cover;
+		z-index: 999;
+		bottom: 10px;
+		left: 10px;
+		border: $black-border;
+	}
+
+	.profile-name-block {
+		color: $main-text-color;
+		position: absolute;
+		bottom: 47px;
+		left: 170px;
+	}
+
+	.landscape-bar {
+		background-color: $main-text-color;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 9%;
+		border-top: $black-border;
+
+		.first-link-margin {
+			margin-left: 170px;
+		}
+
+		.link-block {
+			height: 100%;
+			border-right: $black-border;
+			padding-top: 10px;
+			padding-right: 20px;
+			padding-left: 20px;
+
+			a {
+				text-decoration: none;
+				color: $default-link-color;
+
+				.grayed-text {
+					color: $grayed-text-color;
+				}
+			}
+		}
+
+		.timeline-link {
+			border-left: $black-border;
+		}
+
+		.unselected {
+			background-color: $main-text-color;
+		}
+
+		.selected {
+			background-color: $selection-color;
+		}
+
+		.edit-block {
+			margin-top: 10px;
+			margin-left: auto;
+			margin-right: 10px;
+
+			.edit-link {
+				color: $active-link-color;
+			}
+		}
+	}
+}
+
+.about-container {
+	margin-top: 1.5%;
+	height: 50%;
+	border: $black-border;
+
+	.about-bar {
+		position: relative;
+		background-color: $selection-color;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 10%;
+		border-bottom: $black-border;
+
+		.about-title {
+			font-size: 1.6em;
+		}
+
+		.edit-btn {
+			font-size: 0.9em;
+			position: absolute;
+			color: $main-text-color;
+			border: $black-border;
+			background-color: $default-btn-color;
+			right: 10px;
+			padding: 7px;
+
+			a {
+				text-decoration: none;
+				color: $main-text-color;
+			}
+		}
+	}
+}
+
+.friends-container {
+	margin-top: 1.5%;
+	height: 50%;
+	border: $black-border;
+
+	.friends-bar {
+		position: relative;
+		background-color: $selection-color;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 10%;
+		border-bottom: $black-border;
+
+		.friends-title {
+			font-size: 1.6em;
+		}
+	}
+
+	.friends-block {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 98%;
+		height: 78%;
+		margin-top: 3.5%;
+		margin-left: 1%;
+
+		.friend-info {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: row;
+			height: 145px;
+			width: 48%;
+			margin-left: 10px;
+			margin-right: 10px;
+			border: 1px solid black;
+		}
+	}
+}
+
+.friend-info {
+	.friend-picture {
+		width: 20%;
+		height: 75%;
+		margin-right: 2%;
+		border: 1px solid black;
+		background: url(http://images2.fanpop.com/image/photos/8900000/Leela-turanga-leela-8997933-429-350.jpg)
+				no-repeat
+				center / cover;
+	}
+
+	.friend-name {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 2%;
+		width: 40%;
+		height: 75%;
+
+		a {
+			font-size: 1.3em;
+			color: #284d76;
+		}
+
+		p {
+			color: #8b8b8f;
+		}
+	}
+
+	.unfriend-btn {
+		width: 30%;
+		height: 20%;
+		margin-left: 2%;
+		border: 1px solid black;
+		background-color: #dcdcdc;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
