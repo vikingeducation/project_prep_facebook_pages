@@ -1,7 +1,7 @@
 prep_facebook_pages
 ===================
 
-[Here's a mockup of Facebook so far (Styled with SASS)](sharp-kitty.surge.sh/).
+[Here's a mockup of Facelook so far (Styled with SASS)](https://sharp-kitty.surge.sh/).
 
 ## Login Page
 * "Log In" on the upper right corner takes you to the profile page.
