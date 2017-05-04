@@ -45,6 +45,15 @@ h3 {
   float:left;
   margin: 25px 0px 0px 200px;
 }
+@media screen and (min-width: 1440px) {
+  #main {
+    width: 60%;
+    margin-left: 20%;
+  }
+  #main-header {
+    margin: 25px 0px 0px 0px;
+  }
+}
 
 #body {
   width: 100%;
@@ -72,6 +81,18 @@ h3 {
   width: 41%;
   height: 668px;
   float:right;
+}
+@media screen and (min-width: 1440px) {
+  #body {
+    width: auto;
+  }
+  #main-image {
+    width: 45%;
+    margin-left: 10%;
+  }
+  #signup {
+    width: 45%;
+  }
 }
 
 #signup-header {
