@@ -38,8 +38,7 @@ h3 {
 #main {
   height: 82px;
   background-color: #3B5998;
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
 }
 #main-header {
   display: inline;
@@ -48,12 +47,11 @@ h3 {
 }
 
 #body {
-  width: 80%;
-  margin-left: 10%;
+  width: 100%;
 }
 #main-image {
   height: 668px;
-  width: 56%;
+  width: 59%;
   float:left;
 }
 
@@ -71,9 +69,9 @@ h3 {
 }
 
 #signup {
-  width: 44%;
+  width: 41%;
   height: 668px;
-  float:left;
+  float:right;
 }
 
 #signup-header {
@@ -139,11 +137,14 @@ select {
   float: right;
 }
 #login-table {
-  margin: 15px 250px 0px 0px;
+  margin: 15px 0px 0px 0px;
 }
 #login-button {
   background-color: #4267B2;
   border: 1px solid darkblue;
+}
+.login-input {
+  width: 150px;
 }
 .login-button-text {
   margin: 10px 0px 10px 0px;
