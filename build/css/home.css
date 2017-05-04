@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Border Colors
+ * @type {[type]}
+ */
+/**
+ * Font Styles
+ * @type {String}
+ */
+/**
+ * Colors
+ * @type {[type]}
+ */
+/**
+ * Images
+ */
+/**
+ * Border Colors
+ * @type {[type]}
+ */
+/**
+ * Font Styles
+ * @type {String}
+ */
+/**
+ * Colors
+ * @type {[type]}
+ */
+/**
+ * Images
+ */
+html {
+  height: 1200px;
+  font-family: 'Open Sans', sans-serif; }
+  html body {
+    height: 100%; }
+
+main {
+  height: 100%;
+  margin-left: 8%;
+  margin-right: 8%; }
+
+input::placeholder {
+  padding-left: 5px; }
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  background-color: #317be1;
+  border: 1px solid black; }
+  header .header-block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-right: 8%;
+    margin-left: 8%; }
+    header .header-block .logo {
+      margin-top: 9px;
+      width: 30px;
+      height: 30px;
+      border: 1px solid black;
+      background: url("../../public/img/facelook.png") no-repeat center/cover; }
+    header .header-block .logo-text {
+      margin-top: 7px;
+      margin-left: 10px;
+      font-size: 1.5em;
+      color: white; }
+      header .header-block .logo-text a {
+        color: white;
+        text-decoration: none; }
+    header .header-block .user-search {
+      margin-top: 13px;
+      margin-left: 35px;
+      height: 25px;
+      width: 700px;
+      border: 1px solid black; }
+    header .header-block .header-username {
+      color: white;
+      margin-top: 13px;
+      text-decoration: none;
+      margin-left: auto;
+      /*flexbox move item to right*/ }
+
+.landscape-container {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  background: url("../../public/img/vikings.jpeg") no-repeat center/cover;
+  height: 40%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black; }
+  .landscape-container .profile-pic {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: url("../../public/img/fry.png") no-repeat center/cover;
+    z-index: 999;
+    bottom: 10px;
+    left: 10px;
+    border: 1px solid black; }
+  .landscape-container .profile-name-block {
+    color: white;
+    position: absolute;
+    bottom: 47px;
+    left: 170px; }
+  .landscape-container .landscape-bar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 9%;
+    border-top: 1px solid black; }
+    .landscape-container .landscape-bar .first-link-margin {
+      margin-left: 170px; }
+    .landscape-container .landscape-bar .link-block {
+      height: 100%;
+      border-right: 1px solid black;
+      padding-top: 10px;
+      padding-right: 20px;
+      padding-left: 20px; }
+      .landscape-container .landscape-bar .link-block a {
+        text-decoration: none;
+        color: black; }
+        .landscape-container .landscape-bar .link-block a .grayed-text {
+          color: #d3d3d3; }
+    .landscape-container .landscape-bar .timeline-link {
+      border-left: 1px solid black; }
+    .landscape-container .landscape-bar .unselected {
+      background-color: white; }
+    .landscape-container .landscape-bar .selected {
+      background-color: #eeeeee; }
+    .landscape-container .landscape-bar .edit-block {
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: 10px; }
+      .landscape-container .landscape-bar .edit-block .edit-link {
+        color: blue; }
+
+.about-container {
+  margin-top: 1.5%;
+  height: 50%;
+  border: 1px solid black; }
+  .about-container .about-bar {
+    position: relative;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid black; }
+    .about-container .about-bar .about-title {
+      font-size: 1.6em; }
+    .about-container .about-bar .edit-btn {
+      font-size: 0.9em;
+      position: absolute;
+      color: white;
+      border: 1px solid black;
+      background-color: #317ae4;
+      right: 10px;
+      padding: 7px; }
+      .about-container .about-bar .edit-btn a {
+        text-decoration: none;
+        color: white; }
+
+.about-container .about-block {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 88%; }
+  .about-container .about-block .basic-info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%; }
+
+.basic-info-block .contact-block {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 160px; }
+  .basic-info-block .contact-block .contact-label {
+    width: 35%;
+    height: 100%; }
+  .basic-info-block .contact-block .contact-info {
+    width: 65%;
+    height: 100%; }
+
+.label-group-1 {
+  line-height: 300%; }
+
+.label-group-2 {
+  line-height: 150%; }
+
+.label-group-1, .label-group-2 {
+  display: flex;
+  flex-direction: column; }
+
+.personal-info-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  height: 100%; }
+  .personal-info-block div {
+    margin-bottom: 65px; }
+    .personal-info-block div h2 {
+      margin-bottom: 10px; }
+    .personal-info-block div p {
+      padding-right: 15px; }

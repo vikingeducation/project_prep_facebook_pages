@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Border Colors
+ * @type {[type]}
+ */
+/**
+ * Font Styles
+ * @type {String}
+ */
+/**
+ * Colors
+ * @type {[type]}
+ */
+/**
+ * Images
+ */
+html, body {
+  width: 100vw;
+  height: 88.6vh;
+  font-family: "Open Sans", sans-serif; }
+
+label {
+  color: white;
+  display: block; }
+
+input::placeholder {
+  padding-left: 5px; }
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  background-color: #317be1;
+  border: 1px solid black; }
+  header .logo {
+    color: white;
+    padding-top: 8px;
+    padding-left: 40px;
+    font-size: 2.5em; }
+  header .form-group-email {
+    width: 100%;
+    position: absolute;
+    left: 60%;
+    margin-top: 12px; }
+    header .form-group-email .login-input {
+      border: 1px solid black;
+      width: 15%;
+      height: 20px; }
+  header .form-group-password {
+    position: absolute;
+    width: 100%;
+    margin-top: 12px;
+    left: 76.5%; }
+    header .form-group-password .login-input {
+      border: 1px solid black;
+      width: 15%;
+      height: 20px; }
+    header .form-group-password .login-btn {
+      background-color: #a0c6f7;
+      border: 1px solid black;
+      padding: 5px;
+      margin-left: 10px;
+      width: 50px; }
+      header .form-group-password .login-btn a {
+        text-decoration: none;
+        color: black; }
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row; }
+  main .about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%; }
+    main .about-section .headlines {
+      padding-right: 160px;
+      margin-bottom: 20px;
+      margin-top: 50px; }
+    main .about-section .headlines-list {
+      padding-right: 120px;
+      padding-bottom: 30%; }
+      main .about-section .headlines-list li {
+        margin-bottom: 20px; }
+  main .register-section {
+    width: 40%; }
+    main .register-section .signup-text {
+      font-size: 2.6em;
+      margin-top: 20px; }
+
+main #register .signup-input {
+  height: 30px;
+  margin-top: 15px; }
+
+main #register .signup-input-width-sm {
+  width: 38%; }
+
+main #register .signup-input-width-lg {
+  width: 79%; }
+
+main #register .input-margin {
+  margin-right: 10px; }
+
+main #register .birthday-text {
+  margin-top: 15px; }
+
+main #register .select-form {
+  width: 64px;
+  margin-right: 10px;
+  margin-top: 15px; }
+
+main #register .input-gender {
+  margin-top: 15px; }
+  main #register .input-gender span {
+    margin-right: 15px;
+    margin-left: 5px; }
+
+main #register .signup-btn {
+  font-size: 1.2em;
+  background-color: #2c9c20;
+  border: 1px solid black;
+  color: white;
+  padding: 10px;
+  width: 300px;
+  margin-top: 15px; }

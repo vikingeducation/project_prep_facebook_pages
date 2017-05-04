@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
+
+/**
+ * Border Colors
+ * @type {[type]}
+ */
+$black-border: 1px solid black;
+
+/**
+ * Font Styles
+ * @type {String}
+ */
+$main-font: 'Open Sans', sans-serif;
+
+/**
+ * Colors
+ * @type {[type]}
+ */
+$main-text-color: white;
+$default-header-color: #317be1;
+
+$default-login-color: #a0c6f7;
+$login-btn-light: #a0c6f7;
+$default-btn-color: #317ae4;
+$signup-btn-color: #2c9c20;
+
+
+$default-link-color: black;
+$light-link-color: #456792;
+$active-link-color: blue;
+
+$selection-color: #eeeeee;
+$grayed-text-color: #d3d3d3;
+$darker-gray-text-color: #8b8b8f;
+
+/**
+ * Images
+ */
+$logo-picture: '../../public/img/facelook.png';
+$cover-picture: '../../public/img/vikings.jpeg';
+$profile-picture: '../../public/img/fry.png';

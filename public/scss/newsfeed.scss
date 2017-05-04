@@ -1,0 +1,386 @@
+@import 'reset', 'variables', 'mixins';
+
+html, body {
+	min-height: 100%;
+}
+
+html {
+	height: 1200px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+main {
+	min-height: 100%;
+}
+
+input::placeholder {
+	padding-left: 5px;
+}
+
+header {
+	@include facelook-header;
+}
+
+.timeline-container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	min-height: 100%;
+	border-left: $black-border;
+	border-right: $black-border;
+	border-bottom: $black-border;
+
+	.sidebar-block {
+		width: 25%;
+		border-right: $black-border;
+
+		.sidebar-pic-block {
+			display: flex;
+			height: 13%;
+			align-items: center;
+			margin-left: 20px;
+		}
+
+		.sidebar-active-block {
+
+			h3 {
+				margin-left: 8px;
+				margin-bottom: 15px;
+			}
+
+			display: flex;
+			flex-direction: column;
+			margin-left: 20px;
+			height: 45%;
+		}
+
+		.all-friends-link {
+			height: 22%;
+			margin-left: 20px;
+			margin-top: 15px;
+
+			a { color: $light-link-color; }
+
+		}
+	}
+
+	.posts-block {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		width: 75%;
+		margin-bottom: 35px;
+
+
+		.create-post-block {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			width: 70%;
+			margin-top: 35px;
+			border: 2px solid black;
+		}
+
+		.comment-post-block {
+			display: flex;
+			flex-direction: column;
+			width: 70%;
+			margin-top: 15px;
+			border: 2px solid black;
+		}
+
+		.comment-footer {
+			display: flex;
+			flex-direction: column;
+			width: 70%;
+			min-height: 3%;
+			border-left: 2px solid black;
+			border-bottom: 2px solid black;
+			border-right: 2px solid black;
+			background-color: $selection-color;
+		}
+	}
+}
+
+.sidebar-pic-block {
+	.sidebar-pic {
+		width: 100px;
+		height: 100px;
+		margin-left: 8px;
+		border: $black-border;
+		background: url($profile-picture)
+								no-repeat
+								center / cover;
+	}
+
+	.sidebar-profile-options {
+		a {
+			margin-left: 8px;
+			font-size: 0.8em;
+			color: $light-link-color;
+		}
+
+	}
+}
+
+.sidebar-active-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 88%;
+}
+
+
+
+.create-post-block {
+	.post-header {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 100%;
+		min-height: 16%;
+		padding-bottom: 6px;
+		padding-top: 6px;
+		border-bottom: $black-border;
+	}
+
+	.create-post-area {
+		width: 94%;
+		margin: 0 auto;
+		min-height: 80px;
+		border: $black-border;
+		margin-bottom: 10px;
+		margin-top: 10px;
+
+		p {
+			color: $darker-gray-text-color;
+			margin-left: 6px;
+		}
+	}
+
+	.create-post-footer {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		width: 100%;
+		height: 30%;
+		padding-bottom: 6px;
+		padding-top: 6px;
+		border-top: $black-border;
+
+		button {
+			height: 30px;
+			width: 50px;
+			margin-right: 20px;
+			border: $black-border;
+			background-color: $default-btn-color;
+			color: $main-text-color;
+		}
+	}
+}
+
+.friend-profile-pic {
+	width: 50px;
+	height: 50px;
+	margin-left: 9px;
+	border: $black-border;
+	background: url(http://images2.fanpop.com/image/photos/8900000/Leela-turanga-leela-8997933-429-350.jpg)
+				no-repeat
+				center / cover;
+}
+
+.bender-pic {
+	background: url(http://vignette1.wikia.nocookie.net/en.futurama/images/5/5b/I%27m_40%25_Bender/revision/latest?cb=20140722150206)
+				no-repeat
+				center / cover;
+}
+
+.amy-pic {
+	background: url(http://images6.fanpop.com/image/photos/36400000/Amy-Wong-image-amy-wong-36479000-300-225.png)
+			no-repeat
+			center / cover;
+}
+
+.zoid-pic {
+	background: url(http://comedycentral.mtvnimages.com/images/shows/Futurama/Videos/web_exclusives/futurama_mashup_zoidberg_v6.jpg)
+		no-repeat
+		center / cover;
+}
+
+.hermes-pic {
+	background: url(https://i.imgur.com/YxikIa8.png)
+		no-repeat
+		center / cover;
+}
+
+.friend-info {
+	margin-left: 5px;
+
+	h4, p { font-size: .8em; }
+
+	a { color: $light-link-color; }
+
+	p { color: $darker-gray-text-color; }
+}
+
+.friend-block {
+	display: flex;
+	align-items: center;
+}
+
+.comment-post-block {
+	.comment-header {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
+		min-height: 30%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-bottom: $black-border;
+	}
+
+	.comment-area {
+		min-width: 94%;
+		margin-left: 10px;
+		margin-top: 10px;
+		padding-bottom: 15px;
+		min-height: 55%;
+	}
+}
+
+.comment-footer {
+	.liked {
+		width: 97%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-left: 5px;
+		margin-top: 3px;
+
+		a {
+			margin-left: 2px;
+			margin-top: 3px;
+			color: $light-link-color;
+		}
+	}
+
+	.like-comment {
+		display: flex;
+		align-items: center;
+
+		a {
+			margin-left: 8px;
+			margin-top: 10px;
+			color: $light-link-color;
+		}
+	}
+
+	.like-block {
+		margin-left: 7px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+
+		a {
+			color: $light-link-color;
+		}
+
+		p {
+			color: $darker-gray-text-color;
+		}
+	}
+
+	.further-comments-block {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 420px;
+		border-top: 1px solid gray;
+		padding-top: 20px;
+
+		.single-comment-block {
+			display: flex;
+			flex-direction: row;
+			height: 30%;
+
+			.further-friend-info {
+				width: 88%;
+				margin-left: 10px;
+
+				a {
+					color: $light-link-color;
+				}
+			}
+		}
+
+		.comment-reply-block {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 30%;
+		}
+	}
+}
+
+.further-comment-info {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 88%;
+	margin-left: 10px; 
+
+	a {
+		color: $light-link-color;
+	}
+
+	p, span {
+		color: $darker-gray-text-color;
+	}
+}
+
+.comment-reply-block {
+	.comment-reply-area {
+		width: 90%;
+		height: 60%;
+		border: $black-border;
+		background-color: $main-text-color;
+
+		p {
+			color: $darker-gray-text-color;
+			margin-left: 6px;
+		}		
+	}
+
+	.comment-reply-options {
+		width: 90%;
+		align-items: center;
+		margin-bottom: 10px;
+		display: flex;
+		justify-content: space-between;
+
+		button {
+			height: 30px;
+			width: 80px;
+			margin-top: 10px;
+			border: $black-border;
+			background-color: $default-btn-color;
+			color: $main-text-color;
+		}
+
+		a {
+			margin-top: 10px;
+			color: $light-link-color;
+		}
+
+	}
+}
+
+
+
+
+
+
+
+
+

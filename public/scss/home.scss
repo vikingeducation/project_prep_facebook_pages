@@ -1,0 +1,145 @@
+@import 'reset', 'variables', 'mixins';
+
+html {
+	height: 1200px;
+	font-family: 'Open Sans', sans-serif;
+
+	body {
+		height: 100%;
+	}
+}
+
+main {
+	height: 100%;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+input::placeholder {
+	padding-left: 5px;
+}
+
+header {
+	@include facelook-header;
+}
+
+.landscape-container {
+	@include facelook-cover;
+}
+
+.about-container {
+	margin-top: 1.5%;
+	height: 50%;
+	border: $black-border;
+
+	.about-bar {
+		position: relative;
+		background-color: $selection-color;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 10%;
+		border-bottom: $black-border;
+
+		.about-title {
+			font-size: 1.6em;
+		}
+
+		.edit-btn {
+			font-size: 0.9em;
+			position: absolute;
+			color: $main-text-color;
+			border: $black-border;
+			background-color: $default-btn-color;
+			right: 10px;
+			padding: 7px;
+
+			a {
+				text-decoration: none;
+				color: $main-text-color;
+			}
+		}
+	}
+}
+
+.about-container .about-block {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		height: 88%;
+
+		.basic-info-block {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			width: 45%;
+			height: 100%;
+		}
+}
+
+.basic-info-block {
+	.contact-block {
+		display: flex;
+		flex-direction: row;
+		width: 400px;
+		height: 160px;
+
+		.contact-label {
+			width: 35%;
+			height: 100%;
+		}
+
+		.contact-info {
+			width: 65%;
+			height: 100%;
+		}
+	}
+}
+
+.label-group-1 {
+	line-height: 300%;
+}
+
+.label-group-2 {
+	line-height: 150%;
+}
+
+.label-group-1, .label-group-2 {
+	display: flex;
+	flex-direction: column;
+}
+
+.personal-info-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 55%;
+	height: 100%;
+
+	div {
+		margin-bottom: 65px;
+
+		h2 {
+			margin-bottom: 10px;
+		}
+
+		p {
+			padding-right: 15px;
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
