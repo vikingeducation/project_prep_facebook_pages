@@ -135,7 +135,6 @@ header {
       display: flex;
       flex-direction: column;
       width: 70%;
-      overflow: scroll;
       margin-top: 15px;
       border: 2px solid black; }
     .timeline-container .posts-block .comment-footer {
@@ -307,7 +306,6 @@ header {
   justify-content: space-between;
   flex-direction: column;
   width: 88%;
-  overflow: scroll;
   margin-left: 10px; }
   .further-comment-info a {
     color: #456792; }
