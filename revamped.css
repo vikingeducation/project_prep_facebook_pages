@@ -1,0 +1,11 @@
+::before,
+::after {
+  webkit-border-spacing: border-box;
+  moz-border-spacing: border-box;
+  border-spacing: border-box;
+}
+
+.nav {
+  height: 82px;
+  background-color: #3B5998;
+}
