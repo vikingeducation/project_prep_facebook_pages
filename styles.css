@@ -146,7 +146,7 @@ select {
   height: 30px;
   min-width: 60px;
   font-weight: lighter;
-  border: 1px solid silver;
+  border: border-box;
 }
 
 /* LOGIN */
