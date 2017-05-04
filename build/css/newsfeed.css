@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Border Colors
+ * @type {[type]}
+ */
+/**
+ * Font Styles
+ * @type {String}
+ */
+/**
+ * Colors
+ * @type {[type]}
+ */
+/**
+ * Images
+ */
+/**
+ * Border Colors
+ * @type {[type]}
+ */
+/**
+ * Font Styles
+ * @type {String}
+ */
+/**
+ * Colors
+ * @type {[type]}
+ */
+/**
+ * Images
+ */
+html, body {
+  min-height: 100%; }
+
+html {
+  height: 1200px;
+  font-family: 'Open Sans', sans-serif; }
+
+main {
+  min-height: 100%; }
+
+input::placeholder {
+  padding-left: 5px; }
+
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  background-color: #317be1;
+  border: 1px solid black; }
+  header .header-block {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-right: 8%;
+    margin-left: 8%; }
+    header .header-block .logo {
+      margin-top: 9px;
+      width: 30px;
+      height: 30px;
+      border: 1px solid black;
+      background: url("../../public/img/facelook.png") no-repeat center/cover; }
+    header .header-block .logo-text {
+      margin-top: 7px;
+      margin-left: 10px;
+      font-size: 1.5em;
+      color: white; }
+      header .header-block .logo-text a {
+        color: white;
+        text-decoration: none; }
+    header .header-block .user-search {
+      margin-top: 13px;
+      margin-left: 35px;
+      height: 25px;
+      width: 700px;
+      border: 1px solid black; }
+    header .header-block .header-username {
+      color: white;
+      margin-top: 13px;
+      text-decoration: none;
+      margin-left: auto;
+      /*flexbox move item to right*/ }
+
+.timeline-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100%;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black; }
+  .timeline-container .sidebar-block {
+    width: 25%;
+    border-right: 1px solid black; }
+    .timeline-container .sidebar-block .sidebar-pic-block {
+      display: flex;
+      height: 13%;
+      align-items: center;
+      margin-left: 20px; }
+    .timeline-container .sidebar-block .sidebar-active-block {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+      height: 45%; }
+      .timeline-container .sidebar-block .sidebar-active-block h3 {
+        margin-left: 8px;
+        margin-bottom: 15px; }
+    .timeline-container .sidebar-block .all-friends-link {
+      height: 22%;
+      margin-left: 20px;
+      margin-top: 15px; }
+      .timeline-container .sidebar-block .all-friends-link a {
+        color: #456792; }
+  .timeline-container .posts-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    margin-bottom: 35px; }
+    .timeline-container .posts-block .create-post-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 70%;
+      margin-top: 35px;
+      border: 2px solid black; }
+    .timeline-container .posts-block .comment-post-block {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      overflow: scroll;
+      margin-top: 15px;
+      border: 2px solid black; }
+    .timeline-container .posts-block .comment-footer {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      min-height: 3%;
+      border-left: 2px solid black;
+      border-bottom: 2px solid black;
+      border-right: 2px solid black;
+      background-color: #eeeeee; }
+
+.sidebar-pic-block .sidebar-pic {
+  width: 100px;
+  height: 100px;
+  margin-left: 8px;
+  border: 1px solid black;
+  background: url("../../public/img/fry.png") no-repeat center/cover; }
+
+.sidebar-pic-block .sidebar-profile-options a {
+  margin-left: 8px;
+  font-size: 0.8em; }
+
+.sidebar-active-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 88%; }
+
+.create-post-block .post-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  min-height: 16%;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  border-bottom: 1px solid black; }
+
+.create-post-block .create-post-area {
+  width: 94%;
+  margin: 0 auto;
+  min-height: 80px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+  .create-post-block .create-post-area p {
+    color: #8b8b8f;
+    margin-left: 6px; }
+
+.create-post-block .create-post-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 30%;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  border-top: 1px solid black; }
+  .create-post-block .create-post-footer button {
+    height: 30px;
+    width: 50px;
+    margin-right: 20px;
+    border: 1px solid black;
+    background-color: #317ae4;
+    color: white; }
+
+.friend-profile-pic {
+  width: 50px;
+  height: 50px;
+  margin-left: 9px;
+  border: 1px solid black;
+  background: url(http://images2.fanpop.com/image/photos/8900000/Leela-turanga-leela-8997933-429-350.jpg) no-repeat center/cover; }
+
+.bender-pic {
+  background: url(http://vignette1.wikia.nocookie.net/en.futurama/images/5/5b/I%27m_40%25_Bender/revision/latest?cb=20140722150206) no-repeat center/cover; }
+
+.amy-pic {
+  background: url(http://images6.fanpop.com/image/photos/36400000/Amy-Wong-image-amy-wong-36479000-300-225.png) no-repeat center/cover; }
+
+.zoid-pic {
+  background: url(http://comedycentral.mtvnimages.com/images/shows/Futurama/Videos/web_exclusives/futurama_mashup_zoidberg_v6.jpg) no-repeat center/cover; }
+
+.hermes-pic {
+  background: url(https://i.imgur.com/YxikIa8.png) no-repeat center/cover; }
+
+.friend-info {
+  margin-left: 5px; }
+  .friend-info h4, .friend-info p {
+    font-size: .8em; }
+  .friend-info a {
+    color: #456792; }
+  .friend-info p {
+    color: #8b8b8f; }
+
+.friend-block {
+  display: flex;
+  align-items: center; }
+
+.comment-post-block .comment-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  min-height: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black; }
+
+.comment-post-block .comment-area {
+  min-width: 94%;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  min-height: 55%; }
+
+.comment-footer .liked {
+  width: 97%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-top: 3px; }
+  .comment-footer .liked a {
+    margin-left: 2px;
+    margin-top: 3px;
+    color: #456792; }
+
+.comment-footer .like-comment {
+  display: flex;
+  align-items: center; }
+  .comment-footer .like-comment a {
+    margin-left: 8px;
+    margin-top: 3px;
+    color: #456792; }
+
+.comment-footer .like-block {
+  margin-left: 7px;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  .comment-footer .like-block a {
+    color: #456792; }
+  .comment-footer .like-block p {
+    color: #8b8b8f; }
+
+.comment-footer .further-comments-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 420px;
+  border-top: 1px solid gray;
+  padding-top: 20px; }
+  .comment-footer .further-comments-block .single-comment-block {
+    display: flex;
+    flex-direction: row;
+    height: 30%; }
+    .comment-footer .further-comments-block .single-comment-block .further-friend-info {
+      width: 88%;
+      margin-left: 10px; }
+  .comment-footer .further-comments-block .comment-reply-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30%; }
+
+.further-comment-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 88%;
+  overflow: scroll;
+  margin-left: 10px; }
+  .further-comment-info a {
+    color: #456792; }
+  .further-comment-info p, .further-comment-info span {
+    color: #8b8b8f; }
+
+.comment-reply-block .comment-reply-area {
+  width: 90%;
+  height: 60%;
+  border: 1px solid black;
+  background-color: white; }
+
+.comment-reply-block .comment-reply-options {
+  width: 90%;
+  display: flex;
+  justify-content: space-between; }
+  .comment-reply-block .comment-reply-options button {
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    border: 1px solid black;
+    background-color: #317ae4;
+    color: white; }
+  .comment-reply-block .comment-reply-options a {
+    margin-top: 10px;
+    color: #456792; }

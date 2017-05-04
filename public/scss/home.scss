@@ -1,4 +1,4 @@
-@import 'reset', 'variables';
+@import 'reset', 'variables', 'mixins';
 
 html {
 	height: 1200px;
@@ -20,142 +20,11 @@ input::placeholder {
 }
 
 header {
-	display: flex;
-	justify-content: center;
-	width: 100%;
-	height: 50px;
-	background-color: $default-header-color;
-	border: $black-border;
-
-	.header-block {
-		display: flex;
-		flex-direction: row;
-		width: 100%;
-		margin-right: 8%;
-		margin-left: 8%;
-
-		.logo {
-			margin-top: 9px;
-			width: 30px;
-			height: 30px;
-			border: $black-border;
-			background: url($logo-picture)
-									no-repeat
-									center / cover;
-		}
-
-		.logo-text {
-			margin-top: 7px;
-			margin-left: 10px;
-			font-size: 1.5em;
-			color: $main-text-color;
-
-			a {
-				color: $main-text-color;
-				text-decoration: none;
-			}
-		}
-
-		.user-search {
-			margin-top: 13px;
-			margin-left: 35px;
-			height: 25px;
-			width: 700px;
-			border: $black-border;
-		}
-
-		.header-username {
-			color: $main-text-color;
-			margin-top: 13px;
-			text-decoration: none;
-			margin-left: auto; /*flexbox move item to right*/
-		}
-	}
+	@include facelook-header;
 }
 
 .landscape-container {
-	display: flex;
-	align-items: flex-end;
-	position: relative;
-	background: url($cover-picture)
-							no-repeat
-							center / cover;
-	height: 40%;
-	border-left: $black-border;
-	border-right: $black-border;
-	border-bottom: $black-border;
-
-	.profile-pic {
-		position: absolute;
-		width: 150px;
-		height: 150px;
-		background: url($profile-picture)
-								no-repeat
-								center / cover;
-		z-index: 999;
-		bottom: 10px;
-		left: 10px;
-		border: $black-border;
-	}
-
-	.profile-name-block {
-		color: $main-text-color;
-		position: absolute;
-		bottom: 47px;
-		left: 170px;
-	}
-
-	.landscape-bar {
-		background-color: $main-text-color;
-		display: flex;
-		flex-direction: row;
-		width: 100%;
-		height: 9%;
-		border-top: $black-border;
-
-		.first-link-margin {
-			margin-left: 170px;
-		}
-
-		.link-block {
-			height: 100%;
-			border-right: $black-border;
-			padding-top: 10px;
-			padding-right: 20px;
-			padding-left: 20px;
-
-			a {
-				text-decoration: none;
-				color: $default-link-color;
-
-				.grayed-text {
-					color: $grayed-text-color;
-				}
-			}
-		}
-
-		.timeline-link {
-			border-left: $black-border;
-		}
-
-		.unselected {
-			background-color: $main-text-color;
-		}
-
-		.selected {
-			background-color: $selection-color;
-		}
-
-		.edit-block {
-			margin-top: 10px;
-			margin-left: auto;
-			margin-right: 10px;
-
-			.edit-link {
-				color: $active-link-color;
-			}
-		}
-	}
+	@include facelook-cover;
 }
 
 .about-container {

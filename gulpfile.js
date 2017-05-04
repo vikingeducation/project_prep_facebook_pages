@@ -5,7 +5,8 @@ gulp.task('css', function(){
   return gulp.src([
   		'public/scss/index.scss',
   		'public/scss/home.scss',
-  		'public/scss/friends.scss'
+  		'public/scss/friends.scss',
+  		'public/scss/newsfeed.scss'
   	])
     .pipe(sass())
     .pipe(gulp.dest('build/css'))

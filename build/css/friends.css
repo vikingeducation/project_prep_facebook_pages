@@ -1,9 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400");
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
   padding: 0; }
 
+/**
+ * Border Colors
+ * @type {[type]}
+ */
+/**
+ * Font Styles
+ * @type {String}
+ */
+/**
+ * Colors
+ * @type {[type]}
+ */
+/**
+ * Images
+ */
 /**
  * Border Colors
  * @type {[type]}
