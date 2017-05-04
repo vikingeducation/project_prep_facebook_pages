@@ -156,7 +156,8 @@ header {
 
 .sidebar-pic-block .sidebar-profile-options a {
   margin-left: 8px;
-  font-size: 0.8em; }
+  font-size: 0.8em;
+  color: #456792; }
 
 .sidebar-active-list {
   display: flex;
@@ -268,7 +269,7 @@ header {
   align-items: center; }
   .comment-footer .like-comment a {
     margin-left: 8px;
-    margin-top: 3px;
+    margin-top: 10px;
     color: #456792; }
 
 .comment-footer .like-block {
@@ -294,6 +295,8 @@ header {
     .comment-footer .further-comments-block .single-comment-block .further-friend-info {
       width: 88%;
       margin-left: 10px; }
+      .comment-footer .further-comments-block .single-comment-block .further-friend-info a {
+        color: #456792; }
   .comment-footer .further-comments-block .comment-reply-block {
     display: flex;
     flex-direction: column;
@@ -320,6 +323,8 @@ header {
 
 .comment-reply-block .comment-reply-options {
   width: 90%;
+  align-items: center;
+  margin-bottom: 10px;
   display: flex;
   justify-content: space-between; }
   .comment-reply-block .comment-reply-options button {

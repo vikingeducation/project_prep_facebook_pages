@@ -26,13 +26,13 @@ header {
 	flex-direction: row;
 	width: 100%;
 	min-height: 100%;
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-	border-bottom: 1px solid black;
+	border-left: $black-border;
+	border-right: $black-border;
+	border-bottom: $black-border;
 
 	.sidebar-block {
 		width: 25%;
-		border-right: 1px solid black;
+		border-right: $black-border;
 
 		.sidebar-pic-block {
 			display: flex;
@@ -59,7 +59,7 @@ header {
 			margin-left: 20px;
 			margin-top: 15px;
 
-			a { color: #456792; }
+			a { color: $light-link-color; }
 
 		}
 	}
@@ -107,7 +107,7 @@ header {
 		width: 100px;
 		height: 100px;
 		margin-left: 8px;
-		border: 1px solid black;
+		border: $black-border;
 		background: url($profile-picture)
 								no-repeat
 								center / cover;
@@ -117,7 +117,9 @@ header {
 		a {
 			margin-left: 8px;
 			font-size: 0.8em;
+			color: $light-link-color;
 		}
+
 	}
 }
 
@@ -139,19 +141,19 @@ header {
 		min-height: 16%;
 		padding-bottom: 6px;
 		padding-top: 6px;
-		border-bottom: 1px solid black;
+		border-bottom: $black-border;
 	}
 
 	.create-post-area {
 		width: 94%;
 		margin: 0 auto;
 		min-height: 80px;
-		border: 1px solid black;
+		border: $black-border;
 		margin-bottom: 10px;
 		margin-top: 10px;
 
 		p {
-			color: #8b8b8f;
+			color: $darker-gray-text-color;
 			margin-left: 6px;
 		}
 	}
@@ -164,13 +166,13 @@ header {
 		height: 30%;
 		padding-bottom: 6px;
 		padding-top: 6px;
-		border-top: 1px solid black;
+		border-top: $black-border;
 
 		button {
 			height: 30px;
 			width: 50px;
 			margin-right: 20px;
-			border: 1px solid black;
+			border: $black-border;
 			background-color: $default-btn-color;
 			color: $main-text-color;
 		}
@@ -181,7 +183,7 @@ header {
 	width: 50px;
 	height: 50px;
 	margin-left: 9px;
-	border: 1px solid black;
+	border: $black-border;
 	background: url(http://images2.fanpop.com/image/photos/8900000/Leela-turanga-leela-8997933-429-350.jpg)
 				no-repeat
 				center / cover;
@@ -216,9 +218,9 @@ header {
 
 	h4, p { font-size: .8em; }
 
-	a { color: #456792; }
+	a { color: $light-link-color; }
 
-	p { color: #8b8b8f; }
+	p { color: $darker-gray-text-color; }
 }
 
 .friend-block {
@@ -235,7 +237,7 @@ header {
 		min-height: 30%;
 		padding-top: 10px;
 		padding-bottom: 10px;
-		border-bottom: 1px solid black;
+		border-bottom: $black-border;
 	}
 
 	.comment-area {
@@ -259,7 +261,7 @@ header {
 		a {
 			margin-left: 2px;
 			margin-top: 3px;
-			color: #456792;
+			color: $light-link-color;
 		}
 	}
 
@@ -269,8 +271,8 @@ header {
 
 		a {
 			margin-left: 8px;
-			margin-top: 3px;
-			color: #456792;
+			margin-top: 10px;
+			color: $light-link-color;
 		}
 	}
 
@@ -280,11 +282,11 @@ header {
 		padding-bottom: 15px;
 
 		a {
-			color: #456792;
+			color: $light-link-color;
 		}
 
 		p {
-			color: #8b8b8f;
+			color: $darker-gray-text-color;
 		}
 	}
 
@@ -304,6 +306,10 @@ header {
 			.further-friend-info {
 				width: 88%;
 				margin-left: 10px;
+
+				a {
+					color: $light-link-color;
+				}
 			}
 		}
 
@@ -325,11 +331,11 @@ header {
 	margin-left: 10px; 
 
 	a {
-		color: #456792;
+		color: $light-link-color;
 	}
 
 	p, span {
-		color: #8b8b8f;
+		color: $darker-gray-text-color;
 	}
 }
 
@@ -337,13 +343,14 @@ header {
 	.comment-reply-area {
 		width: 90%;
 		height: 60%;
-		border: 1px solid black;
+		border: $black-border;
 		background-color: $main-text-color;
 	}
 
 	.comment-reply-options {
 		width: 90%;
-
+		align-items: center;
+		margin-bottom: 10px;
 		display: flex;
 		justify-content: space-between;
 
@@ -351,14 +358,14 @@ header {
 			height: 30px;
 			width: 80px;
 			margin-top: 10px;
-			border: 1px solid black;
+			border: $black-border;
 			background-color: $default-btn-color;
 			color: $main-text-color;
 		}
 
 		a {
 			margin-top: 10px;
-			color: #456792;
+			color: $light-link-color;
 		}
 
 	}
