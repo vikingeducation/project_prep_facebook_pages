@@ -345,6 +345,11 @@ header {
 		height: 60%;
 		border: $black-border;
 		background-color: $main-text-color;
+
+		p {
+			color: $darker-gray-text-color;
+			margin-left: 6px;
+		}		
 	}
 
 	.comment-reply-options {

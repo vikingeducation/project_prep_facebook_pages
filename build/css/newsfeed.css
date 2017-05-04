@@ -320,6 +320,9 @@ header {
   height: 60%;
   border: 1px solid black;
   background-color: white; }
+  .comment-reply-block .comment-reply-area p {
+    color: #8b8b8f;
+    margin-left: 6px; }
 
 .comment-reply-block .comment-reply-options {
   width: 90%;
