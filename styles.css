@@ -41,6 +41,11 @@ aside {
 	top: 70px;
 }
 
+main {
+	width: 80%;
+	padding: 20px;
+}
+
 .aside-content {
 	padding-bottom: 10px;
 }
@@ -67,3 +72,89 @@ input {
 	border-radius: 2px;
 	margin-bottom: 10px; 
 }
+
+.search-button {
+	background-color: #395DC5;
+	width: 30px;
+	height: 30px;
+}
+
+.profile-header {
+	width: 100%;
+	height: 100%
+	padding: 10px;
+	display: inline;
+	position: relative;
+	z-index: 0;
+}
+
+
+ul.style {
+    list-style-type: none;
+    display: inline-block;
+}
+
+li.styles {
+	display: inline-grid;
+	border-right: 1px solid grey;
+	width: auto;
+	background-color: white;
+}
+
+.edit{
+	display: inline-grid;
+	text-align: right;
+	text-decoration: underline;
+	color: #0094FF;
+	padding-left: 340px;
+}
+ 
+.photo {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+.grey {
+	display: inline-grid;
+	text-align: center;
+	border-right: 1px solid grey;
+	width: auto;
+	background-color: #C0C0C0;
+	color: black;
+}
+
+div.menu {
+	width: 900px;
+	border: 2px solid grey;
+	height: 60px;
+	background-color: white;
+	text-align: left;
+	margin-bottom: 20px;
+	display: inline-grid;
+	left: 0;
+
+}
+
+.section-header {
+	background-color: white;
+	width: 900px;
+	height: 100%;
+	padding-top: 10px;
+	margin-top: 15px;
+	border: 2px solid grey;
+	text-align: left;
+}
+
+.section-header-button {
+	background-color: #0094FF;
+	border: 1px solid black;
+	right: 0;
+	float: right;
+	display: inline-block;
+}
+
+.about {
+}
+
