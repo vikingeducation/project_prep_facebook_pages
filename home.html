@@ -1,0 +1,98 @@
+<html>
+<head>
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="sassStyles.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+
+	<nav id="homeNav">
+		<h2><a href="home.html">Spacebook</a></h2>
+		<form>
+			<label>Email
+				<input type="text">
+			</label>			
+			<label>Password
+				<input type="password">
+			</label>			
+			<button>Log In</button>
+		</form>
+	</nav>
+
+	<main id="homeMain">
+
+		<section>
+			<header>
+				<h3>Connect with all your enemies!</h3>
+			</header>
+			<ul>
+				<li>See photos and updates
+					<a href="newsfeed.html">in your news feed</a>
+				</li>
+				<li>Post your status for the world to see
+					<a href="about.html">from your profile</a>
+				</li>
+				<li>Get in touch with your enemies
+					<a href="enemies.html">by "offending" them</a>
+				</li>
+				<li>Like things
+					<a href="#">because you're a popular person!</a>
+				</li>
+			</ul>	
+		</section>
+
+		<section>			
+			<h2>Sign Up</h2>
+			<form>
+				<fieldset>
+					<div class="formRow">
+						<input type="text" placeholder="First Name">
+						<input type="text" placeholder="Last Name">
+					</div>
+					<div class="formRow">
+						<input type="email" placeholder="Your Email">
+					</div>
+					<div class="formRow">
+						<input type="password" placeholder="Your New Password">
+					</div>
+					<div class="formRow">
+						<input type="password" placeholder="Confirm Your Password">
+					</div>
+				</fieldset>
+
+				<fieldset>
+					<label>Birthday
+						<div>
+							<select>
+								<option selected disabled>Month</option>
+								<option>January</option>
+								<option>December</option>
+							</select>
+							<select>
+								<option selected disabled>Day</option>
+								<option>2</option>
+								<option>29</option>
+							</select>
+							<select>
+								<option selected disabled>Year</option>
+								<option>1980</option>
+								<option>1990</option>
+							</select>
+						</div>
+					</label>
+				</fieldset>
+
+				<fieldset>
+					<input id="female" type="radio">
+					<label for="female">Female</label>
+					<input id="male" type="radio">
+					<label for="male">Male</label>
+				</fieldset>
+
+				<button>Sign Up!</button>
+			</form>
+		</section>
+
+	</main>
+</body>
+</html>
