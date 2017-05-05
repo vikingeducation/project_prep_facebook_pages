@@ -4,8 +4,82 @@
   moz-border-spacing: border-box;
   border-spacing: border-box;
 }
-
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: " ";
+}
+.clearfix::after {
+  clear: both;
+}
+h1 {
+  font-style: helvetica, arial, sans-serif, serif;
+  font-size: 42px;
+  font-weight: bold;
+}
+.center-h {
+  margin-left: auto;
+  margin-right: auto;
+}
 .nav {
   height: 82px;
   background-color: #3B5998;
+}
+.white-text {
+  color: white;
+}
+#nav-container {
+  width: 80%;
+  height: 82px;
+}
+#nav-logo {
+  width: 25%;
+  height: 82px;
+  float: left;
+}
+#nav-picture {
+  width: 50px;
+  height: 50px;
+  margin: 15px 10px 0px 0px;
+  float: left;
+}
+#nav-facebook {
+  margin-top: 22px;
+  float: left;
+}
+#nav-search {
+  width: 60%;
+  height: 82px;
+  float: left;
+}
+#nav-form {
+  margin-top: 30px;
+  width: 100%;
+  float: left;
+}
+#nav-search-bar {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding-left: 6px;
+  padding-bottom: 2px;
+}
+#nav-profile {
+  width: 15%;
+  height: 82px;
+  float: left;
+}
+#nav-name {
+  display: inline-block;
+  text-decoration: none;
+  font-family: helvetica, arial, sans-serif, serif;
+  font-weight: bold;
+  color: white;
+  font-size: 32px;
+  margin-top: 28px;
+  float: right;
 }
