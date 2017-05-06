@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lorem Ipsum Blog</title>
+    <link rel="stylesheet"
+          href="https://unpkg.com/purecss@0.6.2/build/pure-min.css"
+          integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- START HEADER W/ LOGIN -->
+    <header id="main-header" class="flex-container flex-row flex-align-center">
+      <h1>Facelook</h1>
+      <section id="login-form" class="flex-container flex-row flex-align-end">
+        <form class="pure-form pure-u-1">
+          <fieldset>
+            <div class="flex-container flex-col flex-align-start">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@example.com">
+            </div>
+            <div class="flex-container flex-col flex-align-start">
+              <label for="password">Password</label>
+              <input id="password" type="password" placeholder="Your secret code" />
+            </div>
+            <button type="submit" class="pure-button pure-button-primary">Log In</button>
+          </fieldset>
+        </form>
+      </section>
+    </header>
+    <!-- END HEADER W/ LOGIN -->
+
+    <!-- START MAIN CONTENT -->
+    <main class="flex-container flex-row flex-align-start">
+      <section id="main-content" class="flex-container flex-col flex-align-center only-large">
+        <h1>Connect with all your friends</h1>
+        <article>
+          <ul>
+            <li>See photos and updates in your news feed.</li>
+            <li>Post your status for the world to see from your profile.</li>
+            <li>Get in touch with your friends by "friending" them.</li>
+            <li>Like things because you're a positive person!</li>
+          </ul>
+        </article>
+      </section>
+      <section id="sign-up-form" class="flex-container flex-col flex-align-center">
+        <article>
+          <form class="pure-form pure-form-stacked">
+            <fieldset>
+              <legend>Sign Up</legend>
+              <div class="pure-g">
+
+                  <div class="pure-u-1-2 pure-u-md-1-3">
+                      <label for="first-name">First Name</label>
+                      <input id="first-name" class="pure-u-23-24" type="text">
+                  </div>
+
+                  <div class="pure-u-1-2 pure-u-md-1-3">
+                      <label for="last-name">Last Name</label>
+                      <input id="last-name" class="pure-u-23-24" type="text">
+                  </div>
+
+                  <div class="pure-u-1 pure-u-md-1-3">
+                      <label for="email">E-Mail</label>
+                      <input id="email" class="pure-u-23-24" type="email" required>
+                  </div>
+
+                  <div class="pure-u-1 pure-u-md-1-3">
+                      <label for="password">Password</label>
+                      <input id="password" class="pure-u-23-24" type="password" required>
+                  </div>
+
+                  <div class="pure-u-1 pure-u-md-1-3">
+                      <label for="confirm">Confirm Password</label>
+                      <input id="confirm" class="pure-u-23-24" type="password" required>
+                  </div>
+
+                  <div class="spacer"></div>
+
+                  <div class="pure-u-1 pure-u-md-1-3">
+                    <label for="birthday">Birthday</label>
+                    <div class="pure-g">
+                      <div class="pure-u-1-3 pure-u-md-1-3">
+                        <select id="month" class="pure-input-1">
+                            <option>Month</option>
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+                        </select>
+                      </div>
+                      <div class="pure-u-1-3 pure-u-md-1-3">
+                        <select id="state" class="pure-input-1">
+                            <option>Day</option>
+                            <option>01</option><option>02</option><option>03</option><option>04</option>
+                            <option>05</option><option>06</option><option>07</option><option>08</option>
+                            <option>09</option><option>10</option><option>11</option><option>12</option>
+                            <option>13</option><option>14</option><option>15</option><option>16</option>
+                            <option>17</option><option>18</option><option>19</option><option>20</option>
+                            <option>21</option><option>22</option><option>23</option><option>24</option>
+                            <option>25</option><option>26</option><option>27</option><option>28</option>
+                            <option>29</option><option>30</option><option>31</option>
+                        </select>
+                      </div>
+                      <div class="pure-u-1-3 pure-u-md-1-3">
+                        <select id="state" class="pure-input-1">
+                            <option>Year</option>
+                            <option>2004</option><option>2003</option><option>2002</option><option>2001</option>
+                            <option>2000</option><option>1999</option><option>1998</option><option>1997</option>
+                            <option>1996</option><option>1995</option><option>1994</option><option>1993</option>
+                            <option>1992</option><option>1991</option><option>1990</option><option>1989</option>
+                            <option>1988</option><option>1987</option><option>1986</option><option>1985</option>
+                        </select>
+                      </div>
+                  </div>
+                </div>
+                <div class="spacer"></div>
+                <div class="pure-u-1-4 pure-u-md-1-3">
+                  <label for="option-two" class="pure-radio">
+                    <input id="option-two" type="radio" name="optionsRadios" value="option1" checked>
+                    Female
+                  </label>
+                </div>
+                <div class="pure-u-1-2 pure-u-md-1-3">
+                  <label for="option-three" class="pure-radio">
+                    <input id="option-three" type="radio" name="optionsRadios" value="option2">
+                     Male
+                  </label>
+                </div>
+              </div>
+
+              <button type="submit" class="pure-button pure-button-primary pure-input-1">Sign Up!</button>
+
+            </fieldset>
+          </form>
+        </article>
+      </section>
+    </main>
+    <!-- END MAIN CONTENT -->
+
+    <!-- START FOOTER -->
+    <footer>
+    &nbsp;
+    </footer>
+    <!-- END FOOTER -->
+  </body>
+</html>
