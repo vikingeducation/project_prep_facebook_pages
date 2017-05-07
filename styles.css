@@ -4,6 +4,11 @@ main {
 	margin-left: 100px;
 	margin-right: 100px;
 	margin-top: none;
+	width: 80%;
+}
+
+.newsfeed {
+	width: 80%;
 }
 
 
@@ -24,7 +29,6 @@ header {
 .log-in {
 	background-color: #0094FF;
 	border: 1px solid black;
-
 }
 
 .big{
@@ -39,29 +43,35 @@ div.form {
 }
 
 body {
-	background-color: #C0C0C0;
+	background-color: #DBDBDB;
 	color: black;
 }
 
 p {
 	color: black;
+	margin: 3px;
 }
 
 aside {
 	width: 40%;
-	clear: right;
 	right: 0;
 	position: absolute;
 	top: 70px;
 }
 
-main {
-	width: 80%;
+.aside-newsfeed { 
+	width: 20%;
 	padding: 20px;
+	margin-top: 30px;
+	margin-left: 10px;
+	border-left: 2px solid black; 
 }
 
 .aside-content {
 	padding-bottom: 10px;
+	width: 100%;
+	height: 500px;
+	margin-left: 0; 
 }
 
 .sign-up {
@@ -76,9 +86,22 @@ li {
 	padding: 10px;
 }
 
+.templatee {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: left;
+}
+
+
+
 .section-content {
 	text-align: center;
-	width: 60%;
+	width: 500px;
+	height: 500px;
+	margin-top: 50px;
 }
 
 input {
@@ -112,7 +135,10 @@ li.styles {
 	display: inline-grid;
 	border-right: 1px solid grey;
 	width: auto;
+	margin: 3px
+	padding: 3px;
 	background-color: white;
+	float: right;
 }
 
 .edit{
@@ -133,12 +159,13 @@ li.styles {
 }
 
 .grey {
-	display: inline-grid;
+	display: inline-flex;
+	flex-direction: row;
 	text-align: center;
 	border-right: 1px solid grey;
 	width: auto;
-	background-color: #C0C0C0;
 	color: black;
+	flex-wrap: nowrap;
 }
 
 div.menu {
@@ -172,39 +199,38 @@ div.menu {
 }
 
 .container {
-	width: 100%;
-	display: inline-flex;
-	flex-direction: row;
+	width: 900px;
+	display: flex;
 	flex-wrap: wrap;
+	flex-direction: row;
+	border: 1px solid black;
+	justify-content: space-around;
+	align-items: left;
+
 }
 
 .item-1 {
-	order: 1;
+    width: 400px;  
 	text-align: left;
-	width: 100%;
 	height: 100%;
 }
 
 .item-2 {
-	order: 2;
+	width: 400px;
 	text-align: left;
-	width: 100%;
 	height: 100%;
-
 }
 
 .item-3 {
-	order: 3;
+	width: 400px;
 	text-align: left;
-	width: 100%;
-	height: 100%;
+	height: 100%;	
 }
 
 .item-4 {
-	order: 4;
+	width: 400px;
 	text-align: left;
-	width: 100%;
-	height: 100%;
+	height: 100%;	
 }
 
 .friend-list {
@@ -232,6 +258,7 @@ div.menu {
 	padding-left: 50px;
 	text-decoration-style: underline;
 	color: #0094FF;
+
 }
 
 .friend-number {
@@ -267,6 +294,7 @@ div.menu {
 }
 
 .post-field-area {
+	background-color: white;
 	margin-top: 15px;
 	width: 500px;
 	color: white;
@@ -294,7 +322,324 @@ div.menu {
 .rihanna {
 	margin: 8px;
 }
-
-p{
-	margin: 3px;
+.aside-profile {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 5px;
 }
+
+@media screen and (max-width: 450px) {
+	.aside-newsfeed {
+		display: none;
+	}
+
+	header {
+		width: 100%;
+	}
+
+	.post-field {
+		width: 250px;
+		height: 125px;
+	}
+
+	.post-field-area {
+		width: 250px;
+		height: 125px;
+		overflow-y: scroll;
+	}
+
+	.post-area {
+		width: 225px;
+		height: 73px;
+		margin-left: 7px;
+	}
+	.post {
+		height: 25px;
+		width: 250px;
+		`text-align: center;
+	}
+	.newsfeed {
+		width: 100%;
+	}
+
+	.post-button {
+    width: 50px;
+    height: 15px;
+    margin: 3px;
+
+	}
+
+	.rihanna {
+		margin: 4px;
+	}
+
+	h3 {
+		margin-top: 0;
+	}
+
+	.friend-name {
+		padding-left: 25px;
+	}
+
+	main {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.profile-header {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+
+	}
+
+	div.menu {
+	display:block;
+	width: auto;
+	height: auto;
+
+	}
+
+	.section-header {
+	width: 100%;
+	height: 35px;
+	padding-top: 3px;
+	margin-top: 7px;
+
+	}
+
+	h1 {
+		margin-top: 0;
+	}
+
+	li.styles {
+		width: auto;
+		border-top: 0;
+		display: inline-block; 
+	}
+
+	.friend-list {
+		width: 100%;
+	}
+
+	.edit {
+			padding-left: 60px;
+
+	}
+
+	.container {
+	display: flex;
+	align-content: stretch;
+	justify-content: space-around; 
+	width: auto;
+	height: 1100px;
+	flex-wrap: wrap;
+	flex-direction: row; 
+}
+
+.item-1 {
+
+	width: 400px;
+	height: 30px;
+	text-align: center;
+}
+
+.item-2 {
+
+	width: 400px;
+	height: 30px;
+	text-align: center;
+}
+
+.item-3 {
+	width: 400px;
+	height: 30px;
+	text-align: center;
+}
+
+.item-4 {
+	width: 400px;
+	height: 30px;
+	text-align: center;
+}
+
+aside {
+	width: 100%;
+	top: 40px;
+	bottom: 0;
+}
+
+.section-content {
+	width: 400px;
+	height: 100%;
+}
+
+.big{
+	font-size: 15px;
+}
+
+.aside-content {
+	position: absolute;
+	left: 0;
+	padding-bottom: 5px;
+	width: 400px;
+}
+
+}
+
+@media screen and (min-width: 750px) {
+	.aside-newsfeed {
+		width: 25%;
+	}
+
+	header {
+		width: 100%;
+	}
+
+	.post-field {
+		width: 400px;
+		height: 250px;
+	}
+
+	.post-field-area {
+		width: 400px;
+		height: 300px;
+		overflow-y: scroll;
+	}
+
+	.post-area {
+		width: 375px;
+		height: 180px;
+		margin-left: 7px;
+	}
+	.post {
+		height: 40px;
+		width: 400px;
+		`text-align: center;
+	}
+	.newsfeed {
+		width: 100%;
+	}
+
+	.post-button {
+    width: 50px;
+    height: 30px;
+    margin: 3px;
+
+	}
+
+	.rihanna {
+		width: 100px;
+		height: 80px;
+		margin: 6px;
+	}
+
+	h3 {
+		margin-top: 20px;
+	}
+
+	.friend-name {
+		padding-left: 40px;
+	}
+
+	main {
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+
+	.profile-header {
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+	}
+
+	.grey {
+		padding-top: 0;
+	}
+
+	div.menu {
+	display: inline-grid;
+	width: 100%;
+	height: 40px;
+
+	}
+
+	.section-header {
+	width: 730px;
+	height: 35px;
+	padding-top: 3px;
+	margin-top: 7px;
+
+	}
+
+	h1 {
+		margin-top: 0;
+	}
+
+	li.styles {
+		width: auto;
+		border-top: 0;
+		display: inline-block; 
+	}
+
+	.friend-list {
+		width: 100%;
+	}
+
+	.edit {
+			padding-left: 40px;
+			padding-top: 0;
+
+	}
+
+	.container {
+	display: flex;
+	align-content: left;
+	justify-content: space-around; 
+	width: 730px;
+	height: 100%;
+	flex-wrap: wrap;
+	flex-direction: row; 
+}
+
+.item-1 {
+
+	width: 350px;
+	height: 100%;
+	text-align: center;
+}
+
+.item-2 {
+
+	width: 350px;
+	height: 100%;
+	text-align: center;
+}
+
+.item-3 {
+	width: 350px;
+	height: 100%;
+	text-align: center;
+}
+
+.item-4 {
+	width: 350px;
+	height: 100%;
+	text-align: center;
+}
+
+.section-content {
+	width: 500px;
+	height: 100%;
+}
+
+.big{
+	font-size: 30px;
+}
+
+.aside-content {
+	padding-bottom: 5px;
+	width: 500px;
+}
+
+} 
