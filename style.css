@@ -7,6 +7,7 @@
   --color-border-dark: #333;
   --color-border-light: var(--color-secondary-1-1);
   --color-link: var(--color-secondary-1-4);
+  --color-link-light: var(--color-alternate);
   --color-link-hover: var(--color-primary-1);
   --color-box-shadow: rgba(0, 0, 0, .25);
 
@@ -97,10 +98,29 @@ header#main-header h1 {
   min-height: auto;
   margin: .25em;
 }
-header#main-header section#login-form {
-  margin-right: -3em;
+section#login-form h4 {
+  display: none;
 }
 /* Login form styles */
+@media screen and (max-width: 792px) {
+  section#login-form form {
+    display: none;
+  }
+  section#login-form h4 {
+    margin-right: 1em;
+    display: block;
+    color: var(--color-foreground-on-dark);
+    font-weight: 400;
+  }
+  section#login-form h4 a {
+    color: var(--color-link-light);
+    text-decoration: none;
+    font-weight: 700;
+  }
+  section#login-form h4 a:hover {
+    color: var(--color-link-hover);
+  }
+}
 section#login-form form {
   transform: scale(0.75, 0.75) !important;
 }
@@ -119,9 +139,10 @@ header#main-header button {
 /* Main content style */
 main {
   position: absolute;
-  width: 100%;
   top: 0;
+  right: 0;
   bottom: 0;
+  left: 0;
   background-color: var(--color-background);
   z-index: -1;
 }
@@ -130,6 +151,12 @@ main {
 main section#main-content {
   flex: 3 0 auto;
   min-height: 100%;
+  max-width: 50%;
+}
+@media screen and (max-width: 768px) {
+  main section#main-content {
+    display: none;
+  }
 }
 main section#main-content h1 {
   margin-bottom: 0;
@@ -144,8 +171,18 @@ main section#sign-up-form {
   padding-right: 2em;
   flex: 1 0 auto;
   max-width: 35%;
-  min-width: 25%;
+  min-width: 20%;
   min-height: 100%;
+}
+main section#sign-up-form form h4:last-of-type {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  main section#sign-up-form {
+    margin-top: 0;
+    max-width: 85%;
+    padding: 0 0;
+  }
 }
 main section#sign-up-form legend {
   color: var(--color-foreground);
@@ -165,7 +202,7 @@ main section#sign-up-form select {
 }
 main section#sign-up-form button {
   margin-top: .5em;
-  padding: .5em 0;
+  padding: .35em 0;
   color: var(--color-foreground-on-dark);
   font-size: 150%;
   border-radius: 4px;
