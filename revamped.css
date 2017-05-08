@@ -4,16 +4,18 @@
   moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.clearfix::before,
-.clearfix::after {
+.clearfix:before,
+.clearfix:after {
   display: table;
-  content: " ";
+  content: "";
 }
-.clearfix::after {
+.clearfix:after {
   clear: both;
 }
+html {
+  font-family: helvetica, arial, sans-serif, serif;
+}
 h1 {
-  font-style: helvetica, arial, sans-serif, serif;
   font-size: 42px;
   font-weight: bold;
 }
@@ -33,7 +35,7 @@ h1 {
   height: 82px;
 }
 #nav-logo {
-  width: 30%;
+  width: 25%;
   height: 82px;
   float: left;
 }
@@ -48,7 +50,7 @@ h1 {
   float: left;
 }
 #nav-search {
-  width: 60%;
+  width: 65%;
   height: 82px;
   float: left;
 }
@@ -88,6 +90,7 @@ h1 {
 NEXT
 
 */
+
 #header {
   width: 100%;
   height: 200px;
@@ -101,14 +104,15 @@ NEXT
 #main-picture {
   width: 100%;
   height: 160px;
+  float: left;
 }
 #header-nav {
   position: relative;
-  bottom: 4px;
   width: 100%;
   height: 20%;
   box-sizing: border-box;
   border-top: 1px solid black;
+  float: left;
 }
 #header-picture {
   position: relative;
@@ -124,11 +128,15 @@ NEXT
   left: 20px;
   top: 10px;
 }
+#header-links a {
+  text-decoration: none;
+  color: black;
+}
 #header-links li {
   display: inline;
   margin-left: 40px;
   padding: 9px;
-  padding-bottom: 8px;
+  padding-bottom: 7px;
   border-left: 1px solid black;
   letter-spacing: 1px;
   font-weight: bold;
@@ -147,4 +155,29 @@ NEXT
   font-size: 18px;
   color: #0000aa;
   float: right;
+}
+
+/*
+
+NEXT
+
+*/
+
+#about {
+  width: 80%;
+  height: 500px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+#about-header {
+  height: 60px;
+  width: 20%;
+  margin-top: 10px;
+}
+#about-body {
+  width: 100%;
+  height: 440px;
+  border-top: 1px solid black;
+
 }
