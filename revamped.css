@@ -98,9 +98,13 @@ NEXT
   box-sizing: border-box;
   border: 1px solid black;
 }
+#main-picture {
+  width: 100%;
+  height: 160px;
+}
 #header-nav {
   position: relative;
-  top: 160px;
+  bottom: 4px;
   width: 100%;
   height: 20%;
   box-sizing: border-box;
