@@ -1,8 +1,8 @@
-::before,
-::after {
-  webkit-border-spacing: border-box;
-  moz-border-spacing: border-box;
-  border-spacing: border-box;
+*::before,
+*::after {
+  webkit-box-sizing: border-box;
+  moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .clearfix::before,
 .clearfix::after {
@@ -33,7 +33,7 @@ h1 {
   height: 82px;
 }
 #nav-logo {
-  width: 25%;
+  width: 30%;
   height: 82px;
   float: left;
 }
@@ -59,17 +59,16 @@ h1 {
 }
 #nav-search-bar {
   display: block;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 90%;
   height: 30px;
   font-size: 16px;
   letter-spacing: 1px;
   padding-left: 6px;
   padding-bottom: 2px;
+  float: left;
 }
 #nav-profile {
-  width: 15%;
+  width: 10%;
   height: 82px;
   float: left;
 }
@@ -81,5 +80,67 @@ h1 {
   color: white;
   font-size: 32px;
   margin-top: 28px;
+  float: right;
+}
+
+/*
+
+NEXT
+
+*/
+#header {
+  width: 100%;
+  height: 200px;
+}
+#header-content {
+  width: 80%;
+  height: 198px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+#header-nav {
+  position: relative;
+  top: 160px;
+  width: 100%;
+  height: 20%;
+  box-sizing: border-box;
+  border-top: 1px solid black;
+}
+#header-picture {
+  position: relative;
+  bottom: 130px;
+  left: 20px;
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+#header-links {
+  list-style: none;
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+#header-links li {
+  display: inline;
+  margin-left: 40px;
+  padding: 9px;
+  padding-bottom: 8px;
+  border-left: 1px solid black;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+#end {
+  border-right: 1px solid black;
+}
+#header-edit {
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  right: 40px;
+  bottom: 7px;
+  font-family: helvetica, arial, sans-serif, serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #0000aa;
   float: right;
 }
