@@ -1,7 +1,11 @@
+$font-stack: helvetica, arial, sans-serif, serif;
+$nav-color: #3b5998;
+$nav-height: 82px;
+
 *::before,
 *::after {
-  webkit-box-sizing: border-box;
-  moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .clearfix:before,
@@ -13,7 +17,7 @@
   clear: both;
 }
 html {
-  font-family: helvetica, arial, sans-serif, serif;
+  font-family: $font-stack;
 }
 h1 {
   font-size: 42px;
@@ -24,19 +28,19 @@ h1 {
   margin-right: auto;
 }
 .nav {
-  height: 82px;
-  background-color: #3B5998;
+  height: $nav-height;
+  background-color: nav-color;
 }
 .white-text {
   color: white;
 }
 #nav-container {
   width: 80%;
-  height: 82px;
+  height: $nav-height;
 }
 #nav-logo {
   width: 25%;
-  height: 82px;
+  height: $nav-height;
   float: left;
 }
 #nav-picture {
@@ -77,7 +81,6 @@ h1 {
 #nav-name {
   display: inline-block;
   text-decoration: none;
-  font-family: helvetica, arial, sans-serif, serif;
   font-weight: bold;
   color: white;
   font-size: 32px;
@@ -131,20 +134,21 @@ NEXT
   position: relative;
   left: 20px;
   top: 10px;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  li {
+    display: inline;
+    margin-left: 40px;
+    padding: 9px;
+    padding-bottom: 7px;
+    border-left: 1px solid black;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
 }
-#header-links a {
-  text-decoration: none;
-  color: black;
-}
-#header-links li {
-  display: inline;
-  margin-left: 40px;
-  padding: 9px;
-  padding-bottom: 7px;
-  border-left: 1px solid black;
-  letter-spacing: 1px;
-  font-weight: bold;
-}
+
 #end {
   border-right: 1px solid black;
 }
