@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesheets/reset.css">
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <title>Facebook Clone</title>
+</head>
+<body>
+  <div id="full-bar">
+    <div id="main" class="clearfix">
+      <header id="main-header">
+        <h1 class="white-text">Facebook</h1>
+      </header>
+      <form id="login" class="clearfix">
+        <table id="login-table" class="clearfix">
+          <tr>
+            <td><label for="username" class="white-text login-text">Email or Phone</label></td>
+            <td><label for="password" class="white-text login-text TLMargin510">Password</label></td>
+          </tr>
+          <tr>
+            <td><input type="text" id="username" class="login-input" /></td>
+            <td><input type="password" id="password" class="login-input TLMargin510" /></td>
+            <td><input type="button" value="Log in" id="login-button" class="TLMargin510 white-text login-button-text"/></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><label<a href="#" class="forgot-text">Forgotten account?</a></label></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </div>
+  <div id="body" class="clearfix">
+    <section id="main-image" class="clearfix">
+      <h3 id="info">
+        Facebook Helps you connect and share with the<br />
+        people in your life.
+      </h3>
+      <img src="fb.png" id="fb-img" />
+    </section>
+    <section id="signup">
+      <header>
+        <h2 id="signup-header">Create an account</h2>
+        <h3 id="signup-sub">It's free and always will be.</h3>
+      </header>
+      <form>
+        <table>
+          <tr>
+            <td><input id="firstname" type="text" class="small-box" placeholder="First Name" /></td>
+            <td><input type="text" class="small-box" placeholder="Surname"/></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="text" class="big-box" placeholder="Mobile number or email address"/></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="text" class="big-box" placeholder="New Password"/></td>
+          </tr>
+          <tr>
+            <td><h3 id="birthday">Birthday</h3></td>
+          </tr>
+          <tr>
+            <td><select name="day" value="day">
+            <option value="1">Day
+            </option></select><select name="month">
+            <option value="1">Month
+            </option></select><select name="year">
+            <option value="1980">Year
+            </option></select></td>
+          </tr>
+          <tr>
+            <td><input type="radio" value="male" />Male
+            <input type="radio" value="Female" />Female</td>
+          </tr>
+          <tr>
+            <td colspan="2"><input id="create-button" type="button" value="Create an account"</td>
+          </tr>
+        </table>
+      </form>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,192 @@
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.clearfix::after,
+.clearfix::before {
+  display: table;
+  content: " ";
+}
+.clearfix::after {
+  clear: both;
+}
+
+html {
+  font-family: helvetica, arial, sans-serif, serif;
+}
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+/* MAIN */
+#full-bar {
+  height: 82px;
+  background-color: #3B5998;
+}
+#main {
+  height: 82px;
+  background-color: #3B5998;
+  width: 90%;
+}
+#main-header {
+  display: inline;
+  float:left;
+  margin: 25px 0px 0px 200px;
+}
+@media screen and (min-width: 1440px) {
+  #main {
+    width: 60%;
+    margin-left: 20%;
+  }
+  #main-header {
+    margin: 25px 0px 0px 0px;
+  }
+}
+
+#body {
+  width: 100%;
+}
+#main-image {
+  height: 668px;
+  width: 59%;
+  float:left;
+}
+
+#info {
+  color: #0E385F;
+  line-height: 25px;
+  font-weight: 600;
+  margin: 60px 0px 25px 200px
+}
+
+#fb-img {
+  display: block;
+  margin: auto;
+  margin-left: 180px;
+}
+
+#signup {
+  width: 41%;
+  height: 668px;
+  float:right;
+}
+@media screen and (min-width: 1440px) {
+  #body {
+    width: auto;
+  }
+  #main-image {
+    width: 45%;
+    margin-left: 10%;
+  }
+  #signup {
+    width: 45%;
+  }
+}
+
+#signup-header {
+  margin: 20px 0px 20px 0px;
+}
+#signup-sub {
+  margin: 20px 0px 40px 0px;
+}
+
+/* SIGNUP */
+#create-button {
+  font-family: "Freight Sans Bold", Helvetica, sans-serif, serif;
+  color: white;
+  border: 1px solid #2C5115;
+  font-size: 20px;
+  margin: 10px 0px 0px 0px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  width: 230px;
+  background-image: linear-gradient(#79BB63, #2C5115);
+}
+ #firstname {
+   margin-right: 10px;
+   margin-bottom: 10px;
+ }
+ #birthday {
+   margin-top: 20px;
+ }
+.small-box {
+  border-radius: 5px;
+  font-size: 18px;
+  width: 172px;
+  height: 22px;
+  padding: 8px 10px 8px 10px;
+  border: 1px solid silver;
+}
+
+.big-box {
+  border-radius: 5px;
+  font-size: 18px;
+  width: 376px;
+  height: 22px;
+  padding: 8px 10px 8px 10px;
+  margin-bottom: 10px;
+  border: 1px solid silver;
+}
+
+select {
+  margin: 10px 0px 10px 0px;
+  font-size: 14px;
+  height: 30px;
+  min-width: 60px;
+  font-weight: lighter;
+  border: border-box;
+}
+
+/* LOGIN */
+#username {
+  margin: 5px 0px 0px 0px;
+}
+#login {
+  display: inline;
+  float: right;
+}
+#login-table {
+  margin: 15px 0px 0px 0px;
+}
+#login-button {
+  background-color: #4267B2;
+  border: 1px solid darkblue;
+}
+.login-input {
+  width: 150px;
+}
+.login-button-text {
+  margin: 10px 0px 10px 0px;
+  line-height: 21px;
+}
+/* TEXT */
+.white-text {
+  color: white;
+}
+.forgot-text {
+  color: #9CB4D8;
+  font-size: 14px;
+  margin: 10px 0px 0px 10px
+}
+.login-text {
+  font-size: 12px;
+  padding: 0px;
+  letter-spacing: 1px;
+  margin: 0px 20px 20px 0px;
+}
+/* MARGINS */
+.TLMargin510 {
+  margin: 5px 0px 0px 10px;
+}
