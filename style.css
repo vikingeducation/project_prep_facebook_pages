@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Ropa+Sans");
+html {
+  font-family: Helvetica, sans-serif;
+  background: #E9EBEE;
+}
+
+/*login page: font color/size/weight*/
+.logo, label, button {
+  color: white;
+}
+.login, .password, .email {
+  font-size: 12px;
+}
+.signupButton, .signup, .connect {
+  font-weight: bold;
+}
+.signup {
+  font-size: 36px;
+}
+.inputForm, #signupForm {
+  font-size: 18px;
+}
+
+/*login page: borders*/
+button, #password2, #email2 {
+  border: 1px solid black;
+}
+
+/*login page: login button*/
+.login {
+  background-color: #365899;
+  padding: 5px 10px 5px 10px;
+  margin: 42px 0 0 10px;
+}
+
+/*login page: button hovers*/
+.signupButton:hover, .login:hover {
+  cursor: pointer;
+}
+.signupButton:hover {
+  background-color: #77B962;
+}
+.login:hover {
+  background-color: #3B5980;
+}
+
+/*login page: header layout, logo font*/
+.indexHeader {
+  background-color: #3B5998;
+  height: 100px;
+  width: 100%;
+}
+.headerSet {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+.logo {
+  font-size: 42px;
+  font-family: "Ropa Sans", Helvetica, sans-serif;
+  padding-top: 30px;
+  font-weight: bold;
+}
+.loginSet {
+  display: flex;
+}
+.password, .email {
+  display: flex;
+  flex-flow: column;
+  padding: 25px 10px 0 10px;
+}
+#password1, #email1 {
+  padding-bottom: 5px;
+}
+
+/*login page: main layout*/
+.loginMain {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+}
+ul {
+  list-style: disc;
+  padding-left: 40px;
+}
+li {
+  padding-top: 20px;
+  font-size: 17px;
+}
+.connect {
+  padding-top:100px;
+  font-size: 28px;
+}
+#signupForm {
+  display: flex;
+  flex-flow: column;
+}
+input {
+  padding: 5px;
+}
+.inputForm, .signupButton, #birthday, select, .signup {
+  margin-top: 20px;
+}
+.signupButton {
+  background-color: #69A455;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 30px;
+  font-size: 19px;
+  padding: 5px 50px 5px 50px;
+}
+
+
+
+/*Login page: responsive settings for header*/
+@media screen and (max-width: 860px) {
+  .headerSet {
+    width: 96%;
+  }
+}
+@media screen and (max-width: 628px) {
+  .indexHeader {
+    height: 210px;
+  }
+  .headerSet, .loginSet {
+    flex-flow: column;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  #password2, #email2 {
+    max-width: 150px;
+  }
+  .password, .email, .logo {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .login {
+    margin-top: 10px;
+  }
+}
+
+/*Login page: responsive settings for main*/
+@media screen and (max-width: 1520px) {
+  .loginMain {
+    width: 70%;
+  }
+@media screen and (max-width: 1310px) {
+  .loginMain {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .loginMain {
+    width: 96%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .loginMain {
+    flex-flow: column;
+    width: 96%;
+  }
+  .inputForm, .signupButton {
+    max-width: 458px;
+  }
+  .connect {
+    padding-top: 20px;
+  }
+}

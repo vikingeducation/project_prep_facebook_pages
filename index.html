@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facelook</title>
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header class="indexHeader">
+		<div class="headerSet">
+		  <h1 class="logo">facelook</h1>
+		  <div class="loginSet">
+		    <form class="email">
+			    <label id="email1" for="email">Email</label>
+			    <input id="email2" type="email" name="email">
+		    </form>
+		    <form class="password">
+			    <label id="password1" for="password">Password</label>
+			    <input id="password2" type="password" name="password">
+		    </form>
+		    <a href="about.html"><button class="login">Log In</button></a>
+		  </div>
+	  </div>
+	</header>
+	<main class="loginMain">
+		<section class="info">
+			<h1 class="connect">Connect with all your friends!</h1>
+			<ul>
+				<li>See photos and updates in your news feed</li>
+				<li>Post your status for the world to see from your profile</li>
+				<li>Get in touch with your friends by "friending" them</li>
+				<li>Like things because you're a positive person</li>
+			</ul>
+		</section>
+		<section class="registration">
+			<h1 class="signup">Sign Up</h1>
+			<form id="signupForm">
+				<div id="nameForm">
+				  <input class="inputForm" type="text" name="first-name" placeholder="First Name">
+				  <input class="inputForm" type="text" name="last-name" placeholder="Last Name">
+			  </div>
+				<input class="inputForm" id="emailForm" type="text" name="email" placeholder="Your Email">
+				<input class="inputForm" id="passwordForm" type="password" name="password" placeholder="Your New Password">
+				<input class="inputForm" id="confirmForm" type="password" name="password-confirm" placeholder="Confirm Your Password">
+				<h3 id="birthday">Birthday</h3>
+				<div id="birthdayForm">
+				  <select name="month">
+				    <option value="" disabled selected>Month</option>
+				  </select>
+				  <select name="day">
+				    <option value="" disabled selected>Day</option>
+				  </select>
+				  <select name="year">
+				    <option value="" disabled selected>Year</option>
+				  </select>
+				</div>
+				<div id="gender">
+					<input class="inputForm" type="radio" name="gender" value="female"><span>Female</span>
+					<input class="inputForm" type="radio" name="gender" value="male"><span>Male</span>
+				</div>
+				<button class="signupButton">Sign Up!</button>
+			</form>
+    </section>
+	</main>
+</body>
+</html>
