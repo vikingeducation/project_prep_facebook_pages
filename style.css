@@ -212,7 +212,6 @@ section#login-form form label {
   display: block;
 }
 header#main-header a {
-  padding: .5em 1.5em;
   border-radius: .25em;
 }
 
@@ -245,7 +244,7 @@ section#home-page-content li {
 }
 
 /* Main content for interface style */
-section.content-section {
+.content-section {
   width: 851px;
   background-color: var(--color-background);
 
@@ -263,8 +262,9 @@ section#profile-outline div#timeline-pic {
   position: relative;
   margin-top: 35px;
   height: 315px;
-  background: url('images/timeline-pic.jpg');
+  background: url('images/timeline-hogwarts.jpg');
   background-size: cover;
+  background-position: center;
 }
 div#timeline-pic h2 {
   position: absolute;
@@ -277,7 +277,7 @@ div#timeline-pic h2 {
 section#profile-outline div#profile-management {
   position: relative;
   display: flex;
-  height: 42px;
+  height: 40px;
 }
 div#profile-management div#profile-picture {
   display: inline-block;
@@ -311,6 +311,9 @@ div#profile-picture div#profile-pic-wrapper {
   border-radius: 2px;
   box-shadow: 1px 1px 2px var(--color-box-shadow);
 }
+div#profile-pic-wrapper img {
+  max-width: 180px;
+}
 div#profile-links {
   align-items: center;
   display: inline-flex;
@@ -342,7 +345,7 @@ section#profile-content button {
   top: 4%;
   right: .15em;
 }
-div.padded-content {
+.padded-content {
   flex: 1 0 auto;
   padding: 2.5em;
   padding-top: 1em;
@@ -363,28 +366,132 @@ div#user-desc {
   padding-left: 1em;
 }
 div.content-column {
-  flex: 1 0 auto;
   font-size: 85%;
+}
+div:not(#user-desc).content-column {
+  flex: 1 0 auto;
 }
 div#user-friends article {
   width: 100%;
 }
 div#user-friends article div {
-  flex: 1 0 auto;
   margin-bottom: 1em;
+}
+div.friend-pic {
+  flex: 0 1 auto;
 }
 div.friend-pic img {
   border-radius: 4px;
   border: 1px solid var(--color-border-dark);
   max-width: 100px;
 }
+div.friend-name {
+  flex: 0 1 auto;
+  padding-left: .5em;
+}
+div.friend-name h4 {
+  font-weight: 400;
+}
+div.friend-name a {
+  color: var(--color-primary-0);
+  margin: .3em;
+  font-size: 80%;
+}
 div.friend-name span {
   font-size: 90%;
+  margin: .3em;
   color: var(--color-alternate);
+}
+div.friend-unfriend {
+  flex: 1 0 auto;
+  padding-right: 1.5em;
+  text-align: right;
 }
 div.friend-unfriend a {
   font-size: 85%;
 }
+section#timeline-content {
+  margin-top: 40px;
+}
+section#activity-log {
+  height: 100%;
+  padding-left: 1em;
+  flex: 0 1 auto;
+  padding-top: 1.25em;
+  /*border-right: 1px solid var(--color-alternate);*/
+}
+section#activity-log h2 {
+  color: var(--color-foreground);
+  margin-top: 2em;
+}
+section#activity-log h4:last-child {
+  margin-top: 2em;
+  text-align: center;
+}
+div.friend-active div.friend-pic img {
+  max-width: 40px;
+}
+div.friend-active div.friend-name {
+  font-size: 80%;
+}
+div.friend-active {
+  margin-bottom: .5em;
+}
+section#timeline {
+  border-left: 1px solid var(--color-alternate);
+}
+article.post  {
+  width: 100%;
+  max-width: 500px;
+  font-size: 80%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-bottom: 2em;
+  padding-bottom: .5em;
+}
+article.post div.friend-active {
+  padding: .5em;
+  font-size: 120%;
+}
+article.post p {
+  padding: 0 .75em 0 .75em;
+}
+article.post hr {
+  border: none;
+  height: 1px;
+  background-color: var(--color-alternate);
+  margin: 0 .5em .5em .5em;
+}
+article.post a:not(.pure-button) {
+  color: var(--color-primary-0);
+  margin: 0 0 1em .5em;
+}
+article.post div.likes {
+  padding: .25em .25em .25em .5em;
+}
+article#post-maker h4 {
+  margin: 0;
+  padding: .25em;
+  background-color: #efefef;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+article#post-maker div.textarea-post {
+  background-color: var(--color-background);
+  padding: .5em 1em;
+}
+article#post-maker textarea {
+  resize: none;
+  width: 100%;
+  min-height: 6em;
+}
+article#post-maker a {
+  float: right;
+  font-size: 75%;
+  margin: .5em;
+}
+
 /* Sign-up form */
 section#sign-up-form {
   padding-left: 2em;
