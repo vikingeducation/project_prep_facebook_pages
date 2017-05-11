@@ -112,8 +112,8 @@ header.main-header {
   right: 0;
   z-index: 100;
   background-color: var(--color-primary-0);
-  border-bottom: 1px solid var(--color-border-dark);
-  box-shadow: 0 2px 4px var(--color-box-shadow);
+  border-bottom: 1px solid rgba(50, 50, 50, .25);
+  box-shadow: 0 1px 2px var(--color-box-shadow);
   padding: .25em;
   min-width: 851px;
   max-height: 36px;
@@ -129,6 +129,7 @@ header.main-header h1 {
 }
 header#home-page-header {
   padding: 1em;
+  min-width: 400px;
 }
 header#home-page-header h1 {
   order: 0;
@@ -210,7 +211,7 @@ section#login-form form label {
   color: var(--color-foreground-on-dark);
   display: block;
 }
-header#main-header button {
+header#main-header a {
   padding: .5em 1.5em;
   border-radius: .25em;
 }
@@ -218,6 +219,7 @@ header#main-header button {
 /* Main content style */
 main {
   position: absolute;
+  min-width: 435px;
   top: 0;
   right: 0;
   bottom: 0;
@@ -356,7 +358,7 @@ section#sign-up-form {
   padding-right: 2em;
   flex: 1 0 auto;
   max-width: 35%;
-  min-width: 20%;
+  min-width: 400px;
   min-height: 100%;
 }
 section#sign-up-form form h4:last-of-type {
