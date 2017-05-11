@@ -7,22 +7,32 @@
 </head>
 <body>
   <header class="aboutHeader">
-    <img class="logoImage" src="fbLogo.png">
-    <h2 class="logo1">Facelook</h1>
-    <input class="search" type="search" name="search" placeholder="Search of Users">
-    <span>Harry</span>
+    <section class="aboutHeaderBox">
+      <img class="logoImage" src="fbLogo.png">
+      <h2 class="logo1">Facelook</h2>
+      <input class="search" type="search" name="search" placeholder="Search for Users">
+      <span class="nameInHeader">Harry</span>
+    </section>
   </header>
-  <main>
+  <main class="mainColumn">
     <section class="pics">
-      <img class="cover" src="cover.jpg">
-      <img class="profile" src="hp.jpg">
-      <h1 class="nameTitle">Harry Potter</h1>
+      <div class="cover">
+        <img src="cover.jpg">
+        <img class="profile" src="hp.jpg">
+        <h1 class="nameTitle">Harry Potter</h1>
+      </div>
     </section>
     <nav>
-      <span id="nav">Timeline</span>
-      <span id="nav">About</span>
-      <span id="nav">Photos</span>
-      <span id="nav">Friends</span>
+      <table id="nav">
+        <tr>
+          <td id="tdFirst"></td>
+          <td id="tdTimeline">Timeline</td>
+          <td id="tdAbout">About</td>
+          <td id="tdPhotos">Photos</td>
+          <td id="tdFriends">Friends</td>
+          <td id="tdLast"></td>
+        </tr>
+      </table>
     </nav>
     <section class="about">
       <div class="titleAbout">
@@ -31,7 +41,35 @@
       <div class="infoAbout">
         <div class="column1">
           <h2 class="basicInfo">Basic Information</h2>
+          <table id="basicInfo">
+            <tr>
+              <td id="rowTitle">Birthday:</td>
+              <td>July 31st, 1980</td>
+            </tr>
+            <tr>
+              <td id="rowTitle">College:</td>
+              <td>Hogwarts College</td>
+            </tr>
+            <tr>
+              <td id="rowTitle">Hometown:</td>
+              <td>Godrick's Hollow, England</td>
+            </tr>
+            <tr>
+              <td id="rowTitle">Currently Lives:</td>
+              <td>Godrick's Hollow, England</td>
+            </tr>
+          </table>
           <h2 class="contactInfo">Contact Information</h2>
+          <table id="contactInfo">
+            <tr>
+              <td id="rowTitle">Email:</td>
+              <td>harry_potter@hogwarts.edu</td>
+            </tr>
+            <tr>
+              <td id="rowTitle">Telephone:</td>
+              <td>555-123-4567</td>
+            </tr>
+          </table>
         </div>
         <div class="column2">
           <h2 class="wordsInfo">Words to Live By</h2>
