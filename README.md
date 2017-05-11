@@ -1,6 +1,8 @@
-Faceboook Pages Clone with HTML and CSS
+Facebook Pages Clone with HTML and CSS
 Viking Code School assignment
 ===================
+
+Clones of the Facebook login and about pages. This was an assignment for the advanced prep of Viking Code School.
 
 Austin Smith
 
