@@ -59,7 +59,7 @@ body {
 a {
   text-decoration: none;
 }
-a:hover {
+a:not(.pure-button):hover {
   color: var(--color-link-hover);
 }
 
@@ -260,10 +260,19 @@ section#main-content {
   min-height: 1000px;
 }
 section#profile-outline div#timeline-pic {
+  position: relative;
   margin-top: 35px;
   height: 315px;
   background: url('images/timeline-pic.jpg');
   background-size: cover;
+}
+div#timeline-pic h2 {
+  position: absolute;
+  left: 210px;
+  bottom: .25em;
+  color: var(--color-foreground-on-dark);
+  text-shadow: 2px 2px 2px var(--color-box-shadow);
+  font-weight: 400;
 }
 section#profile-outline div#profile-management {
   position: relative;
@@ -307,6 +316,9 @@ div#profile-links {
   display: inline-flex;
   height: 100%;
 }
+div#profile-links a small {
+  color: var(--color-alternate);
+}
 div#profile-links .spacer {
   width: 3px;
 }
@@ -330,27 +342,48 @@ section#profile-content button {
   top: 4%;
   right: .15em;
 }
-div#about-user {
+div.padded-content {
+  flex: 1 0 auto;
   padding: 2.5em;
   padding-top: 1em;
 }
-div#about-user div#user-info {
-  flex: 2 0 auto;
-  font-size: 85%;
+div#user-info {
+  flex: 1 0 auto;
 }
-div#about-user div.user-info-item {
+div#user-info div.user-info-item {
   margin-bottom: 1.5em;
 }
-div#about-user div.user-info-item ul, li {
+div#user-info div.user-info-item ul, li {
   list-style-type: none;
   margin: .75em;
   margin-left: .25em;
   padding-left: 0;
 }
-div#about-user div#user-desc {
-  flex 4 0 auto;
-  font-size: 85%;
+div#user-desc {
   padding-left: 1em;
+}
+div.content-column {
+  flex: 1 0 auto;
+  font-size: 85%;
+}
+div#user-friends article {
+  width: 100%;
+}
+div#user-friends article div {
+  flex: 1 0 auto;
+  margin-bottom: 1em;
+}
+div.friend-pic img {
+  border-radius: 4px;
+  border: 1px solid var(--color-border-dark);
+  max-width: 100px;
+}
+div.friend-name span {
+  font-size: 90%;
+  color: var(--color-alternate);
+}
+div.friend-unfriend a {
+  font-size: 85%;
 }
 /* Sign-up form */
 section#sign-up-form {
