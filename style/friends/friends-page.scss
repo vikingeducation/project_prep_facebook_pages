@@ -1,0 +1,21 @@
+/* Custom styles for friends page */
+main {
+  section#profile-content {
+    div#user-friends {
+      article {
+        width: 100%;
+        div {
+          @extend .mb-10;
+        }
+        div.friend-unfriend {
+          @extend .pr-15;
+          flex: 1 0 auto;
+          text-align: right;
+          a {
+            @extend .font-small;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+/* Custom styles for about page */
+$color-profile-links-hover: #efefef;
+main {
+  section#main-content {
+    section#profile-outline {
+      div#timeline-pic {
+        overflow: hidden;
+        position: relative;
+        margin-top: 36px;
+        height: 315px;
+        img {
+          position: absolute;
+          bottom: -100px;
+          max-width: 100%;
+        }
+        h2 {
+          @extend .mb-3;
+          @extend .font-weight-4;
+          position: absolute;
+          left: 210px;
+          bottom: 0;
+          color: $color-foreground-on-dark;
+          text-shadow: 2px 2px 2px $color-box-shadow;
+        }
+      }
+      div#profile-management {
+        position: relative;
+        display: flex;
+        height: 40px;
+        div#profile-picture {
+          display: inline-block;
+          position: relative;
+          width: 220px;
+          height: 100%;
+          div#profile-pic-wrapper {
+            @extend .border-radius-2;
+            position: absolute;
+            left: .8em;
+            bottom: 35%;
+            background-color: $color-background;
+            padding: 4px;
+            max-width: 180px;
+            max-height: 180px;
+            box-shadow: 1px 1px 2px $color-box-shadow;
+            img {
+              max-width: 180px;
+            }
+          }
+        }
+        a {
+          @extend .font-weight-6;
+          @extend .border-radius-2;
+          @extend .font-small;
+          @extend .padding-8;
+          color: $color-primary-3;
+          font-family: sans-serif;
+        }
+        a:hover {
+          background-color: $color-profile-links-hover;
+        }
+        a#update-profile-link {
+          position: absolute;
+          right: 0;
+        }
+        div#profile-links {
+          align-items: center;
+          display: inline-flex;
+          height: 100%;
+          a {
+            small {
+              color: $color-alternate;
+            }
+          }
+          .spacer {
+            width: 3px;
+          }
+          .spacer::after {
+            border-left: 1px solid #e4e4e8;
+          }
+        }
+      }
+    }
+    section#profile-content {
+      margin-top: 1.5em;
+      background-color: $color-background;
+      header {
+        position: relative;
+        background-color: #e9e9e9;
+      }
+      h3 {
+        @extend .margin-0;
+        @extend .pt-5;
+        @extend .pb-5;
+        text-align: center;
+      }
+      button {
+        font-size: 90%;
+        position: absolute;
+        top: 4%;
+        right: .15em;
+      }
+      div#user-info {
+        flex: 1 0 auto;
+        div.user-info-item {
+          @extend .mb-15;
+          ul, li {
+            @extend .margin-7;
+            @extend .ml-2;
+            list-style-type: none;
+            margin-left: .25em;
+            padding-left: 0;
+          }
+        }
+      }
+      div#user-desc {
+        padding-left: 1em;
+      }
+    }
+  }
+}

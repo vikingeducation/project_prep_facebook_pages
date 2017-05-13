@@ -1,0 +1,97 @@
+/* Custom styles for timeline page */
+$article-post-max-width: 500px;
+main {
+  section#main-content {
+    section#timeline-content {
+      margin-top: 36px;
+      div.friend-active {
+        @extend .mb-5;
+        div.friend-pic {
+          img {
+            max-width: 40px;
+          }
+        }
+        div.friend-name {
+          @extend .font-smaller;
+        }
+      }
+      section#activity-log {
+        @extend .pt-13;
+        @extend .pl-10;
+        height: 100%;
+        flex: 0 1 auto;
+        h2 {
+          @extend .mt-20;
+          color: $color-foreground;
+        }
+        h4:last-child {
+          @extend .mt-20;
+          text-align: center;
+        }
+
+      }
+      section#timeline {
+        border-left: 1px solid $color-alternate;
+        article#post-maker {
+          h4 {
+            margin: 0;
+            padding: .25em;
+            background-color: #efefef;
+            text-align: center;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+          }
+          div.textarea-post {
+            @extend .pt-5;
+            @extend .pr-10;
+            @extend .pb-5;
+            @extend .pl-10;
+            background-color: $color-background;
+            textarea {
+              resize: none;
+              width: 100%;
+              min-height: 6em;
+            }
+          }
+          a {
+            @extend .margin-5;
+            @extend .font-smallest;
+            float: right;
+          }
+        }
+        article.post  {
+          @extend .font-smaller;
+          @extend .mb-20;
+          @extend .pb-5;
+          width: 100%;
+          max-width: $article-post-max-width;
+          border-top-left-radius: 4px;
+          border-top-right-radius: 4px;
+          div.friend-active {
+            @extend .padding-5;
+            @extend .font-larger;
+          }
+          p {
+            @extend .padding-7;
+          }
+          hr {
+            @extend .margin-5;
+            border: none;
+            height: 1px;
+            background-color: $color-alternate;
+            margin-top: 0;
+          }
+          a:not(.pure-button) {
+            @extend .mb-1;
+            color: $color-primary-0;
+            margin-left: .5em;
+          }
+          div.likes {
+            @extend .padding-3;
+            padding-left: .5em;
+          }
+        }
+      }
+    }
+  }
+}

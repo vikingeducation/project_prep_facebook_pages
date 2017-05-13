@@ -1,0 +1,90 @@
+/* Globals */
+$min-mq-width: 435px;
+$min-content-width: 851px;
+$max-content-width: 1040px;
+$header-max-height: 36px;
+
+/* Specific color definitions */
+$color-background: #fcfeef;
+$color-foreground-on-dark: $color-background;
+$color-foreground: #333333;
+$color-header-border-bottom: rgba(50, 50, 50, .25);
+$color-border-dark: $color-foreground;
+$color-border-top-content: rgba(125, 125, 125, .15);
+$color-alternate: rgb(199, 199, 199);
+$color-link-light: $color-alternate;
+$color-border-light: #78b2ba;
+$color-nav-link-hover: #305484;
+$color-link-hover: $color-border-light;
+$color-link: #094e58;
+$color-box-shadow: rgba(0, 0, 0, .25);
+$color-text-shadow: rgba(0, 0, 0, .2);
+
+/* Generic color definitions */
+$color-primary-0: #365d8a;
+$color-primary-3: #204976;
+
+/* Default font families */
+html, button, input, select, textarea,
+    .pure-g [class *= "pure-u"] {
+      color: $color-foreground;
+      font-family: 'Ubuntu', 'Roboto', Helvetica, sans-serif;
+}
+
+/* Generic styles */
+.white {
+  color: $color-foreground-on-dark !important;
+}
+.black {
+  color: $color-foreground !important;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.content-column {
+  font-size: 75%;
+}
+:not(#user-desc).content-column {
+  flex: 1 0 auto;
+}
+.padded-content {
+  flex: 1 0 auto;
+  padding: 2.5em;
+  padding-top: 1em;
+}
+.spacer {
+  width: .8em;
+}
+.spacer:after {
+  content: "";
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  margin-left: 50%;
+  border-left: 1px solid $color-primary-3;
+}
+.content-section {
+  width: $min-content-width;
+  background-color: #fff;
+  border-top: 1px solid $color-border-top-content;
+  border-radius: 0px 0px 2px 2px;
+  box-shadow: 0px 1px 2px $color-box-shadow;
+}
+
+/* Base styles */
+h1,h2,h3,h4,h5,h6 {
+  margin: .25em;
+  color: $color-primary-0;
+}
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+a:not(.pure-button):hover {
+  color: $color-link-hover;
+}

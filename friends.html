@@ -6,12 +6,12 @@
           href="https://unpkg.com/purecss@0.6.2/build/pure-min.css"
           integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD"
           crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style/facelook-style.css" />
     <script src="https://use.fontawesome.com/dd70346d29.js"></script>
   </head>
   <body>
     <!-- START HEADER W/ LOGIN -->
-    <header id="main-header" class="main-header flex-container flex-row flex-align-center">
+    <header id="main-header" class="main-header flex-row-center">
       <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
       <form class="pure-form pure-u-1-4">
         <input class="pure-input-1" type="search" placeholder="Search Facelook"  />
@@ -24,7 +24,7 @@
       <h5><a href="index.html">Home</a></h5>
       <div class="spacer"></div>
       <h5><a href="index.html">Find Friends</a></h5>
-      <div class="pure-u-4-24 user-action-icons flex-container flex-row flex-align-center">
+      <div class="pure-u-4-24 user-action-icons flex-row-center">
         <i class="fa fa-users fa-2x black" aria-hidden="true" title="Friend Requests"></i>
         <i class="fa fa-comment fa-2x black" aria-hidden="true" title="Messenger"></i>
         <i class="fa fa-globe fa-2x black" aria-hidden="true" title="Notifications"></i>
@@ -35,12 +35,13 @@
     <!-- END HEADER W/ LOGIN -->
 
     <!-- START MAIN CONTENT -->
-    <main class="flex-container flex-row flex-align-start">
-      <section id="main-content" class="pure-u-7-8 flex-container flex-col flex-align-start">
+    <main class="flex-row-start">
+      <section id="main-content" class="pure-u-7-8 flex-col-start">
 
         <!-- START TIMELINE PIC & PROFILE LINKS -->
         <section id="profile-outline" class="content-section pure-u-7-8">
           <div id="timeline-pic" class="pure-u-1">
+            <img src="images/timeline-hogwarts.jpg" />
             <h2>Harry Potter</h2>
           </div>
 
@@ -51,7 +52,7 @@
               </div>
             </div>
 
-            <div id="profile-links" class="flex-container flex-row flex-align-start">
+            <div id="profile-links" class="flex-row-start">
               <a href="timeline.html">Timeline</a>
               <div class="spacer"></div>
               <a href="about.html">About</a>
@@ -73,9 +74,9 @@
           <header>
             <h3>Friends</h3>
           </header>
-          <div id="user-friends" class="padded-content flex-container flex-row flex-align-start">
-            <div class="content-column flex-container flex-col flex-align-start">
-              <article class="flex-container flex-row flex-align-center">
+          <div id="user-friends" class="padded-content flex-row-start">
+            <div class="content-column flex-col-start">
+              <article class="flex-row-center">
                 <div class="friend-pic">
                   <img src="images/hermione.jpg" />
                 </div>
@@ -87,7 +88,7 @@
                   <a class="pure-button" href="#">Unfriend</a>
                 </div>
               </article>
-              <article class="flex-container flex-row flex-align-center">
+              <article class="flex-row-center">
                 <div class="friend-pic">
                   <img src="images/ron.jpg" />
                 </div>
@@ -99,7 +100,7 @@
                   <a class="pure-button" href="#">Unfriend</a>
                 </div>
               </article>
-              <article class="flex-container flex-row flex-align-center">
+              <article class="flex-row-center">
                 <div class="friend-pic">
                   <img src="images/albus.jpg" />
                 </div>
@@ -113,8 +114,8 @@
               </article>
             </div>
 
-            <div class="content-column flex-container flex-col flex-align-start">
-              <article class="flex-container flex-row flex-align-center">
+            <div class="content-column flex-col-start">
+              <article class="flex-row-center">
                 <div class="friend-pic">
                   <img src="images/rubeus.jpg" />
                 </div>
@@ -126,7 +127,7 @@
                   <a class="pure-button" href="#">Unfriend</a>
                 </div>
               </article>
-              <article class="flex-container flex-row flex-align-center">
+              <article class="flex-row-center">
                 <div class="friend-pic">
                   <img src="images/severus.jpg" />
                 </div>
@@ -138,7 +139,7 @@
                   <a class="pure-button" href="#">Unfriend</a>
                 </div>
               </article>
-              <article class="flex-container flex-row flex-align-center">
+              <article class="flex-row-center">
                 <div class="friend-pic">
                   <img src="images/voldemort.jpg" />
                 </div>

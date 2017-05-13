@@ -1,0 +1,105 @@
+/* Generate all spacing classes */
+@mixin generate-spacing-class($num, $divisor, $unit) {
+  $amt: $divisor/100*$num;
+  @each $side in (top, right, bottom, left) {
+    $prefix: str-slice($side, 0, 1);
+    .m#{$prefix}-#{$num} {
+      margin-#{$side}: #{$amt}#{$unit};
+    }
+    .p#{$prefix}-#{$num} {
+      padding-#{$side}: #{$amt}#{$unit};
+    }
+  }
+  .margin-#{$num} {
+    @extend .mt-#{$num};
+    @extend .mr-#{$num};
+    @extend .mb-#{$num};
+    @extend .ml-#{$num};
+  }
+  .padding-#{$num} {
+    @extend .pt-#{$num};
+    @extend .pr-#{$num};
+    @extend .pb-#{$num};
+    @extend .pl-#{$num};
+  }
+}
+@mixin generate-spacing-classes($limit, $divisor, $unit) {
+  @for $i from 0 through $limit {
+    @include generate-spacing-class($i, $divisor, $unit);
+  }
+}
+
+/* Flex display */
+@mixin generate-flex-styles {
+  .flex-container {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
+  }
+  .flex-row {
+    @extend .flex-container;
+    flex-flow: row nowrap;
+  }
+  .flex-col {
+    @extend .flex-container;
+    flex-flow: column nowrap;
+  }
+  .flex-align-start {
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+  }
+  .flex-align-center {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+  .flex-align-end {
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+  }
+
+  @each $type in (row, col) {
+    @each $alignment in (start, center, end) {
+      .flex-#{$type}-#{$alignment} {
+        @extend .flex-#{$type};
+        @extend .flex-align-#{$alignment};
+      }
+    }
+  }
+}
+
+/* Font sizes */
+@mixin generate-font-sizes-and-weights {
+  $sizes: (smaller, small, normal, larger, largest);
+  .font-smallest {
+    font-size: 75%;
+  }
+  @for $i from 8 through 12 {
+    $percent: percentage($i/10);
+    $index: $i - 7;
+    .font-#{nth($sizes, $index)} {
+      font-size: #{$percent};
+    }
+  }
+  .font-largest {
+    font-size: 125%;
+  }
+  @for $i from 1 through 7 {
+    $weight: $i * 100;
+    .font-weight-#{$i} {
+      font-weight: #{$weight};
+    }
+  }
+}
+
+/* Border radii */
+@mixin generate-border-radii {
+  @for $i from 1 through 5 {
+    .border-radius-#{$i} {
+      border-radius: #{$i}px;
+    }
+  }
+}

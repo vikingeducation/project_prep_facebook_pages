@@ -1,0 +1,120 @@
+/* Login form styles */
+header.main-header {
+  section#login-form {
+    form {
+      transform: scale(0.75, 0.75);
+      div {
+        display: inline-block;
+      }
+      label {
+        display: block;
+        color: $color-foreground-on-dark;
+      }
+    }
+    h4 {
+      @extend .mr-10;
+      @extend .font-weight-4;
+      display: none;
+      color: $color-foreground-on-dark;
+      a {
+        @extend .font-weight-7;
+        color: $color-link-light;
+
+      }
+      a:hover {
+        color: $color-link-hover;
+      }
+    }
+  }
+  @media screen and (max-width: 792px) {
+    section#login-form {
+      form {
+        display: none;
+      }
+    }
+    section#login-form {
+      h4 {
+        display: block;
+      }
+    }
+  }
+}
+header#home-page-header {
+  @extend .padding-10;
+  min-width: $min-mq-width;
+  h1 {
+    flex: 1 0 auto;
+  }
+}
+
+/* Custom styles for home(login) page */
+$color-login-button: rgb(28, 184, 65);
+main {
+  section#home-page-content {
+    flex: 3 0 auto;
+    min-height: 100%;
+    max-width: 50%;
+    h1 {
+      @extend .mb-0;
+    }
+    li {
+      @extend .pt-8;
+      @extend .pb-8;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    section#home-page-content {
+      display: none;
+    }
+  }
+  /* Sign-up form */
+  section#sign-up-form {
+    @extend .padding-20;
+    flex: 1 0 auto;
+    max-width: 35%;
+    min-width: $min-mq-width;
+    form {
+      legend {
+        @extend .mb-0;
+        color: $color-foreground;
+        border: none;
+        font-family: 'Ubuntu';
+        font-size: 300%;
+      }
+      div.input-container {
+        display: inline-block;
+      }
+      div.spacer {
+        height: 5em;
+      }
+      select {
+        max-height: 10em;
+      }
+      button {
+        @extend .mt-5;
+        @extend .padding-5;
+        @extend .border-radius-4;
+        @extend .font-largest;
+        color: $color-foreground-on-dark;
+        text-shadow: 0 1px 1px $color-text-shadow;
+        background: $color-login-button;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    section#sign-up-form {
+      max-width: 85%;
+      padding: 0 0;
+    }
+  }
+}
+
+/* Footer style */
+footer {
+  position:fixed;
+  width: 100%;
+  height: 2em;
+  bottom: 0;
+  background-color: $color-alternate;
+  box-shadow: 0 -2px 2px $color-box-shadow;
+}

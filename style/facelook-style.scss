@@ -1,0 +1,128 @@
+/* Import fonts from Google */
+@import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu');
+
+/* Import custom styles for definitions */
+@import 'generated-styles', 'defaults';
+
+/* Generate generic and spacing styles */
+@include generate-spacing-classes(25, 10, "em");
+@include generate-flex-styles;
+@include generate-font-sizes-and-weights;
+@include generate-border-radii;
+
+/************************/
+/* Styles for all pages */
+/************************/
+/* Header style */
+header.main-header {
+  @extend .padding-2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  min-width: $min-content-width;
+  max-height: $header-max-height;
+  background-color: $color-primary-0;
+  border-bottom: 1px solid $color-header-border-bottom;
+  box-shadow: 0 1px 2px $color-box-shadow;
+  * {
+    flex: 0 1 auto;
+    color: $color-foreground-on-dark;
+  }
+  h1 {
+    @extend .margin-2;
+  }
+}
+header#main-header {
+  form {
+    @extend .margin-0;
+    @extend .ml-5;
+    @extend .font-smallest;
+    min-width: 35%;
+    position: relative;
+    i.fa-search {
+      position: absolute;
+      top: 0;
+      right: .5em;
+      z-index: 1;
+      transform: scale(.75, .75);
+      color: $color-alternate;
+    }
+  }
+  h5:first-of-type {
+    @extend .ml-5;
+  }
+  h5 {
+    @extend .border-radius-2;
+    @extend .margin-0;
+    @extend .padding-5;
+  }
+  h5:hover {
+    background-color: $color-nav-link-hover;
+  }
+  div.user-action-icons {
+    i {
+      cursor: pointer;
+      transform: scale(.65, .65);
+    }
+  }
+  a {
+    color: $color-foreground-on-dark;
+    @extend .border-radius-3;
+  }
+}
+
+/* Main content style */
+main {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-width: $min-mq-width;
+  section#main-content {
+    align-items: flex-end;
+    min-width: $min-content-width;
+    max-width: 1040px;
+  }
+  div.friend-pic {
+    flex: 0 1 auto;
+  }
+  div.friend-pic {
+    img {
+      @extend .border-radius-4;
+      border: 1px solid $color-border-dark;
+      max-width: 100px;
+    }
+  }
+  div.friend-name {
+    @extend .pl-5;
+    flex: 0 1 auto;
+    h4 {
+      @extend .font-weight-4;
+    }
+    a {
+      @extend .margin-3;
+      @extend .font-smaller;
+      color: $color-primary-0;
+    }
+    span {
+      @extend .margin-3;
+      @extend .font-small;
+      color: $color-alternate;
+    }
+  }
+}
+
+/* Import login page specific styles */
+@import 'login/login-page';
+
+/* Import about page specific styles */
+@import 'about/about-page';
+
+/* Import friends page specific styles */
+@import 'friends/friends-page';
+
+/* Import timeline page specific styles */
+@import 'timeline/timeline-page';
