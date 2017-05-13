@@ -1,0 +1,409 @@
+/* Color Scheme */
+:root {
+  --color-background: #fcfeff;
+  --color-foreground: #333;
+  --color-alternate: rgb(199, 199, 199);
+  --color-foreground-on-dark: #fcfeef;
+  --color-border-dark: #333;
+  --color-border-light: var(--color-secondary-1-1);
+  --color-link: var(--color-secondary-1-4);
+  --color-link-light: var(--color-alternate);
+  --color-link-hover: var(--color-secondary-1-1);
+  --color-box-shadow: rgba(0, 0, 0, .25);
+
+  --color-primary-0: #365D8A;	/* Main Primary color */
+  --color-primary-1: #819FC1;
+  --color-primary-2: #5277A0;
+  --color-primary-3: #204976;
+  --color-primary-4: #0F345D;
+
+  --color-secondary-1-0: #2D7781;	/* Main Secondary color (1) */
+  --color-secondary-1-1: #78B2BA;
+  --color-secondary-1-2: #488C96;
+  --color-secondary-1-3: #19646F;
+  --color-secondary-1-4: #094E58;
+
+  --color-secondary-2-0: #3C4C8F;	/* Main Secondary color (2) */
+  --color-secondary-2-1: #8794C6;
+  --color-secondary-2-2: #5968A7;
+  --color-secondary-2-3: #26377B;
+  --color-secondary-2-4: #132361;
+
+  --color-complement-0: #D39C47;	/* Main Complement color */
+  --color-complement-1: #FFDBA3;
+  --color-complement-2: #F5C273;
+  --color-complement-3: #B57D26;
+  --color-complement-4: #8F5C0D;
+}
+
+/* Import icons from font-awesome */
+
+/* Import fonts from google */
+@import url('https://fonts.googleapis.com/css?family=Roboto|Ubuntu');
+
+/* Default font families */
+html, button, input, select, textarea,
+    .pure-g [class *= "pure-u"] {
+      color: var(--color-foreground);
+
+      font-family: 'Ubuntu', 'Roboto', Helvetica, sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: .25em;
+  color: var(--color-primary-0);
+}
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+a:not(.pure-button):hover {
+  color: var(--color-link-hover);
+}
+
+/* Generic styles */
+.white {
+  color: var(--color-foreground-on-dark) !important;
+}
+.black {
+  color: var(--color-foreground) !important;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.flex-container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+}
+.flex-row {
+  flex-flow: row nowrap;
+}
+.flex-col {
+  flex-flow: column nowrap;
+}
+.flex-align-start {
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+.flex-align-center {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.flex-align-end {
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: flex-end;
+}
+
+/* Header style */
+header.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: var(--color-primary-0);
+  border-bottom: 1px solid rgba(50, 50, 50, .25);
+  box-shadow: 0 1px 2px var(--color-box-shadow);
+  padding: .25em;
+  min-width: 851px;
+  max-height: 36px;
+}
+header.main-header * {
+  order: 0;
+  flex: 0 1 auto;
+  min-width: 0;
+  color: var(--color-foreground-on-dark);
+}
+header.main-header h1 {
+  margin: .25em;
+}
+header#home-page-header {
+  padding: 1em;
+  min-width: 400px;
+}
+header#home-page-header h1 {
+  order: 0;
+  flex: 1 0 auto;
+  min-width: 0;
+  min-height: auto;
+}
+header:not(#home-page-header) { padding: .1em; }
+header#main-header form {
+  min-width: 35%;
+  position: relative;
+  margin: 0 0 0 .5em;
+  font-size: 75%;
+}
+header#main-header form i.fa-search {
+  z-index: 1;
+  transform: scale(0.75, 0.75);
+  color: var(--color-alternate);
+  position: absolute;
+  right: .5em;
+  top: 0;
+}
+header#main-header h5:first-of-type {
+  margin-left: .5em;
+}
+header#main-header h5 {
+  border-radius: 2px;
+  margin: 0;
+  padding: .5em;
+}
+header#main-header h5:hover {
+  background-color: #305484;
+}
+.spacer {
+  width: .8em;
+}
+.spacer:after {
+  content: "";
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  margin-left: 50%;
+  border-left: 1px solid var(--color-primary-3);
+}
+header#main-header div.user-action-icons i {
+  cursor: pointer;
+  transform: scale(0.65, 0.65);
+}
+
+section#profile-outline div#timeline-pic {
+  position: relative;
+  margin-top: 35px;
+  height: 315px;
+  background: url('images/timeline-hogwarts.jpg');
+  background-size: cover;
+  background-position: center;
+}
+div#timeline-pic h2 {
+  position: absolute;
+  left: 210px;
+  bottom: .25em;
+  color: var(--color-foreground-on-dark);
+  text-shadow: 2px 2px 2px var(--color-box-shadow);
+  font-weight: 400;
+}
+section#profile-outline div#profile-management {
+  position: relative;
+  display: flex;
+  height: 40px;
+}
+div#profile-management div#profile-picture {
+  display: inline-block;
+  position: relative;
+  width: 220px;
+  height: 100%;
+}
+div#profile-management a {
+  font-weight: 600;
+  border-radius: 2px;
+  color: var(--color-primary-3);
+  padding: 12px;
+  font-size: 90%;
+  font-family: sans-serif;
+}
+div#profile-management a:hover {
+  background-color: #efefef;
+}
+div#profile-management a#update-profile-link {
+  position: absolute;
+  right: 0;
+}
+div#profile-picture div#profile-pic-wrapper {
+  position: absolute;
+  left: .8em;
+  bottom: 35%;
+  background-color: var(--color-background);
+  padding: 4px;
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px var(--color-box-shadow);
+}
+div#profile-pic-wrapper img {
+  max-width: 180px;
+}
+div#profile-links {
+  align-items: center;
+  display: inline-flex;
+  height: 100%;
+}
+div#profile-links a small {
+  color: var(--color-alternate);
+}
+div#profile-links .spacer {
+  width: 3px;
+}
+div#profile-links .spacer::after {
+  border-left: 1px solid #e4e4e8;
+}
+
+section#profile-content {
+  margin-top: 1.5em;
+}
+section#profile-content header {
+  position: relative;
+  background-color: #fafafa;
+}
+section#profile-content h3 {
+  text-align: center;
+}
+section#profile-content button {
+  font-size: 90%;
+  position: absolute;
+  top: 4%;
+  right: .15em;
+}
+
+div#user-info {
+  flex: 1 0 auto;
+}
+div#user-info div.user-info-item {
+  margin-bottom: 1.5em;
+}
+div#user-info div.user-info-item ul, li {
+  list-style-type: none;
+  margin: .75em;
+  margin-left: .25em;
+  padding-left: 0;
+}
+div#user-desc {
+  padding-left: 1em;
+}
+div.content-column {
+  font-size: 15%;
+}
+div:not(#user-desc).content-column {
+  flex: 1 0 auto;
+}
+div#user-friends article {
+  width: 100%;
+}
+div#user-friends article div {
+  margin-bottom: 1em;
+}
+div.friend-pic {
+  flex: 0 1 auto;
+}
+div.friend-pic img {
+  border-radius: 4px;
+  border: 1px solid var(--color-border-dark);
+  max-width: 100px;
+}
+div.friend-name {
+  flex: 0 1 auto;
+  padding-left: .5em;
+}
+div.friend-name h4 {
+  font-weight: 400;
+}
+div.friend-name a {
+  color: var(--color-primary-0);
+  margin: .3em;
+  font-size: 80%;
+}
+div.friend-name span {
+  font-size: 90%;
+  margin: .3em;
+  color: var(--color-alternate);
+}
+div.friend-unfriend {
+  flex: 1 0 auto;
+  padding-right: 1.5em;
+  text-align: right;
+}
+div.friend-unfriend a {
+  font-size: 85%;
+}
+section#timeline-content {
+  margin-top: 40px;
+}
+section#activity-log {
+  height: 100%;
+  padding-left: 1em;
+  flex: 0 1 auto;
+  padding-top: 1.25em;
+  /*border-right: 1px solid var(--color-alternate);*/
+}
+section#activity-log h2 {
+  color: var(--color-foreground);
+  margin-top: 2em;
+}
+section#activity-log h4:last-child {
+  margin-top: 2em;
+  text-align: center;
+}
+div.friend-active div.friend-pic img {
+  max-width: 40px;
+}
+div.friend-active div.friend-name {
+  font-size: 80%;
+}
+div.friend-active {
+  margin-bottom: .5em;
+}
+section#timeline {
+  border-left: 1px solid var(--color-alternate);
+}
+article.post  {
+  width: 100%;
+  max-width: 500px;
+  font-size: 80%;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-bottom: 2em;
+  padding-bottom: .5em;
+}
+article.post div.friend-active {
+  padding: .5em;
+  font-size: 120%;
+}
+article.post p {
+  padding: 0 .75em 0 .75em;
+}
+article.post hr {
+  border: none;
+  height: 1px;
+  background-color: var(--color-alternate);
+  margin: 0 .5em .5em .5em;
+}
+article.post a:not(.pure-button) {
+  color: var(--color-primary-0);
+  margin: 0 0 1em .5em;
+}
+article.post div.likes {
+  padding: .25em .25em .25em .5em;
+}
+article#post-maker h4 {
+  margin: 0;
+  padding: .25em;
+  background-color: #efefef;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+article#post-maker div.textarea-post {
+  background-color: var(--color-background);
+  padding: .5em 1em;
+}
+article#post-maker textarea {
+  resize: none;
+  width: 100%;
+  min-height: 6em;
+}
+article#post-maker a {
+  float: right;
+  font-size: 75%;
+  margin: .5em;
+}

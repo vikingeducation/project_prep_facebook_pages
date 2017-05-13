@@ -1,0 +1,133 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Facelook</title>
+    <link rel="stylesheet"
+          href="https://unpkg.com/purecss@0.6.2/build/pure-min.css"
+          integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="style/facelook-style.css" />
+    <script src="https://use.fontawesome.com/dd70346d29.js"></script>
+  </head>
+  <body>
+    <!-- START HEADER -->
+    <header id="main-header" class="main-header flex-row-center">
+      <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+      <form class="pure-form pure-u-1-4">
+        <input class="pure-input-1" type="search" placeholder="Search Facelook"  />
+        <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+      </form>
+      <div class="pure-u-1-24"></div>
+      <i class="fa fa-smile-o" aria-hidden="true"></i>
+      <h5><a href="index.html">Andrew</a></h5>
+      <div class="spacer"></div>
+      <h5><a href="index.html">Home</a></h5>
+      <div class="spacer"></div>
+      <h5><a href="index.html">Find Friends</a></h5>
+      <div class="pure-u-4-24 user-action-icons flex-row-center">
+        <i class="fa fa-users fa-2x black" aria-hidden="true" title="Friend Requests"></i>
+        <i class="fa fa-comment fa-2x black" aria-hidden="true" title="Messenger"></i>
+        <i class="fa fa-globe fa-2x black" aria-hidden="true" title="Notifications"></i>
+        <div class="spacer"></div>
+        <i class="fa fa-question-circle fa-2x black" aria-hidden="true" title="Support"></i>
+      </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- START MAIN CONTENT -->
+    <main class="flex-row-start">
+      <section id="main-content" class="pure-u-7-8 flex-col-start">
+
+        <!-- START TIMELINE PIC & PROFILE LINKS -->
+        <section id="profile-outline" class="content-section pure-u-7-8">
+          <div id="timeline-pic" class="pure-u-1">
+            <img src="images/timeline-hogwarts.jpg" />
+            <h2>Harry Potter</h2>
+          </div>
+
+          <div id="profile-management" class="pure-u-1">
+            <div id="profile-picture">
+              <div id="profile-pic-wrapper">
+                <img id="profile-image" src="images/harry.jpg">
+              </div>
+            </div>
+
+            <div id="profile-links" class="flex-row-start">
+              <a href="timeline.html">Timeline</a>
+              <div class="spacer"></div>
+              <a href="#">About</a>
+              <div class="spacer"></div>
+              <a href="friends.html">Friends <small>(4352)</small></a>
+              <div class="spacer"></div>
+              <a href="photos.html">Photos <small>(339)</small></a>
+              <div class="spacer"></div>
+              <a href="#">More</a>
+            </div>
+
+            <a id="update-profile-link" href="update-profile.html">Edit Profile</a>
+          </div>
+        </section>
+        <!-- END TIMELINE PIC AND PROFILE LINKS -->
+
+        <!-- START PROFILE INFO -->
+        <section id="profile-content" class="content-section pure-u-7-8">
+          <header>
+            <h3>About</h3>
+            <button class="right pure-button pure-button-primary">Edit your profile</button>
+          </header>
+          <div class="padded-content flex-row-start">
+            <div id="user-info" class="content-column flex-col-start">
+              <h2>Basic Information</h2>
+              <div class="user-info-item flex-row-start">
+                <ul>
+                  <li>Birthday</li>
+                  <li>College</li>
+                  <li>Hometown</li>
+                  <li>Currently Lives</li>
+                </ul>
+                <ul>
+                  <li>July 31<sup>st</sup>, 1980</li>
+                  <li>Hogworts College</li>
+                  <li>Godrick's Hollow, England</li>
+                  <li>Godrick's Hollow, England</li>
+                </ul>
+              </div>
+              <h2>Contact Information</h2>
+              <div class="user-info-item flex-row-start">
+                <ul>
+                  <li>Birthday</li>
+                  <li>College</li>
+                </ul>
+                <ul>
+                  <li>July 31<sup>st</sup>, 1980</li>
+                  <li>Hogworts College</li>
+                </ul>
+              </div>
+            </div>
+
+            <div id="user-desc" class="content-column flex-col-start">
+              <h2>Words to Live By</h2>
+              <div class="user-info-item">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, ab quod similique facilis nostrum.
+                </p>
+              </div>
+              <h2>About Me</h2>
+              <div class="user-info-item">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- END PROFILE INFO --->
+
+      </section>
+    </main>
+    <!-- END MAIN CONTENT -->
+  </body>
+</html>
