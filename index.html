@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Facelook</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+
+    <link rel="stylesheet" href="/styles.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+<nav>
+    <h1 class="title">
+        facelook
+    </h1>
+    <form id="login" action="/login">
+        <fieldset class="account-action">
+            <div class="grid-wrapper">
+                <label for="email">Email</label>
+                <label for="password">Password</label>
+                <div></div>
+
+                <input id="email" type="email" name="email" placeholder="name@domain.com" required>
+                <input id="password" type="password" name="password" placeholder="Password required" required>
+                <input class="btn" type="submit" name="submit" value="Log In">
+            </div>
+        </fieldset>
+    </form>
+</nav>
+
+<div id="main">
+    <div id="main-announce">
+        <h1>Connect with all your friends!</h1>
+        <ul>
+            <li>See photos and updates in your news feed.</li>
+            <li>Post your status for the world to see your profile.</li>
+            <li>Get in touch with your friends by "friending" them.</li>
+            <li>Like things because you're a postivie person!</li>
+        </ul>
+    </div>
+    <div id="main-sign-up">
+        <h1>Sign Up</h1>
+        <form id="sign-up" action="/signup">
+            <fieldset class="account-signup">
+                <div class="signup-grid">
+                    <label for="first-name">First Name</label>
+                    <label for="last-name">Last Name</label>
+
+                    <input id="first-name" type="text" name="first-name" placeholder="First Name" required>
+                    <input id="last-name" type="text" name="last-name" placeholder="Last Name" required>
+
+                    <label for="signup-email">Email</label><div></div>
+                    <input id="signup-email" type="email" name="email" placeholder="name@domain.com" required>
+
+                    <label for="signup-password">New Password</label><div></div>
+                    <input id="signup-password" type="password" name="password" placeholder="New password" required>
+
+                    <label for="signup-password-confirm">Confirm New Password</label><div></div>
+                    <input id="signup-password-confirm" type="password" name="password" placeholder="Confirm password" required>
+
+                    <label for="signup-birthday">Birthday</label><div></div>
+                    <input id="signup-birthday" type="date" name="password" required><div></div>
+
+                    <fieldset id="signup-gender">
+                        <input type="radio" name="gender" value="Female" id="gender-female"><label id="gender-female-label" for="gender-female"> Female</label>
+                        <input type="radio" name="gender" value="Male" id="gender-male"><label for="gender-male"> Male</label>
+                    </fieldset>
+
+                    <input class="btn" type="submit" name="signup" value="Sign Up!">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
