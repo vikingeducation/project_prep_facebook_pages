@@ -1,0 +1,397 @@
+/*
+=========================
+CSS Reset
+=========================
+ */
+
+ /* http://meyerweb.com/eric/tools/css/reset/
+    v2.0 | 20110126
+    License: none (public domain)
+ */
+
+ html, body, div, span, applet, object, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ a, abbr, acronym, address, big, cite, code,
+ del, dfn, em, img, ins, kbd, q, s, samp,
+ small, strike, strong, sub, sup, tt, var,
+ b, u, i, center,
+ dl, dt, dd, ol, ul, li,
+ fieldset, form, label, legend,
+ table, caption, tbody, tfoot, thead, tr, th, td,
+ article, aside, canvas, details, embed,
+ figure, figcaption, footer, header, hgroup,
+ menu, nav, output, ruby, section, summary,
+ time, mark, audio, video {
+ 	margin: 0;
+ 	padding: 0;
+ 	border: 0;
+ 	font-size: 100%;
+ 	font: inherit;
+ 	vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ article, aside, details, figcaption, figure,
+ footer, header, hgroup, menu, nav, section {
+ 	display: block;
+ }
+ body {
+ 	line-height: 1;
+ }
+ ol, ul {
+ 	list-style: none;
+ }
+ blockquote, q {
+ 	quotes: none;
+ }
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+ 	content: '';
+ 	content: none;
+ }
+ table {
+ 	border-collapse: collapse;
+ 	border-spacing: 0;
+ }
+
+/*
+==================
+Box Sizing
+==================
+*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+=================
+Home Page Header
+=================
+*/
+
+.header {
+    background-color: #2B78E4;
+    height: 80px;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.login {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.email,
+.password,
+.submit {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.submit input{
+    background: #A0C7FA;
+    width: 60px;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+}
+
+/*
+================
+Section CSS
+================
+ */
+
+.section {
+    width: 100%;
+    display: inline-block;
+}
+
+/*
+==================
+Right Content CSS
+==================
+ */
+
+.right-content {
+    float: right;
+    display: block;
+    position: relative;
+    bottom: 230px;
+    margin-right: 60px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.enroll {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.emailbox input{
+    width: 100%;
+}
+
+.newpassword input {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.confirmpassword input {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.firstname {
+    display: inline-block;
+}
+
+.firstname input {
+    margin-right: 10px;
+}
+
+.birthday {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.month,
+.day {
+    margin-right: 5px;
+}
+
+.month,
+.day,
+.year {
+    margin-bottom: 12px;
+    color: #A9A9BB;
+}
+
+.radio {
+    margin-bottom: 15px;
+}
+
+.radio input {
+    margin: 0 auto;
+}
+
+.signup {
+    width: 100%;
+    background: #239E0F;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border: 2px solid black;
+    font-weight: bold;
+    box-shadow: 2px 2px black;
+}
+
+/*
+================
+left Section CSS
+================
+ */
+
+.connect {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+
+.connectfriend li {
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: 20px;
+    list-style-type: circle;
+    text-indent: 1.4em
+
+}
+
+/*
+===============
+About Page CSS
+===============
+ */
+
+ .header-about {
+     background-color: #2B78E4;
+     height: 50px;
+     color: white;
+     border-bottom: 2px solid black;
+ }
+
+ .header-about h1 {
+     display: inline-block;
+     font-size: 30px;
+     margin-left: 20px;
+     margin-top: 10px;
+     font-weight: bold;
+ }
+
+.search {
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 20px;
+    padding-bottom: 15px;
+
+}
+
+.search input {
+    width: 400%;
+}
+
+.username {
+    display: inline-block;
+    float: right;
+    font-size: 25px;
+    margin-top: 1.2%;
+    margin-right: 10%;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.top-section {
+    border: 2px solid black;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-image: url("pictures/comet.jpg");
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 270px;
+
+}
+
+.top-section p {
+    color: white;
+    position: relative;
+    top: 30%;
+    left: 17%;
+    font-size: 20px;
+}
+
+
+.nav-bar {
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+    display: inline-block;
+    padding: 20px;
+    font-size: 15px;
+    border: 2px solid black;
+}
+
+nav {
+    margin-left: 17%;
+    padding-left: 5px;
+
+}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    border: solid 2px black;
+    height: auto;
+    width: 100px;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: inherit;
+}
+
+nav a:hover {
+    background: lightgrey;
+}
+.edit {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+    text-decoration: underline;
+    border: none;
+    color: blue;
+}
+
+img.background {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 58%;
+    left: 2%;
+}
+
+.bottom-header {
+    border: 2px solid black;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10px;
+    background: #EEEEEE;
+    padding: 10px;
+    height: 50px;
+}
+.about{
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50%;
+}
+
+.edit-btn {
+    display: inline-block;
+    float: right;
+    border: 2px solid black;
+    padding: 5px;
+    background: #2B78E4;
+    color: white;
+    box-shadow: 2px 2px black;
+}
+
+.main {
+    margin-right: 10%;
+    margin-left: 10%;
+    border: 2px solid black;
+}
+
+table th {
+    font-weight: bold;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.main h2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.about-me {
+    display: inline-block;
+    margin-left: 50%;
+    position: relative;
+    bottom: 335px;
+}
+
+.about-me h2 {
+    margin-bottom: 3%;
+}
+
+.about-me p {
+    margin-right: 12%;
+    margin-left: 2%;
+}
