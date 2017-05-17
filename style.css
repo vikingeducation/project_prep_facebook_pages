@@ -21,11 +21,43 @@ header h1 {
 	transform: translateY(-50%);
 }
 
+.skinny-header {
+	height: 50px;
+	padding: 0px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 0px;
+}
+
+header h2 a, header h2 a:visited {
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+	text-decoration: none;
+	padding-top: 50px;
+}
+
 header form {
 	float: right;
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+}
+
+header form.search-box {
+	top: 50%;
+	transform: translateY(-50%);
+	position: static;
+	margin-top: 18px;
+}
+
+header form.search-box input[type="text"] {
+	width: 400px;
 }
 
 header td, th {
@@ -55,6 +87,56 @@ main {
 	margin: 0 auto;
 	display: flex;
 }
+
+main.about-page {
+	max-width: 851px;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+header.cover {
+	background-color: inherit;
+	padding: 0px;
+	height: 315px;
+}
+
+header.cover img.profile-photo {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	transform: translate(-160%, -80%);
+}
+
+header.cover h1 {
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 30px;
+	position: relative;
+	transform: translate(80%, -130%);
+}
+
+header.cover table {
+	color: black;
+	width: 100%;
+	position: relative;
+	transform: translate(0%, -380%);
+}
+
+header.cover td.spacer {
+	width: 120px;
+}
+
+header.cover td.end {
+	width: 100px;
+}
+
+header.cover td.selected {
+	background-color: #D3D1D4;
+}
+
+header.cover td span {
+	color: grey;
+}
+
 
 .info {
 	width: 50%;
@@ -136,3 +218,35 @@ main {
 	cursor: pointer;
 }
 
+.about-section {
+	border: 1px solid black;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+.about-section thead tr {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	background-color: gray;
+}
+
+#left-section, #right-section {
+	padding: 40px;
+}
+
+#left-section td {
+	padding: 10px;
+}
+
+#left-section table {
+	padding-bottom: 10px;
+}
+
+.about-section h3 {
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
