@@ -4,90 +4,94 @@
 	<title>Facelook: About</title>
 
 	<link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style-about.css">
 </head>
 <body>
 
-<header class="skinny-header">
+<header id="skinny-header">
 	<h2><a href="index.html">Facelook</a></h2>
 
-	<form class="search-box">
-		<input type="text" name="search" placeholder="Search for users">
+	<form id="search-box">
+		<input type="text" name="search" id="search-text" placeholder="Search for users">
 	</form>
 
 	<h5>Harry</h5>
 </header>
 
-<main class="about-page">
-	<header class="cover">
-		<img src="https://s-media-cache-ak0.pinimg.com/originals/84/21/d1/8421d1b53991d565a0e07d0d88cc83f2.jpg">
-		<img src="http://www.wolves.co.uk/images/common/bg_player_profile_default_big.png" class="profile-photo">
-		<h1>Harry Potter</h1>
-		<nav>
+<main id="about-page-main">
+	<header id="cover">
+		<img id="profile-photo" src="http://www.wolves.co.uk/images/common/bg_player_profile_default_big.png">
+		<h1 id="profile-name">Harry Potter</h1>
+		<nav id="about-nav">
 			<table>
 				<tr>
 					<td class="spacer"></td>
 					<td>Timeline</td>
 					<td class="selected">About</td>
-					<td>Photos <span>(1000)</span></td>
-					<td>Friends <span>(500)</span></td>
-					<td class="end"><a href="">Edit Profile</a></td>
+					<td>Photos <span class="greytext">(1000)</span></td>
+					<td>Friends <span class="greytext">(500)</span></td>
+					<td class="end"><span><a href="">Edit Profile</a></span></td>
 				</tr>
 			</table>
 		</nav>
 	</header>
 
-	<section>
-		<table class="about-section">
+	<section id="about-page-section">
+		<table id="about-table">
 			<thead>
 				<tr>
-					<th>About</th>
-					<th><a href="">Edit your profile</a></th>
+					<th>About<span><a href="">Edit your profile</a></span></th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
-					<td id="left-section">
-						<h3>Basic Information</h3>
-						<table>
-							<tr>
-								<td>Birthday</td>
-								<td>January 1, 1890</td>
-							</tr>
-							<tr>
-								<td>College</td>
-								<td>Hogwarts College</td>
-							</tr>
-						</table>
+					<td>
+					<table id="about-text">
+					<tr>
+						<td id="left-section">
+							<h3>Basic Information</h3>
+							<table class="info">
+								<tr>
+									<td>Birthday</td>
+									<td>January 1, 1890</td>
+								</tr>
+								<tr>
+									<td>College</td>
+									<td>Hogwarts College</td>
+								</tr>
+							</table>
 
-						<h3>Contact Information</h3>
-						<table>
-							<tr>
-								<td>Email</td>
-								<td>harry@magical.com</td>
-							</tr>
-							<tr>
-								<td>Telephone</td>
-								<td>123-456-7890</td>
-							</tr>
-						</table>
-					</td>
-					<td id="right-section">
-						<h3>Words To Live By</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<br>
-						<h3>About Me</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<h3>Contact Information</h3>
+							<table class="info">
+								<tr>
+									<td>Email</td>
+									<td>harry@magical.com</td>
+								</tr>
+								<tr>
+									<td>Telephone</td>
+									<td>123-456-7890</td>
+								</tr>
+							</table>
+						</td>
+						<td id="right-section">
+							<h3>Words To Live By</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							<br>
+							<h3>About Me</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</td>
+					</tr>
+					</table>
 					</td>
 				</tr>
 			</tbody>
