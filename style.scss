@@ -1,0 +1,141 @@
+@import "colors";
+
+body {
+	font-family: 'Freight Sans', Helvetica, Arial, sans-serif;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	background-color: $header-color;
+	color: $header-text-color;
+	box-sizing: border-box;
+	padding: 50px;
+	margin-bottom: 40px;
+
+	h1 {
+		font-size: 40px;
+		font-weight: bold;
+		float: left;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	form {
+		float: right;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	td, th {
+		padding: 5px;
+		text-align: left;
+	}
+}
+
+.btn {
+	color: white;
+	border-radius: 3px;
+	border: 1px solid white;
+}
+
+.btn_login {
+	background-color: $login-btn-color;
+	font-size: 0.8em;
+}
+
+.btn_login:hover {
+	background-color: $login-btn-color-hover;
+	color: black;
+	cursor: pointer;
+}
+
+main {
+	max-width: 990px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.info {
+	width: 50%;
+	margin-top: 50px;
+	margin-right: 100px;
+
+	h2 {
+		font-size: 25px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	
+	ul {
+		list-style-type: square;
+	}
+
+	li {
+		padding: 10px;
+		margin-left: 40px;
+	}
+}
+
+.signup {
+	width: 50%;
+
+	h1 {
+		font-size: 30px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+
+	input[type="text"] {
+		margin: 5px;
+		height: 20px;
+		width: 140px;
+	}
+
+	input[type="email"],
+	input[type="password"] {
+		width: 300px;
+		height: 20px;
+		margin: 5px;
+	}
+
+	.birthday_form {
+		margin-top: 20px;
+		margin-left: 5px;
+
+		.birthday {
+			font-size: 0.9em;
+			font-weight: bold;
+		}
+
+		select {
+			margin-top: 10px;
+			margin-right: 10px;
+		}
+	}
+
+	.gender_form {
+		label {
+			margin-right: 10px;
+		}
+
+		.gender {
+			font-size: 0.8em;
+		}
+	}
+
+	.btn_signup {
+		background-color: $signup-btn-color;
+		font-size: 1em;
+		font-weight: bold;
+		width: 300px;
+		height: 30px;
+	}
+
+	.btn_signup:hover {
+		background-color: $signup-btn-color-hover;
+		cursor: pointer;
+	}
+}

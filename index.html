@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facelook</title>
+	
+	<link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<header>
+	<h1>Facelook</h1>
+	<form>
+		<table>
+			<thead>
+				<tr>
+					<th><label>Email</label></th>
+					<th><label>Password</label></th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><input type="email" name="email"></td>
+					<td><input type="password" name="password"></td>
+					<td><input type="submit" value="Log In" class="btn btn_login"></td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</header>
+
+<main>
+	<section class="info">
+		<h2>Connect with all your friends!</h2>
+		<ul>
+			<li>See photos and updates in your news feed</li>
+			<li>Post your status for the world to see from your profile</li>
+			<li>Get in touch with your friends by "friending" them</li>
+			<li>Like things because you're a positive person!</li>
+		</ul>
+	</section>
+	<section class="signup">
+		<h1>Sign Up</h1>
+		<form>
+			<input type="text" name="firstname" placeholder="First Name">
+			<input type="text" name="lastname" placeholder="Last Name">
+			<br>
+			<input type="email" name="email" placeholder="Your Email">
+			<br>
+			<input type="password" name="password" placeholder="Your New Password">
+			<br>
+			<input type="password" name="passwordconfirm" placeholder="Confirm Your Password">
+			<br>
+			<div class="birthday_form">
+				<label class="birthday">Birthday</label>
+				<br>
+				<select>
+					<option disabled selected>Month</option>
+					<option value="January">January</option>
+					<option value="February">February</option>
+					<option value="March">March</option>
+				</select>
+				<select>
+					<option disabled selected>Day</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+				</select>
+				<select>
+					<option disabled selected>Year</option>
+					<option value="2000">2000</option>
+					<option value="2001">2001</option>
+					<option value="2002">2002</option>
+				</select>
+			</div>
+			<br>
+			<div class="gender_form">
+				<input type="radio" name="gender" value="Female">
+				<label class="gender">Female</label>
+				<input type="radio" name="gender" value="Male">
+				<label class="gender">Male</label>
+			</div>	
+			<br>
+			<input type="submit" value="Sign Up!" class="btn btn_signup">
+		</form>
+	</section>
+</main>
+
+</body>
+</html>

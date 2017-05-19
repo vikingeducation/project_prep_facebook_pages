@@ -1,0 +1,159 @@
+body {
+	font-family: 'Freight Sans', Helvetica, Arial, sans-serif;
+}
+
+#skinny-header {
+	width: 100%;
+	background-color: #27438B;
+	color: white;
+	box-sizing: border-box;
+	margin-bottom: 40px;	
+	height: 50px;
+	padding: 0px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 0px;
+}
+
+#skinny-header h2 a, #skinny-header h2 a:visited {
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+	text-decoration: none;
+	padding-top: 50px;
+}
+
+#search-box {
+	top: 50%;
+	transform: translateY(-50%);
+	position: static;
+	margin-top: 18px;
+}
+
+#search-text {
+	width: 400px;
+}
+
+#about-page-main {
+	max-width: 851px;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	margin: 0 auto;
+}
+
+#cover {
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/84/21/d1/8421d1b53991d565a0e07d0d88cc83f2.jpg");
+	height: 315px;
+}
+
+#profile-photo {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 300px;
+	padding-left: 20px;
+}
+
+#profile-name {
+	font-size: 27px;
+	font-weight: bold;
+	position: absolute;
+	top: 325px;
+	padding-left: 130px;
+}
+
+#about-nav {
+	font-size: 15px;
+	position: absolute;
+	top: 365px;
+	z-index: -1;
+}
+
+#about-nav td {
+	border: 1px solid black;
+	height: 40px;
+	box-sizing: border-box;
+	padding: 10px;
+	width: 120px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#about-nav td.selected {
+	background-color: #CAC8CB;
+}
+
+#about-nav td.spacer {
+	width: 140px;
+}
+
+#about-nav td.end {
+	text-align: right;
+	width: 230px;
+}
+
+#about-nav .greytext {
+	color: grey;
+}
+
+#about-page-section {
+	margin-top: 80px;
+}
+
+#about-table th {
+	height: 30px;
+	background-color: #CAC8CB;
+	text-align: center;
+	vertical-align: middle;
+	border: 2px solid black;
+	padding-left: 10px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+#about-table a, #about-table a:visited {
+	text-decoration: none;
+	color: blue;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+#about-table th span {
+	float: right;
+	padding-right: 10px;
+}
+
+#about-text {
+	border: 1px solid;
+	border-top: none;
+}
+
+#left-section, #right-section {
+	padding: 20px;
+}
+
+#left-section h3 {
+	font-size: 19px;
+	font-weight: bold;
+	padding-top: 25px;
+}
+
+#left-section table td {
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+#right-section h3 {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+#right-section p {
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
