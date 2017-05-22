@@ -11,50 +11,73 @@
 
 
   <body>
-<!-- Header -->
-<header class="landing-header">
-  <h1 id="landing-logo">facelook</h1>
-  <form class="log-in" action="index.html" method="post">
-    Email or Phone<br>
-    <input type="text" name="Email" value="Email">
-    Password:<br>
-    <input type="password" name="Password" value="Password">
+<!-- Landing Header -->
+<header>
+  <table id="landing-top-table">
+    <tr>
+    <td id="landing-logo">
+  <h1 >facelook</h1>
+</td>
+<td class="header-form">  <form class="log-in" action="index.html" method="post">
+ Email or Phone<br>
+    <input class="login-forms" type="text" name="Email" value="Email">
+</td>
+<td class="header-form">
+    Password<br>
+    <input class="login-forms" type="password" name="Password" value="Password">
+</td>
+<td>
+  <br>
     <input type="submit" name="Log In" value="Log In">
+</td>
   </form>
+      </tr>
+      </table>
 </header>
-<!-- Main Container -->
-<section id="sales-box">
-  <h2>Connect with all your friends!</h2>
-  <ul>
-    <li>See photos and updates in your news feed</li>
-    <li>Post your status for the world to see from your profile</li>
-    <li>Get in touch with your friends by "friending" them</li>
-    <li>Like things because you're a positive person!</li>
-  </ul>
-</section>
-<section id="landing-sign-up">
-  <h1>Sign Up</h1>
-  <form class="sign-up" action="index.html" method="post">
-    <input type="text" name="firstname" value="First name">
-    <input type="text" name="lastname" value="Last name">
-    <input type="text" name="number-email" value="Mobile number or email">
-    <input type="text" name="newpassword" value="New password">
-    <h3>Birthday:</h3>
-<select class="bdaymonth" name="Month" value="Month">
-    <option value="January">January</option>
-</select>
-<select class="bdayday" name="Day" value="Day">
-    <option value="1">1</option>
-</select>
-<select class="bdayyear" name="year" value="Year">
-    <option value="2017">2017</option>
-</select>
-    <input type="radio" name="Male" value="Male">
-    Male
-    <input type="radio" name="Female" value="Female">
-    Female
-    <input type="submit" name="signup" value="Sign Up!">
-  </form>
+<!-- Landing Container -->
+
+<section class="main-container">
+  <table>
+    <tr>
+      <td id="sales-box">
+        <h2>Connect with all your friends!</h2>
+        <ul>
+          <li class="sales-points">See photos and updates in your news feed</li>
+          <li class="sales-points">Post your status for the world to see from your profile</li>
+          <li class="sales-points">Get in touch with your friends by "friending" them</li>
+          <li class="sales-points">Like things because you're a positive person!</li>
+        </ul></td>
+        <td id="landing-sign-up">  <h1>Sign Up</h1>
+          <form class="sign-up" action="index.html" method="post">
+            <input class="half-box" type="text" name="firstname" value="First name">
+            <input class="half-box" type="text" name="lastname" value="Last name">
+            <input class="full-box" type="text" name="number-email" value="Mobile number or email">
+            <input class="full-box" type="text" name="newpassword" value="New password">
+            <h3>Birthday:</h3>
+        <select class="bday" name="Month" value="Month">
+            <option value="January">January</option>
+        </select>
+        <select class="bday" name="Day" value="Day">
+            <option value="1">1</option>
+        </select>
+        <select class="bday" name="year" value="Year">
+            <option value="2017">2017</option>
+        </select><br>
+            <input type="radio" name="Male" value="Male">
+            Female
+            <input type="radio" name="Female" value="Female">
+            Male
+            <br>
+            <input id="signup-button" type="submit" name="signup" value="Create Account">
+          </form> </td>
+    </tr>
+  </table>
+
+
+
+
+
+
 </section>
   </body>
 </html>

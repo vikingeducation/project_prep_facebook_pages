@@ -1,1 +1,103 @@
 /* Styles*/
+
+
+body {
+  background: #edf0f5;
+}
+
+/* --- Landing Header --- */
+
+header, .main-container {
+    font-family: Tahoma, sans-serif;
+}
+
+
+
+header {
+  background-color: #3d5b9b;
+  width: 100%;
+
+}
+
+#landing-top-table, .main-container {
+  width: 1024px;
+  margin: auto;
+}
+
+.header-form, #landing-logo {
+  color: white;
+  font-size: 12px;
+padding-right: 14px;
+
+}
+
+.header-form {
+  line-height: 20px;
+}
+
+#landing-logo {
+width: 100%;
+}
+
+.login-forms {
+  width: 144px;
+  height: 20px;
+  border: 1px solid #000000;
+  padding-left: 6px;
+
+}
+
+h1 {
+line-height: 18px;
+  font-size: 40px;
+  padding-top: 6px;
+}
+
+/* --- Landing Container --- */
+.full-box, .half-box {
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  height: 38px;
+  color: grey;
+  font-size: 16px;
+  padding-left: 8px;
+  border: 1px solid;
+}
+.bday {
+  margin-bottom: 12px;
+  height: 30px;
+}
+.half-box {
+  width: 198px;
+}
+.half-box:first-child {
+  margin-right: 8px;
+}
+
+.full-box {
+  width: 409px;
+}
+
+#sales-box {
+  width: 100%;
+}
+
+h3 {
+  color: #3e3e3e;
+}
+
+#signup-button {
+  background-color: green;
+  margin-top: 20px;
+  color: white;
+  height: 38px;
+  width: 164px;
+  border-radius: 6px;
+  font-size: 16px;
+
+}
+
+.sales-points {
+  line-height: 32px;
+}
