@@ -7,8 +7,9 @@ body {
 
 /* --- Landing Header --- */
 
-header, .main-container {
+.main-container {
     font-family: Tahoma, sans-serif;
+    position: relative;
 }
 
 
@@ -19,7 +20,7 @@ header {
 
 }
 
-#landing-top-table, .main-container {
+.main-container {
   width: 1024px;
   margin: auto;
 }
@@ -100,4 +101,96 @@ h3 {
 
 .sales-points {
   line-height: 32px;
+}
+/* --- Logged In Pages ---*/
+
+
+
+a, a:link, a:active, a:hover, #navlinks-top, #topsearch {
+  color: white;
+ font-size: 16px;
+ text-decoration: none;
+}
+a:hover {
+  background: blue;
+}
+#logo {
+  padding-left: 12px;
+  padding-right: 6px;
+}
+
+#searchbox-top {
+  color: grey;
+}
+#navlinks-top {
+width: 100%;
+text-align: right;
+padding-right: 18px;
+}
+
+#profile-background {
+  width: 1024px;
+  height: 312px;
+}
+
+#profile-pic {
+width: 170px;
+height: 170px;
+border: 6px solid white;
+border-radius: 3px;
+outline: 1px solid grey;
+position: absolute;
+top: 155px;
+left: 16px
+}
+
+.profile-nav {
+border: 1px solid #dddddd;
+border-collapse: collapse;
+width: 100%;
+background-color: white;
+position: relative;
+top: -4px;
+left: -1px;
+ z-index: -1;
+}
+
+
+#profile-links {
+margin: auto;
+margin-top: 0px;
+   border-collapse: collapse;
+}
+
+.nav-link-box {
+border-left: 1px solid #dddddd;
+border-right: 1px solid #dddddd;
+margin: 0px;
+padding: 14px;
+font-weight: 600;
+font-size: 14px;
+}
+.nav-link-box a {
+  color: #2d017d;
+  font-size: 14px;
+}
+/*--- About --- */
+.profile-content {
+position: relative;
+top: 8px;
+background: white;
+border: 1px solid #dddddd;
+border-collapse: collapse;
+}
+
+#maintable {
+  width: 100%;
+  margin: 0px;
+
+}
+#header-content {
+  height: 60px;
+  background: #efecf3;
+  padding-left: 24px;
+    border: 1px solid #dddddd;
 }
