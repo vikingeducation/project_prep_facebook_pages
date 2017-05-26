@@ -113,6 +113,14 @@ input.login{
 	height: 600px;
 	position: absolute;
 	top: 80px;
+	min-width: 980px;
+}
+
+div.left-box{
+	float: left;
+	overflow: auto;
+	width: 565px;
+
 }
 
 #connect-with-friends-text{
@@ -120,16 +128,137 @@ input.login{
 	padding-bottom: 30px;
 	width: 410px;
 	height: auto;
-	margin-bottom: 10px;
 	font-size: 28px;
 }
 
 article.homepage-info{
-	margin-top: 10px;
-	margin-bottom: 10px;
+	border-top: 20px;
 	width: 100%;
+	clear: left;
+	padding-bottom: 10px;
+	padding-top: 20px;
 }
 
 img.homepagePic{
 	float: left;
+	margin-bottom: 10px;
+}
+
+section.homepage-left-info{
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+h3.homepage-left-text{
+	font-size: 16px;
+	float: left;
+	font-weight: bold;
+	color: black;
+}
+
+h5.homepage-right-text{
+	margin-left: 10px;
+	float: left;
+	color: gray;
+	font-size: 16px;
+}
+
+div.right-box{
+	float: right;
+	width: 400px;
+}
+
+#homepage-sign-up{
+	font-size: 32px;
+	padding-bottom: 5px;
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+#homepage-below-sign-up{
+	font-size: 16px;
+	padding-bottom: 20px;
+}
+
+section.homepage-right-bottom-box{
+	position: absolute;
+	top: 90px;
+	width: 400px;
+}
+
+input.sign-up-input{
+	height: 40px;
+	border-radius: 10px;
+	border: 2px solid gray;
+	box-sizing: border-box;
+	font-size: 24px;
+}
+
+input.wide-input{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+}
+
+input.short-input{
+	width: 195px;
+}
+
+#last-name-input{
+	float: right;
+}
+
+#input-birthday{
+	padding-top: 25px;
+	padding-bottom: 10px;
+	float: left;
+	width: 100%;
+	font-size: 24px;
+}
+
+form.input-birthday-select{
+	width: 100%;
+	float: left;
+}
+
+select {
+	padding: 5px;
+	margin: 0px;
+	float: left;
+	font-style: 16px;
+	background-color: #DDD;
+}
+
+ul.gender{
+	width: 100%;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	list-style: none;
+}
+
+ul.gender li.gender label.gender{
+	padding: 10px;
+	padding-top: 0px;
+	float: left;
+	font-size: 16px;
+}
+
+input.gender{
+	float: left;
+}
+
+label.gender{
+	font-size: 24px;
+}
+
+#create-account{
+	background-color: #609C4D;
+	color: white;
+	font-size: 20px;
+	padding: 10px 25px;
+	border-radius: 5px;
+	font-weight: bold;
+	border: 1px solid gray;
 }

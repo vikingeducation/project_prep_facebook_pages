@@ -31,36 +31,37 @@
       <h2 id="connect-with-friends-text">Connection with friends and the world around you on Facebook.</h2>
       <article class="homepage-info">
         <img src="/assets/images/fbHomePage_logo_1.png" class="homepagePic">
-        <section>
-          <h3>See Photos and updates</h3>
-          <h5>from friends in News Feed</h5>
+        <section class="homepage-left-info">
+          <h3 class="homepage-left-text">See Photos and updates</h3>
+          <h5 class="homepage-right-text">from friends in News Feed</h5>
         </section>
       </article>
       <article class="homepage-info">
         <img src="/assets/images/fbHomePage_logo_2.png" class="homepagePic">
-        <section>
-          <h3>Share what's new</h3>
-          <h5>in your life on your Timeline.</h5>
+        <section class="homepage-left-info">
+          <h3 class="homepage-left-text">Share what's new</h3>
+          <h5 class="homepage-right-text">in your life on your Timeline.</h5>
         </section>
       </article>
       <article class="homepage-info">
         <img src="/assets/images/fbHomePage_logo_3.png" class="homepagePic">
-        <section>
-          <h3>Find more</h3>
-          <h5>of what you're looking for with Facebook Search.</h5>
+        <section class="homepage-left-info">
+          <h3 class="homepage-left-text">Find more</h3>
+          <h5 class="homepage-right-text">of what you're looking for with Facebook Search.</h5>
         </section>
       </article>
     </div>
 
     <div class="right-box">
-      <h1>Sign Up</h1>
-      <h3>It's free and always will be.</h3>
-      <section>
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <h3>Birthday</h3>
-        <form>
+      <h1 id="homepage-sign-up">Sign Up</h1>
+      <h3 id="homepage-below-sign-up">It's free and always will be.</h3>
+      <section class="homepage-right-bottom-box">
+        <input type="text" class="sign-up-input short-input" placeholder="First name">
+        <input type="text" class="sign-up-input short-input" id="last-name-input" placeholder="Last name">
+        <input type="text" class="sign-up-input wide-input" placeholder="Mobile number or email">
+        <input type="text" class="sign-up-input wide-input" placeholder="New password">
+        <h3 id="input-birthday">Birthday</h3>
+        <form class="input-birthday-select">
           <select>
             <option>Month</option>
             <option>Jan</option>
@@ -115,11 +116,11 @@
             <option>2002</option>
           </select>
         </form>
-        <form>
-          <input type="radio">Female</input>
-          <input type="radio">Male</input>
-        </form>
-        <input type="submit">Create Account</input>
+        <ul class="gender">
+          <li class="gender"><input type="radio" class="gender"><label class="gender">Female</label></li>
+          <li class="gender"><input type="radio" class="gender"><label class="gender">Male</label></li>
+        </ul>
+        <input id="create-account" type="submit" value="Create Account">
       </section>
     </div>
   </div>
