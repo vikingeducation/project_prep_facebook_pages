@@ -52,14 +52,14 @@ table {
 	height: 80px;
 	background-color: #3D5B99;
 	position: absolute;
-	top: 0px;
+	left: 0px;
 }
 
 #homepageInfo{
-	width: 80%;
 	height: 80px;
-	margin-left: 10%;
-	margin-right: 10%;
+	width: 980px;
+	padding-left: calc((100% - 980px) / 2);
+	padding-right: calc((100% - 980px) / 2);
 	position: absolute;
 }
 
@@ -92,7 +92,7 @@ table {
 input.loginInfo{
 	width: 150px;
 	margin-left: 20px;
-	background-color: white:
+	background-color: white;
 }
 
 input.login{
@@ -102,18 +102,20 @@ input.login{
 	color: white;
 	font-weight: bold;
 	align-content: center;
+	border: 1px solid black;
+	border-radius: 1px;
 }
 
 
 #fbHPlowerbox{
-	width: 80%;
-	padding-left: 10%;
-	padding-right: 10%;
+	width: 980px;
+	padding-left: calc((100% - 980px) / 2);
+	padding-right: calc((100% - 980px) / 2);
 	background-color: #EDF0F5;
 	height: 600px;
 	position: absolute;
 	top: 80px;
-	min-width: 980px;
+	box-sizing: content-box;
 }
 
 div.left-box{
@@ -142,6 +144,8 @@ article.homepage-info{
 img.homepagePic{
 	float: left;
 	margin-bottom: 10px;
+	width: 55;
+	height: auto;
 }
 
 section.homepage-left-info{
