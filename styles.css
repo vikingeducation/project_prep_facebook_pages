@@ -52,37 +52,38 @@ table {
 	height: 80px;
 	background-color: #3D5B99;
 	position: absolute;
-	left: 0px;
+	top: 0px;
 }
 
-#homepageInfo{
+div.homepage-container{
 	height: 80px;
 	width: 980px;
 	padding-left: calc((100% - 980px) / 2);
 	padding-right: calc((100% - 980px) / 2);
 	position: absolute;
+	box-sizing: content-box;
 }
 
 #fbTitle{
+	float: left;
 	font-size: 40px;
 	font-weight: bold;
 	color: white;
-	/* font-family: "Klavika", sans-serif; */
-	width: 590px;
-	padding-top: auto;
+	width: 400px;
 	padding-bottom: 20px;
 	padding-top: 20px;
 	box-sizing: border-box;
 }
 
-#fbTopForm{
-	position: absolute;
+div.log-in-div{
+	float: right;
 	left: 590px;
-	top: 20px;
 	width: 400px;
+	height: 80px;
+	padding-top: 15px;
 }
 
-.form-text{
+p.form-text{
 	font-size: 12px;
 	color: white;
 	padding-bottom: 5px;
