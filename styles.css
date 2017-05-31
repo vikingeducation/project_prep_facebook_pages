@@ -267,3 +267,243 @@ label.gender{
 	font-weight: bold;
 	border: 1px solid gray;
 }
+
+/*******************************************************************/
+
+/* The start of Aboutpage.html */
+
+/******************************************************************/
+
+body{
+	background-color: #F3F4F5;
+}
+
+.nav-banner-container{
+	height: 45px;
+	position: fixed;
+	top: 0;
+	background-color: #3B5998;
+	width: 100%;
+}
+
+.nav-banner-container nav{
+	width: 1000px;
+	padding-left: calc((100% - 1000px) / 2);
+	padding-right: calc((100% - 1000px) / 2);
+	position: fixed;
+}
+
+.nav-banner-container img{
+	float: left;
+	padding-top: 10px;
+}
+
+.nav-banner-container h1,
+.nav-banner-container h2{
+	color: white;
+	font-weight: bold;
+}
+
+.nav-banner-container h1{
+	margin-top: 0px;
+	padding-top: 10px;
+	font-size: 25px;
+	padding-left: 5px;
+	padding-right: 30px;
+	float: left;
+	height: 100%;
+}
+
+.nav-banner-container nav input{
+	height: 25px;
+	width: 500px;
+	float: left;
+	margin-top: 10px;
+	box-sizing: border-box;
+}
+
+.nav-banner-container nav h2{
+	padding-top: 14.5px;
+	float: right;
+	height: 100%;
+	font-size: 16px;
+	color: white;
+}
+
+.main-container{
+	position: absolute;
+	top: 45px;
+	width: 1000px;
+	padding-left: calc((100% - 1000px) / 2);
+	padding-right: calc((100% - 1000px) / 2);
+
+}
+
+.main-subcontainer-1{
+	position: relative;
+	display: inline-block;
+	background-color: #FFF;
+	height: 360px;
+	border: 1px solid #DCDCDC;
+	border-top: 0px;
+}
+
+.main-subcontainer-1 .upper-container-element{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	box-sizing: border-box;
+}
+
+.main-subcontainer-1 ul{
+	list-style-type: none;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+  margin-left: 200px;
+	width: 520px;
+}
+
+.main-subcontainer-1 ul li{
+	display: inline-block;
+	border-right: 1px #DCDCDC solid;
+	padding-bottom: 10px;
+	padding-top: 14px;
+}
+
+.main-subcontainer-1 ul li:first-child{
+	border-left: 1px #DCDCDC solid;
+}
+
+.main-subcontainer-1 ul li a {
+    display: inline-block;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+		box-sizing: border-box;
+		width: 120px;
+		margin: 0px;
+		color: #3B5998;
+		font-weight: bold;
+}
+
+.main-subcontainer-1 ul li a h4{
+	display: inline-block;
+}
+
+.main-subcontainer-1 .banner-image{
+	position: absolute;
+	top: 180px;
+	left: 20px;
+	padding: 3px;
+	background-color: white;
+	border: 1px gray solid;
+	box-sizing: border-box;
+}
+
+.main-subcontainer-1 h2{
+	position: absolute;
+	top: 280px;
+	left: 200px;
+	color: white;
+	font-size: 24px;
+}
+
+.main-subcontainer-1 .edit-profile{
+	display: inline-block;
+	float: right;
+	margin-top: -25px;
+	margin-right: 20px;
+	height: 30px;
+}
+
+
+.main-subcontainer-2{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	display: inline-block;
+	border: 1px solid #DCDCDC;
+	box-sizing: border-box;
+}
+
+.main-subcontainer-2 header{
+	width: 100%;
+	height: 50px;
+	background-color: #F6F7F9;
+	box-sizing: border-box;
+	border-bottom: 1px solid #DCDCDC;
+}
+
+.main-subcontainer-2 header h2{
+	font-size: 28px;
+	padding-top: 10px;
+	padding-left: 400px;
+	float: left;
+	font-weight: bold;
+}
+
+.main-subcontainer-2 header input{
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #3B5998;
+	color: white;
+	padding: 5px;
+}
+
+.about-info-container{
+	height: auto;
+	float: left;
+	width: 100%;
+	background-color: white;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+.about-info-container .left{
+	width: 40%;
+	box-sizing: border-box;
+	float: left;
+}
+
+.about-info-container .right{
+	width: 60%;
+	box-sizing: border-box;
+	float: left;
+}
+
+.about-info-container section article{
+	width: 100%;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.about-info-container h3, .about-info-container p,
+.about-info-container table{
+	display: inline-block;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.about-info-container h3{
+	padding-bottom: 0px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.about-info-container td{
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+.about-info-container td:first-child{
+	font-weight: bold;
+
+}
+
+.about-info-container p{
+	line-height: 120%;
+}
