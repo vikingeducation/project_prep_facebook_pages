@@ -53,6 +53,10 @@ table {
 
 ******************************************************************/
 
+body{
+	background-color: #F3F4F5;
+}
+
 .homepage-header{
 	width: 100%;
 	height: 80px;
@@ -67,7 +71,7 @@ table {
 	padding-left: calc((100% - 980px) / 2);
 	padding-right: calc((100% - 980px) / 2);
 	position: absolute;
-	box-sizing: content-box;
+	box-sizing: border-box;
 }
 
 .homepage-header h1{
@@ -147,14 +151,14 @@ table {
 	padding-top: 20px;
 }
 
-.homepage-main-container .left article img{
+.homepage-main-container .left img{
 	float: left;
 	margin-bottom: 10px;
 	width: 55;
 	height: auto;
 }
 
-.homepage-main-container .left article section{
+.homepage-main-container .left section{
 	float: left;
 	margin-top: 15px;
 	margin-left: 20px;
@@ -197,29 +201,31 @@ table {
 	width: 400px;
 }
 
-.homepage-main-container .right section .sign-up-input{
+.homepage-main-container .right .sign-up-input{
 	height: 40px;
-	border-radius: 10px;
-	border: 2px solid gray;
+	border-radius: 2px;
+	border: 2px solid #DCDCDC;
+	color: #DCDCDC;
 	box-sizing: border-box;
-	font-size: 24px;
+	font-size: 20px;
+	padding-left: 10px;
 }
 
-.homepage-main-container .right section .wide-input{
+.homepage-main-container .right .wide-input{
 	width: 100%;
 	float: left;
 	margin-top: 10px;
 }
 
-.homepage-main-container .right section .short-input{
+.homepage-main-container .right .short-input{
 	width: 195px;
 }
 
-.homepage-main-container .right section .last-name{
+.homepage-main-container .right .last-name{
 	float: right;
 }
 
-.homepage-main-container .right section .input-birthday{
+.homepage-main-container .right .input-birthday{
 	padding-top: 25px;
 	padding-bottom: 10px;
 	float: left;
@@ -227,12 +233,12 @@ table {
 	font-size: 24px;
 }
 
-.homepage-main-container .right section form{
+.homepage-main-container .right form{
 	width: 100%;
 	float: left;
 }
 
-.homepage-main-container .right section form select {
+.homepage-main-container .right form select {
 	padding: 5px;
 	margin: 0px;
 	float: left;
@@ -240,7 +246,7 @@ table {
 	background-color: #DDD;
 }
 
-.homepage-main-container .right section ul{
+.homepage-main-container .right ul{
 	width: 100%;
 	float: left;
 	margin-top: 10px;
@@ -248,19 +254,18 @@ table {
 	list-style: none;
 }
 
-.homepage-main-container .right section ul li label{
+.homepage-main-container .right ul li label{
 	padding: 10px;
 	padding-top: 0px;
 	float: left;
-	font-size: 16px;
 	font-size: 24px;
 }
 
-.homepage-main-container .right section ul li input{
+.homepage-main-container .right ul li input{
 	float: left;
 }
 
-.homepage-main-container .right section .create-account{
+.homepage-main-container .right .create-account{
 	background-color: #609C4D;
 	color: white;
 	font-size: 20px;
@@ -276,9 +281,7 @@ table {
 
 ******************************************************************/
 
-body{
-	background-color: #F3F4F5;
-}
+
 
 .nav-banner-container{
 	height: 45px;
@@ -391,6 +394,7 @@ body{
 
 .main-subcontainer-1 ul li a h4{
 	display: inline-block;
+	color: #DCDCDC;
 }
 
 .main-subcontainer-1 .banner-image{
@@ -493,19 +497,20 @@ body{
 .about-info-container h3{
 	padding-bottom: 0px;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 .about-info-container td{
-	padding-bottom: 10px;
-	padding-right: 10px;
+	font-size: 14px;
+	padding-bottom: 15px;
+	padding-right: 15px;
 }
 
 .about-info-container td:first-child{
 	font-weight: bold;
-
 }
 
 .about-info-container p{
-	line-height: 120%;
+	line-height: 130%;
+	font-size: 14px;
 }

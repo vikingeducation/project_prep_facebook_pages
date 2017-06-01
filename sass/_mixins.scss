@@ -1,0 +1,28 @@
+@mixin padding-calc($width){
+  width: $width;
+  padding-left: -webkit-calc((100% - #{$width}) / 2);
+  padding-right: -webkit-calc((100% - #{$width}) / 2);
+  padding-left: -moz-calc((100% - #{$width}) / 2);
+  padding-right: -moz-calc((100% - #{$width}) / 2);
+  padding-left: calc((100% - #{$width}) / 2);
+  padding-right: calc((100% - #{$width}) / 2);
+}
+
+@mixin fontbold-size-color($font-size, $font-color){
+  font-weight: bold;
+  font-size: $font-size;
+  color: $font-color;
+}
+
+@mixin border-radius($radius){
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin main-container-2-ele{
+  display: inline-block;
+  padding: 20px;
+  box-sizing: border-box;
+}
