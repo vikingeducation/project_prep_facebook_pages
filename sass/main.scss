@@ -1,0 +1,485 @@
+@import '_colors.scss';
+@import '_mixins.scss';
+
+
+// COMMENCING RESET
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  font-family: arial, sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* RESET COMPLETE */
+
+/*******************************************************************
+
+                     The start of homepage.html
+
+******************************************************************/
+
+body{
+  background-color: $facebook-background-color;
+}
+
+.homepage-header{
+  width: 100%;
+	height: 80px;
+	background-color: $facebook-headline-color;
+	position: absolute;
+	top: 0px;
+
+  .homepage-header-container{
+    @include padding-calc(980px);
+    height: 80px;
+    min-width: 980px;
+    position: absolute;
+  	box-sizing: content-box;
+  }
+
+  h1{
+    @include fontbold-size-color(40px, white);
+    float: left;
+  	width: 400px;
+    padding: 20px 0px;
+  	box-sizing: border-box;
+  }
+
+  .log-in-div{
+    float: right;
+    margin: 15px 15px 0px 0px;
+  	width: 400px;
+  	height: 80px;
+
+    table tr td p{
+    	font-size: 12px;
+    	color: white;
+    	padding-bottom: 5px;
+    	padding-left: 20px;
+    }
+
+    .login-info{
+    	width: 150px;
+    	margin-left: 20px;
+    	background-color: white;
+    }
+
+    table input{
+    	background-color: #4267B2;
+    	width: 50px;
+    	margin-left: 20px;
+    	color: white;
+    	font-weight: bold;
+    	align-content: center;
+    	border: 1px solid black;
+    	border-radius: 1px;
+    }
+
+    table .login-info{
+      color: black;
+    }
+  }
+}
+
+.homepage-main-container{
+  @include padding-calc(980px);
+	background-color: #EDF0F5;
+	height: 600px;
+	position: absolute;
+	top: 80px;
+	box-sizing: content-box;
+
+  .left{
+  	float: left;
+  	overflow: auto;
+  	width: 565px;
+
+    h2{
+    	padding-top: 50px;
+    	padding-bottom: 30px;
+    	width: 410px;
+    	height: auto;
+    	font-size: 28px;
+    }
+
+    article{
+      border-top: 20px;
+      width: 100%;
+      clear: left;
+      padding-bottom: 10px;
+      padding-top: 20px;
+    }
+
+    img{
+      float: left;
+      margin-bottom: 10px;
+      width: 55;
+      height: auto;
+    }
+
+    section{
+      float: left;
+      margin-top: 15px;
+      margin-left: 20px;
+    }
+
+    h3{
+      @include fontbold-size-color(16px, black);
+      float: left;
+    }
+
+    h5{
+      margin-left: 10px;
+      float: left;
+      color: gray;
+      font-size: 16px;
+    }
+  }
+
+  .right{
+    float: right;
+  	width: 400px;
+
+    h1{
+      @include fontbold-size-color(32px, black);
+      padding: 20px 0px 5px 0px;
+    }
+
+    h3{
+    	font-size: 16px;
+    	padding-bottom: 20px;
+    }
+
+    section{
+    	position: absolute;
+    	top: 90px;
+    	width: 400px;
+    }
+
+    .sign-up-input{
+      @include border-radius(2px);
+    	border: 2px solid $general-border-color;
+    	color: $general-border-color;
+    	height: 40px;
+    	box-sizing: border-box;
+    	font-size: 20px;
+    	padding-left: 10px;
+    }
+
+    .wide-input{
+    	width: 100%;
+    	float: left;
+    	margin-top: 10px;
+    }
+
+    .short-input{
+    	width: 195px;
+    }
+
+    .last-name{
+    	float: right;
+    }
+
+    .input-birthday{
+      padding: 25px 0px 10px 0px;
+    	float: left;
+    	width: 100%;
+    	font-size: 24px;
+    }
+
+    form{
+    	width: 100%;
+    	float: left;
+
+      select{
+        padding: 5px;
+      	margin: 0px;
+      	float: left;
+      	font-style: 16px;
+      	background-color: $select-birthday-color;
+      }
+    }
+
+    ul{
+    	width: 100%;
+    	float: left;
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+    	list-style: none;
+
+      li label{
+      	padding: 10px;
+      	padding-top: 0px;
+      	float: left;
+      	font-size: 24px;
+      }
+
+      input{
+        float: left;
+      }
+    }
+
+    .create-account{
+      @include fontbold-size-color(20px, white);
+      @include border-radius(5px);
+    	background-color: $create-account-button-color;
+    	padding: 10px 25px;
+    	border: 1px solid gray;
+    }
+  }
+}
+
+/*******************************************************************
+
+                     The start of aboutpage.html
+
+******************************************************************/
+
+.nav-banner-container{
+	height: 45px;
+	position: fixed;
+	background-color: $facebook-headline-color;
+	width: 100%;
+
+  img{
+  	float: left;
+  	padding-top: 10px;
+  }
+
+  h1, h2{
+    @include fontbold-size-color(25px, white);
+  }
+
+  h1{
+    padding: 10px 30px 0px 5px;
+  	float: left;
+  	height: 100%;
+  }
+
+  nav{
+    @include padding-calc(1000px);
+  	width: 1000px;
+  	position: fixed;
+
+    input{
+    	height: 25px;
+    	width: 500px;
+    	float: left;
+    	margin-top: 10px;
+    	box-sizing: border-box;
+    }
+
+    h2{
+    	padding-top: 14.5px;
+    	float: right;
+    	height: 100%;
+    	font-size: 16px;
+    	color: white;
+    }
+  }
+}
+
+.main-container{
+  @include padding-calc(1000px);
+
+  /*
+  position: absolute;
+	top: 45px;
+  */
+
+  margin-top: 45px;
+  float: left;
+}
+
+.main-subcontainer-1{
+	position: relative;
+	display: inline-block;
+	background-color: white;
+	height: 360px;
+	border: 1px solid $general-border-color;
+	border-top: 0px;
+
+  .upper-container-element{
+  	box-sizing: border-box;
+  }
+
+  ul{
+    margin-left: 200px;
+  	width: 520px;
+
+    li{
+    	display: inline-block;
+    	border-right: 1px $general-border-color solid;
+    	padding-bottom: 10px;
+    	padding-top: 14px;
+    }
+
+    li:first-child{
+    	border-left: 1px $general-border-color solid;
+    }
+
+    li a {
+      @include fontbold-size-color(16px, $nav-font-color);
+      display: inline-block;
+      background-color: white;
+      text-align: center;
+      box-sizing: border-box;
+      width: 120px;
+      margin: 0px;
+    }
+
+    li a h4{
+    	display: inline-block;
+    	color: $general-border-color;
+    }
+  }
+
+  .banner-image{
+  	position: absolute;
+  	top: 180px;
+  	left: 20px;
+  	padding: 3px;
+  	background-color: white;
+  	border: 1px gray solid;
+  	box-sizing: border-box;
+  }
+
+  h2{
+  	position: absolute;
+  	top: 280px;
+  	left: 200px;
+  	color: white;
+  	font-size: 24px;
+  }
+
+  .edit-profile{
+  	display: inline-block;
+  	float: right;
+    margin: -25px 20px 0px 0px;
+  	height: 30px;
+  }
+}
+
+.main-subcontainer-2{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	display: inline-block;
+	border: 1px solid $general-border-color;
+	box-sizing: border-box;
+
+  header{
+  	width: 100%;
+  	height: 50px;
+  	background-color: $container-header-color;
+  	box-sizing: border-box;
+  	border-bottom: 1px solid $general-border-color;
+
+    h2{
+      @include fontbold-size-color(28px, black);
+      padding: 10px 0px 0px 400px;
+    	float: left;
+    }
+
+    input{
+      @include fontbold-size-color(14px, white);
+    	float: right;
+      margin: 10px 10px 0px 0px;
+    	background-color: #3B5998;
+    	padding: 5px;
+    }
+  }
+}
+
+.about-info-container{
+	height: auto;
+	float: left;
+	width: 100%;
+	background-color: white;
+	display: inline-block;
+	box-sizing: border-box;
+
+  .left{
+    padding: 0px 10px 0px 10px;
+  	width: 40%;
+  	box-sizing: border-box;
+  	float: left;
+  }
+
+  .right{
+    padding: 0px 10px 0px 10px;
+  	width: 60%;
+  	box-sizing: border-box;
+  	float: left;
+  }
+
+  section article{
+  	width: 100%;
+  	box-sizing: border-box;
+  	display: inline-block;
+  }
+
+  h3, p, table{
+    @include main-container-2-ele;
+  }
+
+  h3{
+    padding-bottom: 0px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  td{
+  	font-size: 14px;
+  	padding-bottom: 15px;
+  	padding-right: 15px;
+  }
+
+  td:first-child{
+  	font-weight: bold;
+  }
+
+  p{
+  	line-height: 130%;
+  	font-size: 14px;
+  }
+}
