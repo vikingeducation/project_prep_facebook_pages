@@ -100,6 +100,8 @@ body {
       align-content: center;
       border: 1px solid black;
       border-radius: 1px; }
+    .homepage-header .log-in-div table .login-info {
+      color: black; }
 
 .homepage-main-container {
   width: 980px;
