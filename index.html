@@ -8,25 +8,30 @@
 
     <link rel="stylesheet" href="resources/css/reset.css">
     <link rel="stylesheet" href="resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+    
   </head>
   
   <body>
     <!-- Navigation -->
     <nav>
-      <div class="brand">Facepunk</div>
-      <form>
-        <div class="email_field">
-          <p>Email</p>
-        <input type="email" name="email"/>
-        </div>
-        <div class="password_field">
-          <p>Password</p>
-        <input type="password" name="email"/>
-        </div>
-        <div class="submit_button">
-          <input type="submit" value="Submit"/>
-        </div>
-      </form>
+      <section id="top_form">
+        <div class="brand">facepunk</div>
+        
+        <form id="sign_in_form">
+          <div id="email_field">
+            <p>Email</p>
+          <input type="email" name="email" id="email" />
+          </div>
+          <div id="password_field">
+            <p>Password</p>
+          <input type="password" name="password" id="password" />
+          </div>
+          <div id="submit_button">
+            <input type="submit" value="Log In" id="submit_btn" />
+          </div>
+        </form>
+      </section>
     </nav>
     
     <!-- Body -->
@@ -97,5 +102,11 @@
         </form>
       </section>
     </section>
+    
+    <div class="test">
+      
+    </div>
+    
+    
   </body>
 </html>
