@@ -38,12 +38,12 @@
     <section id="text_body">
       <!-- Intro text (Left side) -->
       <section id="intro">
-        <h3 class="page_title">Connect with all your friends&#33;</h3>
+        <h3 id="page_title">Connect with all your friends&#33;</h3>
         <ul>
-          <li>See photos and updates in your news feed.</li>
-          <li>Post your status for the world to see from your profile.</li>
-          <li>Get in touch with your friends by &#34;friending&#34; them</li>
-          <li>Like things because you&#39;re a positive person&#33;</li>
+          <li><strong>See photos and updates</strong> in your news feed.</li>
+          <li><strong>Post your status</strong> for the world to see from your profile.</li>
+          <li><strong>Get in touch</strong> with your friends by &#34;friending&#34; them</li>
+          <li><strong>Like things</strong> because you&#39;re a positive person&#33;</li>
         </ul>
       </section>
       
@@ -53,17 +53,17 @@
         <form id="form">
           <!-- Name, email & password -->
           <div id="name_form">
-            <input type="text" name="firstname" placeholder="First Name" required />&nbsp;
-            <input type="text" name="lastname" placeholder="Last Name" required /><br>
-            <input type="email" name="email" placeholder="Your Email" required /><br>
-            <input type="password" name="password" placeholder="Your New Password" required /><br>
-            <input type="password" name="password_confirm" placeholder="Confirm Your Password" required /><br>
+            <input class="short_input" type="text" name="firstname" placeholder="First Name" required />&nbsp;
+            <input class="short_input"  type="text" name="lastname" placeholder="Last Name" required /><br>
+            <input class="long_input"type="email" name="email" placeholder="Your Email" required /><br>
+            <input class="long_input" type="password" name="password" placeholder="Your New Password" required /><br>
+            <input class="long_input" type="password" name="password_confirm" placeholder="Confirm Your Password" required /><br>
           </div>
           
           <br>
           
           <!-- Bday select (drop down) -->
-          <div id="brithday_form">
+          <div id="birthday_form">
             <p>Birthday</p>
             <select name='month' id='month' >
               <option value='month'>Month</option>
@@ -90,13 +90,13 @@
           <br>
           <!-- Gender: Female / Male - Unchecked -->
           <div id="gender_form">
-            <input type="radio" name="gender" value="female"> Female<br>
-            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female" /> Female &nbsp;
+            <input type="radio" name="gender" value="male" /> Male
           </div>
           
           <br>
           <!-- Submit Button BABY!!! -->
-          <div id="submit_button">
+          <div id="signup_button">
             <input type="submit" value="Sign Up&#33;"/>
           </div>
         </form>
@@ -107,6 +107,9 @@
       
     </div>
     
+    <footer>
+      
+    </footer>
     
   </body>
 </html>

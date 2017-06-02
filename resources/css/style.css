@@ -2,6 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #000;
+  background: #E9EBEE;
 }
 
 @media (max-width:1900px) {
@@ -12,18 +13,20 @@ body {
   }
   
   #top_form {
-    width: 90%;
+    width: 80%;
     display: block;
     margin: auto;
-    padding-top: 30px;
+    padding-top: 25px;
   }
   
   .brand {
     font-family: 'Roboto', sans-serif;
-    font-weight: 900;
-    font-size: 32px; ;
+    font-weight: 700;
+    font-size: 35px; ;
     color: #fff;
     float: left;
+    cursor: pointer;
+    letter-spacing: .05em;
   }
   
   #sign_in_form {
@@ -36,7 +39,8 @@ body {
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: .75em;
-    padding-left: 10px;
+    padding: 0 0 5px 10px;
+    margin-top: -5px;
   }
   
   #email_field, #password_field, #submit_button {
@@ -53,8 +57,8 @@ body {
     background-color: #4267B2;
     border: none;
     color: #fff;
-    font-size: .65em;
-    font-weight: 700;
+    font-size: .8em;
+    font-weight: 400;
     margin-left: 10px;
     width: 50px;
     height: 26px;
@@ -63,17 +67,123 @@ body {
     top: 12px;
   }
   
+  #text_body {
+    width: 80%;
+    height: 600px;
+    margin: auto;
+  }
+  
+  #intro {
+    width:50%;
+    float: left
+  }
+  
+  #signup_form {
+    width: 40%;
+    float: right;
+  }
+  
+  #intro {
+    margin-top: 70px;
+  }
+  
+  #page_title {
+    color: #333;
+    letter-spacing: .05em;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  
+  ul {
+    line-height: 65px;
+    color: #333;
+  }
+  
+  li strong {
+    font-weight: bold;
+    font-size: 1.25em;
+  }
+  
+  #sign_up_title {
+    margin: 20px 0 20px 0;
+    color: #333;
+    letter-spacing: .05em;
+    font-size: 40px;
+    line-height: 36px;
+    font-weight: 700;
+  }
+  
+  .short_input {
+    margin: 0 3px 10px 0;
+    width: 193px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #BDC7D8;
+  }
+  
+  .long_input {
+    margin: 0 10px 10px 0;
+    width: 400px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #BDC7D8;
+  }
+  
+  #name_form ::placeholder {
+    font-size: 1.5em;
+    color: #ccc;
+    padding-left: 5px;
+  }
+  
+  #birthday_form p {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  #month, #day, #year {
+    margin: 0 5px 10px 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #BDC7D8;
+  }
+  
+  select {
+    font-size: 1.25em;
+    color: #333;
+  }
+  
+  #gender_form {
+    color: #333;
+  }
+  
+  #signup_button input {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #3B6E22;
+    color: #fff;
+    background: linear-gradient(#95D67C, #578843);
+    /*background-color: #35A11A;*/
+    font-size: 1.5em;
+    border-radius: 3px;
+    letter-spacing: .05em;
+  }
+  
+  #signup_button input:hover {
+    background: linear-gradient(#a9e391, #578843);
+    cursor: pointer;
+  }
+  
+  footer {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+  }
+  
 }
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 700px) {
   
