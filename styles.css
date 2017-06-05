@@ -13,10 +13,12 @@
 }
 
 .float-left {
+	display: inline-block;
 	float: left;
 }
 
 .float-right {
+	display: inline-block;
 	float: right;
 }
 
@@ -28,7 +30,6 @@ nav {
 	width: 100%;
 	background-color: #000099;
 	color: white;
-	padding: 10px 0;
 }
 
 h1 {
@@ -36,6 +37,7 @@ h1 {
 	padding: 10px;
 	padding-left: 0;
 	font-weight: bold;
+	display: inline-block;
 }
 
 h2, h3, strong {
@@ -45,7 +47,7 @@ h2, h3, strong {
 
 h2 {
 	font-size: 36px;
-	line-height: 1.5em;
+	line-height: 1em;
 }
 
 h3 {
@@ -96,11 +98,11 @@ td {
 	margin-top: 20px;
 }
 
-ul {
+.intro-list {
 	list-style: disc;
 }
 
-ul li {
+.intro-list li {
 	margin-left: 48px;
 	line-height: 2.5em;
 }
@@ -155,4 +157,82 @@ nav input, nav button {
 
 nav input {
 	padding: 3px;
+	vertical-align: top;
+}
+
+.logo {
+	height: 30px;
+	fill: white;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.search {
+	width: 600px;
+	padding: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.column {
+	width: 480px;
+}
+
+nav h3 {
+	line-height: 1.5em;
+	margin-top: 5px;
+}
+
+.main-header {
+	height: 320px;
+	background-image: url(harry-header.jpg);
+	background-size: cover;
+	background-position: 0 -50px;
+	position: relative;
+}
+
+.main-header h1 {
+	position: relative;
+	left: 200px;
+	top: 220px;
+	color: white;
+	text-shadow: 0 0 5px black;
+}
+
+.avatar {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.avatar img {
+	width: 150px;
+	border-radius: 5px;
+}
+
+.header-nav {
+	background-color: white;
+	height: 40px;
+	position: relative;
+	margin-top: 220px;
+}
+
+.header-nav ul {
+	margin-left: 200px;
+}
+
+.header-nav li {
+	display: inline-block;
+	width: 120px;
+	padding: 12px;
+	border-right: 2px solid #cccccc;
+}
+
+.header-nav li:first-child {
+	border-left: 2px solid #cccccc;
 }
