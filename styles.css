@@ -92,6 +92,11 @@ td {
 	vertical-align: middle;
 }
 
+p, span, a {
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
 .blurb {
 	width: 560px;
 	margin-top: 79px;
@@ -240,6 +245,12 @@ nav h3 {
 	margin: 10px;
 }
 
+.avatar-mini img {
+	width: 70px;
+	border-radius: 5px;
+	margin: 10px;
+}
+
 .header-nav {
 	background-color: white;
 	height: 40px;
@@ -339,4 +350,112 @@ nav h3 {
 	-ms-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
+}
+
+.sidebar {
+	width: 320px;
+	box-sizing: border-box;
+	padding-top: 10px;
+}
+
+.friend-activity {
+	height: 90px;
+	padding: 0 10px;
+}
+
+.friend-activity div {
+	position: relative;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	line-height: 1.25em;
+}
+
+.friend-link {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	padding: 20px;
+}
+
+.feed {
+	width: calc(100% - 322px);
+	border-left: 2px solid #cccccc;
+}
+
+.post {
+	box-sizing: border-box;
+	width: 640px;
+	margin: 20px auto;
+}
+
+.post-head {
+	background-color: #eeeeee;
+	text-align: center;
+	font-weight: bold;
+	padding: 10px;
+	border-bottom: 2px solid #cccccc;
+}
+
+.post-head p {
+	font-size: 18px;
+}
+
+.post-body {
+	padding: 20px;
+	border-bottom: 2px solid #cccccc;
+}
+
+textarea  {
+	width: 600px;
+	height: 100px;
+}
+
+.post-foot {
+	background-color: #eeeeee;
+	padding: 10px 20px;
+}
+
+.post-foot button {
+	background-color: #335599;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 5px 10px;
+	margin-right: 10px;
+}
+
+.post-foot li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.post-foot li:last-child {
+	margin-right: 0;
+}
+
+.post-foot p {
+	margin: 10px 0;
+}
+
+.comments {
+	border-top: 2px solid #cccccc;
+	margin-top: 20px;
+}
+
+.sidebar h3 {
+	margin-left: 10px;
+}
+
+.comment {
+	padding-bottom: 20px;
+}
+
+.comment-body {
+	margin-left: 90px;
+}
+
+.comment-author {
+	margin-top: 10px;
 }
