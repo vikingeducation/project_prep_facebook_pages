@@ -22,13 +22,17 @@
 	float: right;
 }
 
+.border {
+	border: 2px solid #cccccc;
+}
+
 body {
 	font-family: Helvetica, "Arimo", sans-serif;
 }
 
 nav {
 	width: 100%;
-	background-color: #000099;
+	background-color: #335599;
 	color: white;
 }
 
@@ -175,7 +179,18 @@ nav input {
 }
 
 .column {
-	width: 480px;
+	width: 398px;
+	padding: 40px;
+	padding-top: 0;
+}
+
+.column h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.column p {
+	line-height: 1.4em;
 }
 
 nav h3 {
@@ -215,15 +230,30 @@ nav h3 {
 	border-radius: 5px;
 }
 
+.avatar-small {
+	height: 120px;
+}
+
+.avatar-small img {
+	height: 100px;
+	border-radius: 5px;
+	margin: 10px;
+}
+
 .header-nav {
 	background-color: white;
 	height: 40px;
 	position: relative;
 	margin-top: 220px;
+	border-bottom: 2px solid #cccccc;
 }
 
 .header-nav ul {
 	margin-left: 200px;
+}
+
+.header-nav a:hover li {
+	background-color: #ddeeff;
 }
 
 .header-nav li {
@@ -231,8 +261,82 @@ nav h3 {
 	width: 120px;
 	padding: 12px;
 	border-right: 2px solid #cccccc;
+	color: black;
 }
 
-.header-nav li:first-child {
+.header-nav a:first-child li {
 	border-left: 2px solid #cccccc;
+}
+
+.active {
+	background-color: #eeeeee;
+}
+
+.count {
+	color: #aaa;
+}
+
+.profile-link p {
+	padding: 12px;
+	font-size: 12px;
+}
+
+.page-header {
+	margin-top: 30px;
+	background-color: #eeeeee;
+	padding: 10px;
+	position: relative;
+	border-bottom: none;
+}
+
+.page-header h2 {
+	text-align: center;
+}
+
+.page-header button {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	background-color: #335599;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.about-table th {
+	text-align: left;
+	font-weight: bold;
+}
+
+.about-table th, .about-table td {
+	padding: 10px 0;
+}
+
+.global-nav div {
+	box-sizing: border-box;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.friend {
+	margin-top: 20px;
+	height: 120px;
+	width: 100%;
+}
+
+.friend-info {
+	display: inline-block;
+	box-sizing: border-box;
+	height: 110px;
+	line-height: 1.5em;
+	position: relative;
+	padding: 0 10px;
+}
+
+.friend-info div {
+	position: relative;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
