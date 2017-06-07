@@ -1,0 +1,35 @@
+.clearfix::before, .clearfix::after {
+  display: table;
+  content: " ";
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.grid {
+	width: 960px;
+	margin: auto;
+}
+
+.float-left {
+	display: inline-block;
+	float: left;
+}
+
+.float-right {
+	display: inline-block;
+	float: right;
+}
+
+.border {
+	border: $border;
+}
+
+.active {
+	background-color: $active-background;
+}
+
+.count {
+	color: $count;
+}
