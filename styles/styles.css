@@ -92,7 +92,7 @@ td {
 	vertical-align: middle;
 }
 
-p, span, a {
+p, span, a, li, td, th {
 	font-size: 14px;
 	line-height: 1.5em;
 }
@@ -205,7 +205,7 @@ nav h3 {
 
 .main-header {
 	height: 320px;
-	background-image: url(harry-header.jpg);
+	background-image: url("../images/harry_header.jpg");
 	background-size: cover;
 	background-position: 0 -50px;
 	position: relative;
@@ -270,7 +270,7 @@ nav h3 {
 .header-nav li {
 	display: inline-block;
 	width: 120px;
-	padding: 12px;
+	padding: 10px;
 	border-right: 2px solid #cccccc;
 	color: black;
 }
