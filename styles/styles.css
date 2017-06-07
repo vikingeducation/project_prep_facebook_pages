@@ -149,7 +149,6 @@ p, span, a, li, td, th {
 	border: 1px solid black;
 	font-size: 24px;
 	padding: 10px 0;
-	box-shadow: 2px 2px 2px #666666;
 }
 
 input, button, select {
@@ -157,7 +156,7 @@ input, button, select {
 }
 
 .sign-up input {
-	border: 2px #EBE9ED solid;
+	border: 2px solid #cccccc;
 }
 
 nav input, nav button {
