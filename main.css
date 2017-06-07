@@ -1,0 +1,187 @@
+/* ----- Reset Corrections ----- */
+	h1 {font-size: 2.25rem; font-weight: 900}
+	h2 {font-size: 1.75rem; font-weight: 900}
+	h3 {font-size: 1.25rem; font-weight: 900}
+	h4 {font-size: 1rem; font-weight: 900}
+	h5 {font-size: .75rem; font-weight: 900}
+	h6 {font-size: .5rem; font-weight: 900}
+	ul {list-style-type: disc; padding-left: 2rem;}
+/* ----- End Reset Corrections ----- */
+
+
+
+/* ----- Font Formation ----- */
+	p {
+		font-family: 'Open Sans', sans-serif;
+		line-height: 1.5;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Open Sans', sans-serif;
+		line-height: 1;
+	}
+/* ----- End Font Formation ----- */
+
+
+
+/* ----- Colors ----- */
+	.blue {
+		background: #256de1;
+	}
+	.lightblue {
+		background: #95BDF7;
+	}
+	.green {
+		background: #209311;
+	}
+/* ----- End Colors ----- */
+
+
+
+/* ----- Main Classes ----- */
+	.block {
+		display: block;
+	}
+	.wide {
+		width: 100%;
+	}
+	.half {
+		width: 47.5%;
+	}
+/* ----- End Main Classes ----- */
+
+
+
+/* ----- All Screens Style ----- */
+
+	#page-head {
+		color: white;
+	}
+	#page-head form {
+
+	}
+	.head-form-input {
+		border: 2px solid black;
+	}
+	#page-head form input[type="submit"] {
+		border: 2px solid black;
+		box-shadow: 3px 3px 5px black;
+	}
+
+
+	/* Main Styles */
+	main {
+		border: 2px solid green;
+	}
+
+	#description-section h2, 
+	#description-section ul li, 
+	#sign-up-section h2, 
+	#sign-up-section form {
+		margin: 1rem;
+	}
+
+	#sign-up-btn {
+		font-size: 1.5rem;
+		color: white;
+		border: 2px solid black;
+		box-shadow: 3px 3px 5px black;
+	}
+
+	input {
+		padding: .25rem;
+	}
+
+/* ----- End All Screens Style ----- */
+
+
+
+/* ----- Mobile ----- */
+	@media screen and (max-width: 599px) {
+		:root {
+			font-size: 20px;
+		}
+	}
+/* ----- End Mobile ----- */
+
+
+
+/* ----- Tablet ----- */
+	@media screen and (min-width: 600px) and (max-width: 989px) {
+		:root {
+			font-size: 18px;
+		}
+	}
+/* ----- End Tablet ----- */
+
+
+
+/* ----- Desktop ----- */
+	@media screen and (min-width: 990px) {
+		:root {
+			font-size: 16px;
+		}
+		header {
+			padding: 1.5rem;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+		header form label {
+			display: inline-block;
+			padding-right: 1rem;
+		}
+
+		/* Main Layout */
+		main {
+			box-sizing: border-box;
+			/*height: 85vh;*/
+			display: flex;
+			flex-direction: row;
+			align-content: center;
+		}
+		main section {
+			border: 2px solid coral;
+			width: 50%;
+			height: 100%;
+			flex-grow: 1;
+		}
+		#description-section ul li {
+			font-size: 1rem;
+		}
+		
+
+		/* Sign-up Form Layout */
+		#name-inputs {
+			border: 2px solid pink;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+		input {
+			font-size: 1rem;
+		}
+		#sign-up-section form {
+			border: 2px solid blue;
+			width: 75%;
+		}
+		#sign-up-section form input {
+			box-sizing: border-box;
+			margin-bottom: 1rem;
+		}
+		
+
+	}
+/* ----- End Desktop ----- */
+
+
+
+
+
+
+
+
+
+
+
