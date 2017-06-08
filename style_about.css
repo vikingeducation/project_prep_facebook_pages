@@ -27,44 +27,29 @@ body {
     float: left;
     cursor: pointer;
     letter-spacing: .05em;
+    padding-left: 10px;
   }
   
-  #sign_in_form {
-    float: right;
-    display: block;
-    width: 40%;
-  }
-  
-  #sign_in_form p {
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: .75em;
-    padding: 0 0 5px 10px;
+  #top_form img {
     margin-top: -5px;
   }
-  
-  #email_field, #password_field, #submit_button {
+
+  #user_image {
+    border-radius: 50%;
+    height: 100%;
+    width: 5%;
     float: left;
   }
   
-  #email, #password {
-    margin-left: 10px;
-    width: 145px;
-    height: 20px;
+  #hero_image {
+    background-image: url("http://saildarwin.com.au/wp-content/uploads/2013/11/Mandorah-beach-1200x400-1024x341.jpg");
+    height: 340px;
+    background-size: cover;
   }
   
-  #submit_btn {
-    background-color: #4267B2;
-    border: none;
-    color: #fff;
-    font-size: .8em;
-    font-weight: 400;
-    margin-left: 10px;
-    width: 50px;
-    height: 26px;
-    box-shadow: 0 0 5px #133783;
-    position: relative;
-    top: 12px;
+  #main-info{
+    width: 80%;
+    margin: auto;
   }
   
   #text_body {
@@ -73,15 +58,31 @@ body {
     margin: auto;
   }
   
+  #user_photo {
+    width: 200px;
+    height: 200px;
+    padding-top: 180px;
+    padding-left: 50px;
+    float: left;
+  }
+  
+  #user_photo img {
+    border: 3px solid #000;
+  }
+  
+  #user_name {
+    width: 50%;
+    padding-left: 270px;
+    padding-top: 300px;
+    color: #fff;
+    font-size: 2em;
+  }
+  
   #intro {
     width:50%;
     float: left
   }
   
-  #signup_form {
-    width: 40%;
-    float: right;
-  }
   
   #intro {
     margin-top: 70px;
