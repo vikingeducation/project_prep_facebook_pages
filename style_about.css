@@ -59,6 +59,12 @@
   justify-content: center;
 }
 
+#pic-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 #profile-pic {
   z-index: 1;
   height: 300px;
@@ -68,13 +74,91 @@
 #profile-name {
   font-family: "helvetica", sans-serif;
   font-size: 35px;  
+  margin-top: 200px;
+  text-indent: 10px;
 }
 
 .header-tabs {
   display: flex;
   flex-direction: row;
   font-family: "helvetica", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
+}
+
+#timeline, #about, #photos, #friends {
   border: 2px solid black;
-  width: 100%;
+  border-left: none;
+  padding: 5px;
+  width: 150px;
+  height: 40px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  text-indent: 10px;
+}
+
+#empty, #edit {
+  border: 2px solid black;
+  padding: 5px;
+  width: 300px;
+  height: 40px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+#edit {
+  border-left: none;
+  text-align: right;
+  color: blue;
+  text-decoration: underline;
+  
+}
+
+#bottom-half {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about {
+  background-color: #cfd0d3;
+}
+
+h1 {
+  font-family: "helvetica", sans-serif;
+  font-size: 30px;
+}
+
+th, td, p {
+  font-family: "helvetica", sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+#about-heading {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  border: 2px solid black;
+  border-bottom: none;
+  font-family: "helvetica", sans-serif;
+  font-size: 50px;
+  justify-content: center;
+  background-color: #cfd0d3;
+  
+}
+
+#about-section, #words-section {
+	margin-left: 20px;
+	width: 500px;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 85%;
+  border: 2px solid black;
+  line-height: 25px; 
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
