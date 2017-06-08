@@ -52,12 +52,8 @@
 
 
 /* ----- All Screens Style ----- */
-
 	#page-head {
 		color: white;
-	}
-	#page-head form {
-
 	}
 	.head-form-input {
 		border: 2px solid black;
@@ -68,24 +64,25 @@
 	}
 
 
-	/* Main Styles */
-	#description-section h2, 
-	#description-section ul li, 
-	#sign-up-section h2, 
-	#sign-up-section form {
-		margin-bottom: 1rem;
-	}
+	/* ----- Main Styles ----- */
+		#description-section h2, 
+		#description-section ul li, 
+		#sign-up-section h2, 
+		#sign-up-section form {
+			margin-bottom: 1rem;
+		}
 
-	#sign-up-btn {
-		font-size: 1.5rem;
-		color: white;
-		border: 2px solid black;
-		box-shadow: 3px 3px 5px black;
-	}
+		#sign-up-btn {
+			font-size: 1.5rem;
+			color: white;
+			border: 2px solid black;
+			box-shadow: 3px 3px 5px black;
+		}
 
-	input {
-		padding: .25rem;
-	}
+		input {
+			padding: .25rem;
+		}
+	/* ----- End Main Styles ----- */
 
 /* ----- End All Screens Style ----- */
 

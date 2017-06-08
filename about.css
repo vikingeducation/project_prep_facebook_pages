@@ -1,0 +1,186 @@
+/* ----- Reset Corrections ----- */
+	h1 {font-size: 2.25rem; font-weight: 900}
+	h2 {font-size: 1.75rem; font-weight: 900}
+	h3 {font-size: 1.25rem; font-weight: 900}
+	h4 {font-size: 1rem; font-weight: 900}
+	h5 {font-size: .75rem; font-weight: 900}
+	h6 {font-size: .5rem; font-weight: 900}
+/* ----- End Reset Corrections ----- */
+
+
+
+/* ----- Font Formation ----- */
+	p {
+		font-family: 'Open Sans', sans-serif;
+		line-height: 1.5;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Open Sans', sans-serif;
+		line-height: 1;
+	}
+/* ----- End Font Formation ----- */
+
+
+
+/* ----- Colors ----- */
+	.blue {
+		background: #256de1;
+	}
+	.lightblue {
+		background: #95BDF7;
+	}
+	.white {
+		color: white;
+	}
+/* ----- End Colors ----- */
+
+
+
+/* ----- Main Classes ----- */
+	.block {
+		display: block;
+	}
+	.wide {
+		width: 100%;
+	}
+	.half {
+		width: 47.5%;
+	}
+/* ----- End Main Classes ----- */
+
+
+
+/* ----- All Screens Style ----- */
+
+
+	/* ----- Main Styles ----- */
+		a {
+			text-decoration: none;
+			color: black;
+		}
+	/* ----- End Main Styles ----- */
+
+
+/* ----- End All Screens Style ----- */
+
+
+
+/* ----- Mobile ----- */
+	@media screen and (max-width: 599px) {
+		:root {
+			font-size: 20px;
+		}
+	}
+/* ----- End Mobile ----- */
+
+
+
+/* ----- Tablet ----- */
+	@media screen and (min-width: 600px) and (max-width: 989px) {
+		:root {
+			font-size: 18px;
+		}
+	}
+/* ----- End Tablet ----- */
+
+
+
+/* ----- Desktop ----- */
+	@media screen and (min-width: 990px) {
+		:root {
+			font-size: 16px;
+		}
+		main {
+			display: flex;
+			flex: column;
+			justify-content: center;
+		}
+		#pic-section {
+			border: 2px solid black;
+			width: 80%;
+			height: 456px; 406
+		}
+		#bg-img {
+			border-bottom: 2px solid black;
+			height: 350px;
+			background-image: url("assets/images/stadium.jpg");
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: 2000px 1500px;
+			position: relative;
+		}
+		#profile-img {
+			border: 4px solid black;
+			height: 200px;
+			width: 200px;
+			position: relative;
+			left: 50px;
+			bottom: -200px;
+			background-image: url("assets/images/headshot.jpg");
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: 200px 200px;
+		}
+		ul:before {
+			content: "";
+			display: inline-block;
+			width: 30vw;
+		}
+		#pic-section nav {
+			height: 106px;
+			margin-top: -1px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+		#nav-list {
+			display: inline-block;
+		}
+		#nav-list li {
+			box-sizing: border-box;
+			display: inline-block;
+		}
+		#nav-list li a {
+			border-left: 1px solid black;
+			height: 105px;
+			line-height: 105px;
+			padding: 0rem 1rem;
+			display: inline-block;
+		}
+		#nav-list li:last-child {
+			border-right: 1px solid black;
+		}
+		#edit-profile {
+			height: 105px;
+			line-height: 105px;
+			padding: 0rem 1rem;
+			color: blue;
+			text-decoration: underline;
+			margin-top: -1px;
+		}	
+	}
+/* ----- End Desktop ----- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
