@@ -4,7 +4,7 @@
 	background-color: #1b5dc6;
 	height: 100px;
 	width: 100%;
-  border: 2px solid black;
+  	border: 2px solid black;
 	border-left: none;
 	border-right: none;
   
@@ -19,7 +19,6 @@
 }
 
 #logins {
-  align: right;
 	display: flex;
   justify-content: flex-end;
 	margin-top: 20px;
@@ -56,24 +55,44 @@
   margin-top: 50px;
 }
 
-#name {
-	font-size: 20px;
+#sign-up {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	flex-direction: column;
+}
+
+.input {
+	font-size: 20px;
+	font-family: "helvetica", sans-serif;
 	margin: 20px;
-	padding: 20px;
 	width: 100%;
 	color: #686c72;	
 	margin-left: 5px;
 	height: 35px;
+	border: 2px solid #c7c9cc;
+}
+
+#name {
+	font-size: 20px;
+	font-family: "helvetica", sans-serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	color: #686c72;	
+	height: 35px;
+	margin: 20px;
+	margin-left: 5px;
 }
 
 #first-name, #last-name {
 	border: 2px solid #c7c9cc;
 	width: 300px;
-	align-items: center;
-	padding: 5px;
+}
+
+#your-email, #your-password, #confirm {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 ul {
@@ -87,7 +106,43 @@ h2 {
   font-family: "helvetica", sans-serif;
 }
 
-h1 {
+#birthday {
+	font-family: "helvetica", sans-serif;
+	font-size: 30px;
+}
+
+.big-title {
   font-family: "helvetica", sans-serif;
   font-size: 50px;
+}
+
+select {
+	width: auto;
+	font-family: "helvetica", sans-serif;
+	font-size: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	color: #686c72;
+	
+}
+
+#gender {
+	font-family: "helvetica", sans-serif;
+	font-size: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+#sign-up-button {
+	font-size: 35px;
+	font-family: "helvetica", sans-serif;
+	color: white;
+	margin: 20px;
+	width: 100%;
+	background-color: #05b222;	
+	margin-left: 5px;
+	height: 50px;
+	border: 2px solid black;
+	text-align: center;
+  	box-shadow: 4px 4px black;
 }
