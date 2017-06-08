@@ -46,6 +46,48 @@
   border: 2px solid black;
   box-shadow: 4px 4px black;
   margin-right: 20px;
-  margin-top: 23px
-  
+  margin-top: 23px  
+}
+
+#page-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+#name {
+	font-size: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 20px;
+	padding: 20px;
+	width: 100%;
+	color: #686c72;	
+	margin-left: 5px;
+	height: 35px;
+}
+
+#first-name, #last-name {
+	border: 2px solid #c7c9cc;
+	width: 300px;
+	align-items: center;
+	padding: 5px;
+}
+
+ul {
+  color: #686c72;
+  font-family: "helvetica", sans-serif;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: "helvetica", sans-serif;
+}
+
+h1 {
+  font-family: "helvetica", sans-serif;
+  font-size: 50px;
 }
