@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Facepunk Project</title>
+
+    <link rel="stylesheet" href="resources/css/reset.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,900" rel="stylesheet">
+    
+  </head>
+  
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <section id="top_form">
+        <div class="brand">facepunk</div>
+        
+        <form id="sign_in_form">
+          <div id="email_field">
+            <p>Email</p>
+          <input type="email" name="email" id="email" />
+          </div>
+          <div id="password_field">
+            <p>Password</p>
+          <input type="password" name="password" id="password" />
+          </div>
+          <div id="submit_button">
+            <input type="submit" value="Log In" id="submit_btn" />
+          </div>
+        </form>
+      </section>
+    </nav>
+    
+    <!-- Body -->
+    <section id="text_body">
+      <!-- Intro text (Left side) -->
+      <section id="intro">
+        <h3 id="page_title">Connect with all your friends&#33;</h3>
+        <ul>
+          <li><strong>See photos and updates</strong> in your news feed.</li>
+          <li><strong>Post your status</strong> for the world to see from your profile.</li>
+          <li><strong>Get in touch</strong> with your friends by &#34;friending&#34; them</li>
+          <li><strong>Like things</strong> because you&#39;re a positive person&#33;</li>
+        </ul>
+      </section>
+      
+      <!-- Personal Information form (Right side) -->
+      <section id="signup_form">
+        <h2 id="sign_up_title">Sign Up</h2>
+        <form id="form">
+          <!-- Name, email & password -->
+          <div id="name_form">
+            <input class="short_input" type="text" name="firstname" placeholder="First Name" required />&nbsp;
+            <input class="short_input"  type="text" name="lastname" placeholder="Last Name" required /><br>
+            <input class="long_input"type="email" name="email" placeholder="Your Email" required /><br>
+            <input class="long_input" type="password" name="password" placeholder="Your New Password" required /><br>
+            <input class="long_input" type="password" name="password_confirm" placeholder="Confirm Your Password" required /><br>
+          </div>
+          
+          <br>
+          
+          <!-- Bday select (drop down) -->
+          <div id="birthday_form">
+            <p>Birthday</p>
+            <select name='month' id='month' >
+              <option value='month'>Month</option>
+              <option value='1'>1</option>
+              <option value='2'>2</option>
+              <option value='3'>3</option>
+            </select>&nbsp;
+            
+            <select name='day' id='day' >
+              <option value='day'>Day</option>
+              <option value='1'>1</option>
+              <option value='2'>2</option>
+              <option value='3'>3</option>
+            </select>&nbsp;
+            
+            <select name='year' id='year' >
+              <option value='year'>Year</option>
+              <option value='1970'>1970's</option>
+              <option value='1980'>1980's</option>
+              <option value='1990'>1990's</option>
+            </select>
+          </div>
+          
+          <br>
+          <!-- Gender: Female / Male - Unchecked -->
+          <div id="gender_form">
+            <input type="radio" name="gender" value="female" /> Female &nbsp;
+            <input type="radio" name="gender" value="male" /> Male
+          </div>
+          
+          <br>
+          <!-- Submit Button BABY!!! -->
+          <div id="signup_button">
+            <input type="submit" value="Sign Up&#33;"/>
+          </div>
+        </form>
+      </section>
+    </section>
+    
+    <div class="test">
+      
+    </div>
+    
+    <footer>
+      
+    </footer>
+    
+  </body>
+</html>
