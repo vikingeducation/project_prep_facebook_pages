@@ -1,0 +1,317 @@
+html,body{ margin: 0;
+  padding:0;
+  height: 100%;
+}
+
+.heading {
+  overflow: hidden;
+  background-color: #3D5B99;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-bottom: 0.7%;
+ }
+
+.logo{
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+
+.init-sign{
+  display: inline;
+  margin-bottom: 17px;
+}
+
+th,td,button,a,.gender, #birth-year, .agreement , .ag2, .fbpage{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+th,td,button{
+  font-size: 12px;
+}
+
+th,td{
+  line-height: 16px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+th,button,footer {
+  color: #ffffff;
+}
+
+td{
+   color: #9cb4d8;
+}
+
+ #birth-year a, .agreement a, .fbpage a, a{
+  color: #365899;
+}
+
+button, t-bold,h2, .fbpage a{
+  font-style: normal;
+  font-weight: bold;
+}
+
+button {
+  line-height: 18px;
+  background-color: #365899;
+  border: none;
+
+}
+
+#container{
+ background-color: #EDF0F5;
+ width: 100%;
+ height:550px;
+ position: relative;
+ margin-top: 80px;
+}
+
+.left-wrap {
+  float: left;
+  width: 50%;
+}
+
+h3,.button,h2 {font-family: "FreightSansBold", Helvetica, Arial, sans-serif;
+}
+
+.icon1 h2{
+    font-size: 28px;
+  line-height: 36px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+
+ .images{
+  margin-top: 50px;
+ }
+
+
+.img{
+  height:50px;
+  width:50px;
+  margin-left: 150px;
+  margin-bottom: 10px;
+ }
+
+ .text-wrap1,.text-wrap2,.text-wrap3,.icon1 h2{
+  color: #333333;
+ }
+
+ .text-wrap1,.text-wrap2,.text-wrap3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: right;
+  font-size: 17px;
+  line-height: 22px;
+ }
+
+ .t-bold{
+  font-weight: bold;
+ }
+
+ .text-wrap1{
+  margin-right: 115px;
+ }
+
+ .text-wrap2{
+  margin-right: 135px;
+ }
+
+ .text-wrap3{
+  margin-right: 40px;
+ }
+
+.right-wrap > #signup{
+  margin-top: 10px;
+  float: right;
+  margin-right: 200px;
+  max-width: 400px;
+  min-height: 450px;
+  margin-top: 0.8em;
+}
+
+ footer {
+  grid-area: foot;
+}
+
+table {
+  margin-top: -2.3%;
+  margin-right: 15%;
+  float: right;
+  text-align: left;
+}
+
+.name,.surname,.other-details > input[type=text]{
+  padding: 8px 10px;
+  box-sizing: border-box;
+  border: 0.02em solid #999999;
+  border-radius: 0.3em;
+}
+
+.name{
+    width: 45%;
+    margin: 0.3em 13px;
+   }
+
+.surname{
+  width: 45%;
+  margin: 0;
+}
+
+.other-details > input[type=text] {
+  width: 93.68%;
+  margin: 0.3em 13px;
+
+}
+
+input[type = "text"] {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+
+#birth-year{
+  padding: 8px 10px;
+    margin: 0.3em 13px;
+    margin-left: 0.3em;
+}
+
+ #birth-year h4{
+    margin-top: -0.3em;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1d2129;
+}
+
+
+.sign-head {
+  font-size: 36px;
+  font-family: "FreightSansBold", Helvetica, Arial, sans-serif;
+  line-height: 43px;
+  color: #333333;
+  font-style: normal;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 3%;
+  text-indent: 6.6%;
+  }
+
+
+.sub-head{
+  font-size: 19px;
+  font-family: "FreightSansBold", Helvetica, Arial, sans-serif;
+  color:#333333;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+  margin: auto;
+  text-indent: 6.6%
+}
+
+#birth-year a {
+  float:right;
+  margin-right: 6%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+ line-height: 15px;
+ margin-top:-0.6em;
+}
+
+.box1{
+  font-size: 13px;
+  height: 30px;
+  margin-top: -0.9em;
+}
+
+.gender{
+    font-size: 18px;
+    line-height: 18px;
+    color: #1d2129;
+    margin-left: 5%;
+}
+
+.agreement .ag2{
+    font-size: 11px;
+    line-height: 15px;
+    color: #777777;
+    margin-left: 4.5%;
+    width:316px;
+}
+
+p{
+  margin: 1em 0;
+}
+
+.agreement a{
+  font-size: 11px;
+}
+
+.button{
+    font-size: 19px;
+    line-height: 24px;
+    width:194px;
+    height: 39px;
+    margin-left: 5%;
+     background-color: #6FAD5A; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0.3em;
+}
+
+.grey-line{
+  margin-top: 1.5em;
+  color: #e6ebf4;
+  width:;
+}
+
+.fbpage{
+  font-size: 13px;
+  line-height: 17px;
+  color: #666666;
+  margin-left: 5%;
+  margin-top: 1.5em;
+}
+
+
+ul li{
+
+  display: inline;
+
+}
+
+#language{
+  float: left;
+  margin-left: 115px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.grey-line2{
+  margin-right: 400px;
+  margin-top: 10px;
+  width:800px;
+}
+
+.thing{
+display: inline;
+}
+
+.other-links{
+  margin-top: 3px;
+  float: left;
+  margin-left: 150px;
+}
+
+
+
