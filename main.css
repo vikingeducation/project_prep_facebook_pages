@@ -82,35 +82,7 @@
 		input {
 			padding: .25rem;
 		}
-	/* ----- End Main Styles ----- */
-
-/* ----- End All Screens Style ----- */
-
-
-
-/* ----- Mobile ----- */
-	@media screen and (max-width: 599px) {
-		:root {
-			font-size: 20px;
-		}
-	}
-/* ----- End Mobile ----- */
-
-
-
-/* ----- Tablet ----- */
-	@media screen and (min-width: 600px) and (max-width: 989px) {
-		:root {
-			font-size: 18px;
-		}
-	}
-/* ----- End Tablet ----- */
-
-
-
-/* ----- Desktop ----- */
-	@media screen and (min-width: 990px) {
-		:root {
+				:root {
 			font-size: 16px;
 		}
 		body {
@@ -131,72 +103,102 @@
 			padding-right: 1rem;
 		}
 
-		/* Main Layout */
-		main {
-			box-sizing: border-box;
-			flex-grow: 1;
-			display: flex;
-			flex-direction: row;
-			justify-content: space-around;
-			align-items: center;
-		}
-		#description-section {
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-		}
-
+		/* ----- Main Layout ----- */
+			main {
+				box-sizing: border-box;
+				flex-grow: 1;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				align-items: center;
+			}
+			#description-section {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+			/* ----- End Main Layout ----- */
 		
 
 		/* ----- Sign-up Form Layout ----- */
-		#name-inputs {
-			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
-		}
-		input {
-			font-size: 1rem;
-		}
-		#sign-up-section form {
-			width: 90%;
-		}
-		#sign-up-section form input {
-			box-sizing: border-box;
-			margin-bottom: 1rem;
-		}
-		#description-section ul li {
-			font-size: 1rem;
-			
+			#name-inputs {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+			input {
+				font-size: 1rem;
+			}
+			#sign-up-section form {
+				width: 90%;
+			}
+			#sign-up-section form input {
+				box-sizing: border-box;
+				margin-bottom: 1rem;
+			}
+			#description-section ul li {
+				font-size: 1rem;
+				
+			}
+		/* ----- End Sign-up Form Layout ----- */
+
+		/* ----- Button Animations ----- */
+			.btn {
+				transition: box-shadow 1s, background 1s;
+			}
+			.btn:hover {
+				cursor: pointer;
+			}
+			.btn:active {
+				box-shadow: 0px 0px 0px white;
+			}
+			.btn:focus {
+				outline: none;
+			}
+			.btn-blue {
+				transition: background 1s;
+			}
+			.btn-blue:hover {
+				background: #c6deff;
+			}
+			.btn-green {
+				transition: background 1s;
+			}
+			.btn-green:hover {
+				background: #46c136;
+			}
+		/* ----- End Button Animations ----- */	
+
+	/* ----- End Main Styles ----- */
+
+/* ----- End All Screens Style ----- */
+
+
+/* ----- Tablet ----- */
+	@media screen and (max-width: 989px) {
+		:root {
+			font-size: 18px;
 		}
 
-	/* ----- Button Animations ----- */
-		.btn {
-			transition: box-shadow 1s, background 1s;
-		}
-		.btn:hover {
-			cursor: pointer;
-		}
-		.btn:active {
-			box-shadow: 0px 0px 0px white;
-		}
-		.btn:focus {
-			outline: none;
-		}
-		.btn-blue {
-			transition: background 1s;
-		}
-		.btn-blue:hover {
-			background: #c6deff;
-		}
-		.btn-green {
-			transition: background 1s;
-		}
-		.btn-green:hover {
-			background: #46c136;
-		}
-	/* ----- End Button Animations ----- */	
+		/* ----- I will complete this later ----- */
+
 	}
-/* ----- End Desktop ----- */
+/* ----- End Tablet ----- */
+
+
+/* ----- Mobile ----- */
+	@media screen and (max-width: 599px) {
+		:root {
+			font-size: 20px;
+		}
+
+		/* ----- I will complete this later ----- */
+
+		
+	}
+/* ----- End Mobile ----- */
+
+
 
 
 

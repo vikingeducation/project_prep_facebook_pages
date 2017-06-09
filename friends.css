@@ -65,17 +65,6 @@
 		#about-info-container h3 {
 			margin: 1rem auto;
 		}
-	/* ----- End Main Styles ----- */
-
-
-/* ----- End All Screens Style ----- */
-
-
-
-
-
-/* ----- Desktop ----- */
-	@media screen and (min-width: 990px) {
 		:root {
 			font-size: 16px;
 		}
@@ -247,7 +236,38 @@
 			}
 		/* ----- End Friend Contact Cards ----- */
 	}
-/* ----- End Desktop ----- */
+	/* ----- End Main Styles ----- */
+
+
+/* ----- End All Screens Style ----- */
+
+
+/* ----- Tablet ----- */
+	@media screen and (max-width: 989px) {
+		:root {
+			font-size: 18px;
+		}
+
+		/* ----- I will complete this later ----- */
+
+	}
+/* ----- End Tablet ----- */
+
+
+/* ----- Mobile ----- */
+	@media screen and (max-width: 599px) {
+		:root {
+			font-size: 20px;
+		}
+
+		/* ----- I will complete this later ----- */
+
+		
+	}
+/* ----- End Mobile ----- */
+
+		
+
 
 
 
