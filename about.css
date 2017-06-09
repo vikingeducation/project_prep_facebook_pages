@@ -67,36 +67,7 @@
 		#about-info-container h3 {
 			margin: 1rem auto;
 		}
-	/* ----- End Main Styles ----- */
-
-
-/* ----- End All Screens Style ----- */
-
-
-
-/* ----- Mobile ----- */
-	@media screen and (max-width: 599px) {
-		:root {
-			font-size: 20px;
-		}
-	}
-/* ----- End Mobile ----- */
-
-
-
-/* ----- Tablet ----- */
-	@media screen and (min-width: 600px) and (max-width: 989px) {
-		:root {
-			font-size: 18px;
-		}
-	}
-/* ----- End Tablet ----- */
-
-
-
-/* ----- Desktop ----- */
-	@media screen and (min-width: 990px) {
-		:root {
+				:root {
 			font-size: 16px;
 		}
 
@@ -109,6 +80,7 @@
 				width: 80%;
 				margin: auto;
 				display: flex;
+				flex-wrap: wrap;
 				flex-direction: row;
 				justify-content: space-around;
 				align-items: center;
@@ -119,9 +91,10 @@
 			#page-header div input:focus {
 				outline-color: white;
 			}
-
-
 		/* ----- End Header ----- */
+		
+
+		/* ----- Main Layout ----- */
 		main {
 			display: flex;
 			flex-direction: column;
@@ -157,52 +130,55 @@
 			background-position: center center;
 			background-size: 200px 200px;
 		}
-		ul:before {
-			content: "";
-			display: inline-block;
-			width: 30vw;
-		}
-		#pic-section nav {
-			height: 106px;
-			margin-top: -1px;
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-		}
-		#nav-list {
-			display: inline-block;
-		}
-		#nav-list li {
-			box-sizing: border-box;
-			display: inline-block;
-		}
-		#nav-list li a {
-			border-left: 1px solid black;
-			height: 105px;
-			line-height: 105px;
-			padding: 0rem 1rem;
-			display: inline-block;
-			transition: background .5s;
-		}
-		#nav-list li a:hover {
-			background: #256de1;
-			color: white;
-		}
-		#nav-list li:last-child {
-			border-right: 1px solid black;
-		}
-		#edit-profile {
-			height: 105px;
-			line-height: 105px;
-			padding: 0rem 1rem;
-			color: blue;
-			text-decoration: underline;
-			margin-top: -1px;
-		}	
+
+		/* ----- Navigation Links ----- */
+			#pic-section nav {
+				height: 106px;
+				margin-top: -1px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+			ul:before {
+				content: "";
+				display: inline-block;
+				width: 31vw;
+			}
+			#nav-list {
+				display: inline-block;
+			}
+			#nav-list li {
+				box-sizing: border-box;
+				display: inline-block;
+			}
+			#nav-list li a {
+				border-left: 1px solid black;
+				height: 105px;
+				line-height: 105px;
+				padding: 0rem 1rem;
+				display: inline-block;
+				transition: background .5s;
+			}
+			#nav-list li a:hover {
+				background: #256de1;
+				color: white;
+			}
+			#nav-list li:last-child {
+				border-right: 1px solid black;
+			}
+			#edit-profile {
+				height: 105px;
+				line-height: 105px;
+				padding: 0rem 1rem;
+				color: blue;
+				text-decoration: underline;
+				margin-top: -1px;
+			}
+		/* ----- End Navigation Links ----- */
 
 	/* ----- About Section ----- */
 		#about-section {
-			margin: 1rem auto;
+			margin-top: 1rem;
 		}
 		#about-section header {
 			border-bottom: 2px solid black;
@@ -217,7 +193,10 @@
 			align-items: flex-start;
 		}
 		#about-info-container section {
-			margin: .5rem 1.5rem;
+			padding: .5rem .5rem;
+		}
+		#about-p-section {
+
 		}
 
 
@@ -239,22 +218,85 @@
 		/* ----- End Table Styles ----- */
 
 	/* ----- End About Section ----- */
+	/* ----- End Main Styles ----- */
 
 
+/* ----- End All Screens Style ----- */
+
+
+
+/* ----- Tablet ----- */
+	@media screen and (max-width: 989px) {
+		:root {
+			font-size: 18px;
+		}
+		#about-info-container {
+			flex-wrap: wrap;
+		}
+		.section {
+			width: 90%;
+			border: 2px solid black;
+			margin: auto;
+		}
+
+
+		/* ----- Navigation Links ----- */
+			#pic-section nav {
+				height: 106px;
+				margin-top: -1px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+			ul:before {
+				content: "";
+				display: none;
+			}
+			#nav-list {
+				display: inline-block;
+			}
+			#nav-list li {
+				box-sizing: border-box;
+				display: inline-block;
+			}
+			#nav-list li a {
+				border-left: 1px solid black;
+				height: 105px;
+				line-height: 105px;
+				padding: 0rem 1rem;
+				display: inline-block;
+				transition: background .5s;
+			}
+			#nav-list li a:hover {
+				background: #256de1;
+				color: white;
+			}
+			#nav-list li:last-child {
+				border-right: 1px solid black;
+			}
+			#edit-profile {
+				height: 105px;
+				line-height: 105px;
+				padding: 0rem 1rem;
+				color: blue;
+				text-decoration: underline;
+				margin-top: -1px;
+			}
+		/* ----- End Navigation Links ----- */
 	}
-/* ----- End Desktop ----- */
+/* ----- End Tablet ----- */
 
 
-
-
-
-
-
-
-
-
-
-
+/* ----- Mobile ----- */
+	@media screen and (max-width: 599px) {
+		:root {
+			font-size: 20px;
+		}
+		.section {
+			width: 100%;
+		}
+	}
+/* ----- End Mobile ----- */
 
 
 
