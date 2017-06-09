@@ -58,6 +58,9 @@
 			text-decoration: none;
 			color: black;
 		}
+		#about-info-container h3 {
+			margin: 1rem auto;
+		}
 	/* ----- End Main Styles ----- */
 
 
@@ -90,15 +93,42 @@
 		:root {
 			font-size: 16px;
 		}
+
+		/* ----- Header ----- */
+			#page-header {
+				color: white;
+				padding: .5rem 0rem;
+			}
+			#page-header div {
+				width: 80%;
+				margin: auto;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				align-items: center;
+			}
+			#page-header div input {
+				width: 50%;
+			}
+			#page-header div input:focus {
+				outline-color: white;
+			}
+
+
+		/* ----- End Header ----- */
 		main {
 			display: flex;
-			flex: column;
+			flex-direction: column;
 			justify-content: center;
 		}
-		#pic-section {
-			border: 2px solid black;
+		.section {
 			width: 80%;
-			height: 456px; 406
+			border: 2px solid black;
+			margin: auto;
+		}
+		#pic-section {
+			
+			height: 456px; 
 		}
 		#bg-img {
 			border-bottom: 2px solid black;
@@ -146,6 +176,11 @@
 			line-height: 105px;
 			padding: 0rem 1rem;
 			display: inline-block;
+			transition: background .5s;
+		}
+		#nav-list li a:hover {
+			background: #256de1;
+			color: white;
 		}
 		#nav-list li:last-child {
 			border-right: 1px solid black;
@@ -158,6 +193,48 @@
 			text-decoration: underline;
 			margin-top: -1px;
 		}	
+
+	/* ----- About Section ----- */
+		#about-section {
+			margin: 1rem auto;
+		}
+		#about-section header {
+			border-bottom: 2px solid black;
+			text-align: center;
+			padding: 1rem;
+			background: #D8D8D8;
+		}
+		#about-info-container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: flex-start;
+		}
+		#about-info-container section {
+			margin: .5rem 1.5rem;
+		}
+
+
+		/* ----- Table Styles ----- */
+			table {
+				border-collapse: separate;
+				border-spacing: 0rem .5rem;
+			}
+			table th {	
+				padding-right: .5rem;
+			}
+			th {
+				font-weight: bold;
+				text-align: left;
+			}
+			th, td {
+
+			}
+		/* ----- End Table Styles ----- */
+
+	/* ----- End About Section ----- */
+
+
 	}
 /* ----- End Desktop ----- */
 
