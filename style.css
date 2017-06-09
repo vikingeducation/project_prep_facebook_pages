@@ -1,0 +1,148 @@
+#main-header {
+	display: flex;
+	flex-direction: row;
+	background-color: #1b5dc6;
+	height: 100px;
+	width: 100%;
+  	border: 2px solid black;
+	border-left: none;
+	border-right: none;
+  
+}
+
+.site-title {
+	color: white;
+	font-family: sans-serif;
+	font-size: 40px;
+	margin-left: 30px;
+	vertical-align: center;
+}
+
+#logins {
+	display: flex;
+  justify-content: flex-end;
+	margin-top: 20px;
+	color: white;
+	font-family: "helvetica", sans-serif;
+	font-size: 20px;
+  width: 100%;
+}
+
+#box {
+	height: 30px;
+	background: white;
+	width: 200px;
+	border: 2px solid black;
+  margin-right: 10px;
+}
+
+#button {
+  height: 30px;
+  width: 75px;
+  color: black;
+  background: #43c0e0;
+  text-align: center;
+  border: 2px solid black;
+  box-shadow: 4px 4px black;
+  margin-right: 20px;
+  margin-top: 23px  
+}
+
+#page-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+#sign-up {
+	display: flex;
+	flex-direction: column;
+}
+
+.input {
+	font-size: 20px;
+	font-family: "helvetica", sans-serif;
+	margin: 20px;
+	width: 100%;
+	color: #686c72;	
+	margin-left: 5px;
+	height: 35px;
+	border: 2px solid #c7c9cc;
+}
+
+#name {
+	font-size: 20px;
+	font-family: "helvetica", sans-serif;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	color: #686c72;	
+	height: 35px;
+	margin: 20px;
+	margin-left: 5px;
+}
+
+#first-name, #last-name {
+	border: 2px solid #c7c9cc;
+	width: 300px;
+}
+
+#your-email, #your-password, #confirm {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+ul {
+  color: #686c72;
+  font-family: "helvetica", sans-serif;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: "helvetica", sans-serif;
+}
+
+#birthday {
+	font-family: "helvetica", sans-serif;
+	font-size: 30px;
+}
+
+.big-title {
+  font-family: "helvetica", sans-serif;
+  font-size: 50px;
+}
+
+select {
+	width: auto;
+	font-family: "helvetica", sans-serif;
+	font-size: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	color: #686c72;
+	
+}
+
+#gender {
+	font-family: "helvetica", sans-serif;
+	font-size: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+#sign-up-button {
+	font-size: 35px;
+	font-family: "helvetica", sans-serif;
+	color: white;
+	margin: 20px;
+	width: 100%;
+	background-color: #05b222;	
+	margin-left: 5px;
+	height: 50px;
+	border: 2px solid black;
+	text-align: center;
+  	box-shadow: 4px 4px black;
+}
