@@ -46,6 +46,12 @@
 	.half {
 		width: 47.5%;
 	}
+	.on-page {
+		background: #95BDF7;
+		color: white;
+		font-weight: bold;
+		border-bottom: 1px solid black;
+	}
 /* ----- End Main Classes ----- */
 
 
