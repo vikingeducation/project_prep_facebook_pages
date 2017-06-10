@@ -1,0 +1,43 @@
+// Colors
+$blue: #256de1;
+$light-blue: #95BDF7;
+$green: #209311;
+
+
+// Font Styles
+	$font: 'Open Sans', sans-serif;
+
+	.header-specifics {
+		font: {
+			weight: 900;
+			family: $font;
+		}
+	}
+	h1 {
+		@extend .header-specifics;
+		font-size: 2.25rem;
+	}
+	h2 {
+		@extend .header-specifics;
+		font-size: 1.75rem;
+	}
+	h3 {
+		@extend .header-specifics;
+		font-size: 1.25rem;
+	}
+	h4 {
+		@extend .header-specifics;
+		font-size: 1rem;
+	}
+	h5 {
+		@extend .header-specifics;
+		font-size: .75rem;
+	}
+	h6 {
+		@extend .header-specifics;
+		font-size: .5rem;
+	}
+	p {
+	  font-family: $font;
+	  line-height: 1.5; 
+	}

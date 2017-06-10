@@ -1,0 +1,160 @@
+.header-specifics, h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  font-family: "Open Sans", sans-serif; }
+
+h1 {
+  font-size: 2.25rem; }
+
+h2 {
+  font-size: 1.75rem; }
+
+h3 {
+  font-size: 1.25rem; }
+
+h4 {
+  font-size: 1rem; }
+
+h5 {
+  font-size: .75rem; }
+
+h6 {
+  font-size: .5rem; }
+
+#page-header {
+  background: #256de1;
+  color: white;
+  padding: 1rem 0rem; }
+  #page-header div {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+    #page-header div input {
+      width: 50%; }
+    #page-header div input:focus {
+      outline: white; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.section {
+  width: 80%;
+  border: 2px solid black;
+  margin: auto; }
+
+#pic-section {
+  height: 456px; }
+  #pic-section nav {
+    height: 106px;
+    margin-top: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+
+#bg-img {
+  border-bottom: 2px solid black;
+  height: 350px;
+  background-image: url("../assets/images/stadium.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 2000px 1500px;
+  position: relative; }
+
+#profile-img {
+  border: 4px solid black;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 50px;
+  bottom: -200px;
+  background-image: url("../assets/images/headshot.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 200px 200px; }
+
+ul:before {
+  content: "";
+  display: inline-block;
+  width: 30vw; }
+
+#nav-list {
+  display: inline-block; }
+  #nav-list li {
+    box-sizing: border-box;
+    display: inline-block; }
+    #nav-list li:last-child {
+      border-right: 1px solid black; }
+    #nav-list li a {
+      border-left: 1px solid black;
+      height: 105px;
+      line-height: 105px;
+      padding: 0rem 1rem;
+      display: inline-block;
+      transition: background .5s; }
+      #nav-list li a:hover {
+        background: #256de1;
+        color: white; }
+
+#edit-profile {
+  height: 105px;
+  line-height: 105px;
+  padding: 0rem 1rem;
+  color: blue;
+  text-decoration: underline;
+  margin-top: -1px; }
+
+:root {
+  font-size: 16px; }
+
+.on-page {
+  background: #95BDF7;
+  color: white;
+  font-weight: bold;
+  border-bottom: 1px solid black; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+#about-info-container h3 {
+  margin: 1rem auto; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.section {
+  width: 80%;
+  border: 2px solid black;
+  margin: auto; }
+
+#about-section {
+  margin-top: 1rem; }
+  #about-section header {
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 1rem;
+    background: #D8D8D8; }
+
+#about-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start; }
+  #about-info-container section {
+    padding: .5rem .5rem; }
+
+table {
+  border-collapse: separate;
+  border-spacing: 0rem .5rem; }
+  table th {
+    padding-right: .5rem;
+    font-weight: bold;
+    text-align: left; }
+
+/*# sourceMappingURL=about.css.map */

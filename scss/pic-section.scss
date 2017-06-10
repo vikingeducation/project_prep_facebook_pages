@@ -1,0 +1,77 @@
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.section {
+	width: 80%;
+	border: 2px solid black;
+	margin: auto;
+}
+#pic-section {
+	height: 456px;
+	nav {
+		height: 106px;
+		margin-top: -1px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+}
+#bg-img {
+	border-bottom: 2px solid black;
+	height: 350px;
+	background-image: url("../assets/images/stadium.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 2000px 1500px;
+	position: relative;
+}
+#profile-img {
+	border: 4px solid black;
+	height: 200px;
+	width: 200px;
+	position: relative;
+	left: 50px;
+	bottom: -200px;
+	background-image: url("../assets/images/headshot.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 200px 200px;
+}
+ul:before {
+	content: "";
+	display: inline-block;
+	width: 30vw;
+}
+#nav-list {
+	display: inline-block;
+	li {
+		box-sizing: border-box;
+		display: inline-block;
+	&:last-child {
+		border-right: 1px solid black;
+	}
+		a {
+			border-left: 1px solid black;
+			height: 105px;
+			line-height: 105px;
+			padding: 0rem 1rem;
+			display: inline-block;
+			transition: background .5s;
+		&:hover {
+			background: #256de1;
+			color: white;
+		}
+		}
+	
+	}
+}
+#edit-profile {
+	height: 105px;
+	line-height: 105px;
+	padding: 0rem 1rem;
+	color: blue;
+	text-decoration: underline;
+	margin-top: -1px;
+}
