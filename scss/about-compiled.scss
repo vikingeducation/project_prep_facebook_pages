@@ -1,0 +1,65 @@
+@import "colors-fonts", "header", "pic-section";
+
+:root {
+		font-size: 16px;
+}
+
+.on-page {
+	background: #95BDF7;
+	color: white;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+#about-info-container h3 {
+	margin: 1rem auto;
+}
+
+// Main Styles 	
+	main {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+	}
+	.section {
+		width: 80%;
+		border: 2px solid black;
+		margin: auto;
+	}
+	// About Section 
+		#about-section {
+			margin-top: 1rem;
+			header {
+				border-bottom: 2px solid black;
+				text-align: center;
+				padding: 1rem;
+				background: #D8D8D8;
+			}
+		}
+		
+		#about-info-container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: flex-start;
+			section {
+				padding: .5rem .5rem;
+			}
+		}
+
+		// Table Styles
+			table {
+				border-collapse: separate;
+				border-spacing: 0rem .5rem;
+				th {	
+					padding-right: .5rem;
+					font-weight: bold;
+					text-align: left;
+				}
+			}
+
+		// End Table Styles 
+	// End Main Styles

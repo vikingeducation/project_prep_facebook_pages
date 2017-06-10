@@ -1,0 +1,19 @@
+#page-header {
+	background: $blue;
+	color: white;
+	padding: 1rem 0rem;
+	div {
+		width: 80%;
+		margin: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		input {
+			width: 50%;
+		}
+		input:focus {
+			outline: white;
+		}
+	}
+}

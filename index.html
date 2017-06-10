@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<title>Welcome to Facelook</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+	<header id="page-header" class="blue">
+		<h1>Facelook</h1>
+		<form action="">
+			<label>Email<br><input class="head-form-input" type="email" name="email"></label>
+			<label>Password<br> <input class="head-form-input" type="password" name="password"></label>
+			<input class="lightblue btn btn-blue" type="submit" name="submit" value="Log In">
+		</form>
+	</header>
+	<main>
+		<section id="description-section">
+			<h2>Connect with all your friends!</h2>
+			<ul>
+				<li>See photos and updates in your news feed</li>
+				<li>Post your status for the world to see from your profile</li>
+				<li>Get in touch with your friends by "friending" them</li>
+				<li>Like things because you're a positive person!</li>
+			</ul>
+		</section>
+		<section id="sign-up-section">
+			<h2>Sign Up</h2>
+			<form action="">
+				<div id="name-inputs" class="block">
+					<input class="half" type="text" name="first-name" placeholder="First Name">
+					<input class="half" type="text" name="last-name" placeholder="Last Name">
+				</div>
+				<input class="block wide" type="email" name="email" placeholder="Your Email">
+				<input class="block wide" type="password" name="password" placeholder="Your New Password">
+				<input class="block wide" type="password" name="pass-confirm" placeholder="Confirm Your Password">
+				<label>Birthday<br>
+					<select name="bday-month">
+						<option></option>
+						<option>Jan</option>
+						<option>Feb</option>
+						<option>Mar</option>
+						<option>Apr</option>
+						<option>May</option>
+						<option>June</option>
+						<option>July</option>
+						<option>Aug</option>
+						<option>Sep</option>
+						<option>Oct</option>	
+						<option>Nov</option>
+						<option>Dec</option>
+					</select>
+					<select name="bday-day">
+						<option></option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option><option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option><option>19</option><option>20</option><option>21</option><option>22</option><option>23</option><option>24</option><option>25</option><option>26</option><option>27</option><option>28</option><option>29</option><option>30</option><option>31</option>
+					</select>
+					<input type="number" name="bday-year" min="1900" max="2017">
+				</label>
+				<div class="block">
+					<input type="radio" name="gender" value="female"> <label for="female">Female</label>
+					<input type="radio" name="gender" value="male"> <label for="male">Male</label>
+				</div>
+				<input id="sign-up-btn" class="btn btn-green" type="button" name="sign-up" value="Sign Up!">
+			</form>
+		</section>
+	</main>
+</body>
+</html>
