@@ -1,0 +1,116 @@
+* {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: blue;
+  color: white;
+  border-bottom: solid black 3px;
+}
+
+h1, h3 {
+  font-size: 50px;
+}
+h3 {
+  padding: 30px 10px 20px 8px;
+}
+h1 {
+    padding-left: 50px;
+}
+h2 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+li {
+  list-style-type: disc;
+  font-size: 18px;
+  line-height: 40px;
+  margin-left: 40px;
+}
+.bold {
+  font-weight: bold;
+}
+.col-right input, .birthday {
+  margin: 10px 10px;
+  border-radius: 1px;
+}
+.gender {
+  padding-top: 5px;
+}
+.block {
+  display: block;
+}
+.birthday {
+  font-size: 16px;
+}
+.gender {
+  font-size: 14px;
+}
+.blue {
+  background: rgb(135, 206, 235);
+  width: 60px;
+  font-size: 14px;
+  height: 29px;
+}
+.green {
+  background: green;
+  color: white;
+  width: 400px;
+  height: 40px;
+  font-size: 22px;
+}
+input {
+  height: 24px;
+}
+.container-2 input {
+  width: 185px;
+}
+.small input {
+  width: 185px;
+}
+.wide input {
+  width: 400px;
+}
+.extra-margin {
+  margin-left: 10px;
+}
+.container-2 div {
+  display: block;
+  padding: 5px 5px;
+}
+/*POSITIONING*/
+.container-1, .container-3 {
+  display: flex;
+  flex-flow: row wrap;
+}
+.container-2 {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+}
+.container-1 {
+  height: 580px;
+}
+.container-3 {
+  height:120px;
+  align-items: center;
+}
+
+  .col-right, .header-col-right {
+    flex: 1;
+  }
+  .header-col-left {
+    flex: 2;
+  }
+  .col-left {
+    padding: 9% 9% 9% 9%;
+    flex:1;
+    word-spacing: 2px;
+  }
+.container-2 label {
+  flex: 1 0 45%;
+}
+.container-2 input {
+  flex: 0 1 25%;
+}

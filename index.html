@@ -7,39 +7,56 @@
     </head>
 
     <body>
-      <header>
-        <h1>Facelook</h1>
-        <form action="#">
-          <label for="login-email">Email</label>
-          <input type="email" name="email">
-          <label for="login-password">Password</label>
-          <input type="password" name="password">
-          <input type="submit" name="submit" value="Log In">
+      <header class="container-3">
+        <h1 class="header-col-left">Facelook</h1>
+        <form class="header-col-right container-2" action="#">
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" name="password">
+          </div>
+          <div>
+            <input class="blue" type="submit" name="submit" value="Log In">
+          </div>
         </form>
       </header>
 
       <main class="container-1">
-        <section>
+        <section class="col-left">
           <h2>Connect with all your friends!</h2>
+          <br>
           <ul>
-            <li>See photos and updates in your news feed.</li>
-            <li>Post your status for the world to see from your profile</li>
-            <li>Get in touch with your friends by "friending" them</li>
-            <li>Like things because you're a positive person!</li>
+            <li><span class="bold">See photos and updates</span> in your news feed.</li>
+            <li><span class="bold">Post your status for the world to see</span> from your profile</li>
+            <li><span class="bold">Get in touch with your friends</span> by "friending" them</li>
+            <li><span class="bold">Like things</span> because you're a positive person!</li>
           </ul>
         </section>
 
-        <section>
+        <section class="col-right">
           <h3>Sign Up</h3>
           <form action="#">
-            <fieldset>
+            <div class="small">
               <input type="name" name="first-name" placeholder="First Name">
               <input type="name" name="last-name" placeholder="Last Name">
+            </div>
+            <div class="wide">
               <input type="email" name="email" placeholder="Your Email">
+            </div>
+            <div class="wide">
               <input type="password" name="password" placeholder="Your New Password">
+            </div>
+            <div class="wide">
               <input type="password" name="password-confirm" placeholder="Confirm Your Password">
+            </div>
+            <div class="birthday bold">
               <label for="birthday">Birthday</label>
-              <select name="month">
+            </div>
+            <div class="extra-margin">
+              <select class="row-3" name="month">
                 <option value="month" disabled selected>Month</option>
               	<option value="January">January</option>
               	<option value="Febuary">Febuary</option>
@@ -54,7 +71,7 @@
               	<option value="November">November</option>
               	<option value="December">December</option>
               </select>
-              <select name="day">
+              <select class="row-3" name="day">
                 <option value="day" disabled selected>Day</option>
               	<option value="1">1</option>
               	<option value="2">2</option>
@@ -88,7 +105,7 @@
               	<option value="30">30</option>
               	<option value="31">31</option>
               </select>
-              <select name="year">
+              <select class="row-3" name="year">
                 <option value="year" disabled selected="">Year</option>
                 <option value="1993">1993</option>
               	<option value="1992">1992</option>
@@ -138,12 +155,14 @@
               	<option value="1948">1948</option>
               	<option value="1947">1947</option>
               </select>
-              <label for="gender">Female</label>
-              <input type="radio" name="gender" value="f">
-              <label for="gender">Male</label>
-              <input type="radio" name="gender" value="m">
-            </fieldset>
-            <input type="submit" name="submit" value="Sign Up!">
+            </div>
+            <div class="gender">
+              <input class="row-4" type="radio" name="gender" value="f">
+              <label class="row-4" for="gender">Female</label>
+              <input class="row-4" type="radio" name="gender" value="m">
+              <label class="row-4" for="gender">Male</label>
+            </div>
+            <input class="green" type="submit" name="submit" value="Sign Up!">
           </form>
         </section>
 
