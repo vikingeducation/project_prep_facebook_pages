@@ -139,6 +139,7 @@ html * {
   border: 3px solid black;
   position: fixed;
   top: 0px;
+  z-index: 1000;
 }
 
 #active-user-navbar table {
@@ -186,19 +187,15 @@ html * {
 #profile-heading {
   float: left;
   margin: 65px 150px 0 150px;
-  height: 420px;
+  height: 380px;
   border: 3px solid black;
-}
-
-#cover-photo {
-
 }
 
 #profile-picture {
   float: left;
   position: relative;
   left: 20px;
-  bottom: 160px;
+  bottom: 190px;
 }
 
 #profile-heading-navbar {
@@ -207,12 +204,12 @@ html * {
   border-collapse: collapse;
   position: relative;
   bottom:27px;
-  line-height: 80px;
+  line-height: 47px;
   text-align: center;
 }
 
 #profile-heading-navbar td {
-  height: 87px;
+  height: 20px;
   border: 2px solid black;
   width: 95px;
 }
@@ -222,7 +219,7 @@ html * {
 }
 
 #profile-heading-navbar td:hover {
-  outline: 3px solid blue;
+  text-decoration: underline;
 }
 
 #profile-heading-navbar #edit-profile {
@@ -233,4 +230,43 @@ html * {
 
 #profile-heading-navbar #edit-profile a {
   color: blue;
+}
+
+/*--About Page profile info--*/
+
+.profile-info-container {
+  float: left;
+  margin: 65px 150px 0 150px;
+  height: 380px;
+  border: 3px solid black;
+  width: 800px;
+}
+
+.profile-info-label {
+  width: 100%;
+  height: 50px;
+  background: lightgrey;
+  text-align: center;
+  font-size: 25px;
+  line-height: 45px;
+  border-bottom: 3px solid black;
+}
+
+.profile-info-edit-profile-button {
+  padding: 4px;
+  font-size: 12px;
+  display: block;
+  float: right;
+  margin-top: -36px;
+  margin-right: 20px;
+  background: blue;
+  box-shadow: 2px 2px black;
+  color: white;
+  border: 3px solid black;
+}
+
+.profile-info-edit-profile-button:hover {
+  box-shadow: 0 0;
+  margin-top: -34px;
+  margin-right: 18px;
 }
