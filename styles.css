@@ -186,8 +186,51 @@ html * {
 #profile-heading {
   float: left;
   margin: 65px 150px 0 150px;
+  height: 420px;
+  border: 3px solid black;
 }
 
 #cover-photo {
 
+}
+
+#profile-picture {
+  float: left;
+  position: relative;
+  left: 20px;
+  bottom: 160px;
+}
+
+#profile-heading-navbar {
+  font-size: 14px;
+  float: right;
+  border-collapse: collapse;
+  position: relative;
+  bottom:27px;
+  line-height: 80px;
+  text-align: center;
+}
+
+#profile-heading-navbar td {
+  height: 87px;
+  border: 2px solid black;
+  width: 95px;
+}
+
+#profile-heading-navbar a {
+  color: black;
+}
+
+#profile-heading-navbar td:hover {
+  outline: 3px solid blue;
+}
+
+#profile-heading-navbar #edit-profile {
+  text-align: right;
+  width: 180px;
+  text-decoration: underline;
+}
+
+#profile-heading-navbar #edit-profile a {
+  color: blue;
 }

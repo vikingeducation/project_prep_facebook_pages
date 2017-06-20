@@ -10,4 +10,6 @@
         text-decoration: none;
         font-family: Helvetica, sans-serif;
         font-weight: normal;
+        border-collapse: collapse;
+        color: black;
 }
