@@ -136,11 +136,14 @@ html * {
   background: blue;
   width: 100%;
   height: 60px;
+  border: 3px solid black;
+  position: fixed;
+  top: 0px;
 }
 
 #active-user-navbar table {
   height: 60px;
-  margin: 0 60px;
+  margin: 0 90px;
 }
 
 #active-user-navbar #navbar-search-input {
@@ -150,6 +153,7 @@ html * {
   background: white;
   border: 2px solid grey;
   margin: 0 110px 0 15px;
+  text-indent: 5px;
 }
 
 #active-user-navbar img {
@@ -160,6 +164,7 @@ html * {
 }
 
 #active-user-navbar #navbar-logo {
+  filter: invert(100);
 }
 
 #active-user-navbar #navbar-facebook {
@@ -174,4 +179,15 @@ html * {
   color: white;
   position: relative;
   bottom: 8px;
+}
+
+/*--Profile Heading styling--*/
+
+#profile-heading {
+  float: left;
+  margin: 65px 150px 0 150px;
+}
+
+#cover-photo {
+
 }
