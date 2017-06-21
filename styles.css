@@ -232,14 +232,23 @@ html * {
   color: blue;
 }
 
-/*--About Page profile info--*/
+/*--profile info container & edit button--*/
 
 .profile-info-container {
   float: left;
-  margin: 65px 150px 0 150px;
-  height: 380px;
+  margin: 20px 150px 100px 150px;
+  height: 440px;
   border: 3px solid black;
   width: 800px;
+}
+
+.profile-info-container-flexbox {
+  height: 388px;
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 14px;
+  align-items: center;
+  text-align: left;
 }
 
 .profile-info-label {
@@ -269,4 +278,53 @@ html * {
   box-shadow: 0 0;
   margin-top: -34px;
   margin-right: 18px;
+}
+
+
+/*--"About Me" profile info tables--*/
+
+#basic-information {
+  margin: 20px 0 20px 30px;
+  align-self: flex-start;
+  width: 350px;
+  line-height: 30px;
+}
+
+#basic-information thead {
+  font-size: 26px;
+  line-height: 50px;
+}
+
+#contact-information {
+  margin: 20px 0 0 30px;
+  align-self: flex-start;
+  width: 350px;
+  line-height: 30px;
+}
+
+#contact-information thead {
+  font-size: 26px;
+  line-height: 50px;
+}
+
+#words-to-live-by {
+  margin: 20px 30px 0 30px;
+  align-self: flex-start;
+  width: 350px;
+}
+
+#words-to-live-by thead {
+  font-size: 26px;
+  line-height: 50px;
+}
+
+#about-me {
+  margin: 20px 30px;
+  align-self: flex-start;
+  width: 350px;
+}
+
+#about-me thead {
+  font-size: 26px;
+  line-height: 50px;
 }
