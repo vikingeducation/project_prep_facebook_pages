@@ -194,8 +194,10 @@ html * {
 #profile-picture {
   float: left;
   position: relative;
-  left: 20px;
+  left: 13px;
   bottom: 190px;
+  background: linear-gradient(white 70%, black);
+  border: 3px solid black;
 }
 
 #profile-heading-navbar {
@@ -230,6 +232,10 @@ html * {
 
 #profile-heading-navbar #edit-profile a {
   color: blue;
+}
+
+.profile-heading-navbar-active-tab {
+  background: lightgrey;
 }
 
 /*--profile info container & edit button--*/
@@ -280,8 +286,7 @@ html * {
   margin-right: 18px;
 }
 
-
-/*--"About Me" profile info tables--*/
+/*--"About Me" page profile info tables--*/
 
 #basic-information {
   margin: 20px 0 20px 30px;
@@ -330,4 +335,51 @@ html * {
 }
 
 
-/*-- "Friends" profile info boxes --*>
+/*-- "Friends" page profile info boxes --*/
+
+.friend-display-box {
+  width: 350px;
+  height: 90px;
+  border: 3px solid black;
+  margin: 22px 0 0 0;
+}
+
+#friend-display-box-photo {
+  position: relative;
+  top: 7px;
+  left: 7px;
+  float: left;
+  height: 70px;
+  width: 70px;
+  border: 3px solid black;
+}
+
+.friend-display-box div {
+  float: left;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+.friend-display-box a {
+  font-size: 18px;
+  color: blue;
+  text-decoration: underline;
+}
+
+#friend-display-box-unfriend-button {
+  position: relative;
+  top: 5px;
+  background: lightgrey;
+  border: 3px solid black;
+  width: 110px;
+  height: 25px;
+  margin: 0 0 0 30px;
+  box-shadow: 2px 2px black;
+}
+
+#friend-display-box-unfriend-button:hover {
+  box-shadow: 0px 0px;
+  top: 7px;
+  left: 2px;
+}
