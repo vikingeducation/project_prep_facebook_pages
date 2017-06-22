@@ -45,9 +45,46 @@ main {
     padding: 0.75rem 2rem;
 }
 
+button {
+    border: 2px solid black;
+    padding: 0.2rem;
+    box-shadow: 2px 2px 2px black;
+}
+
+select {
+    background-color: white;
+    border: 1px solid black;
+}
+
+input {
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+    padding: 0.2rem;
+}
+
+.stacked-label input{
+    margin-bottom: 0;
+}
+
+.login-button {
+    background-color: #9FC5F9;
+}
+
+.signup-button {
+    color: white;
+    background-color: #249D0F;
+    font-size: 1.25rem;
+    font-weight: bold;
+    width: 100%;
+}
+
 fieldset {
     border: none;
     padding-left: 0;
+}
+
+fieldset legend {
+    font-weight: bold;
 }
 
 .stacked-label {
@@ -63,14 +100,20 @@ fieldset {
     display: flex;
     justify-content: space-between;
 }
+
 .half-width {
-    width: 8rem;
+    width: 10rem;
 }
+
 .full-width {
-    width: 18rem;
+    width: 21rem;
     display: block;
 }
 
-input {
-    margin: .25rem 0;
+h2.signup {
+    font-size: 36px;
+}
+
+li.tall {
+    margin: 2rem 0;
 }
