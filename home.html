@@ -10,19 +10,23 @@
   <body>
 
     <header id="main-header">
-      <h1 id="site-title">Facelook</h1>
-      <form id="login-form">
-        <label for="email">Email</label>
-        <input type="email" name="email">
-        <label for="password">Password</label>
-        <input type="password" name="password">
-        <input type="submit" name="login" value="Log In">
+      <h1 id="site-title" class="main-header-section">Facelook</h1>
+      <form id="login-form" class="main-header-section">
+        <fieldset class="stacked-label">
+          <label for="email">Email</label>
+          <input type="email" name="email" class="half-width">
+        </fieldset>
+        <fieldset class="stacked-label">
+          <label for="password">Password</label>
+          <input type="password" name="password" class="half-width">
+        </fieldset>
+        <button type="submit" name="login">Log In</button>
       </form>
     </header>
 
-    <main class="clearfix">
+    <main>
 
-      <section id="invitation">
+      <section>
         <h3>Connect with all your friends!</h3>
         <ul>
           <li>See photos and updates in your news feed.</li>
@@ -32,14 +36,16 @@
         </ul>
       </section>
 
-      <section id="signup">
+      <section>
         <h2>Sign Up</h2>
         <form>
-          <input type="text" name="first-name" placeholder="First Name">
-          <input type="text" name="last-name" placeholder="Last Name">
-          <input type="email" name="email" placeholder="Your Email">
-          <input type="password" name="password" placeholder="Your New Password">
-          <input type="password" name="password-confirm" placeholder="Confirm Your Password">
+          <section class="half-section">
+            <input type="text" name="first-name" placeholder="First Name" class="half-width"><!--
+        --><input type="text" name="last-name" placeholder="Last Name"class="half-width">
+          </section>
+          <input type="email" name="email" placeholder="Your Email" class="full-width">
+          <input type="password" name="password" placeholder="Your New Password" class="full-width">
+          <input type="password" name="password-confirm" placeholder="Confirm Your Password" class="full-width">
           <fieldset class="birthday-group">
             <legend>Birthday</legend>
             <select name="month">
@@ -69,7 +75,7 @@
               <input type="radio" name="gender" value="male">Male
             </label>
           </fieldset>
-          <input type="submit" value="Sign Up!">
+          <button type="submit">Sign Up!</button>
         </form>
       </section>
 
