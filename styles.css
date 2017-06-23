@@ -16,33 +16,52 @@ html {
     clear: both;
 }
 
-.left {
-    display: block;
-    float: left;
-}
-
-.right {
-    display: block;
-    float: right;
-}
-
-header {
+.top-color {
     color: white;
     background-color: #2B78E4;
+}
+
+.between-center {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.beside, .branding .beside {
+    display: inline-block;
+    vertical-align: 0;
+}
+
+.skinny {
+    margin: 0;
+}
+
+.thin {
+    padding: .2rem 0;
+}
+
+.tall {
+    margin: 2rem 0;
+}
+
+header input[type="search"]{
+    width: 70%;
 }
 
 main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.main-header-section {
-    margin: 0;
-    padding: 0.75rem 2rem;
 }
 
 button {
@@ -56,14 +75,10 @@ select {
     border: 1px solid black;
 }
 
-input {
+form input {
     margin-top: 0.1rem;
     margin-bottom: 1rem;
     padding: 0.2rem;
-}
-
-.stacked-label input{
-    margin-bottom: 0;
 }
 
 .login-button {
@@ -87,12 +102,7 @@ fieldset legend {
     font-weight: bold;
 }
 
-.stacked-label {
-    display: inline-block;
-    margin: 0;
-}
-
-.stacked-label label {
+fieldset label {
     display: block;
 }
 
@@ -114,6 +124,86 @@ h2.signup {
     font-size: 36px;
 }
 
-li.tall {
-    margin: 2rem 0;
+#profile-pic {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 4%;
+    left: 2%;
+    border: 2px solid black;
+}
+
+h2.username {
+    color: white;
+    position: absolute;
+    bottom: 7%;
+    left: 20%;
+}
+
+.bordered {
+    border: 2px solid black;
+}
+
+#cover nav {
+    position: relative;
+    top: -4px;
+    z-index: -1;
+}
+
+nav ul li {
+    display: block;
+    float: left;
+    border-right: 2px solid black;
+    padding: 0.5em;
+}
+
+li.profile-spacer {
+    width: 16%;
+}
+
+.selected {
+    background-color: #ddd;
+}
+
+li .nav-count {
+    color: #888;
+    font-size: 0.8em;
+}
+
+li.nav-link {
+    float: right;
+    border: none;
+}
+
+.centered {
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.relative button {
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translate(0, -50%);
+}
+
+.content-pane {
+    border-top: none;
+    column-count: 2;
+    padding: 2em;
+}
+
+.content-pane h3:first-child {
+    margin-top: 0;
+}
+
+.content-pane td {
+    padding: .25rem;
+}
+
+.content-pane td:first-child {
+    font-weight: bold;
 }
