@@ -203,7 +203,7 @@ li.nav-link {
     position: relative;
 }
 
-.content-header button {
+button#edit-button {
     position: absolute;
     top: 50%;
     right: 1%;
@@ -251,10 +251,14 @@ li.nav-link {
 
 }
 
-#activity-feed {
-    display: inline-block;
+.profile-section {
+    display: block;
+    float: left;
     height: 100%;
     padding: 1em;
+}
+
+#activity-feed {
     border-right: 2px solid black;
 }
 
@@ -285,4 +289,30 @@ html, body {
     margin: 1em;
     display: block;
     text-align: center;
+}
+
+.below-post {
+    border-top: 2px solid black;
+}
+
+.above-post {
+    border-bottom: 2px solid black;
+}
+
+.below-post button {
+    float: right;
+    margin-right: 1em;
+}
+
+#post-feed {
+    width: 60%;
+    margin: 2em 5%;
+    max-width: 690px;
+}
+
+#post-form textarea{
+    display: block;
+    margin: 0.5em auto;
+    width: 95%;
+    height: 4em;
 }

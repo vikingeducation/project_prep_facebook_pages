@@ -10,6 +10,8 @@
   </head>
   <body>
 
+  <div class="clearfix">
+
     <header class="top-color">
       <div class="container between-center thin">
         <section class="branding">
@@ -21,7 +23,7 @@
       </div>
     </header>
 
-    <section id="activity-feed">
+    <section id="activity-feed" class="profile-section">
 
       <header class="friend-card left-top">
         <img src="profile.jpg">
@@ -112,9 +114,25 @@
         <a href="#">See All Your Friends</a>
       </footer>
 
-
-
     </section>
+
+    <section id="post-feed" class="profile-section">
+
+      <section id="post-form" class="bordered post">
+        <header class="above-post">
+          <h2 class="skinny thin centered selected">Post</h2>
+        </header>
+
+        <form>
+          <textarea class="bordered" placeholder="Tell the world something..."></textarea>
+          <section class="below-post selected thin clearfix">
+            <button class="top-color">Post</button>
+          </section>
+        </form>
+      </section>
+    </section>
+
+    </div>
 
   </body>
 </html>
