@@ -149,7 +149,7 @@ fieldset legend {
 }
 
 fieldset label {
-    display: block;
+    display: inline-block;
 }
 
 .half-section{
@@ -327,11 +327,11 @@ html, body {
 }
 
 #post-feed {
-    width: 60%;
+    width: 70%;
     margin-top: 1em;
     padding-left: 10%;
     border-left: 2px solid black;
-    max-width: 690px;
+    max-width: 960px;
 }
 
 #post-form {
