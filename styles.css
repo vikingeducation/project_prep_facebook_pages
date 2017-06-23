@@ -7,6 +7,14 @@ html {
     box-sizing: inherit;
 }
 
+a {
+    color: #2B78E4;
+}
+
+a:hover {
+    color: #0749A3;
+}
+
 .clearfix::before,
 .clearfix::after {
     display: table;
@@ -24,6 +32,18 @@ html {
 .between-center {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.left-top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.left-center{
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -224,4 +244,45 @@ li.nav-link {
 
 .friend-link * {
     display: block;
+}
+
+.friend-link h1 {
+    font-size: 1.2rem;
+
+}
+
+#activity-feed {
+    display: inline-block;
+    height: 100%;
+    padding: 1em;
+    border-right: 2px solid black;
+}
+
+#activity-feed .friend-card {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+#activity-feed .friend-link {
+    margin-left: .25rem;
+}
+
+.activity h2 {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+.activity img {
+    width: 50px;
+    height: 50px;
+}
+
+html, body {
+    height: 100%;
+}
+
+#activity-feed footer a {
+    margin: 1em;
+    display: block;
+    text-align: center;
 }
