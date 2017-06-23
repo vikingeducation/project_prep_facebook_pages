@@ -15,6 +15,15 @@ a:hover {
     color: #0749A3;
 }
 
+a#profile-link {
+    color: white;
+    text-decoration: none;
+}
+
+a#profile-link:hover {
+    color: #ddd;
+}
+
 .clearfix::before,
 .clearfix::after {
     display: table;
@@ -168,6 +177,7 @@ h2.signup {
     bottom: 4%;
     left: 2%;
     border: 2px solid black;
+    z-index: 2;
 }
 
 h2.username {
@@ -184,7 +194,6 @@ h2.username {
 #cover nav {
     position: relative;
     top: -4px;
-    z-index: -1;
 }
 
 nav ul li {
