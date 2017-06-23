@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Facelook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <header class="top-color">
+      <div class="container between-center">
+      <h1 id="site-title" class="skinny">Facelook</h1>
+      <form id="login-form" class="skinny">
+        <fieldset class="beside skinny">
+          <label for="email">Email</label>
+          <input type="email" name="email" class="half-width skinny">
+        </fieldset>
+        <fieldset class="beside skinny">
+          <label for="password">Password</label>
+          <input type="password" name="password" class="half-width skinny">
+        </fieldset>
+        <button type="submit" class="login-button">Log In</button>
+      </form>
+      </div>
+    </header>
+
+    <main id="home-main">
+
+      <section id="invitation">
+        <h3>Connect with all your friends!</h3>
+        <ul>
+          <li class="tall">See photos and updates in your news feed.</li>
+          <li class="tall">Post your status for the world to see from your profile.</li>
+          <li class="tall">Get in touch with your friends by "friending" them.</li>
+          <li class="tall">Like things because your're a positive person!</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="signup">Sign Up</h2>
+        <form>
+          <section class="half-section">
+            <input type="text" name="first-name" placeholder="First Name" class="half-width"><!--
+        --><input type="text" name="last-name" placeholder="Last Name"class="half-width">
+          </section>
+          <input type="email" name="email" placeholder="Your Email" class="full-width">
+          <input type="password" name="password" placeholder="Your New Password" class="full-width">
+          <input type="password" name="password-confirm" placeholder="Confirm Your Password" class="full-width">
+          <fieldset class="birthday-group">
+            <legend>Birthday</legend>
+            <select name="month">
+              <option disabled selected>Month</option>
+              <option value="1">January</option>
+              <option value="2">February</option>
+              <option value="∞">etc.</option>
+            </select>
+            <select name="day">
+              <option disabled selected>Day</option>
+              <option value="1">01</option>
+              <option value="2">02</option>
+              <option value="∞">etc.</option>
+            </select>
+            <select name="year">
+              <option disabled selected>Year</option>
+              <option value="1969">1969</option>
+              <option value="2001">2001</option>
+              <option value="∞">∞</option>
+            </select>
+          </fieldset>
+          <fieldset class="gender-group">
+            <label for="female">
+              <input type="radio" name="gender" value="female"> Female
+            </label>
+            <label for="male">
+              <input type="radio" name="gender" value="male"> Male
+            </label>
+          </fieldset>
+          <button type="submit" class="signup-button">Sign Up!</button>
+        </form>
+      </section>
+
+  </body>
+</html>
