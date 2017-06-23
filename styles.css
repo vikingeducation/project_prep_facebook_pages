@@ -389,13 +389,14 @@ html * {
   left: 2px;
 }
 
-/*-- "Newsfeed" styles --*/
+/*-- "Newsfeed" sidebar styles --*/
 
 .newsfeed-sidebar {
   float: left;
   width: 350px;
-  margin: 66px 0;
+  margin: 66px 0 0 0;
   border: 3px solid black;
+  height: 2100px;
 }
 
 .newsfeed-sidebar-user {
@@ -485,6 +486,8 @@ html * {
   font-size: 20px;
 }
 
+/*-- "Newsfeed" main feed styles --*/
+
 .newsfeed {
   float: left;
   width: 700px;
@@ -537,6 +540,8 @@ html * {
   left: 2px;
 }
 
+/*-- "Newsfeed" displayed posts styles --*/
+
 .newsfeed-post-display {
   margin: 40px 0 0 0;
   width: 500px;
@@ -586,22 +591,116 @@ html * {
   text-decoration: underline;
 }
 
-.newsfeed-post-comments-section {
+.newsfeed-post-response-options h6 {
+  color: grey;
+}
 
+/*-- "Newsfeed" comments section styles --*/
+
+.newsfeed-post-comments-section {
+  border-top: 2px solid grey;
+  display: flex;
+  flex-flow: row wrap;
+  background: lightgrey;
 }
 
 .newsfeed-post-comment-display {
+  width: 480px;
+  display: flex;
+  flex-flow: column wrap;
+  height: 170px;
+  font-size: 14px;
+  margin: 10px 0 0 0;
+}
+
+.newsfeed-post-comment-display-user-image {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 170px;
+  width: 100px;
+}
+
+.newsfeed-post-comment-display-user-image img {
+  margin: 12px auto;
+  height: 75px;
+  width: 75px;
+  background: white;
+}
+
+.newsfeed-post-comment-display-user-info {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 400px;
+  margin: 10px 0 0 0;
+}
+
+.newsfeed-post-comment-display-user-info h6 {
+  color: grey;
+  margin: 0 0 0 5px;
+}
+
+.newsfeed-post-comment-display-user-info a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.newsfeed-post-comment-display-text-comment {
+  width: 380px;
+  height: 120px;
+}
+
+.newsfeed-post-comment-display-response-options {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 400px;
+}
+
+.newsfeed-post-comment-display-response-options h6 {
+  color: grey;
+}
+
+.newsfeed-post-comment-display-response-options a {
+  margin: 0 10px 0 0;
+  color: blue;
+  text-decoration: underline;
+}
+
+#newsfeed-comment-delete-button {
+  margin: 0 10px 0 180px;
+}
+
+.newsfeed-post-comments-section-write-comment {
 
 }
 
-.newsfeed-post-comment-display-user-image
+.newsfeed-post-comments-section-write-comment textarea {
+  margin: 40px 0px 0 23px;
+  border: 3px solid black;
+  width: 450px;
+  height: 150px;
+  background: white;
+}
 
-.newsfeed-post-comment-display-user-info
+.newsfeed-post-comments-section-write-comment a {
+  margin: 0 0 0 24px;
+  color: blue;
+  text-decoration: underline;
+}
 
-.newsfeed-post-comment-display-text-comment
+.newsfeed-post-comments-section-write-comment button {
+  margin: 5px 40px 20px 0;
+  float: right;
+  background: blue;
+  color: white;
+  border: 3px solid black;
+  box-shadow: 2px 2px black;
+  width: 100px;
+  height: 30px;
+}
 
-.newsfeed-post-comment-display-response-options
-
-.newsfeed-comment-delete-button
-
-.newsfeed-post-comments-section-write-comment
+.newsfeed-post-comments-section-write-comment button:hover {
+  box-shadow: 0px 0px;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
