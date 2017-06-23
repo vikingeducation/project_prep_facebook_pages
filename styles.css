@@ -196,7 +196,7 @@ html * {
   position: relative;
   left: 13px;
   bottom: 190px;
-  background: linear-gradient(white 70%, black);
+  background: white;
   border: 3px solid black;
 }
 
@@ -367,6 +367,11 @@ html * {
   text-decoration: underline;
 }
 
+.friend-display-box p {
+  position: relative;
+  top: -1px;
+}
+
 #friend-display-box-unfriend-button {
   position: relative;
   top: 5px;
@@ -383,3 +388,220 @@ html * {
   top: 7px;
   left: 2px;
 }
+
+/*-- "Newsfeed" styles --*/
+
+.newsfeed-sidebar {
+  float: left;
+  width: 350px;
+  margin: 66px 0;
+  border: 3px solid black;
+}
+
+.newsfeed-sidebar-user {
+  margin: 30px;
+  width: 270px;
+  height: 150px;
+}
+
+.newsfeed-sidebar-user-image {
+  width: 135px;
+  height: 150px;
+  float: left;
+}
+
+.newsfeed-sidebar-user-links {
+  width: 135px;
+  height: 50px;
+  float: left;
+  margin: 20px 0;
+}
+
+.newsfeed-sidebar-user a {
+  margin: 0px 10px;
+  color: blue;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+#newsfeed-sidebar-user-links-edit-button {
+  font-size: 14px;
+}
+
+.newsfeed-sidebar-user img {
+  margin: 7px;
+  width: 120px;
+  border: 3px solid black;
+}
+
+.newsfeed-sidebar-recently-active {
+  float: left;
+  margin: 0 0 0 30px;
+  width: 290px;
+}
+
+.newsfeed-sidebar-recently-active h4 {
+  font-size: 22px;
+  margin: 0 0 20px 0;
+}
+
+.newsfeed-sidebar-recently-active-user-display {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.newsfeed-sidebar-recently-active-user-display div {
+  font-size: 14px;
+  margin: 0 3px;
+}
+
+.newsfeed-sidebar-recently-active-user-display img {
+  width: 90px;
+  border: 3px solid black;
+}
+
+.newsfeed-sidebar-recently-active-user-display a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.newsfeed-sidebar-recently-active-user-display a, p {
+  position: relative;
+  top: 25px;
+}
+
+.newsfeed-sidebar-recently-active-user-display p {
+  color: grey;
+}
+
+.newsfeed-sidebar-see-all-friends {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.newsfeed-sidebar-see-all-friends a {
+  color: blue;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.newsfeed {
+  float: left;
+  width: 700px;
+  margin: 66px 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.newsfeed-new-post {
+  margin: 40px 0 0 0;
+  width: 500px;
+  text-align: center;
+  border: 3px solid black;
+  font-size: 20px;
+  background: lightgrey;
+}
+
+.newsfeed-new-post-textarea {
+  width: 500px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  background: white;
+}
+
+.newsfeed-new-post-textarea textarea {
+  width: 474px;
+  margin: 10px 13px;
+  height: 100px;
+  border: 2px solid black;
+}
+
+.newsfeed-new-post-button {
+  font-size: 16px;
+  border: 3px solid black;
+  margin: 8px 30px 8px 8px;
+  float: right;
+  width: 70px;
+  height: 30px;
+  background: blue;
+  border: 3px solid black;
+  color: white;
+  box-shadow: 2px 2px black;
+}
+
+.newsfeed-new-post-button:hover {
+  box-shadow: 0px 0px;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.newsfeed-post-display {
+  margin: 40px 0 0 0;
+  width: 500px;
+  border: 3px solid black;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.newsfeed-post-display img {
+  margin: 10px 0 0 10px;
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+}
+
+.newsfeed-post-user-info {
+  height: 70px;
+  margin: 10px 0 0 10px;
+}
+
+.newsfeed-post-username {
+  position: relative;
+  top: 25px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.newsfeed-post-timestamp {
+  color: grey;
+}
+
+.newsfeed-post-text {
+  margin: 0 15px;
+  height: 180px;
+}
+
+.newsfeed-post-response-options {
+  border-top: 3px solid black;
+  width: 500px;
+  text-indent: 15px;
+  line-height: 30px;
+  background: lightgrey;
+}
+
+.newsfeed-post-response-options a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.newsfeed-post-comments-section {
+
+}
+
+.newsfeed-post-comment-display {
+
+}
+
+.newsfeed-post-comment-display-user-image
+
+.newsfeed-post-comment-display-user-info
+
+.newsfeed-post-comment-display-text-comment
+
+.newsfeed-post-comment-display-response-options
+
+.newsfeed-comment-delete-button
+
+.newsfeed-post-comments-section-write-comment
