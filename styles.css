@@ -24,8 +24,29 @@ a:hover {
     clear: both;
 }
 
-.left {float: left;}
 .right {float: right;}
+
+body > header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.top-section {
+    margin-top: 20px;
+}
 
 .top-color {
     color: white;
@@ -50,15 +71,7 @@ a:hover {
     align-items: center;
 }
 
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    position: relative;
-}
-.container img {
-    width: 100%;
-    height: auto;
-}
+
 
 .beside, .branding .beside {
     display: inline-block;
@@ -81,7 +94,8 @@ header input[type="search"]{
     width: 70%;
 }
 
-main {
+main#home-main {
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
