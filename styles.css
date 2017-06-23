@@ -179,11 +179,11 @@ li.nav-link {
     text-align: center;
 }
 
-.relative {
+.content-header {
     position: relative;
 }
 
-.relative button {
+.content-header button {
     position: absolute;
     top: 50%;
     right: 1%;
