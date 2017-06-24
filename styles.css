@@ -1,0 +1,711 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+
+html * {
+  font-family: "Pangolin";
+  font-weight: bold;
+}
+
+/*--Home Page only styling--*/
+
+.header-container {
+  background: blue;
+  width: 100%;
+  height: 90px;
+  border: 2px solid black;
+}
+
+.header-container header {
+  position: relative;
+  top: 13px;
+  float: left;
+  text-indent: 40px;
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 65px;
+}
+
+.header-container h2 {
+  color: white !important;
+  line-height: 65px;
+  font-size: 55px;
+}
+
+#log-in-form-table {
+  text-align: left;
+  margin: 20px 120px;
+  float: right;
+}
+
+#log-in-form-table label {
+  color: white;
+  font-weight: bold;
+}
+
+#log-in-form-table input {
+  height: 25px;
+  width: 90%;
+  background: white;
+  border: 3px solid black;
+}
+
+#log-in-form-table button {
+  border: 2px solid black;
+  line-height: 25px;
+  width: 80px;
+  background: lightblue;
+}
+
+#home-page-features-ad {
+  width: 750px;
+  height: 600px;
+  float: left;
+}
+
+#home-page-features-ad h2, ul {
+  position: relative;
+  top: 130px;
+}
+
+#home-page-features-ad h2 {
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#home-page-features-ad ul {
+  color: grey;
+  font-size: 20px;
+  position: relative;
+  left: 190px;
+  line-height: 60px;
+  letter-spacing: 1px;
+  width: 500px;
+}
+
+#home-page-features-ad .subtext {
+  font-size: 16px;
+}
+
+#home-page-sign-up-form {
+  height: 600px;
+  width: 550px;
+  float: right;
+}
+
+#home-page-sign-up-form h2 {
+  margin: 25px 0;
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+
+#home-page-sign-up-form input {
+  border: 2px solid grey;
+  margin: 10px 10px 10px 0;
+}
+
+#home-page-sign-up-form .long-field input {
+  width: 97%;
+}
+
+#home-page-sign-up-form h3 {
+  font-size: 24px;
+  margin: 10px 10px 10px 0;
+}
+
+#home-page-sign-up-form select {
+  color: grey;
+  border: 2px solid black;
+  margin: 0 10px 10px 0;
+}
+
+#home-page-sign-up-form label {
+  margin: 0 15px 0 0;
+}
+
+#home-page-sign-up-form button {
+  color: white;
+  margin: 10px 0;
+  font-size: 20px;
+  width: 65%;
+  text-align: center;
+  background: green;
+  line-height: 30px;
+  border: 2px solid black;
+  box-shadow: 2px 2px black;
+}
+
+/*--Active user navbar--*/
+
+#active-user-navbar {
+  background: blue;
+  width: 100%;
+  height: 60px;
+  border: 3px solid black;
+  position: fixed;
+  top: 0px;
+  z-index: 1000;
+}
+
+#active-user-navbar table {
+  height: 60px;
+  margin: 0 90px;
+}
+
+#active-user-navbar #navbar-search-input {
+  position: relative;
+  bottom: 10px;
+  width: 500px;
+  background: white;
+  border: 2px solid grey;
+  margin: 0 110px 0 15px;
+  text-indent: 5px;
+}
+
+#active-user-navbar img {
+  position: relative;
+  top: 3px;
+  height: 50px;
+  margin: 0 10px 0 0;
+}
+
+#active-user-navbar #navbar-logo {
+  filter: invert(100);
+}
+
+#active-user-navbar #navbar-facebook {
+  position: relative;
+  bottom: 10px;
+  width: 150px;
+  font-size: 32px;
+  color: white;
+}
+
+#active-user-navbar #navbar-user-name {
+  color: white;
+  position: relative;
+  bottom: 8px;
+}
+
+/*--Profile Heading styling--*/
+
+#profile-heading {
+  float: left;
+  margin: 65px 150px 0 150px;
+  height: 380px;
+  border: 3px solid black;
+}
+
+#profile-picture {
+  float: left;
+  position: relative;
+  left: 13px;
+  bottom: 190px;
+  background: white;
+  border: 3px solid black;
+}
+
+#profile-heading-navbar {
+  font-size: 14px;
+  float: right;
+  border-collapse: collapse;
+  position: relative;
+  bottom:27px;
+  line-height: 47px;
+  text-align: center;
+}
+
+#profile-heading-navbar td {
+  height: 20px;
+  border: 2px solid black;
+  width: 95px;
+}
+
+#profile-heading-navbar a {
+  color: black;
+}
+
+#profile-heading-navbar td:hover {
+  text-decoration: underline;
+}
+
+#profile-heading-navbar #edit-profile {
+  text-align: right;
+  width: 180px;
+  text-decoration: underline;
+}
+
+#profile-heading-navbar #edit-profile a {
+  color: blue;
+}
+
+.profile-heading-navbar-active-tab {
+  background: lightgrey;
+}
+
+/*--profile info container & edit button--*/
+
+.profile-info-container {
+  float: left;
+  margin: 20px 150px 100px 150px;
+  height: 440px;
+  border: 3px solid black;
+  width: 800px;
+}
+
+.profile-info-container-flexbox {
+  height: 388px;
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 14px;
+  align-items: center;
+  text-align: left;
+}
+
+.profile-info-label {
+  width: 100%;
+  height: 50px;
+  background: lightgrey;
+  text-align: center;
+  font-size: 25px;
+  line-height: 45px;
+  border-bottom: 3px solid black;
+}
+
+.profile-info-edit-profile-button {
+  padding: 4px;
+  font-size: 12px;
+  display: block;
+  float: right;
+  margin-top: -36px;
+  margin-right: 20px;
+  background: blue;
+  box-shadow: 2px 2px black;
+  color: white;
+  border: 3px solid black;
+}
+
+.profile-info-edit-profile-button:hover {
+  box-shadow: 0 0;
+  margin-top: -34px;
+  margin-right: 18px;
+}
+
+/*--"About Me" page profile info tables--*/
+
+#basic-information {
+  margin: 20px 0 20px 30px;
+  align-self: flex-start;
+  width: 350px;
+  line-height: 30px;
+}
+
+#basic-information thead {
+  font-size: 26px;
+  line-height: 50px;
+}
+
+#contact-information {
+  margin: 20px 0 0 30px;
+  align-self: flex-start;
+  width: 350px;
+  line-height: 30px;
+}
+
+#contact-information thead {
+  font-size: 26px;
+  line-height: 50px;
+}
+
+#words-to-live-by {
+  margin: 20px 30px 0 30px;
+  align-self: flex-start;
+  width: 350px;
+}
+
+#words-to-live-by thead {
+  font-size: 26px;
+  line-height: 50px;
+}
+
+#about-me {
+  margin: 20px 30px;
+  align-self: flex-start;
+  width: 350px;
+}
+
+#about-me thead {
+  font-size: 26px;
+  line-height: 50px;
+}
+
+
+/*-- "Friends" page profile info boxes --*/
+
+.friend-display-box {
+  width: 350px;
+  height: 90px;
+  border: 3px solid black;
+  margin: 22px 0 0 0;
+}
+
+#friend-display-box-photo {
+  position: relative;
+  top: 7px;
+  left: 7px;
+  float: left;
+  height: 70px;
+  width: 70px;
+  border: 3px solid black;
+}
+
+.friend-display-box div {
+  float: left;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+
+.friend-display-box a {
+  font-size: 18px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.friend-display-box p {
+  position: relative;
+  top: -1px;
+}
+
+#friend-display-box-unfriend-button {
+  position: relative;
+  top: 5px;
+  background: lightgrey;
+  border: 3px solid black;
+  width: 110px;
+  height: 25px;
+  margin: 0 0 0 30px;
+  box-shadow: 2px 2px black;
+}
+
+#friend-display-box-unfriend-button:hover {
+  box-shadow: 0px 0px;
+  top: 7px;
+  left: 2px;
+}
+
+/*-- "Newsfeed" sidebar styles --*/
+
+.newsfeed-sidebar {
+  float: left;
+  width: 350px;
+  margin: 66px 0 0 0;
+  border: 3px solid black;
+  height: 2100px;
+}
+
+.newsfeed-sidebar-user {
+  margin: 30px;
+  width: 270px;
+  height: 150px;
+}
+
+.newsfeed-sidebar-user-image {
+  width: 135px;
+  height: 150px;
+  float: left;
+}
+
+.newsfeed-sidebar-user-links {
+  width: 135px;
+  height: 50px;
+  float: left;
+  margin: 20px 0;
+}
+
+.newsfeed-sidebar-user a {
+  margin: 0px 10px;
+  color: blue;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+#newsfeed-sidebar-user-links-edit-button {
+  font-size: 14px;
+}
+
+.newsfeed-sidebar-user img {
+  margin: 7px;
+  width: 120px;
+  border: 3px solid black;
+}
+
+.newsfeed-sidebar-recently-active {
+  float: left;
+  margin: 0 0 0 30px;
+  width: 290px;
+}
+
+.newsfeed-sidebar-recently-active h4 {
+  font-size: 22px;
+  margin: 0 0 20px 0;
+}
+
+.newsfeed-sidebar-recently-active-user-display {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.newsfeed-sidebar-recently-active-user-display div {
+  font-size: 14px;
+  margin: 0 3px;
+}
+
+.newsfeed-sidebar-recently-active-user-display img {
+  width: 90px;
+  border: 3px solid black;
+}
+
+.newsfeed-sidebar-recently-active-user-display a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.newsfeed-sidebar-recently-active-user-display a, p {
+  position: relative;
+  top: 25px;
+}
+
+.newsfeed-sidebar-recently-active-user-display p {
+  color: grey;
+}
+
+.newsfeed-sidebar-see-all-friends {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.newsfeed-sidebar-see-all-friends a {
+  color: blue;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+/*-- "Newsfeed" main feed styles --*/
+
+.newsfeed {
+  float: left;
+  width: 700px;
+  margin: 66px 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.newsfeed-new-post {
+  margin: 40px 0 0 0;
+  width: 500px;
+  text-align: center;
+  border: 3px solid black;
+  font-size: 20px;
+  background: lightgrey;
+}
+
+.newsfeed-new-post-textarea {
+  width: 500px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  background: white;
+}
+
+.newsfeed-new-post-textarea textarea {
+  width: 474px;
+  margin: 10px 13px;
+  height: 100px;
+  border: 2px solid black;
+}
+
+.newsfeed-new-post-button {
+  font-size: 16px;
+  border: 3px solid black;
+  margin: 8px 30px 8px 8px;
+  float: right;
+  width: 70px;
+  height: 30px;
+  background: blue;
+  border: 3px solid black;
+  color: white;
+  box-shadow: 2px 2px black;
+}
+
+.newsfeed-new-post-button:hover {
+  box-shadow: 0px 0px;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+/*-- "Newsfeed" displayed posts styles --*/
+
+.newsfeed-post-display {
+  margin: 40px 0 0 0;
+  width: 500px;
+  border: 3px solid black;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.newsfeed-post-display img {
+  margin: 10px 0 0 10px;
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+}
+
+.newsfeed-post-user-info {
+  height: 70px;
+  margin: 10px 0 0 10px;
+}
+
+.newsfeed-post-username {
+  position: relative;
+  top: 25px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.newsfeed-post-timestamp {
+  color: grey;
+}
+
+.newsfeed-post-text {
+  margin: 0 15px;
+  height: 180px;
+}
+
+.newsfeed-post-response-options {
+  border-top: 3px solid black;
+  width: 500px;
+  text-indent: 15px;
+  line-height: 30px;
+  background: lightgrey;
+}
+
+.newsfeed-post-response-options a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.newsfeed-post-response-options h6 {
+  color: grey;
+}
+
+/*-- "Newsfeed" comments section styles --*/
+
+.newsfeed-post-comments-section {
+  border-top: 2px solid grey;
+  display: flex;
+  flex-flow: row wrap;
+  background: lightgrey;
+}
+
+.newsfeed-post-comment-display {
+  width: 480px;
+  display: flex;
+  flex-flow: column wrap;
+  height: 170px;
+  font-size: 14px;
+  margin: 10px 0 0 0;
+}
+
+.newsfeed-post-comment-display-user-image {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 170px;
+  width: 100px;
+}
+
+.newsfeed-post-comment-display-user-image img {
+  margin: 12px auto;
+  height: 75px;
+  width: 75px;
+  background: white;
+}
+
+.newsfeed-post-comment-display-user-info {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 400px;
+  margin: 10px 0 0 0;
+}
+
+.newsfeed-post-comment-display-user-info h6 {
+  color: grey;
+  margin: 0 0 0 5px;
+}
+
+.newsfeed-post-comment-display-user-info a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.newsfeed-post-comment-display-text-comment {
+  width: 380px;
+  height: 120px;
+}
+
+.newsfeed-post-comment-display-response-options {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 400px;
+}
+
+.newsfeed-post-comment-display-response-options h6 {
+  color: grey;
+}
+
+.newsfeed-post-comment-display-response-options a {
+  margin: 0 10px 0 0;
+  color: blue;
+  text-decoration: underline;
+}
+
+#newsfeed-comment-delete-button {
+  margin: 0 10px 0 180px;
+}
+
+.newsfeed-post-comments-section-write-comment {
+
+}
+
+.newsfeed-post-comments-section-write-comment textarea {
+  margin: 40px 0px 0 23px;
+  border: 3px solid black;
+  width: 450px;
+  height: 150px;
+  background: white;
+}
+
+.newsfeed-post-comments-section-write-comment a {
+  margin: 0 0 0 24px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.newsfeed-post-comments-section-write-comment button {
+  margin: 5px 40px 20px 0;
+  float: right;
+  background: blue;
+  color: white;
+  border: 3px solid black;
+  box-shadow: 2px 2px black;
+  width: 100px;
+  height: 30px;
+}
+
+.newsfeed-post-comments-section-write-comment button:hover {
+  box-shadow: 0px 0px;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
