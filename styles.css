@@ -19,11 +19,16 @@ html * {
   position: relative;
   top: 13px;
   float: left;
-  color: white;
   text-indent: 40px;
   font-size: 55px;
   font-weight: bold;
   line-height: 65px;
+}
+
+.header-container h2 {
+  color: white !important;
+  line-height: 65px;
+  font-size: 55px;
 }
 
 #log-in-form-table {
