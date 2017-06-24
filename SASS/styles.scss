@@ -1,0 +1,214 @@
+@import "colors";
+
+/* *********** CSS RESET ************** */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ********* END OF CSS RESET ********* */
+
+html {
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+td {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+/* -------------- NAVBAR ----------------- */
+
+#navbar-container {
+  width:100%;
+  height: 50px;
+  background-color: $color-nav;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+#navbar-flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 990px;
+  height: 50px;
+  margin: 0px auto;
+}
+
+.title-and-search {
+  display: flex;
+  align-items: center;
+  img {
+    height: 30px;
+    border: 1px solid black;
+    }
+  }
+
+.facelook-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px;
+  color: white;
+}
+
+.top-right-name {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: 5px;
+}
+
+/* ------------ COVER PHOTO & NAV -------------- */
+
+#cover-photo-nav-container {
+  margin: 50px auto 0px auto;
+  width: 990px;
+}
+
+.cover-photo-and-name {
+  position: relative;
+  width: 100%;
+  img {
+    width: 988px;
+    height: 300px;
+    margin-bottom: -2px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+}
+
+.cover-photo-name-text {
+  position: absolute;
+  top: 260px;
+  left: 185px;
+  width: 100%;
+  font-size: 25px;
+}
+
+.cover-photo-navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.nav-button {
+  border-right: 1px solid black;
+  padding: 11px;
+}
+#left-border {
+  border-left: 1px solid black;
+}
+
+.cover-photo-navbar-left {
+  display: flex;
+  align-items: center;
+  img {
+    width: 150px;
+    height: 150px;
+    margin: -125px 15px 15px 15px;
+    z-index: 1;
+    border: 1px solid black;
+  }
+}
+
+.cover-photo-navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 15px;
+  a {
+    font-size: 15px;
+  }
+}
+
+/* -------- MAIN CONTENT --------- */
+
+#main-container {
+  width: 990px;
+  margin: 15px auto 30px auto;
+  border: 1px solid black;
+}
+
+.top-bar {
+  height: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  input {
+    align-self: flex-end;
+  }
+}
+
+.topbar-edit-right {
+  position: absolute;
+  left: 1065px;
+}
+
+.information-container {
+  display: flex;
+  padding: 30px;
+}
+
+.information-left {
+  padding-right: 30px;
+}
