@@ -2,17 +2,18 @@
 <html>
   <head>
     <title>Fake Facebook</title>
-    <link rel='stylesheet' href='styles.css'>
+    <link rel='stylesheet' href='./assets/styles.css'>
+    <link rel='stylesheet' href='./assets/home.css'>
   </head>
   <body>
     <header>
       <h4>Facelook</h4>
-      <div class=log-in>
-        <div class='email'>
+      <div class='log-in flex-row'>
+        <div class='email flex-col'>
           <h3>Email</h3>
           <input type='text'>
         </div>
-        <div class='password'>
+        <div class='password flex-col'>
           <h3>Password</h3>
           <input type='password'>
         </div>
@@ -21,7 +22,7 @@
     </header>
 
     <main>
-      <div class='connect-with-friends'>
+      <div class='connect-with-friends flex-col'>
         <h3>Connect with all your friends!</h3>
         <ul>
           <li>See photos and updates in your news feed</li>
@@ -31,10 +32,10 @@
         </ul>
       </div>
 
-      <div class='sign-up'>
+      <div class='sign-up flex-col'>
         <h2>Sign Up</h2>
-        <form>
-          <div class=sign-up-name>
+        <form class='flex-col'>
+          <div class='sign-up-name flex-row'>
             <input type='text' id='first' placeholder="First Name">
             <input type='text' id='last' placeholder="Last Name">
           </div>
