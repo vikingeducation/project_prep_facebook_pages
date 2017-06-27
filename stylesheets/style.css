@@ -1,0 +1,25 @@
+/* Theme Colors */
+
+:root {
+  --yellow: #FFE599;
+  --pink: #D5A6BD;
+  --green: #B6D7A8;
+  --teal: #A2C4C9;
+  --blue: #9FC5F8;
+}
+
+/* Main Styles */
+
+
+
+/* ----------------------------------- *
+ *           MEDIA QUERIES
+ * ----------------------------------- */
+
+/* NARROW SCREEN */
+@media (max-width: 989px) {
+} /* narrow */
+
+/* WIDE SCREEN */
+@media (min-width: 990px) {
+} /* wide */
