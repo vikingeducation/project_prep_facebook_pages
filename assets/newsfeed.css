@@ -1,0 +1,183 @@
+main {
+  /*height:100vh;*/
+  width:100%
+}
+
+.recent-friends {
+  width:30%;
+  border:1px solid black;
+  /*height:1000px;*/
+  padding-left: 25px;
+  padding-bottom:25px;
+}
+
+.recent-friends h3 {
+  font-size:24px;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+.newsfeed {
+  width:70%;
+  border:1px solid black;
+  /*height:1500px;*/
+  align-items: center;
+}
+
+#profile-box {
+  height:200px;
+  align-items: center;
+  margin-left:20px;
+}
+
+#profile-box img {
+  height:100px;
+}
+
+#profile-box div {
+  margin-left: 15px;
+}
+
+#profile-box h4 {
+  font-size:20px;
+}
+
+
+
+#recent-friend {
+  display:flex;
+  flex-direction: row;
+  margin:20px;
+}
+
+#recent-friend img {
+  height:60px;
+  width:60px;
+  border: 1px solid black;
+}
+
+#recent-friend div {
+  margin-left:10px;
+  font-size:15px;
+  justify-content: center;
+}
+
+.new-post {
+  height:205px;
+  width:80%;
+  align-self: center;
+  border:1px solid black;
+  margin-top: 50px;
+}
+
+.new-post h2 {
+  font-size:20px;
+  border:1px solid black;
+  text-align: center;
+  background-color:rgba(211, 211, 211, 0.63);
+}
+
+.new-post #text-box {
+  height:125px;
+  width:100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.new-post textarea {
+  margin-top:10px;
+  width:90%;
+  height:100px;
+  border:2px black solid;
+}
+
+#post-div {
+  background-color:rgba(211, 211, 211, 0.63);;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border:1px black solid;
+  height:50px;
+}
+
+#post-div button {
+  margin-right: 25px;
+  background-color: rgba(0, 0, 255, 0.63);
+  color: white;
+  box-shadow: 2px 2px 2px 2px black;
+  border: 0px;
+  height: 25px;
+  width: 60px;
+}
+
+.post {
+  border:1px black solid;
+  width:80%;
+  margin-top: 30px;
+  margin-bottom:30px;
+}
+
+.post p {
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+}
+
+.bottom-bar {
+  background-color:rgba(211, 211, 211, 0.63);
+  width:100%;
+  border: 1px solid black;
+}
+
+.bottom-bar span{
+  margin-left:15px;
+  margin-bottom:10px;
+}
+
+.liked {
+  justify-content: space-between;
+}
+
+.liked a{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom:10px;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 98%;
+  background-color:#464632;
+  height: 1px;
+}
+
+.comment {
+  align-items: center;
+}
+
+.comment textarea{
+  margin-top:50px;
+  width: 90%;
+  border: 2px solid black;
+  min-height:100px;
+}
+
+.comment div {
+  width:100%;
+  justify-content: space-between;
+  margin-top:5px;
+  margin-bottom: 5px;
+}
+
+.comment button {
+  background-color:blue;
+  color:white;
+  border:0px;
+  box-shadow: 2px 2px 2px black;
+  width:75px;
+  height:30px;
+  margin-right:20px;
+}
