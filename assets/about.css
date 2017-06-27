@@ -10,7 +10,6 @@ header p{
   border-right:0px solid black;
 }
 
-
 header h4 {
   font-size:28px;
 }
@@ -74,14 +73,24 @@ main {
   height:100%;
 }
 
+.link-bar a {
+  text-decoration: none;
+}
+
 .links {
   justify-content: center;
+  align-items: center;
 }
 
 .links div {
   width:100px;
   border: 1px solid black;
   align-self: center;
+  justify-content: center;
+}
+
+#edit-profile {
+  
 }
 
 .links span {

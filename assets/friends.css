@@ -1,0 +1,26 @@
+
+.friend {
+  height: 100px;
+  width: 45%;
+  align-items:center;
+  border: 1px solid black;
+  justify-content: space-between;
+  margin: 20px;
+  margin-left:20px;
+}
+
+.friend img {
+  height: 90px;
+  margin-left: 10px;
+  border: 1px solid black;
+}
+
+.friend button {
+  margin-right: 10px;
+}
+
+.friend-list {
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: center;
+}
