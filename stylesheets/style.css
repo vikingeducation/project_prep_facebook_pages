@@ -5,6 +5,7 @@
 :root {
   --green: #2C9C20;
   --blue: #317BE1;
+  --lightblue: #A0C6F7;
 }
 
 body {font-family: 'Quicksand', sans-serif;}
@@ -55,7 +56,7 @@ header {
   /*vertical-align: baseline;*/
 }
 
-.signin-form {
+.login-form {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -63,13 +64,20 @@ header {
   align-items: flex-end;
 }
 
-.signin-form .form-field label {
+.login-form .form-field label {
   font-size: 10px;
   line-height: 15px;
 }
 
-.signin-form .login-field {
+.login-form .login-field {
   width: 90px;
+}
+
+.login-form .form-field input[type=submit].login-button {
+  background-color: var(--lightblue);
+  border:0 none;
+  cursor:pointer;
+  padding: 5% 30%;
 }
 
 .signup-form h1 {
@@ -97,8 +105,13 @@ header {
   margin-bottom: 1em;
 }
 
-.signup-form .form-field input.signup-button {
+.signup-form .form-field input[type=submit].signup-button {
   background-color: var(--green);
+  border:0 none;
+  cursor:pointer;
+  color: white;
+  font-size: 1em;
+  padding: 2%;
   width: 100%;
 }
 
