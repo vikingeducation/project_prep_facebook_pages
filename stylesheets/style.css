@@ -1,5 +1,5 @@
 /* ----------------------------------- *
- *           THEME COLORS
+ *       THEME COLORS & FONTS
  * ----------------------------------- */
 
 :root {
@@ -7,13 +7,119 @@
   --blue: #317BE1;
 }
 
+body {font-family: 'Quicksand', sans-serif;}
+
+
 /* ----------------------------------- *
  *           BASE STYLES
  * ----------------------------------- */
 
 
+ul {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+}
+
+ul li {
+  list-style-type: disc;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.container {
+  margin: 0 auto;
+  /*overflow: auto;*/
+} /* .container */
+
+.grid-main-and-side {
+  display: grid;
+  grid-template-columns: 2fr 1fr;  /* 3 columns */
+  grid-template-rows: 1fr; /* 3 rows  */
+}
 
 
+/* Top Nav */
+header {
+  background-color: var(--blue);
+  border: 2px solid black;
+  width: 100%;
+  color: white;
+  padding: 10px 0;
+}
+
+.brand {
+  font-size: 30px;
+  font-weight: 500;
+  /*vertical-align: baseline;*/
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.signin-form .form-field label {
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.signin-form .login-field {
+  width: 90px;
+}
+
+.signup-form h1 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.signup-form label {
+  font-weight: 700;
+  font-size: 0.9em;
+}
+
+.signup-form .form-field {
+  margin-bottom: 1em;
+}
+
+.signup-form .form-field input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+}
+.signup-form .form-field input.name-field {
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 1em;
+}
+
+.signup-form .form-field input.signup-button {
+  background-color: var(--green);
+  width: 100%;
+}
+
+.signup-form .form-field label.radio-field {
+  font-size: 0.75em;
+}
+
+/* Main Content */
+main {
+  clear: both;
+  padding: 50px 10px 10px 10px;
+} /* main */
+
+.intro-content h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.intro-content li {
+  line-height: 2em;
+}
 
 /* ----------------------------------- *
  *           MEDIA QUERIES
@@ -25,4 +131,8 @@
 
 /* WIDE SCREEN */
 @media (min-width: 770px) {
+  .container {
+    width: 100%;
+    max-width: 770px;
+  }
 } /* wide */

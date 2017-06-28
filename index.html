@@ -3,7 +3,7 @@
   <head>
     <title>Facelook</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
 
@@ -13,22 +13,26 @@
   <body>
 
     <header>
-      <div class="container">
+      <div class="container grid-main-and-side">
         <p class="brand">Facelook</p>
-        <div class="signin">
-          <form action="/action_page.php">
-          <label>Email</label><br>
-          <input type="email" name="email" class="login-field"><br>
+        <form action="/action_page.php" class="signin-form">
+          <div class="form-field">
+            <label>Email</label><br>
+            <input type="email" name="email" class="login-field"><br>
+          </div> <!-- form-field -->
+          <div class="form-field">
             <label>Password</label><br>
             <input type="password" name="password" class="login-field"><br>
-            <input type="submit" value="Submit">
-          </form>
-        </div> <!-- signin -->
+          </div> <!-- form-field -->
+          <div class="form-field">
+            <input type="submit" value="Log In" class="login-button">
+          </div> <!-- form-field -->
+        </form>
       </div> <!-- container -->
     </header>
 
     <main>
-      <div class="container">
+      <div class="container grid-main-and-side">
         <div class="intro-content">
           <h1>Connect with all you friends!</h1>
           <ul>
@@ -39,21 +43,27 @@
           </ul>
         </div> <!-- intro-content -->
 
-        <div class="signup-form">
-          <h1>Sign Up</h1>
-          <form action="/action_page.php">
-            <input type="text" name="firstname" value="First Name" class="name-field">
-            <br>
-            <input type="text" name="lastname" value="Last Name" class="name-field">
-            <br>
-            <input type="email" name="email" value="Your Email">
-            <br>
-            <input type="password" name="password" value="Your New Password">
-            <br>
-            <input type="password" name="password-confirmation" value="Confirm Your Password">
-            <br>
-            <label>Birthday</label>
-            <br>
+        <form action="/action_page.php" class="signup-form">
+        <h1>Sign Up</h1>
+          <div class="form-field">
+            <input type="text" name="firstname" placeholder="First Name" class="name-field">
+            <input type="text" name="lastname" placeholder="Last Name" class="name-field">
+          </div> <!-- form-field -->
+
+          <div class="form-field">
+            <input type="email" name="email" placeholder="Your Email"><br>
+          </div> <!-- form-field -->
+
+          <div class="form-field">
+            <input type="password" name="password" placeholder="Your New Password"><br>
+          </div> <!-- form-field -->
+
+          <div class="form-field">
+           <input type="password" name="password-confirmation" placeholder="Confirm Your Password"><br>
+          </div> <!-- form-field -->
+
+          <div class="form-field">
+            <label>Birthday</label><br>
             <select name="month">
               <option value="" disabled selected>Month</option>
               <option value="january">january</option>
@@ -99,13 +109,17 @@
               <option value="2000">2000</option>
               <option value="1999">1999</option>
             </select>
-            <br>
-            <input type="radio" name="gender" value="female"> Female
-            <input type="radio" name="gender" value="male"> Male
-            <br>
-            <input type="submit" value="Submit">
-          </form>
-        </div> <!-- signup-form -->
+          </div> <!-- form-field -->
+
+          <div class="form-field">
+            <input type="radio" name="gender" value="female"> <label class="radio-field">Female</label>
+            <input type="radio" name="gender" value="male"> <label class="radio-field">Male</label>
+          </div> <!-- form-field -->
+
+          <div class="form-field">
+            <input type="submit" value="Sign Up!" class="signup-button">
+          </div> <!-- form-field -->
+        </form>
       </div> <!-- container -->
     </main>
 
