@@ -31,20 +31,30 @@ strong {
 
 .container {
   margin: 0 auto;
-  /*overflow: auto;*/
+  border: 1px solid red;
 } /* .container */
 
-.grid-main-and-side {
+.grid-2-1 {
   display: grid;
-  grid-template-columns: 2fr 1fr;  /* 3 columns */
-  grid-template-rows: 1fr; /* 3 rows  */
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
 }
 
+.grid-1-2-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.grid-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
 
 /* Top Nav */
-header {
+nav.site-nav {
   background-color: var(--blue);
-  border: 2px solid black;
   width: 100%;
   color: white;
   padding: 10px 0;
@@ -53,7 +63,11 @@ header {
 .brand {
   font-size: 30px;
   font-weight: 500;
-  /*vertical-align: baseline;*/
+}
+
+.brand a {
+  color: white;
+  text-decoration: none;
 }
 
 .login-form {
@@ -78,6 +92,22 @@ header {
   border:0 none;
   cursor:pointer;
   padding: 5% 30%;
+}
+
+/* Home Page Styles */
+
+main {
+  clear: both;
+  padding: 50px 10px 10px 10px;
+} /* main */
+
+.intro-content h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.intro-content li {
+  line-height: 2em;
 }
 
 .signup-form h1 {
