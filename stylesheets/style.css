@@ -149,20 +149,22 @@ main {
   font-size: 0.75em;
 }
 
-/* Main Content */
-main {
-  clear: both;
-  padding: 50px 10px 10px 10px;
-} /* main */
+/* About Page Styles */
 
-.intro-content h1 {
-  font-size: 25px;
-  font-weight: 500;
+.brand img {
+  width: 20px;
+  height: 20px;
+}
+.cover-photo-container img {
+  width: 630px;
+  height: 190px;
 }
 
-.intro-content li {
-  line-height: 2em;
+.profile-pic-container img {
+  width: 100px;
+  height: 100px;
 }
+
 
 /* ----------------------------------- *
  *           MEDIA QUERIES
