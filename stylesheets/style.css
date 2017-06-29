@@ -6,6 +6,7 @@
   --green: #2C9C20;
   --blue: #317BE1;
   --lightblue: #A0C6F7;
+  --lightgray: #EEEEEE;
 }
 
 body {font-family: 'Quicksand', sans-serif;}
@@ -15,6 +16,19 @@ body {font-family: 'Quicksand', sans-serif;}
  *           BASE STYLES
  * ----------------------------------- */
 
+p {
+  margin-bottom: 1em;
+  line-height: 1.2em;
+}
+
+h1, h2 {
+  font-weight: 700;
+  margin: 1em 0 0.5em 0;
+}
+
+h1 {font-size: 1.5em;}
+
+h2 {font-size: 1.25em;}
 
 ul {
   margin: 1em 0;
@@ -156,15 +170,70 @@ main {
   height: 20px;
 }
 .cover-photo-container img {
-  width: 630px;
-  height: 190px;
+  width: 100%;
+  height: 230px;
 }
 
 .profile-pic-container img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
+.about-content {
+  border: 1px solid black;
+  display: grid;
+  grid-template-areas: "header header"
+                      "stats about-me";
+}
+
+.about-content header button {
+  background-color: var(--blue);
+  border:0 none;
+  cursor:pointer;
+  color: white;
+  padding: 0.75% 1%;
+}
+
+.about-content header {
+  grid-area: header;
+  border: 1px solid black;
+  background-color: var(--lightgray);
+  padding: 1%;
+  text-align: center;
+}
+
+.about-content section {
+  padding: 20px;
+}
+
+.about-content button {
+  float: right;
+}
+
+.about-content h1 { display: inline; }
+
+.personal-stats {
+  grid-area: stats;
+}
+
+.personal-stats table {
+  width: 100%;
+}
+
+.personal-stats td, th {
+  padding: 4% 2%;
+  font-size: 0.9em;
+}
+
+.personal-stats th {
+  width: 100px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.about-me-copy {
+  grid-area: about-me;
+}
 
 /* ----------------------------------- *
  *           MEDIA QUERIES
