@@ -42,7 +42,7 @@ main {
 }
 
 .signup-form .form-field input[type=submit].signup-button {
-  background-color: var(--green);
+  background-color: $tertiary-color;
   border:0 none;
   cursor:pointer;
   color: white;

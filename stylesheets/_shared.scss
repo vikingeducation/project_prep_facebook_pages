@@ -1,8 +1,11 @@
+@import 'theme_and_colors';
+
+
 /* ----------------------------------- *
  *      SHARED BASE STYLES
  * ----------------------------------- */
 
-body {font-family: 'Quicksand', sans-serif;}
+body {font-family: $main-font;}
 
 p {
   margin-bottom: 1em;

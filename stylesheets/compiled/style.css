@@ -1,8 +1,20 @@
+/* MAIN APPLICATION STYLESHEET */
+/* Compile this file and all other will follow */
+/* Add any new stylesheets into this stylesheet */
+/* ----------------------------------- *
+ *       THEME COLORS & FONTS
+ * ----------------------------------- */
+/* Colors */
+/* blue */
+/* light blue */
+/* light gray */
+/* green */
+/* Fonts */
 /* ----------------------------------- *
  *      SHARED BASE STYLES
  * ----------------------------------- */
 body {
-  font-family: 'Quicksand', sans-serif; }
+  font-family: "Quicksand", sans-serif; }
 
 p {
   margin-bottom: 1em;

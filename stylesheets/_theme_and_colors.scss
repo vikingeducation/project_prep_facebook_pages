@@ -2,9 +2,11 @@
  *       THEME COLORS & FONTS
  * ----------------------------------- */
 
-:root {
-  --green: #2C9C20;
-  --blue: #317BE1;
-  --lightblue: #A0C6F7;
-  --lightgray: #EEEEEE;
-}
+/* Colors */
+$brand-color: #317BE1; /* blue */
+$brand-color-light: #A0C6F7; /* light blue */
+$secondary-color: #EEEEEE; /* light gray */
+$tertiary-color: #2C9C20; /* green */
+
+/* Fonts */
+$main-font: 'Quicksand', sans-serif;

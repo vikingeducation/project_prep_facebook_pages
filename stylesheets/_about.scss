@@ -73,11 +73,11 @@
 }
 
 .about-header nav li a:hover {
-  background-color: var(--lightgray);
+  background-color: $secondary-color;
 }
 
 .about-header a.active {
-  background-color: var(--lightgray);
+  background-color: $secondary-color;
 }
 
 .about-header nav li.edit-profile {
@@ -108,7 +108,7 @@
 }
 
 .about-content header button {
-  background-color: var(--blue);
+  background-color: $brand-color;
   border:0 none;
   cursor:pointer;
   color: white;
@@ -118,7 +118,7 @@
 .about-content header {
   grid-area: header;
   border-bottom: 1px solid black;
-  background-color: var(--lightgray);
+  background-color: $secondary-color;
   padding: 1%;
   text-align: center;
 }
