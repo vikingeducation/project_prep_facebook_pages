@@ -118,13 +118,13 @@ nav.site-nav {
  * ----------------------------------- */
 
 /* NARROW SCREEN */
-@media (max-width: 769px) {
+@media (max-width: $narrow-max) {
 } /* narrow */
 
 /* WIDE SCREEN */
-@media (min-width: 770px) {
+@media (min-width: $wide-min) {
   .container {
     width: 100%;
-    max-width: 770px;
+    max-width: $wide-min;
   }
 } /* wide */
