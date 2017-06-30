@@ -1,0 +1,58 @@
+
+/* CLEARFIX */
+
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: " ";
+}
+.clearfix::after {
+	clear: both;
+}
+.clear {
+  clear: both;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+
+html {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 24px;
+}
+
+/****** ****//* NAV *//****** ****/
+#login-nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  background-color: #06F;
+  color: white;
+  font-size: 14px;
+}
+.flex-form {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.form-group label,input {
+  display: block;
+  margin: 10px;
+}
+.form-group {
+  float: left;
+}
+.btn {
+  background-color: #9cf;
+}
+#login-btn {
+  align-self: flex-end;
+  margin-bottom: 10px;
+}
+/****** ****//* NAV *//****** ****/
