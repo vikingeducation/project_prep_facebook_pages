@@ -132,43 +132,40 @@ main {
 .intro-content h1 {
   font-size: 25px;
   font-weight: 500; }
-
 .intro-content li {
   line-height: 2em; }
 
-.signup-form h1 {
-  font-size: 30px;
-  font-weight: 500;
-  margin-bottom: 10px; }
+.signup-form {
+  /* form-field */ }
+  .signup-form h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px; }
+  .signup-form label {
+    font-weight: 700;
+    font-size: 0.9em; }
+  .signup-form .form-field {
+    margin-bottom: 1em;
+    /* inputs */ }
+    .signup-form .form-field input.name-field {
+      width: 48%;
+      float: left;
+      margin-right: 2%;
+      margin-bottom: 1em; }
+    .signup-form .form-field input[type="text"], .signup-form .form-field input[type="email"], .signup-form .form-field input[type="password"] {
+      width: 100%; }
+    .signup-form .form-field input[type=submit].signup-button {
+      background-color: #2C9C20;
+      border: 0 none;
+      cursor: pointer;
+      color: white;
+      font-size: 1em;
+      padding: 2%;
+      width: 100%; }
+    .signup-form .form-field label.radio-field {
+      font-size: 0.75em; }
 
-.signup-form label {
-  font-weight: 700;
-  font-size: 0.9em; }
-
-.signup-form .form-field {
-  margin-bottom: 1em; }
-
-.signup-form .form-field input[type="text"], input[type="email"], input[type="password"] {
-  width: 100%; }
-
-.signup-form .form-field input.name-field {
-  width: 48%;
-  float: left;
-  margin-right: 2%;
-  margin-bottom: 1em; }
-
-.signup-form .form-field input[type=submit].signup-button {
-  background-color: #2C9C20;
-  border: 0 none;
-  cursor: pointer;
-  color: white;
-  font-size: 1em;
-  padding: 2%;
-  width: 100%; }
-
-.signup-form .form-field label.radio-field {
-  font-size: 0.75em; }
-
+/* signup-form */
 /* ----------------------------------- *
  *           MEDIA QUERIES
  * ----------------------------------- */
