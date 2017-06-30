@@ -1,0 +1,67 @@
+@import 'theme_and_colors';
+
+/* HOME PAGE STYLES */
+
+main {
+  clear: both;
+  padding: 50px 10px 10px 10px;
+} /* main */
+
+.intro-content {
+  h1 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  li {
+    line-height: 2em;
+  }
+}
+
+.signup-form {
+  h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  label {
+    font-weight: 700;
+    font-size: 0.9em;
+  }
+  .form-field {
+    margin-bottom: 1em;
+    input.name-field {
+      width: 48%;
+      float: left;
+      margin-right: 2%;
+      margin-bottom: 1em;
+    }
+    input[type="text"], input[type="email"], input[type="password"] {
+      width: 100%;
+    }/* inputs */
+    input[type=submit].signup-button {
+      background-color: $tertiary-color;
+      border:0 none;
+      cursor:pointer;
+      color: white;
+      font-size: 1em;
+      padding: 2%;
+      width: 100%;
+    }
+    label.radio-field {
+      font-size: 0.75em;
+    }
+  }/* form-field */
+}/* signup-form */
+
+
+/* ----------------------------------- *
+ *           MEDIA QUERIES
+ * ----------------------------------- */
+
+/* NARROW SCREEN */
+@media (max-width: $narrow-max) {
+} /* narrow */
+
+/* WIDE SCREEN */
+@media (min-width: $wide-min) {
+} /* wide */

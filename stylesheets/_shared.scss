@@ -1,0 +1,130 @@
+@import 'theme_and_colors';
+
+
+/* ----------------------------------- *
+ *      SHARED BASE STYLES
+ * ----------------------------------- */
+
+body {font-family: $main-font;}
+
+p {
+  margin-bottom: 1em;
+  line-height: 1.2em;
+}
+
+h1, h2 {
+  font-weight: 700;
+  margin: 1em 0 0.5em 0;
+}
+
+h1 {font-size: 1.5em;}
+
+h2 {font-size: 1.25em;}
+
+ul {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+  list-style-type: disc;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.container {
+  margin: 0 auto;
+  /*border: 1px solid red;*/
+} /* .container */
+
+.grid-2-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.grid-1-2-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.grid-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+
+/* Top Nav */
+nav.site-nav {
+  background-color: $brand-color;
+  width: 100%;
+  color: white;
+  padding: 10px 0;
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.brand {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  .form-field {
+    label {
+      font-size: 10px;
+      line-height: 15px;
+    }
+    input[type=submit].login-button {
+      background-color: $brand-color-light;
+      border:0 none;
+      cursor:pointer;
+      padding: 5% 30%;
+    }
+  }/* form-field */
+  .login-field {
+    width: 90px;
+  }
+}
+
+.profile-pic-thumb {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid white;
+}
+
+#search-bar input {
+  width: 100%;
+}
+
+.user-controls a {
+  float: right;
+  color: white;
+}
+
+
+
+/* ----------------------------------- *
+ *           MEDIA QUERIES
+ * ----------------------------------- */
+
+/* NARROW SCREEN */
+@media (max-width: $narrow-max) {
+} /* narrow */
+
+/* WIDE SCREEN */
+@media (min-width: $wide-min) {
+  .container {
+    width: 100%;
+    max-width: $wide-min;
+  }
+} /* wide */

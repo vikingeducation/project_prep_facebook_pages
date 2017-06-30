@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Facelook</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/compiled/style.css">
+  </head>
+
+  <body>
+
+    <nav class="site-nav">
+      <div class="container grid-2-1">
+        <div class="brand"><a href="index.html">Facelook</a></div>
+        <form action="/action_page.php" class="login-form">
+          <div class="form-field">
+            <label>Email</label><br>
+            <input type="email" name="email" class="login-field"><br>
+          </div> <!-- form-field -->
+          <div class="form-field">
+            <label>Password</label><br>
+            <input type="password" name="password" class="login-field"><br>
+          </div> <!-- form-field -->
+          <div class="form-field">
+            <input type="submit" value="Log In" class="login-button">
+          </div> <!-- form-field -->
+        </form>
+      </div> <!-- container -->
+    </nav>
+
+    <main>
+      <div class="container grid-2-1">
+        <div class="intro-content">
+          <h1>Connect with all your friends!</h1>
+          <ul>
+            <li><strong>See photos and updates</strong> in your news feed</li>
+            <li><strong>Post your status for the world to see</strong> from your profile</li>
+            <li><strong>Get in touch with your friends</strong> by "friending" them</li>
+            <li><strong>Like things</strong> because you're a positive person!</li>
+          </ul>
+        </div> <!-- intro-content -->
+
+        <form action="/action_page.php" class="signup-form">
+        <h1>Sign Up</h1>
+          <div class="form-field">
+            <input type="text" name="firstname" placeholder="First Name" class="name-field">
+            <input type="text" name="lastname" placeholder="Last Name" class="name-field">
+          </div> <!-- form-field -->
+
+          <div class="form-field">
+            <input type="email" name="email" placeholder="Your Email"><br>
+          </div> <!-- form-field -->
+
+          <div class="form-field">
+            <input type="password" name="password" placeholder="Your New Password"><br>
+          </div> <!-- form-field -->
+
+          <div class="form-field">
+           <input type="password" name="password-confirmation" placeholder="Confirm Your Password"><br>
+          </div> <!-- form-field -->
+
+          <div class="form-field">
+            <label>Birthday</label><br>
+            <select name="month">
+              <option value="" disabled selected>Month</option>
+              <option value="january">january</option>
+              <option value="february">february</option>
+              <option value="march">march</option>
+              <option value="april">april</option>
+              <option value="may">may</option>
+              <option value="june">june</option>
+              <option value="july">july</option>
+              <option value="august">august</option>
+              <option value="september">september</option>
+              <option value="october">october</option>
+              <option value="november">november</option>
+              <option value="december">december</option>
+            </select>
+            <select name="day">
+              <option value="" disabled selected>Day</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+            <select name="month">
+              <option value="" disabled selected>Year</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+              <option value="2000">2000</option>
+              <option value="1999">1999</option>
+            </select>
+          </div> <!-- form-field -->
+
+          <div class="form-field">
+            <input type="radio" name="gender" value="female"> <label class="radio-field">Female</label>
+            <input type="radio" name="gender" value="male"> <label class="radio-field">Male</label>
+          </div> <!-- form-field -->
+
+          <div class="form-field">
+            <input type="submit" value="Sign Up!" class="signup-button">
+          </div> <!-- form-field -->
+        </form>
+      </div> <!-- container -->
+      <a href="about.html">About</a>
+    </main>
+
+  </body>
+</html>

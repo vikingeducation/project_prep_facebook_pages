@@ -1,0 +1,309 @@
+/* MAIN APPLICATION STYLESHEET */
+/* Compile this file and all other will follow */
+/* Add any new stylesheets into this stylesheet */
+/* ----------------------------------- *
+ *       THEME COLORS & FONTS
+ * ----------------------------------- */
+/* Colors */
+/* blue */
+/* light blue */
+/* light gray */
+/* green */
+/* Fonts */
+/* Media Query Measurements */
+/* ----------------------------------- *
+ *      SHARED BASE STYLES
+ * ----------------------------------- */
+body {
+  font-family: "Quicksand", sans-serif; }
+
+p {
+  margin-bottom: 1em;
+  line-height: 1.2em; }
+
+h1, h2 {
+  font-weight: 700;
+  margin: 1em 0 0.5em 0; }
+
+h1 {
+  font-size: 1.5em; }
+
+h2 {
+  font-size: 1.25em; }
+
+ul {
+  margin: 1em 0;
+  padding: 0 0 0 40px;
+  list-style-type: disc; }
+
+strong {
+  font-weight: bold; }
+
+.container {
+  margin: 0 auto;
+  /*border: 1px solid red;*/ }
+
+/* .container */
+.grid-2-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr; }
+
+.grid-1-2-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr; }
+
+.grid-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr; }
+
+/* Top Nav */
+nav.site-nav {
+  background-color: #317BE1;
+  width: 100%;
+  color: white;
+  padding: 10px 0; }
+  nav.site-nav a {
+    color: white;
+    text-decoration: none; }
+
+.brand {
+  font-size: 30px;
+  font-weight: 500; }
+
+.login-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* form-field */ }
+  .login-form .form-field label {
+    font-size: 10px;
+    line-height: 15px; }
+  .login-form .form-field input[type=submit].login-button {
+    background-color: #A0C6F7;
+    border: 0 none;
+    cursor: pointer;
+    padding: 5% 30%; }
+  .login-form .login-field {
+    width: 90px; }
+
+.profile-pic-thumb {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border: 1px solid white; }
+
+#search-bar input {
+  width: 100%; }
+
+.user-controls a {
+  float: right;
+  color: white; }
+
+/* ----------------------------------- *
+ *           MEDIA QUERIES
+ * ----------------------------------- */
+/* NARROW SCREEN */
+/* narrow */
+/* WIDE SCREEN */
+@media (min-width: 770px) {
+  .container {
+    width: 100%;
+    max-width: 770px; } }
+/* wide */
+/* ----------------------------------- *
+ *       THEME COLORS & FONTS
+ * ----------------------------------- */
+/* Colors */
+/* blue */
+/* light blue */
+/* light gray */
+/* green */
+/* Fonts */
+/* Media Query Measurements */
+/* HOME PAGE STYLES */
+main {
+  clear: both;
+  padding: 50px 10px 10px 10px; }
+
+/* main */
+.intro-content h1 {
+  font-size: 25px;
+  font-weight: 500; }
+.intro-content li {
+  line-height: 2em; }
+
+.signup-form {
+  /* form-field */ }
+  .signup-form h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px; }
+  .signup-form label {
+    font-weight: 700;
+    font-size: 0.9em; }
+  .signup-form .form-field {
+    margin-bottom: 1em;
+    /* inputs */ }
+    .signup-form .form-field input.name-field {
+      width: 48%;
+      float: left;
+      margin-right: 2%;
+      margin-bottom: 1em; }
+    .signup-form .form-field input[type="text"], .signup-form .form-field input[type="email"], .signup-form .form-field input[type="password"] {
+      width: 100%; }
+    .signup-form .form-field input[type=submit].signup-button {
+      background-color: #2C9C20;
+      border: 0 none;
+      cursor: pointer;
+      color: white;
+      font-size: 1em;
+      padding: 2%;
+      width: 100%; }
+    .signup-form .form-field label.radio-field {
+      font-size: 0.75em; }
+
+/* signup-form */
+/* ----------------------------------- *
+ *           MEDIA QUERIES
+ * ----------------------------------- */
+/* NARROW SCREEN */
+/* narrow */
+/* WIDE SCREEN */
+/* wide */
+/* ----------------------------------- *
+ *       THEME COLORS & FONTS
+ * ----------------------------------- */
+/* Colors */
+/* blue */
+/* light blue */
+/* light gray */
+/* green */
+/* Fonts */
+/* Media Query Measurements */
+/* ABOUT PAGE STYLES*/
+/* About Header */
+.about-header {
+  position: relative;
+  margin-bottom: 20px;
+  border: 1px solid black; }
+
+.cover-photo-container {
+  width: 100%;
+  height: 230px; }
+  .cover-photo-container img {
+    width: 100%;
+    height: auto; }
+
+.profile-pic-container {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  width: 150px;
+  height: 150px;
+  border: 3px solid white;
+  margin-right: 25px; }
+  .profile-pic-container img {
+    width: 100%; }
+
+.about-header {
+  /* nav */ }
+  .about-header h2.user-name {
+    position: absolute;
+    left: 180px;
+    bottom: 35px; }
+  .about-header .qty-count {
+    color: gray;
+    font-size: 0.9em; }
+  .about-header nav {
+    width: 100%;
+    border-top: 1px solid black;
+    font-size: 0.75em;
+    /* li */
+    /* edit-profile */ }
+    .about-header nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      margin-left: 180px; }
+    .about-header nav li {
+      float: left;
+      /* a */ }
+      .about-header nav li .active {
+        background-color: #EEEEEE; }
+      .about-header nav li a {
+        display: block;
+        text-align: center;
+        padding: 12px 16px;
+        color: black;
+        font-weight: 700;
+        text-decoration: none;
+        background-color: white;
+        border-left: 1px solid black;
+        border-right: 1px solid black; }
+        .about-header nav li a:hover {
+          background-color: #EEEEEE; }
+    .about-header nav li.edit-profile {
+      float: right;
+      /* a */ }
+      .about-header nav li.edit-profile a {
+        border: none;
+        text-decoration: underline; }
+        .about-header nav li.edit-profile a:hover {
+          background-color: white; }
+
+/* about-header */
+.about-content {
+  border: 1px solid black;
+  display: grid;
+  grid-template-areas: "header header" "stats about-me";
+  /* header */ }
+  .about-content h1 {
+    display: inline; }
+  .about-content header {
+    grid-area: header;
+    border-bottom: 1px solid black;
+    background-color: #EEEEEE;
+    padding: 1%;
+    text-align: center; }
+    .about-content header button {
+      background-color: #317BE1;
+      border: 0 none;
+      cursor: pointer;
+      color: white;
+      padding: 0.75% 1%;
+      float: right; }
+  .about-content section {
+    padding: 20px; }
+
+/* about-content */
+.personal-stats {
+  grid-area: stats; }
+  .personal-stats table {
+    width: 100%; }
+  .personal-stats td, .personal-stats th {
+    padding: 4% 2%;
+    font-size: 0.9em; }
+  .personal-stats th {
+    width: 100px;
+    text-align: left;
+    font-weight: 500; }
+
+/* personal-stats */
+.about-me-copy {
+  grid-area: about-me; }
+
+/* ----------------------------------- *
+ *           MEDIA QUERIES
+ * ----------------------------------- */
+/* NARROW SCREEN */
+/* narrow */
+/* WIDE SCREEN */
+/* wide */
+
+/*# sourceMappingURL=style.css.map */
