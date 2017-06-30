@@ -1,0 +1,731 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+
+body {
+	background-color: #edf0f5;
+}
+
+.headerWrapper,
+.headerWrapper2 {
+	margin: 0;
+	padding: 0;
+	background-color: #3B5998;
+	width: 100%;
+}
+
+.headerWrapper {
+	height: 78px;
+}
+
+.headerWrapper2 {
+	height: 42px;
+	display: flex;
+} /* logged in pages */
+
+.emptyLeft {
+	flex: 1 1 auto;
+} /* logged in pages */
+
+.emptyRight {
+	flex: 2 2 auto;
+} /* logged in pages */
+
+.mainContainer {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: flex;
+}  /* logged in pages */
+
+.headerLoggedIn,
+.mainContent {
+	flex-direction: row;
+} /* logged in pages */
+
+.headerLoggedIn {
+	flex: 0 0 850px;
+	padding: 8px 10px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #000;
+} /* logged in pages */
+
+.headerLeft {
+	display: flex;	
+} /* logged in pages */
+
+.headerRight {
+	padding-top: 8px;
+}
+
+.mainContent{
+	flex: 0 0 870px;
+	background-color: #edf0f5;
+}
+
+.headerContainer {
+	margin: 0 auto;
+	padding: 0;
+	width: 990px;
+	height: 78px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.mainHeaderNav {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 240px;
+	position: relative;
+	border: 1px solid #000;
+	
+} /* logged in pages */
+
+.mainHeaderNav img {
+	width: 146px;
+	height: 146px;
+	border: 4px solid white;
+	border-radius: 2px;
+	box-shadow: 0px 0px 0px 1px #ADADAD;
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+}
+
+.mainHeader {
+	height: 200px;
+	background-image: url(./img/always_grey_@2X.png);
+	background-repeat: repeat;
+} /* logged in pages */
+
+.mainNav {
+	height: 40px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+
+.profileName {
+	padding: 170px 0px 0px 190px ;
+	
+}
+
+.menu {
+	display: flex;
+	text-align: center;
+
+}
+
+.menu li {
+	padding-top: 13px;
+	width: 110px;
+	border-right: 1px solid #e9eaed;	
+}
+
+.menu li:hover {
+	background-color: #F4F4F4;
+	cursor: pointer;
+}
+
+.menu li:nth-child(1) {
+	width: 184px;
+	pointer-events: none;
+}
+
+.currentPage {
+	background-color: #edf0f5;
+	pointer-events: none;
+}
+
+.counter {
+	color: #C7C7C7;
+}
+
+.editProfile {
+	padding-top: 13px;
+	padding-right: 10px;
+}
+
+
+/* ==== front page ===== */
+
+.frontPageMain {
+	margin: 0 auto;
+	padding: 0;
+	width: 990px;
+	display: flex;
+} 
+
+.logo {
+	margin-top: 4px;
+	padding: 20px 0 2px 2px;
+	flex: 0 0 350px;
+	display: flex;
+}  
+
+.loginInfo {
+	margin-top: 4px;
+	flex: 0 0 410px;
+	display: flex;
+	justify-content: flex-end;
+	height: 73px;
+}  
+
+.emailPhone,
+.password {
+	flex: 0 0 154px;
+	line-height: 22px;
+	align-items: flex-start;
+	padding-top: 3px;
+	margin-right: 10px;
+} 
+
+.login{
+	flex: 0 0 50px;
+	align-items: flex-start;
+	padding-top: 26px;
+}  
+
+.login button {
+	background-color: #4668ad;
+	border: 0.5px solid #334977;
+	border-radius: 3px;
+}  
+
+.login button:hover {
+	background-color: #3f598e;
+} 
+
+ .inputBox {
+ 	width: 150px;
+ }
+
+
+
+/* ===== logged in pages  ===== */
+
+.searchBox {
+	padding: 2px 20px;
+} 
+
+.searchBox input {
+	width: 450px;
+	height: 16px;
+	padding-top: 2px;
+}
+
+.leftPane {
+	flex: 0 0 570px;
+	padding: 52px 10px 10px 2px;
+
+}
+
+.rightPane {
+	flex: 0 0 410px;
+	padding: 0 5px;
+}
+
+.iconText {
+	display: inline-flex;
+	margin-bottom: 22px;
+	margin-left: 8px;
+}
+
+.icon {
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+}
+
+.signUp {
+	margin-top: 10px;
+	flex: 0 0 410px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.fullName {
+	flex: 0 0 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.fullName input,
+.mobilePassword input  {
+	height: 28px;
+	padding: 2px;
+	border-radius: 5px;
+	margin-top: 14px;
+}
+
+.fullName input {
+	width: 190px;
+}
+
+.mobilePassword input {
+	width: 400px;
+}
+
+.mobilePassword {
+	flex: 0 0 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.DOB {
+	display: flex;
+	flex-direction: row;
+}
+
+.formBottom h4 {
+	margin-top: 25px;
+	margin-bottom: 8px;
+}
+
+.formBottom span {
+	width: 150px;
+	display: block;
+	padding: 2px 10px;
+}
+
+.DOBMonth,
+.DOBDay,
+.DOBYear {
+	height: 28px;
+}
+
+.DOBMonth {
+	width: 60px;
+}
+
+
+.DOBDay {
+	width: 48px;
+}
+
+.DOBYear {
+	width: 52px;
+}
+
+.gender {
+	display: flex;
+	width: 200px;
+	flex-direction: row;
+	margin-top: 16px;
+}
+
+.female,
+.male {
+	position: relative;
+	flex: 1 1 10%;
+	margin: 0 8px;
+}
+
+.terms {
+	width: 310px;
+	margin-top: 13px;
+}
+
+.gender label {
+	cursor: pointer;
+}
+
+.createAccount {
+	margin-top: 18px;
+	border:1px solid #588A44;
+	box-shadow: #CCCCCC 0px 1px 0px inset;
+	border-radius: 5px;
+	padding: 10px 24px;
+	display:inline-block;
+	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+	background-color: #65A952;
+	background-image: linear-gradient(to bottom, #65A952, #588A44);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#65A952), to(#588A44));
+	background-image: -moz-linear-gradient(top, #65A952, #588A44);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#65A952, endColorstr=#588A44);
+}
+
+.createAccount:hover {
+	border:1px solid #588A44;
+	background-color: #74B560;
+	background-image: linear-gradient(to bottom, #74B560, #598B45);filter:
+	background-image: -webkit-linear-gradient(top, #74B560, #598B45);
+	background-image: -moz-linear-gradient(top, #74B560, #598B45);
+	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#74B560, endColorstr=#598B45);
+}
+/*  About Page Styles */
+
+.profileContainer {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #000;
+}
+
+.aboutHeader {
+	flex: 0 0 40px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+	background-color: #edf0f5;
+	border-bottom: 1px solid #000;
+}
+.aboutHeader > div:first-child {
+	height: 20px;
+	width: 110px;
+	border: 1px solid blue;
+	visibility: hidden;
+}
+
+.editProfileButton {
+	background-color: #3B5998;
+	border: 1px solid #000;
+	border-radius: 3px;
+	padding: 3px 6px;
+	display: inline-block;
+	margin-right: 10px;
+	cursor: pointer; /* might need to change flexbox to absolute-relative positioning to get cursor */
+}
+
+/*  under About Header */
+
+.profileInfoAbout {
+	flex: 1 1 auto;
+	background-color: #fff;
+	display: flex;
+}
+
+.profileInfo,
+.profileAbout {
+	padding-left: 35px;
+}
+
+
+.profileInfo {
+
+	flex: 0 0 320px;
+
+	margin-bottom: 40px;
+}
+
+.profileAbout {
+	flex: 0 0 400px;
+}
+
+/*  Basic Info */
+
+.basicInfo dl,
+.contactInfo dl {
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+}
+
+.basicInfo dt,
+.contactInfo dt  {
+	flex: 0 0 40%;
+}
+
+.basicInfo dd,
+.contactInfo dd {
+	flex: 0 0 60%;
+	text-align: left;
+
+}
+
+/*  Friends Page Styles */
+
+.hideButton {
+	visibility: hidden;
+	pointer-events: none;
+}
+
+
+
+.friendsContainer {
+	flex: 1 1 auto;
+	background-color: #fff;
+	width: 870px;
+	display: flex;
+/* 	justify-content: space-around;
+*/	
+}
+
+.friendsBoxLeft,
+.friendsBoxRight {
+	flex: 1 1 auto;
+	display: flex;
+	flex-flow: column;	
+
+}
+
+.friendsBoxLeft {
+	margin-left: 33.33px;
+}
+
+.friendsBoxRight {
+	align-items: flex-end;	
+	margin-right: 33.33px;
+}
+
+.friendsPic {
+	width: 100px;
+	height: 100px;
+}
+
+.friendsBox {
+	display: flex;
+	
+	align-items: center;
+	width: 360px;
+	/*margin: 20px;*/
+	padding: 10px;
+	border: 1px solid #000;
+	margin-top: 33.33px;
+
+}
+
+.friendsBox:nth-child(3)  {
+	margin-bottom: 33.33px;
+}
+
+
+.friendsPic {
+	border: 4px solid white;
+	border-radius: 2px;
+	box-shadow: 0px 0px 0px 1px #ADADAD;
+}
+
+
+.friendsInfo {
+	width: 180px;
+	padding-left: 12px;
+	padding-bottom: 10px;
+}
+
+.unfriend {
+	background-color: silver;
+	border-radius: 3px;
+}
+
+
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+html, body {
+	font: 13px/140%  Helvetica Tahoma, sans-serif;
+
+}
+
+h1 {
+	font-size: 40px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+/* <=== font page ===> */
+
+.logo h1 {
+	padding: 5px;
+}
+
+
+.headerLeft h1 {
+	font-size: 28px;
+	padding: 6px 10px;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: bold;
+	padding: 30px 0 15px 0;
+}
+
+h3 {
+	font-size: 26px;
+	line-height: 28pt;
+	font-weight: bold;
+	margin-bottom: 38px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+.loginInfo {
+	color: #ffffff;
+}
+.login button {
+	color: #fff;
+}
+
+
+.forgot {
+	color: #bac2d1;
+	text-decoration: none;
+}
+
+.homepageText {
+	font-weight: bold;
+	font-size: 16px;
+	margin-left: 20px;
+	padding-top: 17px;
+}
+
+.homepageText span {
+	font-weight: normal;
+	margin-left: 10px;
+}
+
+.nameBox,
+.mobilePassBox {
+	font-size: 18px;
+}
+
+.formBottom span,
+.terms {
+	font-size: 11px;
+	line-height: 14px;
+}
+
+.DOBMonth,
+.DOBDay,
+.DOBYear {
+	font-size: 12px;	
+}
+
+.gender {
+	font-size: 16px;
+}
+
+.terms {
+	color: gray;
+}
+
+.createAccount {
+	font-size:18px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none; 
+}
+
+/* About Page Typography*/
+
+.harry {
+	font-size: 16px;
+	color: #fff;
+}
+
+.profileName {
+	font-size: 24px;
+	color: #fff;
+}
+
+.menu a {
+	text-decoration: none;
+}
+
+.aboutContainer h1 {
+	font-size: 32px;
+	color: #000;
+}
+
+.editProfileButton {
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+.basicInfo h1,
+.contactInfo h1, 
+.wordsToLiveBy h1,
+.aboutMe h1 {
+	font-size: 24px;
+	color: #000;
+	line-height: 60px;
+	padding-top: 8px;
+}
+
+
+.basicInfo dt,
+.contactInfo dt {
+	padding-bottom: 0.7em;
+	font-weight: bold;
+}
+
+.contactInfo a {
+	text-decoration: none;
+}
+
+/* friends page  */
+
+.friendsInfo {
+	font-size: 16px;
+	text-align: left;
+}
+
+
+
+
