@@ -32,9 +32,7 @@ h2 {
 
 ul {
   margin: 1em 0;
-  padding: 0 0 0 40px; }
-
-ul {
+  padding: 0 0 0 40px;
   list-style-type: disc; }
 
 strong {
@@ -62,14 +60,13 @@ strong {
 
 /* Top Nav */
 nav.site-nav {
-  background-color: var(--blue);
+  background-color: #317BE1;
   width: 100%;
   color: white;
   padding: 10px 0; }
-
-nav.site-nav a {
-  color: white;
-  text-decoration: none; }
+  nav.site-nav a {
+    color: white;
+    text-decoration: none; }
 
 .brand {
   font-size: 30px;
@@ -80,20 +77,18 @@ nav.site-nav a {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  align-items: flex-end; }
-
-.login-form .form-field label {
-  font-size: 10px;
-  line-height: 15px; }
-
-.login-form .login-field {
-  width: 90px; }
-
-.login-form .form-field input[type=submit].login-button {
-  background-color: var(--lightblue);
-  border: 0 none;
-  cursor: pointer;
-  padding: 5% 30%; }
+  align-items: flex-end;
+  /* form-field */ }
+  .login-form .form-field label {
+    font-size: 10px;
+    line-height: 15px; }
+  .login-form .form-field input[type=submit].login-button {
+    background-color: #A0C6F7;
+    border: 0 none;
+    cursor: pointer;
+    padding: 5% 30%; }
+  .login-form .login-field {
+    width: 90px; }
 
 .profile-pic-thumb {
   width: 20px;
@@ -122,12 +117,12 @@ nav.site-nav a {
 /* ----------------------------------- *
  *       THEME COLORS & FONTS
  * ----------------------------------- */
-:root {
-  --green: #2C9C20;
-  --blue: #317BE1;
-  --lightblue: #A0C6F7;
-  --lightgray: #EEEEEE; }
-
+/* Colors */
+/* blue */
+/* light blue */
+/* light gray */
+/* green */
+/* Fonts */
 /* HOME PAGE STYLES */
 main {
   clear: both;
@@ -163,7 +158,7 @@ main {
   margin-bottom: 1em; }
 
 .signup-form .form-field input[type=submit].signup-button {
-  background-color: var(--green);
+  background-color: #2C9C20;
   border: 0 none;
   cursor: pointer;
   color: white;
@@ -181,6 +176,15 @@ main {
 /* narrow */
 /* WIDE SCREEN */
 /* wide */
+/* ----------------------------------- *
+ *       THEME COLORS & FONTS
+ * ----------------------------------- */
+/* Colors */
+/* blue */
+/* light blue */
+/* light gray */
+/* green */
+/* Fonts */
 /* ABOUT PAGE STYLES*/
 /* About Header */
 .about-header {
@@ -241,10 +245,10 @@ main {
   border-right: 1px solid black; }
 
 .about-header nav li a:hover {
-  background-color: var(--lightgray); }
+  background-color: #EEEEEE; }
 
 .about-header a.active {
-  background-color: var(--lightgray); }
+  background-color: #EEEEEE; }
 
 .about-header nav li.edit-profile {
   float: right; }
@@ -267,7 +271,7 @@ main {
   grid-template-areas: "header header" "stats about-me"; }
 
 .about-content header button {
-  background-color: var(--blue);
+  background-color: #317BE1;
   border: 0 none;
   cursor: pointer;
   color: white;
@@ -276,7 +280,7 @@ main {
 .about-content header {
   grid-area: header;
   border-bottom: 1px solid black;
-  background-color: var(--lightgray);
+  background-color: #EEEEEE;
   padding: 1%;
   text-align: center; }
 

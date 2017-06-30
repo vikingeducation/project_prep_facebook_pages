@@ -24,9 +24,8 @@ h2 {font-size: 1.25em;}
 ul {
   margin: 1em 0;
   padding: 0 0 0 40px;
+  list-style-type: disc;
 }
-
-ul { list-style-type: disc; }
 
 strong {
   font-weight: bold;
@@ -58,15 +57,14 @@ strong {
 
 /* Top Nav */
 nav.site-nav {
-  background-color: var(--blue);
+  background-color: $brand-color;
   width: 100%;
   color: white;
   padding: 10px 0;
-}
-
-nav.site-nav a {
-  color: white;
-  text-decoration: none;
+  a {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 .brand {
@@ -80,22 +78,21 @@ nav.site-nav a {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-end;
-}
-
-.login-form .form-field label {
-  font-size: 10px;
-  line-height: 15px;
-}
-
-.login-form .login-field {
-  width: 90px;
-}
-
-.login-form .form-field input[type=submit].login-button {
-  background-color: var(--lightblue);
-  border:0 none;
-  cursor:pointer;
-  padding: 5% 30%;
+  .form-field {
+    label {
+      font-size: 10px;
+      line-height: 15px;
+    }
+    input[type=submit].login-button {
+      background-color: $brand-color-light;
+      border:0 none;
+      cursor:pointer;
+      padding: 5% 30%;
+    }
+  }/* form-field */
+  .login-field {
+    width: 90px;
+  }
 }
 
 .profile-pic-thumb {
