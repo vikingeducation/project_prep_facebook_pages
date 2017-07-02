@@ -1,3 +1,9 @@
+/* testing a reset thing , doesn't seem to work */
+* {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
 
 /* CLEARFIX */
 
@@ -37,13 +43,19 @@ h1 {
   color: white;
   font-size: 14px;
 }
+#log-head {
+  padding-left: 10px;
+}
 .flex-form {
   display: flex;
   flex-flow: row nowrap;
 }
-.form-group label,input {
+
+.form-group * {
   display: block;
   margin: 10px;
+  border: 2px;
+  padding: 1px;
 }
 .form-group {
   float: left;
@@ -53,6 +65,49 @@ h1 {
 }
 #login-btn {
   align-self: flex-end;
-  margin-bottom: 10px;
 }
 /****** ****//* NAV *//****** ****/
+
+
+/****** ****//* SIGN UP FORM *//****** ****/
+
+fieldset {
+  border: 0;
+}
+#sign-up-form {
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 40%;
+}
+#sign-up-form * {
+  flex: 1 100%;
+  margin: 8px;
+}
+#sign-up-form input[type="email"] {
+  border: 1px solid grey;
+  /*consider using box-shadows or something here*/
+  width: 100%;
+}
+#sign-up-form input[type="password"] {
+  border: 1px solid grey;
+  /*consider using box-shadows or something here*/
+  width: 100%;
+}
+#sign-up-form input[type="text"] {
+  border: 1px solid grey;
+  /*consider using box-shadows or something here*/
+  width: 100%;
+}
+#cta-button {
+  background-color: #390;
+  color: white;
+  font-size: 24px;
+}
+
+#name .col-2 {
+  width: 40%;
+}
+
+/****** ****//* SIGN UP FORM *//****** ****/
