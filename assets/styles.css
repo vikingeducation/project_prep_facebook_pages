@@ -76,6 +76,7 @@ fieldset {
 }
 #sign-up-form {
   background-color: rgb(248, 248, 248);
+  float: right;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -111,3 +112,26 @@ fieldset {
 }
 
 /****** ****//* SIGN UP FORM *//****** ****/
+
+/****** ****//* MAIN DISPLAY *//****** ****/
+#main-display {
+  display: block;
+  float: left;
+  position: relative;
+  margin-top: 150px;
+  left: 10%;
+}
+
+#main-display li {
+  list-style-type: circle;
+}
+
+
+
+
+
+
+
+
+
+/****** ****//* MAIN DISPLAY *//****** ****/
