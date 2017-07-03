@@ -1,3 +1,12 @@
+/*
+primary font-size: 14px
+line-height: 20px
+baseline-value for vertical spacing: 20px
+
+Scale used: 14, 16, 24, 40, 64, and 104
+*/
+
+
 /* testing a reset thing , doesn't seem to work */
 * {
   padding: 0px;
@@ -66,8 +75,37 @@ h1 {
 #login-btn {
   align-self: flex-end;
 }
-/****** ****//* NAV *//****** ****/
+/****** ****//* NAV -Login page *//****** ****/
 
+/****** ****//* MAIN NAV *//****** ****/
+#main-nav {
+  height: 50px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+
+  background-color: #06F;
+  color: white;
+  font-size: 18px;
+
+}
+
+#main-nav * {
+
+}
+#main-nav img {
+  width: 30px;
+  height: 30px;
+}
+
+/****** ****//* MAIN NAV *//****** ****/
+
+/****** ****//* ABOUT ME *//****** ****/
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+/****** ****//* ABOUT ME *//****** ****/
 
 /****** ****//* SIGN UP FORM *//****** ****/
 
@@ -108,7 +146,8 @@ fieldset {
 }
 
 #name .col-2 {
-  width: 40%;
+  flex: 1 auto;
+  display: inline-block;
 }
 
 /****** ****//* SIGN UP FORM *//****** ****/
@@ -125,8 +164,6 @@ fieldset {
 #main-display li {
   list-style-type: circle;
 }
-
-
 
 
 

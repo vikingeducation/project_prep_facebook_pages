@@ -1,0 +1,114 @@
+/*
+primary font-size: 14px
+line-height: 20px
+baseline-value for vertical spacing: 20px
+
+Scale used: 14, 16, 24, 40, 64, and 104
+*/
+
+/*  ABOUT ME STYLE */
+
+html {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  font-size: 64px;
+}
+h2{
+  font-size: 40px;
+}
+h3{
+  font-size: 24px;
+}
+h5 {
+  /*font-size: 16px;*/
+}
+
+/* top display */
+#top-display img {
+  border: 2px solid black;
+  /*cover*/
+}
+/*
+.nav-flex {
+  display: flex;
+  text-align: center;
+
+  justify-content: space-around;
+}
+*/
+a h5 {
+  font-size: 14px;
+  margin: 0;
+}
+.nav-flex a{
+  display: inline-block;
+  text-align: center;
+  border: 2px solid black;
+  width: 60px;
+  text-decoration: none;
+  color: #222;
+}
+.nav-flex:last-child {
+  text-decoration: underline;
+  color: blue;
+}
+
+
+
+/****** ****//* MAIN NAV *//****** ****/
+#main-nav {
+  height: 40px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #06F;
+  color: white;
+  font-size: 18px;
+
+}
+#main-nav * {
+  flex-grow: 1;
+  margin: 0;
+}
+#searchbar {
+  flex-grow: 3;
+}
+
+#iblock *{
+  display: inline-flex;
+  font-size: 24px;
+}
+#iblock {
+  margin-left: 20px;
+}
+#iblock img{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#main-nav input {
+  font-size: 14px;
+}
+#about-me {
+  margin-left: 40px;
+}
+
+#main-nav img {
+  width: 30px;
+  height: 30px;
+}
+
+/****** ****//* MAIN NAV *//****** ****/
+
+/****** ****//* ABOUT ME *//****** ****/
+p {
+
+}
+/****** ****//* ABOUT ME *//****** ****/
