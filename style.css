@@ -45,14 +45,14 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}/*End of CSS reset*/
-.flex-body {
+}/*End of Eric Meyer's CSS reset*/
+.flex-body {/*Main flex container to rule them all; includes header and all elements on page.*/
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 	font-family: Helvetica, Arial, sans-serif;
 }
-.sign-in-header {
+.sign-in-header {/*Main flex container for all header elements. It contains three primary columns: .title, .header-login, and .login.*/
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -61,12 +61,12 @@ table {
 	height: 7rem;
 	background-color: #3b5998;
 }
-.title {
+.title {/*Flex container for facelook logo.*/
 	display: flex;
 	width:50%;
 	margin-bottom: 2rem;
 }
-.header-title {
+.header-title {/*Styling for the actual logo*/
 	width: 40%;
 	font-size: 3em;
 	font-weight: 600;
@@ -74,7 +74,7 @@ table {
 	text-decoration: none;	
 	margin-left: 2.5rem;
 }
-.header-login {
+.header-login {/*Flex container for header email and password fields.*/
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -84,21 +84,21 @@ table {
 	color: #ffffff;
 	margin-bottom: 1.5rem;
 }
-.header-email, .header-password {	
+.header-email, .header-password {/*Margin settings for header email and password fields.*/	
 	margin-bottom: .25rem;
 }
-.email-input, .password-input {
+.email-input, .password-input {/*Styling for the header email and password fields.*/
 	height: 1rem;
 	width: 10rem;
 	margin-top: .25rem;  
 }
-.login {
+.login {/*Flex container for header login button.*/
 	display: flex;
 	width: 10%;
 	margin-bottom: 1.65rem;	
 	margin-right: 2.5rem; 
 }
-.login-button {
+.login-button {/*Styling for header login button.*/
 	height: 1.4rem;
 	width: 5rem;
 	background-color: #5772AC;
@@ -107,82 +107,82 @@ table {
 	border: 1px solid #4b4f56;
 	cursor: pointer;
 }
-.login-button:hover {
+.login-button:hover {/*Hover color-change effect for blue header login button.*/
 	background: #224389; 
 }
-.flex-main {
+.flex-main {/*Main flex container for all elements below the header. This is split into three columns that are equal in width to the header columns directly above each one.*/
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 100%;
 	height: 100%;
 }
-.sign-up-blurb {
+.sign-up-blurb {/*Flex container column for bullet list with 'Connect with all your friends!' header.*/
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	width: 50%;
 }
-.sign-up-blurb h1 {
+.sign-up-blurb h1 {/*'Connect with all your friends!'*/
 	width: 100%;
 	align-self: flex-end;
 	font-size: 2em;
 	font-weight: 600;
 	text-align: center;
 }
-.sign-up-blurb ul {
+.sign-up-blurb ul {/*Bullet list styling.*/
 	list-style-type: disc;
 	margin-left: 3rem; 
 	align-self: flex-start;
 }
-.sign-up-blurb ul li {
+.sign-up-blurb ul li {/*Margins for bullet list.*/
 	margin: 1.5rem;
 }
-.sign-up-inputs {
+.sign-up-inputs {/*Flex container column for Sign Up input fields.*/
 	display: flex;
 	flex-wrap: wrap;
 	width: 30%;	 
 }
-.sign-up-form {
+.sign-up-form {/*Nested flex container for form fields.*/
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.sign-up-form h1 {
+.sign-up-form h1 {/*'Sign Up' header*/
 	font-size: 2.5em;
 	font-weight: 500;
 	width: 100%;
 	margin-top: 1.5rem;
 }
-.first-name {
+.first-name {/*Individual input field styling.*/
 	height: 1.5rem; 
 	width: 10rem;
 	margin-top: 1.5rem;
 	color: grey;
 	border-radius: 5px;
 }
-.last-name {
+.last-name {/*Individual input field styling.*/
 	height: 1.5rem;
 	width: 10rem;
 	margin-top: 1.5rem;
 	color: grey;
 	border-radius: 5px;
 }
-.email {
+.email {/*Individual input field styling.*/
 	height: 1.5rem;
 	width: 100%;
 	margin-top: 1.5rem;
 	color: grey;
 	border-radius: 5px;
 }
-.password {
+.password {/*Individual input field styling.*/
 	height: 1.5rem;
 	width: 100%;
 	margin-top: 1.5rem;
 	color: grey;
 	border-radius: 5px;
 }
-.confirm {
+.confirm {/*Individual input field styling.*/
 	height: 1.5rem;
 	width: 100%;
 	margin-top: 1.5rem;
@@ -190,32 +190,32 @@ table {
 	border-radius: 5px;
 	border-color: 1px solid #bdc7d8;
 }
-.sign-up-form h2{
+.sign-up-form h2{/*'Birthday' sub-header.*/
 	font-size: 1.5em;
 	font-weight: 500;
 	width: 100%;
 	margin-top: 1.5rem;
 }
-.DOB {
+.DOB {/*Flex container for month, day, and year drop-downs.*/
 	display: flex;
 	width: 100%;
 	margin-top: 1.5rem;
 }
-.DOBmonth, .DOBday, .DOByear {
+.DOBmonth, .DOBday, .DOByear {/*Styling for individual DOB drop-downs.*/
 	margin-right: 1rem;
 	margin-bottom: 1rem;  
 	height: 1.5rem; 
 	border-radius: 5px;
 }
-.gender {
+.gender {/*Flex container for gender radio buttons.*/
 	display: flex;
 	width: 100%;
 	margin-top: .5rem;
 }
-.male {
+.male {/*Margin setting for sufficient space to the left of male radio input.*/
 	margin-left: 1.5rem; 	
 }
-.sign-up {
+.sign-up {/*Styling for green 'Sign Up!' button.*/
 	width: 100%;
 	height: 2.5rem;
 	margin-top: 1.5rem;
@@ -226,114 +226,114 @@ table {
 	border-radius: 5px;
 	cursor: pointer;
 }
-.sign-up:hover {
+.sign-up:hover {/*Hover color-change effect for green 'Sign Up!' button.*/
 	background: #59983b;
 }
-.empty {
+.empty {/*Flex container column with no content; included to maintain spacing consistency with three column header. This column is set to 'display: none' at the 580px @media query because the layout degrades to a single-column style.*/
+	display: flex;
 	width: 10%;
 	margin-right: 2.5rem;
 }
-@media only screen and (max-width: 1108px) {
-	.header-login {
+@media only screen and (max-width: 1108px) {/*@media query for medium browser widths. Maintains three-column style, but elements begin to wrap and shift.*/
+	.header-login {/*Change to 'align-self: center' to maintain sufficient space at top and bottom of header email and password fields as they wrap.*/
 	align-self: center;
 	margin-bottom: 0; 
 	}
-	.header-password {
+	.header-password {/*Addressed spacing considerations.*/
 	align-self: center;
 	}
-	.login {
+	.login {/*Addressed spacing considerations.*/
 	align-self: center;
 	margin-bottom: 0;
 	}
-	.flex-main {
+	.flex-main {/*Moves body elements closer to header to address changing spacing considerations.*/
 	align-items: flex-start;
 	}
-	.sign-up-blurb {
+	.sign-up-blurb {/*Moves 'Connect with all your friends!' closer to the header.*/
 	margin-top: 2rem;
 	}
-	.first-name {
+	.first-name {/*Allows .first-name field to expand to full width like other input fields as the .last-name field wraps out of the way.*/
 	width: 100%;
 	}
-	.last-name {
+	.last-name {/*Allows .last-name field to expand to match other fields after wrapping.*/
 	width: 100%;
 	}
 }
-@media only screen and (max-width: 580px) {
-	.sign-in-header {	
+@media only screen and (max-width: 580px) {/*@media query for small browser widths. The three-column style degrades to a centered, single-column style in both header and body.*/ 
+	.sign-in-header {/*Changes header height to adjust automatically to accommodate header elements wrapping into a single column.*/
 	height: auto;
 	}
-	.title {
+	.title {/*Centers 'facelook' logo. Width changes to 100% to force wrapping.*/
 	width: 100%;
 	text-align: center;
 	margin-top: .5rem;
 	margin-bottom: .5rem; 
 	}
-	.header-title {
+	.header-title {/*Additional spacing adjustments for facelook logo.*/
 	width: 100%;
 	margin-left: 0rem;
 	}
-	.header-login {	
+	.header-login {/*Width to 100% to force wrapping of header email and password elements. Centers and adjusts spacing of same.*/
 	align-self: flex-start;
 	flex-wrap: wrap;
-	justify-content: center;
-	text-align: center;
+	justify-content: center;	
 	width: 100%;
 	}
-	.header-email {	
+	.header-email {/*Adjustments to header email element.*/
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: wrap;/*Forces wrapping so the word 'email' stays above the email input field.*/
 	justify-content: center;
 	width: 100%;	
 	margin-bottom: .5rem; 
 	}
-	.header-email p {
+	.header-email p {/*Centers the word 'email'.*/
 	width: 100%; 
 	text-align: center;
 	}
-	.header-password {	
+	.header-password {/*Adjustments to header password element.*/	
 	display: flex;
-	flex-wrap: wrap;
+	flex-wrap: wrap;/*Forces wrapping so the word 'password' stays above the password input field.*/
 	justify-content: center;
 	width: 100%;
 	margin-bottom: .5rem; 
 	}
-	.header-password p{
+	.header-password p{/*Centers the word 'password'.*/
 	width: 100%;
 	text-align: center;
 	}
-	.login {
+	.login {/*Centers the login button. Width to 100% to force wrapping.*/ 
 	align-self: flex-start;
 	justify-content: center;
 	width: 100%; 
 	margin-right: 0; 
 	margin-bottom: .5rem; 
 	}
-	.sign-up-blurb {
+	.sign-up-blurb {/*Width to 100% to force wrapping.*/
 	width: 100%;
 	margin-top: 1rem; 
 	}
-	.sign-up-inputs {
+	.sign-up-inputs {/*Width to 100% to force wrapping.*/
 	width: 100%; 
 	justify-content: center;
 	}
-	.sign-up-form {
+	.sign-up-form {/*Centers Sign Up input fields and adjusts same to appropriate width.*/
 	width: 70%;
 	justify-content: center;
 	}
-	.sign-up-form h1 {
+	.sign-up-form h1 {/*Centers and adjusts spacing of 'Sign Up'.*/
 	text-align: center;
 	margin-top: 0rem; 
 	}
-	.sign-up-form h2 {
+	.sign-up-form h2 {/*Centers and adjusts spacing of 'Birthday'.*/
 	text-align: center;
 	}
-	.DOB {
+	.DOB {/*Centers DOB drop-down fields.*/
 	justify-content: center;
 	}
-	.gender {
+	.gender {/*Centers gender radio buttons.*/
 	justify-content: center;
 	}
-	.empty {
+	.empty {/*Removes the empty third body column.*/
 	display: none;
 	}
 }

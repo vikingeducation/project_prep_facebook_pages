@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--Clone of Facebook's login page. Style sheet includes two @media queries for smaller screens at 1108px and 580px--> 
 <html>
 <head>
 	<meta charset="utf-8">
@@ -6,12 +6,12 @@
 	<title>Facelook Home Page</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body class="flex-body">
-	<header class="sign-in-header">
-		<div class="title">
+<body class="flex-body"><!--Flex container for all elements on page.-->
+	<header class="sign-in-header"><!--Flex container for header elements, which are divided into three primary columns.-->
+		<div class="title"><!--Flex container for header logo.-->
 			<a href="#" class="header-title">facelook</a>
 		</div>			
-		<div class="header-login">
+		<div class="header-login"><!--Flex container for header login fields.-->
 			<div class="header-email">
 				<p>Email</p>
 				<input type="email" name="Email" class="email-input">
@@ -21,12 +21,12 @@
 				<input type="password" name="Password" class="password-input">
 			</div>
 		</div>
-		<div class="login">
+		<div class="login"><!--Flex container for header login button.-->
 			<input type="button" name="login-button" class="login-button" value="Log In">
 		</div>
 	</header>
-	<main class="flex-main">
-		<article class="sign-up-blurb">
+	<main class="flex-main"><!--Flex container for all elements below the header. There are three primary columns here too, equal in width to the three header columns situated above each one.--> 
+		<article class="sign-up-blurb"><!--Flex container for bullet list with header-->
 			<h1>Connect with all your friends!</h1>
 			<ul>
 				<li>See photos and updates in your news feed</li>
@@ -35,7 +35,7 @@
 				<li>Like things because you're a positive person!</li>
 			</ul>			
 		</article>
-		<article class="sign-up-inputs">
+		<article class="sign-up-inputs"><!--Flex container for new account sign up input fields--> 
 			<form class="sign-up-form">
 				<h1>Sign Up</h1>
 				<input type="text" name="first-name" value="First Name" class="first-name">
@@ -152,7 +152,7 @@
 				<input type="button" name="sign-up-button" value="Sign Up!" class="sign-up">
 			</form>
 		</article>
-		<article class="empty">
+		<article class="empty"><!--This flex container has no content, but it is included for maintaining spacing consistency; it is beneath the header Log In button column and is of equal column width. The 580px @media query for this column is set to 'display: none' because all of the elements degrade to a single column that makes the spacing requirement unnecessary.-->   
 		</article>
 	</main>
 </body>
