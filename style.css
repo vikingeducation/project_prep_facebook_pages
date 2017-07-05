@@ -1,0 +1,597 @@
+html, body {margin: 0; padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+color: #444;
+}
+
+body{
+font-size: 62.5%;
+background: ;
+}
+
+h1{
+    font-size: 3.2em;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+h4{
+    font-size: 2em;
+}
+
+.clearfix:before
+.clearfix:after {
+  clear: both;
+   content: ".";
+   display: block;
+   visibility: hidden;
+ }
+
+.clearfix:after{
+    clear: both;
+content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    display: inline-block;
+    margin:0;
+    width:100%;
+    background: #3B5998;
+    height: 45px;
+    padding: 20px 0;
+    font-family: Helvetica, arial, sans-serif;
+    border: 1px solid #444;
+    z-index: 3;
+}
+
+.facelook {
+    color: whitesmoke;
+    margin-left: 30px; 
+    float: left;
+    max-width: 175px;
+    margin-top: 15px;
+    font-weight: 600;   
+}
+
+.header .facelook{
+    margin-left: 110px;
+}
+
+.header form {
+    float: right; 
+    margin-right: 130px; 
+    height: 40px; 
+    padding-top: 8px;
+}
+
+.header form label {
+    display:inline-block; 
+    margin: 0 2px;
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+
+
+.header form #s-user, 
+.header form #s-pass {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid black;
+    padding: 3px 0 3px 0;
+    margin-bottom: -1px;
+}
+
+.header .submit{
+    height: 23px;
+    vertical-align: bottom;
+    background: lightsteelblue; 
+    color: #111;
+    border: 1px solid #111;
+    box-shadow: 1px 1px black;
+}
+
+.abheader{
+    display: inline-flex;
+    justify-content: space-between;
+    height:15px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+#userImg{
+    width: 30px;
+    max-width: 30px;
+    height: 30px;
+    margin-left: 70px;
+}
+
+#logo{
+    width: 100%;
+    height: auto;
+}
+
+
+.abheader .facelook{
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.search{
+    width: 50em;
+    height: 2em;
+    margin-top: 1px;
+    margin-left: 3em;
+}
+
+.userlinks{
+    display:-webkit-flex;
+    display:flex;
+    flex-flow:row;
+     }
+
+
+ #user{
+color: whitesmoke;
+font-weight: 600;
+margin-left: 15px;  
+margin-right: 40px;
+text-decoration: none;
+ }
+
+.newslink{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-right: 15px;
+}
+.main, .main-content {
+    margin:12em 9em 0em 7em;
+}
+
+.main, .posts, .newsPage{
+    margin-top: 0.6em;
+}
+
+.main-content, .abtContent, .personal, .newsPage{
+display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content:space-around;
+  align-items: center;
+ 
+}
+ .personal, .news, .replies{
+      background: #dfdfdf;
+ }
+ .newsPage{
+     align-items: flex-start;
+     justify-content: space-between;
+     flex-flow: row nowrap;
+ }
+   #benefits{
+       margin-top: 2.5em;
+   }
+
+#benefits ul{
+list-style-type: disc;
+padding-top: 1em;
+margin-top: 1em;
+}
+
+#benefits li{
+padding: 4px;
+margin: 3px;
+margin-left: 60px;
+font-size: 2em;
+line-height: 2em;
+}
+
+.Sign-Up{
+   display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  -webkit-flex-flow: column wrap;
+  flex-flow: column wrap;
+  justify-content:flex-start ;
+  align-items: stretch;
+  width: 40%;
+}
+
+.Sign-Up h1{
+    margin-bottom: 0.6em;
+}
+
+name{
+
+  height: 25px;
+ 
+   
+    }
+#firstname, #lastname{
+    height:25px;
+    width: 45%;
+    
+}
+#lastname, .postButton, .right{
+float: right;
+}
+
+#firstname{
+    float: left;
+}
+
+.empas{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.empas input{
+    height: 25px;
+    width: 99%;
+}
+
+.likes{
+    margin-top: 15px;
+}
+.bday{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+    color: #222;
+    font-weight: 500;
+}
+
+.dropdowns select{
+    border: 1px solid #333;
+    margin: 4px;
+    height: 2em;
+
+}
+.gender{
+font-size: 1.5em;
+    margin-bottom: 0.7em;
+    margin-top: 1em;
+    color: #222;
+}
+
+.SignBtn, .empas input, #firstname, #lastname{
+    border-radius: 1px;
+}
+
+.SignBtn{
+    background-color: #69A455;
+  font-weight: bold;
+  border-radius: 8px;
+  font-size: 30px;
+  padding: 5px 50px 5px 50px;
+  width:100%;
+  color: whitesmoke;
+}
+
+
+
+.Sign-Up h1, #benefits h1{
+    padding: 4px;
+    color: #222;
+}
+
+
+
+.backimage{
+  position: relative;
+  width: auto;
+  height: 580px;
+  background-image: url(/home/melissa/viking/projects/css/project_prep_facebook_pages/backimage.jpg);
+  background-size: cover;
+  z-index: -1;
+}
+
+.mainpic{
+     width: 200px;
+  height: 200px;
+  z-index: 2;
+  bottom: 10px;
+  left: 100px;
+  position: absolute;
+}
+.nameTitle {
+ position: absolute;
+ bottom: 10px;
+ left: 260px;
+ z-index: 1;
+ font-size: 20px;
+ color: whitesmoke;
+}
+
+nav {
+  height: 50px;
+  z-index: -1;
+}
+#nav {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+#nav td {
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid #111;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#tdFirst {
+  width: 290px;
+}
+#tdLast {
+  width: 300px;
+}
+#tdAbout{
+  background-color: orange;
+}
+
+.personal{
+    width: 100%;
+}
+.personal, #myPosts, .olderPost, #posts{
+    box-sizing: border-box;
+    border: 2px solid #111;
+    margin-top: 1.5em;
+    padding: 5px;
+}
+
+#myPosts, .olderPost{
+padding: 0;
+}
+
+#posts{
+    border-bottom: none;
+    border-right: none;
+    border-top: none;
+}
+
+.personal h1, .news h1{
+text-align:center;
+flex: 2 0 auto;
+margin-left: 100px;
+font-weight: 600;
+color: #222;
+}
+
+.personal .submit, .friend .submit, footer .submit{
+    background: lightsteelblue; 
+    color: #111;
+    border: 1px solid #111;
+    box-shadow: 1px 1px black;
+}
+
+.friend .submit{
+   margin-right: 25px;
+   font-size: 1.5em;
+}
+
+.abtCntent{
+     display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+    border: 2px solid #222;
+    border-top: 0px;
+margin-bottom: 3em;
+color: #222;
+}
+
+#info{
+    margin: 1em 1em 0 1em;
+    padding: 5px;
+flex: 1 0 45%;
+}
+
+#info table{
+    padding: 5px;
+    margin: 5px 5px 30px 25px;
+}
+
+#info td{
+font-size: 1.5em;
+height: 2.5em;
+}
+
+.rowtitle{
+    padding: 15px 90px 0 15px;
+    margin-right: 15px;
+}
+
+#essay{
+    margin-top: 30px;
+    border-right: 25px;
+}
+
+#essay h4, #info h4, .recentActivity h3{
+    color: #222;
+margin: 15px 0px;
+font-size: 2.2em;
+font-weight: 600;
+text-align: center;
+}
+
+#essay p{
+    font-size: 1.5em;
+    margin: 15px 30px 0 0;
+
+}
+
+.friends{
+ display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+    border: 2px solid #222;
+    border-top: 0px;
+margin-bottom: 3em;
+}
+
+.friend, #harryPotter, .recentActivity li, .friendid{
+      display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+    border: 2px solid #222;
+color: #222;
+}
+
+
+#leftFriends{
+    margin: 0px 0px 25px 22px;
+}
+
+#rightFriends{
+    margin:0px 22px 25px 0px;
+}
+
+.friend{
+    margin-top: 35px;
+    font-size: 1.3em;
+}
+
+.friend p, #harryPotter p{
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline-block;
+    white-space: nowrap;
+
+}
+#harryPotter{
+    padding-left: 0;
+    border: none;
+    justify-content: flex-start;
+
+}
+.friend a, #harryPotter p{
+    font-size: 17px;
+}
+#side{
+    margin: 1em 0 0 0;
+    padding: 0;
+}
+
+
+#harryPotter img{
+width: 120px;
+max-width: 120px;
+height: 120px;
+margin-bottom: 20px;
+}
+
+
+.recentActivity ul {
+    list-style-type: none;
+    margin: 10px 0px 0px 0px;
+    padding: 0;  
+}
+
+.recentActivity li{
+    color: #000;
+    text-decoration: none;
+    padding: 0;
+    margin: 20px 0px 0px 0px;
+     line-height: 1.5em;
+    font-size: 1.2em;
+    border: none;
+}
+
+.recentActivity li img{
+width: 60px;
+height: 60px;
+}
+
+.recentActivity li a:hover:not(.active) {
+    color: white;
+}
+
+#posts{
+    padding:0 120px 10px 120px;
+}
+
+
+.news{
+box-sizing: border-box;
+border-bottom: 2px solid #333;
+width: 100%;
+}
+
+
+.replies{
+    box-sizing: border-box;
+    border-top: 2px solid #333;
+    padding: 5px;
+    min-height: 40px;
+}
+ #inputtext, #commenttext{
+    box-sizing: border-box;
+     width: 98%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin: 5px;
+}
+
+.friendid{
+border: none;
+justify-content: space-between;
+width:250px;
+}
+
+.friendid img{
+    width: 70px;
+    height: 70px;
+}
+
+.olderPost{
+    font-size: 1.3em;
+}
+#feedReply, #feedUpdate article p{
+    font-size: 1.5em;
+    margin: 15px 10px 20px 70px;
+}
+
+#feedUpdate{
+    padding: 5px;
+}
+.postedreplies{
+    margin-bottom: 30px;
+}
+
+a:hover, button:hover{
+    cursor: pointer;
+    cursor: hand;
+}
