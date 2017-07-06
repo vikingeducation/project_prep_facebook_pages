@@ -1,0 +1,67 @@
+div {
+  display: block;
+}
+.page-wrapper{
+  background-color: orange;
+  width: 800px;
+  margin: auto;
+  height: 500px;
+}
+.hero-image {
+  background-color: green;
+  width: 100%;
+  height: 250px;
+}
+.nav-wrapper {
+  background-color: red;
+  width: 100%;
+  height: 40px;
+}
+.little-nav {
+  background-color: yellow;
+  /*width: 640px;*/
+  width: 600px;
+  height: 40px;
+  display: flex;
+  float: right;
+}
+.profile-pic {
+  background-color: pink;
+  height: 120px;
+  margin-right: 20px;
+  width: 120px;
+  position: relative;
+  float: right;
+  bottom: 100px;
+}
+.nav-tab {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+}
+.nav-tab h5 {
+  margin: 0;
+}
+.edit-link {
+  display: block;
+  float: right;
+  width: 50px;
+  height: 40px;
+  background-color: blue;
+}
+.little-nav a {
+
+}
+.about {
+  background-color: green;
+  width: 100%;
+  height: 250px;
+  margin-top: 40px;
+}
+
+#main-nav {
+  position: static;
+}

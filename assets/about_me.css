@@ -30,10 +30,19 @@ h5 {
 }
 
 /* top display */
-#top-display img {
-  border: 2px solid black;
-  /*cover*/
+#top_display {
+  width: 100
+  height: 100px;
+  margin: auto;
 }
+#top_display nav {
+  position: relative;
+  width: 100%;
+}
+#top_display :first-child {
+  position: absolute;
+}
+
 /*
 .nav-flex {
   display: flex;
@@ -42,6 +51,15 @@ h5 {
   justify-content: space-around;
 }
 */
+#profile_pic {
+  /*display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+  margin-bottom: 10px;*/
+}
 a h5 {
   font-size: 14px;
   margin: 0;
@@ -54,6 +72,7 @@ a h5 {
   text-decoration: none;
   color: #222;
 }
+
 .nav-flex:last-child {
   text-decoration: underline;
   color: blue;
@@ -106,9 +125,3 @@ a h5 {
 }
 
 /****** ****//* MAIN NAV *//****** ****/
-
-/****** ****//* ABOUT ME *//****** ****/
-p {
-
-}
-/****** ****//* ABOUT ME *//****** ****/
