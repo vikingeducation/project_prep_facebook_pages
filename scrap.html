@@ -72,6 +72,8 @@
 </label>
 
 
+<a id="link" href="">Edit Profile</a>
+
 
 /*******************************************/
 
@@ -105,3 +107,64 @@
 
 
 /*******************************************/
+
+    <!-- Nav -->
+     <nav id="main-nav">
+       <section id="iblock">
+         <img src="assets/box_box.png" alt="filler logo image">
+         <h3>Facelook</h3>
+       </section>
+       <!--search bar-->
+       <input id="searchbar" type="text" placeholder="Search for Users">
+       <!--User profile link-->
+       <a href="about.html">
+         <h5 id="about-me">Harry</h5>
+       </a>
+     </nav>
+
+
+ /****** ****//* MAIN NAV *//****** ****/
+ #main-nav {
+   height: 40px;
+   display: flex;
+   flex-flow: row nowrap;
+   align-items: center;
+   justify-content: space-between;
+
+   background-color: #06F;
+   color: white;
+   font-size: 18px;
+
+ }
+ #main-nav * {
+   flex-grow: 1;
+   margin: 0;
+ }
+ #searchbar {
+   flex-grow: 3;
+ }
+
+ #iblock *{
+   display: inline-flex;
+   font-size: 24px;
+ }
+ #iblock {
+   margin-left: 20px;
+ }
+ #iblock img{
+   margin-left: 5px;
+   margin-right: 5px;
+ }
+ #main-nav input {
+   font-size: 14px;
+ }
+ #about-me {
+   margin-left: 40px;
+ }
+
+ #main-nav img {
+   width: 30px;
+   height: 30px;
+ }
+
+ /****** ****//* MAIN NAV *//****** ****/

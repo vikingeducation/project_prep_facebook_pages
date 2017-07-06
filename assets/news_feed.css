@@ -1,0 +1,61 @@
+/*
+primary font-size: 14px
+line-height: 20px
+baseline-value for vertical spacing: 20px
+
+Scale used: 14, 16, 24, 40, 64, and 104
+
+Notes: basing the design around 800px width;
+the left column will be a static width
+the right column will have content with side margins
+ set to auto and a min width of X
+
+
+
+*/
+
+#recently-active {
+  width: 300px;
+  background-color: yellow;
+  height: 1000px;
+  top: 40px;
+  position: absolute;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.recently-active-element {
+  margin: 20px;
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+}
+/* separate this out from the html later */
+#top-element {
+  margin-top: 40px;
+}
+
+#main-column {
+  position: absolute;
+  left: 300px;
+  top: 40px;
+  margin: 0;
+  min-width: 460px;
+  width: calc(100% - 300px);
+  height: 1000px;
+  background-color: green;
+}
+
+/* hacky, but functional */
+#main-nav {
+  min-width: 760px;
+}
+
+.post {
+  width: 460px;
+  height: 100px;
+  background-color: grey;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
