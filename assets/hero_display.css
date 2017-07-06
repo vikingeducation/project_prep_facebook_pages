@@ -1,0 +1,80 @@
+
+
+ /*Inner Nave / Hero Display*/
+ div {
+   display: block;
+ }
+ .name{
+   /*width: 50px;*/
+   width: auto;
+   text-align: center;
+   height: 30px;
+   position: absolute;
+   left: 240px;
+   top: 240px; /* 250px (hero-image height) - it's height - 20px (for space)*/
+   /*left: 150px;*/ /*profile-pic: width*/
+   display: flex;
+   align-items: center;
+ }
+ .page-wrapper{
+   /*background-color: orange;*/
+   border: 2px solid black;
+   width: 800px;
+   /*margin: auto;*/
+   margin-left: 100px;
+   margin-right: 100px;
+   height: 1000px;
+ }
+ .hero-image {
+   width: 100%;
+   height: 250px;
+ }
+ .nav-wrapper {
+   border: 1px solid black;
+   width: 100%;
+   height: 40px;
+ }
+ .little-nav {
+   /*width: 640px;*/
+   width: 600px;
+   height: 40px;
+   display: flex;
+   float: right;
+ }
+ .profile-pic {
+   height: 120px;
+   margin-right: 18px;
+   width: 120px;
+   position: relative;
+   float: right;
+   bottom: 100px;
+   border: 1px solid black;
+ }
+ .profile-pic img {
+   width: 120px;
+   height: 120px;
+ }
+ .nav-tab {
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   width: 100px;
+   height: 40px;
+   border: 1px solid black;
+ }
+ .nav-tab h5 {
+   margin: 0;
+ }
+ .edit-link {
+   display: flex;
+   align-items: center;
+   float: right;
+   width: auto;
+   height: 40px;
+ }
+ .edit-link > a > h5 {
+   color: blue;
+   margin: 0;
+   font-size: 11px;
+ }
+/*Inner Nave / Hero Display*/
