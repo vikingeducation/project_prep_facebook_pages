@@ -21,21 +21,28 @@ Scale used: 14, 16, 24, 40, 64, and 104
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  align-items: center;
 }
 #title {
-  background-color: white;
   width: 60px;
-  height: 40px;
-
+  padding-top: auto;
+  padding-bottom: auto;
 }
 #edit-button {
   background-color: red;
-  width: 60px;
+  width: auto;
   height: 40px;
   align-content: flex-end;
+  color: white;
+  background-color: blue;
+}
+#edit-button div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 #hidden-spacer {
-  width: 60px;
+  width: 80px;
 }
 .about-content-wrapper {
   display: flex;
