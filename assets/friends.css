@@ -17,7 +17,7 @@ h3 {
   margin-top: 100px;
 }
 .bar {
-  background-color: grey;
+  background-color: #EAEAEA;
   width: 100%;
   height: 40px;
   margin: 0;
@@ -51,7 +51,7 @@ h3 {
   margin: 0;
 }
 .friend-component input {
-  background-color: grey;
+  background-color: #EAEAEA;
   color: black;
 }
 .friend-component a {
