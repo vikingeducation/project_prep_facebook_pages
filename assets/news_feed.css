@@ -13,15 +13,107 @@ the right column will have content with side margins
 
 
 */
+a {
+  color: blue;
+}
+#profile-user {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+#profile-user .subordinate{
+  font-size: 10px;
+}
+#profile-user img {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  float: left;
+}
+#profile-user div {
+  display: inline-block;
+  float: left;
+}
+#profile-user a {
+  display: block;
+  font-size: 14px;
+  margin-left: 6px;
+  padding: 1px;
+}
+#recently-active h5 {
+  margin: 20px 0 4px 20px;
+  font-size: 18px;
+}
+#see_your_friends{
+  text-align: center;
+  font-size: 14px;
+  margin: 10px;
+}
+.friend-component {
+  box-sizing: border-box;
+  /*width: 100px;*/
+  width: auto;
+  height: auto;
+  margin: 4px 0 4px 20px;
+  /*border: 1px solid black;*/
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.friend-component * {
+  margin: 0;
+  font-size: 14px;
+}
+.friend-component div {
+  padding: 5px;
+}
+.friend-component input {
+  background-color: grey;
+  color: black;
+}
+.friend-component a {
+  color: blue;
+}
+.friend-component img{
+ padding: 5px;
+}
+.details {
+  font-size: 10px;
+  color: grey;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+fieldset {
+  padding: 0;
+  padding:  5px 0 5px 0;
+  border: 1px solid black;
+  background-color: grey;
+}
+textarea {
+  display: block;
+  height: 40px;
+}
+form button {
+  align-self: flex-end;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+
 
 #recently-active {
   width: 300px;
-  background-color: yellow;
   height: 1000px;
+  border-right: 2px solid black;
   top: 40px;
   position: absolute;
   display: flex;
   flex-flow: column nowrap;
+  justify-content: flex-start;
 }
 .recently-active-element {
   margin: 20px;
@@ -42,7 +134,7 @@ the right column will have content with side margins
   min-width: 460px;
   width: calc(100% - 300px);
   height: 1000px;
-  background-color: green;
+  /*background-color: green;*/
 }
 
 /* hacky, but functional */
