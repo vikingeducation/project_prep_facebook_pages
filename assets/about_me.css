@@ -1,0 +1,85 @@
+/*
+primary font-size: 14px
+line-height: 20px
+baseline-value for vertical spacing: 20px
+
+Scale used: 14, 16, 24, 40, 64, and 104
+*/
+
+/*  ABOUT ME STYLE */
+.about-wrapper {
+  width: 100%;
+  height: 250px;
+  margin-top: 100px;
+}
+.bar {
+  background-color: #EAEAEA;
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#title {
+  width: 60px;
+  padding-top: auto;
+  padding-bottom: auto;
+}
+#edit-button {
+  width: auto;
+  height: 40px;
+  align-content: flex-end;
+  color: white;
+  background-color: #2159E8;
+}
+#edit-button div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#hidden-spacer {
+  width: 80px;
+}
+.about-content-wrapper {
+  display: flex;
+  height: 100%;
+  flex-flow: row nowrap;
+}
+#left-about {
+  width: 45%;
+  height: 210px;
+}
+#left-about section {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.flex-section p{
+  flex: 1 50%;
+}
+.flex-section h4{
+  flex: 1 100%;
+}
+
+.flex-section{
+  display: flex;
+  flex-flow: row wrap;
+}
+#right-about {
+  width: 55%;
+  height: 210px;
+
+}
+
+
+/* CLEARFIX */
+
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: " ";
+}
+.clearfix::after {
+	clear: both;
+}

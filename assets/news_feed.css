@@ -1,0 +1,195 @@
+/*
+primary font-size: 14px
+line-height: 20px
+baseline-value for vertical spacing: 20px
+
+Scale used: 14, 16, 24, 40, 64, and 104
+
+Notes: basing the design around 800px width;
+the left column will be a static width
+the right column will have content with side margins
+ set to auto and a min width of X
+
+button colors : #2159E8
+
+
+*/
+/*Recently active bar (aside later)*/
+
+a {
+  color: blue;
+}
+body {
+  background-color: #fefefe;
+}
+#profile-user {
+  margin-left: 20px;
+  margin-top: 40px;
+}
+#profile-user .subordinate{
+  font-size: 10px;
+}
+#profile-user img {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  float: left;
+}
+#profile-user div {
+  display: inline-block;
+  float: left;
+}
+#profile-user a {
+  display: block;
+  font-size: 14px;
+  margin-left: 6px;
+  padding: 1px;
+}
+#recently-active h5 {
+  margin: 20px 0 4px 20px;
+  font-size: 18px;
+}
+#see_your_friends{
+  text-align: center;
+  font-size: 14px;
+  margin: 10px;
+}
+.friend-component {
+  box-sizing: border-box;
+  /*width: 100px;*/
+  width: auto;
+  height: auto;
+  margin: 4px 0 4px 20px;
+  /*border: 1px solid black;*/
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.friend-component * {
+  margin: 0;
+  font-size: 14px;
+}
+.friend-component div {
+  padding: 5px;
+}
+.friend-component input {
+  background-color: grey;
+  color: black;
+}
+.friend-component a {
+  color: blue;
+}
+.friend-component img{
+ padding: 5px;
+}
+.details {
+  font-size: 10px;
+  color: grey;
+}
+#recently-active {
+  width: 300px;
+  /*height: 1000px;*/
+  height: 100%;
+  border-right: 2px solid black;
+  top: 40px;
+  position: absolute;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+.recently-active-element {
+  margin: 20px;
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+}
+/* separate this out from the html later */
+#top-element {
+  margin-top: 40px;
+}
+/*END Recently active bar (aside later)*/
+
+/* Main Column */
+#main-column {
+  position: absolute;
+  left: 300px;
+  top: 40px;
+  margin: 0;
+  min-width: 460px;
+  width: calc(100% - 300px);
+  height: 1000px;
+  /*background-color: green;*/
+}
+form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border: 1px solid black;
+  background-color: #fff;
+}
+fieldset {
+  padding: 0;
+  padding:  5px 0 5px 0;
+  border-bottom: 1px solid black;
+  width: 100%;
+  text-align: center;
+  background-color: #EAEAEA;
+}
+textarea {
+  display: block;
+  height: 100px;
+}
+form button {
+  align-self: flex-end;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  background-color: #2159E8;
+}
+.post {
+  width: 460px;
+  /*height: 200px;*/
+  height: auto;
+  line-height:  1.3em;
+  /*background-color: grey;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+.post .friend-component {
+  margin: 2px;
+}
+.post p {
+  font-size: 14px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+/*comments */
+.comment {
+  background-color: #EAEAEA;
+  width: 100%;
+  /*height: 2em;*/
+}
+.comment a {
+  display: inline;
+  padding-left: 16px;
+  font-size: 14px;
+  margin: 0;
+}
+.comment div {
+  display: block;
+}
+.comment div p {
+  padding: 0;
+  margin: 0;
+}
+
+
+/*END Main Column */
+
+/* hacky, but functional */
+#main-nav {
+  min-width: 760px;
+}
