@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <title>Viking Facelook</title>
+  	<meta charset="utf-8">
+  	<link rel="stylesheet" type="text/css" href="styles.css">
+
+
+  </head>
+  <body>
+    <header id="banner">
+      <section id="head">
+        <p>Facelook</p>
+        <form id="head_form" action="#"> 
+          <p id="p_email">Email</p>
+          <input id="email" type="email" name="email" required>
+          <p id="p_password">Password</p>
+          <input id="password" type="password" name="password" required>       
+          <button id="login" type="submit" name="login">Log In</button>
+        </form>
+      </section>
+    </header>
+<!-- ................................................... -->  
+    <main>
+      <section id="main_list">
+        <p>Connect with all your friends!</p>
+        <ul>
+          <li>See photos and updates <span>in your news feed</span></li>
+          <li>Post your status for the world to see <span>from your profile</span></li>
+          <li>Get in touch with your friends <span>by "friending" them</span></li>
+          <li>Like things <span>because you're a positive person!</span></li>
+        </ul>
+      </section>
+  
+      <section id="main_form">
+        <form id="signup_form">
+          <p id="p_1">Sign Up</p>
+          <input id="f_name" type="text" name="fname" placeholder="First Name" required>
+          <input id="l_name" type="text" name="lname" placeholder="Last Name" required><br>
+          <input id="new_email" type="email" name="new_email" placeholder="Your Email" required><br>
+          <input id="new_password" type="password" name="new_password" placeholder="Your New Password" required><br>
+          <input id="conf_password" type="password" name="conf_password" placeholder="Confirm Your Password" required><br>
+          <p id="p_2">Birthday</p>
+          <select id="month" name="month" required>
+            <option value="">Month</option>
+            <option value="Jan">Jan</option>
+            <option value="Feb">Feb</option>
+            <option value="Mar">Mar</option>  
+            <option value="Apr">Apr</option>
+            <option value="May">May</option>
+            <option value="Jun">Jun</option>
+            <option value="Jul">Jul</option>
+            <option value="Aug">Aug</option>
+            <option value="Sep">Sep</option>
+            <option value="Oct">Oct</option>
+            <option value="Nov">Nov</option>
+            <option value="Dec">Dec</option>
+          </select>
+  <!-- In real world, would use JavaScript to increment to max allowable values -->        
+          <select id="day" name="day" required>
+            <option value="">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>  
+          <select id="year" required>
+            <option value="">Year</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+            <option value="2014">2014</option>
+            <option value="2013">2013</option>
+            <option value="2012">2012</option>
+            <option value="2011">2011</option>
+            <option value="2010">2010</option>
+            <option >...</option>
+          </select><br>
+          <input class="gender" type="radio" name="gender" value="f" required><span>Female</span>
+          <section id="contain_1">
+          <input class="gender" type="radio" name="gender" value="m" required><span>Male</span>
+          </section><br>
+          <button id="signup_btn" name="signup">
+            <strong>Sign Up!</strong>
+          </button> 
+        </form>
+      </section> 
+    </main>
+  </body>
+</html>

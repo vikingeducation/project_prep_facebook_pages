@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500');
+/* CSS reset */
+
+html, html * {
+	margin: 0; 
+	padding: 0;
+	border: 0; 
+	outline: 0; 
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+	background: transparent; 
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+} 
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+ } 
+ 
+/* ..................End of CSS reset................... */
+
+body {
+	font-family: sans-serif;
+}
+
+/* ... Top banners for both pages ... */ 
+#banner, #banner_ab {
+	width: 100%;
+	background-color: rgba(21, 78, 183, 0.9);
+	border-bottom: 1px solid rgb(20, 20, 20);
+}
+
+#banner {
+	height: 85px;
+}
+
+#banner_ab {
+	height: 50px;
+}
+
+/* ...Interior content of top banners both pages...*/
+#head, #head_ab {
+	width: 990px;
+	margin: auto;
+	height: inherit;
+	color: rgb(255, 255, 255);
+}
+
+#head, #head_ab {
+	position: relative;
+}
+
+#site_name, #head_ab_search, #head_ab_p {
+	display: inline-block;
+} 
+
+#avatar {
+	 top: 14%;
+	 position: absolute;
+}
+
+#head p, #site_name {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 600;
+}
+
+#head p {
+	font-size: 42px;
+	top: 35%;
+	position: absolute;
+}
+
+#site_name {
+	font-size: 24px;
+	margin-left: 50px; 
+	line-height: 50px;
+	position: absolute;
+}
+
+#head_ab_p {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 50px; 
+	float: right; 
+}
+
+#login {
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	width: 70px;
+	height: 25px;
+	padding-bottom: 1px;
+	background-color: rgb(164, 192, 244); 
+	text-align: center;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 2px;
+	box-shadow: 2px 2px black;
+	
+}
+ 
+#search {
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: rgb(155, 155, 155);
+	width: 550px;
+	height: 30px;
+	margin-left: 190px;
+	margin-top: 10px;
+	padding-left: 5px;
+	background-color: rgb(255, 255, 255); 
+	border: 1px solid rgb(0, 0, 0);
+}
+
+#login:hover {
+	background-color: rgb(85, 125, 255);
+}
+
+#head_form {
+	float: right;
+}
+#head_form p {
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	margin-top: -5px;
+	display: inline-block;
+}
+
+#password, #email {
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	width: 150px;
+	height: 20px;
+	margin: 45px 15px 0 0;
+	font-size: 14px;
+	padding: 3px;
+}
+
+#password:focus, #email:focus, #search:focus {
+	outline: 2px solid lightblue;
+}
+/* ...Main - list... */
+main {
+	width: 990px;
+	margin: auto;
+}
+
+#main_top {
+	width: inherit;
+	height: 380px;
+	background: url(small_avatar.gif) no-repeat, url(old_london.jpg) no-repeat ;
+	background-origin: padding-box, padding-box;
+	background-size: 150px, 100% 86%;
+	background-position: 20px 205px, 0 0;
+	position: relative;
+}
+
+#main_top p {
+	font-size: 24px;
+	font-weight: 600;
+	background-color: rgba(240, 231, 219, 0.7);
+	padding: 6px 8px 10px 10px;
+	border-radius: 4px;
+	position: absolute;
+	top: 287px;
+	left: 170px;
+}
+
+#main_top ul {
+	font-size: 14px;
+	font-weight: 600;
+	position: absolute;
+	top: 90.6%;
+}
+
+#main_top li {
+	display: inline-block;
+}
+
+#main_top a.first {
+	color: rgba(0, 0, 0, 0);
+	border-width: 0px 0 1px 1px; 
+	border-style: solid;
+	border-color: black; 
+	padding: 16px 175px 16px 0;
+	margin-right: -5px;
+}
+
+#main_top a:not(.last):not(.first) {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	border-width: 0px 0 1px 1px; 
+	border-style: solid;
+	border-color: black; 
+	padding: 16px 60px 16px 15px;
+	margin-right: -5px;
+}
+
+#main_top a.last {
+	border-width: 0px 1px 1px 1px; 
+	border-style: solid;
+	border-color: black; 
+	padding: 16px 10px 16px 221px; 
+	
+}
+
+#main_top a.last:hover {
+	color: rgb(0, 0, 255);
+}
+
+#main_top a:hover:not(.last):not(.first) {
+	background-color: rgb(85, 125, 255);
+	text-shadow: 1px 1px 2px rgb(200, 200, 200);
+}
+
+#main_bottom {
+	margin-top: 10px;
+	padding-bottom: 50px;
+	border: 1px solid black
+}
+
+#main_bottom #container {
+	margin: auto;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    position: relative;
+}
+
+#main_bottom h2 {
+	height: 47px;
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 47px;
+	text-align: center; 
+}
+
+#main_bottom a {
+	font-size: 14px;
+	font-weight: 500;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 2px;
+	box-shadow: 2px 2px black;
+	background-color: rgb(21, 78, 183);
+	padding: 4px 4px 2px 4px;
+	position: absolute;
+	left: 88%;
+	top: 28%;
+}
+
+#basic_info, #contact_info {
+	margin-top: 30px;
+	margin-left: 60px;
+	float: left;
+}
+
+#contact_info {
+	clear: left;
+}
+
+#basic_info caption, #contact_info caption, #words_live h2 {
+	text-align: left;
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+#basic_info td, #contact_info td {
+	font-size: 14px;
+	padding-bottom: 1.6em;
+}
+
+#basic_info td:first-child {
+	font-weight: 600;
+	padding-right: 10px;
+}
+
+#contact_info td:first-child {
+	font-weight: 600;
+	padding-right: 43px;
+}
+
+#words_live {
+	margin: 30px 60px 40px 450px;
+}
+
+#words_live p {
+	font-size: 14px;
+	line-height: 1.5em;
+	margin-top: -15px;
+}
+
+#words_live #h2 {
+	margin-top: 25px;
+}
+
+
+
+#main_list {
+	float: left;
+}
+#main_list p {
+	font-size: 28px;
+	font-weight: 600;
+	margin: 85px 0 0.9em 30px;
+}
+
+#main_list ul {
+	margin: 0 0 0 42px;
+}
+
+#main_list li {
+	list-style-type: none;
+	font-size: 16px;
+	font-weight: 600;
+	padding-left: 1.5em;
+	line-height: 2.5em; 
+	color: rgb(85, 85, 85);
+}
+
+#main_list li span {
+	font-size: 14px;
+	font-weight: 400;
+	padding-left: 8px;
+	color: rgb(115, 115, 115);
+}
+
+#main_list li:before {
+	content: ".";
+	padding-right: 1.0em;
+	position: relative;
+	vertical-align: 11%;
+}
+
+/* ...Main Signup form section... */
+
+section#main_form {
+	float: right;
+}
+
+#p_1 {
+	font-size: 42px;
+	margin-top: 25px;
+	margin-right: 278wwwpx;
+}
+
+#f_name, #l_name, #new_email, #new_password, #conf_password {
+	margin-top: 25px;
+	margin-left: 2px;
+	font-size: 14px;
+	color: rgb(155, 155, 155);
+	border: 1px solid rgb(155, 155, 155);
+	background-color: rgb(255, 255, 255);
+	height: 20px;
+	padding: 3px 0 3px 5px;
+	border-radius: 2px;
+}
+
+#f_name, #l_name {
+	width: 150px;
+	margin-right: 10px;
+}
+
+#new_email, #new_password, #conf_password {
+	width: 325px;
+}
+
+#f_name:focus, #l_name:focus, #new_email:focus, #new_password:focus, #conf_password:focus {
+	outline: 2px solid lightblue;
+}
+
+#new_email, #new_password, #conf_password {
+	width: 322px;
+} 
+
+/* ...Birthday input... */
+#p_2 {
+	margin-top: 30px;
+	margin-left: 2px;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+#month, #day, #year {                 /* actual input fileds */
+	font-size: 14px;
+	color: rgb(155, 155, 155);
+	border: 1px solid rgb(50, 50, 50);
+	background-color: rgb(255, 255, 255);
+	height: 25px;
+	padding: 3px 0 3px 3px;
+	margin-right: 10px;
+}
+
+select:focus { 
+	outline: 2px solid lightblue;
+}
+
+/* ...Gender input buttons... */
+.gender {
+	margin-top: 25px;
+}
+
+#signup_form span, #contain_1 {
+	font-size: 14px;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#contain_1 {
+	margin-left: 20px;
+}
+
+/* ...Sign Up button... */
+#signup_btn {
+	width: 322px;
+	height: 30px;
+	border: 1px solid black;
+	box-shadow: 2px 2px black;
+	background-image: linear-gradient(rgb(40, 200, 40), rgb(0, 150, 0));
+	margin-top: 25px;
+}
+
+#signup_btn:hover {
+	background-image: linear-gradient(rgb(90, 255, 90), rgb(20, 165, 20));
+}
+
+#signup_btn strong {
+	font-size: 20px;
+	font-weight: 700;
+	color: rgb(255, 255, 255);
+	text-shadow: 1px 1px black;
+}
+
+
+
+
+
+
+
+/* ...Header... */
+/*
+#prime_header {
+	width: 760px;
+	height: 75px;
+	background-color: #85e085;
+	border: 2px solid darkgrey;
+	float: right;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	position: relative;
+}
+
+#ph_container {
+	height: 100%;
+	width: 100%;
+	padding-top: 5px;
+	background-color: none;
+	position: relative;
+}
+
+#prime_header h1 {
+	font-weight: 700;
+	font-size: 28px;
+	width: 100%;
+	left: 0;
+	text-align: center;
+	bottom: 50%;
+	position: absolute;
+	line-height: 1.25em;
+}
+
+#prime_header p {
+	font-style: italic;
+	font-size: 20px;
+    width: 100%;
+	left: 0;
+	text-align: center;
+	top: 50%;
+	position: absolute;
+	line-height: 1.25em;
+} 
+*/
+/* ...Main Articles section... */
+/*
+.art_wide {
+	width: 244px;
+	height: auto;
+	border: 2px solid darkgrey;
+	background-color: #b3ccff;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.art_wide h2 {
+	font-weight: 700;
+	font-size: 22px;
+	text-align: center;
+	padding: 15px 0px 5px;
+}
+
+.art_wide h4 {
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+.art_wide h3 {
+	font-size: 16px;
+	font-weight: 600;
+	padding-left: 10px;
+	padding-bottom: 1em;
+}
+
+.art_wide p {
+	font-size: 14px;
+	padding: 0 10px 2.0em;
+	line-height: 1.4em;
+}
+*/
+/* ...Footer... */
+/*
+#foot_wide {
+	clear: both;
+	width: 760px;
+	height: auto;
+	background-color: #809fff;
+	border-radius: 15px;
+	border: 2px solid darkgrey;
+	float: right;
+}
+
+#foot_wide p {
+	font-size: 14px;
+	padding: 10px;
+	line-height: 1.4em;
+}
+*/
+/* ...Media Query... */
+/*
+@media screen and (max-width: 990px) {
+	#aside_wide {
+		display: none;
+	}
+	#prime_header {
+		width: 100%;
+		border-radius: initial;
+	}
+	.art_wide:last-child {
+		float: none;
+		clear: both; 
+		width: auto;
+		margin-right: 10px;
+}
+	
+	#foot_wide {
+		float: left;
+		width: 100%;
+		border-radius: initial;
+	}
+}
+*/
