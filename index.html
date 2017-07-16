@@ -4,14 +4,13 @@
 	  <title>Viking Facelook</title>
   	<meta charset="utf-8">
   	<link rel="stylesheet" type="text/css" href="styles.css">
-
-
   </head>
+
   <body>
-    <header id="banner">
-      <section id="head">
+    <header id="banner_lp">
+      <section id="banner_lp_head">
         <p>Facelook</p>
-        <form id="head_form" action="#"> 
+        <form id="banner_lp_form" action="#"> 
           <p id="p_email">Email</p>
           <input id="email" type="email" name="email" required>
           <p id="p_password">Password</p>
@@ -20,10 +19,10 @@
         </form>
       </section>
     </header>
-<!-- ................................................... -->  
-    <main>
-      <section id="main_list">
-        <p>Connect with all your friends!</p>
+<!-- Main section list -->  
+    <main class="fl" id="land_page">
+      <section id="main_lp_list">
+        <h2>Connect with all your friends!</h2>
         <ul>
           <li>See photos and updates <span>in your news feed</span></li>
           <li>Post your status for the world to see <span>from your profile</span></li>
@@ -31,7 +30,7 @@
           <li>Like things <span>because you're a positive person!</span></li>
         </ul>
       </section>
-  
+ <!-- Main section form -->     
       <section id="main_form">
         <form id="signup_form">
           <p id="p_1">Sign Up</p>
@@ -56,7 +55,6 @@
             <option value="Nov">Nov</option>
             <option value="Dec">Dec</option>
           </select>
-  <!-- In real world, would use JavaScript to increment to max allowable values -->        
           <select id="day" name="day" required>
             <option value="">Day</option>
             <option value="1">1</option>
@@ -110,7 +108,7 @@
           <button id="signup_btn" name="signup">
             <strong>Sign Up!</strong>
           </button> 
-        </form>
+        </form> 
       </section> 
     </main>
   </body>
