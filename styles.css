@@ -20,7 +20,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -53,8 +53,11 @@ table {
 
 html {
 	font-family: helvetica, sans-serif;
-
 }
+
+/*===================================
+LOGIN PAGE STYLING
+===================================*/
 
 /*header Positioning and syling*/
 
@@ -73,7 +76,7 @@ header h1 {
 	margin-left: 20px;
 }
 
-header form {
+header .login {
 	position: absolute;
 	right: 20px;
 	top: 20px;
@@ -215,4 +218,85 @@ header button {
 
 strong {
 	font-weight: bold;
+}
+
+
+/*=================================
+END OF LOG IN PAGE STYLING
+===================================
+
+
+===================================
+ABOUT PAGE STYLING
+=================================*/
+
+/*header fix*/
+
+.aboutHeader {
+	height: 30px;
+	width: 100%;
+	overflow: auto;
+}
+
+.hblock{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.aboutHeader img {
+	box-sizing: border-box;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+.aboutHeader h1{
+	font-size: 25px;
+	margin: 20px;
+	margin-top: 10px;
+}
+
+.aboutHeader input {
+	width: 50%;
+	margin-top: 8px;
+	margin-right: 5%;
+	padding: 5px;
+}
+
+.aboutHeader h3 {
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+
+/*profile pic, background, and nav bar*/
+.cleanbox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#tedback {
+	width: 89%;
+	height: 100%;
+	border-left-style: solid;
+	border-right-style: solid;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
+	background-color: pink;
+	width: 90%;
+}
+
+.nav li {
+	width: 100%;
+	padding: 20px;
+	border-style: solid;
+	border-color: black:
 }
