@@ -18,7 +18,6 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
 	padding: 0;
 
 	font-size: 100%;
@@ -269,12 +268,12 @@ ABOUT PAGE STYLING
 }
 
 
-/*profile pic, background, and nav bar*/
+/* background, and nav bar*/
 .cleanbox {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
+	box-sizing: border-box;
 }
 
 #tedback {
@@ -282,21 +281,138 @@ ABOUT PAGE STYLING
 	height: 100%;
 	border-left-style: solid;
 	border-right-style: solid;
+	box-sizing: border-box;
 }
 
 .nav {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	align-items: stretch;
-	align-content: center;
-	background-color: pink;
-	width: 90%;
+	width: 89%;
+	background-color: lightgrey;
+	box-sizing: border-box;
+	margin-top: 0;
 }
 
 .nav li {
-	width: 100%;
+	width: 10%;
 	padding: 20px;
 	border-style: solid;
-	border-color: black:
+	border-color: black;
+	border-left-style: none;
+}
+
+#spacer1 {
+	width: 8%;
+	border-style: solid;
+}
+
+#spacer2 {
+	display: flex;
+	justify-content: flex-end;
+	width: 30%;
+	align-content: flex-end;
+}
+
+/*about box*/
+
+.aboutbox {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	border-style: solid;
+	width: 89%;
+	margin-top: 30px;
+	height: 450px;
+}
+
+.aboutbar {
+	width: 100%;
+	background-color: lightgrey;
+	border-bottom: solid;
+
+}
+
+.aboutbar h1 {
+	display: inline-block;
+	text-align: center;
+	width: 10%;
+	margin: 0px;
+	margin-right: 28%;
+	margin-left: 45%;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.aboutbar input {
+	display: inline-block;
+	text-align: right;
+	color: white;
+	border: 2px;
+	border-radius: 2px;
+	padding: 3px 7px;
+	background-color: blue;
+	box-shadow: 3px 3px 2px grey;
+	font-size: 13px;
+}
+
+.aboutrow {
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+	height: 100%;
+}
+
+#column1 {
+	margin-right: 20px;
+	align-content: stretch;
+}
+
+#column2 {
+}
+
+.aboutbox h3 {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+#basicinfo {
+	margin-bottom: 20px
+}
+
+td {
+	padding: 10px;
+	padding-right: 50px;
+}
+
+#column2 p {
+	padding-bottom: 20px
+}
+
+
+/*Profilepic*/
+
+.absolutepos {
+	position: absolute;
+	top: 330px;
+	left: 100px;
+	display: inline-block;
+}
+
+.absolutepos img {
+	border-style: solid;
+	border-color: white;
+	display: inline-block;
+}
+.absolutepos h1 {
+	display: inline-block;
+	padding-left: 30px;
+	color: white;
+	font-size: 35px;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+
 }
