@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:500");
+@import "reset";
+@import "colors";
+@import "banner";
+@import "forms"; 
+@import "lists";
+@import "tables";
+
+.fl {
+  width: 990px;
+  font-family: sans-serif;
+  margin: auto;
+}
+
+#main_lp_list {
+  float:left;
+   h2 {
+     font-size: 28px;
+     font-weight: 600;
+     margin: 85px 0 0.9em 30px;
+  } 
+}  
+
+#main_ab_top {
+  width: inherit;
+  height: 380px;
+  background: url(small_avatar.gif) no-repeat, url(old_london.jpg) no-repeat ;
+  background-origin: padding-box, padding-box;
+  background-size: 150px, 100% 86%;
+  background-position: 20px 205px, 0 0;
+  position: relative;
+  p {
+    font-size: 24px;
+    font-weight: 600;
+    background-color: $text_trans_color;
+    padding: 6px 8px 10px 10px;
+    border-radius: 4px;
+    position: absolute;
+    top: 287px;
+    left: 170px;
+  }
+}
+
+#main_ab_bottom {
+  margin-top: 10px;
+  padding-bottom: 50px;
+  border: 1px solid rgb(0, 0, 0);
+  #about {
+    margin: auto;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    position: relative;
+    h2 {
+      height: 47px;
+      font-size: 26px;
+      font-weight: 600;
+      line-height: 47px;
+      text-align: center; 
+    }
+    a {
+      font-size: 14px;
+      font-weight: 500;
+      color: $white_text;
+      text-decoration: none;
+      border: 1px solid rgb(0, 0, 0);
+      border-radius: 2px;
+      box-shadow: 2px 2px black;
+      background-color: $brand_color;
+      padding: 4px 4px 2px 4px;
+      position: absolute;
+      left: 88%;
+      top: 28%;
+    }
+  }
+}
+
+#words_live {
+    margin: 30px 60px 40px 450px;
+    p {
+        font-size: 14px;
+        line-height: 1.5em;
+        margin-top: 20px;
+    }
+    #h2 {
+        margin-top: 25px;
+        margin-bottom: 1em;
+    }
+    h2 {
+        text-align: left;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+}

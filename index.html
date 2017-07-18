@@ -3,13 +3,13 @@
   <head>
 	  <title>Viking Facelook</title>
   	<meta charset="utf-8">
-  	<link rel="stylesheet" type="text/css" href="styles.css">
+  	<link rel="stylesheet" type="text/css" href="sass_compile/styles.css">
   </head>
 
   <body>
     <header id="banner_lp">
       <section id="banner_lp_head">
-        <p>Facelook</p>
+        <p id="p_logo">Facelook</p>
         <form id="banner_lp_form" action="#"> 
           <p id="p_email">Email</p>
           <input id="email" type="email" name="email" required>
@@ -101,13 +101,13 @@
             <option value="2010">2010</option>
             <option >...</option>
           </select><br>
-          <input class="gender" type="radio" name="gender" value="f" required><span>Female</span>
-          <section id="contain_1">
-          <input class="gender" type="radio" name="gender" value="m" required><span>Male</span>
-          </section><br>
+          <input class="gender" id="female" type="radio" name="gender" value="f" required><span>Female</span>
+          <!-- <section id="contain_1"> -->
+          <input class="gender" id="male" type="radio" name="gender" value="m" required><span>Male</span><br>
+          <!-- </section><br> -->
           <button id="signup_btn" name="signup">
             <strong>Sign Up!</strong>
-          </button> 
+          </button>  
         </form> 
       </section> 
     </main>

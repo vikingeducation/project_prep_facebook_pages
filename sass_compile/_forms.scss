@@ -1,0 +1,149 @@
+@mixin banner-form {
+	border: 1px solid rgb(0, 0, 0);
+	background-color: $form_bckgrnd_white;
+	width: 150px;
+	height: 20px;
+	margin: 45px 15px 0 0;
+	font-size: 14px;
+	padding: 3px;
+}
+
+#banner_lp {
+	#banner_lp_head {
+   		#banner_lp_form {
+	        float: right;
+            #p_email, #p_password {
+   	        	font-family: sans-serif;
+	        	font-size: 14px;
+	        	font-weight: 300;
+	        	bottom: 45px;
+	        	display: inline-block;
+	        	position: absolute;
+	       	}
+        	
+        	#email, #password {
+        		@include banner-form;
+        	}
+        	
+        	#email:focus, #password:focus {
+        		outline: 2px solid lightblue;
+        	}
+        	#login {
+	        	font-family: sans-serif;
+				font-size: 16px;
+				font-weight: 600;
+				width: 70px;
+				height: 25px;
+				padding-bottom: 1px;
+				background-color: $login_bckgrnd; 
+				text-align: center;
+				border: 1px solid rgb(0, 0, 0);
+				border-radius: 2px;
+				box-shadow: 2px 2px black;
+	    	}
+			#login:hover {
+				background-color: $nav_bckgrnd_hover;
+			}
+    	}  
+	}
+}
+
+/* ...Main landing page - form ...*/
+#main_form {
+	float: right;
+	margin-right: 30px;
+	margin-top: 5px;
+	#p_1 {
+		font-size: 42px;
+		margin-top: 25px;
+	}
+	#f_name, #l_name, #new_email, #new_password, #conf_password {
+		margin-top: 25px;
+		margin-left: 2px;
+		font-size: 14px;
+		color: $form_text_color;
+		border: 1px solid rgb(155, 155, 155);
+		background-color: $form_bckgrnd_white;
+		height: 20px;
+		padding: 3px 0 3px 5px;
+		border-radius: 2px;
+	}
+	#f_name, #l_name {
+		width: 150px;
+		margin-right: 10px;
+	}
+	#new_email, #new_password, #conf_password {
+		width: 325px;
+	}
+	#f_name:focus, #l_name:focus, #new_email:focus, #new_password:focus, #conf_password:focus {
+		outline: 2px solid lightblue;
+	}
+	#p_2 {									/* ...Birthday input... */ 
+		margin-top: 30px;
+		margin-left: 2px;
+		font-size: 18px;
+		font-weight: 700;
+		margin-bottom: 10px;
+	}
+	#month, #day, #year {                 
+		font-size: 14px;
+		color: $form_text_color;
+		border: 1px solid rgb(50, 50, 50);
+		height: 25px;
+		padding: 3px 0 3px 3px;
+		margin-right: 10px;
+	}
+	#female, #male {
+        margin-top: 25px;
+    }
+    #male {
+        margin-left: 20px;
+    }
+    span {
+    	font-size: 14px;
+    	margin-left: 5px;
+ 	}
+ 	#signup_btn {
+		width: 325px;
+		height: 30px;
+		border: 1px solid black;
+		box-shadow: 2px 2px black;
+		background-image: linear-gradient(rgb(40, 200, 40), rgb(0, 150, 0));
+		margin-top: 25px;
+		strong {
+			font-size: 20px;
+			font-weight: 700;
+			color: $white_text;
+			text-shadow: 1px 1px black;
+		}
+	}
+		#signup_btn:hover {
+		background-image: linear-gradient(rgb(90, 255, 90), rgb(20, 165, 20));
+	}
+	
+}
+
+select:focus { 
+	outline: 2px solid lightblue;
+} 
+
+#banner_ab_form {
+	display: inline-block;
+	#search {
+		font-family: sans-serif;
+		font-size: 14px;
+		font-weight: 500;
+		color: rgb(155, 155, 155);
+		width: 550px;
+		height: 30px;
+		margin-left: 190px;
+		margin-top: 10px;
+		padding-left: 5px;
+		background-color: rgb(255, 255, 255); 
+		border: 1px solid rgb(0, 0, 0);
+	}
+}
+
+#search:focus {
+	outline: 2px solid lightblue;
+}

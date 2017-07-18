@@ -52,7 +52,7 @@ table {
 } 
 
 /* ...Interior content of top banners both pages...*/
-#banner_lp_head, #banner_ab_head {
+#banner_lp_head, #banner_ab_head {                          
 	width: 990px;
 	margin: auto;
 	height: inherit;
@@ -60,27 +60,29 @@ table {
 	position: relative;
 }
 
-#banner_lp_head p, #site_name {                      
+#banner_lp_head #p_logo, #site_name {                      
 	font-family: "Quicksand", sans-serif;
 	font-weight: 600;
 }
 
-#banner_lp_head p {                                  
+#banner_lp_head #p_logo {                                 
 	font-size: 42px;
 	top: 35%;
+	margin: 0;
 	position: absolute;
 }
 
-#banner_lp_form {
-	float: right;
+#banner_lp_form {              
+	float: right; 
 }
 
-#banner_lp_form #p_email, #banner_lp_form #p_password {                         
+#banner_lp_form #p_email, #banner_lp_form #p_password {                        
 	font-family: sans-serif;
 	font-size: 14px;
 	font-weight: 300;
-	margin-top: -5px;
+	bottom: 45px;
 	display: inline-block;
+	position: absolute;
 }
 
 #password, #email {
@@ -207,7 +209,6 @@ main.fl {
 #p_1 {
 	font-size: 42px;
 	margin-top: 25px;
-	margin-right: 278wwwpx;
 }
 
 #f_name, #l_name, #new_email, #new_password, #conf_password {
@@ -235,10 +236,6 @@ main.fl {
 	outline: 2px solid lightblue;
 }
 
-#new_email, #new_password, #conf_password {
-	width: 322px;
-}  
-
 /* ...Birthday input... */ 
 #p_2 {
 	margin-top: 30px;
@@ -262,23 +259,22 @@ select:focus {
 } 
 
 /* ...Gender input buttons... */
-.gender {
+#female, #male {
 	margin-top: 25px;
 }
 
-#signup_form span, #contain_1 {
+#male {
+	margin-left: 20px;
+}
+
+#signup_form span {
 	font-size: 14px;
-	display: inline-block;
 	margin-left: 5px;
 }
 
-#contain_1 {
-	margin-left: 20px;
-} 
-
 /* ...Sign Up button... */
 #signup_btn {
-	width: 322px;
+	width: 325px;
 	height: 30px;
 	border: 1px solid black;
 	box-shadow: 2px 2px black;
@@ -341,7 +337,7 @@ select:focus {
 #main_ab_top a:not(.last):not(.first) {
 	text-decoration: none;
 	color: rgb(0, 0, 0);
-	border-width: 0px 0 1px 1px; 
+	border-width: 0 0 1px 1px; 
 	border-style: solid;
 	border-color: black; 
 	padding: 16px 60px 16px 15px;
@@ -349,7 +345,7 @@ select:focus {
 }
 
 #main_ab_top a.last {
-	border-width: 0px 1px 1px 1px; 
+	border-width: 0 1px 1px 1px; 
 	border-style: solid;
 	border-color: black; 
 	padding: 16px 10px 16px 15.6866em; 

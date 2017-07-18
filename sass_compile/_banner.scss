@@ -1,0 +1,63 @@
+/* ... Top banners for both pages ... */ 
+
+@mixin banner-style {
+	width: 100%;
+	background-color: $brand_color;
+	border-bottom: 1px solid rgb(20, 20, 20);
+}
+
+@mixin head-style {
+	width: 990px;
+	margin: auto;
+	height: inherit;
+	color: $white_text;
+	position: relative;
+}
+
+@mixin logo-style {
+	font-family: "Quicksand", sans-serif;
+	font-weight: 600;
+}
+
+#banner_lp {
+	@include banner-style;
+	height: 85px;
+    #banner_lp_head {
+        @include head-style;
+        #p_logo {
+        	@include logo-style;
+			font-size: 42px;
+			margin: 0;
+   		    top: 35%;
+    		position: absolute;
+        }
+    }
+}
+
+#banner_ab {
+	@include banner-style;
+	height: 50px;
+ 	#banner_ab_head {
+		@include head-style;
+		#avatar {
+			top: 14%;
+	 		position: absolute;
+	 	}	
+		#site_name {
+			@include logo-style;
+			display: inline-block;
+			font-size: 24px;
+			margin-left: 50px; 
+			line-height: 50px;
+			position: absolute;
+		}
+		#banner_ab_name {
+			font-size: 18px;
+			font-weight: 600;
+			font-family: sans-serif;
+			line-height: 50px; 
+			float: right; 		
+		}
+	}	 
+} 
+
