@@ -46,13 +46,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }/*End of Eric Meyer's CSS reset*/
-.flex-body {/*Main flex container to rule them all; includes header and all elements on page.*/
+.flex-body {/*Main flex container to rule them all, for all pages; includes header and all elements on page.*/
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 	font-family: Helvetica, Arial, sans-serif;
 }
-.sign-in-header {/*Main flex container for all header elements. It contains three primary columns: .title, .header-login, and .login.*/
+.sign-in-header {/*Main flex container for all header elements when not signed in. It contains three primary columns: .title, .header-login, and .login.*/
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -61,12 +61,40 @@ table {
 	height: 7rem;
 	background-color: #3b5998;
 }
+.personalized-header {/*Header to use when the user is signed in.*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	height: 3rem; 
+	background-color: #3b5998; 
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+.header-elements {/*Flex container for signed-in header elements.*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
 .title {/*Flex container for facelook logo.*/
 	display: flex;
 	width:50%;
 	margin-bottom: 2rem;
 }
-.header-title {/*Styling for the actual logo*/
+.header-logo {/*Flex container for personalized header logo and profile pic.*/ 
+	display: flex;
+	width: 20%;
+}
+.header-logo a {/*Styling for 'facelook'.*/
+	font-size: 2em;
+	font-weight: 600;
+	color: #ffffff; 
+	text-decoration: none;
+	margin-left: .5rem; 
+}
+.header-title {/*Styling for the actual logo when not signed in.*/
 	width: 40%;
 	font-size: 3em;
 	font-weight: 600;
@@ -74,7 +102,7 @@ table {
 	text-decoration: none;	
 	margin-left: 2.5rem;
 }
-.header-login {/*Flex container for header email and password fields.*/
+.header-login {/*Flex container for header email and password fields when not signed in.*/
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -91,6 +119,17 @@ table {
 	height: 1rem;
 	width: 10rem;
 	margin-top: .25rem;  
+}
+.header-search {
+	display: flex;
+	width: 50%;
+	justify-content: center;
+}
+.user-search {
+	height: 1.75rem;
+	width: 100%;
+	justify-content: center;
+	color: grey; 
 }
 .login {/*Flex container for header login button.*/
 	display: flex;
@@ -109,6 +148,17 @@ table {
 }
 .login-button:hover {/*Hover color-change effect for blue header login button.*/
 	background: #224389; 
+}
+.rick {/*Flex container for 'Rick'.*/ 
+	display: flex;
+	justify-content: flex-end;
+	width: 20%; 
+}
+.rick a {/*Styling for 'Rick'... Rickstyling?*/
+	font-size: 1em;
+	font-weight: 600;
+	color: #ffffff; 
+	text-decoration: none;
 }
 .flex-main {/*Main flex container for all elements below the header. This is split into three columns that are equal in width to the header columns directly above each one.*/
 	display: flex;
@@ -137,6 +187,95 @@ table {
 }
 .sign-up-blurb ul li {/*Margins for bullet list.*/
 	margin: 1.5rem;
+}
+.about-main {/*Flex container for About page elements below the header.*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+.photo-nav {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 1rem; 
+	border-bottom: solid;
+	border-right: solid;
+	border-left: solid; 
+	border-width: thin; 
+}
+.background-pic {
+	display: flex;
+	align-self: flex-start;
+	max-width: 100%; 
+	height: auto;
+	position: relative;
+}
+.profile {
+	display: flex;
+	align-self: flex-end;
+	width: 40%;
+	margin-left: 1rem; 
+	position: absolute;
+	z-index: 1; 
+}
+.profile-pic {
+	display: flex;	
+	max-width: 100%; 
+	height: auto;
+	margin-bottom: 1rem; 
+}
+.profile a {
+	display: flex;
+	align-self: flex-end;
+	font-size: 1.75em;
+	font-weight: 600;
+	color: black; 
+	text-decoration: none;
+	margin-left: .5rem; 
+	margin-bottom: 2.5rem; 
+}
+.about-nav {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	height: 2.5rem;
+	width: 100%;
+}
+.nav-list {
+	display: inline-flex;
+	flex-wrap: nowrap;	
+	width: 70%; 
+	margin-left: 14rem; 
+}
+.nav-list li {
+	display: inline-flex;	
+	flex-wrap: nowrap;
+	justify-content: center;	
+	border-left: solid;
+	border-right: solid;
+	border-width: thin;
+}
+.nav-list li button {
+	display: inline-flex;
+	align-self: center;
+	height: 2.5rem; 
+	width: 6rem; 
+}
+.edit {
+	display: inline-flex;
+	justify-content: flex-end;
+	flex-wrap: nowrap;
+	width: 30%;
+	margin-right: 1rem; 
+}
+.edit a {
+	display: inline-flex;
+	align-self: center;	
+	flex-wrap: nowrap;
+	font-size: .75em; 
 }
 .sign-up-inputs {/*Flex container column for Sign Up input fields.*/
 	display: flex;
