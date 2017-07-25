@@ -1,0 +1,76 @@
+#home{
+		.top-bar{
+			background-color: $blue;
+			color: $white;
+
+			h3{ margin: 0px; }
+
+			.top-bar-right{
+				margin-right: 12px;
+
+				button{
+					margin-top: 25px;
+					height: 30px;
+					line-height: 7px;
+		    		font-size: 11px;
+				}
+
+				.menu{
+					background-color: $blue;
+					
+					label{
+						color: $white;
+					}
+				}
+
+				.button{
+					background-color: $white;
+					color: $black;
+				}
+
+				input{
+					width: 130px;
+					height: 30px;
+				}
+			}
+
+			.top-bar-left{
+				margin-left: 25px;
+
+				i{
+					margin-right: 12px;
+				}
+			}
+
+		}
+
+		.bullets{
+			padding: 65px 0 0 45px;
+			margin-bottom: 10px;
+
+			li{
+				padding-bottom: 20px;
+			}	
+
+			ul{
+				margin: 18px 0 0 51px;
+			}
+		}
+
+		.input-form{
+			padding: 0 20px;
+
+			input[type=radio]{
+				margin-top: 5.5px;
+			} 
+
+			button{
+				width: 100%;
+			}
+
+			h3{
+				padding: 8px 0;
+				margin-left: 15px;
+			}
+		}
+}

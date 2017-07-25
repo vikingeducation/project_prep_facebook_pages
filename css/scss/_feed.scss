@@ -1,0 +1,103 @@
+#feed{
+
+	#recent-friends{
+		#user-pic{
+			margin-top: 20px;
+
+			li:nth-of-type(2){
+				margin-bottom: 51px;
+			}
+
+			a:first-of-type{ font-size: 19px;}
+		}
+
+		#more-friends{ font-size: 20px;}
+
+		h4{ margin-bottom: 18px; }
+
+		p{
+			color: #777;
+			font-size: 11px;
+		}
+	}
+
+	.status{
+		background-color: $blue;
+		color: $white;
+		padding: 10px;
+		margin: 28px 0 50px 0;
+
+		h5{ 
+			padding: 10px 4px;
+			
+		}
+
+		textarea{
+			border-radius: 0px;
+		}
+
+		.button{
+			background-color: $white;
+			color: $black;
+			margin-left: 70%;
+			margin-bottom: 0px;
+		}
+	}
+
+	.feed-status{
+		margin-bottom: 50px;
+		background-color: $blue;
+		color: $white;
+		padding: 15px;
+
+		a{
+			color: $white;
+			font-weight: bold;
+		}
+
+		.status-text{ padding: 0 20px 15px 20px; }
+		#liked{ padding-left: 15px;}
+		.name{ padding-left: 14px;}
+		.like{ padding-left: 107px; }
+		.user-comment{ padding-bottom: 15px; }
+		textarea{ margin-top: 59px; }
+		#otherslike{ padding: 5px 0 10px 19px; }
+		#unlike{ padding: 0 0 10px 19px;}
+		.button{ margin-top: -10px; }
+
+		#delete{ 
+			float: right;
+			padding-right: 19px;
+		}
+
+		.comment{
+			margin-top: 35px;
+		}
+	}
+
+	#comments{
+		background-color: $grey;
+		color: $black;
+		padding: 23px;
+		width: 106.5%;
+		margin: 0 0 -15px -15px;
+
+		a{
+			color: $black;
+			font-weight: bold;
+		}
+	}
+
+	img{
+		padding-right: 23px;
+	}
+
+	p{ margin: 0}
+
+
+	.comment{
+		img{ float: left;}
+	}
+
+	#post{float: right;}
+}

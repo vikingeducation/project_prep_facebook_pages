@@ -103,6 +103,21 @@ body {
   .user-info .info-header .menu #edit-profile {
     margin-left: 44px; }
 
+#friends .friends-info #bar {
+  background-color: #2C67A5;
+  color: #E0E1DD;
+  padding: 10px 0px 1px 0px;
+  margin-bottom: 23px; }
+#friends .friends-info .medium-6 {
+  margin-bottom: 20px; }
+#friends .friends-info ul li {
+  padding: 0 10px; }
+  #friends .friends-info ul li a, #friends .friends-info ul li p, #friends .friends-info ul li .button {
+    margin: 0; }
+  #friends .friends-info ul li p {
+    font-size: 11px;
+    color: #777; }
+
 #about #bar {
   background-color: #2C67A5;
   color: #E0E1DD;
@@ -118,21 +133,6 @@ body {
 #about .bold {
   font-weight: bold;
   margin-right: 15px; }
-
-#friends .friends-info #bar {
-  background-color: #2C67A5;
-  color: #E0E1DD;
-  padding: 10px 0px 1px 0px;
-  margin-bottom: 23px; }
-#friends .friends-info .medium-6 {
-  margin-bottom: 20px; }
-#friends .friends-info ul li {
-  padding: 0 10px; }
-  #friends .friends-info ul li a, #friends .friends-info ul li p, #friends .friends-info ul li .button {
-    margin: 0; }
-  #friends .friends-info ul li p {
-    font-size: 11px;
-    color: #777; }
 
 #feed #recent-friends #user-pic {
   margin-top: 20px; }
@@ -195,10 +195,9 @@ body {
 #feed #comments {
   background-color: #C8C9C5;
   color: #1C1C1C;
-  padding: 10px;
+  padding: 23px;
   width: 106.5%;
-  margin-left: -15px;
-  margin-bottom: -15px; }
+  margin: 0 0 -15px -15px; }
   #feed #comments a {
     color: #1C1C1C;
     font-weight: bold; }
