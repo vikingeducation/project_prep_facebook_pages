@@ -45,6 +45,13 @@ table {
 }
 
 /*
+Border box
+*/
+html {
+  box-sizing: border-box;
+}
+
+/*
 ================================
 Background colors
 ================================
@@ -52,4 +59,55 @@ Background colors
 
 header {
   background-color: #2B78E4
+}
+
+/*
+===============================
+Grid
+===============================
+*/
+
+/* Clearfix */
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: " ";
+}
+.clearfix::after {
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+header {
+  height: 75px;
+}
+
+
+form.log-in {
+  display: inline-block;
+}
+
+h3 {
+  display: inline-block;
+}
+
+.main-content {
+  margin: 0 auto;
+  width: 900px;
+
+}
+
+.introduction-home {
+  width: 400px;
+	margin: 50px 10px 50px 10px;
+}
+
+.signup-form {
+  width: 400px;
+	position: relative;
+	left: 420px;
+	bottom: 150px;
 }
