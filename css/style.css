@@ -1,0 +1,213 @@
+/*added styles*/
+.list-align {
+  display: flex;
+  align-items: center;
+  list-style: none; }
+
+/*global styles*/
+body {
+  background-color: #E0E1DD;
+  color: #1C1C1C; }
+  body .button {
+    border-radius: 0;
+    background-color: #2C67A5;
+    color: #E0E1DD; }
+  body .top-bar a {
+    color: #E0E1DD; }
+
+#home .top-bar {
+  background-color: #2C67A5;
+  color: #E0E1DD; }
+  #home .top-bar h3 {
+    margin: 0px; }
+  #home .top-bar .top-bar-right {
+    margin-right: 12px; }
+    #home .top-bar .top-bar-right button {
+      margin-top: 25px;
+      height: 30px;
+      line-height: 7px;
+      font-size: 11px; }
+    #home .top-bar .top-bar-right .menu {
+      background-color: #2C67A5; }
+      #home .top-bar .top-bar-right .menu label {
+        color: #E0E1DD; }
+    #home .top-bar .top-bar-right .button {
+      background-color: #E0E1DD;
+      color: #1C1C1C; }
+    #home .top-bar .top-bar-right input {
+      width: 130px;
+      height: 30px; }
+  #home .top-bar .top-bar-left {
+    margin-left: 25px; }
+    #home .top-bar .top-bar-left i {
+      margin-right: 12px; }
+#home .bullets {
+  padding: 65px 0 0 45px;
+  margin-bottom: 10px; }
+  #home .bullets li {
+    padding-bottom: 20px; }
+  #home .bullets ul {
+    margin: 18px 0 0 51px; }
+#home .input-form {
+  padding: 0 20px; }
+  #home .input-form input[type=radio] {
+    margin-top: 5.5px; }
+  #home .input-form button {
+    width: 100%; }
+  #home .input-form h3 {
+    padding: 8px 0;
+    margin-left: 15px; }
+
+/*reusable component for friends and about page*/
+.user-info .top-bar {
+  background-color: #2C67A5;
+  color: #E0E1DD; }
+  .user-info .top-bar input {
+    padding: 0px 250px;
+    margin: 0px 0 0 40px; }
+  .user-info .top-bar a {
+    margin-left: 33px; }
+  .user-info .top-bar ul {
+    margin: 0; }
+  .user-info .top-bar .head-li {
+    height: 10px; }
+  .user-info .top-bar h3 {
+    padding-left: 25px;
+    margin: 0px;
+    position: relative;
+    top: -42px; }
+    .user-info .top-bar h3 i {
+      padding-right: 12px; }
+  .user-info .top-bar .list-align {
+    background-color: #2C67A5;
+    color: #E0E1DD; }
+    .user-info .top-bar .list-align a {
+      color: #E0E1DD; }
+.user-info .info-header {
+  margin-bottom: 50px; }
+  .user-info .info-header #cover-photo {
+    height: 250px;
+    width: 850px; }
+  .user-info .info-header #profile-pic {
+    position: relative;
+    top: -146px;
+    width: 167px;
+    height: 167px; }
+  .user-info .info-header .nav-links {
+    background-color: #2C67A5; }
+  .user-info .info-header .menu #pic {
+    height: 10px;
+    margin-right: 45px; }
+  .user-info .info-header .menu a {
+    color: #E0E1DD; }
+  .user-info .info-header .menu #edit-profile {
+    margin-left: 44px; }
+
+#friends .friends-info #bar {
+  background-color: #2C67A5;
+  color: #E0E1DD;
+  padding: 10px 0px 1px 0px;
+  margin-bottom: 23px; }
+#friends .friends-info .medium-6 {
+  margin-bottom: 20px; }
+#friends .friends-info ul li {
+  padding: 0 10px; }
+  #friends .friends-info ul li a, #friends .friends-info ul li p, #friends .friends-info ul li .button {
+    margin: 0; }
+  #friends .friends-info ul li p {
+    font-size: 11px;
+    color: #777; }
+
+#about #bar {
+  background-color: #2C67A5;
+  color: #E0E1DD;
+  padding: 10px 0px 1px 0px;
+  margin-bottom: 23px; }
+#about ul {
+  list-style: none;
+  margin: 0; }
+#about #basic-info, #about #words {
+  padding-bottom: 19px; }
+#about h5 {
+  font-size: 27px; }
+#about .bold {
+  font-weight: bold;
+  margin-right: 15px; }
+
+#feed #recent-friends #user-pic {
+  margin-top: 20px; }
+  #feed #recent-friends #user-pic li:nth-of-type(2) {
+    margin-bottom: 51px; }
+  #feed #recent-friends #user-pic a:first-of-type {
+    font-size: 19px; }
+#feed #recent-friends #more-friends {
+  font-size: 20px; }
+#feed #recent-friends h4 {
+  margin-bottom: 18px; }
+#feed #recent-friends p {
+  color: #777;
+  font-size: 11px; }
+#feed .status {
+  background-color: #2C67A5;
+  color: #E0E1DD;
+  padding: 10px;
+  margin: 28px 0 50px 0; }
+  #feed .status h5 {
+    padding: 10px 4px; }
+  #feed .status textarea {
+    border-radius: 0px; }
+  #feed .status .button {
+    background-color: #E0E1DD;
+    color: #1C1C1C;
+    margin-left: 70%;
+    margin-bottom: 0px; }
+#feed .feed-status {
+  margin-bottom: 50px;
+  background-color: #2C67A5;
+  color: #E0E1DD;
+  padding: 15px; }
+  #feed .feed-status a {
+    color: #E0E1DD;
+    font-weight: bold; }
+  #feed .feed-status .status-text {
+    padding: 0 20px 15px 20px; }
+  #feed .feed-status #liked {
+    padding-left: 15px; }
+  #feed .feed-status .name {
+    padding-left: 14px; }
+  #feed .feed-status .like {
+    padding-left: 107px; }
+  #feed .feed-status .user-comment {
+    padding-bottom: 15px; }
+  #feed .feed-status textarea {
+    margin-top: 59px; }
+  #feed .feed-status #otherslike {
+    padding: 5px 0 10px 19px; }
+  #feed .feed-status #unlike {
+    padding: 0 0 10px 19px; }
+  #feed .feed-status .button {
+    margin-top: -10px; }
+  #feed .feed-status #delete {
+    float: right;
+    padding-right: 19px; }
+  #feed .feed-status .comment {
+    margin-top: 35px; }
+#feed #comments {
+  background-color: #C8C9C5;
+  color: #1C1C1C;
+  padding: 23px;
+  width: 106.5%;
+  margin: 0 0 -15px -15px; }
+  #feed #comments a {
+    color: #1C1C1C;
+    font-weight: bold; }
+#feed img {
+  padding-right: 23px; }
+#feed p {
+  margin: 0; }
+#feed .comment img {
+  float: left; }
+#feed #post {
+  float: right; }
+
+/*# sourceMappingURL=style.css.map */

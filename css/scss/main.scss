@@ -1,0 +1,34 @@
+$blue: #2C67A5;
+$white: #E0E1DD;
+$grey: #C8C9C5;
+$black: #1C1C1C;
+
+/*added styles*/
+.list-align{
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+/*global styles*/
+body{
+	background-color: $white;
+	color: $black;
+
+	.button{
+		border-radius: 0;
+		background-color: $blue;
+		color: $white;
+	}
+
+	.top-bar a{
+		color: $white;
+	}
+}
+
+@import "home";
+@import "user_info";
+@import "friends";
+@import "about";
+@import "feed";
+

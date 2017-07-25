@@ -1,0 +1,30 @@
+#friends{
+
+	.friends-info{
+		#bar{
+			background-color: $blue;
+			color: $white;
+			padding: 10px 0px 1px 0px;
+			margin-bottom: 23px;
+		}
+
+		.medium-6{
+			margin-bottom: 20px;
+		}
+
+		ul{
+			li{
+				padding: 0 10px;
+
+				a, p, .button{
+					margin: 0
+				}
+
+				p{
+					font-size: 11px;
+    				color: #777;
+				}
+			}
+		}
+	}
+}
