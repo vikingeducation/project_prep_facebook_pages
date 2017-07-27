@@ -1,0 +1,17 @@
+.header-blue {
+    background-color: blue;
+}
+
+/* Logo */
+#logo,
+label {
+    color: white;
+}
+.login-btn {
+    background-color: lightblue;
+}
+
+.signup-btn {
+    color: white;
+    background-color: green;
+}
