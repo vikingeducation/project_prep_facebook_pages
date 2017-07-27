@@ -15,12 +15,15 @@
         <!-- Logo -->
         <h1>Facelook</h1>
         <!-- Log In Form -->
-        <label for="email">Email</label>
-        <input type="text" name="email" />
-        <label for="password">Password</label>
-        <input type="text" name="password" />
-        
-        <button>Log In</button>
+        <form>
+            <label for="email">Email</label>
+            <input type="text" name="email" />
+            <label for="password">Password</label>
+            <input type="text" name="password" />
+
+            <input type="submit" value="Log In" />
+        </form>
+
     </header>
     <!-- Left section -->
     <section>
@@ -32,30 +35,57 @@
             <li>Like things because you're a positive person!</li>
         </ul>
     </section>
-<!-- Right Section Sign up form -->
-<section>
-    <!-- Large h2 heading-->
-    <h2>Sign Up</h2>
-    
-    <!-- needs placeholders  -->
-    <input type="text" name="fname"/>
-    <input type="text" name="lname"/>
-    <input type="text" name="email"/>
-    <input type="text" name="password"/>
-    <input type="text" name="password"/>
-    
-    <h4>Birthday</h4>
-    <!-- Drop Down boxes that display values -->
-    <button>Month</button>
-    <button>Day</button>
-    <button>Year</button>
-    <!-- Radio Buttonsv-->
-    <button>Female</button>
-    <button>Male</button>
-    <!-- big green sign up bar-->
-    <button>Sign Up!</button>
-    
-</section>
+    <!-- Right Section Sign up form -->
+    <section>
+        <!-- Large h2 heading-->
+        <h2>Sign Up</h2>
+
+        <form>
+
+            <input type="text" name="fname" placeholder="First Name" />
+            <input type="text" name="lname" placeholder="Last Name" />
+            <input type="text" name="email" placeholder="Email" />
+            <input type="text" name="password" placeholder="Password" />
+            <input type="text" name="password" placeholder="Confirm Your Password" />
+
+            <h4>Birthday</h4>
+            <!-- Drop Down boxes that display values -->
+            <select id="bday-month">
+                <option value="">Month</option>
+                <option value="jan">Jan</option>
+                <option value="feb">Feb</option>
+                <option value="mar">Mar</option>
+                <option value="apr">Apr</option>
+                <option value="and so on">and so on</option>
+            </select>
+            <select id="bday-day">
+                <option value="">Day</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <select id="bday-year">
+                <option value="">Year</option>
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2040">2040</option>
+                <option value="2070">2070</option>
+            </select>
+
+
+
+            <!-- Radio Buttons-->
+            <form class="gender-btn">
+                <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="male">Male
+            </form>
+            <!-- big green sign up bar-->
+            <button>Sign Up!</button>
+        </form>
+    </section>
 
 </body>
 
