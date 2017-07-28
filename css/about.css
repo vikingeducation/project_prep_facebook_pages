@@ -126,6 +126,7 @@ header.row-box {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    background-color: lightgrey;
 }
 
 .cover-photo {
@@ -162,6 +163,15 @@ header.row-box {
     font-size: 1rem;
     background-color: lightblue;
     color: black;
+    border-radius: 1rem;
+    margin: 0 .2rem;
+}
+body > main > section > div > a {
+	margin-right: 1.5rem;
+	color: blue;
+}
+body > main > section > div > a:hover {
+	color: black;
 }
 
 .secondary-text {
@@ -175,7 +185,7 @@ header.row-box {
 	width: 20rem;
 	height: 20rem;	
 	padding: 1rem 2rem;
-	bottom: -12rem;
+	bottom: 20rem;
 }
 .username {
 	font-size: 2rem;
@@ -183,7 +193,7 @@ header.row-box {
 	background-color: white;
 	color: black;
 	position: absolute;
-	bottom: -8rem;
+	bottom: 23rem;
 	left: 42rem;
 }
 
