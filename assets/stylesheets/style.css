@@ -4,6 +4,133 @@
  border: 0;
  font-size: 100%;
  font: inherit;
- color:#333333;
  vertical-align: baseline;
+}
+
+.main-header{
+  height: 60px;
+  padding:10px;
+  background-color: #407ADD;
+  color: #EEEEEE;
+  border-bottom: 3px solid black;
+}
+
+.main-header:before,
+.main-header:after {
+  content: "";
+  display: table;
+}
+
+.main-header:after {
+    clear:both;
+}
+
+.main-header h1 {
+  float: left;
+  font-size: 40px;
+  margin-left: 20px;
+
+}
+
+.main-header form {
+  float: right;
+}
+
+#main-signin-submit {
+  box-shadow: 3px 3px 1px 1px #111;
+  background: #8ca9db;
+  height: 24px;
+  width: 60px;
+  margin-right: 20px;
+}
+.main-header p{
+  display: inline-block;
+  text-align: left;
+}
+
+.main-header input {
+  border: 3px solid black;
+}
+
+.wrapper {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  height: auto;
+  width: 100%;
+
+
+}
+
+.column1{
+  width:auto;
+  height: auto;
+  vertical-align: middle;
+  padding: 20px;
+}
+
+.column1 h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.column1 li {
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.column2{
+  width:auto;
+  height:80%;
+
+}
+
+.column2 h2 {
+  font-size: 48px;
+}
+
+.column2 input {
+  border: 3px solid #DDD;
+  margin-top:15px;
+}
+
+.column2 input[type="text"]{
+  width:calc(45% - 5px);
+}
+
+.column2 input[type="email"]{
+  width:90%;
+}
+
+.column2 input[type="password"] {
+  width:90%;
+}
+
+.column2 p {
+  margin-top: 15px;
+}
+
+select {
+  border: 2px solid black;
+  margin-top: 15px;
+}
+
+#main-signup-submit {
+  border: 1px solid gray;
+  box-shadow: 3px 3px 1px 1px #111;
+  background: #1ea82c;
+  width:92%;
+  height: auto;
+  color: #EEE;
+  border: 2px solid black;
+  font-size: 24px;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 890px) {
+  /*Fix smaller display*/
 }

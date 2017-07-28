@@ -12,16 +12,26 @@
     <h1>Facelook</h1>
     <form>
       <p>
-        Email
-        <input type="email"/>
-        Password
-        <input type="password"/>
-        <input type="submit" value="Log In"/>
+        <label for="email-input">Email</label>
+        <br>
+        <input type="email" id="email-input"/>
+      </p>
+      <p>
+        <label for "password-input">Password</label>
+        <br>
+        <input type="password" id="password-input"/>
+      </p>
+      <p>
+        <label for="main-signin-submit"></label>
+        <br>
+        <input id="main-signin-submit" type="submit" value="Log In"/>
       </p>
     </form>
 </header>
 
+<div class="wrapper">
 
+<div class="column1">
     <h3>Connect with all your friends!</h3>
     <ul>
       <li>See photos and updates in your news feed</li>
@@ -29,15 +39,16 @@
       <li>Get in touch with your friends by "friending" them</li>
       <li>Like things cause your a positive person!</li>
     </ul>
+</div>
 
-
+<div class="column2">
     <h2>Sign Up</h2>
     <form>
       <input type="text" placeholder="First Name"/>
-      <input type="text" placeholder="Last Name"/>
-      <input  type="email" placeholder="Your Email"/>
-      <input  type="password" placeholder="Your New Password"/>
-      <input type="password" placeholder="Confirm Your Password"/>
+      <input type="text" placeholder="Last Name"/><br>
+      <input  type="email" placeholder="Your Email"/><br>
+      <input  type="password" placeholder="Your New Password"/><br>
+      <input type="password" placeholder="Confirm Your Password"/><br>
       <p>Birthday</p>
       <select>
           <option selected>Month</option>
@@ -194,15 +205,19 @@
 	<option value="1918">1918</option>
 	<option value="1917">1917</option>
 </select>
+<br>
 
 
-  <input type="radio" name="gender" value="male"/> <p>Male</p>
-  <input type="radio" name="gender" value="female"/> <p>Female</p>
+  <input type="radio" name="gender" value="female" id="female-gender"/>
+  <label for="female-gender">Female</label>
+  <input type="radio" name="gender" value="male" id="male-gender"/>
+  <label for="male-gender">Male</label><br>
 
-  <input type="submit" value="Sign Up!"/>
+  <input id="main-signup-submit" type="submit" value="Sign Up!"/>
 
 </form>
-
+</div>
+</div>
 
 
   </body>
