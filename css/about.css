@@ -1,0 +1,193 @@
+html {
+    font-size: 10px;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1290px;
+    height: auto;
+}
+
+.main-wrapper {
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-box {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+/* =================================top header element */
+
+header.row-box {
+    background-color: blue;
+    display: flex;
+    height: 6rem;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+/* parent container header group */
+
+.header-group {
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/* mini profile picture */
+
+.mini-profile-img {
+    max-width: 4.5rem;
+    max-height: 4.5rem;
+}
+
+
+
+
+
+
+/* facelook logo name */
+
+.logo-name {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+
+
+/*=========== end header group */
+
+.searchbar {
+    max-width: 50%;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-align-self: center;
+    align-self: center;
+}
+
+.top-right-name {
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+
+
+
+
+/* =============================== end top header element */
+
+
+/* =============================== start large cover photo header */
+
+.cover-header {
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.cover-photo {
+    width: 100%;
+    height: 40rem;
+}
+
+.navbar {
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    margin-left: 23rem;
+}
+
+.navbar-wrapper {
+	box-sizing: content-box;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+}
+
+.btn {
+    padding: 0 2rem;
+    height: 5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: lightblue;
+    color: black;
+}
+
+.secondary-text {
+	font-size: .8rem;
+	font-style: italic;
+	color: grey;
+}
+/* absolute positioned elements */
+.profile-img {
+	position: absolute;
+	width: 20rem;
+	height: 20rem;	
+	padding: 1rem 2rem;
+	bottom: -12rem;
+}
+.username {
+	font-size: 2rem;
+	padding: 1.2rem;
+	background-color: white;
+	color: black;
+	position: absolute;
+	bottom: -8rem;
+	left: 42rem;
+}
+
+
+
+
+/* ============================== end cover header */
