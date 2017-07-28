@@ -133,4 +133,27 @@ select {
 
 @media only screen and (max-width: 890px) {
   /*Fix smaller display*/
+  .wrapper {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 607px){
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .main-header form {
+    float: left;
+  }
+  .column1 h3 {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .column1 li {
+    font-size: 14px;
+    line-height: normal;
+  }
 }
