@@ -32,6 +32,10 @@
 
 }
 
+.main-header img {
+  float: left;
+}
+
 .main-header form {
   float: right;
 }
@@ -63,6 +67,7 @@
 
 
 }
+
 
 .column1{
   width:auto;
