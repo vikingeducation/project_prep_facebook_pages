@@ -1,0 +1,369 @@
+html {
+    font-size: 10px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1290px;
+    height: auto;
+}
+
+.main-wrapper {
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-box {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+/* =================================top header element */
+
+header.row-box {
+    background-color: blue;
+    display: flex;
+    height: 6rem;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+/* parent container header group */
+
+.header-group {
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* mini profile picture */
+
+.mini-profile-img {
+    max-width: 4.5rem;
+    max-height: 4.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* facelook logo name */
+
+.logo-name {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/*=========== end header group */
+
+.searchbar {
+    max-width: 50%;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-align-self: center;
+    align-self: center;
+}
+
+.top-right-name {
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* =============================== end top header element */
+
+
+/* =============================== start large cover photo header */
+
+.cover-header {
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background-color: lightgrey;
+    border: 1px solid black;
+}
+
+.cover-photo {
+    width: 100%;
+    height: 40rem;
+    border-bottom: 1px solid black;
+}
+
+.navbar {
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    margin-left: 23rem;
+}
+
+.navbar-wrapper {
+    box-sizing: content-box;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+}
+
+.btn {
+    padding: 0 2rem;
+    height: 5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: lightblue;
+    color: black;
+    border-radius: 1rem;
+    margin: 0 .2rem;
+}
+
+.btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: skyblue;
+}
+
+body>main>section>div>a {
+    margin-right: 1.5rem;
+    color: blue;
+}
+
+body>main>section>div>a:hover {
+    color: black;
+}
+
+.secondary-text {
+    font-size: .8rem;
+    font-style: italic;
+    color: grey;
+}
+
+
+
+
+
+
+
+
+
+/* absolute positioned elements */
+
+.profile-img {
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem 2rem;
+    bottom: 20rem;
+}
+
+.username {
+    font-size: 2rem;
+    padding: 1.2rem;
+    background-color: white;
+    color: black;
+    position: absolute;
+    bottom: 23rem;
+    left: 42rem;
+}
+
+
+
+
+
+
+
+
+
+/* ============================== end cover header */
+
+
+/* ============================start content section*/
+
+.content-wrapper {
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 2rem 0 5rem 0;
+    border: 1px solid black;
+    background-color: lightgrey;
+    width: 100%;
+    height: auto;
+}
+
+.about-nav {
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    background-color: blue;
+    border-bottom: 1px solid black;
+    width: 100%;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.about-nav h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+.box-container {
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    margin: 2rem 0 4rem 0;
+}
+
+.box {
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-flex-basis: 45%;
+    flex-basis: 45%;
+    border: 1px solid black;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.fry {
+    max-width: 8rem;
+    max-height: 8rem;
+    border: 1px solid black;
+    margin-left: .5rem;
+}
+
+.box h2 {
+    font-size: 1.5rem;
+}
+
+.box h4 {
+    font-size: 1.1rem;
+    color: grey;
+    text-decoration: italic;
+}
+
+.box button {
+    background-color: red;
+    color: white;
+    -webkit-align-self: center;
+    align-self: center;
+    padding: .7rem;
+    margin-right: 1rem;
+}
+
+.box button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: darkred;
+}
+
+.name-col {
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 auto;
+    -webkit-flex-basis: 50%;
+    flex-basis: 50%;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.name-col h2,
+.name-col h4 {
+    margin: 0;
+    margin-left: 3rem;
+}
+
+.name-col a {
+    color: blue;
+}
+
+.name-col a:hover {
+    color: black;
+}
