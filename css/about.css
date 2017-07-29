@@ -29,6 +29,7 @@ html {
 
 
 
+
 /* =================================top header element */
 
 header.row-box {
@@ -41,6 +42,7 @@ header.row-box {
     -webkit-justify-content: space-around;
     justify-content: space-around;
 }
+
 
 
 
@@ -62,12 +64,14 @@ header.row-box {
 
 
 
+
 /* mini profile picture */
 
 .mini-profile-img {
     max-width: 4.5rem;
     max-height: 4.5rem;
 }
+
 
 
 
@@ -79,6 +83,7 @@ header.row-box {
     font-size: 2rem;
     color: white;
 }
+
 
 
 
@@ -96,6 +101,7 @@ header.row-box {
     font-size: 1.2rem;
     color: white;
 }
+
 
 
 
@@ -119,6 +125,7 @@ header.row-box {
 .cover-photo {
     width: 100%;
     height: 40rem;
+    border-bottom: 1px solid black;
 }
 
 .navbar {
@@ -171,6 +178,7 @@ body>main>section>div>a:hover {
 
 
 
+
 /* absolute positioned elements */
 
 .profile-img {
@@ -193,105 +201,127 @@ body>main>section>div>a:hover {
 
 
 
+
 /* ============================== end cover header */
+
 
 /* ============================== start about section */
 
 .content-wrapper {
-	display: flex;
-	-webkit-flex-direction: row;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
-	    -webkit-flex-wrap: wrap;
-	        -ms-flex-wrap: wrap;
-	            flex-wrap: wrap;
-	    margin: 2rem 0 5rem 0;
-	    border: 1px solid black;
-	    background-color: lightgrey;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 2rem 0 5rem 0;
+    border: 1px solid black;
+    background-color: lightgrey;
 }
-.about-nav {
-	display: flex;
-	-webkit-flex-wrap: nowrap;
-	    -ms-flex-wrap: nowrap;
-	        flex-wrap: nowrap;
-	    width: 100%;
-	    background-color: blue;
-/*	    -webkit-justify-content: space-between;
-	            justify-content: space-between;*/
-}
-.about-content {
-	display: flex;
-	-webkit-flex-direction: row;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
-	    -webkit-flex-wrap: wrap;
-	        -ms-flex-wrap: wrap;
-	            flex-wrap: wrap;
-	    -webkit-justify-content: space-between;
-	            justify-content: space-between;
-	    margin-bottom: 3rem;
-	    	    
-}
-.box {
-	flex: 2 1 auto;
-	flex-basis: 30rem;
-	padding: 2rem;
 
+.about-nav {
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color: blue;
+	border-bottom: 1px solid black;
 }
-.info{order: 1}
-.text1{order: 2}
-.contact{order: 3}
-.text2{order: 4}
+
+.about-content {
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.box {
+    flex: 2 1 auto;
+    flex-basis: 30rem;
+    padding: 2rem;
+}
+
+.info {
+    order: 1
+}
+
+.text1 {
+    order: 2
+}
+
+.contact {
+    order: 3
+}
+
+.text2 {
+    order: 4
+}
+
 
 /* top navbar styles */
+
 .float-btn {
-	display: flex;
-	flex: 1 1 auto;
-	
+    display: flex;
+    flex: 1 1 auto;
 }
+
 .topnav-float {
-	display: flex;
-	-webkit-flex-direction: row;
-	    -ms-flex-direction: row;
-	        flex-direction: row;	   
-	    flex: 200 1 auto;
-	    -webkit-justify-content: center;
-	            justify-content: center;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    flex: 200 1 auto;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
 
 .topnav-h2 {
-	font-size: 2.5rem;
-	color: white;
+    font-size: 2.5rem;
+    color: white;
 }
+
 .edit-btn {
-	-webkit-align-self: center;
-	        align-self: center;
+    -webkit-align-self: center;
+    align-self: center;
 }
+
 
 
 /* table styles */
+
 table {
-	margin: 0 auto;
+    margin: 0 auto;
 }
+
 .table-h2 {
-	text-align: center;
-	font-size: 2rem;
+    text-align: center;
+    font-size: 2rem;
 }
+
 td {
-	padding: 1.5rem 3rem;
-	font-size: 1.5rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
 }
+
 td:nth-child(1) {
-	font-weight: bold;
+    font-weight: bold;
 }
 
 .text1>p,
 .text2>p {
-	font-size: 1.4rem;
-	line-height: 1.5;
-	padding: 1rem;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    padding: 1rem;
 }
 
 .text2 {
-	margin-top: -10rem;
+    margin-top: -10rem;
 }
