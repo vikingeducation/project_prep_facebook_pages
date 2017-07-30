@@ -8,27 +8,35 @@
   </head>
   <body>
 
-    <header class="main-header">
-      <img src="assets/images/harrypotter_cc.png" height="50px" width="50px"/>
-        <h1>Facelook</h1>
-        <input type="text" placeholder="Search for Users"/>"
-        <h2>Harry</h2>
+    <header class="main-header clearfix">
+      <img class="left" src="assets/images/harrypotter_cc2.png" height="20px" width="20px"/>
+        <h1 class="left">Facelook</h1>
+        <input class="search-bar" type="text" placeholder="Search for Users"/>
+        <h2 class="right">Harry</h2>
     </header>
 
-      <main>
-          <img src="assets/images/hogwartstable_cc.png" height:30% width:100%/>
-          <img src="assets/images/harrypotter_cc.png">
+      <main id="margined-wrapper">
+          <div class="top-nav clearfix">
+          <img class="left profile-image" src="assets/images/harrypotter_cc2.png"/>
           <div class="btn-group">
-            <button>Timeline</button>
+            <button focus>Timeline</button>
             <button>About</button>
             <button>Photos<span>(123)</span></button>
             <button>Friends<span>(567)</span></button>
+            <div class="right">
+              <span><a href="#">Edit Profile</a></span>
+            </div>
           </div>
 
-          <h3>About</h3>
-          <button>Edit your Profile</button>
+        </div>
 
-
+<div class="clearfix box-wrapper main-content">
+  <div class="box-wrapper main-content-title">
+          <h3 class="center">About</h3>
+          <button class="right">Edit your Profile</button>
+</div>
+<div class="flex-wrapper">
+          <div class="column1">
           <h3>Basic Information</h3>
           <table>
             <tr>
@@ -49,6 +57,8 @@
             </tr>
           </table>
 
+<br>
+
           <h3>Contact Information</h3>
           <table>
           <tr>
@@ -60,17 +70,21 @@
             <td>555-123-4567</td>
           </tr>
         </table>
-
+              </div>
+<div class="column1">
         <h3>Words to Live By</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </p>
+
+<br>
 
         <h3>About Me</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-
+</div>
+</div>
+</div>
       </main>
 
-    </div>
 
   </body>
 </html>

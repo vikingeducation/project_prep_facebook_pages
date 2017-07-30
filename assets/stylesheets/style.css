@@ -5,39 +5,87 @@
  font-size: 100%;
  font: inherit;
  vertical-align: baseline;
+ border-collapse: collapse;
 }
 
 .main-header{
-  height: 60px;
+  height: auto;
   padding:10px;
   background-color: #407ADD;
   color: #EEEEEE;
   border-bottom: 3px solid black;
 }
 
-.main-header:before,
-.main-header:after {
+
+
+.clearfix:before,
+.clearfix:after {
   content: "";
   display: table;
 }
 
-.main-header:after {
+.clearfix:after {
     clear:both;
 }
 
-.main-header h1 {
-  float: left;
-  font-size: 40px;
-  margin-left: 20px;
+.left {
+  float:left;
+}
 
+.right {
+  float:right;
+}
+
+.center {
+  float: right;
+  position: relative;
+  left: -50%;
+  text-align: left;
+}
+
+.main-content-title {
+  height: 40px;
+}
+
+.main-content {
+}
+
+.main-content h3{
+  font-size: 36px;
+}
+
+.main-content button {
+  box-shadow: 3px 3px 1px 1px #111;
+  background: #407ADD;
+  height: 24px;
+  width: 120px;
+  margin-top: 6px;
+  color:white;
+  border: 1px solid black;
+}
+
+.large-logo {
+  padding:20px;
+  font-size: 60px;
+  margin-left: 20px;
+  height:50px;
+  margin-top:-10px;
+}
+
+.main-header {
+  text-align: center;
 }
 
 .main-header img {
-  float: left;
+  margin-left:10%;
+}
+
+.main-header h2{
+  margin-right:10%;
 }
 
 .main-header form {
-  float: right;
+  margin-top: 15px;
 }
 
 #main-signin-submit {
@@ -52,27 +100,97 @@
   text-align: left;
 }
 
-.main-header input {
-  border: 3px solid black;
+.main-header .login {
+    border: 3px solid black;
+
 }
 
-.wrapper {
+.main-header .search-bar {
+  width:40%;
+  border: 3px solid gray;
+  margin: auto;
+}
+
+.flex-wrapper {
   display:flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
+  flex-wrap:wrap;
+  align-items:flex-start;
   justify-content: space-around;
   height: auto;
   width: 100%;
 
+}
+
+.flex-header {
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.flex-header h3{
 
 }
 
 
-.column1{
+.box-wrapper {
+  border: 2px solid black;
+}
+
+#margined-wrapper {
+  height:auto;
+  width:80%;
+  margin:auto;
+}
+
+.top-nav {
+  background-image: url("../images/hogwartstable_cc.png");
+  background-size: 100% 315px;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  height:355px;
+}
+
+.top-nav .btn-group {
+  width:100%;
+  border: 1px solid black;
+  margin-top:315px;
+}
+
+
+.top-nav button{
   width:auto;
+  border-right: 1px solid black;
+  border-collapse: collapse;
+  background-color: white;
+  padding: 10px;
+}
+
+.btn-group button:first-child {
+  margin-left: 50px;
+  border-left: 1px solid black;
+}
+
+.btn-group div {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.profile-image {
+  height: 150px;
+  width:170px;
+  margin-top: 190px;
+  margin-left:10px;
+
+}
+
+
+
+
+.column1{
+  width:40%;
   height: auto;
-  vertical-align: middle;
+  margin-top: 25px;
   padding: 20px;
 }
 
@@ -88,7 +206,7 @@
 }
 
 .column2{
-  width:auto;
+  width:40%;
   height:80%;
 
 }
@@ -138,14 +256,14 @@ select {
 
 @media only screen and (max-width: 890px) {
   /*Fix smaller display*/
-  .wrapper {
+  .flex-wrapper {
     flex-direction: column;
   }
 }
 
 @media only screen and (max-width: 607px){
 
-  .wrapper {
+  .flex-wrapper {
     flex-direction: column;
   }
 
