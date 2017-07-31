@@ -1,0 +1,307 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+    color:darkslategray;
+    background-color: white;
+ }
+.button1 {
+    color:white;
+    background-color:#43609C;
+    position: relative;
+    top: -15px;
+    left: -4px;
+    width:50px;
+    height:40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 2px 0 0;
+} 
+.button1:hover {
+   background-color: #3B5998;
+    cursor:pointer;
+}
+.button2 {
+    color:white;
+    background-color:#43609C;
+    position: relative;
+    top: -15px;
+    left: -4px;
+    width:50px;
+    height:40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 0 2px;
+} 
+.button2:hover {
+   background-color: #3B5998;
+    cursor:pointer;
+    
+}
+.search-input{
+    position: relative;
+     height:40px;
+    width:600px;
+    z-index: 1;
+}
+.search-wrapper {
+    position: relative;
+   
+}
+.search-wrapper img {
+    position: relative;
+    top: 16px;
+    left: 607px;
+    z-index:2;
+}
+
+.topnav {
+    display:block;
+    position: absolute;
+    background-color: #3B5998;
+    width: 110%;
+    overflow:hidden;
+
+}
+.mytopnav .logo {
+    display: block;
+    float: left;
+    position: relative;
+    top: 4px;
+    left: 40px
+}
+.mytopnav .searchbar{
+    display: block;
+    float: left;
+    position: relative;
+    top:-4px;
+    
+}
+.searchbar .search-input{
+    font-size: 20px;
+}
+.mytopnav .imagewrap {
+    display: block;
+    float: left;
+    position: relative;
+    top:3px;
+    padding-left: 200px;
+}
+.mytopnav .imagewrap a{
+    display: block;
+    float: right;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    border-style: solid;
+    border-color: white;
+    border-right-width: 1px;
+    
+}
+.mytopnav .homebtn a{
+    display: block;
+    float: left;
+    position: relative;
+    top: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    
+
+}
+.mytopnav .imagewrap a:hover{
+    background-color: #43609C;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    border-bottom-width: 2px;
+
+}
+.mytopnav .homebtn a:hover{
+    background-color: #43609C;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    border-bottom-width: 2px;
+}
+/*---------End Header--------*/
+/*---------Start Section----------*/
+
+
+.container {
+  @media screen and (min-width: $breakpoint) {
+    max-width: 990px;
+    margin: 5px 50px;
+  }
+
+  @media screen and (max-width: $breakpoint) {
+    width: 80%;
+    margin: 5px 0;
+  }
+}
+
+
+.img-nav {    
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top:55px;
+    
+ }   
+.covimage{
+    display: inline-block;
+    float:none;
+}
+.img-nav p{
+    position:relative;
+    font-size: 38px;
+    z-index: 4;
+    color:bisque;
+    top:-70px;
+    font-weight: 800;
+    letter-spacing: 3px
+}
+.profileimg {
+    text-align: center;
+    position:relative;    
+    top:-220px;  
+    left:-450px;
+    z-index: 1;    
+}
+.midnav{
+    display:inline-block;
+    position: relative;
+    text-align: center;
+    background-color: darkgrey;
+    height:50px;
+    width: 962px;
+    top:-300px;
+}
+.img-nav .midnav ul li{
+    list-style-type: none;
+    display:inline;
+    width:150px;
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    line-height: 50px;
+    display:inline-block;
+    padding-left: 25px;
+    padding-right:25px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color:black;    
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: 2px;    
+}
+li a:hover{
+    background-color: black;
+    color:white;
+}
+
+    
+/*---------section2----------*/
+.friend-ban{
+    margin: 0 auto;
+    position: relative;
+    font-size: 30px; 
+    text-align: center;
+}
+.friend-head{
+    display: inline-block;
+    position: relative;
+    background-color: darkgrey;
+    height:50px;
+    width: 962px;
+    top:-150px;
+    }   
+.friend-head h2{
+    padding-top: 9px;
+    font-weight: 800;
+}
+
+
+.friends-list{
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top:-150px;
+    
+}
+
+.friends-list .friend-box{
+        
+        width:960px;
+        display: inline-block;
+        text-align: center;
+        border-style: solid;
+        border-color: #000;
+        border-width: 0px 1px 3px 1px; 
+        padding-top: 50px;
+    
+
+}
+
+.friend-box h3{
+    font-size: 23px;
+    font-weight: 800;
+ }
+
+.friend-box{
+    width:960px;
+    
+    
+    
+}
+.friend-box .friend1{
+    
+    position:relative;
+    width:260px;
+    left:240px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    
+}
+
+.friend-box .friend2{
+    position: relative;
+    width:260px;
+    left: 480px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    
+}
+.friend-box .friend3{
+    position:relative;
+    width:260px;
+    left:240px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+.friend-box .friend4{
+    position: relative;
+    width:260px;
+    left: 480px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+/*------End Section2-----*/
+/*-------footer----------*/
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+/*---------END CSS------------*/
