@@ -1,0 +1,182 @@
+/*-------------Begin CSS----------*/
+body {
+    color: gray;
+    margin:0 auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*-----header---*/    
+#headline { 
+    display:block;
+    position: absolute;
+    top:-10px;
+    height:30%;
+    width:100%;
+    font-size: 50px;
+    height:80px;
+    padding-top: 20px;
+    font-weight : 800;
+    background-color:#3B5998;
+    color:white;
+    
+}
+#headline h1 {
+    display: block;
+    float: left;
+    width:200px;
+    padding-left: 8%;
+    position: relative;
+    top:6px;
+    
+}
+.sign-in{
+    display: inline-flex;
+    float:right;
+    font-size: 20px;
+    font-weight:500;
+    position: relative;
+    padding-right: 1%;
+  
+}
+#login-button{
+    background:#43609C; 
+    border-style: solid;
+    border-color:#000;
+    border-width: 1px;
+    border-radius: 5px;
+    cursor:pointer;
+    color: aliceblue; 
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+#login-button:hover{
+    background:#3B5998; 
+  
+}
+#headline .sign-in a{
+    float:right;
+    color:red;
+    
+}
+.sign-in label{
+    display: block;
+    
+}
+#email{
+    padding-right: 18px;
+}
+#forgotpass {
+    position: relative;
+    left: -245px;
+    top:44px;
+    font-size: 16px  
+}
+#headline:after{
+    display: block;
+    content: "";
+    clear:both;
+}
+.sign-in:after{
+    display: block;
+    content: "";
+    clear:both;
+}
+/*--------End Header------*/
+/*--------body----------*/
+.bodysection{
+   background-color: #E9EBEE;
+    position:relative;
+    width: 100%;
+    height: 100%;
+    top:90px;
+    margin:0 auto;
+    min-width: 660px;
+    }
+#homeList{
+    float:left;
+    padding-left:5px;
+}
+#homeList h2{
+    color: black;
+    margin-left: 100px;
+    padding: 42px 0 24px;
+    font-size: 28pt;
+    line-height: 36px;
+    font-weight:600;
+}
+#homeList ul {
+    font-size: 18pt;
+}
+#homeList ul li {
+    margin-left: 150px;
+    list-style-type: disc;
+    padding-left: 10px;
+}
+#homeForm{
+    float:right;
+    position:relative;
+    left: -10%;
+    padding-top:50px;
+    padding-right: 20px;
+}
+#homeForm h2{
+    color:black;
+    margin-left: 50px;
+    position: relative;
+    top:-10px;
+    font-size: 36px;
+    font-weight:800;
+} 
+.mytext {
+    height:40px;
+    Width:400px;
+    font-size: 20px;
+}
+#homeForm form div{
+    
+}
+#homeForm h3{
+    font-size: 25px;
+    padding-bottom: 4px;
+}
+.gender{
+    font-size: 23px;
+    
+}
+.mytext2{
+    font-size: 30px;
+}
+.bodysection:after{
+    display: block;
+    content: "";
+    clear:both;
+}
+footer{
+    color:black;
+    background-color: green;
+    
+}
+/*---------End Home Page--------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
