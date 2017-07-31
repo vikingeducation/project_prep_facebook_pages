@@ -167,6 +167,10 @@ width: 100%;
   border: 2px solid black;
 }
 
+.box-wrapper-top {
+  border-top: 2px solid black;
+}
+
 #margined-wrapper {
   height:auto;
   width:80%;
@@ -298,6 +302,130 @@ width: 100%;
 .column2 p {
   margin-top: 15px;
 }
+
+.sidebar {
+  width: 300px;
+  height: 100%;
+  border-right: 2px solid black;
+   padding-right:100px;
+}
+
+.sidebar-headings {
+width:90%;
+ margin-left:25px;
+ margin-top: 50px;
+ font-size: 32px;
+}
+
+.sidebar-image {
+  height: 75px;
+  width: 75px;
+  margin-left: 25px;
+}
+
+.sidebar-profile-image {
+  height:100px;
+  width:100px;
+}
+
+.sidebar-profile h5 {
+  font-size: 24px;
+}
+
+.sidebar-section {
+  height: 100px;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+.sidebar-profile {
+  width:80%;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.sidebar-name-date {
+  margin-top:15px;
+
+}
+
+.sidebar-name-profile {
+  margin-top: 10px;
+  margin-left:10px;
+}
+
+.post-field {
+  text-align: center;
+}
+
+.post-field input{
+  box-shadow: 3px 3px 1px 1px #111;
+  background: #407ADD;
+  height: 24px;
+  width: 80px;
+  margin: 10px;
+  margin-right:20px;
+  color:white;
+  border: 2px solid black;
+}
+
+.post-field textarea {
+  margin: 10px;
+}
+
+#post-button-section {
+  height:54px;
+}
+
+.news-posts {
+  margin-top: 25px;
+}
+
+.news-posts img {
+  margin:5px;
+}
+
+.news-posts p {
+  margin: 5px;
+}
+
+.news-section {
+  height:100%;
+  width:100%;
+}
+
+.like-comment-link {
+  margin-right:30px;
+}
+
+.like-comment-name {
+  margin-right:4px;
+}
+
+.like-comment-underpost{
+  height: auto;
+  padding-top:5px;
+  padding-left:30px;
+  padding-bottom: 10px;
+}
+
+.comment-button {
+  box-shadow: 3px 3px 1px 1px #111;
+  background: #407ADD;
+  height: 24px;
+  width: 80px;
+  margin: 10px;
+  margin-right:20px;
+  color:white;
+  border: 2px solid black;
+}
+
+#comment-input {
+  margin-left:80px;
+}
+
 
 
 /*Form buttons*/
