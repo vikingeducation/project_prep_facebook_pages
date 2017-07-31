@@ -65,13 +65,13 @@ $green:#1EA82C;
       border: 3px solid $black;
 
   }
-
+}
   .search-bar {
     width:40%;
     border: 3px solid $gray;
     margin: auto;
   }
-}
+
 
 .small-profile {
   margin-left:10%;
@@ -101,7 +101,7 @@ $green:#1EA82C;
 /*Main content area*/
 .main-content {
   margin-top:20px;
-  main-content-title {
+  .main-content-title {
     height: 40px;
   }
   h3{
@@ -182,7 +182,7 @@ width: 100%;
   position: relative;
   height:355px;
   .btn-group {
-    width:80%;
+    width:97%;
     border: 1px solid $black;
     margin-top:315px;
     padding-left: 25px;
@@ -193,9 +193,14 @@ width: 100%;
     background-color: $white;
     padding: 10px;
   }
-  a button:last-of-type {
+  a {
+  button {
+
+  &:last-of-type {
       border-right:1px solid $black;
+    }
   }
+}
 }
 
 #timeline-btn {

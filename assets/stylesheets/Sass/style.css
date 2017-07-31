@@ -45,10 +45,11 @@
     text-align: left; }
   .main-header .login {
     border: 3px solid #111111; }
-  .main-header .search-bar {
-    width: 40%;
-    border: 3px solid #808080;
-    margin: auto; }
+
+.search-bar {
+  width: 40%;
+  border: 3px solid #808080;
+  margin: auto; }
 
 .small-profile {
   margin-left: 10%;
@@ -74,7 +75,7 @@
 /*Main content area*/
 .main-content {
   margin-top: 20px; }
-  .main-content main-content-title {
+  .main-content .main-content-title {
     height: 40px; }
   .main-content h3 {
     font-size: 36px; }
@@ -141,7 +142,7 @@
   position: relative;
   height: 355px; }
   .top-nav .btn-group {
-    width: 80%;
+    width: 97%;
     border: 1px solid #111111;
     margin-top: 315px;
     padding-left: 25px; }
