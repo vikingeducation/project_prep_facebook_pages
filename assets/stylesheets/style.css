@@ -1,0 +1,476 @@
+/*CSS Reset*/
+*{
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+ border-collapse: collapse;
+}
+
+/*Clearfixs*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+/*Floats*/
+.left {
+  float:left;
+}
+
+.right {
+  float:right;
+}
+
+.center {
+  float: right;
+  position: relative;
+  left: -46%;
+  text-align: left;
+}
+
+/*Main top header bar*/
+.main-header{
+  height: auto;
+  padding:10px;
+  background-color: #407ADD;
+  color: #EEEEEE;
+  border-bottom: 3px solid black;
+}
+
+.small-profile {
+  margin-left:10%;
+  height:25px;
+  width:25px;
+  padding: 2px;
+}
+
+.small-logo {
+  font-size:24px;
+}
+
+.user-name{
+  margin-right:10%;
+  margin-top:15px;
+}
+
+.main-header form {
+  margin-top: 15px;
+}
+
+#main-signin-submit {
+  box-shadow: 3px 3px 1px 1px #111;
+  background: #8ca9db;
+  height: 24px;
+  width: 60px;
+  margin-right: 20px;
+  border: 1px solid black;
+}
+
+.main-header p{
+  display: inline-block;
+  text-align: left;
+}
+
+.main-header .login {
+    border: 3px solid black;
+
+}
+
+.main-header .search-bar {
+  width:40%;
+  border: 3px solid gray;
+  margin: auto;
+}
+
+/*Main content area*/
+.main-content-title {
+  height: 40px;
+}
+
+.main-content {
+  margin-top:20px;
+}
+
+.main-content h3{
+  font-size: 36px;
+}
+
+.main-content button {
+  box-shadow: 3px 3px 1px 1px #111;
+  background: #407ADD;
+  height: 24px;
+  width: 120px;
+  margin-top: 6px;
+  color:white;
+  border: 1px solid black;
+}
+
+.large-logo {
+  padding:20px;
+  font-size: 60px;
+  margin-left: 20px;
+  height:50px;
+  margin-top:-10px;
+}
+
+.main-header {
+  text-align: center;
+}
+
+
+/*Flex*/
+.flex-wrapper {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items:flex-start;
+  justify-content: space-around;
+  height: auto;
+  width: 100%;
+
+}
+
+.flex-wrapper-columns{
+display:flex;
+flex-direction: columns;
+flex-wrap:wrap;
+align-items:flex-start;
+justify-content: space-around;
+height: auto;
+width: 100%;
+}
+
+
+.flex-header {
+  width: 100%;
+  border-bottom: 2px solid black;
+}
+
+.flex-header h3{
+
+}
+
+/*General styling*/
+.top-push {
+  margin-top:25px;
+}
+
+.box-wrapper {
+  border: 2px solid black;
+}
+
+.box-wrapper-top {
+  border-top: 2px solid black;
+}
+
+#margined-wrapper {
+  height:auto;
+  width:80%;
+  margin:auto;
+}
+
+/*Top half of of page*/
+.top-nav {
+  background-image: url("../images/hogwartstable_cc.png");
+  background-size: 100% 315px;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  height:355px;
+}
+
+.top-nav .btn-group {
+  width:80%%;
+  border: 1px solid black;
+  margin-top:315px;
+  padding-left: 25px;
+}
+
+
+.top-nav button{
+  width:auto;
+  border-collapse: collapse;
+  background-color: white;
+  padding: 10px;
+}
+
+#timeline-btn {
+  margin-left:50px;
+  border-left:1px solid black;
+}
+
+.top-nav a button:last-of-type {
+    border-right:1px solid black;
+}
+
+.btn-group div {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.profile-image {
+  height: 150px;
+  width:170px;
+  margin-top: 190px;
+  margin-left:10px;
+
+}
+
+/*Main content/Bottom of page*/
+
+.friend-section {
+  border: 2px solid black;
+  height: 200px;
+  width: 90%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+.friend-section img {
+  height:100px;
+  width: 100px;
+  padding:15px;
+}
+
+.friend-name-number {
+    margin-left:50px;
+    margin-top:40px;
+}
+
+.friend-section .right {
+  margin-top:45px;
+  margin-right:20px;
+}
+
+
+/*Flex container*/
+.column1{
+  width:40%;
+  height: auto;
+  margin-top: 25px;
+  padding: 20px;
+}
+
+.column1 h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.column1 li {
+  font-size: 24px;
+  line-height: 48px;
+}
+
+/*Flex container 2*/
+.column2{
+  width:40%;
+  height:80%;
+
+}
+
+.column2 h2 {
+  font-size: 48px;
+}
+
+.column2 input {
+  border: 3px solid #DDD;
+  margin-top:15px;
+}
+
+.column2 input[type="text"]{
+  width:calc(45% - 5px);
+}
+
+.column2 input[type="email"]{
+  width:90%;
+}
+
+.column2 input[type="password"] {
+  width:90%;
+}
+
+.column2 p {
+  margin-top: 15px;
+}
+
+.sidebar {
+  width: 300px;
+  height: 100%;
+  border-right: 2px solid black;
+   padding-right:100px;
+}
+
+.sidebar-headings {
+width:90%;
+ margin-left:25px;
+ margin-top: 50px;
+ font-size: 32px;
+}
+
+.sidebar-image {
+  height: 75px;
+  width: 75px;
+  margin-left: 25px;
+}
+
+.sidebar-profile-image {
+  height:100px;
+  width:100px;
+}
+
+.sidebar-profile h5 {
+  font-size: 24px;
+}
+
+.sidebar-section {
+  height: 100px;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+.sidebar-profile {
+  width:80%;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.sidebar-name-date {
+  margin-top:15px;
+
+}
+
+.sidebar-name-profile {
+  margin-top: 10px;
+  margin-left:10px;
+}
+
+.post-field {
+  text-align: center;
+}
+
+.post-field input{
+  box-shadow: 3px 3px 1px 1px #111;
+  background: #407ADD;
+  height: 24px;
+  width: 80px;
+  margin: 10px;
+  margin-right:20px;
+  color:white;
+  border: 2px solid black;
+}
+
+.post-field textarea {
+  margin: 10px;
+}
+
+#post-button-section {
+  height:54px;
+}
+
+.news-posts {
+  margin-top: 25px;
+}
+
+.news-posts img {
+  margin:5px;
+}
+
+.news-posts p {
+  margin: 5px;
+}
+
+.news-section {
+  height:100%;
+  width:100%;
+}
+
+.like-comment-link {
+  margin-right:30px;
+}
+
+.like-comment-name {
+  margin-right:4px;
+}
+
+.like-comment-underpost{
+  height: auto;
+  padding-top:5px;
+  padding-left:30px;
+  padding-bottom: 10px;
+}
+
+.comment-button {
+  box-shadow: 3px 3px 1px 1px #111;
+  background: #407ADD;
+  height: 24px;
+  width: 80px;
+  margin: 10px;
+  margin-right:20px;
+  color:white;
+  border: 2px solid black;
+}
+
+#comment-input {
+  margin-left:80px;
+}
+
+
+
+/*Form buttons*/
+select {
+  border: 2px solid black;
+  margin-top: 15px;
+}
+
+#main-signup-submit {
+  border: 1px solid gray;
+  box-shadow: 3px 3px 1px 1px #111;
+  background: #1ea82c;
+  width:92%;
+  height: auto;
+  color: #EEE;
+  border: 2px solid black;
+  font-size: 24px;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+
+/*@media definations*/
+@media only screen and (max-width: 890px) {
+  /*Fix smaller display*/
+  .flex-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 607px){
+
+  .flex-wrapper {
+    flex-direction: column;
+  }
+
+  .main-header form {
+    float: left;
+  }
+  .column1 h3 {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .column1 li {
+    font-size: 14px;
+    line-height: normal;
+  }
+}

@@ -1,0 +1,457 @@
+/*Variables*/
+  /*Colors*/
+$lightBlue:#8CA9DB;
+$blue:#407ADD;
+$white:#EEEEEE;
+$black:#111111;
+$gray:#808080;
+$lightGray:#DDD;
+$green:#1EA82C;
+
+/*CSS Reset*/
+*{
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+ border-collapse: collapse;
+}
+
+/*Clearfixs*/
+.clearfix {
+  &:before, &:after {
+    content:"";
+    display: table;
+  }
+  &:after {
+    clear:both;
+  }
+}
+
+/*Floats*/
+.left {
+  float:left;
+}
+
+.right {
+  float:right;
+}
+
+.center {
+  float: right;
+  position: relative;
+  left: -46%;
+  text-align: left;
+}
+
+/*Main top header bar*/
+.main-header{
+  height: auto;
+  padding:10px;
+  background-color: $blue;
+  color: $white;
+  border-bottom: 3px solid $black;
+  text-align: center;
+  form {
+    margin-top: 15px;
+  }
+  p {
+    display: inline-block;
+    text-align: left;
+  }
+  .login {
+      border: 3px solid $black;
+
+  }
+}
+  .search-bar {
+    width:40%;
+    border: 3px solid $gray;
+    margin: auto;
+  }
+
+
+.small-profile {
+  margin-left:10%;
+  height:25px;
+  width:25px;
+  padding: 2px;
+}
+
+.small-logo {
+  font-size:24px;
+}
+
+.user-name{
+  margin-right:10%;
+  margin-top:15px;
+}
+
+#main-signin-submit {
+  box-shadow: 3px 3px 1px 1px $black;
+  background: $lightBlue;
+  height: 24px;
+  width: 60px;
+  margin-right: 20px;
+  border: 1px solid $black;
+}
+
+/*Main content area*/
+.main-content {
+  margin-top:20px;
+  .main-content-title {
+    height: 40px;
+  }
+  h3{
+    font-size: 36px;
+  }
+  button {
+    box-shadow: 3px 3px 1px 1px $black;
+    background: $blue;
+    height: 24px;
+    width: 120px;
+    margin-top: 6px;
+    color:$white;
+    border: 1px solid $black;
+  }
+}
+
+.large-logo {
+  padding:20px;
+  font-size: 60px;
+  margin-left: 20px;
+  height:50px;
+  margin-top:-10px;
+}
+
+/*Flex*/
+.flex-wrapper {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items:flex-start;
+  justify-content: space-around;
+  height: auto;
+  width: 100%;
+
+}
+
+.flex-wrapper-columns{
+display:flex;
+flex-direction: columns;
+flex-wrap:wrap;
+align-items:flex-start;
+justify-content: space-around;
+height: auto;
+width: 100%;
+}
+
+
+.flex-header {
+  width: 100%;
+  border-bottom: 2px solid $black;
+}
+
+/*General styling*/
+.top-push {
+  margin-top:25px;
+}
+
+.box-wrapper {
+  border: 2px solid $black;
+}
+
+.box-wrapper-top {
+  border-top: 2px solid $black;
+}
+
+#margined-wrapper {
+  height:auto;
+  width:80%;
+  margin:auto;
+}
+
+/*Top half of of page*/
+.top-nav {
+  background-image: url("../../images/hogwartstable_cc.png");
+  background-size: 100% 315px;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+  height:355px;
+  .btn-group {
+    width:97%;
+    border: 1px solid $black;
+    margin-top:315px;
+    padding-left: 25px;
+  }
+  button{
+    width:auto;
+    border-collapse: collapse;
+    background-color: $white;
+    padding: 10px;
+  }
+  a {
+  button {
+
+  &:last-of-type {
+      border-right:1px solid $black;
+    }
+  }
+}
+}
+
+#timeline-btn {
+  margin-left:50px;
+  border-left:1px solid $black;
+}
+
+.btn-group div {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.profile-image {
+  height: 150px;
+  width:170px;
+  margin-top: 190px;
+  margin-left:10px;
+}
+
+/*Main content/Bottom of page*/
+
+.friend-section {
+  border: 2px solid $black;
+  height: 200px;
+  width: 90%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  img {
+    height:100px;
+    width: 100px;
+    padding:15px;
+  }
+  .right {
+    margin-top:45px;
+    margin-right:20px;
+  }
+}
+
+.friend-name-number {
+    margin-left:50px;
+    margin-top:40px;
+}
+
+/*Flex container*/
+.column1{
+  width:40%;
+  height: auto;
+  margin-top: 25px;
+  padding: 20px;
+  h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  li {
+    font-size: 24px;
+    line-height: 48px;
+  }
+}
+
+/*Flex container 2*/
+.column2{
+  width:40%;
+  height:80%;
+  h2 {
+    font-size: 48px;
+  }
+  p {
+    margin-top: 15px;
+  }
+  input {
+    border: 3px solid $lightGray;
+    margin-top:15px;
+  }
+  input[type="text"]{
+    width:calc(45% - 5px);
+  }
+  input[type="email"]{
+    width:90%;
+  }
+  input[type="password"] {
+    width:90%;
+  }
+
+}
+
+.sidebar {
+  width: 300px;
+  height: 100%;
+  border-right: 2px solid $black;
+   padding-right:100px;
+}
+
+.sidebar-headings {
+width:90%;
+ margin-left:25px;
+ margin-top: 50px;
+ font-size: 32px;
+}
+
+.sidebar-image {
+  height: 75px;
+  width: 75px;
+  margin-left: 25px;
+}
+
+.sidebar-profile-image {
+  height:100px;
+  width:100px;
+}
+
+.sidebar-section {
+  height: 100px;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+.sidebar-profile {
+  width:80%;
+  margin-top: 25px;
+  margin-left: 25px;
+  h5 {
+    font-size: 24px;
+  }
+}
+
+.sidebar-name-date {
+  margin-top:15px;
+
+}
+
+.sidebar-name-profile {
+  margin-top: 10px;
+  margin-left:10px;
+}
+
+.post-field {
+  text-align: center;
+  input{
+    box-shadow: 3px 3px 1px 1px $black;
+    background: $blue;
+    height: 24px;
+    width: 80px;
+    margin: 10px;
+    margin-right:20px;
+    color:$white;
+    border: 2px solid $black;
+  }
+  textarea {
+    margin: 10px;
+  }
+}
+
+#post-button-section {
+  height:54px;
+}
+
+.news-posts {
+  margin-top: 25px;
+  img {
+    margin:5px;
+  }
+  p {
+    margin: 5px;
+  }
+}
+
+.news-section {
+  height:100%;
+  width:100%;
+}
+
+.like-comment-link {
+  margin-right:30px;
+}
+
+.like-comment-name {
+  margin-right:4px;
+}
+
+.like-comment-underpost{
+  height: auto;
+  padding-top:5px;
+  padding-left:30px;
+  padding-bottom: 10px;
+}
+
+.comment-button {
+  box-shadow: 3px 3px 1px 1px $black;
+  background: $blue;
+  height: 24px;
+  width: 80px;
+  margin: 10px;
+  margin-right:20px;
+  color:white;
+  border: 2px solid $black;
+}
+
+#comment-input {
+  margin-left:80px;
+}
+
+
+
+/*Form buttons*/
+select {
+  border: 2px solid $black;
+  margin-top: 15px;
+}
+
+#main-signup-submit {
+  border: 1px solid $gray;
+  box-shadow: 3px 3px 1px 1px $black;
+  background: $green;
+  width:92%;
+  height: auto;
+  color: $white;
+  border: 2px solid $black;
+  font-size: 24px;
+  padding-top:5px;
+  padding-bottom: 5px;
+}
+
+/*@media definations*/
+@media only screen and (max-width: 890px) {
+  /*Fix smaller display*/
+  .flex-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 607px){
+
+  .flex-wrapper {
+    flex-direction: column;
+  }
+
+  .main-header form {
+    float: left;
+  }
+  .column1 {
+    h3 {
+    font-size: 24px;
+    line-height: normal;
+    }
+    li {
+      font-size: 14px;
+      line-height: normal;
+    }
+  }
+}
