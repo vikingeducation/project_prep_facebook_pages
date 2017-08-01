@@ -206,41 +206,185 @@ table {
 	border-right: solid;
 	border-left: solid; 
 	border-width: thin; 
+	position: relative;
+}
+.about {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 1rem; 
+	border: solid; 
+	border-width: thin;
+}
+.about-header {
+	display: flex;
+	justify-content: center;
+	height: 2.5rem;
+	width: 100%;
+	background-color: #dfe3ee; 
+	border-bottom: solid;
+	border-width: thin;
+	position: relative;
+}
+.about-header p {
+	display: flex;
+	align-self: center;
+	font-size: 1.5em;
+	font-weight: 600;
+	color: black; 
+}
+.about-header button {
+	display: flex;
+	align-self: center;
+	height: 1.75rem; 
+	font-size: .75em;
+	font-weight: 600;
+	color: #ffffff;
+	background-color: #3b5998;
+	position: absolute;
+	right: 1rem; 
+	border: none;
+}
+.about-header button:hover {
+	background-color: #5772AC;
+	cursor: pointer;
+}
+.about-body {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.about-left {
+	display: flex;
+	flex-wrap: wrap;
+	width: 45%;
+	margin-left: 3rem;
+}
+.about-left h1 {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	align-self: center;
+	font-size: 1.5em;
+	font-weight: 600;
+	color: black;
+	margin-bottom: 1rem; 
+}
+.about-basic {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 2rem; 
+}
+.basic-left {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 37%;
+}
+.basic-left ul li {
+	display: flex;
+	margin-bottom: 1rem; 
+	font-size: 1em; 
+	font-weight: 600;
+	color: black;
+}
+.basic-left ul li:last-child {
+	margin-bottom: 0; 
+}
+.basic-right {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 63%; 
+}
+.basic-right ul li {
+	display: flex;
+	margin-bottom: 1rem;	
+	font-size: 1em; 
+}
+.basic-right ul li:last-child {
+	margin-bottom: 0;
+}
+.about-contact {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 2rem;
+}
+.contact-left {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 37%;
+}
+.contact-left ul li {
+	display: flex;
+	margin-bottom: 1rem; 
+	font-size: 1em; 
+	font-weight: 600;
+	color: black;
+}
+.contact-right {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 63%; 
+}
+.contact-right ul li {
+	display: flex;
+	margin-bottom: 1rem; 
+	font-size: 1em; 
+}
+.about-right {
+	display: flex;
+	flex-wrap: wrap;
+	width: 55%;
+	margin-top: 2rem;
+	margin-right: 3rem;
+}
+.about-right h1 {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	align-self: flex-start;
+	font-size: 1.5em;
+	font-weight: 600;
+	color: black;
+}
+.words {
+	display: flex;
+	align-self: flex-start;
 }
 .background-pic {
 	display: flex;
 	align-self: flex-start;
 	max-width: 100%; 
-	height: auto;
+	height: auto;	
 	position: relative;
-}
-.profile {
-	display: flex;
-	align-self: flex-end;
-	width: 40%;
-	margin-left: 1rem; 
-	position: absolute;
-	z-index: 1; 
+	border-bottom: solid;
+	border-width: thin;
 }
 .profile-pic {
 	display: flex;	
+	align-self: flex-end;
 	max-width: 100%; 
 	height: auto;
-	margin-bottom: 1rem; 
+	position: absolute;
+	bottom: 1rem;
+	left: 1rem;
+	z-index: 1;
 }
-.profile a {
+.photo-nav p {
 	display: flex;
 	align-self: flex-end;
 	font-size: 1.75em;
 	font-weight: 600;
 	color: black; 
-	text-decoration: none;
-	margin-left: .5rem; 
-	margin-bottom: 2.5rem; 
+	position: absolute;
+	bottom: 3rem;
+	left: 11rem; 
+	z-index: 1; 
 }
 .about-nav {
 	display: inline-flex;
 	flex-wrap: nowrap;
+	justify-content: flex-start;
 	height: 2.5rem;
 	width: 100%;
 }
@@ -248,21 +392,32 @@ table {
 	display: inline-flex;
 	flex-wrap: nowrap;	
 	width: 70%; 
-	margin-left: 14rem; 
+	margin-left: 11.5rem; 
 }
 .nav-list li {
 	display: inline-flex;	
 	flex-wrap: nowrap;
-	justify-content: center;	
-	border-left: solid;
-	border-right: solid;
-	border-width: thin;
+	width: 100%;	
 }
 .nav-list li button {
 	display: inline-flex;
-	align-self: center;
+	justify-content: center;
 	height: 2.5rem; 
-	width: 6rem; 
+	background-color: transparent;
+	font-size: 1em; 
+	font-weight: 500; 
+}
+.nav-list li button:last-child {
+	border-right: solid;
+	border-width: thin;
+}
+.nav-list li button:first-child {
+	border-left: solid;
+	border-width: thin; 
+}
+.nav-list li button:hover {
+	background-color: #dfe3ee; 
+	cursor: pointer;
 }
 .edit {
 	display: inline-flex;
