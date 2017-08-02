@@ -19,8 +19,11 @@ h3 {
 nav { 
     height: 75px;
     background-color: #6681cb;
-    
+}
 
+.title {
+    color: #fff;
+    padding-left: 25px;
 }
 
 
