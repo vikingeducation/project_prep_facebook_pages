@@ -1,0 +1,18 @@
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    font-size: 150%;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 115%;
+}
+
