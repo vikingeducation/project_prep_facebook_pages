@@ -1,4 +1,5 @@
 html {
+    max-width: 990px;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
 }
@@ -35,9 +36,13 @@ nav {
 
 .title {
     color: #fff;
-    padding-left: 25px;
     padding-top: 25px;
     float: left;
+}
+
+.title,
+.left h2 {
+    padding-left: 25px;
 }
 
 .login {
@@ -53,6 +58,39 @@ nav {
 .login-table td {
     padding: 2px 5px 0px 5px;
 }
+
+.left {
+    width: 610px;
+    float: left; 
+    margin-top: 75px;
+}
+
+.features-list {
+    margin-top: 15px;
+    margin-left: 75px;
+    list-style-type: disc;
+}
+
+.features-list li {
+    padding: 10px 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+.right {
+    width: 380px;
+    float: right;
+}
+
+.sign-up-form {
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+
+
 
 
 
