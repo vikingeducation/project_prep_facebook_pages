@@ -17,6 +17,12 @@ header {
   vertical-align: middle;
 }
 
+h1 {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: bold;
+}
+
 header h3 {
   color: WhiteSmoke;
   display: inline-block;
@@ -29,6 +35,10 @@ header h3 {
   width: 30px;
   height: 30px;
   display: inline-block;
+}
+
+.empty {
+  line-height: 22px;
 }
 
 /*
@@ -53,13 +63,16 @@ header {
   width: 620px;
 }
 
-
-
-
 #profile-photo {
-  position: relative;
-  bottom: 110px;
-  left: 11px;
+  position: absolute;
+  top: 222px;
+  left: 30px;
+}
+
+.user-photos h1 {
+  position: absolute;
+  left: 195px;
+  top: 266px;
 }
 
 /*
@@ -88,4 +101,12 @@ header {
 
 .search-bar {
   padding: 2px;
+}
+
+.number-count {
+  color: lightgray;
+}
+
+.nav-title {
+  border: solid black 2px;
 }
