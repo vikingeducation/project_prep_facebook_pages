@@ -220,27 +220,34 @@ span {
 /* --------------- */
 
 .page-nav {
-    display: table;
     width: 100%;
     border: 1px solid #000;
+		display: flex;
+		flex-direction: row; 
 }
 
-.page-nav li {
-    display: inline-block;
+.page-nav p {
     border-right: 1px solid #000;
+		margin: 0; 
     padding: 10px 20px;
 }
 
-.page-nav li:first-child {
+.page-nav p:first-child, 
+.page-nav p:last-child {
+ 		text-align: right;  
+}
+
+#intro {
     margin-left: 170px;
     border-left: 1px solid #000;
 }
 
-.page-nav li:last-child {
-    border: none;
-    padding-left: 345px;
-    padding-right: 5px;
+.page-nav p:last-child {
+    margin-left: 345px;
+ 	  padding-right: 5px;
+		border: none; 
 }
+
 .active {
     background-color: #eee;   
 }
