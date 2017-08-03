@@ -23,6 +23,15 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 26px;
+  margin: 20px 0px 20px 30px;
+}
+
+.grid_7 h2 {
+  margin: 20px 1px 20px 10px;
+}
+
 header h3 {
   color: WhiteSmoke;
   display: inline-block;
@@ -45,6 +54,8 @@ a {
 .empty {
   line-height: 22px;
 }
+
+
 
 /*
 ==========================================================
@@ -87,6 +98,7 @@ header {
 
 nav {
   margin-bottom: 10px;
+  height: 50px;
 }
 
 .nav-title {
@@ -104,7 +116,7 @@ nav {
 }
 
 .nav-title:last-child {
-  padding-right: 10px;
+  padding-left: 10px;
   text-decoration: underline;
   color: blue;
 }
@@ -115,7 +127,44 @@ nav {
   vertical-align: middle;
 }
 
-/*
+
+.about h1 {
+  text-align: center;
+}
+
+
+.about-heading {
+  background-color: lightgray;
+  border: solid 2px black;
+}
+
+.same-line {
+  display: inline-flex;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.same-line:nth-child(5) {
+  margin-bottom: 20px;
+}
+
+.top {
+  padding-top: 70px;
+}
+
+.col_2 {
+  position: relative;
+  bottom: 303px;
+}
+
+.about-info {
+  height: 400px;
+}
+
+.about {
+  margin-right: 5px;
+}
+
 ==========================================================
 Module rules
 ==========================================================
@@ -152,4 +201,22 @@ header {
 .nav-title {
   border-bottom: solid black 2px;
   border-right: solid black 2px;
+}
+
+.about-info {
+  border-left: solid black 2px;
+  border-bottom: solid black 2px;
+  border-right: solid black 2px;
+}
+
+.about-heading a {
+  background-color: #2B78E3;
+  color: whitesmoke;
+  text-align: center;
+  font-weight: bold;
+  padding: 7px;
+  position: relative;
+  bottom: 33px;
+  right: 10px;
+  box-shadow: 1px 5px 2px 2px black;
 }
