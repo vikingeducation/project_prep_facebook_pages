@@ -101,17 +101,11 @@ span {
 .sign-up-form tr {
     line-height: 35px;
 }
-
-.sign-up-form input:last-child {
-    height: auto;
+.full {
+    width: 370px
 }
 
-.full input {
-    column-span: all;
-    width: 370px;
-}
-
-.full input {
+.half {
     width: 185px;
 }
 
