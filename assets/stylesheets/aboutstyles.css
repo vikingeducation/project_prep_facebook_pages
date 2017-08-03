@@ -127,6 +127,10 @@ nav {
   vertical-align: middle;
 }
 
+.number-nav {
+  color: lightgray;
+  margin-left: 5px;
+}
 
 .about h1 {
   text-align: center;
@@ -165,6 +169,24 @@ nav {
   margin-right: 5px;
 }
 
+.friend-box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.friend-picture {
+  margin: 5px 5px 5px 5px;
+  width: 75px;
+  height: 75px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.friend-badges {
+  position: relative;
+  left: 30px;
+}
 ==========================================================
 Module rules
 ==========================================================
@@ -219,4 +241,34 @@ header {
   bottom: 33px;
   right: 10px;
   box-shadow: 1px 5px 2px 2px black;
+}
+
+.friend-box {
+  border: solid black 2px;
+  height: 110px;
+}
+
+.friend-name {
+  margin-left: 10px;
+  position: relative;
+  left: 10px;
+}
+
+.number-count {
+  position: relative;
+  bottom: 33px;
+  left: 110px;
+}
+
+
+.unfriend-button {
+  background-color: gray;
+  border: solid black 2px;
+  box-shadow: 2px 2px 1px 1px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  bottom: 60px;
+  left: 250px;
+  width: 100px;
 }
