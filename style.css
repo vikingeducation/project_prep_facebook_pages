@@ -84,10 +84,38 @@ span {
     float: right;
 }
 
-.sign-up-form {
-    margin-left: 15px;
-    margin-top: 40px;
+.sign-up {
+    margin: 40px 0 15px 10px;
 }
+
+
+.sign-up-form {
+    width: 370px;
+    margin-top: 10px;
+}
+
+.sign-up-form table {
+    width: 100%;
+}
+
+.sign-up-form tr {
+    line-height: 35px;
+}
+
+.sign-up-form input:last-child {
+    height: auto;
+}
+
+.full input {
+    column-span: all;
+    width: 370px;
+}
+
+.full input {
+    width: 185px;
+}
+
+
 
 
 

@@ -40,22 +40,22 @@
         </section>
         
         <section class="right">
-            <div class="sign-up-form"> 
+            <div class="sign-up"> 
                 <h1>Sign Up</h1>
-                <form>
+                <form class="sign-up-form">
                     <table>
                         <tr>
-                            <td><input type="text" name="first-name" placeholder="First Name"></td>
-                            <td><input type="text" name="last-name" placeholder="Last Name"></td>
+                            <td class="half"><input type="text" name="first-name" placeholder="First Name"></td>
+                            <td class="half"><input type="text" name="last-name" placeholder="Last Name"></td>
                         </tr>
                         <tr>
-                            <td><input type="email" name="email-address" placeholder="Your Email"> </td>
+                            <td class="full"><input type="email" name="email-address" placeholder="Your Email"> </td>
                         </tr>
                         <tr>
-                            <td><input type="text" name="password" placeholder="Your New Password"></td>
+                            <td class="full"><input type="text" name="password" placeholder="Your New Password"></td>
                         </tr>
                         <tr>
-                            <td><input type="text" name="confirm-password" placeholder="Confirm Your Password"></td>
+                            <td class="full"><input type="text" name="confirm-password" placeholder="Confirm Your Password"></td>
                         </tr>
                         <tr>
                             <td><h3>Birthday</h3></td>
@@ -75,8 +75,8 @@
                             <option value="October">Oct</option>
                             <option value="November">Nov</option>
                             <option value="December">Dec</option>
-                            </select></td>
-                        <td><select name="Day">
+                            </select>
+                        <select name="Day">
                             <option value="" selected>Day</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
@@ -109,8 +109,8 @@
                             <option value="29">29</option>
                             <option value="30">30</option>
                             <option value="31">31</option>
-                            </select></td>
-                        <td><select name="Year">
+                            </select>
+                        <select name="Year">
                             <option value="" selected>Year</option>
                             <option value="1905">1905</option>
                             <option value="1906">1906</option>
@@ -228,11 +228,11 @@
                             </select></td>            
                         </tr>    
                         <tr>
-                            <td><input type="radio" name="gender" value="Female">  Female</td>
-                            <td><input type="radio" name="gender" value="Male"> Male</td>
+                            <td><input type="radio" name="gender" value="Female">  Female
+                            <input type="radio" name="gender" value="Male"> Male</td>
                         </tr>
                         <tr>    
-                            <td><button name="submit">Create Account</button></td>
+                            <td class="full"><button name="submit">Create Account</button></td>
                         </tr>
                     </table>
                 </form>
