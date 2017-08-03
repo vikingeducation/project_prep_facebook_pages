@@ -28,10 +28,20 @@ h3 {
     font-size: 115%;
 }
 
+/* NAV */
+
 .login-nav { 
     height: 75px;
+}
+
+.login-nav,
+.main-nav    { 
     background-color: #6681cb;
     width: 100%;
+}
+
+.main-nav {
+    height:30px;
 }
 
 .title {
@@ -41,23 +51,60 @@ h3 {
 }
 
 .title,
+.logo,
 .left h2 {
     padding-left: 25px;
 }
 
-.login {
+.logo, 
+.title-page, 
+#search {
+    float: left;
+}
+
+.logo, 
+.title-page, 
+#search,
+.nav-user-name {
+    padding-top: 5px;
+}
+
+.title-page {
+    padding-left: 10px;
+}
+
+#search {
+    padding-left: 30px;
+}
+
+.searchbox {
+    width: 500px;
+}
+
+.login,
+.nav-user-name {
     float: right;
+}
+
+.nav-user-name {
+    padding-right: 10px;
+}
+
+.login {
     padding-top: 20px;
     padding-right: 25px; 
 }
 
-.nav-text {
+.nav-text,
+.title-page {
     color: #fff;
 }
 
 .login-table td {
     padding: 2px 5px 0px 5px;
 }
+
+/* SIGN UP PAGE */
 
 .left {
     width: 610px;
