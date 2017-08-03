@@ -109,6 +109,16 @@ span {
     width: 185px;
 }
 
+.submit-btn {
+    background-color: #5591c4;
+    border-radius: 2px;
+}
+
+.submit-btn,
+.sign-up-btn {
+    color: #fff;
+}
+
 .sign-up-btn {
     font-size: 20px;
     vertical-align: center;
