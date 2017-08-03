@@ -28,7 +28,9 @@ h3 {
     font-size: 115%;
 }
 
-/* NAV */
+/* ------------------ */
+/*       NAV          */
+/* ------------------ */
 
 .login-nav { 
     height: 75px;
@@ -51,7 +53,6 @@ h3 {
 }
 
 .title,
-.logo,
 .left h2 {
     padding-left: 25px;
 }
@@ -69,12 +70,17 @@ h3 {
     padding-top: 5px;
 }
 
+.logo {
+    width: 20px; 
+    padding-left: 5px;
+}
+
 .title-page {
     padding-left: 10px;
 }
 
 #search {
-    padding-left: 30px;
+    padding-left: 75px;
 }
 
 .searchbox {
