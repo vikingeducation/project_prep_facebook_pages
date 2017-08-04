@@ -131,7 +131,7 @@ h3 {
     padding: 10px 0;
 }
 
-span {
+.bold {
     font-weight: bold;
 }
 
@@ -285,10 +285,22 @@ span {
     margin-right: 5px; 
 }
 
-.about-box {
+.about-box,
+.friends-box {
     border: 1px solid #000;
     border-top: hidden;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.left-about-box, 
+.left-friends-box {
+    float: left; 
+}
+
+.right-about-box,
+.right-friends-box {
+    float: right; 
 }
 
 .left-about-box,
@@ -296,14 +308,59 @@ span {
     margin-top: 30px; 
 }
 
+
+.left-friends-box, 
+.right-friends-box {
+    margin: 30px 20px 0 20px;
+    width: 460px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.left-friends-box { 
+    margin-right: 10px;
+}
+
+.right-friends-box { 
+    margin-left: 10px;
+}
+
+.friend-box {
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+.friend-box img {
+    float: left;
+    width: 75px;
+}
+
+.friend-box p {
+    float: left;
+    padding: 20px 10px 0 10px;
+    line-height: 1.2;
+}
+
+.friend-count {
+    color: #7c7c7c;
+}
+
+.unfriend-btn {
+    background-color: #eee;
+    position: absolute;
+    left: 350px;
+    top: 35px;
+}
+
 .left-about-box {
-    float: left; 
     margin-left: 40px; 
     width: 400px;
 }
 
 .right-about-box {
-    float: right; 
     width: 500px;
     margin-right: 40px;
 }
