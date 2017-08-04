@@ -28,13 +28,13 @@ h2 {
   margin: 20px 0px 20px 30px;
 }
 
-.grid_7 h2 {
-  margin: 20px 1px 20px 10px;
-}
-
 header h3 {
   color: WhiteSmoke;
   display: inline-block;
+}
+
+.grid_7 h2 {
+  margin: 20px 1px 20px 10px;
 }
 
 a {
@@ -55,7 +55,16 @@ a {
   line-height: 22px;
 }
 
+#profile-photo {
+  position: relative;
+  bottom: 125px;
+  left: 20px;
+  margin-right: -157px;
+}
 
+.user-photos {
+  height: 280px;
+}
 
 /*
 ==========================================================
@@ -77,17 +86,6 @@ header {
 
 .search-bar {
   width: 620px;
-}
-
-#profile-photo {
-  position: relative;
-  bottom: 125px;
-  left: 20px;
-  margin-right: -157px;
-}
-
-.user-photos {
-  height: 280px;
 }
 
 .user-photos h1 {
