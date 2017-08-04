@@ -272,6 +272,7 @@ span {
     background-color: #eee;
     text-align: center;
     position: relative;
+    font-weight: bold;
 }
 
 .edit-profile-btn {
