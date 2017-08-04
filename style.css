@@ -187,11 +187,11 @@ span {
 }
 
 /* --------------- */
-/*    ABOUT PAGE   */
+/*    MAIN PAGES   */
 /* --------------- */
 
 
-.background {
+.header {
     position: relative;
 }
 
@@ -259,4 +259,28 @@ span {
 #edit-profile-link {
     color: #1a61d3;
     text-decoration: underline;
+}
+
+/* --------------- */
+/*    ABOUT PAGE   */
+/* --------------- */
+
+.headline-box {
+    border: 1px solid #000;
+    line-height: 250%;
+    margin-top: 20px;
+    background-color: #eee;
+    text-align: center;
+    position: relative;
+}
+
+.edit-profile-btn {
+    background-color: #495fd6;
+    color: #fff;
+    position: absolute;
+    left: 880px;
+    top: 10px;
+    z-index: 1;
+    margin-right: 5px; 
+    
 }
