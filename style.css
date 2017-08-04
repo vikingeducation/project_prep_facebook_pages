@@ -287,6 +287,7 @@ span {
 .about-box {
     border: 1px solid #000;
     border-top: hidden;
+    padding-bottom: 30px;
 }
 
 .left-about-box,
@@ -310,9 +311,13 @@ span {
     margin: 20px 0 10px 0;
 }
 
+.info-table {
+    table-layout: fixed;
+    width: 300px; 
+}
+
 .info-table td {
     padding: 10px 10px 10px 0;
-    
 }
 
 .info-table td:first-child {
