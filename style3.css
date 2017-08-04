@@ -1,0 +1,202 @@
+.Rectangle {
+position: static;
+width: 100%;
+height: 75px;
+background-color: blue;
+border: 1px solid black;
+}
+
+.Heading {
+color: white;
+padding-left: 5%;
+font-weight: bold;
+font-size: 200%;
+position: absolute;
+margin-top: 1%;
+font-family: "Lucida Grande",arial,sans-serif;
+}
+
+h5 {
+  color: white;
+  font-weight: bold;
+  font-family: "Lucida Grande",arial,sans-serif;
+  position: relative;
+  left: 89%;
+  bottom: -5px;
+}
+
+button {
+  color: black;
+  background-color: grey;
+  outline: 1px solid black;
+  position: relative;
+  left: 419px;
+  bottom: 35px;
+}
+
+input[name="Search"] {
+  display: block;
+  margin: auto;
+  width: 60%;
+  height: 4%;
+  position: absolute;
+  top: 4.5%;
+  left: 20%;
+}
+
+#Uni2 {
+position: relative;
+left: 4.5%;
+bottom: -.1px;
+border: 1px solid black;
+width:1200px;
+height:360px;
+}
+
+#Uni3 {
+  width: 190px;
+  height: 230px;
+  position: absolute;
+  left: 6.4%;
+  bottom: 100px;
+  outline: 1px solid black;
+}
+
+input[class="btn"] {
+  background-color: white;
+  position: relative;
+  left: 22%;
+  bottom: 122px;
+  height: 102px;
+  width: 170px;
+  border: 1px solid black;
+  font-weight: bold;
+  float: left;
+}
+
+input[class="btn"]:hover{
+  background-color: gray;
+}
+
+#HG{
+  position: relative;
+  left: 180px;
+  bottom: 28px;
+}
+
+h3 {
+  font-size: 200%;
+  font-family: "Lucida Grande",arial,sans-serif;
+  position: relative;
+  right: 5%;
+}
+
+.Box {
+  width:305px;
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+  width: 90.5%;
+  background-color: lightgray;
+  position: relative;
+  bottom: 20px;
+}
+
+#happybox {
+  border: 1px solid black;
+  position: relative;
+  left: 4.5%;
+  width:1200px;
+  height:100px;
+}
+
+#Uni {
+  position: relative;
+  top: -57px;
+  left: 3px;
+  pointer-events: none;
+}
+
+strong {
+  position: relative;
+  bottom: 179px;
+  right: 30%;
+  font-size: 200%;
+  font-family: "Lucida Grande",arial,sans-serif;
+}
+
+#Edit {
+  position: relative;
+  left: 85%;
+  bottom: 60px;
+}
+
+#Boxed1{
+  outline: 1px solid black;
+  position: relative;
+  left: 3.5%;
+  width: 350px;
+  top: 40px;
+}
+
+#Boxed2{
+  outline: 1px solid black;
+  position: relative;
+  left: 3.5%;
+  width: 350px;
+  top: 40px;
+}
+
+#Boxed3{
+  outline: 1px solid black;
+  position: relative;
+  left: 3.5%;
+  width: 350px;
+  top: 40px;
+}
+
+#Boxed4{
+  outline: 1px solid black;
+  position: relative;
+  left: 52%;
+  bottom: 613px;
+  width: 350px;
+}
+
+#Boxed5{
+  outline: 1px solid black;
+  position: relative;
+  left: 52%;
+  bottom:613px;
+  width: 350px;
+}
+
+#Boxed6{
+  outline: 1px solid black;
+  position: relative;
+  left: 52%;
+  bottom:613px;
+  width: 350px;
+}
+
+h4 {
+  position: relative;
+  left: 45%;
+  bottom: 69px;
+}
+
+#KH1{
+  position: relative;
+  left: 10px;
+  top: 50px;
+}
+
+.Boxed{
+  outline: 1px solid black;
+  position: relative;
+  bottom: 20px;
+  align: center;
+  height: 750px;
+  width: 90.6%;
+  left: 62.5px;
+}
