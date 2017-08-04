@@ -1,0 +1,72 @@
+
+/* Imports */
+@import 'reset';
+
+
+
+
+
+/* Variables */
+
+/* Fonts */
+$font-normal: 16px;
+$line-height-normal: ($font-normal * 1.5);
+$font-medium: 26px
+$line-height-medium: ($font-medium * 1.5);
+$font-medium-large: ($font-normal * 2);
+$line-height-medium-large: ($font-medium * 1.5);
+
+/* Colors */
+$primary-color: whitesmoke;
+$secondary-color: #2B78E3;
+
+
+/* Mixins */
+
+
+
+
+
+
+/*
+=================================
+Base Styles
+=================================
+*/
+
+html {
+  font-size: $font-normal;
+  line-height: $line-height;
+  font-family: sans-serif;
+}
+
+header {
+  display: inline-block;
+  line-height: $line-height;
+  vertical-align: middle;
+  h3 {
+    color: $primary-color;
+    display: inline-block;
+  }
+}
+
+h1 {
+  font-size: $font-medium-large;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: $font-medium;
+  margin: 20px 0px 20px 30px;
+}
+
+.grid_7{
+ h2 {
+   margin: 20px 1px 20px 10px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
