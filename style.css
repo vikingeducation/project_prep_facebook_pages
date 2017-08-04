@@ -282,5 +282,44 @@ span {
     top: 10px;
     z-index: 1;
     margin-right: 5px; 
+}
+
+.about-box {
+    border: 1px solid #000;
+    border-top: hidden;
+}
+
+.left-about-box,
+.right-about-box {
+    margin-top: 30px; 
+}
+
+.left-about-box {
+    float: left; 
+    margin-left: 40px; 
+    width: 400px;
+}
+
+.right-about-box {
+    float: right; 
+    width: 500px;
+    margin-right: 40px;
+}
+
+.info-box h2 {
+    margin: 20px 0 10px 0;
+}
+
+.info-table td {
+    padding: 10px 10px 10px 0;
     
 }
+
+.info-table td:first-child {
+    font-weight: bold; 
+}
+
+.info-table td: last-child {
+    padding-left: 5px; 
+}
+
