@@ -1,0 +1,189 @@
+.Rectangle {
+position: static;
+width: 100%;
+height: 75px;
+background-color: blue;
+border: 1px solid black;
+}
+
+.Heading {
+color: white;
+padding-left: 5%;
+font-weight: bold;
+font-size: 200%;
+position: absolute;
+margin-top: 1%;
+font-family: "Lucida Grande",arial,sans-serif;
+}
+
+h5 {
+  color: white;
+  font-weight: bold;
+  font-family: "Lucida Grande",arial,sans-serif;
+  position: relative;
+  left: 89%;
+  bottom: -5px;
+}
+
+h3 {
+  font-weight: bold;
+    font-size: 44px;
+    font-family: "Lucida Grande",arial,sans-serif;
+    display: block;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    bottom: -30px;
+    left: -30%;
+}
+
+#h2 {
+  position: relative;
+  left: 175px;
+}
+
+input[name="Search"] {
+  display: block;
+  margin: auto;
+  width: 60%;
+  height: 4%;
+  position: absolute;
+  top: 4.5%;
+  left: 20%;
+}
+
+#Uni {
+  position: relative;
+  top: -57px;
+  left: 3px;
+  pointer-events: none;
+}
+
+#Uni2 {
+position: relative;
+left: 4.5%;
+bottom: -.1px;
+border: 1px solid black;
+width:1200px;
+height:360px;
+}
+
+#Uni3 {
+  width: 190px;
+  height: 230px;
+  position: absolute;
+  left: 6.4%;
+  bottom: 100px;
+  outline: 1px solid black;
+}
+
+button {
+  color: white;
+  background-color: blue;
+  outline-color: black;
+  position: relative;
+  left: 80%;
+  bottom: 33px;
+  width: 155px;
+  height: 40px;
+}
+
+input[class="btn"] {
+  background-color: white;
+  position: relative;
+  left: 22%;
+  bottom: 122px;
+  height: 102px;
+  width: 170px;
+  border: 1px solid black;
+  font-weight: bold;
+  float: left;
+}
+
+input[class="btn"]:hover{
+  background-color: gray;
+}
+
+.Box {
+  width:305px;
+  border: 1px solid black;
+  display: block;
+  margin: auto;
+  width: 90%;
+  background-color: lightgray;
+  position: relative;
+  bottom: 20px;
+}
+
+.boxed {
+ border: 1px solid black;
+ background-color: white;
+ width: 100%;
+ height: 381px;
+ position: static;
+ margin-left: -1px;
+ margin-top: 6px;
+ }
+
+#happybox {
+  border: 1px solid black;
+  position: relative;
+  left: 4.5%;
+  width:1200px;
+  height:100px;
+}
+
+p {
+  font-size: 9px;
+}
+
+h6 {
+  font-size: 9px;
+  font-family: "Lucida Grande",arial,sans-serif;
+  position: relative;
+  left: 15%;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Lucida Grande",arial,sans-serif;
+}
+
+strong {
+  position: relative;
+  bottom: 179px;
+  right: 30%;
+  font-size: 200%;
+  font-family: "Lucida Grande",arial,sans-serif;
+}
+
+#Edit {
+  position: relative;
+  left: 85%;
+  bottom: 60px;
+}
+
+
+#col {
+  position: relative;
+  left: 20%;
+  bottom: 285px;
+  font-style: normal;
+}
+
+#col2 {
+  position: relative;
+  left: 20%;
+  bottom: 222px;
+  font-style: normal;
+}
+
+#Words {
+  width: 385px;
+  position: relative;
+  bottom: 585px;
+  float: right;
+  margin-right: 15%;
+  margin-top: -1%;
+  font-family: "Lucida Grande",arial,sans-serif;
+}
