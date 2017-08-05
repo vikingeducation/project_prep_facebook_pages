@@ -48,7 +48,6 @@ a {
 .header-logo {
   width: 30px;
   height: 30px;
-  display: inline-block;
 }
 
 .empty {
@@ -81,7 +80,6 @@ header {
   width: auto;
   background-color: #2B78E3;
   position: absolute;
-
 }
 
 .search-bar {
@@ -185,6 +183,8 @@ nav {
   position: relative;
   left: 30px;
 }
+
+/*
 ==========================================================
 Module rules
 ==========================================================
