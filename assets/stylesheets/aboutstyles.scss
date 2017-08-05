@@ -1,20 +1,15 @@
 
 /* Imports */
-@import 'reset';
-
-
-
-
 
 /* Variables */
 
 /* Fonts */
 $font-normal: 16px;
-$line-height-normal: ($font-normal * 1.5);
-$font-medium: 26px
-$line-height-medium: ($font-medium * 1.5);
-$font-medium-large: ($font-normal * 2);
-$line-height-medium-large: ($font-medium * 1.5);
+$line-height-normal: 22px;
+$font-medium: 26px;
+$line-height-medium: 40px;
+$font-medium-large: 32px;
+$line-height-medium-large: 44px;
 
 /* Colors */
 $primary-color: whitesmoke;
@@ -41,17 +36,20 @@ Base Styles
 
 html {
   font-size: $font-normal;
-  line-height: $line-height;
+  line-height: $line-height-normal;
   font-family: sans-serif;
 }
 
 header {
   display: inline-block;
-  line-height: $line-height;
+  line-height: $line-height-normal;
   vertical-align: middle;
+  background-color: $secondary-color;
   h3 {
     color: $primary-color;
     display: inline-block;
+    vertical-align: middle;
+    padding-top: 5px
   }
 }
 
@@ -111,8 +109,11 @@ header {
 .header-bar {
   height: 33px;
   width: auto;
-  background-color: $secondary-color;
   position: absolute;
+}
+
+form {
+  margin-top: 5px;
 }
 
 .search-bar {
@@ -139,11 +140,11 @@ nav {
   display:flex;
   justify-content:center;
   align-items:center;
-  :first-child {
+  &:first-child {
     margin-left: 10px;
     border-left: $plain-border;
   }
-  :last-child {
+  &:last-child {
     padding-left: 10px;
     text-decoration: underline;
     color: $link-color;
@@ -162,20 +163,22 @@ nav {
 .about {
   margin-right: 5px;
   h1 {
-  text-align: center;
+    text-align: center;
+    padding-top: 5px;
   }
 }
 
 .about-heading {
   background-color: $light-color;
   border: $plain-border;
+  height: 36px;
 }
 
 .same-line {
   display: inline-flex;
   padding-left: 10px;
   margin-bottom: 10px;
-  :nth-child(5) {
+  &:nth-child(5) {
     margin-bottom: 20px;
   }
 }
@@ -258,16 +261,17 @@ header {
 }
 
 .about-heading {
-  a {
-  color: $primary-color;
-  text-align: center;
-  font-weight: bold;
-  padding: 7px;
-  position: relative;
-  bottom: 33px;
-  right: 10px;
-  box-shadow: 1px 5px 2px 2px black;
-  }
+      a {
+        color: $primary-color;
+        background-color: $secondary-color;
+        text-align: center;
+        font-weight: bold;
+        padding: 7px;
+        position: relative;
+        bottom: 22px;
+        right: 15px;
+        box-shadow: 1px 5px 2px 2px black;
+      }
 }
 
 .friend-box {
