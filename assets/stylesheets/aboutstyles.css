@@ -1,0 +1,272 @@
+/*
+==========================================================
+Base rules
+==========================================================
+*/
+
+html {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #2B78E3;
+  display: inline-block;
+  line-height: 33px;
+  vertical-align: middle;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 20px 0px 20px 30px;
+}
+
+header h3 {
+  color: WhiteSmoke;
+  display: inline-block;
+}
+
+.grid_7 h2 {
+  margin: 20px 1px 20px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* IMAGES */
+
+.header-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.empty {
+  line-height: 22px;
+}
+
+#profile-photo {
+  position: relative;
+  bottom: 125px;
+  left: 20px;
+  margin-right: -157px;
+}
+
+.user-photos {
+  height: 280px;
+}
+
+/*
+==========================================================
+Layout rules
+==========================================================
+*/
+
+header {
+  height: 33px;
+}
+
+.header-bar {
+  height: 33px;
+  width: auto;
+  background-color: #2B78E3;
+  position: absolute;
+}
+
+.search-bar {
+  width: 620px;
+}
+
+.user-photos h1 {
+  position: relative;
+  bottom: 50px;
+  left: 190px;
+}
+
+nav {
+  margin-bottom: 10px;
+  height: 50px;
+}
+
+.nav-title {
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 44px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.nav-title:first-child {
+  margin-left: 10px;
+  border-left: solid black 2px;
+}
+
+.nav-title:last-child {
+  padding-left: 10px;
+  text-decoration: underline;
+  color: blue;
+}
+
+.nav-title h5,
+.nav-title p {
+  display: inline;
+  vertical-align: middle;
+}
+
+.number-nav {
+  color: lightgray;
+  margin-left: 5px;
+}
+
+.about h1 {
+  text-align: center;
+}
+
+
+.about-heading {
+  background-color: lightgray;
+  border: solid 2px black;
+}
+
+.same-line {
+  display: inline-flex;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.same-line:nth-child(5) {
+  margin-bottom: 20px;
+}
+
+.top {
+  padding-top: 70px;
+}
+
+.col_2 {
+  position: relative;
+  bottom: 303px;
+}
+
+.about-info {
+  height: 400px;
+}
+
+.about {
+  margin-right: 5px;
+}
+
+.friend-box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.friend-picture {
+  margin: 5px 5px 5px 5px;
+  width: 75px;
+  height: 75px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.friend-badges {
+  position: relative;
+  left: 30px;
+}
+
+/*
+==========================================================
+Module rules
+==========================================================
+*/
+
+#title {
+  padding-left: 5px;
+
+}
+
+header {
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+}
+
+#cover-photo {
+ border-bottom: solid black 2px;
+ border-left: solid black 2px;
+ border-right: solid black 2px;
+}
+
+#profile-photo {
+  border: solid black 2px;
+}
+
+.search-bar {
+  padding: 2px;
+}
+
+.number-count {
+  color: lightgray;
+}
+
+.nav-title {
+  border-bottom: solid black 2px;
+  border-right: solid black 2px;
+}
+
+.about-info {
+  border-left: solid black 2px;
+  border-bottom: solid black 2px;
+  border-right: solid black 2px;
+}
+
+.about-heading a {
+  background-color: #2B78E3;
+  color: whitesmoke;
+  text-align: center;
+  font-weight: bold;
+  padding: 7px;
+  position: relative;
+  bottom: 33px;
+  right: 10px;
+  box-shadow: 1px 5px 2px 2px black;
+}
+
+.friend-box {
+  border: solid black 2px;
+  height: 110px;
+}
+
+.friend-name {
+  margin-left: 10px;
+  position: relative;
+  left: 10px;
+}
+
+.number-count {
+  position: relative;
+  bottom: 33px;
+  left: 110px;
+}
+
+
+.unfriend-button {
+  background-color: gray;
+  border: solid black 2px;
+  box-shadow: 2px 2px 1px 1px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  bottom: 60px;
+  left: 250px;
+  width: 100px;
+}
