@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" rel="stylesheet">
+
+    <title>Fastbook - Log In or Sign Up</title>
+
+  </head>
+
+  <body>
+
+    <!-- Main Header  -->
+    <div class="main-head-container">
+      <header class="main-header">
+
+        <h1><a href="#">fastbook</a></h1>
+
+        <table class="header-login">
+          <tr>
+            <td><label for="login-email">Email or Phone</label></td>
+            <td><label for="login-password">Password</label></td>
+          </tr>
+
+          <tr>
+            <td>
+              <input type="email" id="login-email" name="login-email">
+            </td>
+
+            <td>
+              <input type="password" id="login-password" name="login-password">
+            </td>
+
+            <td>
+              <input type="submit"  id="login" name="login" value="Log In">
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td class="forgot"><a href="#">Forgot account?</a></td>
+          </tr>
+        </table>
+
+      </header>
+    </div>
+
+    <!-- Main Content Container -->
+    <main class="clearfix">
+
+
+    <!-- Product Info Block  -->
+      <section class="product-info">
+
+        <h2>Connect with your friends and the world around you on Fastbook.</h2>
+
+        <ul>
+          <li><strong>See photos and updates</strong> from friends in News Feed.</li>
+          <li><strong>Share what's new</strong> in your life on your Timeline.</li>
+          <li><strong>Find more</strong> of what you're looking for with Facebook Search.</li>
+        </ul>
+
+      </section>
+
+
+    <!-- Sign Up Form -->
+      <section class="sign-up">
+
+        <h2>Sign Up</h2>
+        <p class="subhead">It's free and always will be.</p>
+
+        <form method="post"><!--
+       --><input type="text" name="first-name" placeholder="First name" required><!--
+       --><input type="text" name="last-name" placeholder="Last name" required><!--
+       --><input type="email" name="login-email" placeholder="Email address" required><!--
+       --><input type="password" name="new-password" placeholder="New password" required>
+
+          <fieldset>
+
+            <legend>Birthday</legend>
+
+            <select class="birth-month" name="birth-month">
+              <option>Month</option>
+              <option value="Jan">Jan</option>
+              <option value="Feb">Feb</option>
+              <option value="Mar">Mar</option>
+              <option value="Apr">Apr</option>
+              <option value="May">May</option>
+              <option value="Jun">Jun</option>
+              <option value="Jul">Jul</option>
+              <option value="Aug">Aug</option>
+              <option value="Sep">Sep</option>
+              <option value="Oct">Oct</option>
+              <option value="Nov">Nov</option>
+              <option value="Dec">Dec</option>
+            </select>
+
+            <select class="birth-day" name="birth-day">
+              <option>Day</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+
+            <select class="birth-year" name="birth-year">
+              <option value="2003">2003</option>
+              <option value="2002">2002</option>
+              <option value="2001">2001</option>
+              <option value="2000">2000</option>
+              <option selected value="1999">1999</option>
+              <option value="1998">1998</option>
+              <option value="1997">1997</option>
+              <option value="1996">1996</option>
+              <option value="1995">1995</option>
+            </select>
+          </fieldset>
+
+          <p class="age-disclaimer disclaimer">Why do I need to provide my birthday?</p>
+
+          <input type="radio" id="female" name="sex">
+          <label for='female' class="radio-label">Female</label>
+
+          <input type="radio" id="male" name="sex">
+          <label for='male' class="radio-label">Male</label>
+
+          <p class="disclaimer">
+            By clicking Create Account, you agree to our <a href="#">Terms</a> and that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>. You may receive SMS Notifications from Facebook and can opt out at any time.
+          </p>
+
+          <input class="button" type="submit" name="create-account" value="Create Account">
+        </form>
+        <hr>
+        <p class="create-page"><a href="#">Create a Page</a> for a celebrity, band or business.</p>
+
+      </section>
+    </main>
+
+
+    <!-- Footer -->
+
+
+
+  </body>
+</html>
