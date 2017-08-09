@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Facelook</title>
+    <!-- first the css reset, then the stylesheet -->
+    <link rel="stylesheet" type="text/css" href="reset.css"> 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- font-->
+    <link href="https://fonts.googleapis.com/css?family=Inder" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Navbar fixed to top of screen-->
+  	<div class = "navbar">
+      <p>Facelook</p>
+      <div id = "login">
+      	<label>Email</label><label>Password</label><br>
+      	<input type="email" name="userid">
+		<input type="password" name="psw">
+		<button id="btnlogin">Log In</button>
+      </div>
+    </div>
+
+    <div class = "container">
+	    <div class = "list">
+	      <h3>Connect with all your friends!</h3>
+          <ul>
+          	<li>See photos and updates in your news feed</li>
+          	<li>Post your status for the world to see from your profile</li>
+          	<li>Get in touch with your friends by "friending" them</li>
+          	<li>Like things because you're a positive person!</li>
+          </ul>	
+        </div>
+
+	  <div class = "signup">
+	    <h2>Sign Up</h2>
+	    <div id = "form">
+	    	<input type="text" id="firstname" placeholder="First Name" />
+	    	<input type="text" id="lastname" placeholder="Last Name" />
+	    	<br>
+	    	<input type="email" id="email" placeholder="Your Email" />
+	    	<br>
+	    	<input type="password" id="password" placeholder="Your New Password" />
+	    	<br>
+	    	<input type="password" id="confirm" placeholder="Confirm Your Passowrd" />
+	    	<h4>Birthday</h4>
+			<select name="Month">
+				<option value="Month" selected>Month</option>
+			</select>
+			<select name="Day">
+				<option value="Day" selected>Day</option>
+			</select>
+			<select name="Year">
+				<option value="Year" selected>Year</option>
+			</select>
+	    	<br>
+	    	<input type="radio" name="sex" value="Female"> Female
+			<input type="radio" name="sex" value="Male"> Male
+			<br>
+			<button id="btnsignup">Sign Up!</button>
+
+	    </div>
+	  </div>
+
+    </div>
+  </body>
+</html>
+
 
