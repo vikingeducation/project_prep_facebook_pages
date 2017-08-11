@@ -324,3 +324,46 @@ h4 {
 .col1 table {
 	line-height: 25px;
 }
+
+
+/******************************** Friends page ***************************************/
+
+.img-friend {
+	background-image: url("http://www.colorado.edu/ocg/sites/default/files/styles/small_thumbnail/public/people/person-placeholder_7.jpg?itok=kdWvicHs");
+	width: 100px;
+	height: 90px;	
+	text-align: center;
+	margin: 5px;
+	margin-right: 10px;
+}
+
+.friend-card {
+	border: 1px solid black;
+	margin: 5px;
+}
+
+.friend-card td {
+	width: 200px;
+}
+
+.friend-card button {
+	width: 100px;
+	height: 25px;
+	margin: 5px;
+	float: right;
+	border: 2px solid black;
+	background-color: lightgray;
+}
+
+.friend-card #friend-name {
+	font-size: 14px;
+	width: 60%;
+}
+
+.friend-card #friend-name p {
+	color: darkgray;
+}
+
+#friends {
+	width: 100%;
+}
