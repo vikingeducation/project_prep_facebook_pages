@@ -11,6 +11,7 @@
   </head>
   <body>
     <!-- Navbar fixed to top of screen-->
+    <!-- This is a thinner width one with a search bar -->
   	<div class = "navbar-thin">
   		<div id = "navbar-content">
 	      <p>Facelook</p>
@@ -18,19 +19,28 @@
 	      <label>Maddie</label>
 	    </div>  
     </div>
+
+    
+    <!-- the container has a left section and a right section -->
     <div class="newsfeed-container">
+
+      <!--The left section contains all the profiles of recently active friends -->
       <div class="recent">
+
+        <!-- profile pic, name and link to edit profile -->
         <table id="newsfeed-profile">
-          <td>
-            <img class = "img-friend">
+          <td><a href="./about.html"><img class = "img-friend"></a>
           </td>  
           <td>
-            <a id="profile-name" href="#friend">Maddie Potter</a><br><a id="edit-profile" href="#edit">Edit Profile</a>
+            <a id="profile-name" href="./about.html">Maddie Potter</a><br><a id="edit-profile" href="#edit">Edit Profile</a>
           </td>  
         </table>
+
+        <!-- section containing all recently active friends -->
         <h4>Recently Active</h4>
         <table id="newsfeed-recent">
           <tr><td>
+            <!-- created a card with friend profile and repeated card 10 x -->
             <table id="recent-card">
               <td><img class = "img-friend-small"></td>  
               <td><a id="recent-name" href="#friend">Ron Weasley</a><br>
@@ -112,8 +122,12 @@
           </td></tr>
         </table>
         <a id="all-friends" href="#allfriends">See All Your Friends</a>
-      </div>
+      </div> <!--end recent div -->
+
+      <!--The right section contains all the recent posts -->
       <div class="posts">
+
+        <!-- Post 1 -->
         <div id="post1">
           <table>
             <tr><td id="post1-header"><b>Post (copied)</b></td></tr>
@@ -121,6 +135,8 @@
             <tr><td id="post-footer"><button>Post</button></td></tr>
           </table>
         </div>
+
+         <!-- Post 2 -->
         <div id="post2">
            <table>
             <tr><td>
@@ -143,6 +159,8 @@
             <tr><td id="post-footer"><a href="#like">Like</a>&nbsp&nbsp&nbsp<a href="comment">Comment</a></td></tr>
           </table>
         </div>
+
+         <!-- Post 3 -->
         <div id="post3">
            <table>
             <tr><td>
@@ -166,6 +184,8 @@
             </td></tr>
           </table>
         </div>  
+
+         <!-- Post 4 -->
         <div id="post4">
           <table>
             <tr><td>
@@ -234,8 +254,8 @@
             <tr><td><textarea placeholder="  Write a comment..."></textarea></td></tr>
             <tr><td><a id="cancel" href="#cancel">Cancel</a><button>Comment</button></td></tr>
           </table>
-        </div>
-      </div>
-    </div>
+        </div> <!--end post4 div -->
+      </div> <!--end posts div -->
+    </div> <!--end newsfeed-container div -->
   </body>
 </html>    

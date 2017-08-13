@@ -5,6 +5,8 @@ body {
 	font-family: 'Inder', sans-serif;
 }
 
+/********************************* Home page *******************************/
+
 .navbar {
 	background-color: royalblue;
 	color: white;
@@ -22,6 +24,10 @@ body {
 	padding-left: 20px;
 	font-size: 40px;
 	line-height: 10%;
+}
+
+#btnsignup {
+	float: left;
 }
 
 #login {
