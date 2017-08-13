@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Facelook</title>
+    <!-- first the css reset, then the stylesheet -->
+    <link rel="stylesheet" type="text/css" href="reset.css"> 
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- font-->
+    <link href="https://fonts.googleapis.com/css?family=Inder" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navbar fixed to top of screen-->
+    <!-- This is a thinner width one with a search bar -->
+  	<div class = "navbar-thin">
+  		<div id = "navbar-content">
+	      <p>Facelook</p>
+	      <input type="text" name="search" placeholder="Search for Users">
+	      <label>Maddie</label>
+	    </div>  
+    </div>
+
+    <!-- container has a section of a pic background and a foreground profile pic -->
+    <!-- another section is an about me one -->
+    <div class = "container">
+    	<div class = "profile">
+    		<img class = "img-background">
+    		<img class = "img-foreground">
+    		<h3>Maddie Potter</h3>
+    		<ul>
+    		  <li><a href="#empty">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li>
+			  <li><a href="./newsfeed.html">Timeline</a></li>
+			  <li><a href="./about.html">About</a></li>
+			  <li><a href="#Photos">Photos</a></li>
+			  <li><a href="./friends.html">Friends</a></li>
+			  <a href="#editprofile" id="edit">Edit Profile<a>
+			</ul>	
+    	</div>
+
+    	<!-- About section has a basic info and contact info section on the left -->
+    	<!-- and a words-to-live-by and an about me section on the right -->
+    	<div class = "details">
+    		<div id="about-header">
+    			<h3>About</h3>
+    			<button>Edit your profile</button>
+    		</div>
+    		<div class="col1">
+    			<section id="basic">
+    				<h4>Basic Information</h4>
+    				<table>
+    					<tr>
+    						<td><b>Birthday: </b></td>
+    						<td>July 31st, 1980</td>
+    					</tr>
+    					<tr>
+    						<td><b>College: </b></td>
+    						<td>Hogwarts College</td>
+    					</tr>
+    					<tr>	
+    						<td><b>Hometown: </b></td>
+    						<td>Godrick's Hollow, England</td>
+    					</tr>
+    					<tr>	
+    						<td><b>Currently Lives: </b></td>
+    						<td>Godrick's Hollow, England</td>
+    					</tr>
+    				</table>
+    			</section>
+    			<section id="contact">
+    				<h4>Contact Information</h4>
+    				<table>
+    					<tr>
+    						<td><b>Email: </b></td>
+    						<td>maddie_potter@hogwarts.edu</td>
+    					</tr>
+    					<tr>	
+    						<td><b>Telephone: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></td>
+    						<td>555-123-4567</td>
+    					</tr>
+    				</table>
+    			</section>
+    		</div>
+    		<div class="col2">
+    			<section id="words">
+    				<h4>Words to Live By</h4>
+    				<article>
+    					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    					tempor incididunt ut labore et dolore magna aliqua. 
+    				</article>
+    			</section>
+    			<section id="aboutme">
+    				<h4>About Me</h4>
+    				<article>
+    					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    			</section>
+    		</div>
+    	</div>
+    </div>
+  </body>
+</html>    
+
