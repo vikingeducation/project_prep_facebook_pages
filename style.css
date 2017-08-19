@@ -3,4 +3,23 @@ html, body {
     height: 100%;
 }
 
-/* made forms display next to each other */
+/* worked on the header */
+header {
+  height: 90px;
+}
+
+.left-header{
+  float: left;
+}
+
+.right-header{
+  float:right;
+}
+
+div.email {
+  display: inline-block;
+}
+
+label {
+  display: block;
+}
