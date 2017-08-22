@@ -4,22 +4,11 @@ html, body {
 }
 
 /* worked on the header */
-header {
-  height: 90px;
-}
 
-.left-header{
-  float: left;
-}
 
-.right-header{
-  float:right;
-}
+/* worked on the main sections */
 
-div.email {
-  display: inline-block;
-}
-
-label {
-  display: block;
+.main-left {
+  height: 100%;
+  background-color: yellow;
 }
