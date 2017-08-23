@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Facebook First Page</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <!--<![endif]-->
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <!-- 1. creating the header on the top-->
+    <!-- 1.1 adding pure grids to the top-->
+      <div class="pure-g">
+        <div class="pure-u-3-5 blue"><p>
+          <!-- 1.1.1 adding the facelook logo-->
+          <div style="color:white;"id="facelook">Facelook</div>
+        </p></div>
+        <div class="pure-u-2-5 blue"><p>
+          <!-- 1.1.2 adding pure form-->
+          <form class="pure-form">
+              <fieldset>
+                  <input style="width: 35%;" type="email" placeholder="Email">
+                  <input style="width: 35%;" type="password" placeholder="Password">
+                  <button style="background-color:#99C2FE; border: black solid;" type="submit" class="pure-button pure-button-primary"> <a href="about/about.html">Log in</a></button>
+              </fieldset>
+          </form>
+        </p></div>
+      </div>
+    <!-- 2. creating the main section on the middle-->
+    <!-- 2.1 adding a grid -->
+      <div class="pure-g">
+        <div class="pure-u-3-5 white "><p>
+          <!-- 2.1.1 filling a grid -->
+          <section>
+            <h1 style="margin-bottom:5%;">Connect with all your friends!</h1>
+            <ul>
+              <li>See photos and updates on your news feed.</li>
+              <li>Post your status for the world to see on your profile</li>
+              <li>Get in touch with your friends by "friending" them</li>
+              <li>Like things because your a positive person!</li>
+            </ul>
+          </section>
+        </p></div>
+        <div class="pure-u-2-5 white "><p>
+          <!-- 2.1.2 creating the form -->
+          <p id="signup">Sign Up</p>
+          <form class="pure-form pure-form-stacked">
+              <fieldset>
+
+                <section style="display:flex; margin-bottom:3%;">
+                  <input style="margin-right:5%; width:32.5%;" id="first-name" placeholder="First Name">
+                  <input style="width:32.5%;" id="last-name" placeholder="Last Name">
+                </section>
+
+                <input style="margin-bottom:5%; width:70%;" id="email" placeholder="Email">
+
+                <input style="margin-bottom:5%; width:70%;" id="new-password" placeholder="Your New Password">
+
+                <input style="margin-bottom:6%; width:70%;" id="confirm-password" placeholder="Confirm Your Password">
+
+                  <label style="font-size:20px; margin-bottom:2%;" >Birthday</label>
+
+                  <section style="display:flex;">
+                    <select style="margin-right:5%;" id="month">
+                        <option>Month</option>
+                        <option>01</option>
+                    </select>
+                    <select style="margin-right:5%;" id="day">
+                        <option>Day</option>
+                        <option>25</option>
+                    </select>
+                    <select style="margin-right:5%;" id="year">
+                        <option>Year</option>
+                        <option>1998</option>
+                    </select>
+                  </section>
+
+                  <label style="margin-top:3%; margin-bottom:6%;" for="gender" class="pure-checkbox">
+                      <input style="margin-left:0.5%;" id="gender" type="checkbox"> Female &nbsp &nbsp &nbsp &nbsp
+                      <input id="gender" type="checkbox"> Male
+                  </label>
+
+                  <button style="font-size:20px; width:70%; border: black solid; background-color:#00A600;" type="submit" class="pure-button pure-button-primary">Sign Up!</button>
+              </fieldset>
+          </form>
+        </p></div>
+      </div>
+  </body>
+</html>
