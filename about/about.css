@@ -1,0 +1,39 @@
+body, html {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+/* adding some padding to the left and right units  */
+
+.l-box {
+    padding: 1em;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;;
+}
+
+table, th, td {
+    border: none;
+}
+
+.border {
+  border-style: solid;
+  border-width: 1.5px;
+}
