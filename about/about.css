@@ -37,3 +37,11 @@ table, th, td {
   border-style: solid;
   border-width: 1.5px;
 }
+
+.relative {
+  position: relative;
+}
+
+#error {
+  display: none;
+}
