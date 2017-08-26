@@ -3,20 +3,38 @@
 }
 
 nav {
-	display: block;
+	display: flex;
 	box-sizing: border-box;
+	align-items: center;
 	background: #4079DD;
 	color: #fff;
 	width: 110%;
 	height: 100px;
 	margin: -8px -8px 0px -8px;
-	padding: 0px 25px;
+	padding: 0px 25px 0px 30px;
 }
 
 nav h1 {
-		display: inline-block;
-		font-size: 36px;
-		vertical-align: center;
+	font-size: 36px;
+	flex-grow: 4;
+}
+
+.nav-form {
+	margin-right: 8%;
+}
+
+#login-form {
+	vertical-align: center;
+}
+
+.login-field {
+	font-size: 12px;
+}
+
+.login-button {
+	font-size: 14px;
+	background: #A6C4F4;
+	padding: 2px 8px;
 }
 
 .main-container {
