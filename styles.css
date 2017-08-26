@@ -10,7 +10,7 @@ nav {
 	width: 110%;
 	height: 100px;
 	margin: -8px -8px 0px -8px;
-	padding: 0px 20px;
+	padding: 0px 25px;
 }
 
 nav h1 {
@@ -21,4 +21,45 @@ nav h1 {
 
 .main-container {
 	display: flex;
+	box-sizing: border-box;
+	max-width: 1000px;
+	margin: auto;
+	padding: 0px;
+}
+
+.main-info {
+	box-sizing: border-box;
+	width: 60%;
+	padding: 6%;
+	line-height: 2em;
+}
+
+.signup-section {
+	box-sizing: border-box;
+	width: 40%;
+	padding: 3% 3% 0px 0px;
+}
+
+.text-fields {
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.signup-text-field {
+	width: 100%;
+	flex-grow: 2;
+}
+
+.signup-text-field-name {
+	flex-grow: 1;
+	margin-bottom: 20px;
+}
+
+.submit-button {
+	background: #4E9A30;
+	color: #fff;
+	font-size: 18px;
+	width: 100%;
+	padding: 5px 0px;
 }
