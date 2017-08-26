@@ -1,0 +1,24 @@
+.body-defaults {
+	font-family: 'Roboto', sans-serif;
+}
+
+nav {
+	display: block;
+	box-sizing: border-box;
+	background: #4079DD;
+	color: #fff;
+	width: 110%;
+	height: 100px;
+	margin: -8px -8px 0px -8px;
+	padding: 0px 20px;
+}
+
+nav h1 {
+		display: inline-block;
+		font-size: 36px;
+		vertical-align: center;
+}
+
+.main-container {
+	display: flex;
+}
