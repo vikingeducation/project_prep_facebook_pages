@@ -77,12 +77,24 @@ nav h1 {
 	margin-bottom: 20px;
 }
 
+.gender-radios {
+	display: flex;
+	justify-content: space-between;
+}
+
 .submit-button {
 	background: #4E9A30;
 	color: #fff;
 	font-size: 18px;
 	width: 100%;
 	padding: 5px 0px;
+}
+
+@media all and (max-width: 820px) {
+	.gender-radios {
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 @media all and (max-width: 600px) {
@@ -112,18 +124,8 @@ nav h1 {
 	}
 
 	.gender-radios {
+		flex-direction: row;
 		display: flex;
 		justify-content: center;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
