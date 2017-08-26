@@ -9,14 +9,16 @@ nav {
 	background: #4079DD;
 	color: #fff;
 	width: 110%;
-	height: 100px;
+	
 	margin: -8px -8px 0px -8px;
-	padding: 0px 25px 0px 30px;
+	padding: 8px 25px 15px 30px;
 }
 
 nav h1 {
 	font-size: 36px;
 	flex-grow: 4;
+	padding-top: 5px;
+	margin: 0px;
 }
 
 .nav-form {
@@ -25,6 +27,7 @@ nav h1 {
 
 #login-form {
 	vertical-align: center;
+	padding: 0px;
 }
 
 .login-field {
@@ -81,3 +84,46 @@ nav h1 {
 	width: 100%;
 	padding: 5px 0px;
 }
+
+@media all and (max-width: 600px) {
+	nav {
+		flex-flow: row wrap;
+	}
+
+	.main-container {
+		flex-flow: row wrap;
+	}
+
+	.signup-section {
+		width: 100%;
+	}
+
+	.main-info {
+		width: 100%;
+	}
+
+	.sub-heading {
+		text-align: center;
+	}
+
+	.birthday-selects {
+		display: flex;
+		justify-content: center;
+	}
+
+	.gender-radios {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
