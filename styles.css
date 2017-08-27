@@ -153,8 +153,8 @@ nav {
 	align-items: flex-end;
 	width: 70%;
 	height: 58%;
-	top: 50%;
-	left: 3%;
+	top: 51%;
+	left: 2.15%;
 }
 
 #profile-image {
@@ -165,7 +165,7 @@ nav {
 #profile-name {
 	height: 30%;
 	font-size: 3.5vw;
-	margin: 0px 0px 4% 2.5%;
+	margin: 0px 0px 4% 2.8%;
 }
 
 .header-navbar {
@@ -183,8 +183,6 @@ nav {
 
 .header-navbar a {
 	flex-grow: 2;
-	text-decoration: none;
-	color: #1a2a81;
 }
 
 #empty-header-box {
@@ -202,10 +200,16 @@ nav {
 	border-collapse: collapse;
 }
 
+.header-link:hover {
+	background: #BEBEBE;
+}
+
 .header-text {
 	margin: 0px;
 	padding: 0px;
 	text-align: center;
+	text-decoration: none;
+	color: #1a2a81;
 }
 
 .header-edit {
@@ -218,10 +222,48 @@ nav {
 	border: 1px solid #000;
 }
 
-.edit-text {
-	
+#about-header {
+	display: flex;
+	box-sizing: border-box;
+	width: 90%;
+	height: 5%;
+	margin: auto;
+	margin-top: 1%;
+	padding: 0px;
+	border: 2px solid #000;
+	background: #E8E8E8;
 }
 
+.about-header-box {
+	box-sizing: border-box;
+	width: 33.3%;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.about-header-box h2 {
+	margin: 0px;
+	padding: 1.8%;
+	font-size: 2.7vw;
+}
+
+.about-header-box-button {
+	box-sizing: border-box;
+	display: flex;
+	width: 33.4%;
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 3%;
+}
+
+#edit-button {
+	box-sizing: content-box;
+	font-size: 1.6vw;
+	padding: 1.5% 4%;
+	background: #4079DD;
+	color: #fff;
+}
 
 /** Medium Size & Smaller Screens **/
 
