@@ -226,7 +226,6 @@ nav {
 	display: flex;
 	box-sizing: border-box;
 	width: 90%;
-	height: 5%;
 	margin: auto;
 	margin-top: 1%;
 	padding: 0px;
@@ -245,7 +244,7 @@ nav {
 .about-header-box h2 {
 	margin: 0px;
 	padding: 1.8%;
-	font-size: 2.7vw;
+	font-size: 2.6vw;
 }
 
 .about-header-box-button {
@@ -259,10 +258,71 @@ nav {
 
 #edit-button {
 	box-sizing: content-box;
-	font-size: 1.6vw;
-	padding: 1.5% 4%;
+	font-size: 1.5vw;
+	padding: 1.5% 5%;
 	background: #4079DD;
 	color: #fff;
+}
+
+.about-box {
+	display: flex;
+	box-sizing: border-box;
+	width: 90%;
+	margin: auto;
+	margin-top: -2px;
+	padding: 0px 0px 1.5% 0%;
+	border: 2px solid #000;
+}
+
+.about-box-half-1 {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+
+.about-box-half-2 {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+}
+
+.content-section {
+	padding: 2% 3% 0% 10%;
+	font-size: 1.5vw;
+}
+
+#basic-info-table {
+	width: 95%;
+	text-align: left;
+	padding-left: 2%;
+}
+
+#basic-info-table th {
+	font-size: 1.5vw;
+	padding: 1% 0% 1% 0%;
+}
+
+#basic-info-table td {
+	padding-left: 4%;
+	font-size: 1.3vw;
+	padding: 1% 0% 1% 0%;
+}
+
+#contact-info-table th {
+	font-size: 1.5vw;
+	padding: 1% 0% 1% 0%;
+}
+
+#contact-info-table td {
+	padding-left: 4%;
+	font-size: 1.3vw;
+	padding: 1% 0% 1% 0%;
+}
+
+#contact-info-table {
+	width: 95%;
+	text-align: left;
+	padding-left: 2%;
 }
 
 /** Medium Size & Smaller Screens **/
