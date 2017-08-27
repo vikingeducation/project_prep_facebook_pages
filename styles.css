@@ -129,15 +129,22 @@ nav {
 }
 
 #profile-background {
+	box-sizing: border-box;
 	position: relative;
 	width: 100%;
 	opacity: 0.6;
+	margin: 0px;
+	padding: 0px;
+	border: 2px solid #000;
 }
 
 .profile-header {
 	position: relative;
 	width: 90%;
+	max-height: 30%;
 	margin: auto;
+	margin-bottom: 0px;
+	padding: 0px;
 }
 
 .profile-image-box {
@@ -152,15 +159,68 @@ nav {
 
 #profile-image {
 	height: 100%;
+	border: 2px solid #000;
 }
 
 #profile-name {
 	height: 30%;
 	font-size: 3.5vw;
-	margin: 0px 0px 4% 2%;
+	margin: 0px 0px 4% 2.5%;
 }
 
+.header-navbar {
+	display: flex;
+	box-sizing: border-box;
+	width: 90%;
+	font-size: 1.7vw;
+	height: 3em;
+	margin: auto;
+	margin-top: -5px;
+	padding: 0px;
+	border: 1px solid #000;
+	background: #E8E8E8;
+}
 
+.header-navbar a {
+	flex-grow: 2;
+	text-decoration: none;
+	color: #1a2a81;
+}
+
+#empty-header-box {
+	width: 23%;
+	border: 1px solid #000;
+}
+
+.header-link {
+	display: flex;
+	width: 8%;
+	flex-grow: 1;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+.header-text {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.header-edit {
+	display: flex;
+	align-items: center;
+	flex-grow: 2;
+	margin: 0px;
+	padding: 0px 3%;
+	text-align: right;
+	border: 1px solid #000;
+}
+
+.edit-text {
+	
+}
 
 
 /** Medium Size & Smaller Screens **/
