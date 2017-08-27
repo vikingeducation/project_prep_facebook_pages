@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:ns1="http://sozi.baierouge.fr" id="svg3033" viewBox="0 0 744.09 1052.4" version="1.1" inkscape:version="0.91 r13725">
+  <title id="title3077">Bass Clef</title>
+  <defs id="defs3035">
+    <linearGradient id="linearGradient3770" y2="231.09" gradientUnits="userSpaceOnUse" x2="-190.88" gradientTransform="translate(729.67 -22.021)" y1="770.94" x1="-543.25">
+      <stop id="stop3015-9" style="stop-color:#000000;stop-opacity:.82639" offset="0"/>
+      <stop id="stop3017-0" style="stop-color:#000000" offset="1"/>
+    </linearGradient>
+  </defs>
+  <g id="layer1">
+    <path id="path3" style="fill-rule:evenodd;stroke:#000000;fill:url(#linearGradient3770)" d="m190.85 451.25c11.661 14.719 32.323 24.491 55.844 24.491 36.401 0 65.889-23.372 65.889-52.214s-29.488-52.214-65.889-52.214c-20.314 4.1522-28.593 9.0007-33.143-2.9091 17.976-54.327 46.918-66.709 96.546-66.709 65.914 0 96.969 59.897 96.969 142.97-18.225 190.63-205.95 286.75-246.57 316.19 5.6938 13.103 5.3954 12.631 5.3954 12.009 189.78-86.203 330.69-204.43 330.69-320.74 0-92.419-58.579-175.59-187.72-172.8-77.575 0-170.32 86.203-118 171.93zm328.1-89.88c0 17.852 14.471 32.323 32.323 32.323s32.323-14.471 32.323-32.323-14.471-32.323-32.323-32.323-32.323 14.471-32.323 32.323zm0 136.75c0 17.852 14.471 32.323 32.323 32.323s32.323-14.471 32.323-32.323-14.471-32.323-32.323-32.323-32.323 14.471-32.323 32.323z"/>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Bass Clef</dc:title>
+        <dc:date>2011-04-14T23:54:02</dc:date>
+        <dc:description>A single black &amp; white bass clef.</dc:description>
+        <dc:source>https://openclipart.org/detail/132547/bass-clef-by-jaschon</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>jaschon</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>bass</rdf:li>
+            <rdf:li>black and white</rdf:li>
+            <rdf:li>clef</rdf:li>
+            <rdf:li>f clef</rdf:li>
+            <rdf:li>f-clef</rdf:li>
+            <rdf:li>flag</rdf:li>
+            <rdf:li>music</rdf:li>
+            <rdf:li>music note</rdf:li>
+            <rdf:li>musical notation</rdf:li>
+            <rdf:li>sound</rdf:li>
+            <rdf:li>staff</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

@@ -9,12 +9,14 @@ nav {
 	background: #4079DD;
 	color: #fff;
 	width: 110%;
-	
 	margin: -8px -8px 0px -8px;
+}
+
+#home-nav {
 	padding: 8px 25px 15px 30px;
 }
 
-nav h1 {
+#home-nav h1 {
 	font-size: 36px;
 	flex-grow: 4;
 	padding-top: 5px;
@@ -97,8 +99,40 @@ nav h1 {
 	}
 }
 
+
+/*** About Page ***/
+
+#about-nav {
+	justify-content: space-around;
+	padding: 0px 25px 0px 30px;
+}
+
+#nav-logo {
+	width: 45px;
+	height: 45px;
+}
+
+#logo-name {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+}
+
+#search-box {
+	flex-grow: 2;
+}
+
+#nav-name {
+	flex-grow: 1;
+	text-align: right;
+	padding-right: 10%;
+}
+
+
+/** Medium Size & Smaller Screens **/
+
 @media all and (max-width: 600px) {
-	nav {
+	#home-nav {
 		flex-flow: row wrap;
 	}
 
@@ -129,3 +163,12 @@ nav h1 {
 		justify-content: center;
 	}
 }
+
+
+
+
+
+
+
+
+
