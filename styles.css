@@ -128,6 +128,40 @@ nav {
 	padding-right: 10%;
 }
 
+#profile-background {
+	position: relative;
+	width: 100%;
+	opacity: 0.6;
+}
+
+.profile-header {
+	position: relative;
+	width: 90%;
+	margin: auto;
+}
+
+.profile-image-box {
+	display: flex;
+	position: absolute;
+	align-items: flex-end;
+	width: 70%;
+	height: 58%;
+	top: 50%;
+	left: 3%;
+}
+
+#profile-image {
+	height: 100%;
+}
+
+#profile-name {
+	height: 30%;
+	font-size: 3.5vw;
+	margin: 0px 0px 4% 2%;
+}
+
+
+
 
 /** Medium Size & Smaller Screens **/
 
