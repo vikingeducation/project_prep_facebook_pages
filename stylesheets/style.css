@@ -30,21 +30,26 @@ float: right;
 }
 
 .right-window{
-  width: 35%;
+  width: 50%;
   hight: auto;
-float:right;
 
 
 }
 
 .left-window{
-  width: 65%;
+  width: 50%;
   hight: auto;
 
+
 }
+
+
 /* Main Footer copyrughts */
-.main_footer{
+#copyrights{
+  width: 100%;
+  height: 25px;
 font-family: fantasy;
-color: darkgray;
+color: white;
+background-color: #3366ff;
 
 }
