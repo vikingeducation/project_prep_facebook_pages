@@ -1,8 +1,7 @@
 /* NavBar */
 .nav-bar{
 width: 100%;
-height: 75px;
-
+height: 100px;
 background-color: #3366ff;
 font-family: fantasy;
 color: white
@@ -24,24 +23,29 @@ float: right;
 /* Main Window */
 .main-window{
   width: 100%;
-  hight: 100%;
+  height: 100%;
+  display: inline-block;
+
   font-family: fantasy;
   color: darkgray;
 }
 
 .right-window{
   width: 50%;
-  hight: auto;
+  height: auto;
 
+float: right;
 
 }
 
 .left-window{
   width: 50%;
-  hight: auto;
-
+  height: auto;
+float: left;
 
 }
+
+
 
 
 /* Main Footer copyrughts */
@@ -51,5 +55,7 @@ float: right;
 font-family: fantasy;
 color: white;
 background-color: #3366ff;
+text-align: center;
+
 
 }
