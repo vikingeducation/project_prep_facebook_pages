@@ -1,28 +1,46 @@
 /* NavBar */
 .nav-bar{
-font-family: fantasy;
-color: white;
-}
+width: 100%;
+height: 75px;
 
+background-color: #3366ff;
+font-family: fantasy;
+color: white
+
+}
+.nav-sign-in{
+float: right;
+}
+.nav-logo{
+  float:left;
+}
 /* Main Container */
 .main-container{
     width: 100%;
     hight: 100%;
-    background-color: gray;
+
 
 }
 /* Main Window */
 .main-window{
+  width: 100%;
+  hight: 100%;
   font-family: fantasy;
   color: darkgray;
 }
 
 .right-window{
+  width: 35%;
+  hight: auto;
+float:right;
+
 
 }
 
 .left-window{
-  
+  width: 65%;
+  hight: auto;
+
 }
 /* Main Footer copyrughts */
 .main_footer{
