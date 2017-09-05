@@ -1,0 +1,32 @@
+/* NavBar */
+.nav-bar{
+font-family: fantasy;
+color: white;
+}
+
+/* Main Container */
+.main-container{
+    width: 100%;
+    hight: 100%;
+    background-color: gray;
+
+}
+/* Main Window */
+.main-window{
+  font-family: fantasy;
+  color: darkgray;
+}
+
+.right-window{
+
+}
+
+.left-window{
+  
+}
+/* Main Footer copyrughts */
+.main_footer{
+font-family: fantasy;
+color: darkgray;
+
+}
