@@ -1,1 +1,67 @@
 /* About page css*/
+.boldie{
+  font-weight: bold;
+}
+.container{
+  width: 100%;
+  height: 100%;
+
+}
+.upper-window{
+  width: auto;
+  height: auto;
+
+}
+.lower-window{
+  width: 80%;
+  height: auto;
+
+
+}
+.basic-info{
+  height: auto;
+  width: 40%;
+
+}
+
+.contact-info{
+  width:40%;
+  height: auto;
+
+
+}
+
+.about-me-text{
+  width:45%;
+  height: auto;
+float: right;
+
+}
+
+.search-bar{
+  width:100%;
+  height: 100px;
+
+}
+.link-bar{
+  width: 80%;
+  height: 50px;
+}
+/*==================================*/
+
+.nav-logo{
+
+  background-color: blue;
+  font-family: fantasy;
+
+  color: white;
+}
+
+.edit-bar{
+  background-color: gray;
+  font-family: fantasy;
+  color: white;
+  width: 80%;
+  height: 80px;
+
+}
