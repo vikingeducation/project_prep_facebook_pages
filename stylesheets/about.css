@@ -58,7 +58,7 @@ margin-right: 578px;
 .link-bar{
   width: 80%;
   height: 50px;
-  margin-left: 400px;
+  margin-left: 380px;
   margin-top: 25px;
 
 }
@@ -69,9 +69,9 @@ margin-right: 578px;
 
   background-color: blue;
   font-family: fantasy;
-
   color: white;
   display: inline;
+
 }
 
 .edit-bar{
@@ -85,7 +85,8 @@ margin-right: 578px;
 .edit-bar>h2{
   color: red;
   text-align: center;
-  
+  margin-top: 7px;
+
 }
 
 .alignright{
@@ -141,9 +142,21 @@ li{
   background: blue;
   color: white;
   box-shadow: 4px 4px gray;
+  margin-right: 10px;
 
 
 }
 .center{
+
+}
+
+#copyrights{
+  width: 1086px;
+  height: 25px;
+font-family: fantasy;
+color: white;
+background-color: #3366ff;
+text-align: center;
+
 
 }
