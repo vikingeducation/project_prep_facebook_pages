@@ -1,0 +1,59 @@
+
+
+  .copyrights{
+    width: 100%;
+    height: 25px;
+    font-family: fantasy;
+    color: white;
+    background-color: #3366ff;
+    text-align: center;
+
+
+  }
+
+  .windowslr{
+    width: 50%;
+    height: auto;
+  }
+
+  .left-window{
+    @extend .windowslr;
+    float: left;
+  }
+
+  .right-window{
+    @extend .windowslr;
+    float: right;
+  }
+
+  .main-container{
+      width: 100%;
+      hight: 100%;
+
+
+  }
+
+  .main-window{
+    @extend .main-container;
+    display: inline-block;
+    font-family: fantasy;
+    color: darkgray;
+
+  }
+
+  .nav-bar{
+  width: 100%;
+  height: 100px;
+  background-color: #3366ff;
+  font-family: fantasy;
+  color: white
+
+  }
+
+  .nav-sign-in{
+  float: right;
+  }
+
+  .nav-logo{
+    float:left;
+  }
