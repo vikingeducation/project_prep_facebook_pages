@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Dennis' Facelook</title>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<nav class="flex-nav">
+		<h1><a href="index.html">Facelook</a></h1>
+		<form action="#" method="get" class="flex-form">
+			<label class = "flex-form-item1" for="login-email">Email</label>
+			<input class = "flex-form-item2" type="text" name="login-email" id="login-email">
+
+			<label class = "flex-form-item3" for="login-password" >Password</label>
+			<input class = "flex-form-item4" type="password" name="login-password" id="login-password">
+
+			<div class = "flex-form-item5">
+				<input type="submit" value="Log In"> 
+			</div>
+		</form>
+	</nav>
+
+	<main class="flex-main">
+		<section id="info">
+			<h2>Connect with all your friends!</h2>
+			<ul>
+				<li><strong>See photos and updates</strong> in your news feed</li>
+				<li><strong>Post your status for the world to see</strong> from your profile</li>
+				<li><strong>Get in touch with your fiends</strong> by "friending" them</li>
+				<li><strong>Like things</strong> because you're a positive person!</li>
+			</ul>
+		</section>
+
+		<section id="signup">
+			<h1>Sign Up</h1>	
+			<form class="flex-signup-form">
+				<input class= "flex-signup-form-item1" type="text" name="content-first-name" id="content-first-name" placeholder="First Name">
+				<input class= "flex-signup-form-item2" type="text" name="content-last-name" id="content-last-name" placeholder="Last Name">
+				<input class= "flex-signup-form-item3" type="text" name="content-email" id="content-email" placeholder="Your Email">
+				<input class= "flex-signup-form-item4" type="password" name="content-password" id="content-password" placeholder="Your New Password">
+				<input class= "flex-signup-form-item5" type="password" name="content-password-confirm" id="content-password-confirm" placeholder="Confirm Your Password">
+
+				<label class= "flex-signup-form-item6" for="signup-birthday">Birthday</label>
+				<select class= "flex-signup-form-item7" name="signup-month">
+					<option value="" disabled selected>Month</option>
+					<option value="january">January</option>
+					<option value="february">February</option>
+					<option value="march">March</option>
+					<option value="april">April</option>
+					<option value="may">May</option>
+					<option value="june">June</option>
+					<option value="july">July</option>
+					<option value="august">August</option>
+					<option value="september">September</option>
+					<option value="october">October</option>
+					<option value="november">November</option>
+					<option value="december">December</option>
+				</select>
+				<select class= "flex-signup-form-item8" name="signup-day">
+					<option value="" disabled selected>Day</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+				</select>
+				<select class= "flex-signup-form-item9" name="signup-month">
+					<option value="" disabled selected>Year</option>
+					<option value="2004">2004</option>
+					<option value="2003">2003</option>
+					<option value="2002">2002</option>
+				</select>
+
+				<div class= "flex-signup-form-item10">
+					<input type="radio" name="signup-gender" id="signup-gender" value="female">
+					<label for="signup-gender">Female</label>
+				</div>
+				<div class= "flex-signup-form-item11">
+					<input type="radio" name="signup-gender" id="signup-gender" value="male">
+					<label for="signup-gender">Male</label>
+				</div>
+
+				<input class= "flex-signup-form-item12" type="submit" value="Sign Up!">
+
+			</form>
+		</section>	
+	</main>
+
+</body>
+</html>

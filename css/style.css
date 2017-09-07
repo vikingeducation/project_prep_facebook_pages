@@ -1,0 +1,244 @@
+:root {
+  --blue: #2a78e5;
+  --lightblue: #9fbffc;
+  --green: #229e0c;
+  --grey: #6c6c6c;
+  --lightgrey: #d4d4d4;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}	
+
+input, textarea, select {
+	font-family: inherit;
+}
+
+strong {
+	font-weight: bold;
+}
+
+h1, h2 {
+	font-weight: 700;
+	margin: 20px;
+}
+
+h1 {
+	font-size: xx-large;
+}
+
+h2 {
+	font-size: x-large;
+}
+
+ul { 
+	list-style: disc outside none;
+	color: var(--grey);
+	margin-left: 60px;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+/* Nav */
+
+nav {
+	width: 100%;
+	height: 55px;
+	background: var(--blue);
+	color: white;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.flex-nav {
+	display: flex;
+	flex-flow: row nowrap;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+nav h1 {
+	flex: 1 1 50px;
+	align-self: center;
+}
+
+nav form {
+	flex: 0 0 500px;
+	align-self: center;
+	margin: 20px;
+}
+
+nav form input[type="submit"] {
+	background: var(--lightblue);
+	font-weight: normal;
+	cursor: pointer;
+	border: 2px solid black;
+}
+
+.flex-form {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	width: 600px;
+}
+
+nav form input[type="text"], nav form input[type="password"] {
+	border: 2px solid black;
+}
+
+.flex-form label {
+	font-size: small;
+	font-weight: normal;
+	margin-bottom: 3px;
+}
+
+.flex-form-item1 {
+	flex: 0 0 33%;
+	order: 1;
+}
+
+.flex-form-item3 {
+	flex: 0 0 64%;
+	order: 2;
+}
+
+.flex-form-item2 {
+	flex: 0 0 30%;
+	order: 3;
+	box-sizing: border-box;
+}
+
+.flex-form-item4 {
+	flex: 0 0 30%;
+	order: 4;
+	box-sizing: border-box;
+}
+
+.flex-form-item5 {
+	flex: 0 0 30%;
+	order: 5;
+}
+
+/* Main */
+/* Main --> #info */
+
+.flex-main {
+	display: flex;
+	flex-flow: row nowrap;
+	width: 990px;
+	align-items: flex-start;
+	margin: 0 auto;
+}
+
+#info {
+	flex: 0 0 60%;
+	margin-top: 50px;
+}
+
+#info > h2 {
+	font-weight: 900;
+}
+
+/* Main --> #signup */
+
+#signup {
+	flex: 0 0 40%;
+}
+
+#signup h1 {
+	margin-left: 0;
+}
+
+.flex-signup-form {
+	display: flex;
+	flex-flow: row wrap;
+	width: 350px;
+	align-content: space-around;
+}
+
+.flex-signup-form input[type="text"], .flex-signup-form input[type="password"] {
+	border: 2px solid var(--lightgrey);
+}
+
+.flex-signup-form-item1 {
+	flex: 0 0 40%;
+	margin-bottom: 10px;
+	margin-right: 6px;
+	box-sizing: border-box;
+}
+
+.flex-signup-form-item2 {
+	flex: 0 0 40%;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.flex-signup-form-item3 {
+	flex: 0 0 98%;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.flex-signup-form-item4 {
+	flex: 0 0 98%;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.flex-signup-form-item5 {
+	flex: 0 0 98%;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+
+
+/* birthday */
+.flex-signup-form-item6 {
+	flex: 0 0 100%;
+	margin: 10px 0;
+}
+.flex-signup-form-item7 {
+	display: block;
+	margin-right: 10px;
+}
+.flex-signup-form-item8 {
+	display: block;
+	margin-right: 10px;
+}
+.flex-signup-form-item9 {
+	display: block;
+	margin-right: 10px;
+}
+
+
+/* female male */
+.flex-signup-form-item10 {
+	margin-top: 15px;
+	flex: 0 0 33%;
+}
+
+.flex-signup-form-item10 label, .flex-signup-form-item11 label {
+	font-size: small;
+}
+
+.flex-signup-form-item11 {
+	flex: 0 0 60%;
+	margin-top: 15px;
+}
+
+/* signup button */
+.flex-signup-form-item12 {
+	flex: 0 0 100%;
+	background: var(--green);
+	color: white;
+	border: 2px solid black;
+	font-size: large;
+	font-weight: 500;
+	padding: 5px 0;
+	box-sizing: border-box;
+	margin-top: 10px;
+	cursor: pointer;
+}
