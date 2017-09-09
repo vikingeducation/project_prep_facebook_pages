@@ -1,1 +1,12 @@
 
+.login {
+  height: 83px;
+  width: 100%;
+  background-color: #3B5998;
+  color: #FFFFFF;
+}
+
+.sign-up {
+  float: right;
+  width: 25%;
+}
