@@ -5,33 +5,35 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="master.css">
     <title>Facebook</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   </head>
   <body>
 
     <header class="login">
-      Facebook
-      <div class="sign-in">
-        <p>Email</p>
-        <input type="email" name="email" value="">
-        <p>Password</p>
-        <input type="password" name="password" value="">
-        <input type="submit" name="submit" value="Log In">
 
-      </div>
+      <p>facebook</p>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" maxlength="30" value="">
+        <label for="password">Password</label>
+        <input type="password" name="password" maxlength="20" value="">
+        <button type="button" name="logIn">Log In</button>
+
+
     </header>
 
     <section class="thank-you">
-      <picture>
-        <img src="/images/thanks.png" alt="thanks">
+
+        <img src="images/thanks.png" alt="thanks">
         <h2>Thanks for stopping by!</h2>
         <p>We hope to see you again soon.</p>
-      </picture>
+
 
     </section>
 
     <section class="sign-up">
-      <h1>Sign Up</h1>
-      <p>It's free and always will be.</p>
+      <h1>Create an account</h1>
+      <h2>It's free and always will be.</h2>
       <form class="sign-up-input" action="index.html" method="post">
         <input type="text" name="firstName" value="First name">
         <input type="text" name="lastName" value="Last name"><br>
@@ -39,9 +41,9 @@
         <input type="password" name="password" value="New password"><br>
         <p>Birthday</p>
         <input type="date" name="birthDate" value=""><br>
-        <input type="radio" name="gender" value="Female"><p>Female</p>
-        <input type="radio" name="gender" value="Male"><p>Male</p>
-        <input type="submit" name="submit" value="Create account">
+        <input type="radio" name="gender" value="Female"><span class="label label-default">Female</span>
+        <input type="radio" name="gender" value="Male"><span class="label label-default">Male</span><br>
+        <button type="button" name="submit">Submit</button>
       </form>
     </section>
 
