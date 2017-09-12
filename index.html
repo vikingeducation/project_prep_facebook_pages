@@ -8,7 +8,7 @@
 </head>
 <body class="flex-body"><!--Flex container for all elements on page.-->
 	<header class="sign-in-header"><!--Flex container for header elements, which are divided into three primary columns.-->
-		<div class="title"><!--Flex container for header logo.-->
+		<div id="title"><!--Flex container for header logo.-->
 			<a href="#" class="header-title">facelook</a>
 		</div>			
 		<div class="header-login"><!--Flex container for header login fields.-->
@@ -21,7 +21,7 @@
 				<input type="password" name="Password" class="password-input">
 			</div>
 		</div>
-		<div class="login"><!--Flex container for header login button.-->
+		<div id="login"><!--Flex container for header login button.-->
 			<input type="button" name="login-button" class="login-button" value="Log In">
 		</div>
 	</header>
@@ -155,4 +155,5 @@
 		<article class="empty"><!--This flex container has no content, but it is included for maintaining spacing consistency; it is beneath the header Log In button column and is of equal column width. The 580px @media query for this column is set to 'display: none' because all of the elements degrade to a single column that makes the spacing requirement unnecessary.-->   
 		</article>
 	</main>
+	<script src="javascript.js"></script>
 </body>

@@ -78,7 +78,7 @@ table {
 	align-items: center;
 	width: 100%;
 }
-.title {/*Flex container for facelook logo.*/
+#title {/*Flex container for facelook logo.*/
 	display: flex;
 	width:50%;
 	margin-bottom: 2rem;
@@ -131,7 +131,7 @@ table {
 	justify-content: center;
 	color: grey; 
 }
-.login {/*Flex container for header login button.*/
+#login {/*Flex container for header login button.*/
 	display: flex;
 	width: 10%;
 	margin-bottom: 1.65rem;	
