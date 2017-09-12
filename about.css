@@ -43,13 +43,13 @@
   height: 200px;
   width: 200px;
   background-color: black;
-  position: fixed;
+  position: absolute;
   margin-top: 350px;
   margin-left: 25px;
 }
 
 .user-name {
-  position: fixed;
+  position: absolute;
   color: pink;
   font-size: 25px;
   margin-top: 500px;
@@ -58,14 +58,63 @@
 
 .user-nav {
   width: 75%;
-  height: 1.5em;
-  float: left;
+  height: 2em;
+  margin: auto;
   text-align: center;
   border: 1px solid black;
+
 }
 
-.user-nav a {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+.user-nav a { /* styling for timeline, about, etc. */
   font-size: 1.4em;
+  width: 75px;
+  height: inherit;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 4px;
+  color: red;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+a[href$="edit"] { /* to float edit profile to right */
+  float: right;
+  font-size: 1em;
+  height: 50%;
+  padding-top: 0.3em;
+  border: 0;
+  color:  #3B5998;
+}
+
+.about-bar {
+  width: 75%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 20px;
+  font-size: 1.6em;
+  background-color: grey
+}
+
+.about-text {
+  width: 75%;
+  height: 500px;
+  background-color: grey;
+  margin: auto;
+}
+
+.basic-content{
+  width: 35%;
+  text-align: center;
+  float: left;
+}
+
+.contact-content{
+  width: 35%;
+  text-align: center;
+  float: right;
+  position: relative;
 }
