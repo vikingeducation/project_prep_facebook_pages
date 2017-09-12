@@ -29,5 +29,43 @@
   display: inline-block;
   font-size: 1.3em;
   padding-right: 120px;
-  padding-left: 260px;
+  padding-left: 240px;
+}
+
+.header-border {
+  height: 550px;
+  width: 75%;
+  background-color: grey;
+  margin: auto;
+}
+
+.profile-pic {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  position: fixed;
+  margin-top: 350px;
+  margin-left: 25px;
+}
+
+.user-name {
+  position: fixed;
+  color: pink;
+  font-size: 25px;
+  margin-top: 500px;
+  margin-left: 250px;
+}
+
+.user-nav {
+  width: 75%;
+  height: 1.5em;
+  float: left;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.user-nav a {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  font-size: 1.4em;
 }
