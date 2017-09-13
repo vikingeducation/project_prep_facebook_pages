@@ -35,22 +35,24 @@
 .header-border {
   height: 550px;
   width: 75%;
-  background-color: grey;
+  background-color: white;
   margin: auto;
+  border: 1px solid black;
 }
 
 .profile-pic {
   height: 200px;
   width: 200px;
-  background-color: black;
+  background-color: white;
   position: absolute;
   margin-top: 350px;
   margin-left: 25px;
+  border: 1px solid black;
 }
 
 .user-name {
   position: absolute;
-  color: pink;
+  color: black;
   font-size: 25px;
   margin-top: 500px;
   margin-left: 250px;
