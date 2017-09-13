@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="home.css">
+    <title>Facebook</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  </head>
+  <body>
+
+    <header class="login">
+
+      <p>facebook</p>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" maxlength="30" value="">
+        <label for="password">Password</label>
+        <input type="password" name="password" maxlength="20" value="">
+        <button type="button" name="logIn">Log In</button>
+
+
+    </header>
+
+    <section class="thank-you">
+
+        <img src="images/thanks.png" alt="thanks">
+        <h2>Thanks for stopping by!</h2>
+        <p>We hope to see you again soon.</p>
+
+
+    </section>
+
+    <section class="sign-up">
+      <h1>Create an account</h1>
+      <h2>It's free and always will be.</h2>
+      <form class="sign-up-input" action="index.html" method="post">
+        <input type="text" name="firstName" value="First name">
+        <input type="text" name="lastName" value="Last name"><br>
+        <input type="email" name="emailAddress" value="Email address"> <br>
+        <input type="password" name="password" value="New password"><br>
+        <p>Birthday</p>
+        <input type="date" name="birthDate" value=""><br>
+        <input type="radio" name="gender" value="Female"><span class="label label-default">Female</span>
+        <input type="radio" name="gender" value="Male"><span class="label label-default">Male</span><br>
+        <button type="button" name="submit">Submit</button>
+      </form>
+    </section>
+
+  </body>
+</html>
