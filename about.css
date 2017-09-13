@@ -96,25 +96,51 @@ a[href$="edit"] { /* to float edit profile to right */
   border: 1px solid black;
   margin-top: 20px;
   font-size: 1.6em;
-  background-color: grey
+  background-color: white;
+  border-bottom: none;
 }
 
 .about-text {
   width: 75%;
-  height: 500px;
+  height: 1000px;
   background-color: grey;
   margin: auto;
+  border: 1px solid black;
 }
 
-.basic-content{
+.basic-content {
   width: 35%;
-  text-align: center;
+
   float: left;
+  padding-left: 100px;
 }
 
-.contact-content{
-  width: 35%;
-  text-align: center;
-  float: right;
-  position: relative;
+.basic-content h2 {
+  font-size: 1.4em;
+  padding: 15px;
+}
+
+.basic-content h3, p {
+  display: inline;
+  padding: 10px;
+  font-size: 1.2em;
+  line-height: 50px;
+
+}
+
+.basic-content h3 {
+  padding-right: 50px;
+  height: 40px;
+  width: 250px;
+
+}
+
+.blurb-content h2 {
+  font-size: 1.4em;
+  padding: 15px;
+}
+
+.blurb-content p {
+  font-size: 1em;
+  line-height: normal;
 }
