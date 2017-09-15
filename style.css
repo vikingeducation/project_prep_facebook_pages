@@ -4,8 +4,10 @@
 	font-family: 'Patrick Hand', cursive;
 }
 
+
+/* Header */
 header{
-	background: #215dc5;
+	background: #2a71ec;
 	padding: 2%;
 	display: flex;
 	justify-content: space-between;
@@ -34,13 +36,22 @@ header form label input{
 }
 
 
+header form input[type="submit"]{
+	background: rgb(77, 136, 239);
+	font-weight: bold;
+}
+
+/* Main container*/
+
 .container{
 	display: flex;
 	margin-top: 2%;
+	align-items: flex-start;
 }
 
 aside{
-	width: 85%;
+	width: 50%;
+	padding: 5% 0;
 }
 
 aside h1{
@@ -49,20 +60,53 @@ aside h1{
 }
 
 .list-items{
-	width: 63%;
+	width: 70%;
 	margin: 0 auto;
 	font-size: 20px;
 }
 
 .list-items ul{
-	margin-left: 29px;
+	margin-left: 100px;
 	line-height: 2.5;
+	list-style-position: inside;
+	opacity: 0.8;
 }
+
+/*Body Forms*/
+
 
 fieldset{
 	border: 0;
 }
 
+fieldset form{
+	width: 100%;
+}
+
 legend{
-	font-size: 25px;
+	font-size: 2.5rem;
+	font-weight: 300;
+	margin-bottom: 8px;
+}
+
+.hiddenLabel{
+	position: absolute;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+#emailSignUp, #newPassword, #confirmPassword{
+	display: block;
+	width: 70%;
+}
+
+fieldset form input[type="email"], input[type="text"], input[type="password"]{
+	margin-bottom: 15px;
+}
+
+fieldset form input:placeholder-shown{
+	padding-left: 8px;
+	font-size: 1.2rem;
 }
