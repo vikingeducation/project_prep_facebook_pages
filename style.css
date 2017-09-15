@@ -1,6 +1,7 @@
 *{
 	box-sizing: border-box;
 	margin: 0;
+	font-family: 'Patrick Hand', cursive;
 }
 
 header{
@@ -35,8 +36,33 @@ header form label input{
 
 .container{
 	display: flex;
+	margin-top: 2%;
 }
 
 aside{
-	width: 100%;
+	width: 85%;
+}
+
+aside h1{
+	text-align: center;
+	font-size: 2.2rem;
+}
+
+.list-items{
+	width: 63%;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+.list-items ul{
+	margin-left: 29px;
+	line-height: 2.5;
+}
+
+fieldset{
+	border: 0;
+}
+
+legend{
+	font-size: 25px;
 }
