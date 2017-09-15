@@ -1,0 +1,22 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+form{
+	margin: 0 1.1rem;
+}
+
+.container{
+	display: flex;
+}
+
+aside{
+	width: 100%;
+}
