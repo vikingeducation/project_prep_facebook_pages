@@ -4,6 +4,8 @@
 }
 
 header{
+	background: #215dc5;
+	padding: 2%;
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
@@ -12,6 +14,24 @@ header{
 form{
 	margin: 0 1.1rem;
 }
+
+header h1{
+	align-self: center;
+}
+
+header form {
+	display: inherit;
+}
+ 
+header form label{
+	display: block;
+	margin: 0 10px;
+}
+
+header form label input{
+	display: block;
+}
+
 
 .container{
 	display: flex;
