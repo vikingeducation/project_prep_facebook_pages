@@ -55,6 +55,7 @@ header form input[type="submit"]{
 aside{
 	width: 50%;
 	padding: 5% 0;
+	align-self: center;
 }
 
 aside h1{
