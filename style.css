@@ -16,7 +16,8 @@ header{
 }
 
 form{
-	margin: 0 1.1rem;
+	margin: 0 15.8rem;
+	font-size: 1.125rem;
 }
 
 header h1{
@@ -48,7 +49,7 @@ header form input[type="submit"]{
 
 .container{
 	display: flex;
-	margin-top: 1%;
+	margin-top: 1.75%;
 	align-items: flex-start;
 }
 
@@ -82,8 +83,11 @@ aside h1{
 	opacity: 0.9;
 }
 
-/*Body Forms*/
+/*Section & Body Forms*/
 
+section{
+	margin: 0 auto;
+}
 
 fieldset{
 	border: 0;
@@ -96,8 +100,10 @@ fieldset form{
 
 legend{
 	font-size: 2.5rem;
-	font-weight: 300;
+	font-weight: 700;
 	margin-bottom: 8px;
+	letter-spacing: 5px;
+	word-spacing: 3px;
 }
 
 .hiddenLabel{
@@ -110,7 +116,7 @@ legend{
 
 #emailSignUp, #newPassword, #confirmPassword{
 	display: block;
-	width: 70%;
+	width: 100%;
 }
 
 fieldset form input[type="email"], input[type="text"], input[type="password"]{
@@ -121,3 +127,27 @@ fieldset form input:placeholder-shown{
 	padding-left: 8px;
 	font-size: 1.2rem;
 }
+
+
+fieldset form select{
+	font-size: 1.08rem;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+
+.genderSelection{
+	display: block;
+	margin: 10px 0;
+	font-size: 1.08rem;
+}
+
+
+#greenSubmit{
+	width: 100%;
+	margin-top: 10px;
+	font-size: 1.85rem;
+	color: #fff;
+	background: #129012;
+}
+
+

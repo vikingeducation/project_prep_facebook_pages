@@ -66,10 +66,10 @@
 
 		    	
 
-		    	<h4>Birthday</h4>
+		    	<h3>Birthday</h3>
 
 			    <form>
-			      <label for="bday">Birthday</label>
+			      <label for="bday" class="hiddenLabel">Birthday</label>
 			      <select name="bday">
 			        <option value=''>Month</option>
 			        <option value='January'>January</option>
@@ -86,7 +86,7 @@
 			        <option value='December'>December</option>
 			      </select>
 
-			      <label for="Date">Day</label>
+			      <label for="Date" class="hiddenLabel">Day</label>
 			      <select name="Date">
 			        <option value=''>Day</option>
 			        <option value='1'>1</option>
@@ -122,7 +122,7 @@
 			        <option value='31'>31</option>
 			      </select>
 
-			      <label for="Year">Year</label>
+			      <label for="Year" class="hiddenLabel">Year</label>
 			      <select name="Year">
 			        <option value=''>Year</option>
 			        <option value='2017'>2017</option>
@@ -136,14 +136,15 @@
 			        <option value='...'>...</option>
 			      </select>
 
-			      <label for="gender">Male</label>
-			      <input type="radio" name="gender" value="m">
-			      <label for="gender">Female</label>
-			      <input type="radio" name="gender" value="f">
-
-
+				  <div class="genderSelection">
+				  	<label for="gender">Male</label>
+			      		<input type="radio" name="gender" value="m">
+			      	<label for="gender">Female</label>
+			      		<input type="radio" name="gender" value="f">	
+				  </div>
+			      
 			    </form>
-			    <input type="submit" value="Sign Up">
+			    <input type="submit" id="greenSubmit" value="Sign Up">
 
 	    	</fieldset>
 	    		    
