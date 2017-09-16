@@ -1,7 +1,7 @@
 *{
 	box-sizing: border-box;
 	margin: 0;
-	font-family: 'Patrick Hand', cursive;
+	font-family: 'Dekko', cursive;
 }
 
 
@@ -12,6 +12,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
+	color: white;
 }
 
 form{
@@ -20,15 +21,17 @@ form{
 
 header h1{
 	align-self: center;
+	font-size: 2.5rem;
+	letter-spacing: 3px;
 }
 
-header form {
-	display: inherit;
-}
- 
 header form label{
-	display: block;
+	display: inherit;
 	margin: 0 10px;
+}
+
+.blockmainform{
+	display: inline-block;
 }
 
 header form label input{
@@ -37,7 +40,7 @@ header form label input{
 
 
 header form input[type="submit"]{
-	background: rgb(77, 136, 239);
+	background: rgb(142, 179, 243);
 	font-weight: bold;
 }
 
@@ -45,7 +48,7 @@ header form input[type="submit"]{
 
 .container{
 	display: flex;
-	margin-top: 2%;
+	margin-top: 1%;
 	align-items: flex-start;
 }
 
@@ -60,7 +63,7 @@ aside h1{
 }
 
 .list-items{
-	width: 70%;
+	width: 75%;
 	margin: 0 auto;
 	font-size: 20px;
 }
@@ -69,7 +72,13 @@ aside h1{
 	margin-left: 100px;
 	line-height: 2.5;
 	list-style-position: inside;
-	opacity: 0.8;
+	font-weight: bold;
+	opacity: 0.6;
+}
+
+.fadeWords{
+	font-weight: normal;
+	opacity: 0.9;
 }
 
 /*Body Forms*/
@@ -81,6 +90,7 @@ fieldset{
 
 fieldset form{
 	width: 100%;
+	margin: 0;
 }
 
 legend{
