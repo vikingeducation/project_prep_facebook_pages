@@ -25,9 +25,15 @@ header{
 
 #searchform{
 	margin: 0 auto;
+	width: 50%;
+	align-self: flex-end;
 }
 
 #search{
-	width: 250%;
-	text-align: center;
+	width: 100%;
+	text-align: left;
+}
+
+#searchform input:placeholder-shown{
+	padding-left: 3px;
 }
