@@ -24,7 +24,7 @@ header{
 }
 
 #searchform{
-	margin: 0 auto;
+	margin-left: 25px;
 	width: 50%;
 	align-self: flex-end;
 }
@@ -36,4 +36,8 @@ header{
 
 #searchform input:placeholder-shown{
 	padding-left: 3px;
+}
+
+.nameIdentity{
+	font-size: 1.15rem;
 }
