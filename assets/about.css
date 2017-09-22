@@ -41,3 +41,17 @@ header{
 .nameIdentity{
 	font-size: 1.15rem;
 }
+
+/*Body*/
+
+.bodycontainer{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#coverpic{
+	width: 20%;
+	display: block;
+	margin: 0 auto;
+	transform: scale(5, 1.4);
+}
