@@ -50,6 +50,7 @@ header{
 }
 
 section{
+	margin: 11px 0;
 	border: 1px solid;
 }
 
@@ -94,6 +95,10 @@ ul.nav-list{
 	padding: 0 35px;
 }
 
+.selected{
+	background: rgba(160, 158, 158, 0.43);
+}
+
 .nav-list li:first-child{
 	border-left: 1px solid;
 }
@@ -116,3 +121,70 @@ ul a{
 	text-decoration: none;
 }
 
+/*Main Body Container*/
+
+.bodycontainer section:nth-child(2){
+	margin-top: 10px;
+}
+
+.bodycontainer section header{
+	display: flex;
+	border-bottom: 1px solid;
+}
+
+
+.bodycontainer section header p {
+	color: #000;
+	font-size: 1.75rem;
+	font-weight: 700;
+	margin: 0 auto;
+}
+
+button{
+	margin-right: 5px;
+	background: #2a71ec;
+	align-self: center;
+}
+
+.subcontainer{
+	display: flex;
+	align-items: center;
+}
+
+.subcontainer aside{
+	font-size: 1.25rem;
+}
+
+/*Table*/
+.noborder{
+	border: 0;
+}
+
+table{
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+table thead{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+table tr td{
+	border: 0;
+}
+
+
+/*Half Section*/
+
+.halfsection{
+	width: 50%;
+	border: 0;
+	line-height: 1.75;
+	font-size: 1.1rem;
+}
+
+.halfsection h4{
+	font-size: 1.65rem;
+	margin: 3px 0;
+}
