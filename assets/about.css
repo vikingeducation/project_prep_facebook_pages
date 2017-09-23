@@ -64,17 +64,55 @@ section{
 }
 
 nav{
-	margin-top: 87px;
+	margin-top: -36px;
 	border-top: 2px solid;
 }
 
-nav img{
+#profilepic{
 	width: 10%;
 	border: 1px solid;
-	transform: translate(50px, -50px);
+	transform: translate(20%, -10px);
+}
+
+span.profilename{
+	font-size: 1.5rem;
+	font-weight: bolder;
+	position: relative;
+	top: -33px;
+	margin-left: 35px;
+}
+
+
+ul.nav-list{
+	margin-left: 12%;
 }
 
 .nav-list li{
 	display: inline;
 	list-style: none;
+	border-right: 1px solid;
+	padding: 0 35px;
 }
+
+.nav-list li:first-child{
+	border-left: 1px solid;
+}
+
+.nav-list li:last-child{
+	border-style: none;
+	float: right;	
+	font-size: small;
+}
+
+.nav-list li:last-child a{
+	text-decoration: underline;
+}
+
+.nav-list li span{
+	margin-left: 2px;
+}
+
+ul a{
+	text-decoration: none;
+}
+
