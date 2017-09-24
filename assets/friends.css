@@ -1,0 +1,7 @@
+@import url("assets/about.css");
+@import url("assets/style.css");
+
+.small-profilepic{
+	width: 45px;
+	border: 1px solid #000;
+}
