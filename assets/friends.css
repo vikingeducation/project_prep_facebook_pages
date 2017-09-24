@@ -1,7 +1,32 @@
 @import url("assets/about.css");
 @import url("assets/style.css");
 
+.subcontainer{
+	display: flex;
+	flex-flow: row wrap;
+}
+
 .small-profilepic{
-	width: 45px;
+	width: 95px;
+	margin: 10px;
 	border: 1px solid #000;
+}
+
+.bodycontainer .subcontainer section.friendsblock{
+	width: 40%;
+	margin: 20px auto;
+	padding: 50px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.blockname{
+	display: inline-block;
+	text-align: center;
+	font-size: 1.1rem;
+}
+
+.friendsblock button{
+	font-size: 1.1rem;
 }
