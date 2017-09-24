@@ -1,0 +1,190 @@
+@import url('assets/style.css');
+
+
+header{
+	padding: 0;
+}
+
+.headercontainer{
+	width: 80%;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.logo{
+	width: 35px;
+	height: 0%;
+	margin-right: 10px;
+	align-self: center;
+}
+
+.brand{
+	display: inline-flex;
+}
+
+#searchform{
+	margin-left: 25px;
+	width: 50%;
+	align-self: flex-end;
+}
+
+#search{
+	width: 100%;
+	text-align: left;
+}
+
+#searchform input:placeholder-shown{
+	padding-left: 3px;
+}
+
+.nameIdentity{
+	font-size: 1.15rem;
+}
+
+/*Body*/
+
+.bodycontainer{
+	width: 80%;
+	margin: 0 auto;
+}
+
+section{
+	margin: 11px 0;
+	border: 1px solid;
+}
+
+#coverpic{
+	width: 19%;
+	display: block;
+	margin: 0 auto;
+	transform: scale(5.26, 1.4);
+	position: relative;
+	top: 44px;
+	opacity: 0.5;
+}
+
+nav{
+	margin-top: -36px;
+	border-top: 2px solid;
+}
+
+#profilepic{
+	width: 10%;
+	border: 1px solid;
+	transform: translate(20%, -10px);
+}
+
+span.profilename{
+	font-size: 1.5rem;
+	font-weight: bolder;
+	position: relative;
+	top: -33px;
+	margin-left: 35px;
+}
+
+
+ul.nav-list{
+	margin-left: 12%;
+}
+
+.nav-list li{
+	display: inline;
+	list-style: none;
+	border-right: 1px solid;
+	padding: 0 35px;
+}
+
+.selected{
+	background: rgba(160, 158, 158, 0.43);
+}
+
+.nav-list li:first-child{
+	border-left: 1px solid;
+}
+
+.nav-list li:last-child{
+	border-style: none;
+	float: right;	
+	font-size: small;
+}
+
+.nav-list li:last-child a{
+	text-decoration: underline;
+}
+
+.nav-list li span{
+	margin-left: 2px;
+}
+
+ul a{
+	text-decoration: none;
+}
+
+/*Main Body Container*/
+
+.bodycontainer section:nth-child(2){
+	margin-top: 10px;
+}
+
+.bodycontainer section header{
+	display: flex;
+	border-bottom: 1px solid #000;
+}
+
+
+.bodycontainer section header p {
+	color: #000;
+	font-size: 1.75rem;
+	font-weight: 700;
+	margin: 0 auto;
+}
+
+button{
+	margin-right: 5px;
+	background: #2a71ec;
+	align-self: center;
+}
+
+.subcontainer{
+	display: flex;
+	align-items: center;
+}
+
+.subcontainer aside{
+	font-size: 1.25rem;
+}
+
+/*Table*/
+.noborder{
+	border: 0;
+}
+
+table{
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+table thead{
+	font-size: 18px;
+	font-weight: 700;
+}
+
+table tr td{
+	border: 0;
+}
+
+
+/*Half Section*/
+
+.halfsection{
+	width: 50%;
+	border: 0;
+	line-height: 1.75;
+	font-size: 1.1rem;
+}
+
+.halfsection h4{
+	font-size: 1.65rem;
+	margin: 3px 0;
+}
