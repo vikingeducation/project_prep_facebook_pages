@@ -1,0 +1,296 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Page defined CSS */
+
+body {
+  font-family: helvetica;
+
+}
+
+p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h2 {
+  display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+
+
+.search {
+  border-color: black;
+  border-width: 2px;
+  background-color: white;
+  margin-left: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 18px;
+
+}
+
+
+.loginform input, label {
+  display: block;
+}
+.logo {
+  float: left;
+}
+
+.author {
+
+  float: right;
+  margin-right: 50px;
+  font-size: 25px;
+}
+
+
+
+.button1 {
+    background-color: #9BC2FB;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 17px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: blue;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+}
+
+
+
+.backpic {
+  position: relative;
+  margin-left: 50px;
+  height: 200px;
+  width: 1300px;
+  height: 500px;
+  border-color: black;
+   border-width: 2px;
+   border-style: solid;
+
+}
+
+.author-name {
+  position: absolute;
+  top: 480px;
+  left: 350px;
+  color: white;
+  font-size: 28px;
+ 
+}
+.littlepic {
+
+  position: absolute;
+    top: 430px;
+    left: 6%;
+   border-color: black;
+   border-width: 4px;
+   border-style: solid;
+
+  /*top: 200px;
+  left: 0;
+  position: absolute;
+  height: 50px;*/
+  
+}
+
+.details ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+
+    margin-left: 500px;
+
+    /*margin-right: 60px;*/
+  
+}
+
+.editprof {
+  padding-left: 190px;
+  
+}
+
+.details li {
+  float: left;
+  padding: 20px;
+  border-left-style: solid;
+  border-left-color:  black;
+  border-left-width: 1px;
+}
+
+.details {
+  margin-left: 50px;
+  width: 1300px;
+  
+
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#facelook {
+  font-size: 30px;
+  margin-left: 20px;
+}
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: #2b6ee8;
+ 
+  padding-top: 20px;
+  padding-left: 40px;
+  top: 0;
+  left: 0;
+ 
+
+  
+  color: white;
+  
+}
+
+.navcontent {
+  margin-top: 20px;
+  float: left;
+}
+
+nav p {
+  width: max-content;
+}
+
+.main-content {
+  /*margin: 100px 100px 100px 100px;
+  width: 80%;
+  height: 900%;*/
+  width: 84%;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  position: relative;
+  overflow: auto;
+}
+
+.about {
+  min-height: 60px;
+  text-align: center;
+  border-bottom: 1px solid black; 
+  font-size: 2em;
+  padding-top: 10px;
+  background-color: lightgrey;
+}
+.left-side {
+  margin-top: 10%;
+  margin-left:10%;
+  width: 40%;
+  height: auto;
+  float: left;
+
+}
+
+.right-side {
+  margin-right: 10%;
+  margin-top: 10%;
+  width: 40%;
+  height: auto;
+  float: right;
+
+}
+
+
+
+footer {
+  height: 90px;
+  width: 90%;
+  background: #9FC5F8;
+  border: 2px solid;
+  border-radius: 25px;
+  line-height: 1.25em;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
