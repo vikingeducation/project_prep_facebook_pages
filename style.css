@@ -1,0 +1,380 @@
+
+/* CSS reset begin */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS reset end */
+
+
+
+body {
+	font-family: Arial, sans;
+}
+
+/* Header section*/
+header {
+	padding: 20px 0 20px 20px; 
+	color: white;
+}
+
+header h1 {
+	font-size: 4rem;
+}
+
+/* Spacer with Sign Up text */
+.signup-bar {
+	padding: 20px 0 20px 0;
+}
+
+.signup-bar h2 {
+	font-size: 4.5rem;
+}
+
+
+
+/* Main body content and signup */
+.welcome-text {
+	width:80%;
+	margin: auto;
+}
+
+.welcome h2 {
+	padding-left: 15%;
+	padding-bottom: 20px;
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.welcome ul {
+	padding-left: 20%;
+}
+
+.welcome ul li {
+	list-style: disc;
+	padding-bottom: 30px;
+}
+
+.signup-boxes input {
+	width: 80%;
+}
+
+
+
+/* Signup form */
+
+#signup-entry li {
+	padding: 5px 5px 15px 5px;
+}
+
+#select-bday p {
+	font-size: 1.1rem;
+	padding: 5px;
+}
+
+#select-bday select {
+	margin: 5px 5px 15px 5px;
+}
+
+#select-gender {
+	margin: 5px 5px 15px 5px;
+}
+
+#select-gender li {
+	display: inline-block;
+}
+
+.button	{
+	margin: 5px;
+	width: 80%;
+	height: 40px;
+	background-color: green;
+	color: white;
+	font-size: 1.5rem;
+}
+
+
+
+
+/* Side by side form entry */
+#login li,
+.first-last li {
+	display: inline-block;
+}
+
+
+/* Useful classes */
+.red{
+	background-color: red;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.green{
+	background-color: green;
+}
+
+.white {
+	color: white;
+}
+
+.grey {
+	background-color: lightgrey;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.left-side {
+	width: 60%;
+}
+
+.right-side {
+	width: 40%;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.border {
+	border: 2px solid black;
+}
+
+.justify {
+	justify-content: space-between;
+}
+
+/* Other pages */
+
+.other-wrapper {
+	width: 80%
+	margin: auto;
+}
+
+nav.other {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.other-title {
+	font-size: 2rem;
+	padding-left: 8px;
+}
+
+.facelook {
+	padding-left: 143px;
+}
+
+.name {
+	padding-right: 150px;
+	padding-top: 7px;
+	font-size: 1.5rem;
+}
+
+header.other {
+	padding: 0;
+}
+
+.page-wrapper {
+	width: 80%;
+	margin: auto;
+}
+
+.logo {
+	width: 35px;
+	height: 35px;
+	background-color: grey;
+}
+
+.banner {
+	width: 100%;
+	height: 350px;
+	background-color: grey;
+}
+
+.portrait {
+	background-color: darkgrey;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	left: 20px;
+	top: 160px;
+}
+
+.profile-name {
+	position: relative;
+	left: 250px;
+	top: 80px;	
+	font-size: 2.5rem;
+}
+
+.navbar {
+	padding-left: 250px;
+	height: 50px;
+}
+
+.navbar ul {
+
+}
+
+.navbar li {
+	display: inline-block;
+	border: 2px solid black;
+	border-collapse: collapse;
+	text-decoration: none;
+	text-align: center;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	display: block;
+	padding: 16px;
+	width: 60px;
+}
+
+/* Search bar */
+
+
+
+.search {
+  width: 50%;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.searchButton {
+  position: absolute;  
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid black;
+  background: black;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.infobox-top {
+	margin-top: 30px;
+	height: 30px;
+	width: 100%;
+	padding: 5px 0 5px 0;
+}
+
+.about {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 500;
+	float: unset;
+}
+
+.edit-button {
+	float: right;
+	position: relative;
+	bottom: 33px;
+	right: 10px;
+	padding: 3px;
+	background-color: blue;
+	color: white;
+	border-color: black;
+	width: 120px;
+}
+
+.infobox-bottom {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	margin-bottom: 80px;
+}
+
+.infobox-left {
+	width: 40%;
+	padding-left: 50px;
+
+}
+
+.infobox-right {
+	width: 40%;
+}
+
+.detail-header {
+	font-size: 1.5rem;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	
+}
+
+.personal-info {
+	width: 400px;
+	table-layout: fixed;
+}
+
+.personal-info td {
+	height: 30px;
+}
+
+.infobox-right h3 {
+	padding-left: 50px;
+}
+
+.infobox-right p {
+	padding-left: 50px;
+}
