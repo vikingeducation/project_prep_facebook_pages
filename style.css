@@ -378,3 +378,8 @@ header.other {
 .infobox-right p {
 	padding-left: 50px;
 }
+
+.name a {
+	text-decoration: none;
+	color: white;
+}
