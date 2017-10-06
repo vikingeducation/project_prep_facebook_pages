@@ -1,0 +1,278 @@
+/*******CSS RESET********/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/*font: inherit;*/
+	/*vertical-align: baseline;*/
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+/*****************************
+MAIN STYLES
+*****************************/
+
+/************REUSED************/
+
+.vertical-center {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/*************NAVIGATION**********/
+
+nav {
+	height: 45px;
+  margin-top: 0;
+	padding: 10px;
+  background-color: #3b5998;
+  text-align: center;
+}
+
+
+nav * {
+  display: inline-block;
+  margin: 0;
+}
+
+.nav-wrap {
+  width: 960px;
+	max-width: 960px;
+  position: relative;
+}
+
+h1, img {
+	vertical-align: middle;
+}
+
+.icon {
+	position: absolute;
+	left: 0;
+  height: 28px;
+  color: #fff;
+}
+
+nav img {
+  width: 25px;
+  height: 100%;
+  margin-right: 5px;
+}
+
+nav h1 {
+	font-size: 1.6em;
+}
+
+input {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 25px;
+	width: 60%;
+}
+
+nav h3 {
+	position: absolute;
+	right: 0;
+	font-size: 1.2em;
+	color: #fff;
+}
+
+
+
+/*********PROFILE**********/
+
+main {
+	width: 960px;
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.profile {
+	position: relative;
+}
+
+#main-img {
+	width: 960px;
+	height: 300px;
+}
+
+#profile-picture {
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	left: 10px;
+	bottom: 25px;
+	z-index: 1;
+}
+
+#name {
+	font-size: 1.5em;
+	position: absolute;
+	left: 170px;
+	bottom: 70px;
+}
+
+.profile-nav {
+	height: 55px;
+	border: 2px solid black;
+	position: relative;
+	text-align: left;
+}
+
+#empty-div {
+	display: inline-block;
+	width: 170px;
+	height: 100%;
+	border-right: 2px solid black;
+}
+
+.profile-button {
+	display: inline-block;
+	height: 100%;
+	padding: 15px 20px;
+	position: relative;
+	border-right: 2px solid black;
+	vertical-align: top;
+	text-align: center;
+}
+
+.button-text {
+	display: inline-block;
+	vertical-align: middle;
+	color: black;
+}
+
+.numbers {
+	display: inline-block;
+	margin-left: 5px;
+	color: #aaa;
+}
+
+#profile-link {
+	right: 15px;
+}
+
+.page-buttons {
+	display: block;
+	width: 100px;
+	margin: 50px auto;
+}
+
+/***************************
+ABOUT section
+***************************/
+
+#about {
+	border: 1px solid black;
+	margin-top: 20px;
+}
+
+#header {
+	height: 50px;
+	background-color: lightblue;
+	border: 1px solid black;
+	border-bottom: 2px solid black;
+	text-align: center;
+	position: relative;
+}
+
+#header h1 {
+	font-size: 1.5em;
+	margin-top: 10px;
+}
+
+.edit-profile {
+	display: inline-block;
+	padding: 5px 5px 2px;
+	background-color: blue;
+	border: 2px solid black;
+	color: white;
+	box-shadow: 3px 3px black;
+	right: 10px;
+}
+
+.about-column {
+	display: inline-block;
+	width: 45%;
+	height: auto;
+	text-align: left;
+	vertical-align: middle;
+	margin: 15px 0 70px;
+}
+
+.about-text {
+	font-size: 1em;
+	font-weight: normal;
+	line-height: 1.3em;
+}
+
+.about-column h2 {
+	padding: 25px 0;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+#contact-info {
+	margin-top: 15px;
+}
+
+ul {
+	display: inline-block;
+	width: 30%;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+.value {
+	font-weight: normal;
+}

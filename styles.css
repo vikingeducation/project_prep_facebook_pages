@@ -1,0 +1,212 @@
+/*******CSS RESET********/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+/***********************************************************
+************************************************************
+***********************************************************/
+
+/******BASE STYLES*******/
+main {
+	display: flex;
+	justify-content: space-around;
+}
+
+h1 {
+	font-size: 2.2em;
+}
+
+nav {
+	height: 80px;
+	position: relative;
+	width: 100%;
+}
+
+/******POSITIONING*******/
+#navForm {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+div,
+.submit_button {
+  display: inline-block;
+  margin: 7px;
+}
+
+/***************************
+MAIN
+***************************/
+
+
+.shadow {
+	border: 2px solid black;
+	box-shadow: 3px 3px black;
+}
+
+
+
+
+/*************************************
+NAV BAR
+*************************************/
+/****broke up nav CSS between position and skin---is this how SMACSS works??***/
+nav {
+	background-color: #3B5998;
+}
+
+nav h1 {
+	color: #FFF;
+	padding: 20px 30px;
+}
+
+
+/*******************
+Nav Form
+*******************/
+
+nav label,
+nav input {
+  display: block;
+  margin-bottom: 7px;
+}
+
+/******************************
+Sign Up section
+******************************/
+
+#signUp {
+	flex-grow: 0;
+	height: auto;
+	margin-top: 35px;
+	width: 350px;
+}
+
+#signUp h1 {
+	margin-bottom: 20px;
+}
+
+/***********************
+Sign Up Form
+***********************/
+
+.full_width {
+	margin: 10px 0;
+	width: 100%;
+}
+
+.inline_block {
+	display: inline-block;
+	max-width: 45%;
+}
+
+.last_name {
+	margin: 10px 0 10px 30px;
+}
+
+/***********************
+Birthday form
+***********************/
+#birthdayForm label {
+	display: block;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 20px 0 10px;
+}
+
+#birthdayForm select {
+	margin-right: 15px;
+}
+
+/***********************
+Gender form
+***********************/
+
+#genderForm label {
+	display: inline-block;
+	margin: 30px 20px 10px 0;
+}
+
+.block {
+	background-color: green;
+	color: #FFF;
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+	height: 35px;
+	width: 100%;
+}
+
+
+/******************************
+Connect section
+******************************/
+
+#connect {
+	flex-grow: 0;
+	height: auto;
+	margin-top: 90px;
+	max-width: 500px;
+}
+
+#connect h1 {
+	letter-spacing: 1.5px;
+}
+
+li {
+	color: #555;
+	margin: 30px;
+}
+
+.page_buttons {
+	display: block;
+	margin: 50px auto;
+	width: 100px;
+}
