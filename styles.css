@@ -52,39 +52,40 @@ table {
 ***********************************************************/
 
 /******BASE STYLES*******/
+h1 {
+	font-size: 2.2em;
+}
+
+/******LAYOUT*******/
+nav {
+	height: 80px;
+	position: relative;
+}
+
 main {
 	display: flex;
 	justify-content: space-around;
 }
 
-h1 {
-	font-size: 2.2em;
+.l-connect {
+	margin-top: 90px;
+	width: 500px;
 }
 
-nav {
-	height: 80px;
-	position: relative;
-	width: 100%;
-}
-
-/******POSITIONING*******/
-#navForm {
-	position: absolute;
-	right: 10px;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-div,
-.submit_button {
-  display: inline-block;
-  margin: 7px;
+.l-signUp {
+	margin-top: 35px;
+	width: 350px;
 }
 
 /***************************
 MAIN
 ***************************/
 
+div,
+.submit_button {
+  display: inline-block;
+  margin: 7px;
+}
 
 .shadow {
 	border: 2px solid black;
@@ -98,14 +99,25 @@ MAIN
 NAV BAR
 *************************************/
 /****broke up nav CSS between position and skin---is this how SMACSS works??***/
-nav {
+nav{
 	background-color: #3B5998;
 }
+
+#navForm {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
 
 nav h1 {
 	color: #FFF;
 	padding: 20px 30px;
 }
+
+
 
 
 /*******************
@@ -122,14 +134,9 @@ nav input {
 Sign Up section
 ******************************/
 
-#signUp {
-	flex-grow: 0;
-	height: auto;
-	margin-top: 35px;
-	width: 350px;
-}
 
-#signUp h1 {
+
+.l-signUp h1 {
 	margin-bottom: 20px;
 }
 
@@ -189,14 +196,9 @@ Gender form
 Connect section
 ******************************/
 
-#connect {
-	flex-grow: 0;
-	height: auto;
-	margin-top: 90px;
-	max-width: 500px;
-}
 
-#connect h1 {
+
+.l-connect h1 {
 	letter-spacing: 1.5px;
 }
 
