@@ -56,15 +56,52 @@ h1 {
 	font-size: 2.2em;
 }
 
-/******LAYOUT*******/
-nav {
+/******LAYOUT**********/
+#header {
 	height: 80px;
 	position: relative;
 }
 
-main {
+#main {
 	display: flex;
 	justify-content: space-around;
+}
+
+/*****MODULES*************/
+.logo {
+	color: #FFF;
+	padding: 20px 30px;
+}
+
+.login_labels {
+	display: block;
+	margin-bottom: 7px;
+}
+
+.login_columns {
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.btn {
+	border: 2px solid black;
+	box-shadow: 2px 2px black;
+}
+
+.login_form {
+	right: 15px;
+}
+
+.vertical-align {
+	position: absolute;
+	top: 50%;
+	transform: translate(0,-50%);
+}
+
+/**leave these here for now until you refactor those modules**/
+.l-inline_block {
+	display: inline-block;
+	max-width: 45%;
 }
 
 .l-connect {
@@ -99,7 +136,7 @@ div,
 NAV BAR
 *************************************/
 /****broke up nav CSS between position and skin---is this how SMACSS works??***/
-nav{
+#header {
 	background-color: #3B5998;
 }
 
@@ -110,25 +147,6 @@ nav{
 	transform: translateY(-50%);
 }
 
-
-
-nav h1 {
-	color: #FFF;
-	padding: 20px 30px;
-}
-
-
-
-
-/*******************
-Nav Form
-*******************/
-
-nav label,
-nav input {
-  display: block;
-  margin-bottom: 7px;
-}
 
 /******************************
 Sign Up section
@@ -149,10 +167,7 @@ Sign Up Form
 	width: 100%;
 }
 
-.inline_block {
-	display: inline-block;
-	max-width: 45%;
-}
+
 
 .last_name {
 	margin: 10px 0 10px 30px;
