@@ -1,0 +1,73 @@
+body {
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+#navbar {
+	display: block;
+	width: 100%;
+	height: 10vh;
+	background-color: #0000FF;
+}
+
+#logo1 {
+	display: grid;
+	float: left;
+	padding-left: 1em;
+	margin: auto;
+}
+
+#login {
+	display: grid;
+	float: right;
+	padding-right: 1em;
+	margin: auto;
+}
+
+#pseudohero {
+	display: grid;
+	float: left;
+	width: 66%;
+}
+
+#convert-form {
+	display: grid
+	width: 33%
+	float: right;
+}
+
+#cta {
+	background-color: #33FF77;
+	font-weight: bold;
+	color: white;
+	border: 2px solid #EEEEEE;
+	border-radius: 4px;
+}
+
+#cta:hover, #cta:focus, #cta:active {
+	background-color: #55DF88;
+}
+
+#userhero {
+	display: grid;
+}
+
+#searchbox {}
+
+#info {}
+
+#friends {}
+
+.friend-listed {}
+
+#history {
+	float: left;
+}
+
+#post-form {} /*one*/
+
+.post {}
+
+#comment-form {} /*only one will be active*/
+
+.comment {}
