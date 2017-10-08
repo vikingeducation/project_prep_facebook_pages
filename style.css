@@ -7,45 +7,144 @@ body {
 	display: block;
 	width: 100%;
 	height: 10vh;
-	background-color: #0000FF;
+	background-color: #2B78E5;
 }
 
-#logo1 {
+main {
+	width: 100%;
+	height: 90vh;
+}
+
+#logo-container {
 	display: grid;
 	float: left;
 	padding-left: 1em;
 	margin: auto;
+
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+
+}
+
+#logo-1 {
+	color: white;
+}
+
+#logo-2 {
+
 }
 
 #login {
 	display: grid;
 	float: right;
-	padding-right: 1em;
+	padding-right: 2em;
 	margin: auto;
+
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+
+}
+
+#login label {
+	color: white;
+	font-weight: bold !important;
+}
+
+#login input {
+	border: 1px solid black;
+}
+
+#login td {
+	padding: 5px;
+}
+
+.login-button {
+	font-weight: bold;
+	background-color: #94B8E8;
+}
+
+.login-input {
+	padding: 2px;
 }
 
 #pseudohero {
 	display: grid;
 	float: left;
-	width: 66%;
+	width: 60%;
+	height: 100%;
+}
+
+#hero-wrap {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+#hero-list {
+	padding: 10px 30px;
+}
+
+.hero-benefit {
+	padding: 10px 0;
 }
 
 #convert-form {
-	display: grid
-	width: 33%
+	display: inline-block;
+	width: 33%;
+	height: 100%;
+}
+
+#convert-form h1 {
+	padding: 15px 5px;
+}
+
+#convert-form input {
+	display: block;
+	width: 100%;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	font-size: 18px;
+	padding: 8px 1px;
+	margin: 10px auto;
+}
+
+input[type^="radio"] {
+	display: inline-block !important;
+	width: 20px !important;
+}
+
+#convert-form input:nth-child(1) {
+	display: inline-block;
+	width: 45%;
+	float: left;
+}
+
+#convert-form input:nth-child(2) {
+	display: inline-block;
+	width: 45%;
 	float: right;
 }
 
 #cta {
-	background-color: #33FF77;
+	font-size: 1.5em !important;
+	text-align: center;
+	padding: 10px !important;
+	background: linear-gradient(#67AE55, #578843);
+	box-shadow: inset 0 1px 1px #A4E388;
 	font-weight: bold;
 	color: white;
-	border: 2px solid #EEEEEE;
+	border: 1px solid;
+	border-color: #3B6E22 #3B6E22 #2C5115;
 	border-radius: 4px;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 #cta:hover, #cta:focus, #cta:active {
-	background-color: #55DF88;
+	background-color: #578843;
 }
 
 #userhero {
@@ -71,5 +170,3 @@ body {
 #comment-form {} /*only one will be active*/
 
 .comment {}
-
-/*will add media queries to change the navbar without JS*/
