@@ -71,3 +71,5 @@ body {
 #comment-form {} /*only one will be active*/
 
 .comment {}
+
+/*will add media queries to change the navbar without JS*/
