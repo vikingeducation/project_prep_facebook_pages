@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="utf-8"/>
+</head>
+
+<body>
+  <header id="header">
+    <h1 class="logo">Facelook</h1>
+    <form class="login_form vertical-align">
+      <div class="login_columns">
+        <label class="login_labels" for="email">Email</label>
+        <input type="email" name="email" required />
+      </div>
+      <div class="login_columns">
+        <label class="login_labels" for="password">Password</label>
+        <input type="password" name="password" required />
+      </div>
+
+      <input class="btn" type="submit" name="submit" value="Log In" />
+    </form>
+  </header>
+
+  <main id="main">
+    <div class="l-connect">
+      <h1>Connect with all your friends!</h1>
+      <ul>
+        <li>See photos and updates in your news feed.</li>
+        <li>Post your status for the world to see from your profile.</li>
+        <li>Get in touch with your friends by "friending" them.</li>
+        <li>Like things because you're a positive person!</li>
+      </ul>
+    </div>
+
+    <div class="l-signUp">
+      <h1>Sign Up</h1>
+      <form>
+        <input class="l-inline_block" type="text" name="first-name" placeholder="First Name" required />
+        <input class="l-inline_block last_name" type="text" name="last-name" placeholder="Last Name" required />
+        <input class="full_width" type="text" name="email" placeholder="Your Email" required />
+        <input class="full_width" type="text" name="password" placeholder="Your New Password" required />
+        <input class="full_width" type="text" name="password" placeholder="Confirm New Password" required />
+      </form>
+      <form id="birthdayForm">
+        <label for="birthday">Birthday</label>
+        <select name="month">
+          <option value="january">January</option>
+          <option value="february">February</option>
+          <option value="march">March</option>
+          <option value="april">April</option>
+          <option value="may">May</option>
+          <option value="june">June</option>
+          <option value="july">July</option>
+          <option value="august">August</option>
+          <option value="september">September</option>
+          <option value="october">October</option>
+          <option value="november">November</option>
+          <option value="december">December</option>
+        </select>
+        <select name="day">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+        </select>
+        <select name="year">
+          <option value="2017">2017</option>
+        </select>
+      </form>
+      <form id="genderForm">
+        <input type="radio" name="gender" value="m">
+        <label for="gender">Male</label>
+
+        <input type="radio" name="gender" value="f">
+        <label for="gender">Female</label>
+
+        <input class="block btn" type="submit" name="submit" value="Sign Up!" />
+      </form>
+    </div>
+  </main>
+
+  <a href="about.html" class="page_buttons">About Page</a>
+
+</body>
+
+
+
+
+
+</html>
