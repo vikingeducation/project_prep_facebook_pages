@@ -189,21 +189,19 @@ transform: translateY(-50%);*/
 	height: 150px;
 	width: 150px;
 	position: relative;
-	bottom: 30%;
+	bottom: 37.5%;
 	left: 5%;
 	background-image: url("https://www.vikingcodeschool.com/assets/favicon-20ebb0ffcc080230bef95525bef87ef419f263d0cf38f6176623d27e3c2e6661.ico");
 }
 
 #userhero h1 {
-	padding-left: 35%;
-	padding-top: 65%;
 }
 
 #user-navigation {
 	height: 10%;
 	width: 100%;
-	display: flex;
 	flex-flow: row;
+	border: 1px solid #000000;
 }
 
 #info-section {
