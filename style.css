@@ -436,6 +436,41 @@ transform: translateY(-50%);
 	float: left;
 }
 
+#usero {
+	display: block;
+	width: 90%;
+	height: auto;
+	margin: auto;
+}
+
+#usero img {
+	display: inline-block
+	float: left;
+	height: 80px;
+	width: 80px;
+	border: 1px solid black;
+}
+
+#recent-activity {
+	display: block;
+	width: 90%;
+	height: auto;
+	margin: auto;
+}
+
+.active-friend {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.active-friend img {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+}
+
 #feed {
 	width: 64%;
 	height: auto;
