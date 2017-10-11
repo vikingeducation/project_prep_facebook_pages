@@ -476,14 +476,14 @@ transform: translateY(-50%);
 	margin: 5px;
 }
 
-#post-attachments {
+.post-attachments {
 	display: inline-block;
 	width: 100%;
 	height: auto;
 	border: 1px solid black;
 }
 
-#post-attachments button {
+.post-attachments button {
 	float: right;
 }
 
@@ -514,20 +514,45 @@ transform: translateY(-50%);
 	border: 1px solid black;
 }
 
-#info {}
-
-#friends {}
-
-.friend-listed {}
-
 #history {
 	float: left;
 }
 
-#post-form {} /*one*/
+.comment-section {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-top: 1px solid gray;
+}
 
-.post {}
+.comment {
+	display: block;
+	width: 100%;
+	height: auto;
+}
 
-#comment-form {} /*only one will be active*/
+.left-well {
+	display: inline-block;
+}
 
-.comment {}
+.left-well img {
+	width: 80px;
+	height: 80px;
+	border: 1px solid black;
+}
+
+.right-well {
+	display: inline-block;
+}
+
+#comment-form {
+	display: block;
+	width: 95%;
+	height: auto;
+	margin: auto;
+} 
+
+#comment-form input {
+	width: 100%;
+	height: 3em;
+}
