@@ -51,14 +51,19 @@ table {
 ************************************************************
 ***********************************************************/
 
-/******BASE STYLES*******/
+/*************************
+BASE STYLES
+*************************/
 h1 {
 	font-size: 2.2em;
 }
 
-/******LAYOUT**********/
+/************************
+LAYOUT
+************************/
 #header {
 	height: 80px;
+	background-color: #3B5998;
 	position: relative;
 }
 
@@ -67,29 +72,14 @@ h1 {
 	justify-content: space-around;
 }
 
-/*****MODULES*************/
-.logo {
-	color: #FFF;
-	padding: 20px 30px;
-}
+/************************
+MODULES
+************************/
 
-.login_labels {
-	display: block;
-	margin-bottom: 7px;
-}
-
-.login_columns {
-	display: inline-block;
-	margin: 0 7px;
-}
-
-.btn {
+/**MULTI-USE**/
+.button {
 	border: 2px solid black;
 	box-shadow: 2px 2px black;
-}
-
-.login_form {
-	right: 15px;
 }
 
 .vertical-align {
@@ -98,128 +88,103 @@ h1 {
 	transform: translate(0,-50%);
 }
 
-/**leave these here for now until you refactor those modules**/
-.l-inline_block {
-	display: inline-block;
-	max-width: 45%;
+/**LOGO**/
+.logo {
+	color: #FFF;
+	padding: 20px 30px;
 }
 
-.l-connect {
+/**LOG IN**/
+.login-labels {
+	display: block;
+	margin-bottom: 7px;
+}
+
+.login-layout {
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.login {
+	right: 15px;
+}
+
+/**CONNECT**/
+.connect {
 	margin-top: 90px;
 	width: 500px;
 }
 
-.l-signUp {
+.connect h1 {
+	letter-spacing: 1.5px;
+}
+
+.connect li {
+	color: #555;
+	margin: 30px;
+}
+
+/**SIGN-UP**/
+.sign-up {
 	margin-top: 35px;
 	width: 350px;
 }
 
-/***************************
-MAIN
-***************************/
-
-div,
-.submit_button {
-  display: inline-block;
-  margin: 7px;
-}
-
-.shadow {
-	border: 2px solid black;
-	box-shadow: 3px 3px black;
-}
-
-
-
-
-/*************************************
-NAV BAR
-*************************************/
-/****broke up nav CSS between position and skin---is this how SMACSS works??***/
-#header {
-	background-color: #3B5998;
-}
-
-#navForm {
-	position: absolute;
-	right: 10px;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
-
-/******************************
-Sign Up section
-******************************/
-
-
-
-.l-signUp h1 {
+.sign-up h1 {
 	margin-bottom: 20px;
 }
 
-/***********************
-Sign Up Form
-***********************/
+.sign-up--first_name {
+	float: left;
+	margin-bottom: 10px;
+	width: 45%;
+}
 
-.full_width {
+.sign-up--last_name {
+	float: right;
+	margin-bottom: 10px;
+	width: 45%;
+}
+
+.sign-up--rows {
+	clear: both;
 	margin: 10px 0;
 	width: 100%;
 }
 
-
-
-.last_name {
-	margin: 10px 0 10px 30px;
-}
-
-/***********************
-Birthday form
-***********************/
-#birthdayForm label {
+.birthday-form label {
 	display: block;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	font-weight: bold;
 	margin: 20px 0 10px;
 }
 
-#birthdayForm select {
+.birthday-form select {
 	margin-right: 15px;
 }
 
-/***********************
-Gender form
-***********************/
-
-#genderForm label {
-	display: inline-block;
-	margin: 30px 20px 10px 0;
+.gender-form {
+	margin-top: 30px;
 }
 
-.block {
+.gender-form label {
+	margin-right: 20px;
+}
+
+.button {
+	border: 2px solid black;
+	box-shadow: 2px 2px black;
+}
+
+.sign-up--button {
 	background-color: green;
 	color: #FFF;
 	display: block;
 	font-size: 1em;
 	font-weight: bold;
 	height: 35px;
+	margin-top: 15px;
 	width: 100%;
-}
-
-
-/******************************
-Connect section
-******************************/
-
-
-
-.l-connect h1 {
-	letter-spacing: 1.5px;
-}
-
-li {
-	color: #555;
-	margin: 30px;
 }
 
 .page_buttons {

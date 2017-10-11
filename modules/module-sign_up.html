@@ -1,38 +1,127 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <link rel="stylesheet" type="text/css" href="../css/styles.css">
-  <meta charset="utf-8"/>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    /*******CSS RESET********/
 
-<body>
-  <header id="header">
-    <h1 class="logo">Facelook</h1>
-    <form class="login vertical-align">
-      <div class="login-layout">
-        <label class="login-labels" for="email">Email</label>
-        <input type="email" name="email" required />
-      </div>
-      <div class="login-layout">
-        <label class="login-labels" for="password">Password</label>
-        <input type="password" name="password" required />
-      </div>
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+    body {
+      line-height: 1;
+    }
 
-      <input class="button" type="submit" name="submit" value="Log In" />
-    </form>
-  </header>
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
 
-  <main id="main">
-    <div class="connect">
-      <h1>Connect with all your friends!</h1>
-      <ul>
-        <li>See photos and updates in your news feed.</li>
-        <li>Post your status for the world to see from your profile.</li>
-        <li>Get in touch with your friends by "friending" them.</li>
-        <li>Like things because you're a positive person!</li>
-      </ul>
-    </div>
+    * {
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+    /*****************************/
+    h1 {
+    	font-size: 2.2em;
+    }
 
+    .sign-up {
+      margin: 0 auto;
+      width: 350px;
+    }
+
+    .sign-up h1 {
+    	margin-bottom: 20px;
+    }
+
+    .sign-up--first_name {
+      float: left;
+      margin-bottom: 10px;
+      width: 45%;
+    }
+
+    .sign-up--last_name {
+      float: right;
+      margin-bottom: 10px;
+      width: 45%;
+    }
+
+    .sign-up--rows {
+      clear: both;
+      margin: 10px 0;
+      width: 100%;
+    }
+
+    .birthday-form label {
+      display: block;
+    	font-size: 1.1em;
+    	font-weight: bold;
+    	margin: 20px 0 10px;
+    }
+
+    .birthday-form select {
+    	margin-right: 15px;
+    }
+
+    .gender-form {
+      margin-top: 30px;
+    }
+
+    .gender-form label {
+      margin-right: 20px;
+    }
+
+    .button {
+    	border: 2px solid black;
+    	box-shadow: 2px 2px black;
+    }
+
+    .sign-up--button {
+      background-color: green;
+    	color: #FFF;
+    	display: block;
+    	font-size: 1em;
+    	font-weight: bold;
+    	height: 35px;
+      margin-top: 15px;
+    	width: 100%;
+    }
+
+    </style>
+  </head>
+  <body>
     <div class="sign-up">
       <h1>Sign Up</h1>
       <form>
@@ -128,14 +217,5 @@
         </div>
       </form>
     </div>
-  </main>
-
-  <a href="about.html" class="page_buttons">About Page</a>
-
-</body>
-
-
-
-
-
+  </body>
 </html>

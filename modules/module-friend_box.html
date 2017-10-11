@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+      .friend_box img {
+        width: 75px;
+        height: 100px;
+      }
+
+      .friend_box {
+        border: 2px solid black;
+        display: inline-block;
+      }
+
+      .friend_box > * {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 15px;
+      }
+
+      .friend_box p {
+        margin: 0;
+        padding: 0;
+        color: #777
+      }
+
+      .friend_box input {
+        padding: 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="friend_box">
+      <img src="../pictures/profile-pic.jpg" alt="practice-pic">
+      <div>
+        <a href="#">Gru and others</a>
+        <p>432 friends</p>
+      </div>
+      <input class="btn" type="button" name="unfriend" value="Unfriend Me">
+    </div>
+  </body>
+</html>
