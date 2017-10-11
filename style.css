@@ -428,6 +428,92 @@ transform: translateY(-50%);
 	float: right;
 }
 
+#left-menu {
+	width: 35%;
+	height: auto;
+	display: inline-block;
+	border: 1px solid black;
+	float: left;
+}
+
+#feed {
+	width: 64%;
+	height: auto;
+	display: inline-block;
+	float: right;
+}
+
+#feed-wrap {
+	width: 75%;
+	height: auto;
+	margin: auto;
+}
+
+#postbox {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	border: 1px solid black;
+}
+
+#postbox-title {
+	width: 100;
+	height: auto;
+	border: 1px solid black;
+	text-align: center;
+}
+
+#posting {
+	width: 100%;
+	height: auto;
+}
+
+#posting input {
+	width: 95%;
+	height: 5em;
+	margin: 5px;
+}
+
+#post-attachments {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	border: 1px solid black;
+}
+
+#post-attachments button {
+	float: right;
+}
+
+.post {
+	width: 100%;
+	height: auto;
+	margin: 30px auto;
+	border: 1px solid black;
+}
+
+.post-header {
+	display: block;
+	width: 100%
+	height: auto;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.post-header img {
+	height: 80px;
+	width: 80px;
+}
+
+.post-buzz {
+	display: block;
+	width: 100%;
+	height: auto;
+	border: 1px solid black;
+}
+
 #info {}
 
 #friends {}
