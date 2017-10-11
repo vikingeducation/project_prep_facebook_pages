@@ -206,7 +206,7 @@ transform: translateY(-50%);*/
 #rectangle {
 
 	display: flex;
-	flex-flow: row no-wrap;
+	flex-flow: row nowrap;
 justify-content: center;
 align-content: center;
 align-items: center;
@@ -243,6 +243,7 @@ align-self: auto;
 
 
 #rectangle p:nth-child(5) {
+	float: right;
 
 order: 5;
 flex: 0 1 auto;
@@ -306,6 +307,40 @@ transform: translateY(-50%);
 
 #a p, #a strong {
 	
+}
+
+#aaa {
+	width: 100%;
+	height: auto;
+}
+
+#aaaa {
+	width: 30%;
+	height: auto;
+	float: left;
+}
+
+#aaab {
+	width: 70%;
+	height: auto;
+	float: right;
+}
+
+#aab {
+	width: 100%;
+	height: auto;
+}
+
+#aaba {
+	width: 30%;
+	height: auto;
+	float: left;
+}
+
+#aabb {
+	width: 70%;
+	height: auto;
+	float: right;
 }
 
 #searchbox {
