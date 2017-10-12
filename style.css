@@ -1,0 +1,593 @@
+body {
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+#navbar {
+	display: block;
+	width: 100%;
+	height: 10vh;
+	background-color: #2B78E5;
+}
+
+main {
+	width: 100%;
+	height: 90vh;
+	display: flex;
+}
+
+#main {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#logo-container {
+	display: inline-flex;
+	float: left;
+	padding-left: 1em;
+	margin: auto;
+
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+
+	padding-right: 30px;
+}
+
+#logo-1 {
+	color: white;
+}
+
+#logo-2 {
+	background: url("https://www.vikingcodeschool.com/assets/favicon-20ebb0ffcc080230bef95525bef87ef419f263d0cf38f6176623d27e3c2e6661.ico");
+	width: 16px;
+	height: 16px;
+}
+
+#login {
+	display: grid;
+	float: right;
+	padding-right: 2em;
+	margin: auto;
+
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+
+}
+
+#login label {
+	color: white;
+	font-weight: bold !important;
+}
+
+#login input {
+	border: 1px solid black;
+}
+
+#login td {
+	padding: 5px;
+}
+
+.login-button {
+	font-weight: bold;
+	background-color: #94B8E8;
+}
+
+.login-input {
+	padding: 2px;
+}
+
+#pseudohero {
+	display: grid;
+	float: left;
+	width: 60%;
+	height: 100%;
+}
+
+#hero-wrap {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+#hero-list {
+	padding: 10px 30px;
+}
+
+.hero-benefit {
+	padding: 10px 0;
+}
+
+#convert-form {
+	display: inline-block;
+	width: 33%;
+	height: 100%;
+}
+
+#convert-form h1 {
+	padding: 15px 5px;
+}
+
+#convert-form input {
+	display: block;
+	width: 100%;
+	border: 1px solid #BDC7D8;
+	border-radius: 5px;
+	font-size: 18px;
+	padding: 8px 1px;
+	margin: 10px auto;
+}
+
+input[type^="radio"] {
+	display: inline-block !important;
+	width: 20px !important;
+}
+
+#convert-form input:nth-child(1) {
+	display: inline-block;
+	width: 45%;
+	float: left;
+}
+
+#convert-form input:nth-child(2) {
+	display: inline-block;
+	width: 45%;
+	float: right;
+}
+
+#cta {
+	font-size: 1.5em !important;
+	text-align: center;
+	padding: 10px !important;
+	background: linear-gradient(#67AE55, #578843);
+	box-shadow: inset 0 1px 1px #A4E388;
+	font-weight: bold;
+	color: white;
+	border: 1px solid;
+	border-color: #3B6E22 #3B6E22 #2C5115;
+	border-radius: 4px;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#cta:hover, #cta:focus, #cta:active {
+	background-color: #578843;
+}
+
+#logged-user {
+	font-weight: bold;
+	color: white;
+	float: right;
+	padding-right: 2em;
+/*
+position: relative;
+top: 25%;
+transform: translateY(-50%);*/
+}
+
+#userhero {/*
+	display: grid;
+	position: relative;*/
+	display: block;
+	height: 50vh;
+	width: 90%;
+	border: 1px solid black;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#cover-pic {
+	height: 90%;
+	width: 100%;
+	background-image: url("https://s3.amazonaws.com/viking_education/logos/logo_ship_text_1200x628.png");
+	background-size: cover;
+}
+
+#profile-pic {
+	height: 150px;
+	width: 150px;
+	position: relative;
+	bottom: 37.5%;
+	left: 5%;
+	background-image: url("https://www.vikingcodeschool.com/assets/favicon-20ebb0ffcc080230bef95525bef87ef419f263d0cf38f6176623d27e3c2e6661.ico");
+}
+
+#userhero h1 {
+}
+
+#user-navigation {
+	height: 10%;
+	width: 100%;
+	border: 1px solid #000000;
+}
+
+#rectangle {
+
+	display: flex;
+	flex-flow: row nowrap;
+justify-content: center;
+align-content: center;
+align-items: center;
+
+}
+
+#rectangle p:nth-child(1) {
+
+order: 1;
+flex: 0 1 auto;
+align-self: auto;
+}
+
+#rectangle p:nth-child(2) {
+
+order: 2;
+flex: 0 1 auto;
+align-self: auto;
+}
+
+#rectangle p:nth-child(3) {
+
+order: 3;
+flex: 0 1 auto;
+align-self: auto;
+}
+
+#rectangle p:nth-child(4) {
+
+order: 4;
+flex: 0 1 auto;
+align-self: auto;
+}
+
+
+#rectangle p:nth-child(5) {
+	float: right;
+
+order: 5;
+flex: 0 1 auto;
+align-self: auto;
+}
+
+#info-section {
+	display: block;
+	height: 60vh;
+	width: 90%;
+	border: 1px solid black;
+	margin: auto;
+	margin-top: 10px;
+}
+
+#info-section-title {
+	height: 10%;
+	width: 100%;
+	flex-flow: row;
+	border: 1px solid #000000;
+	text-align: center;	
+}
+
+#info-section-title h1 {
+	display: inline-block;
+
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+
+}
+
+#info-section-title button {
+	float:right;
+
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+
+}
+
+#a {
+	display: inline-block;
+	width: 40%;
+	height: 90%;
+	float: left;
+}
+
+#b {
+	display: inline-block;
+	width: 60%;
+	height: 90%;
+	float: right;
+}
+
+#aa, #bb {
+	display: block;
+	height: 100%;
+	width: 80%;
+	margin: auto;
+}
+
+#a p, #a strong {
+	
+}
+
+#aaa {
+	width: 100%;
+	height: auto;
+}
+
+#aaaa {
+	width: 30%;
+	height: auto;
+	float: left;
+}
+
+#aaab {
+	width: 70%;
+	height: auto;
+	float: right;
+}
+
+#aab {
+	width: 100%;
+	height: auto;
+}
+
+#aaba {
+	width: 30%;
+	height: auto;
+	float: left;
+}
+
+#aabb {
+	width: 70%;
+	height: auto;
+	float: right;
+}
+
+#searchbox {
+
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+
+#searchbox input{
+	padding: 5px;
+	width: 50%;
+	border: 1px solid black;
+}
+
+#friend-list {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	height: 90%;
+	width: 95%;
+	margin: auto;
+}
+
+#friend-row-1 {
+	width: 100%;
+	height: 30%;
+	order: 1;
+	flex: 0 1 auto;
+	align-self: auto;
+}
+
+#friend-row-2 {
+	width: 100%;
+	height: 30%;
+	order: 2;
+	flex: 0 1 auto;
+	align-self: auto;
+}
+
+#friend-row-3 {
+	width: 100%;
+	height: 30%;
+	order: 3;
+	flex: 0 1 auto;
+	align-self: auto;
+}
+
+.xx {
+	display: inline-block;
+	height: 100%;
+	width: 48%;
+	border: solid 1px black;
+	float: left;
+}
+
+.yy {
+	display: inline-block;
+	height: 100%;
+	width: 48%;
+	border: solid 1px black;
+	float: right;
+}
+
+.xy img {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+}
+
+.xy a {
+}
+
+.xy span {
+	color: #777777;
+}
+
+.xy button {
+	display: inline-block;
+	float: right;
+}
+
+#left-menu {
+	width: 35%;
+	height: auto;
+	display: inline-block;
+	border: 1px solid black;
+	float: left;
+}
+
+#usero {
+	display: block;
+	width: 90%;
+	height: auto;
+	margin: auto;
+}
+
+#usero img {
+	display: inline-block
+	float: left;
+	height: 80px;
+	width: 80px;
+	border: 1px solid black;
+}
+
+#recent-activity {
+	display: block;
+	width: 90%;
+	height: auto;
+	margin: auto;
+}
+
+.active-friend {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.active-friend img {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+}
+
+#feed {
+	width: 64%;
+	height: auto;
+	display: inline-block;
+	float: right;
+}
+
+#feed-wrap {
+	width: 75%;
+	height: auto;
+	margin: auto;
+}
+
+#postbox {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	border: 1px solid black;
+}
+
+#postbox-title {
+	width: 100;
+	height: auto;
+	border: 1px solid black;
+	text-align: center;
+}
+
+#posting {
+	width: 100%;
+	height: auto;
+}
+
+#posting input {
+	width: 95%;
+	height: 5em;
+	margin: 5px;
+}
+
+.post-attachments {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	border: 1px solid black;
+}
+
+.post-attachments button {
+	float: right;
+}
+
+.post {
+	width: 100%;
+	height: auto;
+	margin: 30px auto;
+	border: 1px solid black;
+}
+
+.post-header {
+	display: block;
+	width: 100%
+	height: auto;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.post-header img {
+	height: 80px;
+	width: 80px;
+}
+
+.post-buzz {
+	display: block;
+	width: 100%;
+	height: auto;
+	border: 1px solid black;
+}
+
+#history {
+	float: left;
+}
+
+.comment-section {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-top: 1px solid gray;
+}
+
+.comment {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.left-well {
+	display: inline-block;
+}
+
+.left-well img {
+	width: 80px;
+	height: 80px;
+	border: 1px solid black;
+}
+
+.right-well {
+	display: inline-block;
+}
+
+#comment-form {
+	display: block;
+	width: 95%;
+	height: auto;
+	margin: auto;
+} 
+
+#comment-form input {
+	width: 100%;
+	height: 3em;
+}
