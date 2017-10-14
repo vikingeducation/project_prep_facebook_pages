@@ -51,30 +51,15 @@ table {
 ************************************************************
 ***********************************************************/
 
-/*************************
-BASE STYLES
-*************************/
-h1 {
-	font-size: 2.2em;
+body {
+  background-color: red;
 }
 
-/************************
-LAYOUT
-************************/
 #header {
 	height: 80px;
 	background-color: #3B5998;
 	position: relative;
 }
-
-#main {
-	display: flex;
-	justify-content: space-around;
-}
-
-/************************
-MODULES
-************************/
 
 /**MULTI-USE**/
 .button {
@@ -113,82 +98,4 @@ MODULES
 
 .login {
 	right: 15px;
-}
-
-/**CONNECT**/
-.connect {
-	margin-top: 90px;
-	width: 500px;
-}
-
-.connect h1 {
-	letter-spacing: 1.5px;
-}
-
-.connect li {
-	color: #555;
-	margin: 30px;
-}
-
-/**SIGN-UP**/
-.sign-up {
-	margin-top: 35px;
-	width: 350px;
-}
-
-.sign-up h1 {
-	margin-bottom: 20px;
-}
-
-.sign-up--first_name {
-	float: left;
-	margin-bottom: 10px;
-	width: 45%;
-}
-
-.sign-up--last_name {
-	float: right;
-	margin-bottom: 10px;
-	width: 45%;
-}
-
-.sign-up--rows {
-	clear: both;
-	margin: 10px 0;
-	width: 100%;
-}
-
-.birthday-form label {
-	display: block;
-	font-size: 1.2em;
-	font-weight: bold;
-	margin: 20px 0 10px;
-}
-
-.birthday-form select {
-	margin-right: 15px;
-}
-
-.gender-form {
-	margin-top: 30px;
-}
-
-.gender-form label {
-	margin-right: 20px;
-}
-
-.button {
-	border: 2px solid black;
-	box-shadow: 2px 2px black;
-}
-
-.sign-up--button {
-	background-color: green;
-	color: #FFF;
-	display: block;
-	font-size: 1em;
-	font-weight: bold;
-	height: 35px;
-	margin-top: 15px;
-	width: 100%;
 }
