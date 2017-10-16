@@ -68,13 +68,25 @@
     	transform: translateY(-50%);
     }
 
+    .center {
+    	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	transform: translate(-50%,-50%);
+    }
+
+    .button {
+    	border: 2px solid black;
+    	box-shadow: 2px 2px black;
+    }
+
     .about {
     	border: 1px solid black;
     	margin-top: 20px;
     }
 
     .about_header {
-    	height: 50px;
+    	height: 45px;
     	background-color: lightblue;
     	border: 1px solid black;
     	border-bottom: 2px solid black;
@@ -82,26 +94,24 @@
     }
 
     .about_header h1 {
-    	font-size: 1.5em;
-    	margin-top: 10px;
+    	font-size: 1.8em;
+      letter-spacing: 2px;
+    }
+
+    /***edit profile button sub module****/
+
+    .edit_profile_button {
+    	padding: 5px 5px 3px;
+    	background-color: blue;
+    	color: white;
+    	right: 10px;
     }
 
     /************************************************************/
 
-    .edit-profile {
-    	display: inline-block;
-    	padding: 5px 5px 2px;
-    	background-color: blue;
-    	border: 2px solid black;
-    	color: white;
-    	box-shadow: 3px 3px black;
-    	right: 10px;
-    }
-
-    .about-column {
+    .l-column {
     	display: inline-block;
     	width: 45%;
-    	height: auto;
     	text-align: left;
     	vertical-align: middle;
     	margin: 15px 0 70px;
@@ -144,15 +154,15 @@
     <main>
     <section class="about">
       <div class="about_header">
-        <h1>About</h1>
+        <h1 class="center">About</h1>
         <a href="#">
-          <div class="vertical-center edit-profile">
+          <div class="vertical-center edit_profile_button button">
             <p>Edit your Profile</p>
           </div>
         </a>
       </div>
 
-      <div class="about-column">
+      <div class="l-column">
         <div id="basic-info">
           <h2>Basic Information</h2>
           <ul>
@@ -184,7 +194,7 @@
         </div>
       </div>
 
-      <div class="about-column">
+      <div class="l-column">
         <h2>Words to Live By</h2>
         <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 

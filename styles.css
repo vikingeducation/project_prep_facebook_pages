@@ -82,7 +82,7 @@ MODULES
 	box-shadow: 2px 2px black;
 }
 
-.vertical-align {
+.vertical_center {
 	position: absolute;
 	top: 50%;
 	transform: translate(0,-50%);
