@@ -128,24 +128,19 @@
 
     /************************************************************/
 
-    #contact-info {
-    	margin-top: 15px;
-    }
-
-    ul {
+    .l-column ul {
     	display: inline-block;
-    	width: 30%;
     	margin: 0;
     	padding: 0;
     	list-style: none;
     }
 
-    li {
-    	margin-bottom: 20px;
+    .l-column li {
+    	margin: 0 20px 20px 0;
     }
 
-    .value {
-    	font-weight: normal;
+    ul:nth-child(2) {
+    	font-weight: bold;
     }
     </style>
   </head>
@@ -162,7 +157,7 @@
       </div>
 
       <div class="l-column">
-        <div id="basic-info">
+        <div>
           <h2>Basic Information</h2>
           <ul>
             <li>Birthday:</li>
@@ -171,7 +166,7 @@
             <li>Currently lives:</li>
           </ul>
 
-          <ul class="value">
+          <ul>
             <li>Jan 1st, 1900</li>
             <li>Gru's house</li>
             <li>Gru's house</li>
@@ -179,7 +174,7 @@
           </ul>
         </div>
 
-        <div id="contact-info">
+        <div>
           <h2>Contact Information</h2>
           <ul>
             <li>Email:</li>

@@ -255,76 +255,17 @@ MODULES
 	font-weight: bold;
 }
 
-/*******************************
-ABOVE IS FINISHED
-*******************************/
-
-#about {
-	border: 1px solid black;
-	margin-top: 20px;
-}
-
-/*#header {
-	height: 50px;
-	background-color: lightblue;
-	border: 1px solid black;
-	border-bottom: 2px solid black;
-	text-align: center;
-	position: relative;
-}*/
-
-/*#header h1 {
-	font-size: 1.5em;
-	margin-top: 10px;
-}*/
-
-.edit-profile {
+.l-column ul {
 	display: inline-block;
-	padding: 5px 5px 2px;
-	background-color: blue;
-	border: 2px solid black;
-	color: white;
-	box-shadow: 3px 3px black;
-	right: 10px;
-}
-
-.about-column {
-	display: inline-block;
-	width: 45%;
-	height: auto;
-	text-align: left;
-	vertical-align: middle;
-	margin: 15px 0 70px;
-}
-
-.about-text {
-	font-size: 1em;
-	font-weight: normal;
-	line-height: 1.3em;
-}
-
-.about-column h2 {
-	padding: 25px 0;
-	font-size: 1.7em;
-	font-weight: bold;
-}
-
-#contact-info {
-	margin-top: 15px;
-}
-
-ul {
-	display: inline-block;
-	width: 30%;
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 
-li {
-	margin-bottom: 20px;
+.l-column li {
+	margin: 0 20px 20px 0;
 }
 
-.value {
-	font-weight: normal;
+ul:nth-child(2) {
+	font-weight: bold;
 }
