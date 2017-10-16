@@ -69,15 +69,15 @@ main {
 	position: relative;
 }
 
-/*****************************
-MODULES
-*****************************/
-/**REUSED**/
 .vertical-center {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 }
+
+/*****************************
+MODULES
+*****************************/
 
 /**secondary nav module**/
 .secondary_nav * {
