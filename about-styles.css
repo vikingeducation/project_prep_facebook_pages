@@ -236,11 +236,6 @@ MODULES
 	right: 10px;
 }
 
-/*******************************
-ABOVE IS FINISHED
-*******************************/
-
-
 .l-column {
 	display: inline-block;
 	width: 45%;
@@ -248,6 +243,21 @@ ABOVE IS FINISHED
 	vertical-align: middle;
 	margin: 15px 0 70px;
 }
+
+.l-column p {
+	font-weight: normal;
+	line-height: 1.3em;
+}
+
+.l-column h2 {
+	padding: 25px 0;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+/*******************************
+ABOVE IS FINISHED
+*******************************/
 
 #about {
 	border: 1px solid black;
