@@ -51,51 +51,211 @@ table {
 ************************************************************
 ***********************************************************/
 
-body {
-  background-color: red;
+/*****************************
+LAYOUT
+*****************************/
+#header {
+	height: 45px;
+	background-color: #3b5998;
 }
 
-#header {
-	height: 80px;
-	background-color: #3B5998;
+main {
+	width: 960px;
+	max-width: 960px;
+	margin: 0 auto;
+	/*text-align: center;*/
+}
+
+#profile {
 	position: relative;
 }
 
-/**MULTI-USE**/
+/*****************************
+MODULES
+*****************************/
+/**REUSABLE**/
+.vertical-center {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
 .button {
 	border: 2px solid black;
 	box-shadow: 2px 2px black;
 }
 
-.vertical-align {
-	position: absolute;
-	top: 50%;
-	transform: translate(0,-50%);
-}
-
-.page_buttons {
-	display: block;
-	margin: 50px auto;
-	width: 100px;
-}
-
-/**LOGO**/
-.logo {
-	color: #FFF;
-	padding: 20px 30px;
-}
-
-/**LOG IN**/
-.login-labels {
-	display: block;
-	margin-bottom: 7px;
-}
-
-.login-layout {
+/**secondary nav module**/
+.secondary_nav * {
 	display: inline-block;
-	margin: 0 7px;
 }
 
-.login {
+.secondary_nav {
+	color: #fff;
+	height: inherit;
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+
+.logo * {
+	vertical-align: middle;
+}
+
+.logo img {
+	width: 25px;
+	margin-right: 5px;
+}
+
+.logo h1 {
+	font-size: 1.6em;
+}
+
+.user_search {
+	height: 25px;
+	width: 60%;
+}
+
+.secondary_nav h3 {
+	right: 0;
+	font-size: 1.2em;
+}
+
+
+
+/**profile module**/
+.profile_background {
+	width: 960px;
+	height: 300px;
+}
+
+/*****logo SUB-module*****/
+.profile_logo {
+	position: absolute;
+	left: 10px;
+	bottom: 25px;
+	z-index: 1;
+}
+
+.profile_logo * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.profile_logo img {
+	width: 150px;
+	height: 150px;
+}
+
+.profile_logo h2 {
+	font-size: 1.5em;
+	margin-left: 10px;
+	margin-top: 40px;
+}
+
+/*****profile nav SUB--module*****/
+.profile_nav {
+	height: 55px;
+	border: 2px solid black;
+	position: relative;
+	text-align: left;
+}
+
+.empty_div {
+	display: inline-grid;
+	width: 170px;
+	height: 100%;
+	border-right: 2px solid black;
+}
+
+.profile_button {
+	border-right: 2px solid black;
+	display: inline-grid;
+	height: 100%;
+	min-width: 110px;
+	padding: 0 10px;
+	vertical-align: top;
+}
+
+.profile_button_text {
+	margin: auto;
+	color: #000;
+}
+
+.profile_nav a {
+	text-decoration: none;
+}
+
+.numbers {
+	margin-left: 5px;
+	color: #aaa;
+}
+
+.edit_profile {
 	right: 15px;
+}
+
+
+/***friends module***/
+.friends {
+	border: 1px solid black;
+	margin-top: 20px;
+}
+
+.section_header {
+	height: 45px;
+	background-color: lightblue;
+	border: 1px solid black;
+	border-bottom: 2px solid black;
+	position: relative;
+}
+
+.section_header h1 {
+	font-size: 1.8em;
+	letter-spacing: 2px;
+}
+
+/***friend box sub-module****/
+.friend_box {
+	border: 2px solid black;
+	display: inline-block;
+}
+
+.friend_box img {
+	width: 75px;
+	height: 100px;
+}
+
+.friend_box > * {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 15px;
+}
+
+.friend_box p {
+	margin: 0;
+	padding: 0;
+	color: #777
+}
+
+.friend_box input {
+	background-color: lightblue;
+	padding: 2px 12px;
+}
+
+
+
+/*****************/
+
+.page-buttons {
+	display: block;
+	width: 100px;
+	margin: 50px auto;
 }
