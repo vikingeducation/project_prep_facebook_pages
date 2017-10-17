@@ -1,54 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
-p {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  margin-bottom: 8px;
-}
-
-li {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  margin-bottom: 8px;
-  margin-left: 16px;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  font-family: Montserrat, sans-serif;
-  color: #333;
-}
-
-h1 {
-  font-size: 36px;
-  text-align: left;
-}
-
-h2 {
-  font-size: 28px;
+nav {
+  width: 996px;
 }
 
 
-h3 {
-  font-size: 24px;
-}
-
-h4 {
-  font-size: 20px;
-}
-
-a,
-a:link,
-a:visited {
-  font-family: Helvetica, Arial, sans-serif;
-  text-decoration: none;
-}
-
-a:hover,
-a:active {
-  text-decoration: underline;
+main {
+  background-color: rgb(237, 240, 245);
+  background-image: linear-gradient(white, rgb(211, 216, 232));
 }
 
 select:required:invalid {
@@ -62,22 +19,9 @@ option {
   color: black;
 }
 
-header {
-  background-color: #3b5998;
-  width: 100%;
-}
-
-nav {
-  width: 996px;
-  display: flex;
-  flex-flow: row nowrap;
-  margin: auto;
-  border-bottom: 1px solid rgb(19, 55, 131);
-}
-
-input, label {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 12px;
+.wrapper {
+  padding: 20px 0;
+  width: 966px;
 }
 
 #login-submit {
@@ -85,23 +29,9 @@ input, label {
   padding: 2px 6px 2px 6px;
 }
 
-main {
-  background-color: rgb(237, 240, 245);
-  background-image: linear-gradient(white, rgb(211, 216, 232));
-}
-
-strong { font-weight: bold; }
-
 .logo {
   width: 170px;
   margin-left: 0px;
-}
-
-.nav-left {
-  display: flex;
-  flex: 4;
-  margin: 20px 0;
-  justify-content: flex-start;
 }
 
 .nav-login {
@@ -112,13 +42,9 @@ strong { font-weight: bold; }
   padding: 20px 0;
 }
 
-.nav-text {
-  color: #fff;
-}
-
 .nav-label {
   display: flex;
-  order: 1;
+  order: 3;
   font-family: Helvetica, Arial, sans-serif;
   text-decoration: none;
   font-size: 12px;
@@ -127,7 +53,7 @@ strong { font-weight: bold; }
 }
 
 .nav-label:last-of-type {
-  margin-right: 62px;
+  margin-right: 64px;
 }
 
 .nav-input {
@@ -152,14 +78,6 @@ strong { font-weight: bold; }
 
 .nav-submit:hover {
   background-color: #365899;
-}
-
-.wrapper {
-  width: 996px;
-  display: flex;
-  flex-flow: row nowrap;
-  margin: auto;
-  padding: 20px 0;
 }
 
 .section-features {
