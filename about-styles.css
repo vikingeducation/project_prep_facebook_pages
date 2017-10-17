@@ -202,12 +202,6 @@ MODULES
 	right: 15px;
 }
 
-.page-buttons {
-	display: block;
-	width: 100px;
-	margin: 50px auto;
-}
-
 /****about module*****/
 .about {
 	border: 1px solid black;
@@ -268,4 +262,16 @@ MODULES
 
 ul:nth-child(2) {
 	font-weight: bold;
+}
+
+/******************/
+
+.makeshift_nav {
+	list-style: none;
+}
+
+.page-buttons {
+	display: block;
+	margin: 50px auto;
+	width: 100px;
 }

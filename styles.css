@@ -88,12 +88,6 @@ MODULES
 	transform: translate(0,-50%);
 }
 
-.page_buttons {
-	display: block;
-	margin: 50px auto;
-	width: 100px;
-}
-
 /**LOGO**/
 .logo {
 	color: #FFF;
@@ -191,4 +185,16 @@ MODULES
 	height: 35px;
 	margin-top: 15px;
 	width: 100%;
+}
+
+/*********************/
+
+.makeshift_nav {
+	list-style: none;
+}
+
+.page-buttons {
+	display: block;
+	margin: 50px auto;
+	width: 100px;
 }
