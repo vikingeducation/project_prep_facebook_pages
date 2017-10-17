@@ -206,7 +206,16 @@ MODULES
 /***friends module***/
 .friends {
 	border: 1px solid black;
+	display: grid;
 	margin-top: 20px;
+}
+
+.l-col_1 {
+	grid-column: 1;
+}
+
+.l-col_2 {
+	grid-column: 2;
 }
 
 .section_header {
@@ -214,6 +223,7 @@ MODULES
 	background-color: lightblue;
 	border: 1px solid black;
 	border-bottom: 2px solid black;
+	grid-column: 1 / span 2;
 	position: relative;
 }
 
@@ -225,7 +235,7 @@ MODULES
 /***friend box sub-module****/
 .friend_box {
 	border: 2px solid black;
-	display: inline-block;
+	margin: 10px;
 }
 
 .friend_box img {
