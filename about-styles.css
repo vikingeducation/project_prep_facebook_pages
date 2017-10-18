@@ -95,10 +95,10 @@ MODULES
 /**secondary nav module**/
 .secondary_nav * {
 	display: inline-block;
+	color: #fff;
 }
 
 .secondary_nav {
-	color: #fff;
 	height: inherit;
 	margin: 0 auto;
 	position: relative;

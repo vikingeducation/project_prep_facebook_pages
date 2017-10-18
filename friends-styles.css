@@ -16,9 +16,9 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	/*font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: baseline;*/
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -101,10 +101,10 @@ MODULES
 /**secondary nav module**/
 .secondary_nav * {
 	display: inline-block;
+	color: #fff;
 }
 
 .secondary_nav {
-	color: #fff;
 	height: inherit;
 	margin: 0 auto;
 	position: relative;
