@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+  background-color: #e9ebee;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+li {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Montserrat, sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: left;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+
+h3 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+a,
+a:link,
+a:visited {
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+header {
+  background-color: #3b5998;
+  width: 100%;
+  border-bottom: 1px solid rgb(19, 55, 131);
+}
+
+nav {
+  width: 851px;
+  height: 42px;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: auto;
+  align-items: center;
+}
+
+input, label {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+main {
+
+}
+
+strong {
+  font-weight: bold;
+}
+
+.white-text {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.nav-left {
+  display: flex;
+  order: 1;
+  flex: 1;
+  margin: auto 0;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  width: 110px;
+  margin-left: 8px;
+}
+
+.nav-profile-picture {
+  width: 25px;
+  margin: 5px 0 5px 0;
+  /*border: 1px solid rgb(19, 55, 131);*/
+  border-radius: 50%
+}
+
+.nav-middle {
+  display: flex;
+  order: 2;
+  flex: 3;
+}
+
+.nav-search {
+  flex: 1;
+  font-size: 14px;
+  color: #1d2129;
+  height: 24px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 16px;
+  border: 1px solid rgb(59, 89, 152);
+  border-radius: 3px;
+  padding-left: 5px;
+}
+
+.nav-right {
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  order: 3;
+  text-align: right;
+}
+
+.wrapper {
+  width: 851px;
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+  padding: 0 0 20px 0;
+}
+
+.profile-top {
+  width: 851px;
+  height: 343px;
+  display: flex;
+  flex-flow: row wrap;
+  border: 1px solid rgb(211, 214, 219);
+  border-top: 0;
+  background-color: #fff;
+  margin-bottom: 15px;
+}
+
+.profile-cover {
+  position: relative;
+  height: 300px;
+}
+
+.profile-name{
+  font-size: 24px;
+  position: absolute;
+  bottom: 15px;
+  left: 201px;
+  text-shadow: 0 0 3px rgba(0, 0, 0, .4);
+  line-height: 30px;
+}
+
+.profile-picture-box {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  padding: 1px;
+  position: absolute;
+  left: 15px;
+  bottom: -25px;
+}
+
+.profile-picture {
+  border: 4px solid #fff;
+  border-radius: 2px;
+  height: 160px;
+  width: 160px;
+}
+
+.profile-nav {
+  padding-left: 201px;
+  width: 100%;
+  height: 43px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.profile-links {
+  border-left: 1px solid rgb(233, 234, 237);
+  list-style-type: none;
+  display: flex;
+}
+
+.profile-link {
+  border-right: 1px solid rgb(233, 234, 237);
+  padding: 0 20px;
+  height: 43px;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+
+}
+
+.profile-link:hover,
+.profile-link:active {
+  background-color: rgb(246, 247, 249);
+}
+
+.link-text,
+.link-text:hover,
+.link-text:active {
+  color: #365899;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.gray-text {
+  color: #999;
+  font-weight: 400;
+}
+
+.card {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid rgb(206, 208, 212);
+  border-radius: 3px;
+}
+
+.card-header {
+  background-color: rgb(246, 247, 249);
+  border-bottom: 1px solid rgb(211, 214, 219);
+  padding: 14px 0 12px 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.card-title {
+  color: rgb(75, 79, 86);
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.card-title-picture {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.card-body {
+  padding: 30px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.mrg-btm-15 {
+  margin-bottom: 15px;
+}

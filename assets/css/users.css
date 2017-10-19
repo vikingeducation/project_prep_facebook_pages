@@ -1,0 +1,77 @@
+.card-body {
+  margin: 15px 15px 0 0;
+  padding: 0;
+}
+
+.friend-cards {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+}
+
+.friend-card {
+  display: flex;
+  border: 1px solid rgb(233, 235, 238);
+  margin: 0 0 13px 13px;;
+  width: 370px;
+  color: #365899;
+  align-items: center;
+  justify-content: space-between;
+  flex: auto;
+}
+
+section.friend-card > img {
+  height: 100px;
+  width: 90px;
+  margin-right: 12px;
+}
+
+section.friend-card > div > a {
+  color: #365899;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+section.friend-card > p {
+  margin: 0px;
+}
+
+.friend-card-button {
+  background-color: #f6f7f9;
+  border: 1px solid rgb(206, 208, 212);
+  border-radius: 2px;
+  padding: 0 8px;
+  line-height: 22px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin-right: 10px;
+  flex: auto;
+}
+
+.friend-card-button:hover {
+  background-color: #e9ebee;
+}
+
+div.friend-card-button > span {
+  color: #4b4f56;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  margin-left: 3px;
+}
+
+.friend-card-text {
+  margin-right: 10px;
+  flex: 50%;
+  justify-content: flex-start;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.bold {
+  font-weight: bold;
+}
