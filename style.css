@@ -1,0 +1,218 @@
+
+.homepagetitle, .signupbutton, .logintitle {
+  color: white;
+}
+
+.homepagetitle, .reasontitle, .reasonbold, .signuptitle, .bdaytitle, .signupbutton {
+  font-weight: bold;
+}
+
+.homepagetitle, .logininput, .reason, .signupfirst {
+  float: left;
+}
+
+.loginform, .signupinputs, .signup, .signupbasicinfo > input {
+  display: block;
+}
+
+.signupbutton, .bdaytitle, .signuptitle, .loginbutton {
+  text-align: center;
+}
+
+.homepagetitle, .logintitle, .signupinputs, .loginbutton, .reasontitle, .reasons, .signuptitle, .signupbasicinfo > input, .bdaytitle, .bdayform > option, .genderform > label, .signupbutton {
+  font-family: sans-serif;
+}
+
+.loginbanner {
+  background-color: rgb(17, 78, 232);
+  height: 120px;
+  border: 3px solid black;
+}
+
+.homepagetitle {
+  font-size: 64px;
+  margin-top: 26px;
+  margin-left: 10%;
+  font-family: sans-serif;
+}
+
+.loginform {
+  float: right;
+  margin-right: 15%;
+}
+
+.logininput {
+  margin-top: 40px;
+}
+
+.logintitle {
+  margin-bottom: 10px;
+}
+
+.signupinputs {
+  border: 2px solid black;
+  height: 18px;
+}
+
+.Email {
+  margin-right: 24px;
+}
+
+.Password {
+  margin-right: 16px;
+}
+
+.loginbutton {
+  border: 2px solid black;
+  background-color: rgb(151, 174, 230);
+  padding: 0 6px 0;
+  box-shadow: 4px 4px;
+  height: 28px;
+  width: 60px;
+  cursor: pointer;
+  margin-top: 63px;
+}
+
+.homemain {
+  margin-top: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.reason {
+  margin-top: 60px;
+  margin-left: 9%;
+}
+
+.reasontitle {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.reasons {
+  margin-left: 40px;
+  margin-bottom: 30px;
+  color: grey;
+  font-size: 20px;
+}
+
+.reasonlist .reasons::before {
+  content: '\2022';
+  margin-right: 15px;
+}
+
+.signup {
+  float: right;
+  width: 356px;
+  height: 400px;
+  margin-right: 15%;
+}
+
+.signuptitle {
+  font-size: 56px;
+  margin-bottom: 26px;
+}
+
+.signupbasicinfo > input {
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+.signupfirst {
+  margin-right: 18px;
+}
+
+.signupemail, .signuppassword, .signupconfirm {
+  width: 350px;
+}
+
+.bdaytitle {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.bdayform {
+  margin-left: 59px;
+}
+
+.bdayform > .bdayformselects {
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-bottom: 24px;
+}
+
+.genderform {
+  margin-left: 63px;
+}
+
+.genderinput {
+  margin-left: 10px;
+}
+
+.signupbutton {
+  margin-top: 20px;
+  margin-left: 78px;
+  border: 2px solid black;
+  background-color: green;
+  height: 50px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 24px;
+  box-shadow: 4px 4px 0 black;
+}
+
+@media all and (max-width: 1525px) {
+
+.homepagetitle, .reason {
+  margin-left: 5%;
+}
+
+.loginform, .signup {
+  margin-right: 5%;
+}
+
+}
+
+@media all and (max-width: 1225px) {
+
+.reasontitle {
+  font-size: 32px;
+}
+
+.reasons {
+  font-size: 16px;
+}
+
+.signuptitle {
+  font-size: 40px;
+}
+
+.bdaytitle {
+  font-size: 24px;
+}
+
+}
+
+@media all and (max-width: 1000px) {
+
+.homepagetitle {
+  margin-left: 20px;
+}
+
+.loginform {
+  margin-right: 20px;
+}
+
+.homemain {
+  margin-top: 10px;
+}
+
+.reason {
+  margin-left: 15px;
+}
+
+.signup {
+  margin-right: 15px;
+}
+
+}
