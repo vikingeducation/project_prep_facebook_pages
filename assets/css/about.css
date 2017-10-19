@@ -1,0 +1,52 @@
+
+.card-body-section-1 {
+  width: 350px;
+  display: flex;
+  flex-flow: row wrap;
+  order: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.card-body-section-2 {
+  display: flex;
+  flex-flow: row wrap;
+  order: 2;
+  width: 350px;
+  margin-bottom: auto;
+  margin-right: 30px;
+}
+
+
+.card-body-section-3 {
+  display: flex;
+  flex-flow: row wrap;
+  order: 1;
+  margin-bottom: auto;
+  width: 400px;
+}
+
+.card-body-section-4 {
+  display: flex;
+  flex-flow: row wrap;
+  order: 2;
+  margin-bottom: auto;
+  width: 400px;
+}
+
+.card-body-header {
+  margin-bottom: 15px;
+  flex: 1 100%;
+}
+
+.card-body-property {
+  width: 130px;
+
+}
+
+.card-body.value {
+  flex: 1 70%;
+
+}

@@ -1,5 +1,7 @@
 nav {
-  width: 996px;
+  width: 960px;
+  margin: auto;
+  height: unset;
 }
 
 
@@ -26,7 +28,22 @@ option {
 
 #login-submit {
   font-weight: bold;
-  padding: 2px 6px 2px 6px;
+  padding: 4px 6px 4px 6px;
+  color: #fff;
+  background-color: #4267b2;
+  border: 1px solid rgb(41, 72, 125);
+  cursor:pointer;
+}
+
+#login-submit:hover {
+  background-color: #365899;
+}
+
+.nav-left {
+  flex: 4;
+  margin: 20px 0;
+  justify-content: flex-start;
+  order: unset;
 }
 
 .logo {
@@ -44,7 +61,7 @@ option {
 
 .nav-label {
   display: flex;
-  order: 3;
+  order: 1;
   font-family: Helvetica, Arial, sans-serif;
   text-decoration: none;
   font-size: 12px;
@@ -58,27 +75,23 @@ option {
 
 .nav-input {
   order: 2;
-  margin-top: auto;
+  margin-top: 3px;
   margin-left: 14px;
   width: 142px;
   border: 1px solid #000;
   padding: 3px 3px 4px 3px;
-  font-size: 12px;
   height: 14px;
 }
+
 
 .nav-submit {
   order: 3;
   margin-left: 14px;
+  margin-top: 3px;
   justify-content: flex-start;
-  color: #fff;
-  background-color: #4267b2;
-  border: 1px solid rgb(41, 72, 125);
 }
 
-.nav-submit:hover {
-  background-color: #365899;
-}
+
 
 .section-features {
   margin-right: 16px;
