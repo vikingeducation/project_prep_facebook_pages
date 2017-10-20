@@ -94,8 +94,8 @@ MODULES
 
 /**secondary nav module**/
 .secondary_nav * {
-	display: inline-block;
 	color: #fff;
+	display: inline-block;
 }
 
 .secondary_nav {
@@ -119,6 +119,7 @@ MODULES
 }
 
 .user_search {
+	color: #000;
 	height: 25px;
 	width: 60%;
 }

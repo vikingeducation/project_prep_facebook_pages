@@ -1,0 +1,194 @@
+/*******CSS RESET********/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/*font: inherit;*/
+	/*vertical-align: baseline;*/
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+/*****************************************************
+******************************************************
+*****************************************************/
+/*****************************
+LAYOUT
+*****************************/
+#header {
+	height: 45px;
+	background-color: #3b5998;
+}
+
+#sidebar {
+	border-right: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, #3b5998, black) 1 100%;
+	float: left;
+	padding-left: 50px;
+	width: 440px;
+}
+
+#main {
+	float: right;
+	/*set width*/
+}
+
+.l-clear {
+	clear: both;
+}
+
+
+/*****************************
+MODULES
+*****************************/
+/**REUSABLE**/
+.vertical-center {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/**secondary nav module**/
+.secondary_nav * {
+	color: #fff;
+  display: inline-block;
+}
+
+.secondary_nav {
+	height: inherit;
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+
+.logo * {
+	vertical-align: middle;
+}
+
+.logo img {
+	width: 25px;
+	margin-right: 5px;
+}
+
+.logo h1 {
+	font-size: 1.6em;
+}
+
+.user_search {
+  color: #000;
+	height: 25px;
+	width: 60%;
+}
+
+.secondary_nav h3 {
+	right: 0;
+	font-size: 1.2em;
+}
+
+/*************
+SIDEBAR
+*************/
+
+aside h2 {
+	font-size: 1.3em;
+	letter-spacing: 0.07em;
+	padding: 25px 0 10px;
+}
+
+.recent_user:nth-child(1) {
+	padding: 50px 10px;
+}
+
+.recent_user {
+	padding: 25px 0;
+}
+
+/**recent user module**/
+.recent_user img {
+	border: 2px solid black;
+	float: left;
+	height: 100px;
+	margin-top: -8px; /**fixes collapsing margins**/
+	margin-right: 10px;
+	width: 85px;
+}
+
+.recent_user .bigger_image {
+	height: 130px;
+	width: 120px
+}
+
+.recent_user a {
+	display: block;
+	margin-top: 8px;
+}
+
+.recent_user p {
+	color: #777;
+	font-size: 0.8em;
+	margin-top: 8px;
+}
+
+.name {
+	font-size: 1.2em;
+}
+
+.sidebar_edit_profile {
+	font-size: 0.8em;
+}
