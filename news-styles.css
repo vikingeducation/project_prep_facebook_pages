@@ -68,12 +68,13 @@ LAYOUT
 	border-image: linear-gradient(to bottom, #3b5998, black) 1 100%;
 	float: left;
 	padding-left: 50px;
-	width: 440px;
+	width: 420px;
 }
 
 #main {
+	border: 2px solid black;
 	float: right;
-	/*set width*/
+	padding: 20px;
 }
 
 .l-clear {
@@ -191,4 +192,44 @@ aside h2 {
 
 .sidebar_edit_profile {
 	font-size: 0.8em;
+}
+
+/************************
+MAIN CONTENT MODULES
+************************/
+
+/**post module**/
+.submit_post {
+	border: 2px solid black;
+	height: 250px;
+	position: relative;
+	width: 600px;
+}
+
+.post_header {
+	background-color: lightblue;
+	border-bottom: 2px solid black;
+	height: 35px;
+	position: relative;
+}
+
+.submit_post textarea {
+	margin: 15px 0 0 15px;
+}
+
+.submit_post footer {
+	background-color: lightblue;
+	border-top: 2px solid black;
+	height: 57px;
+	margin-top: 10px;
+	position: relative;
+}
+
+.post_button {
+	background-color: blue;
+	color: #fff;
+	font-size: 0.8em;
+	font-weight: bold;
+	padding: 4px 11px;
+	right: 10px;
 }

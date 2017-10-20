@@ -74,26 +74,28 @@
     	box-shadow: 2px 2px black;
     }
 
-    section {
-      border: 1px solid black;
+    .submit_post {
+      border: 2px solid black;
       height: 250px;
-      width: 600px;
       position: relative;
+      width: 600px;
     }
 
-    header {
+    .post_header {
       background-color: lightblue;
+      border-bottom: 2px solid black;
       height: 35px;
       position: relative;
     }
 
-    textarea {
+    .submit_post textarea {
       margin: 15px 0 0 15px;
     }
 
-    footer {
+    .submit_post footer {
       background-color: lightblue;
-      height: 59px;
+      border-top: 2px solid black;
+      height: 57px;
       margin-top: 10px;
       position: relative;
     }
@@ -101,7 +103,9 @@
     .post_button {
       background-color: blue;
       color: #fff;
-      padding: 3px 9px;
+      font-size: 0.8em;
+      font-weight: bold;
+      padding: 4px 11px;
       right: 10px;
     }
 
@@ -111,19 +115,18 @@
 
 
   <body>
-    <section>
-      <header>
+    <section class="submit_post">
+      <header class="post_header">
         <h2 class="center">Post &#40;copied&#41;</h2>
       </header>
-
       <textarea name="post" placeholder="Tell the world something..." rows="8" cols="68"></textarea>
-
       <footer>
-        <div class="post_button button vertical-center">
-          <p>Post</p>
-        </div>
+        <a href="#">
+          <div class="post_button button vertical-center">
+            <p>Post</p>
+          </div>
+        </a>
       </footer>
-
     </section>
 
   </body>
