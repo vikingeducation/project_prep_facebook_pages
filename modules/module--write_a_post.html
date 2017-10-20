@@ -56,61 +56,57 @@
     }
 
     /*************************************/
-
-    .recent_user {
-    	padding: 25px 0;
+    .center {
+    	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	transform: translate(-50%,-50%);
     }
 
-    .clearfix:after {
-      content: "";
-      display: table;
-      clear: both;
+    .vertical-center {
+    	position: absolute;
+    	top: 50%;
+    	transform: translateY(-50%);
     }
 
-    .recent_user img {
+    .button {
     	border: 2px solid black;
-    	float: left;
-    	height: 100px;
-    	margin-top: -8px; /**fixes collapsing margins**/
-    	margin-right: 10px;
-    	width: 85px;
+    	box-shadow: 2px 2px black;
     }
 
-    .recent_user a {
-    	display: block;
-    	margin-top: 8px;
-    }
-
-    .recent_user p {
-    	color: #777;
-    	font-size: 0.8em;
-    	margin-top: 8px;
-    }
-
-    /**already have above stylings**/
-
-    .post_user {
-      padding: 13px 5px 5px; /**add after .recent_user to override with cascade**/
-    }
-
-    .post {
+    .submit_post {
       border: 2px solid black;
-      /*height: 250px;*/
+      height: 250px;
+      position: relative;
       width: 600px;
     }
 
-    .post > p {
-      padding: 13px;
+    .post_header {
+      background-color: lightblue;
+      border-bottom: 2px solid black;
+      height: 35px;
+      position: relative;
     }
 
-    .post footer {
+    .submit_post textarea {
+      margin: 15px 0 0 15px;
+    }
+
+    .submit_post footer {
       background-color: lightblue;
       border-top: 2px solid black;
+      height: 57px;
+      margin-top: 10px;
+      position: relative;
     }
 
-    .post_links {
-      display: inline-block;
-      padding: 10px;
+    .post_button {
+      background-color: blue;
+      color: #fff;
+      font-size: 0.8em;
+      font-weight: bold;
+      padding: 4px 11px;
+      right: 10px;
     }
 
     </style>
@@ -119,17 +115,17 @@
 
 
   <body>
-    <section class="post">
-      <div class="recent_user post_user clearfix">
-        <img src="../pictures/sloth.jpg" alt="" /> <!--change file path for news.html-->
-        <a href="#">Sloth</a>
-        <p>Posted on Thursday 1/1/2000</p>
-      </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+    <section class="submit_post">
+      <header class="post_header">
+        <h2 class="center">Post &#40;copied&#41;</h2>
+      </header>
+      <textarea name="post" placeholder="Tell the world something..." rows="8" cols="68"></textarea>
       <footer>
-        <a class="post_links" href="#">Like</a>
-        <a class="post_links" href="#">Comment</a>
+        <a href="#">
+          <div class="post_button button vertical-center">
+            <p>Post</p>
+          </div>
+        </a>
       </footer>
     </section>
 

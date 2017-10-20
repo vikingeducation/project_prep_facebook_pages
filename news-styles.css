@@ -72,8 +72,10 @@ LAYOUT
 }
 
 #main {
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	float: right;
+	margin-right: 120px;
+	margin-top: 50px;
 	padding: 20px;
 }
 
@@ -152,9 +154,9 @@ aside h2 {
 	padding: 25px 0 10px;
 }
 
-.recent_user:nth-child(1) {
+/*.recent_user:nth-child(1) {
 	padding: 50px 10px;
-}
+}*/
 
 .recent_user {
 	padding: 25px 0;
@@ -198,26 +200,26 @@ aside h2 {
 MAIN CONTENT MODULES
 ************************/
 
-/**post module**/
-.submit_post {
+/**write_a_post module**/
+.write_a_post {
 	border: 2px solid black;
 	height: 250px;
 	position: relative;
 	width: 600px;
 }
 
-.post_header {
+.write_a_post_header {
 	background-color: lightblue;
 	border-bottom: 2px solid black;
 	height: 35px;
 	position: relative;
 }
 
-.submit_post textarea {
+.write_a_post textarea {
 	margin: 15px 0 0 15px;
 }
 
-.submit_post footer {
+.write_a_post footer {
 	background-color: lightblue;
 	border-top: 2px solid black;
 	height: 57px;
@@ -233,3 +235,34 @@ MAIN CONTENT MODULES
 	padding: 4px 11px;
 	right: 10px;
 }
+
+/**post module**/
+.post_user {
+	padding: 16px 8px 8px; /**add after .recent_user to override with cascade**/
+}
+
+.post {
+	border: 2px solid black;
+	margin-top: 40px;
+	width: 600px;
+}
+
+.post > p {
+	padding: 13px;
+}
+
+.post footer {
+	background-color: lightblue;
+	border-top: 2px solid black;
+}
+
+.post_links {
+	display: inline-block;
+	padding: 10px;
+}
+
+/********rewrite recent_user:nth child selector --- it affects the post module....**********/
+
+/******rewrite .bigger_image to avoid specificity******/
+
+/******look over SMACSS module section especially the depth of app***********/
