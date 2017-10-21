@@ -154,12 +154,12 @@ aside h2 {
 	padding: 25px 0 10px;
 }
 
-/*.recent_user:nth-child(1) {
-	padding: 50px 10px;
-}*/
-
 .recent_user {
 	padding: 25px 0;
+}
+
+.user_logo {
+	padding: 50px 10px; /**use after .recent_user for first sidebar module**/
 }
 
 /**recent user module**/
@@ -177,18 +177,19 @@ aside h2 {
 	width: 120px
 }
 
-.recent_user a {
+.recent_user_name {
 	display: block;
 	margin-top: 8px;
 }
 
-.recent_user p {
+.post_date {
 	color: #777;
 	font-size: 0.8em;
 	margin-top: 8px;
 }
 
 .name {
+	display: block;
 	font-size: 1.2em;
 }
 
@@ -203,7 +204,6 @@ MAIN CONTENT MODULES
 /**write_a_post module**/
 .write_a_post {
 	border: 2px solid black;
-	height: 250px;
 	position: relative;
 	width: 600px;
 }
@@ -222,7 +222,7 @@ MAIN CONTENT MODULES
 .write_a_post footer {
 	background-color: lightblue;
 	border-top: 2px solid black;
-	height: 57px;
+	height: 45px;
 	margin-top: 10px;
 	position: relative;
 }
@@ -251,7 +251,7 @@ MAIN CONTENT MODULES
 	padding: 13px;
 }
 
-.post footer {
+.post_footer {
 	background-color: lightblue;
 	border-top: 2px solid black;
 }
@@ -261,8 +261,35 @@ MAIN CONTENT MODULES
 	padding: 10px;
 }
 
-/********rewrite recent_user:nth child selector --- it affects the post module....**********/
+.likes_this {
+	clear: both; /**for extended footer to clear the post links**/
+	padding: 10px 10px 25px;
+}
 
-/******rewrite .bigger_image to avoid specificity******/
+/**extended footer module***/
+.right {
+	float: right;
+}
 
-/******look over SMACSS module section especially the depth of app***********/
+.user_comment {
+	display: inline-block;
+}
+
+.reply_text {
+	float: right;
+	font-size: 1em;
+	margin-top: 20px;
+	width: 400px;
+}
+
+.reply_text a {
+	margin-right: 40px;
+}
+
+/******
+redo and reconcile the 3 "recent user modules" used on this page
+*****/
+
+/****
+compress the footer with unlike and delete used 2 times on the page
+*****/
