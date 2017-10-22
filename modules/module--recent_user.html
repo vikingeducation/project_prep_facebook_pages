@@ -56,35 +56,143 @@
     }
 
     /*************************************/
+    body h2 {
+    	font-size: 1.3em;
+    	letter-spacing: 0.05em;
+    	padding: 25px 0 20px;
+    }
 
-    .recent_user img {
-      float: left;
+    .recent_user {
+      padding: 10px 0;
+    }
+
+    .recent_user * {
+      vertical-align: top;
+    }
+
+    .recent_user--img {
       height: 100px;
-      margin-top: -8px;
-      margin-right: 10px;
       width: 85px;
     }
 
-    .recent_user a {
+    .main-img {
+      height: 130px;
+      width: 120px;
+    }
+
+    .recent_user--text {
+      display: inline-block;
+    }
+
+    .recent_user--link {
       display: block;
-      font-size: 0.8em;
-      margin-top: 8px;/***why does this move the img as well???**
-      because of collapsing margins!!!**/
+      font-size: 0.9em;
+      margin: 8px 0 0 5px;
     }
 
     .name {
       font-size: 1.2em;
     }
+
+    .post-date {
+      color: #777;
+      font-weight: lighter;
+    }
+
+    .l-recent_user--main {
+      padding: 50px 10px;
+    }
+
     </style>
 
   </head>
 
 
   <body>
-    <div class="recently_active_user">
-      <img src="../pictures/profile-pic.jpg" alt="" /> <!--change file path-->
-      <a class="name" href="#">Stuart</a>
-      <a href="#">Edit Profile</a>
+
+    <!-- current user logo -->
+
+    <div class="recent_user l-recent_user--main">
+      <img class="recent_user--img main-img" src="../pictures/stuart.jpg" alt="" /> <!--change file path-->
+      <div class="recent_user--text">
+        <a class="name recent_user--link" href="#">Stuart</a>
+        <a class="recent_user--link" href="#">Edit Profile</a>
+      </div>
     </div>
+
+    <h2>Recently Active</h2>
+
+    <div class="recent_user">
+      <img class="recent_user--img" src="../pictures/captain-jack.jpg" alt="" /> <!--change file path-->
+      <div class="recent_user--text">
+        <a class="recent_user--link" href="#">Captain Jack</a>
+        <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+      </div>
+    </div>
+    <div class="recent_user">
+      <img class="recent_user--img" src="../pictures/stuarts-gf.jpg" alt="" /> <!--change file path-->
+      <div class="recent_user--text">
+        <a class="recent_user--link" href="#">Stuart's Girlfriend</a>
+        <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+      </div>
+    </div>
+    <div class="recent_user">
+      <img class="recent_user--img" src="../pictures/the-dudes.jpg" alt="" /> <!--change file path-->
+      <div class="recent_user--text">
+        <a class="recent_user--link" href="#">The Dudes</a>
+        <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+      </div>
+    </div>
+    <div class="recent_user">
+      <img class="recent_user--img" src="../pictures/princess.jpg" alt="" /> <!--change file path-->
+      <div class="recent_user--text">
+        <a class="recent_user--link" href="#">Princess</a>
+        <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+      </div>
+    </div>
+    <div class="recent_user">
+      <img class="recent_user--img" src="../pictures/gertrude.jpg" alt="" /> <!--change file path-->
+      <div class="recent_user--text">
+        <a class="recent_user--link" href="#">Gertrude</a>
+        <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+      </div>
+    </div>
+    <div class="recent_user">
+      <img class="recent_user--img" src="../pictures/paul-onion.jpg" alt="" /> <!--change file path-->
+      <div class="recent_user--text">
+        <a class="recent_user--link" href="#">Paul B. Onion</a>
+        <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+      </div>
+    </div>
+    <div class="recent_user">
+      <img class="recent_user--img" src="../pictures/ug.jpg" alt="" /> <!--change file path-->
+      <div class="recent_user--text">
+        <a class="recent_user--link" href="#">Ug</a>
+        <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+      </div>
+    </div>
+    <div class="recent_user">
+      <img class="recent_user--img" src="../pictures/hugh.jpg" alt="" /> <!--change file path-->
+      <div class="recent_user--text">
+        <a class="recent_user--link" href="#">Little Hughey</a>
+        <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+      </div>
+    </div>
+    <div class="recent_user">
+      <img class="recent_user--img" src="../pictures/mob-barley.jpg" alt="" /> <!--change file path-->
+      <div class="recent_user--text">
+        <a class="recent_user--link" href="#">Mob Barley</a>
+        <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+      </div>
+    </div>
+    <div class="recent_user">
+      <img class="recent_user--img" src="../pictures/sloth.jpg" alt="" /> <!--change file path-->
+      <div class="recent_user--text">
+        <a class="recent_user--link" href="#">Sloth</a>
+        <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+      </div>
+    </div>
+
+
   </body>
 </html>

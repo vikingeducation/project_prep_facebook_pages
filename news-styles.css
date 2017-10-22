@@ -67,12 +67,12 @@ LAYOUT
 	border-style: solid;
 	border-image: linear-gradient(to bottom, #3b5998, black) 1 100%;
 	float: left;
-	padding-left: 50px;
-	width: 420px;
+	padding-left: 35px;
+	width: 360px;
 }
 
 #main {
-	/*border: 2px solid black;*/
+	border: 2px solid black;
 	float: right;
 	margin-right: 120px;
 	margin-top: 50px;
@@ -84,9 +84,9 @@ LAYOUT
 }
 
 
-/*****************************
+/*********************************************************
 MODULES
-*****************************/
+*********************************************************/
 /**REUSABLE**/
 .vertical-center {
 	position: absolute;
@@ -99,12 +99,6 @@ MODULES
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 /**secondary nav module**/
@@ -144,102 +138,104 @@ MODULES
 	font-size: 1.2em;
 }
 
-/*************
+/*********************
 SIDEBAR
-*************/
+*********************/
 
 aside h2 {
 	font-size: 1.3em;
-	letter-spacing: 0.07em;
+	letter-spacing: 0.05em;
 	padding: 25px 0 10px;
 }
 
+
+/**recent_user module**/
 .recent_user {
-	padding: 25px 0;
+	padding: 10px 0;
 }
 
-.user_logo {
-	padding: 50px 10px; /**use after .recent_user for first sidebar module**/
+.l-recent_user--main {
+	padding: 50px 10px; /**overrides .recent_user**/
 }
 
-/**recent user module**/
-.recent_user img {
+.l-post_user {
+	padding: 5px; /**add to override recent_user padding**/
+}
+
+.recent_user * {
+	vertical-align: top;
+}
+
+.recent_user--img {
 	border: 2px solid black;
-	float: left;
 	height: 100px;
-	margin-top: -8px; /**fixes collapsing margins**/
-	margin-right: 10px;
 	width: 85px;
 }
 
-.recent_user .bigger_image {
+.main-img {
+	border: none;
 	height: 130px;
-	width: 120px
+	width: 120px;
 }
 
-.recent_user_name {
+.recent_user--text {
+	display: inline-block;
+}
+
+.recent_user--link {
 	display: block;
-	margin-top: 8px;
-}
-
-.post_date {
-	color: #777;
-	font-size: 0.8em;
-	margin-top: 8px;
+	font-size: 0.9em;
+	margin: 8px 0 0 5px;
 }
 
 .name {
-	display: block;
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
-.sidebar_edit_profile {
-	font-size: 0.8em;
+.post-date {
+	color: #777;
+	font-weight: lighter;
 }
 
-/************************
-MAIN CONTENT MODULES
-************************/
+/**************************************
+MAIN
+**************************************/
 
 /**write_a_post module**/
 .write_a_post {
 	border: 2px solid black;
-	position: relative;
 	width: 600px;
 }
 
-.write_a_post_header {
+.write_a_post--header {
 	background-color: lightblue;
 	border-bottom: 2px solid black;
-	height: 35px;
-	position: relative;
+	padding: 10px 0;
+	text-align: center;
 }
 
 .write_a_post textarea {
-	margin: 15px 0 0 15px;
+	margin: 15px;
 }
 
 .write_a_post footer {
 	background-color: lightblue;
 	border-top: 2px solid black;
-	height: 45px;
-	margin-top: 10px;
-	position: relative;
+	padding: 10px 20px;
+	text-align: right;
 }
 
 .post_button {
 	background-color: blue;
 	color: #fff;
+	display: inline-block;
 	font-size: 0.8em;
 	font-weight: bold;
 	padding: 4px 11px;
-	right: 10px;
 }
 
 /**post module**/
-.post_user {
-	padding: 16px 8px 8px; /**add after .recent_user to override with cascade**/
-}
+
 
 .post {
 	border: 2px solid black;
@@ -248,48 +244,25 @@ MAIN CONTENT MODULES
 }
 
 .post > p {
-	padding: 13px;
+	padding: 15px;
 }
 
-.post_footer {
+.post footer {
 	background-color: lightblue;
 	border-top: 2px solid black;
-}
-
-.post_links {
-	display: inline-block;
 	padding: 10px;
 }
 
-.likes_this {
-	clear: both; /**for extended footer to clear the post links**/
-	padding: 10px 10px 25px;
+.post_links {
+	margin-right: 10px;
 }
 
-/**extended footer module***/
-.right {
-	float: right;
+/**for extended footer**/
+.liked {
+	padding: 10px 0 20px;
 }
 
-.user_comment {
-	display: inline-block;
-}
-
-.reply_text {
-	float: right;
-	font-size: 1em;
-	margin-top: 20px;
-	width: 400px;
-}
-
-.reply_text a {
-	margin-right: 40px;
-}
 
 /******
-redo and reconcile the 3 "recent user modules" used on this page
-*****/
-
-/****
-compress the footer with unlike and delete used 2 times on the page
+fix recent_user names so the link doesn't extend the full width
 *****/

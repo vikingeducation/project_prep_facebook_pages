@@ -58,60 +58,68 @@
     /*************************************/
 
     .recent_user {
-    	padding: 25px 0;
+    	padding: 10px 0;
     }
 
-    .clearfix:after {
-      content: "";
-      display: table;
-      clear: both;
+    .recent_user * {
+    	vertical-align: top;
     }
 
-    .recent_user img {
-    	border: 2px solid black;
-    	float: left;
+    .recent_user--img {
     	height: 100px;
-    	margin-top: -8px; /**fixes collapsing margins**/
-    	margin-right: 10px;
     	width: 85px;
     }
 
-    .recent_user a {
+    .recent_user--text {
+    	display: inline-block;
+    }
+
+    .recent_user--link {
     	display: block;
-    	margin-top: 8px;
+    	font-size: 0.9em;
+    	margin: 8px 0 0 5px;
     }
 
-    .recent_user p {
+    .post-date {
     	color: #777;
-    	font-size: 0.8em;
-    	margin-top: 8px;
+    	font-weight: lighter;
     }
 
-    /**already have above stylings**/
-
-    .post_user {
-      padding: 13px 5px 5px; /**add after .recent_user to override with cascade**/
+    .l-post_user {
+      padding: 5px; add to override recent_user padding
     }
 
     .post {
       border: 2px solid black;
-      /*height: 250px;*/
+      margin-top: 40px;
       width: 600px;
     }
 
     .post > p {
-      padding: 13px;
+      padding: 15px;
     }
 
     .post footer {
       background-color: lightblue;
       border-top: 2px solid black;
+      padding: 10px;
     }
 
     .post_links {
-      display: inline-block;
-      padding: 10px;
+      margin-right: 10px;
     }
+
+    /*****************/
+    /*for extended footer*/
+    .liked {
+      padding: 10px 0 20px;
+    }
+
+    /*********post with comments*********/
+    .delete {
+      float: right;
+    }
+
 
     </style>
 
@@ -120,16 +128,54 @@
 
   <body>
     <section class="post">
-      <div class="recent_user post_user clearfix">
-        <img src="../pictures/sloth.jpg" alt="" /> <!--change file path for news.html-->
-        <a href="#">Sloth</a>
-        <p>Posted on Thursday 1/1/2000</p>
+      <div class="recent_user l-post_user">
+        <img class="recent_user--img" src="../pictures/sloth.jpg" alt="" />
+        <div class="recent_user--text">
+          <a class="recent_user--link" href="#">Sloth</a>
+          <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+        </div>
       </div>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
       <footer>
         <a class="post_links" href="#">Like</a>
         <a class="post_links" href="#">Comment</a>
+      </footer>
+    </section>
+
+    <section class="post">
+      <div class="recent_user l-post_user">
+        <img class="recent_user--img" src="../pictures/sloth.jpg" alt="" />
+        <div class="recent_user--text">
+          <a class="recent_user--link" href="#">Sloth</a>
+          <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+        </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <footer>
+        <a class="post_links" href="#">Like</a>
+        <a class="post_links" href="#">Comment</a>
+        <h6 class="post-date liked"><a href="#">Stuart's Girlfriend</a> likes this</h6>
+      </footer>
+    </section>
+
+<!-------------------------------------------->
+
+    <section class="post">
+      <div class="recent_user l-post_user">
+        <img class="recent_user--img" src="../pictures/sloth.jpg" alt="" />
+        <div class="recent_user--text">
+          <a class="recent_user--link" href="#">Sloth</a>
+          <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+        </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <footer>
+        <a class="post_links" href="#">Unlike</a>
+        <a class="post_links delete" href="#">Delete</a>
+        <h6 class="post-date liked">You and <a href="#">Stuart's Girlfriend</a> likes this</h6>
       </footer>
     </section>
 

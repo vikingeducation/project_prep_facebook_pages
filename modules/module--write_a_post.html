@@ -56,57 +56,42 @@
     }
 
     /*************************************/
-    .center {
-    	position: absolute;
-    	top: 50%;
-    	left: 50%;
-    	transform: translate(-50%,-50%);
-    }
-
-    .vertical-center {
-    	position: absolute;
-    	top: 50%;
-    	transform: translateY(-50%);
-    }
 
     .button {
     	border: 2px solid black;
     	box-shadow: 2px 2px black;
     }
 
-    .submit_post {
+    .write_a_post {
       border: 2px solid black;
-      height: 250px;
-      position: relative;
-      width: 600px;
+      width: 600px; /**can't resize based on textarea width, but need to make all modules in this section equal**/
     }
 
-    .post_header {
+    .write_a_post--header {
       background-color: lightblue;
       border-bottom: 2px solid black;
-      height: 35px;
-      position: relative;
+      padding: 10px 0;
+      text-align: center;
     }
 
-    .submit_post textarea {
-      margin: 15px 0 0 15px;
+    .write_a_post textarea {
+      margin: 15px;
     }
 
-    .submit_post footer {
+    .write_a_post footer {
       background-color: lightblue;
       border-top: 2px solid black;
-      height: 57px;
-      margin-top: 10px;
-      position: relative;
+      padding: 10px 20px;
+      text-align: right;
     }
 
     .post_button {
       background-color: blue;
       color: #fff;
+      display: inline-block;
       font-size: 0.8em;
       font-weight: bold;
       padding: 4px 11px;
-      right: 10px;
     }
 
     </style>
@@ -115,14 +100,14 @@
 
 
   <body>
-    <section class="submit_post">
-      <header class="post_header">
-        <h2 class="center">Post &#40;copied&#41;</h2>
+    <section class="write_a_post">
+      <header class="write_a_post--header">
+        <h2>Post &#40;copied&#41;</h2>
       </header>
       <textarea name="post" placeholder="Tell the world something..." rows="8" cols="68"></textarea>
       <footer>
         <a href="#">
-          <div class="post_button button vertical-center">
+          <div class="post_button button">
             <p>Post</p>
           </div>
         </a>
