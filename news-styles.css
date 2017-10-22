@@ -79,10 +79,6 @@ LAYOUT
 	padding: 20px;
 }
 
-.l-clear {
-	clear: both;
-}
-
 
 /*********************************************************
 MODULES
@@ -265,4 +261,9 @@ MAIN
 
 /******
 fix recent_user names so the link doesn't extend the full width
+*****/
+
+
+/*****
+style .recent_user section for comments
 *****/
