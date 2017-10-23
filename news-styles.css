@@ -164,6 +164,7 @@ aside h2 {
 
 .recent_user--img {
 	border: 2px solid black;
+	padding: 1px;
 	height: 100px;
 	width: 85px;
 }
@@ -181,7 +182,7 @@ aside h2 {
 .recent_user--link {
 	display: block;
 	font-size: 0.9em;
-	margin: 8px 0 0 5px;
+	margin: 8px 0 0 8px;
 }
 
 .name {
@@ -231,8 +232,6 @@ MAIN
 }
 
 /**post module**/
-
-
 .post {
 	border: 2px solid black;
 	margin-top: 40px;
