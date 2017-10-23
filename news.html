@@ -100,6 +100,8 @@
           <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
         </div>
       </div>
+
+      <a href="friends.html">See All Your Friends</a>
     </aside>
 
     <main id="main">
@@ -152,40 +154,68 @@
 
       <!------------------------>
 
-      <!-- <section class="post">
-        <div class="recent_user post_user clearfix">
-          <img src="pictures/stuarts-gf.jpg" alt="" />
-          <a href="#">Stuart's Girlfriend</a>
-          <p class="post_date">Posted on Thursday 1/1/2000</p>
+      <section class="post">
+        <div class="recent_user l-post_user">
+          <img class="recent_user--img" src="pictures/sloth.jpg" alt="" />
+          <div class="recent_user--text">
+            <a class="recent_user--link" href="#">Sloth</a>
+            <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+          </div>
         </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <footer class="post_footer clearfix">
+
+        <footer class="clearfix">
           <a class="post_links" href="#">Unlike</a>
-          <a class="post_links right" href="#">Delete</a>
-          <p class="likes_this">You and <a href="#">Paul B. Onion</a> and 3 others like this</p>
-          <div class="recent_user l-clear">
-            <img src="pictures/ug.jpg" alt="" />
-            <a class="user_comment" href="#">Ug</a>
-            <p class=" post_date user_comment">Said on Thursday 1/1/2000</p>
-            <div class="reply_text">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
-              <a href="#">Like</a>
-              <p class="user_comment post_date">3 other people like this</p>
+          <a class="post_links delete_button" href="#">Delete</a>
+          <h6 class="post-date liked">You and <a href="#">Stuart's Girlfriend</a> likes this</h6>
+
+          <hr />
+
+          <!----------------------------------------->
+
+          <section class="comment clearfix">
+            <div class="recent_user l-text_modified">
+              <img class="recent_user--img" src="pictures/paul-onion.jpg" alt="" /> <!--change file path-->
+              <div class="comment_text">
+                <div class="recent_user--text l-links_modified">
+                  <a class="recent_user--link" href="#">Paul B. Onion</a>
+                  <h6 class="recent_user--link post-date">Said on Thursday 1/1/2000&#58;</h6>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+                <a class="recent_user--link" href="#">Like</a>
+                <h6 class="recent_user--link post-date">3 other people like this</h6>
+              </div>
             </div>
-          </div>
-          <div class="recent_user l-clear">
-            <img src="pictures/profile-pic.jpg" alt="" />
-            <a class="user_comment" href="#">Stuart</a>
-            <p class="post_date user_comment">Said on Thursday 1/1/2000</p>
-            <div class="reply_text">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
-              <a href="#">Like</a>
-              <p class="user_comment post_date">3 other people like this</p>
-              <a class="right" href="#">Delete</a>
+          </section>
+
+          <hr />
+
+          <section class="comment clearfix">
+            <div class="recent_user l-text_modified">
+              <img class="recent_user--img" src="pictures/stuart.jpg" alt="" /> <!--change file path-->
+              <div class="comment_text">
+                <div class="recent_user--text l-links_modified">
+                  <a class="recent_user--link" href="#">Stuart</a>
+                  <h6 class="recent_user--link post-date">Said on Thursday 1/1/2000&#58;</h6>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+                <a class="recent_user--link" href="#">Like</a>
+                <h6 class="recent_user--link post-date">3 other people like this</h6>
+                <a class="recent_user--link delete_button" href="#">Delete</a>
+              </div>
             </div>
-          </div>
+          </section>
+
+          <textarea class="write_a_comment" name="comment" placeholder="Write a comment..." rows="8" cols="67"></textarea>
+          <a class="cancel" href="#">Cancel</a>
+          <a class="comment_button" href="#">
+            <div class="post_button button">
+              <p>Comment</p>
+            </div>
+          </a>
+
         </footer>
-      </section> -->
+      </section>
     </main>
 
   </body>

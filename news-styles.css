@@ -72,7 +72,6 @@ LAYOUT
 }
 
 #main {
-	border: 2px solid black;
 	float: right;
 	margin-right: 120px;
 	margin-top: 50px;
@@ -95,6 +94,11 @@ MODULES
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+}
+
+.button {
+	border: 2px solid black;
+	box-shadow: 2px 2px black;
 }
 
 /**secondary nav module**/
@@ -144,6 +148,12 @@ aside h2 {
 	padding: 25px 0 10px;
 }
 
+aside > a {
+	display: block;
+	font-size: 1.2em;
+	margin: 20px 0 0 20px;
+}
+
 
 /**recent_user module**/
 .recent_user {
@@ -164,6 +174,7 @@ aside h2 {
 
 .recent_user--img {
 	border: 2px solid black;
+	margin-right: 5px;
 	padding: 1px;
 	height: 100px;
 	width: 85px;
@@ -182,7 +193,7 @@ aside h2 {
 .recent_user--link {
 	display: block;
 	font-size: 0.9em;
-	margin: 8px 0 0 8px;
+	margin: 8px 10px 0 0;
 }
 
 .name {
@@ -232,6 +243,10 @@ MAIN
 }
 
 /**post module**/
+.l-post_user {
+	padding: 5px; /*add to override recent_user padding*/
+}
+
 .post {
 	border: 2px solid black;
 	margin-top: 40px;
@@ -254,15 +269,58 @@ MAIN
 
 /**for extended footer**/
 .liked {
-	padding: 10px 0 20px;
+	padding: 20px 0 10px;
+}
+
+/*********post with comments*********/
+/**.recent_user in comments**/
+.l-text_modified * {
+	float: left;
+}
+
+.comment {
+	margin: 25px 0 25px 10px;
+}
+
+.comment_text {
+	margin-left: 8px;
+	width: 460px;
+}
+
+.comment_text p {
+	margin: 25px 0 20px;
+}
+
+.l-links_modified * {
+	margin-top: 0; /**overrides .recent_user--link which pushes name and date down on other .recent_user modules**/
+}
+
+.delete_button {
+	float: right;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.write_a_comment {
+	margin-left: 10px;
+}
+
+.cancel {
+	display: inline-block;
+	font-size: 0.9em;
+	margin: 7px 0 0 20px;
+}
+
+.comment_button {
+	float: right;
+	margin: 5px 15px 0 15px;
 }
 
 
 /******
 fix recent_user names so the link doesn't extend the full width
-*****/
-
-
-/*****
-style .recent_user section for comments
 *****/
