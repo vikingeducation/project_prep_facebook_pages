@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+    /*******CSS RESET********/
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    	margin: 0;
+    	padding: 0;
+    	border: 0;
+    	font-size: 100%;
+    	/*font: inherit;*/
+    	/*vertical-align: baseline;*/
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+    	display: block;
+    }
+
+    body {
+    	line-height: 1;
+    }
+
+    blockquote, q {
+    	quotes: none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+    	content: '';
+    	content: none;
+    }
+
+    table {
+    	border-collapse: collapse;
+    	border-spacing: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    	font-family: sans-serif;
+    }
+    /***********************************/
+    main {
+    	width: 960px;
+    	max-width: 960px;
+    	margin: 0 auto;
+    }
+
+    .vertical-center {
+    	position: absolute;
+    	top: 50%;
+    	transform: translateY(-50%);
+    }
+
+    /**lay out**/
+    #profile {
+    	position: relative;
+    }
+
+    .l-profile_nav {
+    	height: 55px;
+    	border: 2px solid black;
+    	position: relative;
+    	text-align: left;
+    }
+
+    /****/
+
+    /**optional depending on default size of pic**/
+    .profile_background {
+    	width: 960px;
+    	height: 300px;
+    }
+
+    /**logo module**/
+    .profile_logo {
+      position: absolute;
+      left: 10px;
+      bottom: 25px;
+      z-index: 1;
+    }
+
+    .profile_logo * {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .profile_logo img {
+    	width: 150px;
+    	height: 150px;
+    }
+
+    .profile_logo h2 {
+    	font-size: 1.5em;
+      margin-left: 10px;
+      margin-top: 40px;
+    }
+    /****/
+
+
+    /**profile nav module**/
+
+    .empty_div {
+    	display: inline-grid;
+    	width: 170px;
+    	height: 100%;
+    	border-right: 2px solid black;
+    }
+
+
+    /*******single nav button module*******/
+    /*.profile_button {
+      display: inline-grid;
+      height: 55px;
+      min-width: 120px;
+    	border: 2px solid black;
+    }
+
+    .profile_button_text {
+      margin: auto;
+    	color: #000;
+    }
+
+    a {
+      text-decoration: none;
+    }*/
+
+    /**multiple nav buttons in single line**/
+    .profile_button {
+      border-right: 2px solid black;
+      display: inline-grid;
+    	height: 100%;
+      min-width: 110px;
+      padding: 0 10px;
+      vertical-align: top;
+    }
+
+    .profile_button_text {
+      margin: auto;
+    	color: #000;
+    }
+
+    .profile_nav a {
+      text-decoration: none;
+    }
+
+    .numbers {
+    	margin-left: 5px;
+    	color: #aaa;
+    }
+
+    .edit_profile {
+    	right: 15px;
+    }
+
+    .page-buttons {
+    	display: block;
+    	width: 100px;
+    	margin: 50px auto;
+    }
+  </style>
+
+  </head>
+  <body>
+    <main>
+      <section id="profile">
+        <img class="profile_background" src="../pictures/main-img.jpg" alt="main picture">
+
+        <div class="profile_logo">
+          <img src="../pictures/profile-pic.jpg" alt="profile">
+          <h2>Stuart</h2>
+        </div>
+
+        <div class="l-profile_nav">
+          <div class="empty_div"></div>
+
+          <a href="#">
+            <div class="profile_button">
+              <p class="profile_button_text">Timeline</p>
+            </div>
+          </a><!--
+       --><a href="#">
+            <div class="profile_button">
+              <p class="profile_button_text">About</p>
+            </div>
+          </a><!--
+
+       --><a href="#">
+            <div class="profile_button">
+              <p class="profile_button_text">Photos<span class="numbers">&#40;123&#41;</span></p>
+            </div>
+          </a><!--
+
+       --><a href="#">
+            <div class="profile_button">
+              <p class="profile_button_text">Friends<span class="numbers">&#40;542&#41;</span></p>
+            </div>
+          </a>
+
+          <a class="edit_profile vertical-center" href="#">Edit Profile</a>
+        </div>
+      </section>
+
+    </main>
+
+  </body>
+</html>

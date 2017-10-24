@@ -1,0 +1,278 @@
+/*******CSS RESET********/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/*font: inherit;*/
+	/*vertical-align: baseline;*/
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+/*****************************
+LAYOUT
+*****************************/
+#header {
+	height: 45px;
+	background-color: #3b5998;
+}
+
+main {
+	width: 960px;
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#profile {
+	position: relative;
+}
+
+
+/*****************************
+MODULES
+*****************************/
+/**REUSABLE**/
+.vertical-center {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.button {
+	border: 2px solid black;
+	box-shadow: 2px 2px black;
+}
+
+/**secondary nav module**/
+.secondary_nav * {
+	color: #fff;
+	display: inline-block;
+}
+
+.secondary_nav {
+	height: inherit;
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+
+.logo * {
+	vertical-align: middle;
+}
+
+.logo img {
+	width: 25px;
+	margin-right: 5px;
+}
+
+.logo h1 {
+	font-size: 1.6em;
+}
+
+.user_search {
+	color: #000;
+	height: 25px;
+	width: 60%;
+}
+
+.secondary_nav h3 {
+	right: 0;
+	font-size: 1.2em;
+}
+
+
+
+/**profile module**/
+.profile_background {
+	width: 960px;
+	height: 300px;
+}
+
+/*****logo SUB-module*****/
+.profile_logo {
+	position: absolute;
+	left: 10px;
+	bottom: 25px;
+	z-index: 1;
+}
+
+.profile_logo * {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.profile_logo img {
+	width: 150px;
+	height: 150px;
+}
+
+.profile_logo h2 {
+	font-size: 1.5em;
+	margin-left: 10px;
+	margin-top: 40px;
+}
+
+/*****profile nav SUB--module*****/
+.profile_nav {
+	height: 55px;
+	border: 2px solid black;
+	position: relative;
+	text-align: left;
+}
+
+.empty_div {
+	display: inline-grid;
+	width: 170px;
+	height: 100%;
+	border-right: 2px solid black;
+}
+
+.profile_button {
+	border-right: 2px solid black;
+	display: inline-grid;
+	height: 100%;
+	min-width: 110px;
+	padding: 0 10px;
+	vertical-align: top;
+}
+
+.profile_button_text {
+	margin: auto;
+	color: #000;
+}
+
+.profile_nav a {
+	text-decoration: none;
+}
+
+.numbers {
+	margin-left: 5px;
+	color: #aaa;
+}
+
+.edit_profile {
+	right: 15px;
+}
+
+/****about module*****/
+.about {
+	border: 1px solid black;
+	margin-top: 20px;
+}
+
+.section_header {
+	height: 45px;
+	background-color: lightblue;
+	border: 1px solid black;
+	border-bottom: 2px solid black;
+	position: relative;
+}
+
+.section_header h1 {
+	font-size: 1.8em;
+	letter-spacing: 2px;
+}
+
+/***edit profile button sub module****/
+
+.edit_profile_button {
+	padding: 5px 5px 3px;
+	background-color: blue;
+	color: white;
+	right: 10px;
+}
+
+.l-column {
+	display: inline-block;
+	width: 45%;
+	text-align: left;
+	vertical-align: middle;
+	margin: 15px 0 70px;
+}
+
+.l-column p {
+	font-weight: normal;
+	line-height: 1.3em;
+}
+
+.l-column h2 {
+	padding: 25px 0;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.l-column ul {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.l-column li {
+	margin: 0 20px 20px 0;
+}
+
+ul:nth-child(2) {
+	font-weight: bold;
+}
+
+/******************/
+
+.makeshift_nav {
+	list-style: none;
+}
+
+.page-buttons {
+	display: block;
+	margin: 50px auto;
+	width: 100px;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    /*******CSS RESET********/
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      /*font: inherit;*/
+      /*vertical-align: baseline;*/
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+
+    body {
+      line-height: 1;
+    }
+
+    blockquote, q {
+      quotes: none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+
+    /*****************************************************
+    ******************************************************
+    *****************************************************/
+    /***main .recent_user***/
+    .recent_user {
+      padding: 10px 0;
+    }
+
+    .recent_user * {
+      vertical-align: top;
+    }
+
+    .recent_user--img {
+      border: 2px solid black;
+      padding: 1px;
+      height: 100px;
+      width: 85px;
+    }
+
+    .recent_user--text {
+      display: inline-block;
+    }
+
+    .recent_user--link {
+      display: block;
+      font-size: 0.9em;
+      margin: 8px 10px 0 0;
+    }
+
+    /**.recent_user in sidebar and in posts**/
+    .post-date {
+      color: #777;
+      font-weight: lighter;
+    }
+
+    /**.recent_user in comments**/
+
+    .l-text_modified * {
+      float: left;
+    }
+
+    .comment_text {
+      margin-left: 8px;
+      width: 450px;
+    }
+
+    .comment_text p {
+      margin: 25px 0 20px;
+    }
+
+    .l-links_modified * {
+      margin-top: 0; /**overrides .recent_user--link which pushes name and date down on other .recent_user modules**/
+    }
+
+    /**for delete button in user's own post**/
+
+    .delete_button {
+      float: right;
+    }
+
+
+    main {
+      width: 600px;
+    }
+
+    </style>
+
+  </head>
+  <body>
+    <main>
+      <div class="recent_user l-text_modified">
+        <img class="recent_user--img" src="../pictures/captain-jack.jpg" alt="" /> <!--change file path-->
+        <div class="comment_text">
+          <div class="recent_user--text l-links_modified">
+            <a class="recent_user--link" href="#">Captain Jack</a>
+            <h6 class="recent_user--link post-date">Said on Thursday 1/1/2000&#58;</h6>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+          <a class="recent_user--link" href="#">Like</a>
+          <h6 class="recent_user--link post-date">3 other people like this</h6>
+          <a class="recent_user--link delete_button" href="#">Delete</a>
+        </div>
+      </div>
+    </main>
+
+  </body>
+</html>

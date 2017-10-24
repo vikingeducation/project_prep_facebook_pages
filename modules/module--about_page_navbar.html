@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    /*******CSS RESET********/
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      /*font: inherit;*/
+      /*vertical-align: baseline;*/
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+
+    body {
+      line-height: 1;
+    }
+
+    blockquote, q {
+      quotes: none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+    /********************************/
+    .vertical-center {
+    	position: absolute;
+    	top: 50%;
+    	transform: translateY(-50%);
+    }
+
+    /******************
+    LAYOUT
+    ******************/
+    #header {
+    	height: 45px;
+      background-color: #3b5998;
+    }
+
+    /**nav module**/
+    .secondary_nav * {
+      display: inline-block;
+    }
+
+    .secondary_nav {
+      color: #fff;
+      height: inherit;
+      margin: 0 auto;
+      position: relative;
+      width: 960px;
+    }
+
+    .logo * {
+    	vertical-align: middle;
+    }
+
+    .logo img {
+      width: 25px;
+      margin-right: 5px;
+    }
+
+    .logo h1 {
+    	font-size: 1.6em;
+    }
+
+    .user_search {
+    	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	transform: translate(-50%,-50%);
+    	height: 25px;
+    	width: 60%;
+    }
+
+    .secondary_nav h3 {
+    	right: 0;
+    	font-size: 1.2em;
+    }
+
+
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="secondary_nav">
+        <div class="logo vertical-center">
+          <img src="../pictures/icon.png" alt="icon" />
+          <h1>Facelook</h1>
+        </div>
+
+        <input class="user_search" type="search" name="usr-search" placeholder="Search for Users" />
+
+        <h3 class="vertical-center">Stuart</h3>
+      </nav>
+    </header>
+  </body>
+</html>

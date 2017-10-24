@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+    /*******CSS RESET********/
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      /*font: inherit;*/
+      /*vertical-align: baseline;*/
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+
+    body {
+      line-height: 1;
+    }
+
+    blockquote, q {
+      quotes: none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+    main {
+    	width: 960px;
+    	max-width: 960px;
+    	margin: 0 auto;
+    	text-align: center;
+    }
+
+    .vertical-center {
+    	position: absolute;
+    	top: 50%;
+    	transform: translateY(-50%);
+    }
+
+    .center {
+    	position: absolute;
+    	top: 50%;
+    	left: 50%;
+    	transform: translate(-50%,-50%);
+    }
+
+    .button {
+    	border: 2px solid black;
+    	box-shadow: 2px 2px black;
+    }
+
+    .about {
+    	border: 1px solid black;
+    	margin-top: 20px;
+    }
+
+    .about_header {
+    	height: 45px;
+    	background-color: lightblue;
+    	border: 1px solid black;
+    	border-bottom: 2px solid black;
+      position: relative;
+    }
+
+    .about_header h1 {
+    	font-size: 1.8em;
+      letter-spacing: 2px;
+    }
+
+    /***edit profile button sub module****/
+
+    .edit_profile_button {
+    	padding: 5px 5px 3px;
+    	background-color: blue;
+    	color: white;
+    	right: 10px;
+    }
+
+    .l-column {
+    	display: inline-block;
+    	width: 45%;
+    	text-align: left;
+    	vertical-align: middle;
+    	margin: 15px 0 70px;
+    }
+
+    .l-column p {
+    	font-weight: normal;
+    	line-height: 1.3em;
+    }
+
+    .l-column h2 {
+    	padding: 25px 0;
+    	font-size: 1.5em;
+    	font-weight: bold;
+    }
+
+    /************************************************************/
+
+    .l-column ul {
+    	display: inline-block;
+    	margin: 0;
+    	padding: 0;
+    	list-style: none;
+    }
+
+    .l-column li {
+    	margin: 0 20px 20px 0;
+    }
+
+    ul:nth-child(2) {
+    	font-weight: bold;
+    }
+    </style>
+  </head>
+  <body>
+    <main>
+    <section class="about">
+      <div class="about_header">
+        <h1 class="center">About</h1>
+        <a href="#">
+          <div class="vertical-center edit_profile_button button">
+            <p>Edit your Profile</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="l-column">
+        <div>
+          <h2>Basic Information</h2>
+          <ul>
+            <li>Birthday:</li>
+            <li>College:</li>
+            <li>Hometown:</li>
+            <li>Currently lives:</li>
+          </ul>
+
+          <ul>
+            <li>Jan 1st, 1900</li>
+            <li>Gru's house</li>
+            <li>Gru's house</li>
+            <li>Gru's house</li>
+          </ul>
+        </div>
+
+        <div>
+          <h2>Contact Information</h2>
+          <ul>
+            <li>Email:</li>
+            <li>Telephone:</li>
+          </ul>
+
+          <ul class="value">
+            <li>Stuart</li>
+            <li>999-999-9999</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="l-column">
+        <h2>Words to Live By</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </section>
+    </main>
+  </body>
+</html>

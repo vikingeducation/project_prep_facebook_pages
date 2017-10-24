@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+    /*******CSS RESET********/
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      /*font: inherit;*/
+      /*vertical-align: baseline;*/
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+
+    body {
+      line-height: 1;
+    }
+
+    blockquote, q {
+      quotes: none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+    /*************************************/
+    /***main .recent_user***/
+    body h2 {
+    	font-size: 1.3em;
+    	letter-spacing: 0.05em;
+    	padding: 25px 0 20px;
+    }
+
+    .recent_user {
+      padding: 10px 0;
+    }
+
+    .l-recent_user--main {
+      padding: 50px 10px;
+    }
+
+    .recent_user * {
+      vertical-align: top;
+    }
+
+    .recent_user--img {
+      border: 2px solid black;
+      padding: 1px;
+      height: 100px;
+      width: 85px;
+    }
+
+    .main-img {
+      height: 130px;
+      width: 120px;
+    }
+
+    .recent_user--text {
+      display: inline-block;
+    }
+
+    .recent_user--link {
+      display: block;
+      font-size: 0.9em;
+      margin: 8px 0 0 8px;
+    }
+
+    .name {
+      font-size: 1.2em;
+    }
+
+    /**.recent_user with recent activity**/
+    .post-date {
+      color: #777;
+      font-weight: lighter;
+    }
+
+    .l-text_modified * {
+      float: left;
+    }
+
+    /*.l-text_modified p {
+      margin-left: 8px;
+      margin-top: 25px;
+      width: 450px;
+    }
+
+    .l-links_modified * {
+      margin-top: 0;
+    }*/
+
+    main {
+      width: 600px;
+    }
+
+    </style>
+
+  </head>
+
+
+  <body>
+
+    <!-- current user logo -->
+
+    <div class="recent_user l-recent_user--main">
+      <img class="recent_user--img main-img" src="../pictures/stuart.jpg" alt="" /> <!--change file path-->
+      <div class="recent_user--text">
+        <a class="name recent_user--link" href="#">Stuart</a>
+        <a class="recent_user--link" href="#">Edit Profile</a>
+      </div>
+    </div>
+
+    <h2>Recently Active</h2>
+
+    <div class="recent_user">
+      <img class="recent_user--img" src="../pictures/captain-jack.jpg" alt="" /> <!--change file path-->
+      <div class="recent_user--text">
+        <a class="recent_user--link" href="#">Captain Jack</a>
+        <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+      </div>
+    </div>
+    <main>
+      <div class="recent_user l-text_modified">
+        <img class="recent_user--img" src="../pictures/captain-jack.jpg" alt="" /> <!--change file path-->
+        <div class="recent_user--text l-links_modified">
+          <a class="recent_user--link" href="#">Captain Jack</a>
+          <h6 class="recent_user--link post-date">Said on Thursday 1/1/2000&#58;</h6>
+        </div>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+      </div>
+    </main>
+
+
+  </body>
+</html>

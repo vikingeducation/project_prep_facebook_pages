@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+    /*******CSS RESET********/
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      /*font: inherit;*/
+      /*vertical-align: baseline;*/
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+
+    body {
+      line-height: 1;
+    }
+
+    blockquote, q {
+      quotes: none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+    /*************************************/
+
+    .button {
+    	border: 2px solid black;
+    	box-shadow: 2px 2px black;
+    }
+
+    .write_a_post {
+      border: 2px solid black;
+      width: 600px; /**can't resize based on textarea width, but need to make all modules in this section equal**/
+    }
+
+    .write_a_post--header {
+      background-color: lightblue;
+      border-bottom: 2px solid black;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .write_a_post textarea {
+      margin: 15px;
+    }
+
+    .write_a_post footer {
+      background-color: lightblue;
+      border-top: 2px solid black;
+      padding: 10px 20px;
+      text-align: right;
+    }
+
+    .post_button {
+      background-color: blue;
+      color: #fff;
+      display: inline-block;
+      font-size: 0.8em;
+      font-weight: bold;
+      padding: 4px 11px;
+    }
+
+    </style>
+
+  </head>
+
+
+  <body>
+    <section class="write_a_post">
+      <header class="write_a_post--header">
+        <h2>Post &#40;copied&#41;</h2>
+      </header>
+      <textarea name="post" placeholder="Tell the world something..." rows="8" cols="68"></textarea>
+      <footer>
+        <a href="#">
+          <div class="post_button button">
+            <p>Post</p>
+          </div>
+        </a>
+      </footer>
+    </section>
+
+  </body>
+</html>

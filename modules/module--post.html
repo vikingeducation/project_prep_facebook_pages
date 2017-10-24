@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style media="screen">
+    /*******CSS RESET********/
+
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      /*font: inherit;*/
+      /*vertical-align: baseline;*/
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+
+    body {
+      line-height: 1;
+    }
+
+    blockquote, q {
+      quotes: none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+    /*************************************/
+
+    .recent_user {
+    	padding: 10px 0;
+    }
+
+    .recent_user * {
+    	vertical-align: top;
+    }
+
+    .recent_user--img {
+      margin-right: 10px;
+    	height: 100px;
+    	width: 85px;
+    }
+
+    .recent_user--text {
+    	display: inline-block;
+    }
+
+    .recent_user--link {
+    	display: block;
+    	font-size: 0.9em;
+    	margin: 8px 10px 0 0;
+    }
+
+    .post-date {
+    	color: #777;
+    	font-weight: lighter;
+    }
+
+    .l-post_user {
+      padding: 5px; /*add to override recent_user padding*/
+    }
+
+    .post {
+      border: 2px solid black;
+      margin-top: 40px;
+      width: 600px;
+    }
+
+    .post > p {
+      padding: 15px;
+    }
+
+    .post footer {
+      background-color: lightblue;
+      border-top: 2px solid black;
+      padding: 10px;
+    }
+
+    .post_links {
+      margin-right: 10px;
+    }
+
+    /*****************/
+    /*for extended footer*/
+    .liked {
+      padding: 20px 0 10px;
+    }
+
+    /*********post with comments*********/
+    /**.recent_user in comments**/
+
+    .l-text_modified * {
+      float: left;
+    }
+
+    .comment {
+      margin-left: 5px;
+      margin-top: 25px;
+    }
+
+    .comment_text {
+      margin-left: 8px;
+      width: 465px;
+    }
+
+    .comment_text p {
+      margin: 25px 0 20px;
+    }
+
+    .l-links_modified * {
+      margin-top: 0; /**overrides .recent_user--link which pushes name and date down on other .recent_user modules**/
+    }
+
+    .delete_button {
+      float: right;
+    }
+
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+
+    </style>
+
+  </head>
+
+
+  <body>
+    <section class="post">
+      <div class="recent_user l-post_user">
+        <img class="recent_user--img" src="../pictures/sloth.jpg" alt="" />
+        <div class="recent_user--text">
+          <a class="recent_user--link" href="#">Sloth</a>
+          <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+        </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <footer>
+        <a class="post_links" href="#">Like</a>
+        <a class="post_links" href="#">Comment</a>
+      </footer>
+    </section>
+
+    <section class="post">
+      <div class="recent_user l-post_user">
+        <img class="recent_user--img" src="../pictures/sloth.jpg" alt="" />
+        <div class="recent_user--text">
+          <a class="recent_user--link" href="#">Sloth</a>
+          <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+        </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <footer>
+        <a class="post_links" href="#">Like</a>
+        <a class="post_links" href="#">Comment</a>
+        <h6 class="post-date liked"><a href="#">Stuart's Girlfriend</a> likes this</h6>
+      </footer>
+    </section>
+
+<!-------------------------------------------->
+
+    <section class="post">
+      <div class="recent_user l-post_user">
+        <img class="recent_user--img" src="../pictures/sloth.jpg" alt="" />
+        <div class="recent_user--text">
+          <a class="recent_user--link" href="#">Sloth</a>
+          <h6 class="recent_user--link post-date">Posted on Thursday 1/1/2000</h6>
+        </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <footer class="clearfix">
+        <a class="post_links" href="#">Unlike</a>
+        <a class="post_links delete_button" href="#">Delete</a>
+        <h6 class="post-date liked">You and <a href="#">Stuart's Girlfriend</a> likes this</h6>
+
+        <!----------------------------------------->
+
+        <section class="comment clearfix">
+          <div class="recent_user l-text_modified">
+            <img class="recent_user--img" src="../pictures/paul-onion.jpg" alt="" /> <!--change file path-->
+            <div class="comment_text">
+              <div class="recent_user--text l-links_modified">
+                <a class="recent_user--link" href="#">Paul B. Onion</a>
+                <h6 class="recent_user--link post-date">Said on Thursday 1/1/2000&#58;</h6>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+              <a class="recent_user--link" href="#">Like</a>
+              <h6 class="recent_user--link post-date">3 other people like this</h6>
+            </div>
+          </div>
+        </section>
+
+        <section class="comment clearfix">
+          <div class="recent_user l-text_modified">
+            <img class="recent_user--img" src="../pictures/stuart.jpg" alt="" /> <!--change file path-->
+            <div class="comment_text">
+              <div class="recent_user--text l-links_modified">
+                <a class="recent_user--link" href="#">Stuart</a>
+                <h6 class="recent_user--link post-date">Said on Thursday 1/1/2000&#58;</h6>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p>
+              <a class="recent_user--link" href="#">Like</a>
+              <h6 class="recent_user--link post-date">3 other people like this</h6>
+              <a class="recent_user--link delete_button" href="#">Delete</a>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </section>
+
+  </body>
+</html>

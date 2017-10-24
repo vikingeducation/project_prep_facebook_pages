@@ -1,0 +1,322 @@
+/*******CSS RESET********/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/*font: inherit;*/
+	/*vertical-align: baseline;*/
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+/*****************************************************
+******************************************************
+*****************************************************/
+/*****************************
+LAYOUT
+*****************************/
+#header {
+	height: 45px;
+	background-color: #3b5998;
+}
+
+#sidebar {
+	border-right: 3px;
+	border-style: solid;
+	border-image: linear-gradient(to bottom, #3b5998, black) 1 100%;
+	float: left;
+	height: 2000px;
+	padding-left: 35px;
+	width: 360px;
+}
+
+#main {
+	float: right;
+	margin-right: 140px;
+	margin-top: 50px;
+	padding: 20px;
+}
+
+
+/*********************************************************
+MODULES
+*********************************************************/
+/**REUSABLE**/
+.vertical-center {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.button {
+	border: 2px solid black;
+	box-shadow: 2px 2px black;
+}
+
+/**secondary nav module**/
+.secondary_nav * {
+	color: #fff;
+  display: inline-block;
+}
+
+.secondary_nav {
+	height: inherit;
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+}
+
+.logo * {
+	vertical-align: middle;
+}
+
+.logo img {
+	width: 25px;
+	margin-right: 5px;
+}
+
+.logo h1 {
+	font-size: 1.6em;
+}
+
+.user_search {
+  color: #000;
+	height: 25px;
+	width: 60%;
+}
+
+.secondary_nav h3 {
+	right: 0;
+	font-size: 1.2em;
+}
+
+/*********************
+SIDEBAR
+*********************/
+
+aside h2 {
+	font-size: 1.3em;
+	letter-spacing: 0.05em;
+	padding: 25px 0 10px;
+}
+
+aside > a {
+	display: block;
+	font-size: 1.2em;
+	margin: 20px 0 0 20px;
+}
+
+
+/**recent_user module**/
+.recent_user {
+	padding: 10px 0;
+}
+
+.l-recent_user--main {
+	padding: 50px 10px; /**overrides .recent_user**/
+}
+
+.l-post_user {
+	padding: 5px; /**add to override recent_user padding**/
+}
+
+.recent_user * {
+	vertical-align: top;
+}
+
+.recent_user--img {
+	border: 2px solid black;
+	margin-right: 5px;
+	padding: 1px;
+	height: 100px;
+	width: 85px;
+}
+
+.main-img {
+	border: none;
+	height: 130px;
+	width: 120px;
+}
+
+.recent_user--text {
+	display: inline-block;
+}
+
+.recent_user--link {
+	display: block;
+	font-size: 0.9em;
+	margin: 8px 10px 0 0;
+}
+
+.name {
+	font-size: 1.3em;
+}
+
+.post-date {
+	color: #777;
+	font-weight: lighter;
+}
+
+/**************************************
+MAIN
+**************************************/
+
+/**write_a_post module**/
+.write_a_post {
+	border: 2px solid black;
+	width: 600px;
+}
+
+.write_a_post--header {
+	background-color: lightblue;
+	border-bottom: 2px solid black;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.write_a_post textarea {
+	margin: 15px;
+}
+
+.write_a_post footer {
+	background-color: lightblue;
+	border-top: 2px solid black;
+	padding: 10px 20px;
+	text-align: right;
+}
+
+.post_button {
+	background-color: blue;
+	color: #fff;
+	display: inline-block;
+	font-size: 0.8em;
+	font-weight: bold;
+	padding: 4px 11px;
+}
+
+/**post module**/
+.l-post_user {
+	padding: 5px; /*add to override recent_user padding*/
+}
+
+.post {
+	border: 2px solid black;
+	margin-top: 40px;
+	width: 600px;
+}
+
+.post > p {
+	padding: 15px;
+}
+
+.post footer {
+	background-color: lightblue;
+	border-top: 2px solid black;
+	padding: 10px;
+}
+
+.post_links {
+	margin-right: 10px;
+}
+
+/**for extended footer**/
+.liked {
+	padding: 20px 0 10px;
+}
+
+/*********post with comments*********/
+/**.recent_user in comments**/
+.l-text_modified * {
+	float: left;
+}
+
+.comment {
+	margin: 25px 0 25px 10px;
+}
+
+.comment_text {
+	margin-left: 8px;
+	width: 460px;
+}
+
+.comment_text p {
+	margin: 25px 0 20px;
+}
+
+.l-links_modified * {
+	margin-top: 0; /**overrides .recent_user--link which pushes name and date down on other .recent_user modules**/
+}
+
+.delete_button {
+	float: right;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.write_a_comment {
+	margin-left: 10px;
+}
+
+.cancel {
+	display: inline-block;
+	font-size: 0.9em;
+	margin: 7px 0 0 20px;
+}
+
+.comment_button {
+	float: right;
+	margin: 5px 15px 0 15px;
+}
