@@ -67,13 +67,14 @@ LAYOUT
 	border-style: solid;
 	border-image: linear-gradient(to bottom, #3b5998, black) 1 100%;
 	float: left;
+	height: 2000px;
 	padding-left: 35px;
 	width: 360px;
 }
 
 #main {
 	float: right;
-	margin-right: 120px;
+	margin-right: 140px;
 	margin-top: 50px;
 	padding: 20px;
 }
@@ -319,8 +320,3 @@ MAIN
 	float: right;
 	margin: 5px 15px 0 15px;
 }
-
-
-/******
-fix recent_user names so the link doesn't extend the full width
-*****/
