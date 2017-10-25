@@ -44,6 +44,12 @@
 #aboutHead a{
 	color:#FFFFFF;
 	text-decoration:none;
+	margin-left:auto;
+}
+
+#aboutHead a:visited{
+	color:#FFFFFF;
+	margin-left:auto;
 }
 
 #aboutHead h2{
@@ -59,3 +65,9 @@
 	width:50%;
 }
 
+#aboutTop{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
