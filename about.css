@@ -1,0 +1,61 @@
+#common2 a:nth-child(2) button{
+	background:#C2C2C2;
+}
+
+#contentContainer{
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+#content{
+	width:990px;
+	display:flex;
+	flex-wrap:wrap;
+	border-style:solid;
+	border-width:2px;
+	border-color:#000000;
+}
+
+#aboutHead{
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	border-style:solid;
+	border-width:0px;
+	border-bottom-width:2px;
+	border-color:#000000;
+	background:#C2C2C2;
+}
+
+#aboutHead button{
+	margin-left:auto;
+	margin-right:10px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#000000;
+	background:#4B66A0;
+	border-radius:2px;
+	padding:2px;
+}
+
+#aboutHead a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+#aboutHead h2{
+	margin-left:calc(50% - 40px);
+}
+
+#info{
+	width:40%;
+	margin-left:50px;
+}
+
+#otherContent{
+	width:50%;
+}
+

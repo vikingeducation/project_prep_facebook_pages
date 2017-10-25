@@ -1,0 +1,68 @@
+#common2 a:nth-child(4) button{
+	background:#C2C2C2;
+}
+
+#contentContainer{
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+#content{
+	width:990px;
+	display:flex;
+	flex-wrap:wrap;
+	border-style:solid;
+	border-width:2px;
+	border-color:#000000;
+}
+
+#friendHead{
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	border-style:solid;
+	border-width:0px;
+	border-bottom-width:2px;
+	border-color:#000000;
+	background:#C2C2C2;
+}
+
+#friendList{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-wrap:wrap;
+	border-style:solid;
+	border-width:0px;
+	border-bottom-width:2px;
+	border-color:#000000;
+}
+
+#friendList img{
+	height:100px;
+	width:100px;	
+	border-style:solid;
+	border-width:0px;
+	border-right-width:2px;
+}
+
+#friendList div{
+	width:45%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	margin:10px;
+	margin-top:20px;
+	margin-bottom:20px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#000000;
+}
+
+#friendList button{
+	margin-right:10px;
+}
+
