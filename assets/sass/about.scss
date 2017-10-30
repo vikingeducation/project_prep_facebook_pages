@@ -1,0 +1,71 @@
+@import "colors";
+
+#common2 a:nth-child(2) button{
+	background:$grey-background;
+}
+
+#contentContainer{
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+#content{
+	width:990px;
+	display:flex;
+	flex-wrap:wrap;
+	border-style:solid;
+	border-width:2px;
+	border-color:$black;
+}
+
+#aboutHead{
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	border-style:solid;
+	border-width:0px;
+	border-bottom-width:2px;
+	border-color:$black;
+	background:$grey-background;
+	button{
+		margin-left:auto;
+		margin-right:10px;
+		border-style:solid;
+		border-width:2px;
+		border-color:$black;
+		background:#4B66A0;
+		border-radius:2px;
+		padding:2px;
+	}
+	a{
+		color:$white;
+		text-decoration:none;
+		margin-left:auto;
+	}
+	a:visited{
+		color:$white;
+		margin-left:auto;
+	}
+	h2{
+		margin-left:calc(50% - 40px);
+	}
+}
+
+#info{
+	width:40%;
+	margin-left:50px;
+}
+
+#otherContent{
+	width:50%;
+}
+
+#aboutTop{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
