@@ -1,0 +1,824 @@
+
+
+* {
+  font-family: sans-serif;
+}
+
+/* ~ ~ ~ home page styles ~ ~ ~ */
+.loginbanner {
+  background-color: rgb(17, 78, 232);
+  height: 120px;
+  border: 3px solid black;
+}
+
+.homepagetitle {
+  margin-top: 26px;
+  margin-left: 10%;
+  float: left;
+  cursor: pointer;
+}
+
+.hometitlelink {
+  font-size: 64px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.loginform {
+  float: right;
+  margin-right: 15%;
+  display: block;
+}
+
+.logininput {
+  margin-top: 40px;
+  float: left;
+}
+
+.logintitle {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.signupinputs {
+  border: 2px solid black;
+  height: 18px;
+  display: block;
+}
+
+.Email {
+  margin-right: 24px;
+}
+
+.Password {
+  margin-right: 16px;
+}
+
+.loginbutton {
+  border: 2px solid black;
+  background-color: rgb(151, 174, 230);
+  padding: 4px 12px 6px 12px;
+  box-shadow: 3px 3px 0 black;
+  cursor: pointer;
+  margin-top: 63px;
+  text-align: center;
+  float: right;
+}
+
+.loginlink {
+  color: black;
+  text-decoration: none;
+}
+
+.homemain {
+  margin-top: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.reason {
+  margin-top: 60px;
+  margin-left: 9%;
+  float: left;
+}
+
+.reasontitle {
+  font-size: 48px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.reasons {
+  margin-left: 40px;
+  margin-bottom: 30px;
+  color: grey;
+  font-size: 20px;
+}
+
+.reasonlist .reasons::before {
+  content: '\2022';
+  margin-right: 15px;
+}
+
+.reasonbold {
+  font-weight: bold;
+}
+
+.signup {
+  float: right;
+  width: 356px;
+  height: 400px;
+  margin-right: 15%;
+  display: block;
+}
+
+.signuptitle {
+  font-size: 56px;
+  margin-bottom: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.signupbasicinfo > input {
+  height: 25px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.signupfirst {
+  margin-right: 18px;
+  float: left;
+}
+
+.signupemail, .signuppassword, .signupconfirm {
+  width: 350px;
+}
+
+.bdaytitle {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bdayform {
+  margin-left: 59px;
+}
+
+.bdayform > .bdayformselects {
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-bottom: 24px;
+}
+
+.genderform {
+  margin-left: 63px;
+}
+
+.genderinput {
+  margin-left: 10px;
+}
+
+.signupbutton {
+  margin-top: 20px;
+  border: 2px solid black;
+  background-color: green;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 black;
+  text-align: center;
+  width: 328px;
+  padding: 10px;
+  float: left;
+}
+
+.signuplink {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@media all and (max-width: 1525px) {
+
+.homepagetitle, .reason {
+  margin-left: 5%;
+}
+
+.loginform, .signup {
+  margin-right: 5%;
+}
+
+}
+
+@media all and (max-width: 1225px) {
+
+.reasontitle {
+  font-size: 32px;
+}
+
+.reasons {
+  font-size: 16px;
+}
+
+.signuptitle {
+  font-size: 40px;
+}
+
+.bdaytitle {
+  font-size: 24px;
+}
+
+}
+
+@media all and (max-width: 1000px) {
+
+.homepagetitle {
+  margin-left: 20px;
+}
+
+.loginform {
+  margin-right: 20px;
+}
+
+.homemain {
+  margin-top: 10px;
+}
+
+.reason {
+  margin-left: 15px;
+}
+
+.signup {
+  margin-right: 15px;
+}
+
+}
+/* ~ ~ ~ home page styles ~ ~ ~ */
+
+/* ~ ~ ~ shared styling ~ ~ ~ */
+  /*shared header styling*/
+.sharedheader {
+  background-color: rgb(17, 78, 232);
+  border: 3px solid black;
+  height: 48px;
+}
+
+.sharedtitle {
+  margin-left: 5%;
+  margin-top: 6px;
+  float: left;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+.facelooklogo, .facelooktitle, .loggedinuser {
+text-decoration: none;
+}
+
+.facelooklogo {
+  font-family: 'Passion One', serif;
+  color: rgb(17, 102, 17);
+  background-color: rgb(136, 204, 136);
+  padding: 2px 8px 2px 8px;
+  margin-right: 12px;
+  font-size: 28px;
+}
+
+.facelooktitle {
+  font-size: 32px;
+  color: white;
+}
+
+.usersearch {
+  margin-left: 9%;
+  height: 40px;
+  width: 50%;
+  border: 2px solid black;
+  float: left;
+  font-size: 20px;
+  margin-top: 4px;
+}
+
+.loggedinuser {
+  float: right;
+  color: white;
+  margin-top: 12px;
+  margin-right: 5%;
+  font-size: 24px;
+  cursor: pointer;
+}
+  /*shared header styling*/
+
+  /*shared top section styles*/
+.sharedmain {
+  margin: 0 10% 10%;
+}
+
+.profile, .profileimage {
+  border: 2px solid black;
+}
+
+.profile {
+  margin-bottom: 10px;
+  height: 325px;
+  border-top: 0 solid black;
+}
+
+.profileimage, .fullusername {
+  position: absolute;
+}
+
+.profileimage {
+  height: 150px;
+  width: 150px;
+  margin: 150px 0 0 17px;
+  z-index: 100;
+}
+
+.backgroundcontainer, .navitem {
+  text-align: center;
+}
+
+.backgroundcontainer {
+  position: relative;
+  width: 100%;
+  height: 85%;
+}
+
+.profilebackground {
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+
+.fullusername {
+  font-size: 32px;
+  bottom: 16px;
+  left: 190px;
+}
+
+.navbar {
+  border-top: 2px solid black;
+  font-size: 18px;
+  height: 15%;
+}
+
+.navcore {
+  float: left;
+  height: 100%;
+  border-right: 2px solid black;
+  cursor: pointer;
+  display: table;
+  width: 100px;
+}
+
+.firstnav {
+  margin-left: 190px;
+  border-left: 2px solid black;
+}
+
+.navitem {
+  text-decoration: none;
+  color: black;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.thirdnav {
+  width: 130px;
+  cursor: auto;
+}
+
+.fourthnav {
+  width: 140px;
+}
+
+.editprofile {
+  float: right;
+  margin-right: 3.5%;
+  margin-top: 13px;
+}
+  /*shared top section styles*/
+
+.greytext {
+  color: rgb(102, 102, 102);
+}
+
+.bottomsection {
+  background-color: lightgrey;
+  height: 48px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid black;
+  width: 100%;
+  position: relative;
+}
+
+.bottomtitle {
+  float: left;
+  font-weight: bold;
+  font-size: 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* ~ ~ ~ shared styling ~ ~ ~ */
+
+/* ~ ~ ~ custom about page styling ~ ~ ~ */
+
+.aboutcontent, .profileedit {
+border: 2px solid black;
+}
+
+.aboutcontent {
+  height: 460px;
+}
+
+@media all and (max-width: 1586px) {
+
+.aboutcontent {
+  height: 550px;
+}
+
+}
+
+@media all and (max-width: 1277px) {
+
+.aboutcontent {
+  height: 700px;
+}
+
+}
+
+.profileedit, .aboutheadings, .celltype1, .celltype2 {
+font-weight: bold;
+}
+
+.profileedit {
+  float: right;
+  margin-top: 4px;
+  margin-right: 8px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(17, 78, 232);
+  box-shadow: 4px 4px 0 black;
+  padding: 8px;
+}
+
+.aboutleft {
+  float: left;
+  margin-left: 60px;
+  margin-right: 60px;
+  height: 100%;
+}
+
+.aboutheadings {
+  font-size: 32px;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+
+.celltype1 {
+  padding: 0 12px 24px 0;
+}
+
+.celltype2 {
+  padding: 0 12px 12px 0;
+}
+
+.celltype3 {
+  padding-left: 37px;
+}
+
+.aboutright {
+  margin-right: 60px;
+}
+
+.words2 {
+  padding-top: 1px;
+}
+
+.words2para, .aboutmepara {
+  line-height: 140%;
+}
+/* ~ ~ ~ custom about page styling ~ ~ ~ */
+
+/* ~ ~ ~ custom friends page styling ~ ~ ~ */
+.friendscontent, .friendbox1stleft, .friendbox1stright, .friendboxleft, .friendboxright, .friendpic, .unfriend {
+border: 2px solid black;
+}
+
+.friendbox1stleft, .friendboxleft, .friendpic, .frienduser {
+float: left;
+}
+
+.friendbox1stleft, .friendbox1stright, .friendboxleft, .friendboxright {
+width: 47.5%;
+height: 23%;
+position: relative;
+}
+
+.friendbox1stright, .friendboxright, .unfriend {
+float: right;
+}
+
+.friendscontent {
+  height: 500px;
+}
+
+.friendbox1stleft {
+  margin: 1% 0 0 1.5%;
+}
+
+.friendbox1stright {
+  margin: 1% 1.5% 0 0;
+}
+
+.friendboxleft {
+  margin: 1.5% 0 0 1.5%;
+}
+
+.friendboxright {
+  margin: 1.5% 1.5% 0 0;
+}
+
+.friendpic {
+  height: 90px;
+  width: 90px;
+  margin: 10px 0 10px 3%;
+}
+
+.frienduser {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.unfriend {
+  margin: 39px 3% 0 0;
+  padding: 6px 12px 6px 12px;
+  box-shadow: 4px 4px 0 black;
+  background-color: lightgrey;
+}
+/* ~ ~ ~ custom friends page styling ~ ~ ~ */
+
+/* ~ ~ ~ newsfeed styling ~ ~ ~ */
+.newsfeedmain {
+  position: absolute;
+  width: calc(100% - 6px);
+  border: 3px solid black;
+  border-top: 0;
+}
+
+.recentlyactive, .postfeed {
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.profilepic, .makepost {
+margin-top: 30px;
+}
+
+    /*newsfeed left side styles*/
+.recentlyactive {
+  width: 27%;
+  align-items: flex-start;
+  float: left;
+}
+
+.profilepic {
+  width: 120px;
+  height: 120px;
+  margin-left: 8%;
+  border: 2px solid black;
+}
+
+.profilelinks {
+  margin-top: -110px;
+  margin-left: calc(12% + 120px);
+}
+
+.profilelinkcell {
+  margin-bottom: 12px;
+}
+
+.profilelink {
+  font-size: 26px;
+}
+
+.recenttitle {
+  margin: 100px 0 16px 8%;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.activefriend1, .otheractivefriends {
+  border: 2px solid black;
+  height: 80px;
+  width: 80px;
+  margin-left: 8%;
+  margin-bottom: 80px;
+}
+
+.otheractivefriends {
+  margin-top: 50px;
+}
+
+.edityprofile, .activefriendusers {
+  font-size: 17px;
+}
+
+.activefriendusers {
+  margin-top: -150px;
+  margin-left: calc(11% + 80px);
+}
+
+.recentlink {
+  margin: 4vw auto 0 auto;
+  font-size: 22px;
+}
+  /*newsfeed left side styles*/
+
+  /*newsfeed right side styles*/
+.postfeed {
+  width: calc(73% - 3px);
+  align-items: center;
+  border-left: 3px solid black;
+  padding-bottom: 50px;
+}
+
+.makepost, .postactions, .oldestpost {
+background-color: lightgrey;
+}
+
+.makepost {
+  border: 2px solid black;
+  width: 80%;
+  height: 194px;
+  z-index: 100;
+}
+
+.posttitle {
+  text-align: center;
+  width: calc(100% - 16px);
+  border-bottom: 2px solid black;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.textentrybackground {
+  background-color: white;
+}
+
+.makeposttext, .makecomment{
+  border: 2px solid black;
+  resize: none;
+  height: 80px;
+}
+
+.makeposttext {
+  width: calc(100% - 26px);
+  margin: 10px;
+}
+
+.makeposttext::placeholder {
+  line-height: 230%;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+}
+
+.postbox {
+  border-top: 2px solid black;
+}
+
+.postbutton, .commentbutton {
+  float: right;
+  background-color: rgb(17, 78, 232);
+  color: white;
+  font-weight: bold;
+  border: 2px solid black;
+}
+
+.postbutton {
+  padding: 4px 16px 6px 16px;
+  box-shadow: 3px 3px 0 black;
+  margin: 8.5px 32px 0 0;
+}
+
+.oldcommentbackground {
+  background-color: white;
+}
+
+.friendpostpic {
+  border: 2px solid black;
+  height: 80px;
+  width: 80px;
+  margin: 16px 0 0 16px;
+}
+
+.friendpostuser {
+  position: absolute;
+  margin: -65px 0 0 110px;
+  font-size: 17px;
+}
+
+.friendpost {
+  margin: 24px 16px 0 16px;
+  padding-bottom: 20px;
+}
+
+.postactions {
+  border-top: 2px solid black;
+  padding: 14px 0 17px 0;
+}
+
+.actionbutton {
+  margin: 0 20px 0 20px;
+}
+
+.actionoptionright {
+  float: right;
+  margin-right: 20px;
+}
+
+.postactioncell {
+  margin-bottom: 16px;
+}
+
+.newestpost, .newpost, .oldestpost {
+  border: 2px solid black;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.oldestpost {
+  height: 87%;
+  padding-bottom: 15px;
+}
+
+.centralcontainer {
+  position: relative;
+  height: 16px;
+}
+
+.lefty, .centralaction, .cancelcomment {
+float: left;
+}
+
+.centralaction {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.postcomment1 {
+  border-top: 2px solid grey;
+  padding-bottom: 12px;
+}
+
+.friendcommentpic1, .friendcommentpic2 {
+  width: 80px;
+  height: 80px;
+  margin: 24px;
+  border: 2px solid black;
+  float: left;
+}
+
+.commentusername {
+  margin: 24px 0 0 24px;
+}
+
+.comments {
+  margin: 0 16px 0 108px;
+}
+
+.commentlikes {
+  padding-right: 8px;
+  margin-left: 108px;
+}
+
+.darkgreycomments {
+  color: rgb(71, 71, 71);
+}
+
+.postcomment2 {
+  padding-bottom: 40px;
+}
+
+.friendcommentpic2 {
+  margin-top: 0;
+}
+
+.makecomment {
+  width: calc(100% - 30px);
+  margin: 12px;
+}
+
+.makecomment::placeholder {
+  line-height: 230%;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+}
+
+.cancelcomment {
+  margin: 7.5px 0 0 32px;
+}
+
+.commentbutton {
+  padding: 4px 16px 6px 16px;
+  box-shadow: 4px 4px 0 black;
+  margin: 0 32px 0 0;
+}
+  /*newsfeed right side styles*/
+
+/* ~ ~ ~ newsfeed styling ~ ~ ~ */
