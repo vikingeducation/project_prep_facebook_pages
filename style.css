@@ -131,6 +131,12 @@
   float: left;
 }
 
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+.signupfirst {
+margin-right: 8px; 
+}
+}
+
 .signupemail, .signuppassword, .signupconfirm {
   width: 350px;
 }
