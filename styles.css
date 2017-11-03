@@ -1,4 +1,5 @@
 a {
+	cursor: pointer;
 	text-decoration: none;
 	color: rgb(54, 82, 155);
 }
@@ -34,13 +35,13 @@ footer {
 	}
 
 	footer tr {
-	line-height: 20px;
-	text-align: left;
+		line-height: 20px;
+		text-align: left;
 	}
 
 	footer td {
-	padding-left: 10px;
-	padding-right: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 
 	footer td:nth-child(1) {
@@ -193,7 +194,7 @@ strong {
 #create_page {
 	color: rgb(119, 119, 119);
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 13px;
 }
 
 #header_div {
@@ -225,6 +226,19 @@ strong {
 		border: 1px solid black;
 		padding: 3px;
 		padding-bottom: 4px;
+	}
+
+	#header_div input[type=submit]{
+		cursor: pointer;
+		padding: 3px 5px;
+		-webkit-appearance: button;
+		color: white;
+		border: 1px solid rgb(40, 68, 127);
+		background-color: rgb(66, 96, 180);
+	}
+
+	#header_div input[type=submit]:hover{
+		background-color: rgb(54, 82, 155);
 	}
 
 .main_div {
@@ -263,14 +277,25 @@ strong {
 	}
 
 	#signup input {
+		border-radius: 4px;
+		border: 1px solid rgb(187, 198, 217);
 		padding: 7px 7px;
 		margin-bottom: 11px;
 	}
 
 	#signup input[type=submit] {
+		cursor: pointer;
 		padding: 10px 20px;
 		font-size: 16px;
 		-webkit-appearance: button;
+		color: white;
+		background: linear-gradient(to bottom, rgb(62, 180, 85), rgb(63, 145, 69));
+		border: 1px solid rgb(26, 113, 35);
+		border-radius: 4px;
+	}
+
+	#signup input[type=submit]:hover {
+		background: linear-gradient(to bottom, rgb(86, 193, 99), rgb(63, 145, 70));
 	}
 
 	#signup input[type=text] {
