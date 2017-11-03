@@ -200,7 +200,7 @@ strong {
 	margin: 0 auto;
 	width: 980px;
 	font-size: 12px;
-	padding-top: 17px;
+	padding-top: 12px;
 }
 
 	#header_div h1 a{
@@ -220,6 +220,13 @@ strong {
 		padding-bottom: 8px;
 	}
 
+	#header_div input:not([type=submit]) {
+		width: 142px;
+		border: 1px solid black;
+		padding: 3px;
+		padding-bottom: 4px;
+	}
+
 .main_div {
 	padding-top: 20px;
 	padding-bottom: 10px;
@@ -232,7 +239,7 @@ strong {
 #signup {
 	width: 399px;
 	display: inline-block;
-	padding-bottom: 40px;
+	padding-bottom: 42px;
 }
 	
 	#signup form {
