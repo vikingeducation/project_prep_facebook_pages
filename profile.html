@@ -5,13 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="Content-Security-Policy" content="default-src 'self'">
 
-	<title>Facebook Profile</title>
+	<title>Fakebook Profile</title>
 
 	<link rel="stylesheet" href="./reset.css">
 	<link rel="stylesheet" href="./styles.css">
 </head>
 
-<body>
+<body class="flex_column">
 	<header>
 		<div class="header_loggedin flex_row flex_between">
 			<div class="flex_row flex_start align_center">
@@ -30,5 +30,15 @@
 			</div>
 		</div>
 	</header>
+	<main>
+		<section class="profile_container">
+			<div class="cover">
+				<img src="cover.jpg" width="850" height="313" alt="cover photo">
+				<div class="cover_links flex_row align_center flex_start">
+					<img src="profile.png" width="168" height="168" alt="profile picture">
+				</div>
+			</div>
+		</section>
+	</main>
 </body>
 </html>

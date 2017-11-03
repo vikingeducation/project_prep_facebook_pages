@@ -11,8 +11,6 @@ a:hover {
 body {
 	font-family: "Helvetica Neue", "Arial", sans-serif;
 	color: rgb(51, 51, 51);
-	display: flex;
-	flex-direction: column;
 }
 
 footer {
@@ -88,12 +86,6 @@ hr {
 	margin: 5px 0;
 }
 
-input {
-	-webkit-appearance: textfield;
-	-moz-appearance: textfield;
-	appearance: textfield;
-}
-
 li {
 	display: inline;
 	padding-right: 8px;
@@ -120,11 +112,43 @@ strong {
 
 
 /* Classes */
+.profile_container {
+	margin: 0 auto;
+	height: 363px;
+	width: 980px;
+}
+
+.cover {
+	margin: 0 auto;
+	height: 363px;
+	width: 850px;
+	border: 1px solid black;
+}
+
+.cover_links {
+	background-color: white;
+	width: 850px;
+}
+
+	.cover img {
+		width: 850px;
+		height: 313px;
+	}
+
+	.cover_links img {
+		position: relative;
+		bottom: 145px;
+		left: 16px;
+		width: 158px;
+		height: 158px;
+		padding: 5px 5px;
+		border: 1px solid black;
+	}
 
 .header_loggedin {
 	height: 43px;
 	margin: 0 auto;
-	width: 980px;
+	width: 850px;
 }
 	.header_loggedin img {
 		padding-right: 8px;
@@ -177,6 +201,11 @@ strong {
 .flex_row {
 	display: flex;
 	flex-direction: row;
+}
+
+.flex_column {
+	display: flex;
+	flex-direction: column;
 }
 
 .flex_start {
@@ -264,38 +293,42 @@ strong {
 	font-size: 13px;
 }
 
-#header_signup {
+#header_home {
+	margin-right: 50px;
+}
+
+#header_login {
 	margin: 0 auto;
 	width: 980px;
 	font-size: 12px;
 	padding-top: 12px;
 }
 
-	#header_signup h1 a{
+	#header_login h1 a{
 		margin-top: 14px;
 		float: left;
 		font-size: 38px;
 		color: white;
 	}
 
-	#header_signup table {
+	#header_login table {
 		float: right;
 		display: table;
 	}
 
-	#header_signup td {
+	#header_login td {
 		padding-left: 15px;
 		padding-bottom: 8px;
 	}
 
-	#header_signup input:not([type=submit]) {
+	#header_login input:not([type=submit]) {
 		width: 142px;
 		border: 1px solid black;
 		padding: 3px;
 		padding-bottom: 4px;
 	}
 
-	#header_signup input[type=submit]{
+	#header_login input[type=submit]{
 		cursor: pointer;
 		padding: 3px 5px;
 		-webkit-appearance: button;
@@ -304,7 +337,7 @@ strong {
 		background-color: rgb(66, 96, 180);
 	}
 
-	#header_signup input[type=submit]:hover{
+	#header_login input[type=submit]:hover{
 		background-color: rgb(54, 82, 155);
 	}
 
