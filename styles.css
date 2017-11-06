@@ -114,7 +114,7 @@ strong {
 /* Classes */
 .profile_container {
 	margin: 0 auto;
-	height: 363px;
+    height: 1080px;
 	width: 980px;
 }
 
@@ -265,7 +265,8 @@ strong {
 }
 
 .photos {
-	margin: 0 auto;
+	margin: 10px auto;
+    height: 382px;
 	width: 323px;
 	border: 2px solid black;
 }
@@ -491,3 +492,35 @@ strong {
 
 
 
+
+.photos td {
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.photos table {
+    margin-left: 5px;
+}
+
+.photos h2 {
+ padding: 16px    
+}
+
+.newpost {
+    margin: 10px 130px 10px 10px;
+    height: 100px;
+	width: 500px;
+	border: 2px solid black;
+}
+
+.profile_container article {
+    float: right;
+    
+}
+
+.post {
+    margin: 10px 130px 10px 10px;
+    height: 250px;
+	width: 500px;
+	border: 2px solid black;
+}
