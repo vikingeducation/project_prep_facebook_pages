@@ -13,22 +13,45 @@
 
 <body class="flex_column">
 	<header>
-		<div class="header_loggedin flex_row flex_between">
-			<div class="flex_row flex_start align_center">
-				<img src="logo.png" width="28" height="28" alt="facebook logo">
-				<input type="search" placeholder="Search">
-			</div>
-			<div class="header_controls flex_row flex_end align_center">
-				<img src="x.png" width="20" height="20" alt="placeholder x">
-				<span>Benjamin</span>
-				<span id="header_home">Home</span>
-				<img src="x.png" width="20" height="20" alt="placeholder x">
-				<img src="x.png" width="20" height="20" alt="placeholder x">
-				<img src="x.png" width="20" height="20" alt="placeholder x">
-				<img id="controls_padding" src="x.png" width="20" height="20" alt="placeholder x">
-				<img src="x.png" width="20" height="20" alt="placeholder x">
-			</div>
-		</div>
+		<div class="header_loggedin">
+		<table role="presentation">
+			<tbody>
+				<tr>
+					<td>
+						<img src="logo.png" width="28" height="28" alt="facebook logo"
+						id="logo">
+					</td>
+					<td>
+						<input type="search" placeholder="Search">
+					</td>
+					<td>	
+						<img src="x.png" width="20" height="20" alt="placeholder x">
+					</td>
+					<td>
+						<span>Benjamin</span>
+					</td>
+					<td>
+						<span id="header_home">Home</span>
+					</td>
+					<td>
+						<img src="x.png" width="20" height="20" alt="placeholder x">
+					</td>
+					<td>
+						<img src="x.png" width="20" height="20" alt="placeholder x">
+					</td>
+					<td>
+						<img src="x.png" width="20" height="20" alt="placeholder x">
+					</td>
+					<td>
+						<img id="controls_padding" src="x.png" width="20" height="20" alt="placeholder x">
+					</td>
+					<td>
+						<img src="x.png" width="20" height="20" alt="placeholder x">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
 	</header>
 	<main>
 		<section class="profile_container">
@@ -36,8 +59,19 @@
 				<img src="cover.jpg" width="850" height="313" alt="cover photo">
 				<div class="cover_links flex_row align_center flex_start">
 					<img src="profile.png" width="168" height="168" alt="profile picture">
+					<a href="#">Timeline</a>
+					<a href="#">About</a>
+					<a href="#">Friends</a>
+					<a href="#">Photos</a>
+					<a href="#">More</a>
 				</div>
 			</div>
+			<aside>
+				<div class="photos">
+					<a href="#">Photos</a>
+				</div>
+			</aside>
+
 		</section>
 	</main>
 </body>

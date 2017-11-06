@@ -121,38 +121,72 @@ strong {
 .cover {
 	margin: 0 auto;
 	height: 363px;
-	width: 850px;
-	border: 1px solid black;
 }
 
 .cover_links {
+	position: relative;
+	bottom: 2px;
+	border-bottom: 1px solid rgb(211, 214, 219);
+	border-left: 1px solid rgb(211, 214, 219);
+	border-right: 1px solid rgb(211, 214, 219);
+	border-radius: 0 0 2px 2px;
 	background-color: white;
+	height: 50px;
 	width: 850px;
+	box-sizing: border-box;
 }
 
 	.cover img {
 		width: 850px;
 		height: 313px;
+		margin-right: 20px;
 	}
 
 	.cover_links img {
 		position: relative;
-		bottom: 145px;
-		left: 16px;
+		bottom: 73px;
+		left: 10px;
 		width: 158px;
 		height: 158px;
 		padding: 5px 5px;
-		border: 1px solid black;
+		background: white;
+		border: 1px solid rgb(168, 168, 168);
+		border-radius: 2px;
+	}
+
+	.cover_links a {
+		border: 1px solid rgb(211, 214, 219);
+		align-self: flex-start;
+		flex-basis: 1;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 17px;
+		padding-top: 16px;
+	}
+
+	.cover_links a:nth-of-type(-n+4) {
+		border-right: none;
 	}
 
 .header_loggedin {
-	height: 43px;
-	margin: 0 auto;
-	width: 850px;
+ 	margin: 0 auto;
+	width: 980px;
 }
+	.header_loggedin #logo {
+		padding-left: 10px;
+	}
+
+	.header_loggedin table {
+		margin: 5px 0;
+	}
+
+	.header_loggedin td {
+		text-align: center;
+		vertical-align: middle;
+	}
+
 	.header_loggedin img {
 		padding-right: 8px;
-		margin: 5px 0;
 	}
 
 	.header_loggedin input {
@@ -166,9 +200,11 @@ strong {
 	}
 
 	.header_loggedin span {
-		align-self: center;
-		font-size: 12px;
-		padding-right: 10px;
+		position: relative;
+		bottom: 2px;
+		padding-right: 5px;
+		font-size: 13px;
+
 	}
 
 .main_div {
@@ -176,6 +212,10 @@ strong {
 	padding-bottom: 10px;
 	width: 980px;
 	margin: 0 auto;
+}
+
+.search {
+	display: table;
 }
 
 .signup_input {
@@ -222,6 +262,16 @@ strong {
 
 .align_center {
 	align-items: center;
+}
+
+.photos {
+	margin: 0 auto;
+	width: 323px;
+	border: 2px solid black;
+}
+
+.profile_container aside {
+	float: left;
 }
 
 
