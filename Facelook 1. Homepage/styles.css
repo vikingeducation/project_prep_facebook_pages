@@ -1,0 +1,159 @@
+html {font-family: arial;}
+/*---TOP BAR PLACEMENT AND STYLING--------------------------------*/
+#topbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 60px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+  background: #4286f4;
+  color: #ffffff;
+  z-index: 1;
+}
+#topbar h1 {
+  position: relative;
+  top: -35%;
+  left: 2.5vw;
+  font-size: 40px;
+}
+/*----------------------------------------------------------------*/
+/*---TOP BAR SIGN IN STYLING--------------------------------------*/
+#signin {
+  font-size: 12px;
+  font-weight: bold;
+}
+#signinemail {
+  position: fixed;
+  top: 7px;
+  left: 60%;
+}
+#signinemail input {
+  width: 13vw;
+}
+#signinpassword {
+  position: fixed;
+  top: 7px;
+  left: 76%;
+}
+#signinpassword input {
+  width: 13vw;
+}
+#signinsubmit {
+  position: fixed;
+  top: 33px;
+  left: 92%;
+}
+#signinsubmit input {
+  background: #90d4e5;
+  border-width: 1px;
+  border-color: #000000;
+  text-align: center;
+  box-shadow: 2px 2px 2px #000000;
+}
+/*----------------------------------------------------------------*/
+/*---WELCOME CARD LEFT FLOAT CONTROLS-----------------------------*/
+#welcome {
+  position: relative;
+  top: 110px;
+  left: 7vw;
+  float: left;
+  margin: 0 1%;
+  display: flex;
+  width: 45vw;
+}
+#welcome h1 {
+  position: relative;
+  left: -5vw;
+  font-size: 26px;
+}
+#welcome li {
+  font-size: 15px;
+  color: #999999;
+}
+/*----------------------------------------------------------------*/
+/*---SIGN UP CARD RIGHT FLOAT STYLING AND CONTROLS----------------*/
+#signup {
+  position: absolute;
+  top: 60px;
+  left: 59vw;
+  float: right;
+  margin: 0 1%;
+  display: flex;
+}
+#signup h1 {
+  font-size: 40px;
+}
+#signup-text input {
+  color: #999999;
+  border-width: 2px;
+}
+/*----------------------------------------------------------------*/
+/*---SIGN UP FORM ELEMENT PLACEMENT-------------------------------*/
+#su-first {
+  position: relative;
+  top: -10px;
+  left: 0px;
+  width: 13vw;
+  height: 20px;
+}
+#su-last {
+  position: relative;
+  top: -10px;
+  left: calc(3vw - 9px);
+  width: 13vw;
+  height: 20px;
+}
+#su-email {
+  position: relative;
+  top: 5px;
+  left: 0px;
+  width: 29vw;
+  height: 20px;
+}
+#su-pw {
+  position: relative;
+  top: 20px;
+  left: 0px;
+  width: 29vw;
+  height: 20px;
+}
+#su-pwconfirm {
+  position: relative;
+  top: 35px;
+  left: 0px;
+  width: 29vw;
+  height: 20px;
+}
+#su-birthday {
+  position: relative;
+  top: 45px;
+  left: 0px;
+}
+#su-birthday input {
+  width: 29vw;
+}
+#su-gender {
+  position: relative;
+  top: 50px;
+  left: 0px;
+  font-size: 14px;
+}
+#su-submit {
+  position: relative;
+  top: 50px;
+  left: 0px;
+  height: 35px;
+  width: 29vw;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #378e22;
+  border-width: 2px;
+  border-color: #000000;
+  box-shadow: 2px 2px 2px #000000;
+}
+/*----------------------------------------------------------------*/
