@@ -1,7 +1,114 @@
-<!Doctype html>
-<html>
-<head>
-</head>
-<body>
-</body>
-</html>
+  <!Doctype html>
+  <html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/themes/base/jquery-ui.css" type="text/css" media="all" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js"
+        type="text/javascript"></script>
+    <script type="text/javascript"></script>
+    <!-- <script src="js/index.js"></script>  -->
+    <title>Facebook Template</title>
+
+  </head>
+  <body>
+    <div id="header">
+      <h1>Facebook</h1>
+        <form id="login">
+          <label>Email <input type="text" name="s-user" id="s-user" placeholder="Email"></label>
+          <label>Password<input type="text" name="s-pass" id="s-pass" placeholder="Password"></label>
+          <input type="submit" class="submit" value="Submit" id="submit">
+        </form>
+    </div>
+    <div id="left-description">
+      <h1>Connect with all of your friends!</h1>
+        <ul class="list">
+          <li>See photos and updates in your news feed</li>
+          <li>Post your status for the world to see from your profile</li>
+          <li>Get in touch with friends by "friending" them</li>
+          <li>Like things becasue you're a positive person!</li>
+        </ul>
+        <div id="registration">
+          <h2>Sign Up!</h2>
+            <form id="sign-up">
+              <input type="text" name="first-name" id="s-user1" placeholder="Last Name">
+              <input type="text" name="last-name" id="s-pass1" placeholder="First Name">
+              <input type="text" name="user-email" id="u-email" placeholder="Your Email">
+              <input type="text" name="user-pass" id="u-pass" placeholder="Your Password">
+              <input type="text" name="confirm-pass" id="pass-confirm" placeholder="Confirm Password">
+              <h3>Birthday</h3>
+                <section class="date">
+                  <select id="month_start" name="month_start" /> 
+                    <option>January</option>       
+                    <option>February</option>       
+                    <option>March</option>       
+                    <option>April</option>       
+                    <option>May</option>       
+                    <option>June</option>       
+                    <option>July</option>       
+                    <option>August</option>       
+                    <option>September</option>       
+                    <option>October</option>       
+                    <option>November</option>       
+                    <option>December</option>       
+                  </select> 
+                  <select id="day_start" name="day_start" />
+                    <option>1</option>       
+                    <option>2</option>       
+                    <option>3</option>       
+                    <option>4</option>       
+                    <option>5</option>       
+                    <option>6</option>       
+                    <option>7</option>       
+                    <option>8</option>       
+                    <option>9</option>       
+                    <option>10</option>       
+                    <option>11</option>       
+                    <option>12</option>       
+                    <option>13</option>       
+                    <option>14</option>       
+                    <option>15</option>       
+                    <option>16</option>       
+                    <option>17</option>       
+                    <option>18</option>       
+                    <option>19</option>       
+                    <option>20</option>       
+                    <option>21</option>       
+                    <option>22</option>       
+                    <option>23</option>       
+                    <option>24</option>       
+                    <option>25</option>       
+                    <option>26</option>       
+                    <option>27</option>       
+                    <option>28</option>       
+                    <option>29</option>       
+                    <option>30</option>       
+                    <option>31</option>       
+                  </select> 
+                  <select id="year_start" name="year_start" /> 
+                    <option>2009</option>       
+                    <option>2010</option>       
+                    <option>2011</option>       
+                    <option>2012</option>       
+                    <option>2013</option>       
+                    <option>2014</option>       
+                    <option>2015</option>       
+                    <option>2016</option>       
+                    <option>2017</option>       
+                    <option>2018</option>       
+                  </select> 
+              </section> 
+              <div class="radio">
+                <input type="radio" name="gender" value="male" id="male"><label for="male">Male</label>
+                <input type="radio" name="gender" value="female" id="female"><label for="female"> Female</label>
+               </div>
+               <input type="submit" class="submit" value="Submit" id="reg-submit">
+         </div>
+            </form>
+
+      </div>
+    </body>
+  </html>
