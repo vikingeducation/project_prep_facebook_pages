@@ -1,0 +1,209 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+}
+
+#header {
+    border:2px solid #505559;
+    margin:0 auto;
+    width:100%;
+    background: #036EEE;
+    height: 45px;
+    padding-bottom: 25px;
+}
+
+
+#header h1 {
+    margin-left: 10%;
+    float: left;
+    color: #FFFFFF;
+    font: 30px arial, sans-serif; 
+}
+
+#header form {
+    float: right; 
+    margin-right: 5%; 
+    height: 40px; 
+    padding-top: 8px;
+    font: 12px arial, sans-serif;
+}
+
+#header form label {
+    display: inline-block; 
+    margin: 0 2px;
+}
+
+#header form input {}
+
+#header form #s-user, 
+#header form #s-pass {
+    display: block;
+    width: 250px;
+    border: 1px solid #eee;
+    padding: 4px 0 4px 0;
+    
+}
+
+#header form .submit {
+    height: 23px;
+    vertical-align: bottom;
+    background: #3F8CFD; 
+    color: #010105;
+    border: 1px solid #ddd;
+    -moz-border-radius: 5px;    
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+#registration {
+    padding-bottom: 30%;
+    margin-top: 1%;
+}
+
+#registration h2 {
+    margin-left: 50%;
+    margin-top:-28%;
+}
+#s-user1, #s-pass1 {
+    float: right; 
+    margin-right: 4.5%; 
+    margin-top: 1.5%;
+    height: 20px; 
+    font: 12px arial, sans-serif;
+    width: 260px;
+    border: 1px solid #eee;
+
+}
+#u-email, #u-pass, #pass-confirm {
+    float: right;
+    margin-left:30%;
+    margin-bottom: 1%;
+    margin-right: 5.9%;
+    margin-top: 2%;
+    width: 565px;
+    border: 1px solid #eee;
+    height: 25px;
+}
+
+#left-description {
+    margin-top: 10%;
+    margin-left: 2em; 
+
+}
+
+#left-description li {
+    padding:1em;
+}
+
+#registration h1 {
+    display: block;
+    margin-top: 2%;
+    margin-left: 48%;
+    font-size: 18px;
+}
+
+#registration h3 {
+    float: right;
+    display: block;
+    margin-top: 1%;
+    margin-right: 45%;
+    font-size: 17px;
+
+}
+
+.date {
+    float: right;
+    margin-left:30%;
+    margin-right: 34%;
+    padding:.5em;
+}
+
+.radio {                 
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-top: 2%;
+    margin-right:36%;
+}
+
+#reg-submit {
+    height: 50px;
+    width:150px;
+    // vertical-align: bottom;
+    background: #448B00; 
+    color: #010105;
+    border: 1px solid #ddd;
+    -moz-border-radius: 5px;    
+    border-radius: 5px;
+    cursor:pointer;
+    position: relative;
+    float: right;
+    margin-top: 2%;
+    margin-left:38%;
+    margin-right:39%;
+
+}
+
+
+
+@media only screen and (min-width: 400px) and (max-width: 1200px)  {
+
+  #login {
+    margin-top: 5%;
+    margin-left: 2em;
+    float:left;
+  }
+
+  #left-description {
+    margin-top:35%;
+  }
+
+  #registration h2  {
+    margin-top: 8%;
+    margin-left: 1%;
+
+  }
+
+  #registration h3 {
+    margin-top: 5%;
+    margin-right: 75%;
+  }
+
+  #registration form {
+    margin-top: 5%;
+    margin-right: 18%;
+  }
+
+
+ #u-email, #u-pass, #pass-confirm {
+    float: left;
+    margin:3% 0 0 0;
+    width: 80%;
+ }
+
+ #pass-confirm {
+    margin-bottom: 1em;
+ }
+
+ .date {
+    width:80%;
+    margin-right:20%;
+ }
+ .radio {
+    width: 50%;
+    margin-right:50%;
+ }
+
+ #reg-submit {
+    margin-top:1em;
+    margin-right:50%;
+ }
+  
+}
+  
+
+
+
