@@ -1,0 +1,210 @@
+html {font-family: arial;}
+/*---TOP BAR PLACEMENT AND STYLING--------------------------------*/
+#topbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 25px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+  background: #4286f4;
+  color: #ffffff;
+  z-index: 2;
+}
+#topbar h1 {
+  position: fixed;
+  top: -15px;
+  left: 12vw;
+  font-size: 20;
+}
+#fl-icon img {
+  position: fixed;
+  top: 7px;
+  left: calc(12vw - 25px);
+  height: 23px;
+  width: 23px;
+}
+#searchbar input {
+  position: fixed;
+  top: 9px;
+  left: 27.5vw;
+  width: 45vw;
+}
+#username {
+  position: fixed;
+  top: -4px;
+  right: 10vw;
+  font-weight: bold;
+}
+/*----------------------------------------------------------------*/
+/*---HEADER MAIN ELEMENT PLACEMENT--------------------------------*/
+#actionbar {
+  position: absolute;
+  top: 37px;
+  left: calc(10vw - 2px);
+  width: 80vw;
+  height:287px;
+}
+
+#toolbar {
+  position: relative;
+  left: -2px;
+  top: -196px;
+  width: 80vw;
+  height: 35px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+  background: #ffffff;
+}
+#profile-background img {
+  position: relative;
+  left: -2px;
+  top: -82px;
+  height: 250px;
+  width: 80vw;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+  background: #4286f4;
+  color: #ffffff;
+}
+#user-portrait img {
+  position: relative;
+  left: calc(1vw - 2px);
+  top: -170px;
+  height: 100px;
+  width: 12vw;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+  z-index: 1;
+}
+/*----------------------------------------------------------------*/
+/*---ACTIONBAR ELEMENT PLACEMENT----------------------------------*/
+#actionbar H1 {
+  position: relative;
+  top: 190px;
+  left: calc(15vw - 2px);
+  z-index: 1;
+}
+#edit-profile {
+  position: absolute;
+  top: 260px;
+  right: calc(1vw - 2px);
+  z-index: 1;
+}
+
+#toolbar ul{
+  position: relative;
+  top: -18px;
+  left: 15%;
+}
+
+.toolbar-link a {
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.toolbar-link:hover {
+   box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+ }
+
+.toolbar-link {
+  display: inline-block;
+  height: 25px;
+  padding:5px;
+  margins: 0px;
+  background: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+  text-align: center;
+}
+/*----------------------------------------------------------------*/
+/*---BODY SIZING--------------------------------------------------*/
+#body {
+  position: absolute;
+  top: 340px;
+  left: calc(10vw - 4px);
+  width: calc(80vw - 40px);
+  padding: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+}
+/*----------------------------------------------------------------*/
+/*---TOP BAR------------------------------------------------------*/
+#body-header {
+  position: relative;
+  top: -22px;
+  left: -22px;
+  height: 35px;
+  width: 80vw;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000000;
+}
+#body-header h1 {
+  position: relative;
+  top: -16px;
+  left: calc(40vw - 50px);
+  font-size: 28px;
+}
+#edit-profile-button {
+  position: relative;
+  top: -63px;
+  left: calc(79vw - 110px);
+}
+#edit-profile-button input {
+  background: #4286f4;
+  border-width: 1px;
+  border-color: #000000;
+  text-align: center;
+  box-shadow: 2px 2px 2px #000000;
+  color: #ffffff;
+}
+/*----------------------------------------------------------------*/
+/*---FLOAT CONTROLS-----------------------------------------------*/
+#left-float {
+  position: relative;
+  top: -25px;
+  left: 3%;
+  float: left;
+  margin: 0 0%;
+  display: flex;
+  width: 30vw;
+  font-size: 14px;
+}
+#right-float {
+  position: relative;
+  top: -25px;
+  left: -5%;
+  float: right;
+  margin: 0 0%;
+  display: flex;
+  width: 50%;
+  font-size: 14px;
+}
+/*----------------------------------------------------------------*/
+/*---FLOAT STYLING------------------------------------------------*/
+#left-float h1 {
+  position: relative;
+  top: 10px;
+  font-size: 24px;
+}
+#right-float h1 {
+  position: relative;
+  top: 10px;
+  font-size: 24px;
+}
+.c1 {
+  font-weight: bold;
+  width: 110px;
+  height: 25px;
+}
+/*----------------------------------------------------------------*/
