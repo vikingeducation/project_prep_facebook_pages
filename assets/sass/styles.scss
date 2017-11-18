@@ -1,0 +1,317 @@
+/* Imports */
+@import "reset", "colors";
+
+/* Variables */
+$font-family: "Nunito", sans-serif;
+
+/* Mixins */
+@mixin thin-border {
+  border: 1px solid #000;
+}
+
+/*
+$nav-bg: #4469AF;
+$nav-btn: #385A97;
+$white: #FFF;
+$intro-list: #696969;
+$signup-btn: #7BB968;
+$about-nav-fade: #A9A9A9;
+$info-header: #EEEEEE;
+$info-btn: #4469AF;
+*/
+
+/* Typography */
+h1, h2, h3, h4, h5, h6,
+label, li, input, legend,
+button, p {
+  font-family: $font-family;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigation */
+.nav {
+  & {
+    background-color: $nav-bg;
+    color: $white;
+    display: flex;
+    font-size: 14px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 15px 15%;
+  }
+
+  h2 {
+    align-self: center;
+    font-weight: normal;
+    margin-left: 10px;
+  }
+
+  form {
+    align-self: center;
+    display: flex;
+    width: 45%;
+  }
+
+  label {
+    padding-bottom: 5px;
+  }
+
+  input {
+    @include thin-border;
+  }
+
+  button {
+    @include thin-border;
+    align-self: flex-end;
+    background-color: $nav-btn;
+    color: $white;  
+    height: 20px;
+    padding: 0;
+    text-align: center;
+    width: 70px;
+  }
+
+  a {
+    align-self: center;
+    display: flex;
+    text-decoration: none;
+  }
+
+  input[type="search"] {
+    align-self: center;
+    height: 30px;
+    text-indent: 5px;
+    width: 600px;
+  }
+
+}
+
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+}
+
+/* Home */
+.home {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 10%;
+  width: 90%
+}
+
+/* Intro */
+.intro {
+  & {
+    padding-top: 10%;
+    width: 50%;
+  }
+  
+  h3 {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  ul {
+    list-style-type: disc;
+    margin-left: 10px;
+  }
+  li {
+    color: $intro-list;
+    margin-bottom: 15px;
+  }
+  span {
+    font-weight: bold;
+  } 
+}
+
+
+/* Sign Up */
+.sign-up {
+  & {
+    margin-top: 5%;
+    width: 40%;
+  }
+  h2 {
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  input {
+    margin-bottom: 10px;
+    text-indent: 5px;
+  }
+  input[type="email"],
+  input[type="password"] {
+    display: block;
+    width: 85%;
+  }
+  fieldset {
+    margin-top: 20px;
+  }
+  input[type="radio"] {
+    margin-top: 15px;
+  }
+  label {
+    font-weight: bold;
+  }
+  button {
+    @include thin-border;
+    background-color: $signup-btn; 
+    box-shadow: 2px 2px 1px #000;
+    color: $white;
+    font: bold 20px Arial, sans-serif;
+    margin-top: 10px;
+    padding: 5px 10px;
+    width: 70%;
+  }
+}
+
+legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* About */
+.about {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 10%;
+  width: 90%;
+}
+
+.cover {
+  & {
+    background: url("http://via.placeholder.com/1000x350") no-repeat;
+    height: 350px;
+    margin: 0 auto;
+    width: 1000px;
+  }
+  h2 {
+    font-weight: normal;
+    position: relative;
+    top: 270px;
+    left: 200px;
+  }
+}
+
+.about-nav {
+  & {
+    width: 100%;
+  }
+  ul {
+    display: flex;
+    width: 100%;
+  }
+  li {
+    @include thin-border;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    width: 150px;
+  }
+  li:first-of-type {
+    width: 200px;
+  }
+  li:last-of-type {
+    padding-right: 15px;
+    text-align: right;
+    width: 295px;
+  }
+  .counts {
+    color: $about-nav-fade; 
+  }
+}
+
+#profile img {
+  height: 200px;
+  margin-top: -250px;
+  width: 150px;
+}
+
+/* Main */
+.info {
+  & {
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 10px auto;
+    width: 70%;
+  }
+  header {
+    background-color: $info-header;
+    border-bottom: 2px solid black;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+  }
+  h2 {
+    display: inline-block;
+    margin-left: 150px;
+  }
+  button {
+    @include thin-border;
+    background-color: $info-btn;
+    bottom: 8px;
+    box-shadow: 2px 2px 1px #000;
+    color: $white;
+    font: bold 14px Arial, sans-serif;
+    left: 275px;
+    padding: 5px 10px;
+    position: relative;
+    width: 140px;
+  } 
+}
+
+.cols {
+  & {
+    display: flex;
+    margin: 10px auto;
+    padding: 10px 45px 20px 45px;
+  }
+  h3 {
+    margin: 10px 0;
+  }
+}
+
+.basic-info,
+.about-me {
+  width: 50%;
+}
+
+.lists {
+  display: flex;
+  width: 100%;
+}
+
+.categories {
+  & {
+    width: 30%;
+  }
+  li {
+    font-weight: bold;
+    margin: 15px 15px 15px 0;
+  }
+}
+
+.data li {
+  margin: 15px 0;
+}
+    
+
