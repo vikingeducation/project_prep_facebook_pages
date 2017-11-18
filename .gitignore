@@ -40,3 +40,9 @@ Session.vim
 *~
 # Auto-generated tag files
 tags
+
+# SASS
+.sass-cache/
+*.css.map
+
+
