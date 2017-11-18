@@ -61,16 +61,23 @@ button {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  padding: 15px 15% 15px 15%;
+  padding: 15px 15%;
 }
 
 .nav h1 {
   font-size: 48px;
 }
 
+.nav h2 {
+  align-self: center;
+  font-size: 36px;
+  margin-left: 10px;
+}
+
 .nav form {
   align-self: center;
   display: flex;
+  width: 45%;
 }
 
 .email,
@@ -102,19 +109,35 @@ button {
   width: 70px;
 }
 
-/* Main */
-main {
+.nav a {
+  align-self: center;
+  color: #FFF;
+  display: flex;
+  text-decoration: none;
+}
+
+
+.nav input[type="search"] {
+  align-self: center;
+  font-size: 14px;
+  height: 30px;
+  text-indent: 5px;
+  width: 600px;
+}
+
+/* Home */
+.home {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  padding: 15px 10% 0 10%;
+  padding: 0 10%;
   width: 90%;
 }
 
 /* Intro */
 .intro {
-  padding: 40px 20px 0 0;
+  padding-top: 10%;
   text-align: left;
   width: 50%;
 }
@@ -143,7 +166,7 @@ main {
 
 /* Sign Up */
 .sign-up {
-  margin-top: 15px;
+  margin-top: 5%;
   width: 40%;
 }
 
@@ -192,4 +215,141 @@ legend {
   padding: 5px 10px;
   width: 70%;
 }
+
+/* About */
+.about {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 10%;
+  width: 90%;
+}
+
+.cover {
+  background: url("http://via.placeholder.com/1000x350") no-repeat;
+  height: 350px;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.cover h1 {
+  font: bold 36px "Nunito", sans-serif;
+  position: relative;
+  top: 270px;
+  left: 200px;
+}  
+
+.about-nav {
+  width: 100%;
+}
+
+.about-nav ul {
+  display: flex;
+  width: 100%;
+}
+
+.about-nav li {
+  border: 1px solid #000;
+  height: 30px;
+  padding-top: 10px;
+  text-align: center;
+  width: 150px; 
+}
+
+.about-nav li:first-of-type {
+  width: 200px;
+}
+
+.about-nav li:last-of-type {
+  padding-right: 15px;
+  text-align: right;
+  width: 295px;
+}
+
+#profile img {
+  height: 200px;
+  margin-top: -250px;
+  width: 150px;
+}
+
+.about-nav .counts {
+  color: #A9A9A9;
+}
+
+/* Main */
+.info {
+  border: 2px solid black;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  margin: 10px auto;
+  width: 70%;
+}
+
+.info header {
+  background-color: #EEEEEE;
+  border-bottom: 2px solid black;
+  padding: 5px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.info h1 {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 150px;
+}
+
+.info h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.info button {
+  background-color: #4469AF;
+  border: 1px solid #000;
+  bottom: 8px;
+  box-shadow: 2px 2px 1px #000;
+  color: #FFF;
+  font: bold 14px Arial, sans-serif;
+  left: 275px;
+  padding: 5px 10px;
+  position: relative;
+  width: 140px;
+}
+
+.cols {
+  display: flex;
+  margin: 10px auto;
+  padding: 10px 45px 20px 45px;
+}
+
+.cols h2 {
+  margin: 10px 0;
+}
+
+.basic-info,
+.about-me {
+  width: 50%;
+}
+
+.lists {
+  display: flex;
+  width: 100%;
+}
+
+.categories {
+  width: 30%;
+}
+
+.categories li {
+  font-weight: bold;
+  margin: 15px 15px 15px 0;
+}
+
+.data li {
+  margin: 15px 0;
+}
+
 
