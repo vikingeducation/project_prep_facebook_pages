@@ -1,21 +1,21 @@
 .login-navbar {
-  width: 110%;
+  width: 100%;
   overflow: hidden;
-  background-color: #317BE1;
-  font-family: "Lucida Grande", "Lucida Sans", sans-serif;
+  background-color: #44619A;
+  font-family: "Lucida Sans", sans-serif;
   color: #FFF;
   position: relative;
 }
 .header-left {
   float: left;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .login-form {
   box-shadow: none;
   position: absolute;
   right: 0;
-  padding-right: 20px;
+  padding-right: 5px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -27,12 +27,70 @@ fieldset {
 }
 
 label {
-  padding-left: 1px;
+  padding-left: 3px;
   font-size: 10px;
   color: #FFF;
 }
 
 .login-field {
   display: inline-block;
+}
 
+.field {
+  border-color: #000;
+  border-width: thin;
+}
+
+.login-button {
+  font-size: 10px;
+  color: #FFF;
+  background: #4561B4;
+  border-style: solid;
+  border-color: #000;
+  border-width: thin;
+}
+
+main {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.sign-up-body {
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.attract-users {
+  float: left;
+  width: 65%
+}
+
+.attractions {
+  float: left;
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.attraction-icon {
+  height: 60px;
+  width: 60px;
+}
+
+.sign-up-container {
+  float: left;
+  width: 45%;
+}
+
+footer {
+  border-radius: 0;
+  border-left: 0;
+  border-right: 0;
+  padding: 0 10px;
+  clear: both;
+  margin-bottom: 0;
+  bottom: 0;
 }
