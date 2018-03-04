@@ -1,0 +1,32 @@
+.login-navbar {
+  width: 110%;
+  overflow: hidden;
+  background-color: #317BE1;
+  font-family: "Lucida Grande", "Lucida Sans", sans-serif;
+  color: #FFF;
+  position: relative;
+}
+.header-left {
+  float: left;
+  padding-left: 20px;
+}
+
+.login-container {
+  position: absolute;
+  right: 0;
+  padding-right: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+.login-form-label {
+  font-size: 10px;
+  color: #FFF;
+}
+
+.login-field {
+  display: inline-block;
+
+}
