@@ -11,7 +11,8 @@
   padding-left: 20px;
 }
 
-.login-container {
+.login-form {
+  box-shadow: none;
   position: absolute;
   right: 0;
   padding-right: 20px;
@@ -19,9 +20,14 @@
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-
 }
-.login-form-label {
+
+fieldset {
+  border: none;
+}
+
+label {
+  padding-left: 1px;
   font-size: 10px;
   color: #FFF;
 }
