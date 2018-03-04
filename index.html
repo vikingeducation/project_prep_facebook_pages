@@ -21,7 +21,7 @@
             <label class="login-form-label">Password</label><br>
             <input class="field" type="password" name="password">
           </div>
-          <input class="login-button" class="btn" type="submit" value="Log In">
+          <input class="login-button" type="submit" value="Log In">
         </fieldset>
 
       </form>
@@ -43,8 +43,8 @@
         </div>
 
         <div class="sign-up-container">
-          <h2>Sign Up</h2>
-          <h3>It's free and always will be.</h3>
+          <h2 class="sign-up-text">Sign Up</h2>
+          <h3 class="sign-up-text">It's free and always will be.</h3>
           <form class="sign-up" action="/sign-up" method="post">
             <fieldset class="name">
               <input type="name" name="first-name" placeholder="First Name">
@@ -57,8 +57,7 @@
               <input type="password" name="new-password" placeholder="New Password">
             </fieldset>
             <fieldset class="dob">
-              <label>
-                Birthday
+              <label class="sign-up-label" id="birthday">Birthday</label><br>
                 <select name="dob-month" id="dob-month">
                   <option value="">Month</option>
                   <option value="">-----</option>
@@ -232,19 +231,18 @@
                   <option value="1901">1901</option>
                   <option value="1900">1900</option>
                 </select>
-              </label>
             </fieldset>
             <fieldset class="sex">
-              <label>
+              <label class="sign-up-label">
                 <input type="radio" name="sex" value="Female">
                 Female
               </label>
-              <label>
+              <label class="sign-up-label">
                 <input type="radio" name="sex" value="Male">
                 Female
               </label>
             </fieldset>
-            <input class="btn" type="submit" value="Create Account">
+            <input class="create-account-button" type="submit" value="Create Account">
           </form>
         </div>
       </div>

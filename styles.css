@@ -26,7 +26,7 @@ fieldset {
   border: none;
 }
 
-label {
+.login-form-label {
   padding-left: 3px;
   font-size: 10px;
   color: #FFF;
@@ -84,6 +84,36 @@ main {
   float: left;
   width: 45%;
 }
+
+.sign-up {
+  text-align: left;
+}
+
+.sign-up-label {
+  font-size: 14px;
+}
+
+.sign-up-text {
+  margin-left: 15px;
+}
+
+#birthday {
+  margin-left: 2px;
+}
+
+.create-account-button {
+  background: #69A74E;
+  font-size: 15px;
+  font-style: bold;
+  color: #FFF;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: none;
+  padding: 5px 15px;
+  margin-left: 14px;
+  margin-top: 40px;
+}
+
 
 footer {
   border-radius: 0;
