@@ -339,6 +339,7 @@ td {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
+  flex-wrap: wrap;
   position: relative;
   margin: 0px;
   padding: 10px;
@@ -354,7 +355,7 @@ td {
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  width: 400px;
+  width: 450px;
   height: 110px;
   border: solid #000 thin;
   overflow: hidden;
