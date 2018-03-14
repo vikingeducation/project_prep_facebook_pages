@@ -318,13 +318,76 @@ td {
   width: 100%;
   height: 50px;
   margin-top: 20px;
-  border-style: solid;
-  border-color: #000;
-  border-width: thin;
+  border: solid #000 thin;
 }
 
 .friends-title {
   text-align: center;
   position: relative;
   bottom: 10px;
+}
+
+.friends-section {
+  display: flex;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+  border-left: solid #000 thin;
+  border-bottom: solid #000 thin;
+  border-right: solid #000 thin;
+}
+
+.friends-section-left {
+
+}
+
+.friend {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 450px;
+  height: 110px;
+  border: solid #000 thin;
+  overflow: hidden;
+}
+
+.friend-picture {
+  width: 100px;
+  padding: none;
+  float: left;
+}
+
+.friend-info {
+  padding: none;
+  height: 100%;
+  margin-top: 20px;
+
+}
+
+.friend-name {
+}
+
+.friend-count {
+
+}
+
+.unfriend-button-container {
+  float: right;
+}
+
+.unfriend-button {
+  font-size: 12px;
+  width: 90px;
+  height: 30px;
+  color: #FFF;
+  background: #4561B4;
+  border: solid #000 thin;
+  margin-top: 35px;
 }
