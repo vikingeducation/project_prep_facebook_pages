@@ -128,25 +128,24 @@ footer {
 .user-profile {
 /*  background-image: url('Cover Photo.jpeg') no-repeat;
   background-size: 100%; */
-  display: relative;
+  display: block;
   height: 600px;
   overflow: hidden;
-  position: block;
+  position: relative;
 
 }
 
 .background-components {
   display: flex;
   flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
 
 .cover-photo {
-  display: relative;
-  position: block;
-  text-align: center;
   position: absolute;
+  text-align: center;
   align-items: flex-start;
-  order: 1;
 }
 
 #cover-photo {
@@ -157,9 +156,8 @@ footer {
 }
 
 .link-bar {
-  display: relative;
-  position: inline-block;
-  margin-top: 560px;
+  position: relative;
+  margin-top: 562px;
   width: 100%;
   text-align: center;
   background: #F6F7F9;
@@ -208,10 +206,22 @@ footer {
   height: 200px;
   width: auto;
   border: 3px solid #FFF;
-  transform-origin: bottom;
-  margin-top: 450px;
+  margin-top: 375px;
   margin-left: 50px;
+  position: absolute;
   z-index: 1000;
+}
+
+.name {
+  position: absolute;
+  z-index: 990;
+  font-size: 20px;
+  color: #000;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: .8px;
+    -webkit-text-stroke-color: black;
+  margin-left: 230px;
+  margin-top: 490px;
 }
 
 .about-bar {
