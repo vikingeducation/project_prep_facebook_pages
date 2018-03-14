@@ -128,7 +128,7 @@ footer {
 .user-profile {
 /*  background-image: url('Cover Photo.jpeg') no-repeat;
   background-size: 100%; */
-
+  display: relative;
   height: 600px;
   overflow: hidden;
   position: block;
@@ -153,19 +153,19 @@ footer {
   height: 100%;
   width: 100%;
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
 
 .link-bar {
   display: relative;
   position: inline-block;
+  margin-top: 560px;
+  width: 100%;
   text-align: center;
   background: #F6F7F9;
   font-family: "Lucida Sans", sans-serif;
   font-size: 12px;
-  align-items: flex-end;
-  order: 2;
-  z-index: 3
+  z-index: 2;
 }
 
 .link-bar ul {
@@ -206,12 +206,47 @@ footer {
 
 .profile-picture {
   height: 200px;
-  width: 100px;
+  width: auto;
   border: 3px solid #FFF;
-  z-index: 4;
+  transform-origin: bottom;
+  margin-top: 450px;
+  margin-left: 50px;
+  z-index: 1000;
+}
+
+.about-bar {
+  display: inline-block;
+  width: 100%;
 }
 
 .about-section {
-  display: block;
+  display: flex;
   position: relative;
+  justify-content: space-between;
+}
+
+.about-left-info {
+  width: 40%;
+  display: block;
+  padding-left: 20px;
+}
+.basic-information {
+  display: block;
+}
+
+.contact-information {
+
+}
+
+.about-right-info {
+  width: 60%;
+  padding-right: 20px;
+}
+
+.words-to-live-by {
+
+}
+
+.about-me {
+
 }
