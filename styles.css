@@ -242,6 +242,7 @@ footer {
   border-style: solid;
   border-color: #000;
   border-width: thin;
+  background-color: #F0F0F0;
 }
 
 .about-title-container {
@@ -290,7 +291,7 @@ footer {
 .about-left-info {
   width: 45%;
   display: block;
-  padding-left: 20px;
+  padding-left: 40px;
   padding-bottom: 20px
 }
 .basic-information {
