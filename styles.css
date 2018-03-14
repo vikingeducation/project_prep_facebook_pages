@@ -309,3 +309,21 @@ td {
 .contact-info td {
   padding: 10px 69px 0 15px;
 }
+
+.friends-title-container {
+  display: inline-block;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  border-style: solid;
+  border-color: #000;
+  border-width: thin;
+}
+
+.friends-title {
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+}
