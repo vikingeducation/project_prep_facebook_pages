@@ -125,6 +125,17 @@ footer {
   margin-top: 30px;
 }
 
+.about-navbar {
+  background-color: #44619A;
+  width: 100%;
+  overflow: hidden;
+}
+
+.facebook-logo{
+  color: #FFF;
+  margin-left: 50px;
+}
+
 .user-profile {
 /*  background-image: url('Cover Photo.jpeg') no-repeat;
   background-size: 100%; */
