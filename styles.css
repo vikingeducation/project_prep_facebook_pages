@@ -1,17 +1,20 @@
+body {
+  font-family: "Lucida Sans", sans-serif;
+}
+
 .login-navbar {
   width: 100%;
   overflow: hidden;
   background-color: #44619A;
-  font-family: "Lucida Sans", sans-serif;
   color: #FFF;
   position: relative;
 }
-.header-left {
+.login-navbar h1 {
   float: left;
   padding-left: 10px;
 }
 
-.login-form {
+.login-navbar form {
   box-shadow: none;
   position: absolute;
   right: 0;
@@ -26,14 +29,14 @@ fieldset {
   border: none;
 }
 
+.login-field {
+  display: inline-block;
+}
+
 .login-form-label {
   padding-left: 3px;
   font-size: 10px;
   color: #FFF;
-}
-
-.login-field {
-  display: inline-block;
 }
 
 .field {
@@ -50,14 +53,11 @@ fieldset {
   border-width: thin;
 }
 
-main {
-  font-family: "Lucida Sans", sans-serif;
-}
-
 .sign-up-body {
   justify-content: space-between;
   align-items: flex-start;
   display: flex;
+  float: left;
   left: 0;
   right: 0;
   width: 100%;
@@ -65,12 +65,10 @@ main {
 }
 
 .attract-users {
-  float: left;
-  width: 65%
+  width: 65%;
 }
 
 .attractions {
-  float: left;
   font-size: 12px;
   padding-left: 20px;
 }
@@ -81,7 +79,6 @@ main {
 }
 
 .sign-up-container {
-  float: left;
   width: 45%;
 }
 
@@ -111,7 +108,7 @@ main {
   border-color: none;
   padding: 5px 15px;
   margin-left: 14px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 footer {
@@ -121,8 +118,8 @@ footer {
   border-right: 0;
   padding: 0 10px;
   clear: both;
-  margin-bottom: 0;
-  margin-top: 30px;
+  position: absolute;
+  bottom: 0;
 }
 
 .logged-in-navbar {
