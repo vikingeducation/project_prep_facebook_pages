@@ -532,6 +532,11 @@ td {
   margin-top: 0px;
 }
 
+.see-all-container {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
 .feed {
   float: left;
   width: 60%;
@@ -541,12 +546,168 @@ td {
   margin-right: 5%;
 }
 
+.create-post {
+  position: relative;
+  display: block;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-top: 5px;
+  width: 650px;
+  height: 140px;
+  border: solid #000 thin;
+  overflow: hidden;
+  background-color: #F0F0F0;
+}
+
+.post-title-container {
+  width: 650px;
+  height: 16px;
+  padding-bottom: 5px;
+  margin: 0;
+  border-bottom: solid #000 thin;
+}
+
+.post-title {
+  margin-top: 0;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+.post-input-field {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: solid #000 thin;
+  width: 650px;
+  background-color: #FFF;
+}
+
+.post-input {
+  width: 600px;
+  height: 65px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  border: solid #000 .1px;
+}
+
+.post-button-container {
+  float: right;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+
+}
+
+.post-button {
+  font-size: 10px;
+  color: #FFF;
+  background: #4561B4;
+  border-style: solid;
+  border-color: #000;
+  border-width: thin;
+}
+
+.friend-post {
+  position: relative;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 650px;
+  height: auto;
+  border: solid #000 thin;
+  overflow: hidden;
+}
+
+.post-author {
+  width: 650px;
+  height: 50px;
+  padding: 10px 10px 0 10px;
+  margin: 0;
+}
 
 .post-author-picture {
   width: 50px;
-  padding: none;
   float: left;
+  padding-right: 10px;
 }
+
+.post-info {
+  float: left;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 1px;
+}
+
+.author-name {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.posted-on {
+  color: #8F8F8F;
+  font-size: 10px;
+  margin-top: 0px;
+}
+
+.post-content {
+  font-size: 14px;
+  margin: 0 10px 0 10px;
+}
+
+.like-comment-container {
+  background-color: #F0F0F0;
+  border-top: solid #000 thin;
+  border-bottom: solid #000 thin;
+  width: 650px;
+  font-size: 14px;
+  height: auto;
+}
+
+.like-info {
+  padding: 10px;
+}
+
+.like {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.comment {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.comments-section {
+  border-top: solid #000 thin;
+
+}
+
+.post-input {
+  width: 600px;
+  height: 65px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.post-button-container {
+  float: right;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+}
+
+.post-button {
+  font-size: 10px;
+  color: #FFF;
+  background: #4561B4;
+  border-style: solid;
+  border-color: #000;
+  border-width: thin;
+}
+
+
+
+
 
 .comment-author-picture {
   width: 40px;
