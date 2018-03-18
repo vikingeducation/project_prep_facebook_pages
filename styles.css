@@ -125,6 +125,7 @@ footer {
 .logged-in-navbar {
   background-color: #44619A;
   width: 100%;
+  min-width: 1000px;
   overflow: hidden;
   height: 70px;
 }
@@ -156,7 +157,8 @@ footer {
 }
 
 .navbar-search-input {
-  width: 250%;
+  width: 500px;
+  margin: 0;
 }
 
 .navbar-name {
@@ -164,7 +166,6 @@ footer {
   margin-top: 10px;
   color: #FFF;
   margin-right: 50px;
-  margin-left: 50px;
 }
 
 .navbar-name h4 {
