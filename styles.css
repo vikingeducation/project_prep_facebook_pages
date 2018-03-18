@@ -171,11 +171,17 @@ footer {
   font-weight: normal;
 }
 
+.top-container {
+  position: absolute;
+  margin-bottom: 10px;
+}
+
 .user-profile {
   display: block;
   height: 600px;
   overflow: hidden;
   position: relative;
+  margin-bottom: 10px;
 }
 
 .background-components {
@@ -268,11 +274,12 @@ footer {
 }
 
 .about-bar {
+  clear: both;
   position: relative;
-  display: inline-block;
+  display: block;
   width: 100%;
   height: 50px;
-  margin-top: 20px;
+  margin-top: 10px;
   border-style: solid;
   border-color: #000;
   border-width: thin;
@@ -353,6 +360,7 @@ td {
   height: 50px;
   margin-top: 20px;
   border: solid #000 thin;
+  background-color: #F0F0F0;
 }
 
 .friends-title {
@@ -428,4 +436,105 @@ td {
   background: #4561B4;
   border: solid #000 thin;
   margin-top: 35px;
+}
+
+.chat-sidebar {
+  float: left;
+  width: 250px;
+  display: inline-block;
+  position: relative;
+  border-right: solid #000 2px;
+}
+
+.chat-user-profile {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.user-picture-container {
+  width: 30%;
+  float: left;
+  display: inline-block;
+}
+
+.user-picture {
+  width: 75px;
+  margin: 20px 10px 30px 15px;
+}
+
+.user-info {
+  width: 70%;
+  float: left;
+  display: inline-block;
+  margin: 30px 10px 20px 15px;
+  padding-left: 10px;
+}
+
+.chat-edit-profile {
+  font-size: 12px;
+}
+
+.recently-active-title {
+  margin-left: 15px;
+}
+
+.recently-active-friend {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.recent-friend-picture-container {
+  width: 30%;
+  float: left;
+  display: inline-block;
+}
+
+.chat-friend-picture {
+  width: 50px;
+  margin-left: 15px;
+}
+
+.friend-activity {
+  width: 70%;
+  float: left;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 1px;
+}
+
+.chat-friend-name {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.last-active {
+  color: #8F8F8F;
+  font-size: 10px;
+  margin-top: 0px;
+}
+
+.feed {
+  float: left;
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.post-author-picture {
+  width: 50px;
+  padding: none;
+  float: left;
+}
+
+.comment-author-picture {
+  width: 40px;
+  padding: none;
+  float: left;
 }
