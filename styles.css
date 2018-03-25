@@ -453,11 +453,10 @@ td {
 .chat-sidebar {
   float: left;
   width: 250px;
-  min-height: 170vh;
+  height: 100%;
   display: inline-block;
   position: relative;
   overflow: hidden;
-  border-right: solid #000 2px;
   bottom: 0;
 }
 
@@ -540,10 +539,11 @@ td {
 .feed {
   float: left;
   width: 60%;
-  margin-top: 20px;
-  margin-bottom: 20px;
   margin-left: 5%;
   margin-right: 5%;
+  box-sizing: border-box;
+  border-left: solid #000 2px;
+  padding: 20px;
 }
 
 .create-post {
