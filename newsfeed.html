@@ -22,7 +22,7 @@
         <h4>Herman</h4>
       </div>
     </header>
-    
+
     <div class="content-below-navbar">
       <div class="chat-sidebar">
 
@@ -121,8 +121,10 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
           <div class="like-comment-container">
-            <a class="like" href="#">Like</a>
-            <a class="comment" href="#">Comment</a>
+            <div class="like-info">
+              <a class="like" href="#">Like</a>
+              <a class="comment" href="#">Comment</a>
+            </div>
           </div>
         </div>
 
@@ -141,7 +143,7 @@
             <div class="like-info">
               <a class="like" href="#">Unlike</a>
               <div class="liked-by-friend">
-                <p>You, <a class="liking-friend" href="#">Squishy</a>, and <a class="likes-count" href="#">5</a> like this.</p>
+                <p>You, <a class="liking-friend" href="#">Squishy</a>, and <a class="likes-count" href="#">5</a> others like this.</p>
               </div>
             </div>
             <div class="comments-section">
@@ -149,11 +151,13 @@
                 <div class="commenter-picture">
                   <img class="comment-author-picture" src="Images/Sir Charles Winston VII.jpeg" alt="Sir Charles Winston VII">
                 </div>
-                <div class="comment-data">
-                  <p class="commented-on"><a class="author-name" href="#">Sir Charles Winston VII</a> said on <!-- ADD DATE--> .</p>
-                </div>
-                <div class="comment">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="comment-minus-picture">
+                  <div class="comment-data">
+                    <p class="commented-on"><a class="author-name" href="#">Sir Charles Winston VII</a> said on March 16, 2018.</p>
+                  </div>
+                  <div class="comment">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
                 </div>
                 <div class="comment-like-container">
                   <a class="comment-like" href="#">Like</a>
@@ -162,7 +166,7 @@
             </div>
             <div class="make-comment">
               <div class="comment-input-field">
-                <input class="commentt-input" type="text" placeholder="Write a comment...">
+                <input class="comment-input" type="text" placeholder="Write a comment...">
               </div>
               <div class="cancel-or-comment">
                 <a class="cancel-comment" href="#">Cancel</a>
@@ -173,25 +177,26 @@
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="friend-post">
-          <div class="post-author">
-            <img class="post-author-picture" src="Images/Sir Charles Winston VII.jpeg" alt="Sir Charles Winston VII">
-            <div class="post-info">
-              <a class="author-name" href="#">Sir Charles Winston VII</a>
-              <p class="posted-on">Posted on March 14, 2018</p>
-            </div>
+      <div class="friend-post">
+        <div class="post-author">
+          <img class="post-author-picture" src="Images/Sir Charles Winston VII.jpeg" alt="Sir Charles Winston VII">
+          <div class="post-info">
+            <a class="author-name" href="#">Sir Charles Winston VII</a>
+            <p class="posted-on">Posted on March 14, 2018</p>
           </div>
-          <div class="post-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="like-comment-container">
-            <a class="unlike" href="#">Like</a>
+        </div>
+        <div class="post-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="like-comment-container">
+          <div class="like-info">
+            <a class="like" href="#">Like</a>
             <a class="comment" href="#">Comment</a>
-            <div class="liked-by-friend">
-              <p><a class="liking-friend" href="#">Squishy</a> likes this.</p>
-            </div>
+            <p><a class="liking-friend" href="#">Squishy</a> likes this.</p>
           </div>
+        </div>
 
       </div>
 
