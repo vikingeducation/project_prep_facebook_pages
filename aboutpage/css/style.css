@@ -1,0 +1,133 @@
+header {
+  width: 110%;
+  height: ;
+  margin-left: 0;
+  padding: 10px;
+  background-color: #3b5998;
+  border-radius: 0px;
+  border: solid;
+}
+.logo {
+	background: #3b5998;
+	color: white;
+	line-height: 20px;
+	font-size: 20px;
+}
+.searchbox {
+	background: #3b5998;
+	line-height: 20px;
+}
+.userfirstname {
+	background: #3b5998;
+    color: white;
+}
+aside, footer, header, article {
+  min-height: 40px;
+  border: 1px solid black;
+  float: left;
+  padding: 15px;
+  margin-bottom: 0px;
+  box-sizing: border-box; }
+
+aside {
+    height: 500px;
+    width: 15%;
+    float: left;
+    background-color: pink;
+    position: relative;
+    text-align: center;
+    }
+    aside > div {
+      width=100%;
+      padding: 15px;
+      line-height: 36px;
+      box-sizing: border-box;
+    }
+    aside img {
+      width: 75px;
+      height: 75px;
+      border: 2px solid blue;
+    }
+    @media screen and (max-width: 890px) {
+      aside { display: none; } }
+
+
+main {
+  width: 84%;
+  float: right; }
+
+main header {
+  background-color: #3b5998;
+  color: white;
+}
+
+main footer {
+  background-color: #3b5998;
+  color: white;
+  padding: 5px;
+  font: auto;
+}
+  
+main header, main footer {
+  clear: both;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 890px) {
+  main header, main footer {
+    border-radius: 0px; } }
+
+@media screen and (max-width: 890px) {main { width: 100%}}
+
+article {
+  clear: both;
+  width: 100%;
+  margin: 0%;
+  background-color: white; }
+  @media screen and (max-width: 890px) {article { width: 100%; }}
+
+img { 
+  width: 100%;
+  height: 300px;
+  margin: 0%;
+  }
+
+.btn-group .button {
+    background-color: white; /* Green */
+    border: 1px solid grey;
+    color: #3b5998;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    float: left;
+    width: 16.66%
+}
+.btn-group .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+.btn-group .button:hover {
+    background-color: #3b5998;
+    color: white;
+}
+.w3-cell-row { 
+    line-height: 1.6;
+}
+.BasicData li {
+    line-height: 1.6;
+}
+.ContactInfo li {
+    line-height: 1.6;
+}
+
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
