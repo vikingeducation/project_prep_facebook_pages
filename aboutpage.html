@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>#CodePenChallenge - VikingBlog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/themes/prism.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/themes/prism-tomorrow.min.css'>
+    <link rel='stylesheet prefetch' href='C:\Sites\facebook\project_prep_facebook_pages\css_new\aboutpage.css'>
+
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      header {
+  width: 110%;
+  height: ;
+  margin-left: 0;
+  padding: 10px;
+  background-color: #3b5998;
+  border-radius: 0px;
+  border: solid;
+}
+.logo {
+	background: #3b5998;
+	color: white;
+	line-height: 20px;
+	font-size: 20px;
+}
+.searchbox {
+	background: #3b5998;
+	line-height: 20px;
+}
+.userfirstname {
+	background: #3b5998;
+    color: white;
+}
+aside, footer, header, article {
+  min-height: 40px;
+  border: 1px solid black;
+  float: left;
+  padding: 15px;
+  margin-bottom: 0px;
+  box-sizing: border-box; }
+
+aside {
+    height: 500px;
+    width: 15%;
+    float: left;
+    background-color: pink;
+    position: relative;
+    text-align: center;
+    }
+    aside > div {
+      width=100%;
+      padding: 15px;
+      line-height: 36px;
+      box-sizing: border-box;
+    }
+    aside img {
+      width: 75px;
+      height: 75px;
+      border: 2px solid blue;
+    }
+    @media screen and (max-width: 890px) {
+      aside { display: none; } }
+
+
+main {
+  width: 84%;
+  float: right; }
+
+main header {
+  background-color: #3b5998;
+  color: white;
+}
+
+main footer {
+  background-color: #3b5998;
+  color: white;
+  padding: 5px;
+  font: auto;
+}
+  
+main header, main footer {
+  clear: both;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 890px) {
+  main header, main footer {
+    border-radius: 0px; } }
+
+@media screen and (max-width: 890px) {main { width: 100%}}
+
+article {
+  clear: both;
+  width: 100%;
+  margin: 0%;
+  background-color: white; }
+  @media screen and (max-width: 890px) {article { width: 100%; }}
+
+img { 
+  width: 100%;
+  height: 300px;
+  margin: 0%;
+  }
+
+.btn-group .button {
+    background-color: white; /* Green */
+    border: 1px solid grey;
+    color: #3b5998;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    float: left;
+    width: 16.66%
+}
+.btn-group .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+.btn-group .button:hover {
+    background-color: #3b5998;
+    color: white;
+}
+.w3-cell-row { 
+    line-height: 1.6;
+}
+.BasicData li {
+    line-height: 1.6;
+}
+.ContactInfo li {
+    line-height: 1.6;
+}
+
+.vertical-align {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  
+      <head>
+        <title>Viking Micro Blog</title>
+        <!-- first the css reset, then the stylesheet -->
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+  </head>
+ 
+      <body>
+            <header>
+               <div class="w3-container"></div>
+
+               <div class="w3-cell-row">
+                  <div class="w3-container w3-cell logo">
+                     <p>Facelook</p>
+                  </div>
+                  <div class="w3-container w3-cell searchbox">
+                     <p><input type="search" placeholder="Search.. " size="30" autofocus></p>
+                  </div>
+                  <div class="w3-container w3-cell userfirstname">
+                     <p>Brian</p>
+                  </div>
+              </div>
+
+        </header>
+      
+        <div>
+            <aside>
+              <div class="vertical align">
+                <p>Check out my vertically centered ad!</p>
+                <p><img src="http://placeholder.it/128x128"></p>
+              </div>
+            </aside>
+              
+            <main>
+                
+              <div class="display">
+                 <article>
+                    <img src="https://www.w3schools.com/w3css/img_lights.jpg" alt="Lights"
+                  </article>
+
+              
+                  <article>
+                      <div class="btn-group">
+                          <button class="button">ProfilePic</button>
+                          <button class="button">Timeline</button>
+                          <button class="button">About</button>
+                          <button class="button">Photos</button>
+                          <button class="button">Friends</button>
+                          <button class="button">Edit</button>
+                      </div>
+                   </article>
+ 
+              <article>
+          <div class="w3-cell-row">
+                <div class="w3-container w3-cell w3-cell-top">
+                      <ul class="BasicData" style="list-style-type:none;line-height:15px">
+                                   <li><h3>Basic Information</h3></li>
+                                   <li>Birthday:        July 31, 1980</li>
+                                   <li>College:         Hogwarts College</li>
+                                   <li>Hometown:        Godrick's Hollow, England</li>
+                                   <li>Current City:    Godrick's Hollow, England</li>
+                      </ul>
+                      <ul class="ContactInfo" style="list-style-type:none;line-height:15px">
+                                  <li><h3>Contact Information</h3></li>
+                                  <li>Email:     harry.potter@hogwarts.edu</li>
+                                  <li>Telephone: 555-123-4567</li>
+                      </ul>
+                </div>
+
+                <div class="w3-container w3-cell w3-cell-top" style="width:50%">
+                  <h3>Words to Live By</h3>
+                  <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                  <h3>About Me</h3>
+                  <p>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+		</div>
+
+              </article>
+              </div>
+              
+              <footer>
+                <p>This copyrighted telecast is presented by authority of the Office of the Commissioner of Blogging. It may not be reproduced or retransmitted in any form, and the accounts and descriptions of this game may not be disseminated without express written consent.</p>
+              </footer>
+          
+           </main>
+         </div>
+  </body>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/components/prism-core.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/prism/1.14.0/components/prism-css.min.js'></script>
+<script src='https://johnresig.com/files/jsdiff.js'></script>
+
+  
+
+</body>
+
+</html>
