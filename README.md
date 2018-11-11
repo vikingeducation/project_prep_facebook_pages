@@ -1,3 +1,3 @@
 # project_prep_facebook_pages
-The Markup and Coding prep project where you're asked to build some Facebook pages from scratch.
+Recreated the facebook sign-up and profile page from scratch using pure CSS3 and HTML5. Perfect for phishing.
 
