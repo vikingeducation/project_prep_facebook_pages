@@ -26,3 +26,8 @@ h2, h3, h4 {
   display: block;
   float: left;
 }
+
+.navbar form {
+  float: right;
+  display: inline-block;
+}
