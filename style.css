@@ -1,0 +1,28 @@
+body {
+  background-color: #FFF;
+  font-family: "Comic Sans MS", Arial, sans-serif;
+}
+
+h2, h3, h4 {
+  line-height: 1;
+}
+
+.navbar {
+  background-color: #4267b2;
+  border-top: 1px solid #29487d;
+  border-bottom: 1px solid #29487d;
+  width: 100%;
+  height: 75px;
+  overflow: hidden;
+  position: fixed;
+}
+
+.navbar a {
+  color: #FFF;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 20px;
+  display: block;
+  float: left;
+}
