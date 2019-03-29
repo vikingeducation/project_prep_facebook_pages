@@ -20,25 +20,26 @@ body {
 
 .navbar a {
   color: #FFF;
+  margin-left: 10%;
   font-size: 40px;
-  text-align: center;
   text-decoration: none;
   padding: 20px 30px;
   display: block;
   float: left;
 }
 form {
+  margin-right: 100px;
 }
 
 fieldset {
   float: right;
   margin-right: 30px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .account_info label {
   display: inline-block;
-  margin:10px;
+  margin: 10px;
 }
 
 .account_info input {
@@ -52,6 +53,8 @@ fieldset {
 
 #form_name {
   color: #FFF;
+  font-size: 12px;
+  font-weight: lighter;
 }
 
 #form_name input {
@@ -60,4 +63,17 @@ fieldset {
 
 #btn input{
   padding: 5px;
+  width: 6em;
+  font-weight: bolder;
+  font-family: "Comic Sans MS", Arial, sans-serif;
+  background-color: #4267b2;
+  color: #fff;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  box-shadow: 5px 5px 6px black;
+}
+
+#btn input:hover {
+  background-color: #426BEE;
+  color: white;
 }
