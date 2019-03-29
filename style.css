@@ -1,23 +1,19 @@
-
-* {
-  box-sizing: border-box;
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
 }
 
 body {
   background-color: #FFF;
   font-family: "Comic Sans MS", Arial, sans-serif;
 }
-
-h2, h3, h4 {
-  line-height: 1;
-}
-
 .navbar {
   background-color: #4267b2;
   border-top: 1px solid #29487d;
   border-bottom: 1px solid #29487d;
   width: 100%;
-  height: 75px;
+  height: 90px;
   overflow: hidden;
   position: fixed;
 }
@@ -27,16 +23,41 @@ h2, h3, h4 {
   font-size: 40px;
   text-align: center;
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 20px 30px;
   display: block;
   float: left;
 }
+form {
+}
 
-form{
+fieldset {
   float: right;
+  margin-right: 30px;
+  margin-top: 5px;
+}
+
+.account_info label {
+  display: inline-block;
+  margin:10px;
+}
+
+.account_info input {
+  background: #fff;
+  border: 1px solid black;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  padding: 10px;
+  margin-top: 6px;
+  width: 100%;
 }
 
 #form_name {
   color: #FFF;
 }
 
+#form_name input {
+  padding: 5px;
+}
+
+#btn input{
+  padding: 5px;
+}
