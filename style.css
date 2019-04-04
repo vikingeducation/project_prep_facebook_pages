@@ -84,10 +84,16 @@ fieldset {
 .main_content{
   width: 980px; 
   margin: 60px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.column_1{
+.column_1 {
   position: relative;
+  margin-right: 15.999px !important;
+ width: 565px;
+  display: inline-block;
+  vertical-align: top;
 }
 
 #connect{
@@ -97,6 +103,7 @@ fieldset {
   font-weight: bold; 
   color:#333; 
   margin-bottom: -20px;
+   display: inline-block;
 }
 
 ul {
@@ -120,4 +127,65 @@ ul .blt_gry {
 
 .column_1 li{
   margin: 25px 0 ;
+}
+
+.column_2 {
+    width: 230px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+  line-height: 2;
+ }
+
+#sign_up {
+  font-size: 60px;
+  line-height: 10%;
+  margin: -30px 0px -15px -25px;
+}
+
+.sign_up_first_row {
+  width: 399px;
+}
+
+.sign_up_cell_1 {
+  margin: 80px 0 0 -50px;
+  float: left;
+  display: inline-block;
+  position: relative;
+  width: 225px;
+}
+
+.sign_up_cell_2 {
+  margin: 80px 0 0 -50px;
+  float: left;
+  display: inline-block;
+  position: relative;
+  width: 240px;
+}
+
+.input_text {
+  font-size: 12px;
+  font-family: "Comic Sans MS", Arial, sans-serif;
+  width: 168px;
+  background: #fff;
+  border: 1px solid black;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  padding: 5px 10px;
+}
+
+.sign_up_last_rows{
+  width: 365px;
+}
+
+.input_text_email_password {
+  font-size: 12px;
+  font-family: "Comic Sans MS", Arial, sans-serif;
+  width: 358px;
+  background: #fff;
+  border: 1px solid black;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  padding: 5px 10px;
+}
+.sign_up_form{
+  
 }
