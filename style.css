@@ -1,191 +1,229 @@
-*,
-*:before,
-*:after {
-   box-sizing: border-box;
+*, *:before, *:after {
+	box-sizing: border-box;
 }
-
 body {
-  background-color: #FFF;
-  font-family: "Comic Sans MS", Arial, sans-serif;
+	background-color: #FFF;
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	position: relative;
 }
 .navbar {
-  background-color: #4267b2;
-  border-top: 1px solid #29487d;
-  border-bottom: 1px solid #29487d;
-  width: 100%;
-  height: 90px;
-  overflow: hidden;
-  position: relative;
+	background-color: #4267b2;
+	border-top: 1px solid #29487d;
+	border-bottom: 1px solid #29487d;
+	overflow: hidden;
+	position: relative;
+	height: 82px;
+	min-width: 980px;
 }
-.navbar a {
-  color: #FFF;
-  margin-left: 10%;
-  font-size: 40px;
-  text-decoration: none;
-  padding: 20px 30px;
-  display: block;
-  float: left;
+.title_log_in {
+	margin: 0 auto;
+	padding-top: 10px;
+	width: 980px;
+	zoom: 1;
+}
+.float_title {
+	float: left;
+	cursor: pointer;
+	margin-top: 10px;
+}
+.float_title a {
+	color: #FFF;
+	text-decoration: none;
+	font-size: 40px;
+}
+.log_in_contain {
+	float: right;
 }
 form {
-  margin-right: 25px;
+	margin: 0;
+	padding: 0;
 }
-
 fieldset {
-  float: right;
-  margin-right: 30px;
-  margin-top: 10px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
 }
-
 .account_info label {
-  display: inline-block;
-  margin: 10px;
+	display: inline-block;
+	margin: 10px;
 }
-
+.account_info {
+	margin: 0 -45px;
+}
 .account_info input {
-  background: #fff;
-  border: 1px solid black;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
-  padding: 10px;
-  margin-top: 6px;
-  width: 100%;
+	background: #fff;
+	border: 1px solid black;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+	padding: 10px;
+	margin-top: 6px;
+	width: 100%;
 }
-
 #form_name {
-  color: #FFF;
-  font-size: 12px;
-  font-weight: lighter;
+	color: #FFF;
+	font-size: 12px;
+	font-weight: lighter;
 }
-
 #form_name input {
-  padding: 5px;
+	padding: 5px;
 }
-
-#btn input{
-  padding: 5px;
-  width: 6em;
-  font-weight: bolder;
-  font-family: "Comic Sans MS", Arial, sans-serif;
-  background-color: #4267b2;
-  color: #fff;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  box-shadow: 5px 5px 6px black;
+#btn input {
+	padding: 5px;
+	width: 6em;
+	font-weight: bolder;
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	background-color: #4267b2;
+	color: #fff;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	box-shadow: 5px 5px 6px black;
+	cursor: pointer;
 }
-
 #btn input:hover {
-  background-color: #426BEE;
-  color: white;
+	background-color: #426BEE;
+	color: white;
 }
-
 #form_name input[type=password] {
-  margin-right: -22px;
+	margin-right: -22px;
 }
-
-.main_content{
-  width: 980px; 
-  margin: 60px auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.main_content {
+	width: 980px;
+	margin: 60px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-
 .column_1 {
-  position: relative;
-  margin-right: 15.999px !important;
- width: 565px;
-  display: inline-block;
-  vertical-align: top;
+	position: relative;
+	margin-right: 15.999px !important;
+	width: 565px;
+	display: inline-block;
+	vertical-align: top;
 }
-
-#connect{
-  padding: 42px 0 24px; 
-  font-size: 28px; 
-  line-height: 36px; 
-  font-weight: bold; 
-  color:#333; 
-  margin-bottom: -20px;
-   display: inline-block;
+#connect {
+	padding: 42px 0 24px;
+	font-size: 28px;
+	line-height: 36px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: -20px;
+	display: inline-block;
 }
-
 ul {
-  list-style: disc;
-  padding-left: 40px;
-  font-size: 17px;
-  line-height: 22px;
+	list-style: disc;
+	padding-left: 40px;
+	font-size: 17px;
+	line-height: 22px;
 }
 ul .bullet_pts {
-  font-weight: bolder;
-  color: #333;
-    margin: 5px;
+	font-weight: bolder;
+	color: #333;
+	margin: 5px;
 }
-
 ul .blt_gry {
-  font-size: 15px;
-  line-height: 20px;
-  font-weight: normal;
-  color: #666
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: normal;
+	color: #666
 }
-
-.column_1 li{
-  margin: 25px 0 ;
+.column_1 li {
+	margin: 25px 0;
 }
-
 .column_2 {
-    width: 230px;
-    display: inline-block;
-    vertical-align: top;
-    font-family: "Comic Sans MS", Arial, sans-serif;
-  line-height: 2;
- }
-
+	width: 230px;
+	display: inline-block;
+	vertical-align: top;
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	line-height: 2;
+}
 #sign_up {
-  font-size: 60px;
-  line-height: 10%;
-  margin: -30px 0px -15px -25px;
+	font-size: 60px;
+	line-height: 10%;
+	margin: -30px 0px -15px -25px;
 }
-
 .sign_up_first_row {
-  width: 399px;
+	width: 399px;
 }
-
 .sign_up_cell_1 {
-  margin: 80px 0 0 -50px;
-  float: left;
-  display: inline-block;
-  position: relative;
-  width: 225px;
+	margin: 80px 0 0 -50px;
+	float: left;
+	display: inline-block;
+	position: relative;
+	width: 225px;
 }
-
 .sign_up_cell_2 {
-  margin: 80px 0 0 -50px;
-  float: left;
-  display: inline-block;
-  position: relative;
-  width: 240px;
+	margin: 80px 0 0 -50px;
+	float: left;
+	display: inline-block;
+	position: relative;
+	width: 240px;
 }
-
 .input_text {
-  font-size: 12px;
-  font-family: "Comic Sans MS", Arial, sans-serif;
-  width: 168px;
-  background: #fff;
-  border: 1px solid black;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
-  padding: 5px 10px;
+	font-size: 12px;
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	width: 168px;
+	background: #fff;
+	border: 1px solid black;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+	padding: 5px 10px;
 }
-
-.sign_up_last_rows{
-  width: 365px;
+.sign_up_last_rows {
+	width: 365px;
 }
-
 .input_text_email_password {
-  font-size: 12px;
-  font-family: "Comic Sans MS", Arial, sans-serif;
-  width: 358px;
-  background: #fff;
-  border: 1px solid black;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
-  padding: 5px 10px;
+	font-size: 12px;
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	width: 358px;
+	background: #fff;
+	border: 1px solid black;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+	padding: 5px 10px;
 }
-.sign_up_form{
-  
+.birthday_contain {
+	margin: -22px;
+}
+.birthday {
+	padding: 290px 0 10px 0px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.drp_bday_mnth, .drp_bday_day, .drp_bday_year {
+	font-size: 15px;
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	width: 77px;
+	background: #fff;
+	border: 1px solid black;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+	padding: 5px 10px;
+	margin: 5px;
+}
+select {
+	height: 25px;
+	-webkit-border-radius: 0;
+	outline: 1px inset black;
+	outline-offset: -1px;
+}
+.drop_down {
+	margin: -4px;
+}
+.select_sex {
+	margin-top: 10px;
+}
+#btn_sign_up input {
+	font-size: 20px;
+	font-family: "Comic Sans MS", Arial, sans-serif;
+	color: #fff;
+	width: 358px;
+	padding: 5px 10px;
+	transition-duration: 0.4s;
+	box-shadow: 5px 5px 6px black;
+	background-color: #36B35B;
+	border: 1px solid black;
+	cursor: pointer;
+	display: inline-block;
+	letter-spacing: 1px;
+	position: relative;
+	margin: 15px 0px;
+}
+#btn_sign_up input:hover {
+	background-color: #51CD5B;
+	color: white;
 }
