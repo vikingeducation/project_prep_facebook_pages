@@ -227,3 +227,11 @@ select {
 	background-color: #51CD5B;
 	color: white;
 }
+
+/* About Page */
+
+.search-bar{
+    margin: 7px 20px 10px;
+    padding: 0px 500px 0px 5px;
+    font-size: 19px;
+}
