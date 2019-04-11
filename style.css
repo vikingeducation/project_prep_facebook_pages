@@ -246,3 +246,54 @@ input[name=search]{
     margin: -47px -50px 0px 0px;
     padding: 0px 10px;
 }
+
+.imgs{
+  width: 1000px;
+  margin: 0px auto 50px auto;
+  display:grid;
+  grid-template-columns: repeat(10, 1fr);
+    
+}
+.Mordor { 
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 4;
+    border: solid black;
+    width: 1000px;
+}
+
+.Sauron{
+     grid-column: 1 / span 1;
+    grid-row: 4 / span 4;
+    border: solid black;
+    width: 120px;
+    margin-left: 40px;
+  z-index:0;
+}
+.column-1 {
+  float: left;
+    width: 180px;
+    padding: 10px;
+    height: 40px;
+    border: solid black;
+}
+
+.column {
+  float: left;
+    width: 164px;
+    padding: 10px;
+    height: 40px;
+    border: solid black;
+  font-size:12px;
+}
+
+.row {
+     grid-column: 1 / span 10;
+    grid-row: 5 / span 3;
+    width: 1000px;
+  
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
