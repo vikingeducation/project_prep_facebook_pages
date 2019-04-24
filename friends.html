@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Welcome to Facelook</title>
+	<link href="/project_prep_facebook_pages/reset.css?v=1.0" rel="stylesheet">
+	<link href="/project_prep_facebook_pages/style.css?v=3.1" rel="stylesheet">
+</head>
+<body>
+	<nav class='navbar'>
+		<div class='title_log_in'>
+			<img alt="Sauron" src="https://vignette.wikia.nocookie.net/lotr/images/9/90/Sauron-2.jpg/revision/latest?cb=20110508182634" style='width:50px;height:60px;float: left;margin: 0px 10px 0px -60px;border: solid black;'>
+			<div class='float_title'>
+				<h1><a href="#!">facelook</a></h1>
+			</div>
+			<div>
+				<form action="/search" method="post">
+					<label><input maxlength="80" name="search" placeholder="Search for Users" size="80" type="text"></label>
+				</form>
+				<p id='user_name'>Sauron</p>
+			</div>
+		</div>
+	</nav>
+	<div class='imgs'>
+		<img alt="Mordor" class='Mordor' src="https://vignette.wikia.nocookie.net/lotr/images/8/8e/Mordor.jpg/revision/latest?cb=20070324130909"> <img alt="Sauron" class='Sauron' src="https://vignette.wikia.nocookie.net/lotr/images/9/90/Sauron-2.jpg/revision/latest?cb=20110508182634">
+		<h2 id='profile-name'>Sauron</h2>
+		<div class="row">
+			<div class="column-1"></div>
+			<div class="column">
+				<h2>Timeline</h2>
+			</div>
+			<div class="column">
+				<h2>About</h2>
+			</div>
+			<div class="column">
+				<h2>Photos <a style='color:gray;'>(124)</a></h2>
+			</div>
+			<div class="column" style='background-color:#DCDCDC;'>
+				<h2>Freinds <a style='color:gray;'>(9)</a></h2>
+			</div>
+			<div class="column">
+				<a href='#' style='float:right;'>Edit Profile</a>
+			</div>
+		</div>
+	</div>
+	<div class='about' style="background-color:#DCDCDC;">
+		<h2 id='about-title'>Friends</h2><label hidden id='abt_btn'><input class="edit_profile" type="button" value="Edit Your Profile"></label>
+	</div>
+	<div class='friends'>
+  <div class='friend'></div>
+  <div class='friend'></div>
+  <div class='friend'></div>
+   <div class='friend'></div>
+  <div class='friend'></div>
+  <div class='friend'></div>
+	</div>
+</body>
+</html>
