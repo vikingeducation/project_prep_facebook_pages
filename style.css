@@ -376,3 +376,19 @@ p {
 	margin: 20px 0px 0px 10px;
 	line-height: 1.6;
 }
+
+.friends{
+     width: 1000px;
+    margin: -53px auto 50px auto;
+    border: solid black;
+    height: 560px;
+}
+
+.friend {
+  float: left;
+    width: 47%;
+    margin: 20px 14px 1.15%;
+    height: 145px;
+    border: solid black;
+    padding: -26px 17px 16px 0px;
+}
