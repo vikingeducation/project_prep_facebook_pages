@@ -392,3 +392,17 @@ p {
     border: solid black;
     padding: -26px 17px 16px 0px;
 }
+
+.witch-king {
+  border:solid black;
+  height:110px;
+  width: 130px;
+  margin: 15px 0px 0px 15px;
+}
+
+.nazgul {
+  border:solid black;
+  height:110px;
+  width: 130px;
+  margin: 15px 0px 0px 15px;
+}
