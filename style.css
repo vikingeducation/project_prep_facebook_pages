@@ -441,3 +441,22 @@ p {
   float: right;
   margin: 50px 110px 0px 7px;
 }
+
+aside {
+      width: 30%;
+    height: 2000px;
+    float: left;
+    border-right: solid black;
+}
+
+.friend-name-2{
+  float: left;
+    margin: 50px 110px 0px 7px;
+    font-size: 18px;
+}
+
+.tot-friends-1 {
+    float: left;
+    margin: -64px 21px 21px 173px;
+    font-size: 11px;
+}
