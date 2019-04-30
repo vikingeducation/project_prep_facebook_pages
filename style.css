@@ -460,3 +460,30 @@ aside {
     margin: -64px 21px 21px 173px;
     font-size: 11px;
 }
+
+#recent{
+  float: left;
+    margin: 40px 0px 0px 50px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#witch-king-1{
+  float: left;
+    height: 65px;
+    width: 75px;
+    margin: 90px 0px 0px -151px;
+    border: solid black;
+}
+
+#usr-nm{
+   float: left;
+    margin: 110px 0px 0px -60px;
+    font-size: 12px;
+}
+
+#date-post{
+      float: left;
+    font-size: 12px;
+    margin: 0px 0px 0px 16px;
+}
