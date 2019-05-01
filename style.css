@@ -487,3 +487,34 @@ aside {
     font-size: 12px;
     margin: 0px 0px 0px 16px;
 }
+
+.post {
+  width:600px;
+  margin:50px 0px 0px 550px;
+}
+
+#post_title{
+  background-color: #DCDCDC;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+#text_area{
+  border: 2px solid black;
+  margin: -2px 0px 0px 10px;
+}
+
+#actual_text{
+  margin: 15px 0px 10px 10px;
+}
+
+#post_line{
+  background-color: #DCDCDC;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bolder;
+    padding: 20px;
+    margin: -2px 0px 0px 10px;
+}
