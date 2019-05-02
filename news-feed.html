@@ -3,14 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<title>News Feed</title>
+	<title>Welcome to Facelook</title>
 	<link href="/project_prep_facebook_pages/reset.css?v=1.0" rel="stylesheet">
-	<link href="/project_prep_facebook_pages/style.css?v=4.3" rel="stylesheet">
+	<link href="global.css?v=&lt;?php echo $cssVersion; ?&gt;" rel="stylesheet">
 </head>
 <body>
 	<nav class='navbar'>
 		<div class='title_log_in'>
-			<img alt="Sauron" src="/project_prep_facebook_pages/images/Sauron-2.jpg" style='width:50px;height:60px;float: left;margin: 0px 10px 0px -60px;border: solid black;'>
+			<img alt="Sauron" class='nav_sauron' src="/project_prep_facebook_pages/images/Sauron-2.jpg">
 			<div class='float_title'>
 				<h1><a href="#!">facelook</a></h1>
 			</div>
@@ -24,7 +24,7 @@
 	</nav>
 	<div>
 		<aside>
-			<img alt="Sauron" src="/project_prep_facebook_pages/images/Sauron-2.jpg" style='width: 100px;height: 110px;float: left;margin: 28px 10px 0px 55px;border: solid black;'>
+			<img alt="Sauron" class='new_feed_sauron' src="/project_prep_facebook_pages/images/Sauron-2.jpg">
 			<p class='friend-name-2'><a href='#'>Sauron</a></p>
 			<p class='tot-friends-1'><a href='#'>Edit Profile</a></p>
 			<p id='recent'>Recently Active</p>
@@ -33,37 +33,46 @@
 				<p id='usr-nm'><a href='#'>Witch-king of Angmar</a></p>
 				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-1' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg" style='margin: 49px 0px 0px -266px;'>
 				<p id='usr-nm' style='margin: 45px 0px 0px 17px;'><a href='#'>Witch-king of Angmar</a></p>
-				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-1' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg" style='margin: 49px 0px 0px -266px;'>
-				<p id='usr-nm' style='margin: 45px 0px 0px 17px;'><a href='#'>Witch-king of Angmar</a></p>
-				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-1' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg" style='margin: 49px 0px 0px -266px;'>
-				<p id='usr-nm' style='margin: 45px 0px 0px 17px;'><a href='#'>Witch-king of Angmar</a></p>
-				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-1' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg" style='margin: 49px 0px 0px -266px;'>
-				<p id='usr-nm' style='margin: 45px 0px 0px 17px;'><a href='#'>Witch-king of Angmar</a></p>
-				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-1' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg" style='margin: 49px 0px 0px -266px;'>
-				<p id='usr-nm' style='margin: 45px 0px 0px 17px;'><a href='#'>Witch-king of Angmar</a></p>
-				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-1' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg" style='margin: 49px 0px 0px -266px;'>
-				<p id='usr-nm' style='margin: 45px 0px 0px 17px;'><a href='#'>Witch-king of Angmar</a></p>
-				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-1' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg" style='margin: 49px 0px 0px -266px;'>
-				<p id='usr-nm' style='margin: 45px 0px 0px 17px;'><a href='#'>Witch-king of Angmar</a></p>
-				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-1' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg" style='margin: 49px 0px 0px -266px;'>
-				<p id='usr-nm' style='margin: 45px 0px 0px 17px;'><a href='#'>Witch-king of Angmar</a></p>
-				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-1' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg" style='margin: 49px 0px 0px -266px;'>
-				<p id='usr-nm' style='margin: 45px 0px 0px 17px;'><a href='#'>Witch-king of Angmar</a></p>
+				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-2' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg">
+				<p id='usr-nm-1'><a href='#'>Witch-king of Angmar</a></p>
+				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-2' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg">
+				<p id='usr-nm-1'><a href='#'>Witch-king of Angmar</a></p>
+				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-2' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg">
+				<p id='usr-nm-1'><a href='#'>Witch-king of Angmar</a></p>
+				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-2' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg">
+				<p id='usr-nm-1'><a href='#'>Witch-king of Angmar</a></p>
+				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-2' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg">
+				<p id='usr-nm-1'><a href='#'>Witch-king of Angmar</a></p>
+				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-2' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg">
+				<p id='usr-nm-1'><a href='#'>Witch-king of Angmar</a></p>
+				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-2' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg">
+				<p id='usr-nm-1'><a href='#'>Witch-king of Angmar</a></p>
+				<p id='date-post'>Posted on Thursday 4/25/2019</p><img alt="Witch-King" id='witch-king-2' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg">
+				<p id='usr-nm-1'><a href='#'>Witch-king of Angmar</a></p>
 				<p id='date-post'>Posted on Thursday 4/25/2019</p>
 			</div>
 		</aside>
 	</div>
 	<div class='post'>
-    <p id='post_title'>
-      Post (copied)
-    </p>
-    <p id='text_area'>
-      <textarea id='actual_text' rows="6" cols="90" placeholder="Tell the world somthing here...">
-</textarea>
-    </p>
-    <p id='post_line'>
-      <label id='abt_btn'><input class="edit_profile" type="button" value="Post" style='width: 7em;margin: -16px 0px auto auto;'></label>
-    </p>
+		<p id='post_title'>Post (copied)</p>
+		<p id='text_area'>
+		<textarea cols="90" id='actual_text' placeholder="Tell the world somthing here..." rows="6"></textarea></p>
+		<p id='post_line'><label id='abt_btn_1'><input class="edit_profile" type="button" value="Post"></label></p>
+		<div class='post_1'>
+			<img alt="Witch-King" id='witch-king-3' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg">
+			<p id='usr-nm-2'><a href='#'>Witch-king of Angmar</a></p>
+			<p id='date-post-1'>Posted on Thursday 4/25/2019</p>
+			<p class='act_post'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p id='post_line_1'><a href='#'>Like</a>&nbsp;&nbsp;&nbsp;<a href='#'>Comment</a></p>
+		</div>
+		<div class='post_2'>
+			<img alt="Witch-King" id='witch-king-3' src="/project_prep_facebook_pages/images/The_Nazgul_Witch-King.jpg">
+			<p id='usr-nm-2'><a href='#'>Witch-king of Angmar</a></p>
+			<p id='date-post-1'>Posted on Thursday 4/25/2019</p>
+			<p class='act_post'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p id='post_line_2'><a href='#'>Like</a>&nbsp;&nbsp;<a href='#'>Comment</a><br>
+			<a href='#'>Sauron</a> likes this.</p>
+		</div>
 	</div>
 </body>
 </html>
