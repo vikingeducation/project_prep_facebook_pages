@@ -1,4 +1,4 @@
-<?php $cssVersion = "4.5"; ?>
+<?php $cssVersion = "4.6"; ?>
 
 *, *:before, *:after {
 	box-sizing: border-box;
@@ -590,5 +590,5 @@ aside {
 	margin: 246px -2px 0px -2px;
 	text-align: left;
 	padding: 10px;
-	line-height: 2pt;
+	line-height: 2;
 }
