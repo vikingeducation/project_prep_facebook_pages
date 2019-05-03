@@ -337,7 +337,7 @@ input[name=search] {
 
 .row {
     width: 1000px;
-    margin: 0px 0px 45px 177px;
+    margin: -6px 0px 45px 177px;
 }
 
 .row:after {
@@ -354,7 +354,7 @@ input[name=search] {
 
 .about {
     width: 1000px;
-    margin: -35px auto 50px auto;
+    margin: -35px 170px 50px auto;
     border: solid black;
 }
 
@@ -391,7 +391,7 @@ input[name=search] {
 
 .user_info {
     width: 1000px;
-    margin: -53px auto 50px auto;
+    margin: -53px 170px 50px auto;
     border: solid black;
     height: 425px;
 }
