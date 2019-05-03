@@ -1,4 +1,4 @@
-<?php $cssVersion = "5.0"; ?>
+<?php $cssVersion = "5.2"; ?>
 
 *, *:before, *:after {
 	box-sizing: border-box;
@@ -269,14 +269,12 @@ input[name=search] {
 .column-1 {
 	float: left;
 	width: 180px;
-	padding: 10px;
 	height: 40px;
 	border: solid black;
 }
 .column {
 	float: left;
 	width: 164px;
-	padding: 10px;
 	height: 40px;
 	border: solid black;
 	font-size: 14px;
