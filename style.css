@@ -1,596 +1,699 @@
-<?php $cssVersion = "5.6"; ?>
+<?php $cssVersion="5.7";
 
-*, *:before, *:after {
-	box-sizing: border-box;
+? > *,
+*:before,
+*:after {
+    box-sizing: border-box;
 }
+
 body {
-	background-color: #FFF;
-	font-family: "Comic Sans MS", Arial, sans-serif;
-	position: relative;
+    background-color: #FFF;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    position: relative;
 }
+
 .navbar {
-	background-color: #4267b2;
-	border-top: 1px solid #29487d;
-	border-bottom: 1px solid #29487d;
-	overflow: hidden;
-	position: relative;
-	height: 82px;
-	min-width: 980px;
+    background-color: #4267b2;
+    border-top: 1px solid #29487d;
+    border-bottom: 1px solid #29487d;
+    overflow: hidden;
+    position: relative;
+    height: 82px;
+    min-width: 980px;
 }
+
 .title_log_in {
-	margin: 0 auto;
-	padding-top: 10px;
-	width: 980px;
-	zoom: 1;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 980px;
+    zoom: 1;
 }
+
 .float_title {
-	float: left;
-	cursor: pointer;
-	margin-top: 10px;
+    float: left;
+    cursor: pointer;
+    margin-top: 10px;
 }
+
 .float_title a {
-	color: #FFF;
-	text-decoration: none;
-	font-size: 40px;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 40px;
 }
+
 .log_in_contain {
-	float: right;
+    float: right;
 }
+
 form {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 fieldset {
-	float: right;
-	margin-right: 30px;
-	margin-top: 10px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
 }
+
 .account_info label {
-	display: inline-block;
-	margin: 10px;
+    display: inline-block;
+    margin: 10px;
 }
+
 .account_info {
-	margin: 0 -20px;
+    margin: 0 -20px;
 }
+
 .account_info input {
-	background: #fff;
-	border: 1px solid black;
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
-	padding: 10px;
-	margin-top: 6px;
-	width: 100%;
+    background: #fff;
+    border: 1px solid black;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    padding: 10px;
+    margin-top: 6px;
+    width: 100%;
 }
+
 #form_name {
-	color: #FFF;
-	font-size: 12px;
-	font-weight: lighter;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: lighter;
 }
+
 #form_name input {
-	padding: 5px;
+    padding: 5px;
 }
+
 #btn input {
-	padding: 5px;
-	width: 6em;
-	font-weight: bolder;
-	font-family: "Comic Sans MS", Arial, sans-serif;
-	background-color: #4267b2;
-	color: #fff;
-	-webkit-transition-duration: 0.4s;
-	transition-duration: 0.4s;
-	box-shadow: 5px 5px 6px black;
-	cursor: pointer;
+    padding: 5px;
+    width: 6em;
+    font-weight: bolder;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    background-color: #4267b2;
+    color: #fff;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 5px 5px 6px black;
+    cursor: pointer;
 }
+
 #btn input:hover {
-	background-color: #426BEE;
-	color: white;
+    background-color: #426BEE;
+    color: white;
 }
+
 #form_name input[type=password] {
-	margin-right: -22px;
+    margin-right: -22px;
 }
+
 .main_content {
-	width: 980px;
-	margin: 60px auto;
-	padding-top: 20px;
-	padding-bottom: 20px;
+    width: 980px;
+    margin: 60px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+
 .column_1 {
-	position: relative;
-	margin-right: 15.999px !important;
-	width: 565px;
-	display: inline-block;
-	vertical-align: top;
+    position: relative;
+    margin-right: 15.999px !important;
+    width: 565px;
+    display: inline-block;
+    vertical-align: top;
 }
+
 #connect {
-	padding: 42px 0 24px;
-	font-size: 28px;
-	line-height: 36px;
-	font-weight: bold;
-	color: #333;
-	margin-bottom: -20px;
-	display: inline-block;
+    padding: 42px 0 24px;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: -20px;
+    display: inline-block;
 }
+
 ul {
-	list-style: disc;
-	padding-left: 40px;
-	font-size: 17px;
-	line-height: 22px;
+    list-style: disc;
+    padding-left: 40px;
+    font-size: 17px;
+    line-height: 22px;
 }
+
 ul .bullet_pts {
-	font-weight: bolder;
-	color: #333;
-	margin: 5px;
+    font-weight: bolder;
+    color: #333;
+    margin: 5px;
 }
+
 ul .blt_gry {
-	font-size: 15px;
-	line-height: 20px;
-	font-weight: normal;
-	color: #666
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: normal;
+    color: #666
 }
+
 .column_1 li {
-	margin: 25px 0;
+    margin: 25px 0;
 }
+
 .column_2 {
-	width: 230px;
-	display: inline-block;
-	vertical-align: top;
-	font-family: "Comic Sans MS", Arial, sans-serif;
-	line-height: 2;
+    width: 230px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    line-height: 2;
 }
+
 #sign_up {
-	font-size: 60px;
-	line-height: 10%;
-	margin: -30px 0px -15px -50px;
+    font-size: 60px;
+    line-height: 10%;
+    margin: -30px 0px -15px -50px;
 }
+
 .sign_up_first_row {
-	width: 399px;
+    width: 399px;
 }
+
 .sign_up_cell_1 {
-	margin: 80px 15px 0 -50px;
-	float: left;
-	display: inline-block;
-	position: relative;
-	width: 225px;
+    margin: 80px 15px 0 -50px;
+    float: left;
+    display: inline-block;
+    position: relative;
+    width: 225px;
 }
+
 .sign_up_cell_2 {
-	margin: 80px 0 0 -50px;
-	float: left;
-	display: inline-block;
-	position: relative;
-	width: 240px;
+    margin: 80px 0 0 -50px;
+    float: left;
+    display: inline-block;
+    position: relative;
+    width: 240px;
 }
+
 .input_text {
-	font-size: 12px;
-	font-family: "Comic Sans MS", Arial, sans-serif;
-	width: 168px;
-	background: #fff;
-	border: 1px solid black;
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
-	padding: 5px 10px;
+    font-size: 12px;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    width: 168px;
+    background: #fff;
+    border: 1px solid black;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    padding: 5px 10px;
 }
+
 .sign_up_last_rows {
-	width: 380px;
+    width: 380px;
 }
+
 .input_text_email_password {
-	font-size: 12px;
-	font-family: "Comic Sans MS", Arial, sans-serif;
-	width: 372px;
-	background: #fff;
-	border: 1px solid black;
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
-	padding: 5px 10px;
+    font-size: 12px;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    width: 372px;
+    background: #fff;
+    border: 1px solid black;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    padding: 5px 10px;
 }
+
 .birthday_contain {
-	margin: -22px;
+    margin: -22px;
 }
+
 .birthday {
-	padding: 290px 0 10px 0px;
-	font-size: 20px;
-	font-weight: bolder;
+    padding: 290px 0 10px 0px;
+    font-size: 20px;
+    font-weight: bolder;
 }
-.drp_bday_mnth, .drp_bday_day, .drp_bday_year {
-	font-size: 15px;
-	font-family: "Comic Sans MS", Arial, sans-serif;
-	width: 77px;
-	background: #fff;
-	border: 1px solid black;
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
-	padding: 5px 10px;
-	margin: 5px;
+
+.drp_bday_mnth,
+.drp_bday_day,
+.drp_bday_year {
+    font-size: 15px;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    width: 77px;
+    background: #fff;
+    border: 1px solid black;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    padding: 5px 10px;
+    margin: 5px;
 }
+
 select {
-	height: 25px;
-	-webkit-border-radius: 0;
-	outline: 1px inset black;
-	outline-offset: -1px;
+    height: 25px;
+    -webkit-border-radius: 0;
+    outline: 1px inset black;
+    outline-offset: -1px;
 }
+
 .drop_down {
-	margin: -4px;
+    margin: -4px;
 }
+
 .select_sex {
-	margin-top: 10px;
+    margin-top: 10px;
 }
+
 #btn_sign_up input {
-	font-size: 20px;
-	font-family: "Comic Sans MS", Arial, sans-serif;
-	color: #fff;
-	width: 358px;
-	padding: 5px 10px;
-	transition-duration: 0.4s;
-	box-shadow: 5px 5px 6px black;
-	background-color: #36B35B;
-	border: 1px solid black;
-	cursor: pointer;
-	display: inline-block;
-	letter-spacing: 1px;
-	position: relative;
-	margin: 15px 0px;
+    font-size: 20px;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    color: #fff;
+    width: 358px;
+    padding: 5px 10px;
+    transition-duration: 0.4s;
+    box-shadow: 5px 5px 6px black;
+    background-color: #36B35B;
+    border: 1px solid black;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    margin: 15px 0px;
 }
+
 #btn_sign_up input:hover {
-	background-color: #51CD5B;
-	color: white;
+    background-color: #51CD5B;
+    color: white;
 }
+
 /* About Page */
 
 input[name=search] {
-	margin: 25px 25px 25px 25px;
-	padding: 0px 10px 0px 10px;
-	font-size: 17px;
+    margin: 25px 25px 25px 25px;
+    padding: 0px 10px 0px 10px;
+    font-size: 17px;
 }
+
 #user_name {
-	font-size: 20px;
-	color: #fff;
-	float: right;
-	font-size: 20px;
-	color: #fff;
-	float: right;
-	margin: -52px -50px 0px 0px;
-	padding: 0px 10px;
+    font-size: 20px;
+    color: #fff;
+    float: right;
+    font-size: 20px;
+    color: #fff;
+    float: right;
+    margin: -52px -50px 0px 0px;
+    padding: 0px 10px;
 }
+
 .imgs {
-	width: 1000px;
-	margin: 0px auto 50px auto;
-	display: grid;
-	grid-template-columns: repeat(10, 1fr);
+    width: 1000px;
+    margin: 0px auto 50px auto;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
+
 .Mordor {
-	grid-column: 1 / span 4;
-	grid-row: 1 / span 4;
-	border: solid black;
-	width: 1000px;
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 4;
+    border: solid black;
+    width: 1000px;
 }
+
 .Sauron {
-	grid-column: 1 / span 1;
-	grid-row: 4 / span 4;
-	border: solid black;
-	width: 120px;
-	margin-left: 40px;
-	z-index: 0;
+    grid-column: 1 / span 1;
+    grid-row: 4 / span 4;
+    border: solid black;
+    width: 120px;
+    margin-left: 40px;
+    z-index: 0;
 }
+
 .column-1 {
-	float: left;
-	width: 180px;
-	height: 35px;
-	border: solid black;
+    float: left;
+    width: 180px;
+    height: 35px;
+    border: solid black;
 }
+
 .column {
-	float: left;
-	width: 11em;
-	height: 35px;
-	border: solid black;
-	font-size: 14px;
-	text-align: center;
+    float: left;
+    width: 11em;
+    height: 35px;
+    border: solid black;
+    font-size: 14px;
+    text-align: center;
 }
-.htwo{
+
+.htwo {
     margin: 10px
 }
+
 .row {
-	grid-column: 1 / span 10;
-	grid-row: 5 / span 3;
-	width: 1000px;
+    grid-column: 1 / span 10;
+    grid-row: 5 / span 3;
+    width: 1000px;
 }
+
 .row:after {
-	content: "";
-	display: table;
-	clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
+
 #profile-name {
-	grid-column: 1 / span 1;
-	grid-row: 5 / span 4;
-	width: 120px;
-	margin: -80px 0px 12px 190px;
-	z-index: 0;
-	font-size: 60px;
-	color: #fff;
+    grid-column: 1 / span 1;
+    grid-row: 5 / span 4;
+    width: 120px;
+    margin: -80px 0px 12px 190px;
+    z-index: 0;
+    font-size: 60px;
+    color: #fff;
 }
+
 .about {
-	width: 1000px;
-	margin: -35px auto 50px auto;
-	border: solid black;
+    width: 1000px;
+    margin: -35px auto 50px auto;
+    border: solid black;
 }
+
 #about-title {
-	text-align: center;
-	margin: 5px auto 5px auto;
-	font-size: 40px;
+    text-align: center;
+    margin: 5px auto 5px auto;
+    font-size: 40px;
 }
+
 .edit_profile {
-	float: right;
-	border: solid black;
-	width: 8em;
+    float: right;
+    border: solid black;
+    width: 8em;
 }
+
 #abt_btn input {
-	padding: 5px;
-	width: 10em;
-	font-weight: bolder;
-	font-family: "Comic Sans MS", Arial, sans-serif;
-	background-color: #4267b2;
-	color: #fff;
-	-webkit-transition-duration: 0.4s;
-	transition-duration: 0.4s;
-	box-shadow: 5px 5px 6px black;
-	cursor: pointer;
-	margin: -40px 15px auto auto;
+    padding: 5px;
+    width: 10em;
+    font-weight: bolder;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    background-color: #4267b2;
+    color: #fff;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 5px 5px 6px black;
+    cursor: pointer;
+    margin: -40px 15px auto auto;
 }
+
 #abt_btn input:hover {
-	background-color: #426BEE;
-	color: white;
+    background-color: #426BEE;
+    color: white;
 }
+
 .user_info {
-	width: 1000px;
-	margin: -53px auto 50px auto;
-	border: solid black;
-	height: 425px;
+    width: 1000px;
+    margin: -53px auto 50px auto;
+    border: solid black;
+    height: 425px;
 }
+
 #info_title {
-	font-size: 30px;
-	margin: 40px auto 20px 50px;
+    font-size: 30px;
+    margin: 40px auto 20px 50px;
 }
+
 table {
-	font-size: 14px;
+    font-size: 14px;
 }
+
 table#table_1 {
-	margin: 0px auto auto 50px;
-	width: 525px;
-	height: 130px;
+    margin: 0px auto auto 50px;
+    width: 525px;
+    height: 130px;
 }
+
 #info_head {
-	font-weight: bolder;
+    font-weight: bolder;
 }
+
 table#table_2 {
-	margin: 0px 10px 10px 50px;
-	width: 990px;
-	height: 70px;
+    margin: 0px 10px 10px 50px;
+    width: 990px;
+    height: 70px;
 }
+
 .column_1_dsc {
-	float: left;
-	width: 48%;
-	padding: 10px;
-	height: 300px;
+    float: left;
+    width: 48%;
+    padding: 10px;
+    height: 300px;
 }
+
 i {
-	font-style: italic;
+    font-style: italic;
 }
+
 #cription {
-	margin: 40px 10px 10px 10px;
-	font-size: 30px;
+    margin: 40px 10px 10px 10px;
+    font-size: 30px;
 }
+
 p {
-	font-size: 14px;
-	margin: 20px 0px 0px 10px;
-	line-height: 1.6;
+    font-size: 14px;
+    margin: 20px 0px 0px 10px;
+    line-height: 1.6;
 }
+
 .friends {
-	width: 1000px;
-	margin: -53px auto 50px auto;
-	border: solid black;
-	height: 560px;
+    width: 1000px;
+    margin: -53px auto 50px auto;
+    border: solid black;
+    height: 560px;
 }
+
 .friend {
-	float: left;
-	width: 47%;
-	margin: 20px 14px 1.15%;
-	height: 145px;
-	border: solid black;
-	padding: -26px 17px 16px 0px;
+    float: left;
+    width: 47%;
+    margin: 20px 14px 1.15%;
+    height: 145px;
+    border: solid black;
+    padding: -26px 17px 16px 0px;
 }
+
 .witch-king {
-	border: solid black;
-	height: 110px;
-	width: 130px;
-	margin: 15px 0px 0px 15px;
+    border: solid black;
+    height: 110px;
+    width: 130px;
+    margin: 15px 0px 0px 15px;
 }
+
 .nazgul {
-	border: solid black;
-	height: 110px;
-	width: 130px;
-	margin: 15px 0px 0px 15px;
+    border: solid black;
+    height: 110px;
+    width: 130px;
+    margin: 15px 0px 0px 15px;
 }
+
 #frd-btn input {
-	padding: 5px 0px 5px 0px;
-	margin: 50px 20px 60px 20px;
-	float: right;
-	width: 9em;
-	font-weight: bolder;
-	font-family: "Comic Sans MS", Arial, sans-serif;
-	background-color: #C8C8C8;
-	-webkit-transition-duration: 0.4s;
-	transition-duration: 0.4s;
-	box-shadow: 5px 5px 6px black;
-	cursor: pointer;
-	border: solid black;
+    padding: 5px 0px 5px 0px;
+    margin: 50px 20px 60px 20px;
+    float: right;
+    width: 9em;
+    font-weight: bolder;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    background-color: #C8C8C8;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 5px 5px 6px black;
+    cursor: pointer;
+    border: solid black;
 }
+
 #frd-btn input:hover {
-	background-color: #426BEE;
-	color: white;
+    background-color: #426BEE;
+    color: white;
 }
+
 .friend-name {
-	float: right;
-	margin: 50px 10px 0px 7px;
+    float: right;
+    margin: 50px 10px 0px 7px;
 }
+
 .tot-friends {
-	color: #C8C8C8;
-	float: left;
-	margin: -60px 22px 23px 167px;
+    color: #C8C8C8;
+    float: left;
+    margin: -60px 22px 23px 167px;
 }
+
 .friend-name-1 {
-	float: right;
-	margin: 50px 110px 0px 7px;
+    float: right;
+    margin: 50px 110px 0px 7px;
 }
+
 aside {
-	width: 30%;
-	height: 2000px;
-	float: left;
-	border-right: solid black;
+    width: 30%;
+    height: 2000px;
+    float: left;
+    border-right: solid black;
 }
+
 .friend-name-2 {
-	float: left;
-	margin: 50px 110px 0px 7px;
-	font-size: 18px;
+    float: left;
+    margin: 50px 110px 0px 7px;
+    font-size: 18px;
 }
+
 .tot-friends-1 {
-	float: left;
-	margin: -64px 21px 21px 173px;
-	font-size: 11px;
+    float: left;
+    margin: -64px 21px 21px 173px;
+    font-size: 11px;
 }
+
 #recent {
-	float: left;
-	margin: 40px 0px 0px 50px;
-	font-size: 20px;
-	font-weight: bolder;
+    float: left;
+    margin: 40px 0px 0px 50px;
+    font-size: 20px;
+    font-weight: bolder;
 }
+
 #witch-king-1 {
-	float: left;
-	height: 65px;
-	width: 75px;
-	margin: 90px 0px 0px -151px;
-	border: solid black;
+    float: left;
+    height: 65px;
+    width: 75px;
+    margin: 90px 0px 0px -151px;
+    border: solid black;
 }
+
 #usr-nm {
-	float: left;
-	margin: 110px 0px 0px -60px;
-	font-size: 12px;
+    float: left;
+    margin: 110px 0px 0px -60px;
+    font-size: 12px;
 }
+
 #date-post {
-	float: left;
-	font-size: 12px;
-	margin: 0px 0px 0px 16px;
+    float: left;
+    font-size: 12px;
+    margin: 0px 0px 0px 16px;
 }
+
 .post {
-	width: 600px;
-	margin: 50px 0px 0px 550px;
+    width: 600px;
+    margin: 50px 0px 0px 550px;
 }
+
 #post_title {
-	background-color: #DCDCDC;
-	border: 2px solid black;
-	text-align: center;
-	font-weight: bolder;
-	padding: 5px;
+    background-color: #DCDCDC;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bolder;
+    padding: 5px;
 }
+
 #text_area {
-	border: 2px solid black;
-	margin: -2px 0px 0px 10px;
+    border: 2px solid black;
+    margin: -2px 0px 0px 10px;
 }
+
 #actual_text {
-	margin: 15px 0px 10px 10px;
+    margin: 15px 0px 10px 10px;
 }
+
 #post_line {
-	background-color: #DCDCDC;
-	border: 2px solid black;
-	text-align: center;
-	font-weight: bolder;
-	padding: 20px;
-	margin: -2px 0px 0px 10px;
+    background-color: #DCDCDC;
+    border: 2px solid black;
+    text-align: center;
+    font-weight: bolder;
+    padding: 20px;
+    margin: -2px 0px 0px 10px;
 }
 
 .post_1 {
-	border: 2px solid black;
-	height: 250px;
-	width: 590px;
-	margin: 50px 0px 0px 10px;
+    border: 2px solid black;
+    height: 250px;
+    width: 590px;
+    margin: 50px 0px 0px 10px;
 }
+
 .post_2 {
-	border: 2px solid black;
-	height: 250px;
-	width: 590px;
-	margin: 100px 0px 0px 10px;
+    border: 2px solid black;
+    height: 250px;
+    width: 590px;
+    margin: 100px 0px 0px 10px;
 }
+
 .nav_sauron {
-	width: 50px;
-	height: 60px;
-	float: left;
-	margin: 0px 10px 0px -60px;
-	border: solid black;
+    width: 50px;
+    height: 60px;
+    float: left;
+    margin: 0px 10px 0px -60px;
+    border: solid black;
 }
+
 .new_feed_sauron {
-	width: 100px;
-	height: 110px;
-	float: left;
-	margin: 28px 10px 0px 55px;
-	border: solid black;
+    width: 100px;
+    height: 110px;
+    float: left;
+    margin: 28px 10px 0px 55px;
+    border: solid black;
 }
+
 #witch-king-2 {
-	float: left;
-	height: 65px;
-	width: 75px;
-	margin: 49px 0px 0px -266px;
-	border: solid black;
+    float: left;
+    height: 65px;
+    width: 75px;
+    margin: 49px 0px 0px -266px;
+    border: solid black;
 }
+
 #usr-nm-1 {
-	float: left;
-	margin: 45px 0px 0px 17px;
-	font-size: 12px;
+    float: left;
+    margin: 45px 0px 0px 17px;
+    font-size: 12px;
 }
+
 #abt_btn_1 input {
-	padding: 5px;
-	width: 7em;
-	font-weight: bolder;
-	font-family: "Comic Sans MS", Arial, sans-serif;
-	background-color: #4267b2;
-	color: #fff;
-	-webkit-transition-duration: 0.4s;
-	transition-duration: 0.4s;
-	box-shadow: 5px 5px 6px black;
-	cursor: pointer;
-	margin: -16px 0px auto auto;
+    padding: 5px;
+    width: 7em;
+    font-weight: bolder;
+    font-family: "Comic Sans MS", Arial, sans-serif;
+    background-color: #4267b2;
+    color: #fff;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 5px 5px 6px black;
+    cursor: pointer;
+    margin: -16px 0px auto auto;
 }
+
 #abt_btn_1 input:hover {
-	background-color: #426BEE;
-	color: white;
+    background-color: #426BEE;
+    color: white;
 }
+
 #witch-king-3 {
-	float: left;
-	height: 65px;
-	width: 75px;
-	margin: 10px 10px 10px 10px;
-	border: solid black;
+    float: left;
+    height: 65px;
+    width: 75px;
+    margin: 10px 10px 10px 10px;
+    border: solid black;
 }
+
 #usr-nm-2 {
-	float: left;
-	margin: 18px 10px 10px 10px;
-	font-size: 12px;
+    float: left;
+    margin: 18px 10px 10px 10px;
+    font-size: 12px;
 }
+
 #date-post-1 {
-	float: left;
-	font-size: 12px;
-	margin: 35px 0px 0px -135px;
+    float: left;
+    font-size: 12px;
+    margin: 35px 0px 0px -135px;
 }
+
 .act_post {
-	float: left;
-	margin: 10px 0px 0px 10px;
+    float: left;
+    margin: 10px 0px 0px 10px;
 }
+
 #post_line_1 {
-	background-color: #DCDCDC;
-	border: 2px solid black;
-	font-weight: bolder;
-	margin: 246px -2px 0px -2px;
-	text-align: left;
-	padding: 10px;
+    background-color: #DCDCDC;
+    border: 2px solid black;
+    font-weight: bolder;
+    margin: 246px -2px 0px -2px;
+    text-align: left;
+    padding: 10px;
 }
+
 #post_line_2 {
-	background-color: #DCDCDC;
-	border: 2px solid black;
-	font-weight: bolder;
-	margin: 246px -2px 0px -2px;
-	text-align: left;
-	padding: 10px;
-	line-height: 2;
+    background-color: #DCDCDC;
+    border: 2px solid black;
+    font-weight: bolder;
+    margin: 246px -2px 0px -2px;
+    text-align: left;
+    padding: 10px;
+    line-height: 2;
 }
