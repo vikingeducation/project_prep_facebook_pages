@@ -1,4 +1,4 @@
-<?php $cssVersion="5.8";? >
+<?php $cssVersion="5.9";? >
 
 *,
 *:before,
@@ -506,7 +506,7 @@ p {
 .tot-friends {
     color: #C8C8C8;
     float: left;
-    margin: -60px 22px 23px 167px;
+    margin: -66px 22px 23px 167px;
 }
 
 .friend-name-1 {
