@@ -1,4 +1,4 @@
-<?php $cssVersion = "4.9"; ?>
+<?php $cssVersion = "5.0"; ?>
 
 *, *:before, *:after {
 	box-sizing: border-box;
@@ -168,7 +168,7 @@ ul .blt_gry {
 	padding: 5px 10px;
 }
 .sign_up_last_rows {
-	width: 365px;
+	width: 380px;
 }
 .input_text_email_password {
 	font-size: 12px;
