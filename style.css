@@ -1,6 +1,6 @@
-<?php $cssVersion="5.7";
+<?php $cssVersion="5.8";? >
 
-? > *,
+*,
 *:before,
 *:after {
     box-sizing: border-box;
@@ -457,7 +457,7 @@ p {
 
 .friend {
     float: left;
-    width: 47%;
+    width: 46%;
     margin: 20px 14px 1.15%;
     height: 145px;
     border: solid black;
