@@ -1,4 +1,4 @@
-<?php $cssVersion = "5.2"; ?>
+<?php $cssVersion = "5.3"; ?>
 
 *, *:before, *:after {
 	box-sizing: border-box;
@@ -274,11 +274,14 @@ input[name=search] {
 }
 .column {
 	float: left;
-	width: 164px;
+	width: 11em;
 	height: 40px;
 	border: solid black;
 	font-size: 14px;
 	text-align: center;
+}
+.htwo{
+    margin:12px
 }
 .row {
 	grid-column: 1 / span 10;
