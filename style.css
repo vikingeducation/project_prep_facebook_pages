@@ -1,4 +1,4 @@
-<?php $cssVersion="6.3";? >
+<?php $cssVersion="6.4";? >
 
 *,
 *:before,
@@ -691,4 +691,15 @@ aside {
     text-align: left;
     padding: 10px;
     line-height: 2;
+}
+
+#post_line_3 {
+    background-color: #DCDCDC;
+    border: 2px solid black;
+    font-weight: bolder;
+    margin: 246px -2px 0px -2px;
+    text-align: left;
+    padding: 10px;
+    line-height: 2;
+    height: 500px;
 }
