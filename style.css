@@ -1,4 +1,4 @@
-<?php $cssVersion="6.7";? >
+<?php $cssVersion="6.8";? >
 
 *,
 *:before,
@@ -511,7 +511,7 @@ p {
 
 aside {
     width: 30%;
-    height: 100%;
+    height: 2500px;
     float: left;
     border-right: solid black;
 }
