@@ -1,4 +1,4 @@
-<?php $cssVersion="6.2";? >
+<?php $cssVersion="6.3";? >
 
 *,
 *:before,
@@ -518,7 +518,7 @@ aside {
 
 .friend-name-2 {
     float: left;
-    margin: 50px 110px 0px 7px;
+    margin: 50px 110px 0px 0px;
     font-size: 18px;
 }
 
