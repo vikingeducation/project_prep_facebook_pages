@@ -1,4 +1,4 @@
-<?php $cssVersion="6.4";? >
+<?php $cssVersion="6.5";? >
 
 *,
 *:before,
@@ -701,5 +701,5 @@ aside {
     text-align: left;
     padding: 10px;
     line-height: 2;
-    height: 500px;
+    height: 1000px;
 }
