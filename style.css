@@ -1,4 +1,4 @@
-<?php $cssVersion="6.8";? >
+<?php $cssVersion="6.9";? >
 
 *,
 *:before,
@@ -295,8 +295,6 @@ input[name=search] {
 .imgs {
     width: 1000px;
     margin: 0px auto 50px auto;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
 }
 
 .Mordor {
@@ -307,12 +305,10 @@ input[name=search] {
 }
 
 .Sauron {
-    grid-column: 1 / span 1;
-    grid-row: 4 / span 4;
     border: solid black;
     width: 120px;
-    margin-left: 40px;
     z-index: 0;
+    margin: -140px 0px 0px 40px;
 }
 
 .column-1 {
@@ -337,7 +333,7 @@ input[name=search] {
 
 .row {
     width: 1000px;
-    margin: -6px 0px 45px 177px;
+    margin: -7px 0px 45px 0px;
 }
 
 .row:after {
@@ -346,7 +342,7 @@ input[name=search] {
     clear: both;
 }
 .profile-name {
-    margin: -240px 0px 12px 354px;
+    margin: -98px 0px 12px 200px;
     z-index: 0;
     font-size: 60px;
     color: #fff;
