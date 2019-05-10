@@ -1,4 +1,4 @@
-<?php $cssVersion="7.0";? >
+<?php $cssVersion="7.1";? >
 
 *,
 *:before,
@@ -698,4 +698,10 @@ aside {
     padding: 10px;
     line-height: 2;
     height: 870px;
+}
+
+textarea{
+    resize:horizontal; 
+    max-width:400px; 
+    min-width:550px;
 }
