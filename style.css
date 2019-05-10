@@ -1,4 +1,4 @@
-<?php $cssVersion="7.1";? >
+<?php $cssVersion="7.2";? >
 
 *,
 *:before,
@@ -637,7 +637,7 @@ aside {
     transition-duration: 0.4s;
     box-shadow: 5px 5px 6px black;
     cursor: pointer;
-    margin: -16px 0px auto auto;
+    margin: 0px 0px auto auto;
 }
 
 #abt_btn_1 input:hover {
