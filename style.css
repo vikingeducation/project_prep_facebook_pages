@@ -1,4 +1,4 @@
-<?php $cssVersion="7.3";? >
+<?php $cssVersion="7.4";? >
 
 *,
 *:before,
@@ -226,7 +226,7 @@ ul .blt_gry {
 .drp_bday_mnth,
 .drp_bday_day,
 .drp_bday_year {
-    font-size: 15px;
+    font-size: 12px;
     font-family: "Comic Sans MS", Arial, sans-serif;
     width: 80px;
     height: 30px;
