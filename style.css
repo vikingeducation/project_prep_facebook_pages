@@ -1,4 +1,4 @@
-<?php $cssVersion="7.6";? >
+<?php $cssVersion="7.7";? >
 
 *,
 *:before,
@@ -472,7 +472,7 @@ p {
 
 #frd-btn input {
     padding: 5px 0px 5px 0px;
-    margin: -90px 20px 60px 20px;
+    margin: -80px 20px 60px 20px;
     float: right;
     width: 9em;
     font-weight: bolder;
@@ -503,7 +503,7 @@ p {
 
 .friend-name-1 {
     float: right;
-    margin: 50px 250px 0px 7px;
+    margin: 55px 250px 0px 7px;
 }
 
 aside {
