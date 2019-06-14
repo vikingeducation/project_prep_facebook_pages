@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+
+	<title>Fakebook Profile</title>
+
+	<link rel="stylesheet" href="./reset.css">
+	<link rel="stylesheet" href="./styles.css">
+</head>
+
+<body class="flex_column">
+	<header>
+		<div class="header_loggedin">
+		<table role="presentation">
+			<tbody>
+				<tr>
+					<td>
+						<img src="logo.png" width="28" height="28" alt="facebook logo"
+						id="logo">
+					</td>
+					<td>
+						<input type="search" placeholder="Search">
+					</td>
+					<td>	
+						<img src="x.png" width="20" height="20" alt="placeholder x">
+					</td>
+					<td>
+						<span>Benjamin</span>
+					</td>
+					<td>
+						<span id="header_home">Home</span>
+					</td>
+					<td>
+						<img src="x.png" width="20" height="20" alt="placeholder x">
+					</td>
+					<td>
+						<img src="x.png" width="20" height="20" alt="placeholder x">
+					</td>
+					<td>
+						<img src="x.png" width="20" height="20" alt="placeholder x">
+					</td>
+					<td>
+						<img id="controls_padding" src="x.png" width="20" height="20" alt="placeholder x">
+					</td>
+					<td>
+						<img src="x.png" width="20" height="20" alt="placeholder x">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	</header>
+	<main>
+		<section class="profile_container">
+			<div class="cover">
+				<img src="cover.jpg" width="850" height="313" alt="cover photo">
+				<div class="cover_links flex_row align_center flex_start">
+					<img src="profile.png" width="168" height="168" alt="profile picture">
+					<a href="#">Timeline</a>
+					<a href="#">About</a>
+					<a href="#">Friends</a>
+					<a href="#">Photos</a>
+					<a href="#">More</a>
+				</div>
+			</div>
+			<aside>
+				<div class="photos">
+                    <h2><a href="#">Photos</a></h2>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><img src="photo.jpg" width="101" height="101"></td>
+                                <td><img src="photo.jpg" width="101" height="101"></td>
+                                <td><img src="photo.jpg" width="101" height="101"></td>
+                            </tr>
+                            <tr>
+                                <td><img src="photo.jpg" width="101" height="101"></td>
+                                <td><img src="photo.jpg" width="101" height="101"></td>
+                                <td><img src="photo.jpg" width="101" height="101"></td>
+                            </tr>
+                            <tr>
+                                <td><img src="photo.jpg" width="101" height="101"></td>
+                                <td><img src="photo.jpg" width="101" height="101"></td>
+                                <td><img src="photo.jpg" width="101" height="101"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+				</div>
+			</aside>
+            <article>
+                <div class="newpost">
+                   <h2>New Post</h2>
+                    <form id="newpost">
+                        <input type="textarea" name="post_text" form="newpost" placeholder="What's on your mind">
+                        <input type="submit" form="newpost">
+                    </form>
+                </div>
+            </article>			
+            <article>
+                <div class="post">
+                    <h2>
+                        Joe Schmoe posted a link 
+                    </h2>
+                    <img src="photo.jpg" width="101" height="101">
+                    <p>Link Preview</p>
+                    <form id="comment">
+                        <input type="text" name="comment_text" form="comment" placeholder="Write a comment...">
+                        <input type="submit" form="comment">
+                    </form>
+                </div>
+            </article>
+		</section>
+	</main>
+</body>
+</html>

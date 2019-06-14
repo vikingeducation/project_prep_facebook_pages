@@ -1,4 +1,4 @@
-prep_facebook_pages
-===================
+# project_prep_facebook_pages
+Recreated the facebook sign-up and profile page from scratch using pure CSS3 and HTML5. Perfect for phishing.
+Clone and open index.html in your browser.
 
-[This is an HTML and CSS project from the Viking Code School Prep Work](http://www.vikingcodeschool.com/web-markup-and-coding/let-s-build-facebook).
