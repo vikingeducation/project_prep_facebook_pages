@@ -1,4 +1,4 @@
-<?php $cssVersion="7.9";? >
+<?php $cssVersion="8.0";? >
 
 *,
 *:before,
@@ -541,8 +541,7 @@ aside {
 }
 
 #usr-nm {
-    float: left;
-    margin: 110px 0px 0px -60px;
+    margin: -52px 0px 0px 95px;
     font-size: 12px;
 }
 
