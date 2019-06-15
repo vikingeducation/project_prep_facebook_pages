@@ -1,4 +1,4 @@
-<?php $cssVersion="7.8";? >
+<?php $cssVersion="7.9";? >
 
 *,
 *:before,
@@ -709,11 +709,17 @@ textarea{
 
 .tl-row{
   display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+    flex-wrap: wrap;
+    padding: 80px 0px 0px 0px;
+    margin: 0px 0px 0px -140px;
+    float: left;
 }
 
 .tl-column img{
-    margin-top: 8px;
-  vertical-align: middle;
+   margin-top: 35px;
+    vertical-align: middle;
+    width: 75px;
+    height: 65px;
+    display: table;
+    border: solid black;
 }
