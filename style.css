@@ -705,7 +705,7 @@ textarea{
     max-width:400px; 
     min-width:550px;
 }
-@media screen and (min-width: 1429px){
+
 .tl-row{
   display: flex;
     flex-wrap: wrap;
@@ -713,7 +713,7 @@ textarea{
     margin: 0px 0px 0px -140px;
     float: left;
  }
-}
+
 
 .tl-column img{
    margin-top: 35px;
