@@ -1,4 +1,4 @@
-<?php $cssVersion="8.5";? >
+<?php $cssVersion="8.6";? >
 
 *,
 *:before,
@@ -528,7 +528,7 @@ aside {
 #recent {
     float: left;
     margin: 40px 0px 0px 50px;
-    font-size: 20px;
+    font-size: 28px;
     font-weight: bolder;
 }
 
