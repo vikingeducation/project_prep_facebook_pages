@@ -1,4 +1,4 @@
-<?php $cssVersion="8.6";? >
+<?php $cssVersion="8.7";? >
 
 *,
 *:before,
@@ -728,3 +728,6 @@ textarea{
     margin: 50px 125px;
 }
 
+.edit-profile{
+    font-size: 11px;
+}
