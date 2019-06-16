@@ -1,4 +1,4 @@
-<?php $cssVersion="8.0";? >
+<?php $cssVersion="8.1";? >
 
 *,
 *:before,
@@ -721,4 +721,8 @@ textarea{
     height: 65px;
     display: table;
     border: solid black;
+}
+.see-friends{
+    float: right;
+    margin: 50px 125px;
 }
