@@ -1,4 +1,4 @@
-<?php $cssVersion="8.4";? >
+<?php $cssVersion="8.5";? >
 
 *,
 *:before,
@@ -709,7 +709,7 @@ textarea{
 .tl-row{
   display: flex;
     flex-wrap: wrap;
-    padding: 80px 0px 0px 0px;
+    padding: 0px 0px 0px 200px;
     margin: 0px 0px 0px -140px;
     float: left;
  }
@@ -728,8 +728,3 @@ textarea{
     margin: 50px 125px;
 }
 
-@media screen and (max-width: 1440px) and (min-width: 1430px) {
- .tl-row{
-       padding: 80px 0px 0px 200px;
-    
-}
