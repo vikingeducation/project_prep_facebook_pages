@@ -1,0 +1,418 @@
+/* CSS reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	padding: 0;
+
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END OF RESET*/
+
+html {
+	font-family: helvetica, sans-serif;
+}
+
+/*===================================
+LOGIN PAGE STYLING
+===================================*/
+
+/*header Positioning and syling*/
+
+header {
+	background-color: blue;
+	width: 100%;
+	padding: 20px;
+	border-bottom-style: solid;
+	border-bottom-color: black;
+	border-bottom-width: 2px;
+}
+
+header h1 {
+	color: white;
+	font-size: 40px;
+	margin-left: 20px;
+}
+
+header .login {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+header input, header label, header button {
+	display: block;
+	border-radius: 3px;
+}
+
+.float1 {
+	float: left;
+	margin-right: 20px;
+}
+
+.float2 {
+	float: left;
+}
+
+header label {
+	color: white;
+	text-align: left;
+	font-size: 14px;
+}
+
+header button {
+
+	float: left;
+	color: black;
+	margin: 20px;
+	border: none;
+	padding: 5px 20px;
+	margin-top: 10px;
+	background-color: lightblue;
+	font-size: 16px;
+	box-shadow: 5px 5px 3px black;
+}
+
+/* main page formatting*/
+
+.form, .info {
+	display: block;
+}
+
+.info {
+	float: left;
+	width: 45%;
+	padding: 10px;
+	vertical-align: text-top;
+	padding-top: 10%;
+	padding-bottom: 20%;
+	padding-left: 20px;
+}
+
+.form {
+	float: right;
+	padding: 10px;
+	width: 40%;
+	margin: 20px;
+	margin-right: 40px;
+}
+
+/*form formatting and styling*/
+
+.form input, .form select{
+	display: inline-block;
+	width: 100%;
+	padding: 5px;
+	margin: 10px;
+}
+
+.form .firstname {
+	width: 45%;
+	margin-right: none;
+	display: inline-block;
+}
+
+.form .lastname {
+	width: 45%;
+	float: right;
+	display: inline-block;
+}
+
+.form .bday {
+	width: 20%;
+
+}
+
+.form input[type=radio] {
+	width: 20px;
+	background-color: blue;
+	text-align: left;
+	padding: 10px;
+}
+
+.form h2 {
+	font-size: 40px;
+	padding: 20px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+
+.form h4 {
+	padding: 10px;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+.form input[type=button] {
+	color: white;
+	margin: 20px;
+	border-style: solid;
+	border-color: black;
+	padding: 5px 20px;
+	background-color: green;
+	font-size: 30px;
+	box-shadow: 5px 5px 3px black;
+}
+
+
+/*info formatting*/
+
+.info h3 {
+	font-size: 30px;
+	padding: 10px;
+}
+
+.info ul {
+	list-style: disc;
+	margin-left: 30px;
+	padding: 10px;
+}
+
+.info li {
+	padding: 10px;
+	font-size: 14px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+
+/*=================================
+END OF LOG IN PAGE STYLING
+===================================
+
+
+===================================
+ABOUT PAGE STYLING
+=================================*/
+
+/*header fix*/
+
+.aboutHeader {
+	height: 30px;
+	width: 100%;
+	overflow: auto;
+}
+
+.hblock{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.aboutHeader img {
+	box-sizing: border-box;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+.aboutHeader h1{
+	font-size: 25px;
+	margin: 20px;
+	margin-top: 10px;
+}
+
+.aboutHeader input {
+	width: 50%;
+	margin-top: 8px;
+	margin-right: 5%;
+	padding: 5px;
+}
+
+.aboutHeader h3 {
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+
+/* background, and nav bar*/
+.cleanbox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+#tedback {
+	width: 89%;
+	height: 100%;
+	border-left-style: solid;
+	border-right-style: solid;
+	box-sizing: border-box;
+}
+
+.nav {
+	display: flex;
+	flex-direction: row;
+	width: 89%;
+	background-color: lightgrey;
+	box-sizing: border-box;
+	margin-top: 0;
+}
+
+.nav li {
+	width: 10%;
+	padding: 20px;
+	border-style: solid;
+	border-color: black;
+	border-left-style: none;
+}
+
+#spacer1 {
+	width: 8%;
+	border-style: solid;
+}
+
+#spacer2 {
+	display: flex;
+	justify-content: flex-end;
+	width: 30%;
+	align-content: flex-end;
+}
+
+/*about box*/
+
+.aboutbox {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	border-style: solid;
+	width: 89%;
+	margin-top: 30px;
+	height: 450px;
+}
+
+.aboutbar {
+	width: 100%;
+	background-color: lightgrey;
+	border-bottom: solid;
+
+}
+
+.aboutbar h1 {
+	display: inline-block;
+	text-align: center;
+	width: 10%;
+	margin: 0px;
+	margin-right: 28%;
+	margin-left: 45%;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.aboutbar input {
+	display: inline-block;
+	text-align: right;
+	color: white;
+	border: 2px;
+	border-radius: 2px;
+	padding: 3px 7px;
+	background-color: blue;
+	box-shadow: 3px 3px 2px grey;
+	font-size: 13px;
+}
+
+.aboutrow {
+	display: flex;
+	flex-direction: row;
+	margin: 20px;
+	height: 100%;
+}
+
+#column1 {
+	margin-right: 20px;
+	align-content: stretch;
+}
+
+#column2 {
+}
+
+.aboutbox h3 {
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+#basicinfo {
+	margin-bottom: 20px
+}
+
+td {
+	padding: 10px;
+	padding-right: 50px;
+}
+
+#column2 p {
+	padding-bottom: 20px
+}
+
+
+/*Profilepic*/
+
+.absolutepos {
+	position: absolute;
+	top: 330px;
+	left: 100px;
+	display: inline-block;
+}
+
+.absolutepos img {
+	border-style: solid;
+	border-color: white;
+	display: inline-block;
+}
+.absolutepos h1 {
+	display: inline-block;
+	padding-left: 30px;
+	color: white;
+	font-size: 35px;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+
+}

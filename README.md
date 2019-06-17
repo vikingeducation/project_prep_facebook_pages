@@ -1,4 +1,8 @@
-prep_facebook_pages
-===================
+html_facebook_login_page_clone
+==============
 
-[This is an HTML and CSS project from the Viking Code School Prep Work](http://www.vikingcodeschool.com/web-markup-and-coding/let-s-build-facebook).
+This is a practice repository from when I was first learning html and css
+
+view my log-in page here:
+
+https://coelacanth7.github.io/project_prep_facebook_pages/
