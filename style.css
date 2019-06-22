@@ -1,4 +1,4 @@
-<?php $cssVersion="8.7";? >
+<?php $cssVersion="8.8";? >
 
 *,
 *:before,
@@ -508,7 +508,7 @@ p {
 
 aside {
     width: 30%;
-    height: 2500px;
+    height: 2200px;
     float: left;
     border-right: solid black;
 }
@@ -590,6 +590,13 @@ aside {
 }
 
 .post_2 {
+    border: 2px solid black;
+    height: 250px;
+    width: 590px;
+    margin: 65px 0px 0px 10px;
+}
+
+.post_3 {
     border: 2px solid black;
     height: 250px;
     width: 590px;
