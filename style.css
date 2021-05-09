@@ -1,0 +1,629 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}/*End of Eric Meyer's CSS reset*/
+.flex-body {/*Main flex container to rule them all, for all pages; includes header and all elements on page.*/
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.sign-in-header {/*Main flex container for all header elements when not signed in. It contains three primary columns: .title, .header-login, and .login.*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 100%;
+	height: 7rem;
+	background-color: #3b5998;
+}
+.personalized-header {/*Header to use when the user is signed in.*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	height: 3rem; 
+	background-color: #3b5998; 
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+.header-elements {/*Flex container for signed-in header elements.*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+#title {/*Flex container for facelook logo.*/
+	display: flex;
+	width:50%;
+	margin-bottom: 2rem;
+}
+.header-logo {/*Flex container for personalized header logo and profile pic.*/ 
+	display: flex;
+	width: 20%;
+}
+.header-logo a {/*Styling for 'facelook'.*/
+	font-size: 2em;
+	font-weight: 600;
+	color: #ffffff; 
+	text-decoration: none;
+	margin-left: .5rem; 
+}
+.header-title {/*Styling for the actual logo when not signed in.*/
+	width: 40%;
+	font-size: 3em;
+	font-weight: 600;
+	color: #ffffff;
+	text-decoration: none;	
+	margin-left: 2.5rem;
+}
+.header-login {/*Flex container for header email and password fields when not signed in.*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 30%;
+	font-size: .8em; 
+	color: #ffffff;
+	margin-bottom: 1.5rem;
+}
+.header-email, .header-password {/*Margin settings for header email and password fields.*/	
+	margin-bottom: .25rem;
+}
+.email-input, .password-input {/*Styling for the header email and password fields.*/
+	height: 1rem;
+	width: 10rem;
+	margin-top: .25rem;  
+}
+.header-search {
+	display: flex;
+	width: 50%;
+	justify-content: center;
+}
+.user-search {
+	height: 1.75rem;
+	width: 100%;
+	justify-content: center;
+	color: grey; 
+}
+#login {/*Flex container for header login button.*/
+	display: flex;
+	width: 10%;
+	margin-bottom: 1.65rem;	
+	margin-right: 2.5rem; 
+}
+.login-button {/*Styling for header login button.*/
+	height: 1.4rem;
+	width: 5rem;
+	background-color: #5772AC;
+	font-weight: bold;
+	color: #ffffff;	
+	border: 1px solid #4b4f56;
+	cursor: pointer;
+}
+.login-button:hover {/*Hover color-change effect for blue header login button.*/
+	background: #224389; 
+}
+.rick {/*Flex container for 'Rick'.*/ 
+	display: flex;
+	justify-content: flex-end;
+	width: 20%; 
+}
+.rick a {/*Styling for 'Rick'... Rickstyling?*/
+	font-size: 1em;
+	font-weight: 600;
+	color: #ffffff; 
+	text-decoration: none;
+}
+.flex-main {/*Main flex container for all elements below the header. This is split into three columns that are equal in width to the header columns directly above each one.*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+.sign-up-blurb {/*Flex container column for bullet list with 'Connect with all your friends!' header.*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 50%;
+}
+.sign-up-blurb h1 {/*'Connect with all your friends!'*/
+	width: 100%;
+	align-self: flex-end;
+	font-size: 2em;
+	font-weight: 600;
+	text-align: center;
+}
+.sign-up-blurb ul {/*Bullet list styling.*/
+	list-style-type: disc;
+	margin-left: 3rem; 
+	align-self: flex-start;
+}
+.sign-up-blurb ul li {/*Margins for bullet list.*/
+	margin: 1.5rem;
+}
+.about-main {/*Flex container for About page elements below the header.*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+.photo-nav {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 1rem; 
+	border-bottom: solid;
+	border-right: solid;
+	border-left: solid; 
+	border-width: thin; 
+	position: relative;
+}
+.about {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 1rem; 
+	border: solid; 
+	border-width: thin;
+}
+.about-header {
+	display: flex;
+	justify-content: center;
+	height: 2.5rem;
+	width: 100%;
+	background-color: #dfe3ee; 
+	border-bottom: solid;
+	border-width: thin;
+	position: relative;
+}
+.about-header p {
+	display: flex;
+	align-self: center;
+	font-size: 1.5em;
+	font-weight: 600;
+	color: black; 
+}
+.about-header button {
+	display: flex;
+	align-self: center;
+	height: 1.75rem; 
+	font-size: .75em;
+	font-weight: 600;
+	color: #ffffff;
+	background-color: #3b5998;
+	position: absolute;
+	right: 1rem; 
+	border: none;
+}
+.about-header button:hover {
+	background-color: #5772AC;
+	cursor: pointer;
+}
+.about-body {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.about-left {
+	display: flex;
+	flex-wrap: wrap;
+	width: 45%;
+	margin-left: 3rem;
+}
+.about-left h1 {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	align-self: center;
+	font-size: 1.5em;
+	font-weight: 600;
+	color: black;
+	margin-bottom: 1rem; 
+}
+.about-basic {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 2rem; 
+}
+.basic-left {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 37%;
+}
+.basic-left ul li {
+	display: flex;
+	margin-bottom: 1rem; 
+	font-size: 1em; 
+	font-weight: 600;
+	color: black;
+}
+.basic-left ul li:last-child {
+	margin-bottom: 0; 
+}
+.basic-right {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 63%; 
+}
+.basic-right ul li {
+	display: flex;
+	margin-bottom: 1rem;	
+	font-size: 1em; 
+}
+.basic-right ul li:last-child {
+	margin-bottom: 0;
+}
+.about-contact {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 2rem;
+}
+.contact-left {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 37%;
+}
+.contact-left ul li {
+	display: flex;
+	margin-bottom: 1rem; 
+	font-size: 1em; 
+	font-weight: 600;
+	color: black;
+}
+.contact-right {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 63%; 
+}
+.contact-right ul li {
+	display: flex;
+	margin-bottom: 1rem; 
+	font-size: 1em; 
+}
+.about-right {
+	display: flex;
+	flex-wrap: wrap;
+	width: 55%;
+	margin-top: 2rem;
+	margin-right: 3rem;
+}
+.about-right h1 {
+	display: flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	align-self: flex-start;
+	font-size: 1.5em;
+	font-weight: 600;
+	color: black;
+}
+.background-pic {
+	display: flex;
+	align-self: flex-start;
+	max-width: 100%; 
+	height: auto;	
+	position: relative;
+	border-bottom: solid;
+	border-width: thin;
+}
+.profile-pic {
+	display: flex;	
+	align-self: flex-end;
+	max-width: 100%; 
+	height: auto;
+	position: absolute;
+	bottom: 1rem;
+	left: 1rem;
+	z-index: 1;
+}
+.photo-nav p {
+	display: flex;
+	align-self: flex-end;
+	font-size: 1.75em;
+	font-weight: 600;
+	color: black; 
+	position: absolute;
+	bottom: 3rem;
+	left: 11rem; 
+	z-index: 1; 
+}
+.about-nav {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	height: 2.5rem;
+	width: 100%;
+}
+.nav-list {
+	display: inline-flex;
+	flex-wrap: nowrap;	
+	width: 70%; 
+	margin-left: 11.5rem; 
+}
+.nav-list li {
+	display: inline-flex;	
+	flex-wrap: nowrap;
+	width: 100%;	
+}
+.nav-list li button {
+	display: inline-flex;
+	justify-content: center;
+	height: 2.5rem; 
+	background-color: transparent;
+	font-size: 1em; 
+	font-weight: 500; 
+}
+.nav-list li button:last-child {
+	border-right: solid;
+	border-width: thin;
+}
+.nav-list li button:first-child {
+	border-left: solid;
+	border-width: thin; 
+}
+.nav-list li button:hover {
+	background-color: #dfe3ee; 
+	cursor: pointer;
+}
+.edit {
+	display: inline-flex;
+	justify-content: flex-end;
+	flex-wrap: nowrap;
+	width: 30%;
+	margin-right: 1rem; 
+}
+.edit a {
+	display: inline-flex;
+	align-self: center;	
+	flex-wrap: nowrap;
+	font-size: .75em; 
+}
+.sign-up-inputs {/*Flex container column for Sign Up input fields.*/
+	display: flex;
+	flex-wrap: wrap;
+	width: 30%;	 
+}
+.sign-up-form {/*Nested flex container for form fields.*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.sign-up-form h1 {/*'Sign Up' header*/
+	font-size: 2.5em;
+	font-weight: 500;
+	width: 100%;
+	margin-top: 1.5rem;
+}
+.first-name {/*Individual input field styling.*/
+	height: 1.5rem; 
+	width: 10rem;
+	margin-top: 1.5rem;
+	color: grey;
+	border-radius: 5px;
+}
+.last-name {/*Individual input field styling.*/
+	height: 1.5rem;
+	width: 10rem;
+	margin-top: 1.5rem;
+	color: grey;
+	border-radius: 5px;
+}
+.email {/*Individual input field styling.*/
+	height: 1.5rem;
+	width: 100%;
+	margin-top: 1.5rem;
+	color: grey;
+	border-radius: 5px;
+}
+.password {/*Individual input field styling.*/
+	height: 1.5rem;
+	width: 100%;
+	margin-top: 1.5rem;
+	color: grey;
+	border-radius: 5px;
+}
+.confirm {/*Individual input field styling.*/
+	height: 1.5rem;
+	width: 100%;
+	margin-top: 1.5rem;
+	color: grey;
+	border-radius: 5px;
+	border-color: 1px solid #bdc7d8;
+}
+.sign-up-form h2{/*'Birthday' sub-header.*/
+	font-size: 1.5em;
+	font-weight: 500;
+	width: 100%;
+	margin-top: 1.5rem;
+}
+.DOB {/*Flex container for month, day, and year drop-downs.*/
+	display: flex;
+	width: 100%;
+	margin-top: 1.5rem;
+}
+.DOBmonth, .DOBday, .DOByear {/*Styling for individual DOB drop-downs.*/
+	margin-right: 1rem;
+	margin-bottom: 1rem;  
+	height: 1.5rem; 
+	border-radius: 5px;
+}
+.gender {/*Flex container for gender radio buttons.*/
+	display: flex;
+	width: 100%;
+	margin-top: .5rem;
+}
+.male {/*Margin setting for sufficient space to the left of male radio input.*/
+	margin-left: 1.5rem; 	
+}
+.sign-up {/*Styling for green 'Sign Up!' button.*/
+	width: 100%;
+	height: 2.5rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem; 
+	background: linear-gradient(#67ae55, #578843);
+	color: #ffffff;
+	font-size: 1.5em;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.sign-up:hover {/*Hover color-change effect for green 'Sign Up!' button.*/
+	background: #59983b;
+}
+.empty {/*Flex container column with no content; included to maintain spacing consistency with three column header. This column is set to 'display: none' at the 580px @media query because the layout degrades to a single-column style.*/
+	display: flex;
+	width: 10%;
+	margin-right: 2.5rem;
+}
+@media only screen and (max-width: 1108px) {/*@media query for medium browser widths. Maintains three-column style, but elements begin to wrap and shift.*/
+	.header-login {/*Change to 'align-self: center' to maintain sufficient space at top and bottom of header email and password fields as they wrap.*/
+	align-self: center;
+	margin-bottom: 0; 
+	}
+	.header-password {/*Addressed spacing considerations.*/
+	align-self: center;
+	}
+	.login {/*Addressed spacing considerations.*/
+	align-self: center;
+	margin-bottom: 0;
+	}
+	.flex-main {/*Moves body elements closer to header to address changing spacing considerations.*/
+	align-items: flex-start;
+	}
+	.sign-up-blurb {/*Moves 'Connect with all your friends!' closer to the header.*/
+	margin-top: 2rem;
+	}
+	.first-name {/*Allows .first-name field to expand to full width like other input fields as the .last-name field wraps out of the way.*/
+	width: 100%;
+	}
+	.last-name {/*Allows .last-name field to expand to match other fields after wrapping.*/
+	width: 100%;
+	}
+}
+@media only screen and (max-width: 580px) {/*@media query for small browser widths. The three-column style degrades to a centered, single-column style in both header and body.*/ 
+	.sign-in-header {/*Changes header height to adjust automatically to accommodate header elements wrapping into a single column.*/
+	height: auto;
+	}
+	#title {/*Centers 'facelook' logo. Width changes to 100% to force wrapping.*/
+	width: 100%;
+	text-align: center;
+	margin-top: .5rem;
+	margin-bottom: .5rem; 
+	}
+	.header-title {/*Additional spacing adjustments for facelook logo.*/
+	width: 100%;
+	margin-left: 0rem;
+	}
+	.header-login {/*Width to 100% to force wrapping of header email and password elements. Centers and adjusts spacing of same.*/
+	align-self: flex-start;
+	flex-wrap: wrap;
+	justify-content: center;	
+	width: 100%;
+	}
+	.header-email {/*Adjustments to header email element.*/
+	display: flex;
+	flex-wrap: wrap;/*Forces wrapping so the word 'email' stays above the email input field.*/
+	justify-content: center;
+	width: 100%;	
+	margin-bottom: .5rem; 
+	}
+	.header-email p {/*Centers the word 'email'.*/
+	width: 100%; 
+	text-align: center;
+	}
+	.header-password {/*Adjustments to header password element.*/	
+	display: flex;
+	flex-wrap: wrap;/*Forces wrapping so the word 'password' stays above the password input field.*/
+	justify-content: center;
+	width: 100%;
+	margin-bottom: .5rem; 
+	}
+	.header-password p{/*Centers the word 'password'.*/
+	width: 100%;
+	text-align: center;
+	}
+	#login {/*Centers the login button. Width to 100% to force wrapping.*/ 
+	align-self: flex-start;
+	justify-content: center;
+	width: 100%; 
+	margin-right: 0; 
+	margin-bottom: .5rem; 
+	}
+	.sign-up-blurb {/*Width to 100% to force wrapping.*/
+	width: 100%;
+	margin-top: 1rem; 
+	}
+	.sign-up-inputs {/*Width to 100% to force wrapping.*/
+	width: 100%; 
+	justify-content: center;
+	}
+	.sign-up-form {/*Centers Sign Up input fields and adjusts same to appropriate width.*/
+	width: 70%;
+	justify-content: center;
+	}
+	.sign-up-form h1 {/*Centers and adjusts spacing of 'Sign Up'.*/
+	text-align: center;
+	margin-top: 0rem; 
+	}
+	.sign-up-form h2 {/*Centers and adjusts spacing of 'Birthday'.*/
+	text-align: center;
+	}
+	.DOB {/*Centers DOB drop-down fields.*/
+	justify-content: center;
+	}
+	.gender {/*Centers gender radio buttons.*/
+	justify-content: center;
+	}
+	.empty {/*Removes the empty third body column.*/
+	display: none;
+	}
+}
